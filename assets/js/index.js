@@ -307,3 +307,27 @@ menuButton1.addEventListener('click', () => {
   }, 400); // Match with your CSS transition duration
 });
 
+//Overlay Page Menu for Mobile
+
+const menuButtonM = document.getElementById('menu-button-mobile');
+const menuOverlayM = document.querySelector('.menu-page-overlay-mobile');
+
+// Event listener for the main menu button to open overlay
+menuButtonM.addEventListener('click', () => {
+  menuOverlayM.style.visibility = 'visible';
+  menuOverlayM.classList.add('visible');
+});
+// Overlay page menu button to close overlay
+const closeButton = document.getElementById('close-button');
+
+// Event listener for the overlay menu button to close overlay
+closeButton.addEventListener('click', () => {
+  menuOverlayM.classList.remove('visible');
+
+  // Wait for the fade-out transition to complete before hiding
+  setTimeout(() => {
+    menuOverlayM.style.visibility = 'hidden';
+  }, 400); // Match with your CSS transition duration
+});
+
+

@@ -21,8 +21,7 @@ menuButton1.addEventListener('click', () => {
   }, 400); // Match with your CSS transition duration
 });
 
-
-// Define the function separately so we can call it on load as well
+// Scroll indicator update function
 function updateScrollIndicator() {
     const topLine = document.querySelector('.top-line');
     const bottomLine = document.querySelector('.bottom-line');
@@ -38,26 +37,65 @@ function updateScrollIndicator() {
     // Set the max heights for the lines and ball movement range
     const maxLineHeight = 265; // Adjust the max line height as needed
     const minLineHeight = 0; // Minimum line length to maintain a gap
-    const maxBallMovement = indicatorContainer;
 
     // Adjust line heights based on scroll position
     const newTopLineHeight = scrollPercentage * maxLineHeight;
     const newBottomLineHeight = (1 - scrollPercentage) * maxLineHeight;
-
-    // Log values to check if they are being calculated correctly
-    console.log("Scroll Percentage:", scrollPercentage);
-    console.log("Top Line Height:", newTopLineHeight);
-    console.log("Bottom Line Height:", newBottomLineHeight);
 
     // Apply calculated heights to the elements
     topLine.style.height = `${newTopLineHeight}px`;
     bottomLine.style.height = `${newBottomLineHeight}px`;
 
     // Move the ball based on scroll position
-    const ballMovement = scrollPercentage * maxBallMovement;
+    const ballMovement = scrollPercentage * maxLineHeight;
     ball.style.transform = `translateY(${ballMovement}px)`;
-    console.log("Ball Movement:", ballMovement);
 }
 
 // Call the function once to set the initial state
 updateScrollIndicator();
+
+// Pricing calculation variables and settings
+let seatCount = 1; // Initialize with 1 seat
+let isAnnual = false;
+const licensePrices = {
+    Parish: 27.5,
+    School: 30,
+    Diocese: 35,
+};
+
+// Function to update seat count
+function updateSeats(change) {
+    seatCount = Math.max(1, seatCount + change); // Ensure minimum seat count is 1
+    document.getElementById("seats").textContent = seatCount === 1 ? `${seatCount} Seat` : `${seatCount} Seats`;
+    updatePricing();
+}
+
+// Toggle between annual and monthly pricing
+document.getElementById("annualToggle").addEventListener("change", (event) => {
+    isAnnual = event.target.checked;
+    updatePricing();
+});
+
+// Update pricing based on seat count, license type, and billing frequency
+function updatePricing() {
+    const licenseType = document.getElementById("license").value;
+    const basePrice = licensePrices[licenseType];
+    const monthlyPrice = basePrice * seatCount;
+    const annualPrice = monthlyPrice * 12 * 0.9; // Apply 10% discount for annual pricing
+    const annualMonthlyCost = annualPrice / 12; // Monthly cost for annual subscription
+
+    if (isAnnual) {
+        document.getElementById("price").textContent = `$${annualMonthlyCost.toFixed(2)}`;
+        document.getElementById("total").textContent = `$${annualPrice.toFixed(2)} AUD`;
+    } else {
+        document.getElementById("price").textContent = `$${monthlyPrice.toFixed(2)}`;
+        document.getElementById("total").textContent = `$${(monthlyPrice * 12).toFixed(2)} AUD`;
+    }
+}
+
+// Update pricing when license type changes
+document.getElementById("license").addEventListener("change", updatePricing);
+
+// Initial setup
+document.getElementById("seats").textContent = seatCount === 1 ? `${seatCount} Seat` : `${seatCount} Seats`;
+updatePricing();

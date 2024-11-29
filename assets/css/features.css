@@ -1,0 +1,254 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Allows scrolling */
+  overflow-y: scroll; /* Ensure vertical scrolling is enabled */
+}
+
+
+.left-column {
+  width: 7%; /* Adjust the width of the left column */
+  background-color: white;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to the top */
+  padding-top: 10px; /* Add some space from the top */
+  border-right: 1.7px solid rgb(0, 0, 0);
+  height: 220vh; /* Full height */
+  align-content: center;
+  z-index: 999;
+}
+
+.left-column-logo {
+  color: black;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+  .left-column-logo {
+    color: black;
+    width: 74%;
+    height: 80%;
+    position: absolute;
+    left: 1%;
+  }
+}
+
+
+.top-line, .bottom-line {
+  width: 2px;
+  height: 0;
+  background-color: black;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+  left: -42%;
+  position: relative;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%);
+  height: 300px; /* Adjust this to the desired height of the scroll indicator */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout {
+  display: flex;
+  height: 100%;
+}
+/* Main Content */
+.main-content {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.background {
+  position: fixed;
+  background: linear-gradient(to top, #ffffff, #CDCDCD);
+  height: 100vh;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1; /* Take up the remaining space */
+  position: relative;
+}
+
+/* Header */
+header {
+  position: fixed; /* Make the header overlap the hero section */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure header stretches across the screen */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+  background-color: transparent; /* Slight transparency for effect */
+  z-index: 10; /* Make sure the header is on top of the hero image */
+}
+/* Styling for the top text section */
+.top-text {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 5%;
+  top: 5rem; /* Adjust this for vertical spacing */
+  left: 48.8%;
+  width: 70%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 10;
+}
+
+.features-button {
+  display: inline-block;
+  background-color: transparent;
+  color: black; /* Adjust the colour */
+  border: 2px solid #a33333;
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  border-radius: 50px;
+  cursor: default;
+  margin-bottom: 0.5rem;
+  width: 15%;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: 550;
+  display: inline-block;
+  color: #333;
+  margin: 0;
+  padding: 0.7rem 0 0 0;
+}
+
+.nav {
+  padding-right: 1%;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 45%;
+    height: 30%;
+  }
+}
+.logo-container {
+  width: 1.7%;
+  height: 80px;
+  position: fixed;
+  transform: scaleX(300%);
+  bottom: 4%;
+}
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Take up full width */
+  padding-top: 0;
+  position: fixed;
+  top: 3%;
+}
+.grid-icon {
+  display: grid;
+  grid-template-columns: repeat(3, 8px); /* 3 columns with smaller dots */
+  grid-template-rows: repeat(3, 8px);    /* 3 rows with smaller dots */
+  grid-gap: 3px; /* Reduce the gap between the dots */
+}
+
+.grid-icon .dot {
+  width: 8px; /* Smaller dot size */
+  height: 8px; /* Smaller dot size */
+  background-color: black;
+  border-radius: 50%;
+}
+
+nav .login-btn {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.login-btn {
+  width: 10vw !important;
+}
+
+@media (max-width: 500px) {
+  .login-btn {
+    font-size: 0.8rem;
+    width: 100% !important;
+  }
+}
+.mobile-menu {
+  display: none;
+}
+
+
+/* Features Section */
+.features {
+  position: relative;
+  width: 100%;
+  height: 200vh; /* Make the section scrollable */
+}
+
+/* Feature Cards */
+.card {
+  position: fixed; /* Stay in one spot */
+  display: flex;
+  flex-direction: row;
+  top: 24%; /* Vertically center */
+  left: 53%; /* Horizontally center */
+  transform: translate(-50%, 0%); /* Perfect centering */
+  width: 75%;
+  height: 75%;
+  padding: 2rem;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0; /* Start invisible */
+  pointer-events: none;
+}
+
+.card h2 {
+  font-size: 2rem;
+  color: #a44;
+  margin: 1rem 0;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+}
