@@ -113,3 +113,25 @@ gsap.from(".top-text", {
   ease: "power2.out",
 });
 
+// Main page menu button
+const menuButton = document.getElementById('menu-button');
+const menuOverlay = document.querySelector('.menu-page-overlay');
+
+// Event listener for the main menu button to open overlay
+menuButton.addEventListener('click', () => {
+  menuOverlay.style.visibility = 'visible';
+  menuOverlay.classList.add('visible');
+});
+
+// Overlay page menu button to close overlay
+const menuButton1 = document.getElementById('menu-button1');
+
+// Event listener for the overlay menu button to close overlay
+menuButton1.addEventListener('click', () => {
+  menuOverlay.classList.remove('visible');
+
+  // Wait for the fade-out transition to complete before hiding
+  setTimeout(() => {
+    menuOverlay.style.visibility = 'hidden';
+  }, 400); // Match with your CSS transition duration
+});

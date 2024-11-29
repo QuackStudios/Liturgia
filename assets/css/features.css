@@ -222,33 +222,374 @@ nav .login-btn {
   position: fixed; /* Stay in one spot */
   display: flex;
   flex-direction: row;
-  top: 24%; /* Vertically center */
+  top: 20%; /* Vertically center */
   left: 53%; /* Horizontally center */
   transform: translate(-50%, 0%); /* Perfect centering */
   width: 75%;
   height: 75%;
   padding: 2rem;
   background: white;
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
   text-align: center;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   opacity: 0; /* Start invisible */
   pointer-events: none;
 }
 
-.card h2 {
-  font-size: 2rem;
-  color: #a44;
+.feature-text-1 h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 690;
+  color: #333;
+}
+.feature-text-1 h2 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #d2a85b, #e0321f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   margin: 1rem 0;
+  text-align: start;
 }
 
-.card p {
+.feature-text-1 p {
   font-size: 1.2rem;
   line-height: 1.5;
   color: #333;
+  text-align: start;
 }
 
 /* Button Styles */
 button {
   cursor: pointer;
+}
+
+.feature-image-1 {
+  width: 80%;
+  height: 90%;
+  padding: 5% 0 5% 3%;
+  position: relative;
+  top: -4%;
+}
+
+.feature-text-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  padding: 0 3% 0 5%;
+}
+
+.feature-text-2 h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 690;
+  color: #333;
+}
+.feature-text-2 h2 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #d2a85b, #e0321f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 1rem 0;
+  text-align: start;
+}
+
+.feature-text-2 p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: start;
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+}
+
+.feature-image-2 {
+  width: 80%;
+  height: 90%;
+  padding: 5% 0 5% 3%;
+  position: relative;
+  top: -4%;
+}
+
+.feature-text-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  padding: 0 3% 0 5%;
+}
+.feature-text-3 h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 690;
+  color: #333;
+}
+.feature-text-3 h2 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #d2a85b, #e0321f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 1rem 0;
+  text-align: start;
+}
+
+.feature-text-3 p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: start;
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+}
+
+.feature-image-3 {
+  width: 80%;
+  height: 90%;
+  padding: 5% 0 5% 3%;
+  position: relative;
+  top: -4%;
+}
+
+.feature-text-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  padding: 0 3% 0 5%;
+}
+
+.feature-text-4 h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 690;
+  color: #333;
+}
+.feature-text-4 h2 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #d2a85b, #e0321f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 1rem 0;
+  text-align: start;
+}
+
+.feature-text-4 p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: start;
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+}
+
+.feature-image-4 {
+  width: 80%;
+  height: 90%;
+  padding: 5% 0 5% 3%;
+  position: relative;
+  top: -4%;
+}
+
+.feature-text-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  padding: 0 3% 0 5%;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.menu-page-overlay {
+  position: fixed; /* Make it overlay */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex; /* Change to block or flex as needed */
+  background: linear-gradient(to top, #CDCDCD, #ffffff);
+  z-index: 1000; /* Ensure it appears above other content */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.visible {
+opacity: 1;
+visibility: visible;
+}
+
+.menu-page {
+position: relative;
+display: flex;
+height: 100vh;
+background: linear-gradient(to top, #CDCDCD, #ffffff);
+width: 100%;
+}
+.left-column1 {
+width: 6.75%; /* Adjust the width of the left column */
+background-color: white;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: flex-start; /* Align to the top */
+padding-top: 10px; /* Add some space from the top */
+border-right: 1.7px solid rgb(0, 0, 0);
+height: 500vh; /* Full height */
+align-content: center;
+z-index: 999;
+}
+#menu-button {
+cursor: pointer;
+}
+#menu-button1 {
+cursor: pointer;
+}
+.menu-container {
+display: flex;
+flex-direction: column;
+background-color: #F2F2F2;
+color: black;
+width: 70%;
+height: 90%;
+border-radius: 50px;
+transform: translate(10%, 5%);
+text-align: start;
+justify-content: space-evenly;
+}
+
+.menu-left-container {
+background-color: inherit;
+width: 40%;
+height: 100%;
+border-radius: 50px;
+}
+
+.overlay-heading {
+font-size: 20px;
+font-weight: lighter;
+padding: 10% 0 0 10%;
+}
+.overlay-heading h2 {
+font-weight: lighter;
+}
+.menu-items {
+padding: 120px 0 0 0;
+}
+
+.menu-items p {
+margin: 15px 0 15px 10%;
+border-bottom: 1px solid #000;
+padding: 0 0 5px 5%;
+width: 80%;
+font-size: 30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: normal;
+}
+
+.get-started {
+margin-top: 20px;
+text-align: start;
+padding: 10px 20px;
+margin: 10%;
+border-radius: 16px;
+width: 80%;
+height: 7%;
+background-color: #000;
+color: #fff;
+border: none;
+font-size: 24px;
+font-weight: 50;
+cursor: pointer;
+}
+
+.visit-links {
+padding: 0 0 10% 10%;
+margin-top: 30px;
+font-size: 14px;
+color: black;
+}
+
+.visit-links p span {
+color: #d9534f;
+font-weight: bold;
+}
+
+.menu-images {
+width: 50%;
+padding: 3% 20px 20px 20px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.menu-image {
+width: 100%;
+border-radius: 20px;
+object-fit: cover;
+height: 48%;
+transform: translate(-0%, 0);
+}
+
+.image-cards {
+display: flex;
+gap: 25px;
+height: 45%;
+bottom: 4%;
+position: relative;
+border-radius: 50%;
+}
+
+.menu-card {
+  flex: 1;
+  background-color: #f7f7f7;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 20px !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; /* Ensure content stays within the card */
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure the image covers the entire card */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.menu-card p {
+  position: relative;
+  z-index: 2; /* Ensure the text appears above the image */
+  color: #333; /* Adjust color for visibility */
+  margin: 0;
+  padding: 0 0 20% 15%;
+  font-size: 30px;
 }
