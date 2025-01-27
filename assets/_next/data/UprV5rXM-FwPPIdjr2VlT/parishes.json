@@ -1,0 +1,3550 @@
+{
+  "pageProps": {
+    "data": {
+      "entry": {
+        "__typename": "pages_default_Entry",
+        "siteId": 1,
+        "id": "1607",
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "slug": "parishes",
+        "uri": "parishes",
+        "title": "parishes",
+        "level": 2,
+        "typeHandle": "default",
+        "sectionHandle": "pages",
+        "whiteFooter": false,
+        "footerTitle": null,
+        "footerButton": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "type": "",
+          "href": null,
+          "title": null
+        }
+      }
+    },
+    "currentSite": {
+      "siteId": 1,
+      "locale": "en",
+      "domain": "127.0.0.1:5500",
+      "url": "/",
+      "fullUrl": "http://127.0.0.1:5500/",
+      "handle": "default",
+      "name": "Global / English",
+      "primary": true,
+      "groupId": 1,
+      "paths": {
+        "accessories": {
+          "name": "Index",
+          "url": "/",
+          "theme": "light",
+          "cms": {
+            "section": "accessories",
+            "types": ["default"],
+            "fields": "\n        id\n        uid\n        siteId\n        slug\n        uri\n        title\n        url\n        typeHandle\n        sectionHandle\n        ... on accessories_default_Entry {\n          accessoryCategory {\n            id\n            uid\n            siteId\n            title\n          }\n          description: text\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          mediaItems {\n            ... on mediaItems_items_BlockType {\n              id\n              uid\n              siteId\n              \n    mediaElement {\n      ... on mediaElement_vimeo_BlockType {\n        id\n        uid\n        siteId\n        sdVideo\n        typeHandle\n        hdVideo\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n          ... on uploads_Asset {\n            altTranslation: plainText2\n          }\n        }\n      }\n      ... on mediaElement_asset_BlockType {\n        id\n        uid\n        siteId\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n          ... on uploads_Asset {\n            altTranslation: plainText2\n          }\n        }\n        asset {\n          embeddedAsset {\n            title\n            description\n            url\n            type\n            image\n            width\n            height\n            aspectRatio\n            providerName\n            href: url\n          }\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          url(width: 100)\n          primaryUrl: url\n          alt\n          ... on uploads_Asset {\n            text\n            plainText\n            altTranslation: plainText2\n          }\n        }\n      }\n    }\n  \n            }\n          }\n          accordion {\n            ... on accordion_accordionItem_BlockType {\n              id\n              uid\n              siteId\n              title: moduleTitle\n              text: text3\n            }\n          }\n        }\n      ",
+            "cache": []
+          }
+        },
+        "home": {
+          "name": "Index",
+          "url": "/",
+          "theme": "light",
+          "cms": {
+            "section": "home",
+            "types": ["home"],
+            "fields": "\n        id\n        uid\n        siteId\n        slug\n        uri\n        title\n        url\n        typeHandle\n        sectionHandle\n        ... on home_home_Entry {\n          whiteFooter: lightswitch\n          footerTitle: plainText\n          footerButton: button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      ",
+            "cache": []
+          }
+        },
+        "knowledgeHub": {
+          "name": "Index",
+          "url": "/",
+          "theme": "light",
+          "cms": {
+            "section": "knowledgeHub",
+            "types": ["default"],
+            "fields": "\n        id\n        uid\n        siteId\n        slug\n        uri\n        title\n        url\n        typeHandle\n        sectionHandle\n        ... on knowledgeHub_legacy_Entry {\n          content: text3\n        }\n      ",
+            "cache": []
+          }
+        },
+        "notFound": {
+          "name": "404",
+          "url": "/404",
+          "theme": "light",
+          "cms": {
+            "section": "notFound",
+            "types": ["notFound"],
+            "fields": "\n        id\n        siteId\n        uid\n        title\n        url\n        typeHandle\n        sectionHandle\n      ",
+            "cache": []
+          }
+        },
+        "pages": {
+          "name": "Pages",
+          "url": "/[...slug]",
+          "theme": "light",
+          "cms": {
+            "section": "pages",
+            "types": ["default"],
+            "fields": "\n        id\n        uid\n        siteId\n        slug\n        uri\n        title\n        level\n        typeHandle\n        sectionHandle\n        ... on pages_default_Entry {\n          whiteFooter: lightswitch\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n        ... on pages_list_Entry {\n          listType\n          level\n          url\n          guideContent: text3\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n        ... on pages_simple_Entry {\n          ancestors {\n            id\n            uid\n            siteId\n            level\n            title\n            typeHandle\n            url\n          }\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          text\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          secondaryButton: button2 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n        ... on pages_irPages_Entry {\n          text\n          ancestors {\n            id\n            uid\n            siteId\n            level\n            title\n            typeHandle\n            url\n          }\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          secondaryButton: button2 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      ",
+            "cache": []
+          }
+        },
+        "search": {
+          "name": "Index",
+          "url": "/[...slug]",
+          "theme": "light",
+          "cms": {
+            "section": "search",
+            "types": ["search"],
+            "fields": "\n        id\n        uid\n        siteId\n        slug\n        title\n        url\n        typeHandle\n        sectionHandle\n      ",
+            "cache": []
+          }
+        }
+      }
+    },
+    "messages": {
+      "common": {
+        "cookieBanner": {
+          "popupTitle": "Your data, your choice",
+          "text": "This website uses cookies to tailer content and provide a better user experience with the help of statistics and web analysis.",
+          "acceptSelection": "Accept selection",
+          "acceptAll": "Accept all",
+          "accept": "Accept",
+          "title": "Welcome",
+          "manageSettings": "Manage settings",
+          "readMore": "Read more about what this means",
+          "option": {
+            "necessary": "Necessary",
+            "statistics": "Statistics",
+            "targeting": "Targeting"
+          }
+        },
+        "pastEvents": "Past events",
+        "podcasts": {
+          "consentMessage": "You have to allow third party cookies, to listen to this podcast.",
+          "allowCookies": "Allow cookies"
+        },
+        "video": {
+          "consentMessage": "This video requires cookies to be enabled. You can consent to targeting cookies here:",
+          "allowCookies": "Allow cookies"
+        },
+        "button": {
+          "openMenu": "Open menu",
+          "closeMenu": "Close menu",
+          "readMore": "Read more",
+          "changeCookies": "Change settings",
+          "showMore": "Show more",
+          "showLess": "Show less",
+          "open": "Open",
+          "close": "Close",
+          "seeAll": "See all"
+        },
+        "header": { "logoTitle": "Go to homepage" },
+        "socials": { "followUs": "Follow us" },
+        "timestamp": { "published": "Published" },
+        "breadcrumb": { "home": "Home" },
+        "validation": {
+          "required": "This field is required",
+          "email": "Please enter a valid email address",
+          "terms": "You must accept the terms and conditions",
+          "maxFileSize": "File size must be less than 10MB",
+          "png": "File must be a .png"
+        },
+        "email": "Email",
+        "newsletter": {
+          "success": "Thank you for subscribing to our newsletter!",
+          "error": "Something went wrong. Please try again later.",
+          "send": "Subscribe"
+        },
+        "news": { "title": "News", "latestNews": "Latest news" },
+        "media": "Media",
+        "noResults": "No results",
+        "add_to_calendar": "Add to calendar",
+        "form": {
+          "name": "Name",
+          "email": "Email",
+          "company": "Company",
+          "terms": "I agree to the <ppLink>terms and conditions</ppLink>",
+          "submit": "Submit",
+          "uploadLogo": "Upload logo",
+          "dragAndDrop": "Drag and drop your file here or",
+          "chooseFile": "choose file",
+          "mustBePng": "File must be a .png",
+          "remove": "Remove",
+          "error": "Something went wrong. Please try again later.",
+          "required": "This field is required",
+          "invalidEmail": "Please enter a valid email address",
+          "invalidPhone": "Please enter a valid phone number",
+          "number": "Please enter a valid number",
+          "maxLength": "Please enter no more than {maxLength} characters",
+          "oneOf": "Please pick a value from the list",
+          "valueError": "Please enter a valid value",
+          "fileCount": "Please upload {fileCount} files",
+          "fileSize": "File size must be less than {maxFileSizeKB}KB",
+          "fileKinds": "File must be a {fileKinds}",
+          "minValue": "Please enter a value greater than or equal to {minValue}",
+          "maxValue": "Please enter a value less than or equal to {maxValue}",
+          "allowNegative": "Please enter a positive value",
+          "sameAs": "Please enter the same value as in {targetField}",
+          "previous": "Previous",
+          "next": "Next",
+          "fileRejected": "File rejected",
+          "selectedFiles": "Selected files"
+        },
+        "categories": "Categories",
+        "selectCategory": "Select category",
+        "search": {
+          "input": "Search for...",
+          "button": "Search",
+          "filterResults": "Filter results",
+          "noResults": "No results found",
+          "showMore": "Show more",
+          "all": "All",
+          "section": {
+            "Info hub": "Info hub",
+            "Pages": "Pages",
+            "Accessories": "Accessories",
+            "Home": "Home"
+          },
+          "results": "{count} results for <query></query>",
+          "allResults": "No query entered"
+        },
+        "logIn": "Log in",
+        "changeLanguage": "Change language",
+        "positionInCompany": "{position} at {company}",
+        "all": "All",
+        "scrollDown": "Scroll down",
+        "filterByCharger": "Filter by charger",
+        "cableGuide": "Charging cable guide",
+        "close": "Close",
+        "home": "Home",
+        "contactUs": "Contact us",
+        "backToTop": "Back to top",
+        "country": "Country",
+        "tags": "Tags",
+        "date": "Date",
+        "share": "Share",
+        "related": "Related",
+        "showLess": "Show less",
+        "showMore": "Show {count} more",
+        "findIR": "Find what you’re looking for",
+        "searchInstaller": "Search for installer",
+        "useLocation": "Use my location",
+        "results": "results",
+        "searchLocationPlaceholder": "Search for a location",
+        "next": "Next",
+        "back": "Back",
+        "wholesale": "Wholesale",
+        "byInstaller": "By installer",
+        "choose": "Choose",
+        "get {charger}": "Get {charger}",
+        "dragRotate": "Drag to rotate",
+        "continue": "Continue",
+        "proceedToLanguage": "Do you wish to proceed to the {lang} site?",
+        "photoBy": "Photo by",
+        "readTime": "Read time",
+        "minutes": "minutes",
+        "cookieConsent": {
+          "codeBlockConsent": "This content requires cookies to be enabled.",
+          "renewConsent": "Renew consent"
+        }
+      }
+    },
+    "locale": "en",
+    "currentRoute": {
+      "name": "Pages",
+      "url": "/[...slug]",
+      "theme": "light",
+      "cms": {
+        "section": "pages",
+        "types": ["default"],
+        "fields": "\n        id\n        uid\n        siteId\n        slug\n        uri\n        title\n        level\n        typeHandle\n        sectionHandle\n        ... on pages_default_Entry {\n          whiteFooter: lightswitch\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n        ... on pages_list_Entry {\n          listType\n          level\n          url\n          guideContent: text3\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n        ... on pages_simple_Entry {\n          ancestors {\n            id\n            uid\n            siteId\n            level\n            title\n            typeHandle\n            url\n          }\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          text\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          secondaryButton: button2 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n        ... on pages_irPages_Entry {\n          text\n          ancestors {\n            id\n            uid\n            siteId\n            level\n            title\n            typeHandle\n            url\n          }\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          secondaryButton: button2 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          footerTitle: plainText\n          footerButton: button3 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      ",
+        "cache": []
+      }
+    },
+    "apolloState": {
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":1,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "siteId": 1,
+        "sectionHandle": "pages",
+        "typeHandle": "default",
+        "uri": "parishes",
+        "lightswitch2": false,
+        "slug": "parishes",
+        "title": "parishes",
+        "level": 2,
+        "lightswitch": false,
+        "plainText": null,
+        "button3": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "type": "",
+          "url": null,
+          "title": null
+        },
+        "localized": [
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":2,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":3,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":4,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":5,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":6,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":7,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":8,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":9,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":10,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":11,\"id\":\"1607\"}"
+          },
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":12,\"id\":\"1607\"}"
+          }
+        ],
+        "ancestors": [
+          {
+            "__ref": "pages_default_Entry:{\"uid\":\"0b69eabb-3765-4209-b6d2-61512d0f664c\",\"siteId\":1,\"id\":\"53\"}"
+          }
+        ],
+        "lightswitch3": false,
+        "lightswitch4": false,
+        "lightswitch6": true,
+        "text": "<p>Clean in design and clever in function – our award-winning home charger simplifies your charging experience.</p>",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "type": "entry",
+          "url": null,
+          "title": null
+        },
+        "button2": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "type": "",
+          "url": null,
+          "title": null
+        },
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_vimeo_BlockType:{\"uid\":\"6588e159-f965-4812-ab11-27fb91510c55\",\"siteId\":1,\"id\":\"422922\"}"
+          }
+        ],
+        "heroColumns": [
+          {
+            "__ref": "heroColumns_column_BlockType:{\"uid\":\"d4b410bc-970d-49a0-aa38-0720b4472cb1\",\"siteId\":1,\"id\":\"109026\"}"
+          },
+          {
+            "__ref": "heroColumns_column_BlockType:{\"uid\":\"cd62bf56-2094-43a1-a20d-bdae898bf473\",\"siteId\":1,\"id\":\"1660\"}"
+          },
+          {
+            "__ref": "heroColumns_column_BlockType:{\"uid\":\"acb0db4a-f63c-462b-bb3e-55f3698ad1ef\",\"siteId\":1,\"id\":\"1661\"}"
+          }
+        ],
+        "modules({\"level\":1})": [
+          {
+            "__ref": "modules_simpleCta_BlockType:{\"uid\":\"61949cdb-7809-437e-83fd-fdb89e02a7c6\",\"siteId\":1,\"id\":\"2929\"}"
+          },
+          {
+            "__ref": "modules_accordionList_BlockType:{\"uid\":\"0fb2b836-1e77-4b41-a4bc-149d203a835e\",\"siteId\":1,\"id\":\"7951\"}"
+          },
+          {
+            "__ref": "modules_threeProducts_BlockType:{\"uid\":\"d07a1d96-b4fb-4a9d-8e1f-f8e83bf51ae5\",\"siteId\":1,\"id\":\"2931\"}"
+          },
+          {
+            "__ref": "modules_textAndMedia_BlockType:{\"uid\":\"bf27f9b2-ca80-4ad2-8552-0ba827f59050\",\"siteId\":1,\"id\":\"2946\"}"
+          },
+          {
+            "__ref": "modules_ctaS_BlockType:{\"uid\":\"e40b6d62-f0a2-4949-b3bc-8f90e02188e9\",\"siteId\":1,\"id\":\"954049\"}"
+          },
+          {
+            "__ref": "modules_accessories_BlockType:{\"uid\":\"9b97fc56-2e56-4b92-8c65-431858809fa1\",\"siteId\":1,\"id\":\"5540\"}"
+          }
+        ],
+        "modules({\"level\":1,\"uid\":\"61949cdb-7809-437e-83fd-fdb89e02a7c6\"})": [
+          {
+            "__ref": "modules_simpleCta_BlockType:{\"uid\":\"61949cdb-7809-437e-83fd-fdb89e02a7c6\",\"siteId\":1,\"id\":\"2929\"}"
+          }
+        ],
+        "modules({\"level\":1,\"uid\":\"0fb2b836-1e77-4b41-a4bc-149d203a835e\"})": [
+          {
+            "__ref": "modules_accordionList_BlockType:{\"uid\":\"0fb2b836-1e77-4b41-a4bc-149d203a835e\",\"siteId\":1,\"id\":\"7951\"}"
+          }
+        ],
+        "modules({\"level\":1,\"uid\":\"d07a1d96-b4fb-4a9d-8e1f-f8e83bf51ae5\"})": [
+          {
+            "__ref": "modules_threeProducts_BlockType:{\"uid\":\"d07a1d96-b4fb-4a9d-8e1f-f8e83bf51ae5\",\"siteId\":1,\"id\":\"2931\"}"
+          }
+        ],
+        "modules({\"level\":1,\"uid\":\"bf27f9b2-ca80-4ad2-8552-0ba827f59050\"})": [
+          {
+            "__ref": "modules_textAndMedia_BlockType:{\"uid\":\"bf27f9b2-ca80-4ad2-8552-0ba827f59050\",\"siteId\":1,\"id\":\"2946\"}"
+          }
+        ],
+        "modules({\"level\":1,\"uid\":\"e40b6d62-f0a2-4949-b3bc-8f90e02188e9\"})": [
+          {
+            "__ref": "modules_ctaS_BlockType:{\"uid\":\"e40b6d62-f0a2-4949-b3bc-8f90e02188e9\",\"siteId\":1,\"id\":\"954049\"}"
+          }
+        ],
+        "modules({\"level\":1,\"uid\":\"9b97fc56-2e56-4b92-8c65-431858809fa1\"})": [
+          {
+            "__ref": "modules_accessories_BlockType:{\"uid\":\"9b97fc56-2e56-4b92-8c65-431858809fa1\",\"siteId\":1,\"id\":\"5540\"}"
+          }
+        ]
+      },
+      "ROOT_QUERY": {
+        "__typename": "Query",
+        "entry({\"siteId\":1,\"uri\":\"parishes\"})": {
+          "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":1,\"id\":\"1607\"}"
+        },
+        "entry({\"section\":\"pages\",\"siteId\":1,\"uri\":\"parishes\"})": {
+          "__ref": "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":1,\"id\":\"1607\"}"
+        },
+        "globalSet({\"handle\":\"menuSettings\",\"siteId\":1})": {
+          "__ref": "menuSettings_GlobalSet:{\"uid\":\"0c6df58d-5aee-44d6-b754-d104a8c9b64f\",\"siteId\":1,\"id\":\"20726\"}"
+        },
+        "entries({\"level\":1,\"section\":\"mainMenu\",\"siteId\":1})": [
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"b6112305-2cde-40dd-a909-b6ec32da259c\",\"siteId\":1,\"id\":\"1008639\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"e88b213d-a4b1-4036-a2e8-b28a3f4611eb\",\"siteId\":1,\"id\":\"20674\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"2e46c67e-5f7b-4583-a070-baa9c032d371\",\"siteId\":1,\"id\":\"20684\"}"
+          },
+          {
+            "__ref": "mainMenu_secondaryLink_Entry:{\"uid\":\"b52ccb22-4cf2-4a3c-890f-559d1139f48f\",\"siteId\":1,\"id\":\"20682\"}"
+          },
+          {
+            "__ref": "mainMenu_secondaryLink_Entry:{\"uid\":\"c5be0a66-94d6-46a8-aab4-cd3cb634b3db\",\"siteId\":1,\"id\":\"624381\"}"
+          }
+        ],
+        "entries({\"level\":1,\"section\":\"secondaryMenu\",\"siteId\":1})": [
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"8349c120-87a9-45db-a9d9-33d53de0253e\",\"siteId\":1,\"id\":\"20645\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"6589318f-2a84-4c43-b5e2-6b3de9c55568\",\"siteId\":1,\"id\":\"574926\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"cf77d794-0aac-476e-bd19-2d36fa641858\",\"siteId\":1,\"id\":\"1008611\"}"
+          }
+        ],
+        "entry({\"section\":\"search\",\"siteId\":1})": {
+          "__ref": "search_search_Entry:{\"uid\":\"f1974efa-f4b9-44dc-93f8-b47ede5c6f14\",\"siteId\":1,\"id\":\"39\"}"
+        },
+        "entries({\"level\":1,\"section\":\"footerMenu\",\"siteId\":1})": [
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"e817d0b8-d146-482f-a22a-c9321c7cbece\",\"siteId\":1,\"id\":\"20729\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"ee2d54e4-33b8-4de0-8eb2-bbac018a2add\",\"siteId\":1,\"id\":\"20731\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"b71c993a-02cd-43a9-889c-9dc7b0dfd778\",\"siteId\":1,\"id\":\"20733\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"b0e310f8-8d75-4582-8047-52743ae3cea3\",\"siteId\":1,\"id\":\"594094\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"99d32ce6-5d76-4d5c-ad7d-1061316c5615\",\"siteId\":1,\"id\":\"969955\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"dfba2d19-da22-4f3e-8ae1-7f4dc507f333\",\"siteId\":1,\"id\":\"991126\"}"
+          },
+          {
+            "__ref": "footerMenu_default_Entry:{\"uid\":\"61c74074-ebb3-43d1-b6fd-6b980a5fa9d0\",\"siteId\":1,\"id\":\"1008505\"}"
+          }
+        ],
+        "globalSet({\"handle\":\"footer\",\"siteId\":1})": {
+          "__ref": "footer_GlobalSet:{\"uid\":\"b4dc18dd-e0a1-42c5-a2de-6da3fd1b55a5\",\"siteId\":1,\"id\":\"37\"}"
+        },
+        "categories({\"group\":\"regions\",\"siteId\":1})": [
+          {
+            "__ref": "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"7c7f2994-90b9-4621-aaab-671b5f29df9c\",\"siteId\":1,\"id\":\"50127\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"14263b17-0ae4-4e05-bc5a-c69912497843\",\"siteId\":1,\"id\":\"50129\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"36e67b37-bdd0-4afa-bdc8-ba5cc5c4884e\",\"siteId\":1,\"id\":\"50130\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"63a00abc-2036-472e-82f8-1bd027d3fb33\",\"siteId\":1,\"id\":\"50132\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"83086469-eec9-4e0c-9400-c031ed02ff7d\",\"siteId\":1,\"id\":\"50134\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"58381e66-9a1d-451d-ab42-61f1604ac336\",\"siteId\":1,\"id\":\"904860\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"5584709f-eb5c-4fd1-82b9-593309d5bc59\",\"siteId\":1,\"id\":\"913571\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"7c638ff4-a7c5-4349-a691-f6e1abe7d401\",\"siteId\":1,\"id\":\"967955\"}"
+          },
+          {
+            "__ref": "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}"
+          }
+        ],
+        "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"parishes\"})": {
+          "__typename": "SeomaticType",
+          "metaTitleContainer": "{\"title\":{\"title\":\"parishes | Liturgia\"}}",
+          "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"parishes\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"parishes\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/127.0.0.1:5500\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"parishes\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/127.0.0.1:5500\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+          "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/127.0.0.1:5500\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/127.0.0.1:5500\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/127.0.0.1:5500\\/nl\\/laadoplossingen\\/parishes\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/fr\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/en-uk\\/charging-solutions\\/parishes\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/de\\/ladeloesungen\\/parishes\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/da\\/ladeloesninger\\/parishes\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/sv\\/laddningslosningar\\/parishes\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/no\\/ladelosninger\\/parishes\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/fr-ch\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/de-ch\\/ladeloesungen\\/parishes\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/fr-be\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/nl-be\\/laadoplossingen\\/parishes\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
+          "metaScriptContainer": "{\"googleTagManager\":{\"script\":\"dataLayer = [];\\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\\n'https:\\/\\/www.googletagmanager.com\\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n})(window,document,'script','dataLayer','GTM-NXM58Z5J');\\n\",\"bodyScript\":\"<noscript><iframe src=\\\"https:\\/\\/www.googletagmanager.com\\/ns.html?id=GTM-NXM58Z5J\\\"\\nheight=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"><\\/iframe><\\/noscript>\\n\"}}",
+          "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2023-10-12T14:51:51+02:00\",\"dateModified\":\"2025-01-16T13:24:35+01:00\",\"datePublished\":\"2023-10-12T15:22:00+02:00\",\"description\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"headline\":\"parishes\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/127.0.0.1:5500\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"name\":\"parishes\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/127.0.0.1:5500\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/127.0.0.1:5500\\/products\",\"name\":\"Products\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"name\":\"parishes\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
+          "metaSiteVarsContainer": "{\"siteName\":\"parishes\",\"siteAlternateName\":\"\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"\",\"genericAlternateName\":\"\",\"genericDescription\":\"\",\"genericUrl\":\"\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"\",\"genericEmail\":\"\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Good Morning\",\"genericAlternateName\":\"\",\"genericDescription\":\"Digital first studio in Oslo – We design and build digital products.\",\"genericUrl\":\"https:\\/\\/www.goodmorning.no\\/\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"+47 932 83 071\",\"genericEmail\":\"eirik@goodmorning.no\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
+        },
+        "entry({\"level\":1,\"listType\":\"accessories\",\"section\":\"pages\",\"siteId\":1,\"type\":\"list\"})": null,
+        "entries({\"limit\":6,\"relatedTo\":[\"5441\"],\"section\":\"accessories\",\"siteId\":1})": [
+          {
+            "__ref": "accessories_default_Entry:{\"uid\":\"d490595d-fe08-47de-bf13-e15438ceb9dd\",\"siteId\":1,\"id\":\"8188\"}"
+          },
+          {
+            "__ref": "accessories_default_Entry:{\"uid\":\"5191687f-0ea0-406f-a7c7-e18e584fafd4\",\"siteId\":1,\"id\":\"8497\"}"
+          },
+          {
+            "__ref": "accessories_default_Entry:{\"uid\":\"dea11c56-a92b-4368-92c4-aad10b31ffb8\",\"siteId\":1,\"id\":\"8325\"}"
+          },
+          {
+            "__ref": "accessories_default_Entry:{\"uid\":\"5ead991e-33e6-499f-a1b6-a3bba886f157\",\"siteId\":1,\"id\":\"8525\"}"
+          },
+          {
+            "__ref": "accessories_default_Entry:{\"uid\":\"ed7e36ed-19a1-4d8f-9ca1-93d4340ac5c6\",\"siteId\":1,\"id\":\"8311\"}"
+          },
+          {
+            "__ref": "accessories_default_Entry:{\"uid\":\"afe3a072-767e-4145-a8a4-eaccb0d2ad7f\",\"siteId\":1,\"id\":\"8511\"}"
+          }
+        ]
+      },
+      "menuSettings_GlobalSet:{\"uid\":\"0c6df58d-5aee-44d6-b754-d104a8c9b64f\",\"siteId\":1,\"id\":\"20726\"}": {
+        "__typename": "menuSettings_GlobalSet",
+        "id": "20726",
+        "uid": "0c6df58d-5aee-44d6-b754-d104a8c9b64f",
+        "siteId": 1,
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Get Liturgia",
+          "type": "custom",
+          "url": "#get-zaptec",
+          "title": null
+        },
+        "menuBlocks": [
+          {
+            "__ref": "menuBlocks_menuBlock_BlockType:{\"uid\":\"630219e7-8900-468b-a9d0-e959b04e0ece\",\"siteId\":1,\"id\":\"90735\"}"
+          },
+          {
+            "__ref": "menuBlocks_menuBlock_BlockType:{\"uid\":\"a20034ef-d8f9-4792-8c79-6983b3202548\",\"siteId\":1,\"id\":\"90736\"}"
+          }
+        ]
+      },
+      "mainMenu_default_Entry:{\"uid\":\"2289f9a5-0b33-402b-b35f-488756461b1e\",\"siteId\":1,\"id\":\"20696\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "2289f9a5-0b33-402b-b35f-488756461b1e",
+        "id": "20696",
+        "siteId": 1,
+        "title": "Features",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Features",
+          "title": "Features",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/features.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "6e0eaf91-04a8-40ef-aa00-ec60045dde53",
+        "id": "20694",
+        "siteId": 1,
+        "title": "parishes",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "parishes",
+          "title": "parishes",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/parishes.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "aaf3ce11-9952-456d-b82d-19912be1a87f",
+        "id": "20698",
+        "siteId": 1,
+        "title": "Load balancing with Zaptec Sense",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Load balancing with Zaptec Sense",
+          "title": "Load balancing with Zaptec Sense",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/zaptec-sense.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "4c38e00f-85bb-465c-9548-38b22b77fa63",
+        "id": "20700",
+        "siteId": 1,
+        "title": "Accessories",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Accessories",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/accessories.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "e8987905-968b-4a9b-8419-49ab71ac92ad",
+        "id": "1008623",
+        "siteId": 1,
+        "title": "Digital services",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Digital services",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/digital-services.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "title": "Products",
+        "uid": "bb909196-465a-4c54-87ef-ea080ed4c580",
+        "id": "20672",
+        "siteId": 1,
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Products",
+          "title": "Products",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/products.html"
+        },
+        "children": [
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"2289f9a5-0b33-402b-b35f-488756461b1e\",\"siteId\":1,\"id\":\"20696\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}"
+          }
+        ]
+      },
+      "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "06a39b58-99bf-4b8e-b0fc-ae1d0fae3936",
+        "id": "20724",
+        "siteId": 1,
+        "title": "Become a partner",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Become a partner",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/become-a-partner.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "179a6a80-9909-4015-a3ec-c8bec01673f0",
+        "id": "20722",
+        "siteId": 1,
+        "title": "For existing partners & installers",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "For our partners & installers",
+          "title": "For existing partners & installers",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/for-partners-installers.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "3687b93f-08c1-4c08-84ae-e9a8a5d13d06",
+        "id": "1008629",
+        "siteId": 1,
+        "title": "Documents & Manuals",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Documents & Manuals",
+          "type": "url",
+          "url": "https://help.liturgia.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"ea65cf64-f898-4352-a56e-6a222a6105f8\",\"siteId\":1,\"id\":\"1008649\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "ea65cf64-f898-4352-a56e-6a222a6105f8",
+        "id": "1008649",
+        "siteId": 1,
+        "title": "Partner webshop",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Partner webshop",
+          "type": "url",
+          "url": "https://int.liturgia.shop/"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"a5c21d5c-257d-4bc0-bfb7-781ce851a1c5\",\"siteId\":1,\"id\":\"1008631\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "a5c21d5c-257d-4bc0-bfb7-781ce851a1c5",
+        "id": "1008631",
+        "siteId": 1,
+        "title": "Liturgia Portal",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Liturgia Portal",
+          "type": "url",
+          "url": "https://portal.liturgia.com/login/en"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"c698cf26-41cb-41e9-85b8-fd616880c45d\",\"siteId\":1,\"id\":\"1008637\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "c698cf26-41cb-41e9-85b8-fd616880c45d",
+        "id": "1008637",
+        "siteId": 1,
+        "title": "Training courses",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Liturgia Academy",
+          "title": "Training courses",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/liturgia-academy.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "title": "For partners & installers",
+        "uid": "e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac",
+        "id": "20680",
+        "siteId": 1,
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Partners & installers",
+          "title": "For partners & installers",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/partners.html"
+        },
+        "children": [
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"ea65cf64-f898-4352-a56e-6a222a6105f8\",\"siteId\":1,\"id\":\"1008649\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"a5c21d5c-257d-4bc0-bfb7-781ce851a1c5\",\"siteId\":1,\"id\":\"1008631\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"c698cf26-41cb-41e9-85b8-fd616880c45d\",\"siteId\":1,\"id\":\"1008637\"}"
+          }
+        ]
+      },
+      "mainMenu_default_Entry:{\"uid\":\"cad3349e-f4ee-404a-99c1-25f634d23038\",\"siteId\":1,\"id\":\"1008641\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "cad3349e-f4ee-404a-99c1-25f634d23038",
+        "id": "1008641",
+        "siteId": 1,
+        "title": "Documents & manuals",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Documents & manuals",
+          "type": "url",
+          "url": "https://help.liturgia.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72",
+        "id": "1008643",
+        "siteId": 1,
+        "title": "Help centre",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Help centre",
+          "type": "url",
+          "url": "https://help.liturgia.com/hc/en-001"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "4da94d65-b2c0-4547-8b66-26933e2e8efe",
+        "id": "1008645",
+        "siteId": 1,
+        "title": "Contact us",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Contact us",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/contact.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"b6112305-2cde-40dd-a909-b6ec32da259c\",\"siteId\":1,\"id\":\"1008639\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "title": "Need help?",
+        "uid": "b6112305-2cde-40dd-a909-b6ec32da259c",
+        "id": "1008639",
+        "siteId": 1,
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "title": "Need help?",
+          "type": "url",
+          "url": "https://help.liturgia.com/hc/en-001?_gl=1*slqxke*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ."
+        },
+        "children": [
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"cad3349e-f4ee-404a-99c1-25f634d23038\",\"siteId\":1,\"id\":\"1008641\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}"
+          }
+        ]
+      },
+      "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9",
+        "id": "20711",
+        "siteId": 1,
+        "title": "About us",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "About us",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/about-us.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "80d752af-898e-4ff8-a263-f1882d98e639",
+        "id": "20709",
+        "siteId": 1,
+        "title": "Our journey",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Our journey",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/history.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "3891052c-dc0c-4fd1-8937-871e8ed73b21",
+        "id": "20707",
+        "siteId": 1,
+        "title": "Quality and safety",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Quality and safety",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/quality-and-safety.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "99e5c6a7-942b-40bc-8726-89eaeb1263d7",
+        "id": "856714",
+        "siteId": 1,
+        "title": "Sustainability commitments",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Sustainability commitments",
+          "title": "Sustainability commitments",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/sustainability.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "accde77f-c24e-45a6-82d1-edbf3a9e2647",
+        "id": "941260",
+        "siteId": 1,
+        "title": "Investor Relations",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Investor Relations",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/investor-relations.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"e88b213d-a4b1-4036-a2e8-b28a3f4611eb\",\"siteId\":1,\"id\":\"20674\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "title": "Company",
+        "uid": "e88b213d-a4b1-4036-a2e8-b28a3f4611eb",
+        "id": "20674",
+        "siteId": 1,
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Company",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/company.html"
+        },
+        "children": [
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}"
+          }
+        ]
+      },
+      "mainMenu_default_Entry:{\"uid\":\"3f043661-7b02-4916-a65f-46b59391b6ea\",\"siteId\":1,\"id\":\"20719\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "3f043661-7b02-4916-a65f-46b59391b6ea",
+        "id": "20719",
+        "siteId": 1,
+        "title": "Industry news",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Industry news",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/industry-news"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "4c059895-84a4-4678-bde4-ac361f391a9b",
+        "id": "20717",
+        "siteId": 1,
+        "title": "Inside Zaptec",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Inside Zaptec",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/inside-zaptec.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "1e05ccd1-ffc3-4735-9e08-526dfbce735b",
+        "id": "20715",
+        "siteId": 1,
+        "title": "Tips and Tricks",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Tips and Tricks",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/tips-and-tricks.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "uid": "87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c",
+        "id": "20713",
+        "siteId": 1,
+        "title": "Case studies",
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Case studies",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/case-studies.html"
+        }
+      },
+      "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "title": "Info Hub",
+        "uid": "e766bc5b-8be7-4966-a901-274b00b64304",
+        "id": "20676",
+        "siteId": 1,
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Info Hub",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/info-hub.html"
+        },
+        "children": [
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"3f043661-7b02-4916-a65f-46b59391b6ea\",\"siteId\":1,\"id\":\"20719\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}"
+          },
+          {
+            "__ref": "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}"
+          }
+        ]
+      },
+      "mainMenu_default_Entry:{\"uid\":\"2e46c67e-5f7b-4583-a070-baa9c032d371\",\"siteId\":1,\"id\":\"20684\"}": {
+        "__typename": "mainMenu_default_Entry",
+        "title": "Find an installer",
+        "uid": "2e46c67e-5f7b-4583-a070-baa9c032d371",
+        "id": "20684",
+        "siteId": 1,
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Find an installer",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/find-an-installer.html"
+        },
+        "children": []
+      },
+      "mainMenu_secondaryLink_Entry:{\"uid\":\"b52ccb22-4cf2-4a3c-890f-559d1139f48f\",\"siteId\":1,\"id\":\"20682\"}": {
+        "__typename": "mainMenu_secondaryLink_Entry",
+        "title": "Contact us",
+        "uid": "b52ccb22-4cf2-4a3c-890f-559d1139f48f",
+        "id": "20682",
+        "siteId": 1,
+        "typeHandle": "secondaryLink",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Contact us",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/contact.html"
+        },
+        "children": []
+      },
+      "mainMenu_secondaryLink_Entry:{\"uid\":\"c5be0a66-94d6-46a8-aab4-cd3cb634b3db\",\"siteId\":1,\"id\":\"624381\"}": {
+        "__typename": "mainMenu_secondaryLink_Entry",
+        "title": "Careers",
+        "uid": "c5be0a66-94d6-46a8-aab4-cd3cb634b3db",
+        "id": "624381",
+        "siteId": 1,
+        "typeHandle": "secondaryLink",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Careers",
+          "type": "url",
+          "url": "https://jobs.liturgia.com/"
+        },
+        "children": []
+      },
+      "menuBlocks_menuBlock_BlockType:{\"uid\":\"630219e7-8900-468b-a9d0-e959b04e0ece\",\"siteId\":1,\"id\":\"90735\"}": {
+        "__typename": "menuBlocks_menuBlock_BlockType",
+        "id": "90735",
+        "uid": "630219e7-8900-468b-a9d0-e959b04e0ece",
+        "siteId": 1,
+        "moduleTitle": "Do you want to become a partner?",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn more",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/become-a-partner.html",
+          "title": null
+        }
+      },
+      "menuBlocks_menuBlock_BlockType:{\"uid\":\"a20034ef-d8f9-4792-8c79-6983b3202548\",\"siteId\":1,\"id\":\"90736\"}": {
+        "__typename": "menuBlocks_menuBlock_BlockType",
+        "id": "90736",
+        "uid": "a20034ef-d8f9-4792-8c79-6983b3202548",
+        "siteId": 1,
+        "moduleTitle": "For existing partners & installers",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn more",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/for-partners-installers.html",
+          "title": null
+        }
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"b7f8d544-da1a-43d9-ba58-451c40c679e0\",\"siteId\":1,\"id\":\"20659\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "20659",
+        "uid": "b7f8d544-da1a-43d9-ba58-451c40c679e0",
+        "siteId": 1,
+        "title": "Features",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Features",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/features.html",
+          "title": "Features"
+        },
+        "plainText": "1-1000+ chargers",
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"02ff465b-39ee-4008-929f-2acacb32cd4b\",\"siteId\":1,\"id\":\"20657\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "20657",
+        "uid": "02ff465b-39ee-4008-929f-2acacb32cd4b",
+        "siteId": 1,
+        "title": "parishes",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "parishes",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/parishes",
+          "title": "parishes"
+        },
+        "plainText": "1-3 chargers",
+        "children": []
+      },
+      "secondaryMenu_secondaryLinks_Entry:{\"uid\":\"a2fd68a2-3143-4574-bc60-b4ab80ea27f1\",\"siteId\":1,\"id\":\"20663\"}": {
+        "__typename": "secondaryMenu_secondaryLinks_Entry",
+        "id": "20663",
+        "uid": "a2fd68a2-3143-4574-bc60-b4ab80ea27f1",
+        "siteId": 1,
+        "title": "Load balancing with Zaptec Sense",
+        "typeHandle": "secondaryLinks",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Load balancing with Zaptec Sense",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/zaptec-sense.html",
+          "title": "Load balancing with Zaptec Sense"
+        },
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"f0d8780e-d295-4c09-88ec-b133f1995433\",\"siteId\":1,\"id\":\"20661\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "20661",
+        "uid": "f0d8780e-d295-4c09-88ec-b133f1995433",
+        "siteId": 1,
+        "title": "Accessories",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Accessories",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/accessories.html",
+          "title": "Accessories"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4\",\"siteId\":1,\"id\":\"1007096\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1007096",
+        "uid": "fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4",
+        "siteId": 1,
+        "title": "Digital Services",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Digital services",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/digital-services.html",
+          "title": "Digital Services"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"8349c120-87a9-45db-a9d9-33d53de0253e\",\"siteId\":1,\"id\":\"20645\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "20645",
+        "uid": "8349c120-87a9-45db-a9d9-33d53de0253e",
+        "siteId": 1,
+        "title": "Products",
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Products",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/products.html",
+          "title": "Products"
+        },
+        "plainText": null,
+        "children": [
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"b7f8d544-da1a-43d9-ba58-451c40c679e0\",\"siteId\":1,\"id\":\"20659\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"02ff465b-39ee-4008-929f-2acacb32cd4b\",\"siteId\":1,\"id\":\"20657\"}"
+          },
+          {
+            "__ref": "secondaryMenu_secondaryLinks_Entry:{\"uid\":\"a2fd68a2-3143-4574-bc60-b4ab80ea27f1\",\"siteId\":1,\"id\":\"20663\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"f0d8780e-d295-4c09-88ec-b133f1995433\",\"siteId\":1,\"id\":\"20661\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4\",\"siteId\":1,\"id\":\"1007096\"}"
+          }
+        ]
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"62d50898-05f3-4139-bbc4-241f8c106dfe\",\"siteId\":1,\"id\":\"888895\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "888895",
+        "uid": "62d50898-05f3-4139-bbc4-241f8c106dfe",
+        "siteId": 1,
+        "title": "Become a partner",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Become a partner",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/become-a-partner.html",
+          "title": null
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"c55f8723-3ee0-4383-bca8-747b1bf512c0\",\"siteId\":1,\"id\":\"888893\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "888893",
+        "uid": "c55f8723-3ee0-4383-bca8-747b1bf512c0",
+        "siteId": 1,
+        "title": "Existing partners & installers",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "For our partners & installers",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/partners/for-partners-installers",
+          "title": "Existing partners & installers"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"ff4a5100-14b1-433d-aa81-5e5eb591671e\",\"siteId\":1,\"id\":\"1008605\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008605",
+        "uid": "ff4a5100-14b1-433d-aa81-5e5eb591671e",
+        "siteId": 1,
+        "title": "Documents & Manuals",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "type": "url",
+          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+          "title": "Documents & Manuals"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"2032de2b-6a18-46e2-8377-68a950821bfd\",\"siteId\":1,\"id\":\"1008647\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008647",
+        "uid": "2032de2b-6a18-46e2-8377-68a950821bfd",
+        "siteId": 1,
+        "title": "Partner webshop",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "type": "url",
+          "url": "https://int.zaptec.shop/",
+          "title": "Partner webshop"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"115d0061-3c60-40ce-a3e0-f7aa12dc3063\",\"siteId\":1,\"id\":\"1008607\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008607",
+        "uid": "115d0061-3c60-40ce-a3e0-f7aa12dc3063",
+        "siteId": 1,
+        "title": "Zaptec Portal",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "type": "url",
+          "url": "https://portal.zaptec.com/login/en",
+          "title": "Zaptec Portal"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"b1064550-cede-46f9-828e-4ffeca04f498\",\"siteId\":1,\"id\":\"1008609\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008609",
+        "uid": "b1064550-cede-46f9-828e-4ffeca04f498",
+        "siteId": 1,
+        "title": "Training courses",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Zaptec Academy",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/partners/for-partners/zaptec-academy",
+          "title": "Training courses"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"6589318f-2a84-4c43-b5e2-6b3de9c55568\",\"siteId\":1,\"id\":\"574926\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "574926",
+        "uid": "6589318f-2a84-4c43-b5e2-6b3de9c55568",
+        "siteId": 1,
+        "title": "For partners & installers",
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Partners & installers",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/partners",
+          "title": "For partners & installers"
+        },
+        "plainText": null,
+        "children": [
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"62d50898-05f3-4139-bbc4-241f8c106dfe\",\"siteId\":1,\"id\":\"888895\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"c55f8723-3ee0-4383-bca8-747b1bf512c0\",\"siteId\":1,\"id\":\"888893\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"ff4a5100-14b1-433d-aa81-5e5eb591671e\",\"siteId\":1,\"id\":\"1008605\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"2032de2b-6a18-46e2-8377-68a950821bfd\",\"siteId\":1,\"id\":\"1008647\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"115d0061-3c60-40ce-a3e0-f7aa12dc3063\",\"siteId\":1,\"id\":\"1008607\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"b1064550-cede-46f9-828e-4ffeca04f498\",\"siteId\":1,\"id\":\"1008609\"}"
+          }
+        ]
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"d26c4326-4980-4c0b-8e2b-39210996c253\",\"siteId\":1,\"id\":\"1008613\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008613",
+        "uid": "d26c4326-4980-4c0b-8e2b-39210996c253",
+        "siteId": 1,
+        "title": "Documents & Manuals",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "type": "url",
+          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+          "title": "Documents & Manuals"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"f0690215-c24b-45d3-a559-5f3bb38098a5\",\"siteId\":1,\"id\":\"1008615\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008615",
+        "uid": "f0690215-c24b-45d3-a559-5f3bb38098a5",
+        "siteId": 1,
+        "title": "Help centre",
+        "typeHandle": "default",
+        "level": 2,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "type": "url",
+          "url": "https://help.zaptec.com/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
+          "title": "Help centre"
+        },
+        "plainText": null,
+        "children": []
+      },
+      "secondaryMenu_default_Entry:{\"uid\":\"cf77d794-0aac-476e-bd19-2d36fa641858\",\"siteId\":1,\"id\":\"1008611\"}": {
+        "__typename": "secondaryMenu_default_Entry",
+        "id": "1008611",
+        "uid": "cf77d794-0aac-476e-bd19-2d36fa641858",
+        "siteId": 1,
+        "title": "Need help?",
+        "typeHandle": "default",
+        "level": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "type": "url",
+          "url": "https://help.zaptec.com/hc/en-001",
+          "title": "Need help?"
+        },
+        "plainText": null,
+        "children": [
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"d26c4326-4980-4c0b-8e2b-39210996c253\",\"siteId\":1,\"id\":\"1008613\"}"
+          },
+          {
+            "__ref": "secondaryMenu_default_Entry:{\"uid\":\"f0690215-c24b-45d3-a559-5f3bb38098a5\",\"siteId\":1,\"id\":\"1008615\"}"
+          }
+        ]
+      },
+      "search_search_Entry:{\"uid\":\"f1974efa-f4b9-44dc-93f8-b47ede5c6f14\",\"siteId\":1,\"id\":\"39\"}": {
+        "__typename": "search_search_Entry",
+        "id": "39",
+        "uid": "f1974efa-f4b9-44dc-93f8-b47ede5c6f14",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/search"
+      },
+      "footerMenu_default_Entry:{\"uid\":\"e817d0b8-d146-482f-a22a-c9321c7cbece\",\"siteId\":1,\"id\":\"20729\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Products",
+        "uid": "e817d0b8-d146-482f-a22a-c9321c7cbece",
+        "id": "20729",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Products",
+          "title": "Products",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/products"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Partners & installers",
+        "uid": "4e341b35-2575-49b3-8a9c-f0429dd06177",
+        "id": "20740",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Partners & installers",
+          "title": "Partners & installers",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/partners"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Support",
+        "uid": "cd58e9df-63d4-4f39-ba99-aef504544242",
+        "id": "20737",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Support",
+          "type": "url",
+          "url": "https://help.zaptec.com/hc/en-001"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Documents & manuals",
+        "uid": "ce9eb1be-1d2e-48dd-bbf0-660bbcdae617",
+        "id": "151457",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Documents & manuals",
+          "type": "url",
+          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"ee2d54e4-33b8-4de0-8eb2-bbac018a2add\",\"siteId\":1,\"id\":\"20731\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Company",
+        "uid": "ee2d54e4-33b8-4de0-8eb2-bbac018a2add",
+        "id": "20731",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Company",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/company"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"b71c993a-02cd-43a9-889c-9dc7b0dfd778\",\"siteId\":1,\"id\":\"20733\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Info Hub",
+        "uid": "b71c993a-02cd-43a9-889c-9dc7b0dfd778",
+        "id": "20733",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Info Hub",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/info-hub"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Zaptec portal",
+        "uid": "b01f3bb9-94f7-449b-aa73-9206d30e8fbe",
+        "id": "20744",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "title": "Zaptec portal",
+          "type": "url",
+          "url": "https://portal.zaptec.com/"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"b0e310f8-8d75-4582-8047-52743ae3cea3\",\"siteId\":1,\"id\":\"594094\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Investor Relations",
+        "uid": "b0e310f8-8d75-4582-8047-52743ae3cea3",
+        "id": "594094",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Investor Relations",
+          "title": "Investor Relations",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/company/investor-relations"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Press",
+        "uid": "3e014c6f-1f41-4044-a8a2-287eae486e90",
+        "id": "20742",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "_blank",
+          "text": "Learn More",
+          "title": "Press",
+          "type": "url",
+          "url": "http://127.0.0.1:5500/press-room"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"99d32ce6-5d76-4d5c-ad7d-1061316c5615\",\"siteId\":1,\"id\":\"969955\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Terms and conditions",
+        "uid": "99d32ce6-5d76-4d5c-ad7d-1061316c5615",
+        "id": "969955",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Zaptec Terms and Conditions (T&C)",
+          "title": "Terms and conditions",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/terms-and-conditions"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"dfba2d19-da22-4f3e-8ae1-7f4dc507f333\",\"siteId\":1,\"id\":\"991126\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Privacy Policy",
+        "uid": "dfba2d19-da22-4f3e-8ae1-7f4dc507f333",
+        "id": "991126",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Privacy Policy",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/policies/privacy-policy"
+        }
+      },
+      "footerMenu_default_Entry:{\"uid\":\"61c74074-ebb3-43d1-b6fd-6b980a5fa9d0\",\"siteId\":1,\"id\":\"1008505\"}": {
+        "__typename": "footerMenu_default_Entry",
+        "title": "Cookie Policy",
+        "uid": "61c74074-ebb3-43d1-b6fd-6b980a5fa9d0",
+        "id": "1008505",
+        "siteId": 1,
+        "navigationLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Cookie Policy",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/cookie-policy"
+        }
+      },
+      "links_link_BlockType:{\"uid\":\"887ed5dc-4875-4c84-b056-c48ec0890a59\",\"siteId\":1,\"id\":\"20748\"}": {
+        "__typename": "links_link_BlockType",
+        "id": "20748",
+        "uid": "887ed5dc-4875-4c84-b056-c48ec0890a59",
+        "siteId": 1,
+        "typeHandle": "link",
+        "itemLink": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Contact us",
+          "title": null,
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/company/contact"
+        }
+      },
+      "footer_GlobalSet:{\"uid\":\"b4dc18dd-e0a1-42c5-a2de-6da3fd1b55a5\",\"siteId\":1,\"id\":\"37\"}": {
+        "__typename": "footer_GlobalSet",
+        "id": "37",
+        "uid": "b4dc18dd-e0a1-42c5-a2de-6da3fd1b55a5",
+        "siteId": 1,
+        "moduleTitle": "Explore our solutions",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Get Liturgia",
+          "title": null,
+          "type": "custom",
+          "url": "#get-zaptec"
+        },
+        "links": [
+          {
+            "__ref": "links_link_BlockType:{\"uid\":\"887ed5dc-4875-4c84-b056-c48ec0890a59\",\"siteId\":1,\"id\":\"20748\"}"
+          }
+        ],
+        "textColumns": [],
+        "socials": [
+          {
+            "__ref": "socials_link_BlockType:{\"uid\":\"e8d3bcc8-3865-44c1-b932-f3812d292e8d\",\"siteId\":1,\"id\":\"20752\"}"
+          },
+          {
+            "__ref": "socials_link_BlockType:{\"uid\":\"43dab7ff-f613-4bab-9b4d-7e17e4781801\",\"siteId\":1,\"id\":\"20753\"}"
+          },
+          {
+            "__ref": "socials_link_BlockType:{\"uid\":\"b20f5b36-165e-41e1-b601-54b4b5fd1e8c\",\"siteId\":1,\"id\":\"20754\"}"
+          },
+          {
+            "__ref": "socials_link_BlockType:{\"uid\":\"fbdd9b44-93fa-437e-a4b8-3aed94760aa2\",\"siteId\":1,\"id\":\"20755\"}"
+          },
+          {
+            "__ref": "socials_link_BlockType:{\"uid\":\"734aef24-7dd1-404f-8d65-31b05f255bce\",\"siteId\":1,\"id\":\"307449\"}"
+          },
+          {
+            "__ref": "socials_link_BlockType:{\"uid\":\"b7bd3ce4-f3c5-4997-a045-331f494cbfde\",\"siteId\":1,\"id\":\"20756\"}"
+          }
+        ]
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":2,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 2,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/sv/laddningslosningar/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":3,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 3,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/da/ladeloesninger/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":4,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 4,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/de/ladeloesungen/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":5,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 5,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/en-uk/charging-solutions/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":6,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 6,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/fr/solutions-de-recharge/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":7,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 7,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/nl/laadoplossingen/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":8,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 8,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/nl-be/laadoplossingen/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":9,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 9,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/fr-be/solutions-de-recharge/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":10,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 10,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/fr-ch/solutions-de-recharge/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":11,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 11,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/de-ch/ladeloesungen/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":12,\"id\":\"1607\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "1607",
+        "siteId": 12,
+        "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
+        "title": "parishes",
+        "url": "http://127.0.0.1:5500/no/ladelosninger/parishes"
+      },
+      "pages_default_Entry:{\"uid\":\"0b69eabb-3765-4209-b6d2-61512d0f664c\",\"siteId\":1,\"id\":\"53\"}": {
+        "__typename": "pages_default_Entry",
+        "id": "53",
+        "uid": "0b69eabb-3765-4209-b6d2-61512d0f664c",
+        "siteId": 1,
+        "level": 1,
+        "title": "Products",
+        "typeHandle": "default",
+        "url": "http://127.0.0.1:5500/products"
+      },
+      "mediaElement_vimeo_BlockType:{\"uid\":\"6588e159-f965-4812-ab11-27fb91510c55\",\"siteId\":1,\"id\":\"422922\"}": {
+        "__typename": "mediaElement_vimeo_BlockType",
+        "id": "422922",
+        "uid": "6588e159-f965-4812-ab11-27fb91510c55",
+        "siteId": 1,
+        "sdVideo": "https://player.vimeo.com/progressive_redirect/playback/913310311/rendition/540p/file.mp4?loc=external&signature=7dec7b02d435575a32efae454a2e6e0a14b37737c85b267f77032d25e4e8ee3d",
+        "typeHandle": "vimeo",
+        "hdVideo": "https://player.vimeo.com/progressive_redirect/playback/912941945/rendition/1080p/file.mp4?loc=external&signature=dc495971ef1735af918ef6f336da8aca160d9bd0194f58a6026e3d9e4d8bc303",
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": true,
+            "controls": false,
+            "loop": true,
+            "muted": true
+          }
+        ],
+        "posterImage": []
+      },
+      "heroColumns_column_BlockType:{\"uid\":\"d4b410bc-970d-49a0-aa38-0720b4472cb1\",\"siteId\":1,\"id\":\"109026\"}": {
+        "__typename": "heroColumns_column_BlockType",
+        "id": "109026",
+        "uid": "d4b410bc-970d-49a0-aa38-0720b4472cb1",
+        "siteId": 1,
+        "typeHandle": "column",
+        "moduleTitle": "Award-winning design",
+        "text": "<p>Winner of the Red Dot Design Award. Who said chargers can't look good? Certainly not us. </p>"
+      },
+      "heroColumns_column_BlockType:{\"uid\":\"cd62bf56-2094-43a1-a20d-bdae898bf473\",\"siteId\":1,\"id\":\"1660\"}": {
+        "__typename": "heroColumns_column_BlockType",
+        "id": "1660",
+        "uid": "cd62bf56-2094-43a1-a20d-bdae898bf473",
+        "siteId": 1,
+        "typeHandle": "column",
+        "moduleTitle": "5-year guarantee",
+        "text": "<p>parishes is built to last. Designed, developed, and manufactured in Norway for some of the roughest weather on the planet.</p>"
+      },
+      "heroColumns_column_BlockType:{\"uid\":\"acb0db4a-f63c-462b-bb3e-55f3698ad1ef\",\"siteId\":1,\"id\":\"1661\"}": {
+        "__typename": "heroColumns_column_BlockType",
+        "id": "1661",
+        "uid": "acb0db4a-f63c-462b-bb3e-55f3698ad1ef",
+        "siteId": 1,
+        "typeHandle": "column",
+        "moduleTitle": "Charge for less",
+        "text": "<p>Tap into Eco Mode and let your smart charger find the cheapest electricity rates from Nord Pool.</p>"
+      },
+      "uploads_Asset:{\"uid\":\"aab12ea5-7b71-4e82-96ac-d43aee42648e\",\"siteId\":1,\"id\":\"46877\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46877",
+        "uid": "aab12ea5-7b71-4e82-96ac-d43aee42648e",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/no.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/no.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"d5f563d3-f4a3-4e21-9fc7-bc2f340f7384\",\"siteId\":1,\"id\":\"50094\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50094",
+        "uid": "d5f563d3-f4a3-4e21-9fc7-bc2f340f7384",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/no/"
+        }
+      },
+      "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
+        "__typename": "regions_Category",
+        "id": "50093",
+        "uid": "41685a9d-7783-4629-a603-84ee643085ad",
+        "siteId": 1,
+        "title": "Norway",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"aab12ea5-7b71-4e82-96ac-d43aee42648e\",\"siteId\":1,\"id\":\"46877\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"d5f563d3-f4a3-4e21-9fc7-bc2f340f7384\",\"siteId\":1,\"id\":\"50094\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"8c20fa9a-704e-4853-bf24-514687fde863\",\"siteId\":1,\"id\":\"46879\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46879",
+        "uid": "8c20fa9a-704e-4853-bf24-514687fde863",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/sv.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/sv.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"1776589c-571f-4297-b573-710cd3b8517e\",\"siteId\":1,\"id\":\"50097\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50097",
+        "uid": "1776589c-571f-4297-b573-710cd3b8517e",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/sv/"
+        }
+      },
+      "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
+        "__typename": "regions_Category",
+        "id": "50095",
+        "uid": "87fe789f-5da3-487d-a0d5-ba14a54cca77",
+        "siteId": 1,
+        "title": "Sweden",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"8c20fa9a-704e-4853-bf24-514687fde863\",\"siteId\":1,\"id\":\"46879\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"1776589c-571f-4297-b573-710cd3b8517e\",\"siteId\":1,\"id\":\"50097\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"8520115d-cb3f-4e9d-bb78-c4136fc23375\",\"siteId\":1,\"id\":\"46869\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46869",
+        "uid": "8520115d-cb3f-4e9d-bb78-c4136fc23375",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/da.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/da.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"2857dfa2-f1c6-49da-8697-472ee182ebde\",\"siteId\":1,\"id\":\"50100\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50100",
+        "uid": "2857dfa2-f1c6-49da-8697-472ee182ebde",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/da/"
+        }
+      },
+      "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
+        "__typename": "regions_Category",
+        "id": "50098",
+        "uid": "f122cc35-2c55-4aab-9997-37f4bfb4ac79",
+        "siteId": 1,
+        "title": "Denmark",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"8520115d-cb3f-4e9d-bb78-c4136fc23375\",\"siteId\":1,\"id\":\"46869\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"2857dfa2-f1c6-49da-8697-472ee182ebde\",\"siteId\":1,\"id\":\"50100\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"b5eeb73e-dbdb-4931-993d-633ffdc66822\",\"siteId\":1,\"id\":\"46870\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46870",
+        "uid": "b5eeb73e-dbdb-4931-993d-633ffdc66822",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/de.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/de.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"9e6a9407-025f-406a-925e-bd951e93ec9b\",\"siteId\":1,\"id\":\"50103\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50103",
+        "uid": "9e6a9407-025f-406a-925e-bd951e93ec9b",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/de/"
+        }
+      },
+      "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
+        "__typename": "regions_Category",
+        "id": "50101",
+        "uid": "24b29187-234a-4bfd-bef1-d5737cb0a0c2",
+        "siteId": 1,
+        "title": "Germany",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"b5eeb73e-dbdb-4931-993d-633ffdc66822\",\"siteId\":1,\"id\":\"46870\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"9e6a9407-025f-406a-925e-bd951e93ec9b\",\"siteId\":1,\"id\":\"50103\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"07874507-f4d1-4594-ad9d-dad9422e0b9b\",\"siteId\":1,\"id\":\"46881\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46881",
+        "uid": "07874507-f4d1-4594-ad9d-dad9422e0b9b",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/uk.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/uk.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"6253dd94-5fbd-4870-be64-9831930bfb05\",\"siteId\":1,\"id\":\"50106\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50106",
+        "uid": "6253dd94-5fbd-4870-be64-9831930bfb05",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/en-uk/"
+        }
+      },
+      "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
+        "__typename": "regions_Category",
+        "id": "50104",
+        "uid": "95285d63-e64b-4ab5-b983-05783fa96e0c",
+        "siteId": 1,
+        "title": "United Kingdom",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"07874507-f4d1-4594-ad9d-dad9422e0b9b\",\"siteId\":1,\"id\":\"46881\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"6253dd94-5fbd-4870-be64-9831930bfb05\",\"siteId\":1,\"id\":\"50106\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"d9dc7a2a-b5ef-4ec2-ae2f-cdb08df28b8c\",\"siteId\":1,\"id\":\"46872\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46872",
+        "uid": "d9dc7a2a-b5ef-4ec2-ae2f-cdb08df28b8c",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/fr.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/fr.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"72ee61b6-9b37-4745-90d4-fe4eef4b8bfa\",\"siteId\":1,\"id\":\"50109\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50109",
+        "uid": "72ee61b6-9b37-4745-90d4-fe4eef4b8bfa",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/fr/"
+        }
+      },
+      "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
+        "__typename": "regions_Category",
+        "id": "50107",
+        "uid": "bc42c177-3a50-4281-be60-f5691fae19ab",
+        "siteId": 1,
+        "title": "France",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"d9dc7a2a-b5ef-4ec2-ae2f-cdb08df28b8c\",\"siteId\":1,\"id\":\"46872\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"72ee61b6-9b37-4745-90d4-fe4eef4b8bfa\",\"siteId\":1,\"id\":\"50109\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"7df1505a-49b0-4736-8216-700166f230ea\",\"siteId\":1,\"id\":\"46876\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46876",
+        "uid": "7df1505a-49b0-4736-8216-700166f230ea",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/nl.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/nl.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"bb297d57-9dbf-494e-a590-e61f414f8baf\",\"siteId\":1,\"id\":\"50112\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50112",
+        "uid": "bb297d57-9dbf-494e-a590-e61f414f8baf",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/nl/"
+        }
+      },
+      "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
+        "__typename": "regions_Category",
+        "id": "50110",
+        "uid": "a9935799-8dd4-4f14-a138-a48cdbb9b78c",
+        "siteId": 1,
+        "title": "Netherlands",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"7df1505a-49b0-4736-8216-700166f230ea\",\"siteId\":1,\"id\":\"46876\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"bb297d57-9dbf-494e-a590-e61f414f8baf\",\"siteId\":1,\"id\":\"50112\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"623f9e3e-7eb4-41bd-96ef-50a53bc227f9\",\"siteId\":1,\"id\":\"46867\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46867",
+        "uid": "623f9e3e-7eb4-41bd-96ef-50a53bc227f9",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/be.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/be.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"ad82330a-a51b-4c81-b614-7cc447033ee8\",\"siteId\":1,\"id\":\"50118\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50118",
+        "uid": "ad82330a-a51b-4c81-b614-7cc447033ee8",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/nl-be/"
+        }
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50119",
+        "uid": "68f44895-695a-4004-8f54-61bf70cb9744",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/fr-be/"
+        }
+      },
+      "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
+        "__typename": "regions_Category",
+        "id": "50113",
+        "uid": "c9f99245-9547-4a35-8400-6c5e8c9a04a2",
+        "siteId": 1,
+        "title": "Belgium",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"623f9e3e-7eb4-41bd-96ef-50a53bc227f9\",\"siteId\":1,\"id\":\"46867\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"ad82330a-a51b-4c81-b614-7cc447033ee8\",\"siteId\":1,\"id\":\"50118\"}"
+          },
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"9e5bd6a4-b2ac-4b70-ae92-d620364aa468\",\"siteId\":1,\"id\":\"46868\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46868",
+        "uid": "9e5bd6a4-b2ac-4b70-ae92-d620364aa468",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/ch.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/ch.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"681b5c65-dc49-442f-8097-705fabf5deee\",\"siteId\":1,\"id\":\"50125\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50125",
+        "uid": "681b5c65-dc49-442f-8097-705fabf5deee",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/fr-ch/"
+        }
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "50126",
+        "uid": "ab121d12-c1b0-442b-a135-d5bf179cd27d",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/de-ch/"
+        }
+      },
+      "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
+        "__typename": "regions_Category",
+        "id": "50120",
+        "uid": "cec14ce5-3b79-4479-95cd-de9872841acc",
+        "siteId": 1,
+        "title": "Switzerland",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"9e5bd6a4-b2ac-4b70-ae92-d620364aa468\",\"siteId\":1,\"id\":\"46868\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"681b5c65-dc49-442f-8097-705fabf5deee\",\"siteId\":1,\"id\":\"50125\"}"
+          },
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"40ff07ee-c685-4197-aae8-cefbecede2be\",\"siteId\":1,\"id\":\"46878\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46878",
+        "uid": "40ff07ee-c685-4197-aae8-cefbecede2be",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/pt.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/pt.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"7c7f2994-90b9-4621-aaab-671b5f29df9c\",\"siteId\":1,\"id\":\"50127\"}": {
+        "__typename": "regions_Category",
+        "id": "50127",
+        "uid": "7c7f2994-90b9-4621-aaab-671b5f29df9c",
+        "siteId": 1,
+        "title": "Portugal",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"40ff07ee-c685-4197-aae8-cefbecede2be\",\"siteId\":1,\"id\":\"46878\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"60b0427f-ea0b-49f6-b9a0-8655ba67d16a\",\"siteId\":1,\"id\":\"46875\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46875",
+        "uid": "60b0427f-ea0b-49f6-b9a0-8655ba67d16a",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/it.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/it.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"14263b17-0ae4-4e05-bc5a-c69912497843\",\"siteId\":1,\"id\":\"50129\"}": {
+        "__typename": "regions_Category",
+        "id": "50129",
+        "uid": "14263b17-0ae4-4e05-bc5a-c69912497843",
+        "siteId": 1,
+        "title": "Italy",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"60b0427f-ea0b-49f6-b9a0-8655ba67d16a\",\"siteId\":1,\"id\":\"46875\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"b7dac20c-2133-4b5b-8d0a-d56aa0122ed4\",\"siteId\":1,\"id\":\"46874\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46874",
+        "uid": "b7dac20c-2133-4b5b-8d0a-d56aa0122ed4",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/is.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/is.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"36e67b37-bdd0-4afa-bdc8-ba5cc5c4884e\",\"siteId\":1,\"id\":\"50130\"}": {
+        "__typename": "regions_Category",
+        "id": "50130",
+        "uid": "36e67b37-bdd0-4afa-bdc8-ba5cc5c4884e",
+        "siteId": 1,
+        "title": "Iceland",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"b7dac20c-2133-4b5b-8d0a-d56aa0122ed4\",\"siteId\":1,\"id\":\"46874\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"371bba6e-1bb0-4544-b0f8-76a39dd9bf39\",\"siteId\":1,\"id\":\"46873\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46873",
+        "uid": "371bba6e-1bb0-4544-b0f8-76a39dd9bf39",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/ie.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/ie.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"63a00abc-2036-472e-82f8-1bd027d3fb33\",\"siteId\":1,\"id\":\"50132\"}": {
+        "__typename": "regions_Category",
+        "id": "50132",
+        "uid": "63a00abc-2036-472e-82f8-1bd027d3fb33",
+        "siteId": 1,
+        "title": "Ireland",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"371bba6e-1bb0-4544-b0f8-76a39dd9bf39\",\"siteId\":1,\"id\":\"46873\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"d000cfa6-3615-4b9b-b8c8-7d9ae90c1e68\",\"siteId\":1,\"id\":\"46871\"}": {
+        "__typename": "uploads_Asset",
+        "id": "46871",
+        "uid": "d000cfa6-3615-4b9b-b8c8-7d9ae90c1e68",
+        "siteId": 1,
+        "kind": "image",
+        "width": 18,
+        "height": 13,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/fi.png",
+        "url": "https://127.0.0.1:5500/assets/Flags/fi.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"83086469-eec9-4e0c-9400-c031ed02ff7d\",\"siteId\":1,\"id\":\"50134\"}": {
+        "__typename": "regions_Category",
+        "id": "50134",
+        "uid": "83086469-eec9-4e0c-9400-c031ed02ff7d",
+        "siteId": 1,
+        "title": "Finland",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"d000cfa6-3615-4b9b-b8c8-7d9ae90c1e68\",\"siteId\":1,\"id\":\"46871\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"007580e9-ec89-4dad-b6b4-80df218bb209\",\"siteId\":1,\"id\":\"937169\"}": {
+        "__typename": "uploads_Asset",
+        "id": "937169",
+        "uid": "007580e9-ec89-4dad-b6b4-80df218bb209",
+        "siteId": 1,
+        "kind": "image",
+        "width": 48,
+        "height": 48,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/icons8-hungary-48.png",
+        "url": "https://127.0.0.1:5500/assets/icons8-hungary-48.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"58381e66-9a1d-451d-ab42-61f1604ac336\",\"siteId\":1,\"id\":\"904860\"}": {
+        "__typename": "regions_Category",
+        "id": "904860",
+        "uid": "58381e66-9a1d-451d-ab42-61f1604ac336",
+        "siteId": 1,
+        "title": "Hungary",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"007580e9-ec89-4dad-b6b4-80df218bb209\",\"siteId\":1,\"id\":\"937169\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"45ced7c6-cba3-40ab-9e7b-b8a74d274f4a\",\"siteId\":1,\"id\":\"937167\"}": {
+        "__typename": "uploads_Asset",
+        "id": "937167",
+        "uid": "45ced7c6-cba3-40ab-9e7b-b8a74d274f4a",
+        "siteId": 1,
+        "kind": "image",
+        "width": 48,
+        "height": 48,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/icons8-spain-flag-48.png",
+        "url": "https://127.0.0.1:5500/assets/icons8-spain-flag-48.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"5584709f-eb5c-4fd1-82b9-593309d5bc59\",\"siteId\":1,\"id\":\"913571\"}": {
+        "__typename": "regions_Category",
+        "id": "913571",
+        "uid": "5584709f-eb5c-4fd1-82b9-593309d5bc59",
+        "siteId": 1,
+        "title": "Spain",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"45ced7c6-cba3-40ab-9e7b-b8a74d274f4a\",\"siteId\":1,\"id\":\"937167\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"031afddf-55e4-421c-89d4-cbbdd5f6c956\",\"siteId\":1,\"id\":\"967956\"}": {
+        "__typename": "uploads_Asset",
+        "id": "967956",
+        "uid": "031afddf-55e4-421c-89d4-cbbdd5f6c956",
+        "siteId": 1,
+        "kind": "image",
+        "width": 512,
+        "height": 512,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/Wikipedia-Flags-GR-Greece-Flag.512.png",
+        "url": "https://127.0.0.1:5500/assets/Wikipedia-Flags-GR-Greece-Flag.512.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "regions_Category:{\"uid\":\"7c638ff4-a7c5-4349-a691-f6e1abe7d401\",\"siteId\":1,\"id\":\"967955\"}": {
+        "__typename": "regions_Category",
+        "id": "967955",
+        "uid": "7c638ff4-a7c5-4349-a691-f6e1abe7d401",
+        "siteId": 1,
+        "title": "Greece",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"031afddf-55e4-421c-89d4-cbbdd5f6c956\",\"siteId\":1,\"id\":\"967956\"}"
+          }
+        ],
+        "hasSites": []
+      },
+      "uploads_Asset:{\"uid\":\"d0af1919-637b-4d22-9209-2d7cc065d531\",\"siteId\":1,\"id\":\"979542\"}": {
+        "__typename": "uploads_Asset",
+        "id": "979542",
+        "uid": "d0af1919-637b-4d22-9209-2d7cc065d531",
+        "siteId": 1,
+        "kind": "image",
+        "width": 284,
+        "height": 178,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/download_2024-11-05-135339_hlpu.png",
+        "url": "https://127.0.0.1:5500/assets/download_2024-11-05-135339_hlpu.png",
+        "alt": null,
+        "plainText2": null
+      },
+      "hasSites_selectSite_BlockType:{\"uid\":\"4f60ac38-11aa-4e86-9f06-4e9635d8e447\",\"siteId\":1,\"id\":\"979541\"}": {
+        "__typename": "hasSites_selectSite_BlockType",
+        "id": "979541",
+        "uid": "4f60ac38-11aa-4e86-9f06-4e9635d8e447",
+        "siteId": 1,
+        "hasSite": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "title": null,
+          "url": "http://127.0.0.1:5500/nl-be/"
+        }
+      },
+      "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
+        "__typename": "regions_Category",
+        "id": "979539",
+        "uid": "baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0",
+        "siteId": 1,
+        "title": "Poland",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"d0af1919-637b-4d22-9209-2d7cc065d531\",\"siteId\":1,\"id\":\"979542\"}"
+          }
+        ],
+        "hasSites": [
+          {
+            "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"4f60ac38-11aa-4e86-9f06-4e9635d8e447\",\"siteId\":1,\"id\":\"979541\"}"
+          }
+        ]
+      },
+      "modules_simpleCta_BlockType:{\"uid\":\"61949cdb-7809-437e-83fd-fdb89e02a7c6\",\"siteId\":1,\"id\":\"2929\"}": {
+        "__typename": "modules_simpleCta_BlockType",
+        "id": "2929",
+        "uid": "61949cdb-7809-437e-83fd-fdb89e02a7c6",
+        "siteId": 1,
+        "typeHandle": "simpleCta",
+        "smallMargins": false,
+        "anchor": "http://127.0.0.1:5500/charging-solutions/parishes#anchor-61949cdb-7809-437e-83fd-fdb89e02a7c6",
+        "moduleTitle": "Voted as the No. 1 EV charger in Norway and Sweden",
+        "text": "<p>Given the Nordics' standing as the world's most developed EV market, with high consumer standards, we're incredibly proud to be awarded 'Best in Test' in Norway and Sweden.</p>",
+        "image": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"1771e1ae-dc30-4094-991c-44e9140dc02d\",\"siteId\":1,\"id\":\"984501\"}"
+          }
+        ],
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Read more",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/award-winning-ev-charger.html",
+          "title": null
+        }
+      },
+      "modules_accordionList_BlockType:{\"uid\":\"0fb2b836-1e77-4b41-a4bc-149d203a835e\",\"siteId\":1,\"id\":\"7951\"}": {
+        "__typename": "modules_accordionList_BlockType",
+        "id": "7951",
+        "uid": "0fb2b836-1e77-4b41-a4bc-149d203a835e",
+        "siteId": 1,
+        "typeHandle": "accordionList",
+        "smallMargins": false,
+        "anchor": "anchor-0fb2b836-1e77-4b41-a4bc-149d203a835e",
+        "moduleTitle": "parishes highlights",
+        "children": [
+          {
+            "__ref": "modules_accordionGroup_BlockType:{\"uid\":\"b58fc2d5-dd40-46f5-adcb-bb74081c52c6\",\"siteId\":1,\"id\":\"7952\"}"
+          },
+          {
+            "__ref": "modules_accordionGroup_BlockType:{\"uid\":\"0a29c781-3af8-458c-b5fe-69e90650635e\",\"siteId\":1,\"id\":\"7957\"}"
+          }
+        ]
+      },
+      "modules_threeProducts_BlockType:{\"uid\":\"d07a1d96-b4fb-4a9d-8e1f-f8e83bf51ae5\",\"siteId\":1,\"id\":\"2931\"}": {
+        "__typename": "modules_threeProducts_BlockType",
+        "id": "2931",
+        "uid": "d07a1d96-b4fb-4a9d-8e1f-f8e83bf51ae5",
+        "siteId": 1,
+        "typeHandle": "threeProducts",
+        "smallMargins": false,
+        "anchor": "anchor-d07a1d96-b4fb-4a9d-8e1f-f8e83bf51ae5",
+        "moduleTitle": "Explore parishes",
+        "children": [
+          {
+            "__ref": "modules_product_BlockType:{\"uid\":\"d844de38-273e-4e1b-b8e3-7e60809596cc\",\"siteId\":1,\"id\":\"2932\"}"
+          }
+        ]
+      },
+      "modules_textAndMedia_BlockType:{\"uid\":\"bf27f9b2-ca80-4ad2-8552-0ba827f59050\",\"siteId\":1,\"id\":\"2946\"}": {
+        "__typename": "modules_textAndMedia_BlockType",
+        "id": "2946",
+        "uid": "bf27f9b2-ca80-4ad2-8552-0ba827f59050",
+        "siteId": 1,
+        "typeHandle": "textAndMedia",
+        "smallMargins": false,
+        "anchor": "http://127.0.0.1:5500/charging-solutions/parishes#anchor-bf27f9b2-ca80-4ad2-8552-0ba827f59050",
+        "blockAlignment": "right",
+        "lightswitch": true,
+        "lightswitch2": false,
+        "children": [
+          {
+            "__ref": "modules_textAndMediaItem_BlockType:{\"uid\":\"5ded4eab-aafb-4af4-97ea-3eb40882f5fc\",\"siteId\":1,\"id\":\"2947\"}"
+          },
+          {
+            "__ref": "modules_textAndMediaItem_BlockType:{\"uid\":\"e7fdee7d-78ce-4bc7-af0f-c37e55d1f148\",\"siteId\":1,\"id\":\"5512\"}"
+          }
+        ]
+      },
+      "modules_ctaS_BlockType:{\"uid\":\"e40b6d62-f0a2-4949-b3bc-8f90e02188e9\",\"siteId\":1,\"id\":\"954049\"}": {
+        "__typename": "modules_ctaS_BlockType",
+        "id": "954049",
+        "uid": "e40b6d62-f0a2-4949-b3bc-8f90e02188e9",
+        "siteId": 1,
+        "typeHandle": "ctaS",
+        "smallMargins": false,
+        "anchor": "anchor-e40b6d62-f0a2-4949-b3bc-8f90e02188e9",
+        "children": [
+          {
+            "__ref": "modules_cta_BlockType:{\"uid\":\"fbcd12fd-7023-4cde-af6f-f3dfe4267a66\",\"siteId\":1,\"id\":\"954050\"}"
+          }
+        ]
+      },
+      "modules_accessories_BlockType:{\"uid\":\"9b97fc56-2e56-4b92-8c65-431858809fa1\",\"siteId\":1,\"id\":\"5540\"}": {
+        "__typename": "modules_accessories_BlockType",
+        "id": "5540",
+        "uid": "9b97fc56-2e56-4b92-8c65-431858809fa1",
+        "siteId": 1,
+        "typeHandle": "accessories",
+        "smallMargins": false,
+        "anchor": "anchor-9b97fc56-2e56-4b92-8c65-431858809fa1",
+        "moduleTitle": "But wait, there's more ...",
+        "number": 6,
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Accessories",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/products/accessories",
+          "title": null
+        },
+        "accessoryCategory": [
+          {
+            "__ref": "accessoryCategories_Category:{\"uid\":\"ef929e2f-c9e5-49dd-a8ac-0eda6802f087\",\"siteId\":1,\"id\":\"5441\"}"
+          }
+        ],
+        "accessoryEntries": []
+      },
+      "uploads_Asset:{\"uid\":\"1771e1ae-dc30-4094-991c-44e9140dc02d\",\"siteId\":1,\"id\":\"984501\"}": {
+        "__typename": "uploads_Asset",
+        "id": "984501",
+        "uid": "1771e1ae-dc30-4094-991c-44e9140dc02d",
+        "siteId": 1,
+        "kind": "image",
+        "width": 2048,
+        "height": 1165,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Logos/_100xAUTO_crop_center-center_none/Testwinners4.png",
+        "url": "https://127.0.0.1:5500/assets/Logos/Testwinners4.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"e26269a8-28fd-43dc-87bf-eadc01543da5\",\"siteId\":1,\"id\":\"7954\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "7954",
+        "uid": "e26269a8-28fd-43dc-87bf-eadc01543da5",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "There's an app for that",
+        "text": "<p>Whether you're into the nitty-gritty details or prefer a set-and-forget approach, the <a href=\"http://127.0.0.1:5500/products/zaptec-app\">Zaptec App</a> turns your phone into an EV mission control centre. <br /></p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"137f6101-234f-4426-9f1e-06a77092c73b\",\"siteId\":1,\"id\":\"40099\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "40099",
+        "uid": "137f6101-234f-4426-9f1e-06a77092c73b",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "Quality and safety",
+        "text": "<p>The parishes is our domestic/home charging unit. The parishes has been through complete third-party laboratory tests, and it has been inspected by the Swedish Electrical Safety Agency (Elsäkerhetsvärket) without any technical remarks. The report from Swedish authorities is a public document and is <a href=\"https://zendesk.zaptec.com/hc/article_attachments/13436060589969\" target=\"_blank\" rel=\"noreferrer noopener\">available for download (PDF in Swedish)</a>.</p>\n<p>parishes has:</p>\n<ul><li>Integrated RDC-DD approved according to IEC 62955. The four pole safety relay is mechanically coupled and meets the 500 A make and break and 10 000 A conditional short circuit current requirements.</li></ul>\n<ul><li>Electrical safety according to IEC EN 61851-1 and other relevant standards. This has been tested and verified by a third-party laboratory.</li></ul>\n<p>parishes has an integrated RDC-DD which means that all parishes installations need a RCD Type A upstream. Usually, this is met by installing a normal low-cost RCBO Type A, which combines the MCB and RCD functions in the fuse cabinet.</p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"935a2c73-3642-4d5d-89d7-20bb3aac57b9\",\"siteId\":1,\"id\":\"7956\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "7956",
+        "uid": "935a2c73-3642-4d5d-89d7-20bb3aac57b9",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "Powers any EV",
+        "text": "<p>No bigger than an iPad and only 1.3 kg. Skip the car compatibility check – our charger works with any EV.</p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"7628c300-b7ec-45e8-a7f0-8aea7a3ff5a9\",\"siteId\":1,\"id\":\"33105\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "33105",
+        "uid": "7628c300-b7ec-45e8-a7f0-8aea7a3ff5a9",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "Always up-to-date",
+        "text": "<p>Internet connection via WiFi with over-the-air updates for the latest features.</p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"810a2d86-e6b1-4159-a51b-2c43f00da56d\",\"siteId\":1,\"id\":\"36317\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "36317",
+        "uid": "810a2d86-e6b1-4159-a51b-2c43f00da56d",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "Do you need more chargers?",
+        "text": "<p>You can install up to three parishes chargers in each installation. Adding a second or third charger is an easy and quick fix.</p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"f41636ce-6dc8-44a5-90f5-f96afa22d3b1\",\"siteId\":1,\"id\":\"40100\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "40100",
+        "uid": "f41636ce-6dc8-44a5-90f5-f96afa22d3b1",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "All the support you need",
+        "text": "<ul><li><strong>Zaptec Help Center:</strong> At our <a href=\"https://help.zaptec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">Help Center</a>, you can find the assistance you need for various issues. Whether it's troubleshooting or seeking specific information about products or FAQ, we have designed this platform to provide quick and effective support.</li><li><strong>Customer support:</strong> Find contact information for customer support in each country, ensuring you get the support you need, tailored to your location.</li><li><strong>The benefit of cloud:</strong> Because the Zaptec Portal is a cloud platform, we can resolve a vast majority of cases remotely. This capability not only enhances efficiency but also ensures that, if you're in contact with us, we can have a more informed and productive discussion about your issue, leading to quicker solutions.</li></ul>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"65e968c7-a121-40f9-abf8-e93f651ecede\",\"siteId\":1,\"id\":\"887633\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "887633",
+        "uid": "65e968c7-a121-40f9-abf8-e93f651ecede",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "Eco Mode",
+        "text": "<p>Tap Eco Mode in the Zaptec app. Eco Mode tracks electricity prices to charge your car when prices are low. In addition, <a href=\"http://127.0.0.1:5500/products/zaptec-sense\" target=\"_blank\" rel=\"noreferrer noopener\">Zaptec Sense</a> can collect total consumption data from your fuse box, in real time, so that you can set power limits.</p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"5ff6b398-334c-455a-88b3-c3d3d65a97b7\",\"siteId\":1,\"id\":\"887634\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "887634",
+        "uid": "5ff6b398-334c-455a-88b3-c3d3d65a97b7",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "22 kW",
+        "text": "<p>Our charging stations offer up to 22 kW, depending on the setup and the car – that's the highest output you can get with AC charging.</p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionGroup_BlockType:{\"uid\":\"b58fc2d5-dd40-46f5-adcb-bb74081c52c6\",\"siteId\":1,\"id\":\"7952\"}": {
+        "__typename": "modules_accordionGroup_BlockType",
+        "id": "7952",
+        "uid": "b58fc2d5-dd40-46f5-adcb-bb74081c52c6",
+        "siteId": 1,
+        "typeHandle": "accordionGroup",
+        "moduleTitle": "Benefits",
+        "children": [
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"e26269a8-28fd-43dc-87bf-eadc01543da5\",\"siteId\":1,\"id\":\"7954\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"137f6101-234f-4426-9f1e-06a77092c73b\",\"siteId\":1,\"id\":\"40099\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"935a2c73-3642-4d5d-89d7-20bb3aac57b9\",\"siteId\":1,\"id\":\"7956\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"7628c300-b7ec-45e8-a7f0-8aea7a3ff5a9\",\"siteId\":1,\"id\":\"33105\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"810a2d86-e6b1-4159-a51b-2c43f00da56d\",\"siteId\":1,\"id\":\"36317\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"f41636ce-6dc8-44a5-90f5-f96afa22d3b1\",\"siteId\":1,\"id\":\"40100\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"65e968c7-a121-40f9-abf8-e93f651ecede\",\"siteId\":1,\"id\":\"887633\"}"
+          },
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"5ff6b398-334c-455a-88b3-c3d3d65a97b7\",\"siteId\":1,\"id\":\"887634\"}"
+          }
+        ]
+      },
+      "modules_accordionItem_BlockType:{\"uid\":\"7b78b672-7431-4759-9291-2125e6df77c4\",\"siteId\":1,\"id\":\"7959\"}": {
+        "__typename": "modules_accordionItem_BlockType",
+        "id": "7959",
+        "uid": "7b78b672-7431-4759-9291-2125e6df77c4",
+        "siteId": 1,
+        "typeHandle": "accordionItem",
+        "moduleTitle": "Technical information",
+        "text": "<p>Find all product documents and manuals <a href=\"https://help.zaptec.com/hc/en-001/articles/360017688118-parishes-Documents-and-manuals\" target=\"_blank\" rel=\"noreferrer noopener\">here.</a></p>",
+        "columns": "3",
+        "children": []
+      },
+      "modules_accordionGroup_BlockType:{\"uid\":\"0a29c781-3af8-458c-b5fe-69e90650635e\",\"siteId\":1,\"id\":\"7957\"}": {
+        "__typename": "modules_accordionGroup_BlockType",
+        "id": "7957",
+        "uid": "0a29c781-3af8-458c-b5fe-69e90650635e",
+        "siteId": 1,
+        "typeHandle": "accordionGroup",
+        "moduleTitle": "Specifications",
+        "children": [
+          {
+            "__ref": "modules_accordionItem_BlockType:{\"uid\":\"7b78b672-7431-4759-9291-2125e6df77c4\",\"siteId\":1,\"id\":\"7959\"}"
+          }
+        ]
+      },
+      "modules_column_BlockType:{\"uid\":\"f064358e-aa4d-421f-854a-623e27564d01\",\"siteId\":1,\"id\":\"54503\"}": {
+        "__typename": "modules_column_BlockType",
+        "id": "54503",
+        "uid": "f064358e-aa4d-421f-854a-623e27564d01",
+        "siteId": 1,
+        "moduleTitle": "One charger, six colours",
+        "text": "<p>Blend in or stand out – choose from six refined colours</p>"
+      },
+      "modules_product_BlockType:{\"uid\":\"d844de38-273e-4e1b-b8e3-7e60809596cc\",\"siteId\":1,\"id\":\"2932\"}": {
+        "__typename": "modules_product_BlockType",
+        "id": "2932",
+        "uid": "d844de38-273e-4e1b-b8e3-7e60809596cc",
+        "siteId": 1,
+        "moduleTitle": "Explore parishes",
+        "typeHandle": "product",
+        "chargers": ["zaptecGo"],
+        "chargers({\"label\":true})": ["parishes"],
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Find an installer",
+          "url": "http://127.0.0.1:5500/find-an-installer",
+          "type": "entry",
+          "title": null
+        },
+        "children": [
+          {
+            "__ref": "modules_column_BlockType:{\"uid\":\"f064358e-aa4d-421f-854a-623e27564d01\",\"siteId\":1,\"id\":\"54503\"}"
+          }
+        ]
+      },
+      "mediaElement_vimeo_BlockType:{\"uid\":\"859929bd-1dfc-4352-ac0e-bd7de838d380\",\"siteId\":1,\"id\":\"576809\"}": {
+        "__typename": "mediaElement_vimeo_BlockType",
+        "id": "576809",
+        "uid": "859929bd-1dfc-4352-ac0e-bd7de838d380",
+        "siteId": 1,
+        "sdVideo": "https://player.vimeo.com/progressive_redirect/playback/909064396/rendition/540p/file.mp4?loc=external&signature=1afb8f32f6c588093b098c784a7273e15660122511a17dceeab1d3dc8fcb94ff",
+        "typeHandle": "vimeo",
+        "hdVideo": "https://player.vimeo.com/progressive_redirect/playback/909064396/rendition/1080p/file.mp4?loc=external&signature=7d16a6e1e9d7b752789f6eac5bedfa78142a1dc3424fba154e99976ea2788362",
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": true,
+            "controls": false,
+            "loop": true,
+            "muted": true
+          }
+        ],
+        "posterImage": []
+      },
+      "modules_tag_BlockType:{\"uid\":\"4c7a2ec3-eda7-4b9f-a148-5f7cb3b55cab\",\"siteId\":1,\"id\":\"3007\"}": {
+        "__typename": "modules_tag_BlockType",
+        "id": "3007",
+        "uid": "4c7a2ec3-eda7-4b9f-a148-5f7cb3b55cab",
+        "siteId": 1,
+        "typeHandle": "tag",
+        "moduleTitle": "User control and access"
+      },
+      "modules_tag_BlockType:{\"uid\":\"74d64557-6b37-4262-b974-7221d4f4b227\",\"siteId\":1,\"id\":\"3008\"}": {
+        "__typename": "modules_tag_BlockType",
+        "id": "3008",
+        "uid": "74d64557-6b37-4262-b974-7221d4f4b227",
+        "siteId": 1,
+        "typeHandle": "tag",
+        "moduleTitle": "See charging history"
+      },
+      "modules_tag_BlockType:{\"uid\":\"e26639c9-0110-4c7e-816d-90ba914d9a30\",\"siteId\":1,\"id\":\"3010\"}": {
+        "__typename": "modules_tag_BlockType",
+        "id": "3010",
+        "uid": "e26639c9-0110-4c7e-816d-90ba914d9a30",
+        "siteId": 1,
+        "typeHandle": "tag",
+        "moduleTitle": "Remote control – give access and lock cable"
+      },
+      "modules_tags_BlockType:{\"uid\":\"5d23b37f-8da9-46f4-ac52-b7fcead27420\",\"siteId\":1,\"id\":\"2949\"}": {
+        "__typename": "modules_tags_BlockType",
+        "id": "2949",
+        "uid": "5d23b37f-8da9-46f4-ac52-b7fcead27420",
+        "siteId": 1,
+        "typeHandle": "tags",
+        "moduleTitle": null,
+        "children": [
+          {
+            "__ref": "modules_tag_BlockType:{\"uid\":\"4c7a2ec3-eda7-4b9f-a148-5f7cb3b55cab\",\"siteId\":1,\"id\":\"3007\"}"
+          },
+          {
+            "__ref": "modules_tag_BlockType:{\"uid\":\"74d64557-6b37-4262-b974-7221d4f4b227\",\"siteId\":1,\"id\":\"3008\"}"
+          },
+          {
+            "__ref": "modules_tag_BlockType:{\"uid\":\"e26639c9-0110-4c7e-816d-90ba914d9a30\",\"siteId\":1,\"id\":\"3010\"}"
+          }
+        ]
+      },
+      "modules_buttonImage_BlockType:{\"uid\":\"9127325a-77d3-4c68-8f57-68a327b7d248\",\"siteId\":1,\"id\":\"5500\"}": {
+        "__typename": "modules_buttonImage_BlockType",
+        "id": "5500",
+        "uid": "9127325a-77d3-4c68-8f57-68a327b7d248",
+        "siteId": 1,
+        "typeHandle": "buttonImage",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Read more",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/products/zaptec-app",
+          "title": null
+        },
+        "image": []
+      },
+      "modules_buttonsImages_BlockType:{\"uid\":\"48d15709-1457-490a-9bba-e3494abe4aac\",\"siteId\":1,\"id\":\"3011\"}": {
+        "__typename": "modules_buttonsImages_BlockType",
+        "id": "3011",
+        "uid": "48d15709-1457-490a-9bba-e3494abe4aac",
+        "siteId": 1,
+        "typeHandle": "buttonsImages",
+        "children": [
+          {
+            "__ref": "modules_buttonImage_BlockType:{\"uid\":\"9127325a-77d3-4c68-8f57-68a327b7d248\",\"siteId\":1,\"id\":\"5500\"}"
+          }
+        ]
+      },
+      "modules_textAndMediaItem_BlockType:{\"uid\":\"5ded4eab-aafb-4af4-97ea-3eb40882f5fc\",\"siteId\":1,\"id\":\"2947\"}": {
+        "__typename": "modules_textAndMediaItem_BlockType",
+        "id": "2947",
+        "uid": "5ded4eab-aafb-4af4-97ea-3eb40882f5fc",
+        "siteId": 1,
+        "typeHandle": "textAndMediaItem",
+        "moduleTitle": "Explore all our charging features with the Zaptec App",
+        "plainText": "App",
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_vimeo_BlockType:{\"uid\":\"859929bd-1dfc-4352-ac0e-bd7de838d380\",\"siteId\":1,\"id\":\"576809\"}"
+          }
+        ],
+        "children": [
+          {
+            "__ref": "modules_tags_BlockType:{\"uid\":\"5d23b37f-8da9-46f4-ac52-b7fcead27420\",\"siteId\":1,\"id\":\"2949\"}"
+          },
+          {
+            "__ref": "modules_buttonsImages_BlockType:{\"uid\":\"48d15709-1457-490a-9bba-e3494abe4aac\",\"siteId\":1,\"id\":\"3011\"}"
+          }
+        ]
+      },
+      "mediaElement_vimeo_BlockType:{\"uid\":\"bcb66e23-d29e-4a45-8ef7-70eff4d80bb4\",\"siteId\":1,\"id\":\"86363\"}": {
+        "__typename": "mediaElement_vimeo_BlockType",
+        "id": "86363",
+        "uid": "bcb66e23-d29e-4a45-8ef7-70eff4d80bb4",
+        "siteId": 1,
+        "sdVideo": "https://player.vimeo.com/progressive_redirect/playback/909064274/rendition/1080p/file.mp4?loc=external&signature=a2ef8ad4891a102e33d463b19392e0d2d64abe667f0ad4d4948ab6d7236fe5e6",
+        "typeHandle": "vimeo",
+        "hdVideo": "https://player.vimeo.com/progressive_redirect/playback/909064274/rendition/1080p/file.mp4?loc=external&signature=a2ef8ad4891a102e33d463b19392e0d2d64abe667f0ad4d4948ab6d7236fe5e6",
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": true,
+            "controls": false,
+            "loop": true,
+            "muted": true
+          }
+        ],
+        "posterImage": []
+      },
+      "modules_tag_BlockType:{\"uid\":\"c72381c3-381d-422f-80e8-958bfe670e7a\",\"siteId\":1,\"id\":\"5515\"}": {
+        "__typename": "modules_tag_BlockType",
+        "id": "5515",
+        "uid": "c72381c3-381d-422f-80e8-958bfe670e7a",
+        "siteId": 1,
+        "typeHandle": "tag",
+        "moduleTitle": "Prevents circuit overload"
+      },
+      "modules_tag_BlockType:{\"uid\":\"f414283e-ac4b-4b5f-8ead-e1fac33493f9\",\"siteId\":1,\"id\":\"5516\"}": {
+        "__typename": "modules_tag_BlockType",
+        "id": "5516",
+        "uid": "f414283e-ac4b-4b5f-8ead-e1fac33493f9",
+        "siteId": 1,
+        "typeHandle": "tag",
+        "moduleTitle": "Auto-adjusted EV charging"
+      },
+      "modules_tag_BlockType:{\"uid\":\"1fa44656-baed-4e8e-a160-ee43a26e2a8c\",\"siteId\":1,\"id\":\"5517\"}": {
+        "__typename": "modules_tag_BlockType",
+        "id": "5517",
+        "uid": "1fa44656-baed-4e8e-a160-ee43a26e2a8c",
+        "siteId": 1,
+        "typeHandle": "tag",
+        "moduleTitle": "A tool to lower electricity bills"
+      },
+      "modules_tags_BlockType:{\"uid\":\"bd6ffda4-18bd-4b1a-a71b-5a0d03d551d1\",\"siteId\":1,\"id\":\"5514\"}": {
+        "__typename": "modules_tags_BlockType",
+        "id": "5514",
+        "uid": "bd6ffda4-18bd-4b1a-a71b-5a0d03d551d1",
+        "siteId": 1,
+        "typeHandle": "tags",
+        "moduleTitle": null,
+        "children": [
+          {
+            "__ref": "modules_tag_BlockType:{\"uid\":\"c72381c3-381d-422f-80e8-958bfe670e7a\",\"siteId\":1,\"id\":\"5515\"}"
+          },
+          {
+            "__ref": "modules_tag_BlockType:{\"uid\":\"f414283e-ac4b-4b5f-8ead-e1fac33493f9\",\"siteId\":1,\"id\":\"5516\"}"
+          },
+          {
+            "__ref": "modules_tag_BlockType:{\"uid\":\"1fa44656-baed-4e8e-a160-ee43a26e2a8c\",\"siteId\":1,\"id\":\"5517\"}"
+          }
+        ]
+      },
+      "modules_buttonImage_BlockType:{\"uid\":\"e93c6ba0-c1ae-47ad-bf63-2f7e16f3505a\",\"siteId\":1,\"id\":\"86365\"}": {
+        "__typename": "modules_buttonImage_BlockType",
+        "id": "86365",
+        "uid": "e93c6ba0-c1ae-47ad-bf63-2f7e16f3505a",
+        "siteId": 1,
+        "typeHandle": "buttonImage",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Read more",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/products/zaptec-sense",
+          "title": null
+        },
+        "image": []
+      },
+      "modules_buttonsImages_BlockType:{\"uid\":\"04641858-6da3-439a-9d78-7ac77753b761\",\"siteId\":1,\"id\":\"86364\"}": {
+        "__typename": "modules_buttonsImages_BlockType",
+        "id": "86364",
+        "uid": "04641858-6da3-439a-9d78-7ac77753b761",
+        "siteId": 1,
+        "typeHandle": "buttonsImages",
+        "children": [
+          {
+            "__ref": "modules_buttonImage_BlockType:{\"uid\":\"e93c6ba0-c1ae-47ad-bf63-2f7e16f3505a\",\"siteId\":1,\"id\":\"86365\"}"
+          }
+        ]
+      },
+      "modules_textAndMediaItem_BlockType:{\"uid\":\"e7fdee7d-78ce-4bc7-af0f-c37e55d1f148\",\"siteId\":1,\"id\":\"5512\"}": {
+        "__typename": "modules_textAndMediaItem_BlockType",
+        "id": "5512",
+        "uid": "e7fdee7d-78ce-4bc7-af0f-c37e55d1f148",
+        "siteId": 1,
+        "typeHandle": "textAndMediaItem",
+        "moduleTitle": "Monitor your building's energy use and adjust charging speed with Zaptec Sense",
+        "plainText": "Sense",
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_vimeo_BlockType:{\"uid\":\"bcb66e23-d29e-4a45-8ef7-70eff4d80bb4\",\"siteId\":1,\"id\":\"86363\"}"
+          }
+        ],
+        "children": [
+          {
+            "__ref": "modules_tags_BlockType:{\"uid\":\"bd6ffda4-18bd-4b1a-a71b-5a0d03d551d1\",\"siteId\":1,\"id\":\"5514\"}"
+          },
+          {
+            "__ref": "modules_buttonsImages_BlockType:{\"uid\":\"04641858-6da3-439a-9d78-7ac77753b761\",\"siteId\":1,\"id\":\"86364\"}"
+          }
+        ]
+      },
+      "modules_cta_BlockType:{\"uid\":\"fbcd12fd-7023-4cde-af6f-f3dfe4267a66\",\"siteId\":1,\"id\":\"954050\"}": {
+        "__typename": "modules_cta_BlockType",
+        "id": "954050",
+        "uid": "fbcd12fd-7023-4cde-af6f-f3dfe4267a66",
+        "siteId": 1,
+        "typeHandle": "cta",
+        "moduleTitle": "Quality and safety",
+        "color": {
+          "__typename": "color",
+          "class": "beige",
+          "color": ["{\"color\":\"#F9F3EB\"}"],
+          "label": "Beige"
+        },
+        "lightswitch": false,
+        "text": "<p>We're leading the way on quality and safety for EV chargers.</p>",
+        "button": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Read about our safety approach",
+          "type": "entry",
+          "url": "http://127.0.0.1:5500/company/quality-and-safety",
+          "title": null
+        },
+        "button2": {
+          "__typename": "linkField_Link",
+          "target": "",
+          "text": "Learn More",
+          "type": "entry",
+          "url": null,
+          "title": null
+        },
+        "mediaElement": []
+      },
+      "accessoryCategories_Category:{\"uid\":\"ef929e2f-c9e5-49dd-a8ac-0eda6802f087\",\"siteId\":1,\"id\":\"5441\"}": {
+        "__typename": "accessoryCategories_Category",
+        "id": "5441",
+        "siteId": 1,
+        "uid": "ef929e2f-c9e5-49dd-a8ac-0eda6802f087",
+        "title": "parishes"
+      },
+      "uploads_Asset:{\"uid\":\"c16dede3-33f3-4c9d-a969-7ad6592aec59\",\"siteId\":1,\"id\":\"884206\"}": {
+        "__typename": "uploads_Asset",
+        "embeddedAsset": null,
+        "id": "884206",
+        "uid": "c16dede3-33f3-4c9d-a969-7ad6592aec59",
+        "siteId": 1,
+        "kind": "image",
+        "width": 1280,
+        "height": 1280,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Moss_Green_1500px_00040.png",
+        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Moss_Green_1500px_00040.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "mediaElement_asset_BlockType:{\"uid\":\"6dcaa252-0c11-436a-a20f-589ed148507a\",\"siteId\":1,\"id\":\"8303\"}": {
+        "__typename": "mediaElement_asset_BlockType",
+        "id": "8303",
+        "uid": "6dcaa252-0c11-436a-a20f-589ed148507a",
+        "siteId": 1,
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": false,
+            "controls": true,
+            "loop": false,
+            "muted": false
+          }
+        ],
+        "posterImage": [],
+        "asset": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"c16dede3-33f3-4c9d-a969-7ad6592aec59\",\"siteId\":1,\"id\":\"884206\"}"
+          }
+        ]
+      },
+      "mediaItems_items_BlockType:{\"uid\":\"f3b14dec-a038-4764-a4d0-1798e094ed2d\",\"siteId\":1,\"id\":\"8302\"}": {
+        "__typename": "mediaItems_items_BlockType",
+        "id": "8302",
+        "uid": "f3b14dec-a038-4764-a4d0-1798e094ed2d",
+        "siteId": 1,
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_asset_BlockType:{\"uid\":\"6dcaa252-0c11-436a-a20f-589ed148507a\",\"siteId\":1,\"id\":\"8303\"}"
+          }
+        ]
+      },
+      "accessories_default_Entry:{\"uid\":\"d490595d-fe08-47de-bf13-e15438ceb9dd\",\"siteId\":1,\"id\":\"8188\"}": {
+        "__typename": "accessories_default_Entry",
+        "id": "8188",
+        "uid": "d490595d-fe08-47de-bf13-e15438ceb9dd",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-moss-green",
+        "title": "Front cover - parishes - Moss Green",
+        "mediaItems": [
+          {
+            "__ref": "mediaItems_items_BlockType:{\"uid\":\"f3b14dec-a038-4764-a4d0-1798e094ed2d\",\"siteId\":1,\"id\":\"8302\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"5c409c42-3f83-4d14-b99d-6ff6dcaba660\",\"siteId\":1,\"id\":\"884204\"}": {
+        "__typename": "uploads_Asset",
+        "embeddedAsset": null,
+        "id": "884204",
+        "uid": "5c409c42-3f83-4d14-b99d-6ff6dcaba660",
+        "siteId": 1,
+        "kind": "image",
+        "width": 1280,
+        "height": 1280,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Asphalt_Black_1500px_00040.png",
+        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Asphalt_Black_1500px_00040.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "mediaElement_asset_BlockType:{\"uid\":\"defdcb24-7f96-4079-bb09-2072ba36e5a4\",\"siteId\":1,\"id\":\"8499\"}": {
+        "__typename": "mediaElement_asset_BlockType",
+        "id": "8499",
+        "uid": "defdcb24-7f96-4079-bb09-2072ba36e5a4",
+        "siteId": 1,
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": false,
+            "controls": true,
+            "loop": false,
+            "muted": false
+          }
+        ],
+        "posterImage": [],
+        "asset": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"5c409c42-3f83-4d14-b99d-6ff6dcaba660\",\"siteId\":1,\"id\":\"884204\"}"
+          }
+        ]
+      },
+      "mediaItems_items_BlockType:{\"uid\":\"78fd6d48-68c3-4f33-87a5-32820aab66be\",\"siteId\":1,\"id\":\"8498\"}": {
+        "__typename": "mediaItems_items_BlockType",
+        "id": "8498",
+        "uid": "78fd6d48-68c3-4f33-87a5-32820aab66be",
+        "siteId": 1,
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_asset_BlockType:{\"uid\":\"defdcb24-7f96-4079-bb09-2072ba36e5a4\",\"siteId\":1,\"id\":\"8499\"}"
+          }
+        ]
+      },
+      "accessories_default_Entry:{\"uid\":\"5191687f-0ea0-406f-a7c7-e18e584fafd4\",\"siteId\":1,\"id\":\"8497\"}": {
+        "__typename": "accessories_default_Entry",
+        "id": "8497",
+        "uid": "5191687f-0ea0-406f-a7c7-e18e584fafd4",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-asphalt-black",
+        "title": "Front cover - parishes - Asphalt Black",
+        "mediaItems": [
+          {
+            "__ref": "mediaItems_items_BlockType:{\"uid\":\"78fd6d48-68c3-4f33-87a5-32820aab66be\",\"siteId\":1,\"id\":\"8498\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"6d033a31-b686-4e25-afa3-5b964ed1da3f\",\"siteId\":1,\"id\":\"884207\"}": {
+        "__typename": "uploads_Asset",
+        "embeddedAsset": null,
+        "id": "884207",
+        "uid": "6d033a31-b686-4e25-afa3-5b964ed1da3f",
+        "siteId": 1,
+        "kind": "image",
+        "width": 1280,
+        "height": 1280,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_white_1500px_00040-1.png",
+        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_white_1500px_00040-1.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "mediaElement_asset_BlockType:{\"uid\":\"3dfa8780-9ab1-4f84-ace8-d12ff0ccc5fb\",\"siteId\":1,\"id\":\"8327\"}": {
+        "__typename": "mediaElement_asset_BlockType",
+        "id": "8327",
+        "uid": "3dfa8780-9ab1-4f84-ace8-d12ff0ccc5fb",
+        "siteId": 1,
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": false,
+            "controls": true,
+            "loop": false,
+            "muted": false
+          }
+        ],
+        "posterImage": [],
+        "asset": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"6d033a31-b686-4e25-afa3-5b964ed1da3f\",\"siteId\":1,\"id\":\"884207\"}"
+          }
+        ]
+      },
+      "mediaItems_items_BlockType:{\"uid\":\"8fc599ab-1405-4fd7-9186-dad0b9212a2a\",\"siteId\":1,\"id\":\"8326\"}": {
+        "__typename": "mediaItems_items_BlockType",
+        "id": "8326",
+        "uid": "8fc599ab-1405-4fd7-9186-dad0b9212a2a",
+        "siteId": 1,
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_asset_BlockType:{\"uid\":\"3dfa8780-9ab1-4f84-ace8-d12ff0ccc5fb\",\"siteId\":1,\"id\":\"8327\"}"
+          }
+        ]
+      },
+      "accessories_default_Entry:{\"uid\":\"dea11c56-a92b-4368-92c4-aad10b31ffb8\",\"siteId\":1,\"id\":\"8325\"}": {
+        "__typename": "accessories_default_Entry",
+        "id": "8325",
+        "uid": "dea11c56-a92b-4368-92c4-aad10b31ffb8",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-cloud-white",
+        "title": "Front cover - parishes - Cloud White",
+        "mediaItems": [
+          {
+            "__ref": "mediaItems_items_BlockType:{\"uid\":\"8fc599ab-1405-4fd7-9186-dad0b9212a2a\",\"siteId\":1,\"id\":\"8326\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"f601f8ab-dbc2-426e-87c5-89cbf9a18f3a\",\"siteId\":1,\"id\":\"884234\"}": {
+        "__typename": "uploads_Asset",
+        "embeddedAsset": null,
+        "id": "884234",
+        "uid": "f601f8ab-dbc2-426e-87c5-89cbf9a18f3a",
+        "siteId": 1,
+        "kind": "image",
+        "width": 1280,
+        "height": 1280,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v010_Rock_Grey_1500px_00040.png",
+        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v010_Rock_Grey_1500px_00040.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "mediaElement_asset_BlockType:{\"uid\":\"f40eed10-e7dc-400d-af27-a379f70420bc\",\"siteId\":1,\"id\":\"8527\"}": {
+        "__typename": "mediaElement_asset_BlockType",
+        "id": "8527",
+        "uid": "f40eed10-e7dc-400d-af27-a379f70420bc",
+        "siteId": 1,
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": false,
+            "controls": true,
+            "loop": false,
+            "muted": false
+          }
+        ],
+        "posterImage": [],
+        "asset": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"f601f8ab-dbc2-426e-87c5-89cbf9a18f3a\",\"siteId\":1,\"id\":\"884234\"}"
+          }
+        ]
+      },
+      "mediaItems_items_BlockType:{\"uid\":\"0139488b-9713-42c2-8ee4-a54220667591\",\"siteId\":1,\"id\":\"8526\"}": {
+        "__typename": "mediaItems_items_BlockType",
+        "id": "8526",
+        "uid": "0139488b-9713-42c2-8ee4-a54220667591",
+        "siteId": 1,
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_asset_BlockType:{\"uid\":\"f40eed10-e7dc-400d-af27-a379f70420bc\",\"siteId\":1,\"id\":\"8527\"}"
+          }
+        ]
+      },
+      "accessories_default_Entry:{\"uid\":\"5ead991e-33e6-499f-a1b6-a3bba886f157\",\"siteId\":1,\"id\":\"8525\"}": {
+        "__typename": "accessories_default_Entry",
+        "id": "8525",
+        "uid": "5ead991e-33e6-499f-a1b6-a3bba886f157",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-rock-grey",
+        "title": "Front cover - parishes - Rock Grey",
+        "mediaItems": [
+          {
+            "__ref": "mediaItems_items_BlockType:{\"uid\":\"0139488b-9713-42c2-8ee4-a54220667591\",\"siteId\":1,\"id\":\"8526\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"73ec69a6-198d-45bb-9069-0721f009744d\",\"siteId\":1,\"id\":\"884205\"}": {
+        "__typename": "uploads_Asset",
+        "embeddedAsset": null,
+        "id": "884205",
+        "uid": "73ec69a6-198d-45bb-9069-0721f009744d",
+        "siteId": 1,
+        "kind": "image",
+        "width": 1280,
+        "height": 1280,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Midnight_Blue_1500px_00040.png",
+        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Midnight_Blue_1500px_00040.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "mediaElement_asset_BlockType:{\"uid\":\"e30a4155-dd86-4f58-bb24-ca166b233b2a\",\"siteId\":1,\"id\":\"8313\"}": {
+        "__typename": "mediaElement_asset_BlockType",
+        "id": "8313",
+        "uid": "e30a4155-dd86-4f58-bb24-ca166b233b2a",
+        "siteId": 1,
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": false,
+            "controls": true,
+            "loop": false,
+            "muted": false
+          }
+        ],
+        "posterImage": [],
+        "asset": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"73ec69a6-198d-45bb-9069-0721f009744d\",\"siteId\":1,\"id\":\"884205\"}"
+          }
+        ]
+      },
+      "mediaItems_items_BlockType:{\"uid\":\"38ed6ae1-3606-4610-b671-fb28873cec3e\",\"siteId\":1,\"id\":\"8312\"}": {
+        "__typename": "mediaItems_items_BlockType",
+        "id": "8312",
+        "uid": "38ed6ae1-3606-4610-b671-fb28873cec3e",
+        "siteId": 1,
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_asset_BlockType:{\"uid\":\"e30a4155-dd86-4f58-bb24-ca166b233b2a\",\"siteId\":1,\"id\":\"8313\"}"
+          }
+        ]
+      },
+      "accessories_default_Entry:{\"uid\":\"ed7e36ed-19a1-4d8f-9ca1-93d4340ac5c6\",\"siteId\":1,\"id\":\"8311\"}": {
+        "__typename": "accessories_default_Entry",
+        "id": "8311",
+        "uid": "ed7e36ed-19a1-4d8f-9ca1-93d4340ac5c6",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-midnight-blue",
+        "title": "Front cover - parishes - Midnight Blue",
+        "mediaItems": [
+          {
+            "__ref": "mediaItems_items_BlockType:{\"uid\":\"38ed6ae1-3606-4610-b671-fb28873cec3e\",\"siteId\":1,\"id\":\"8312\"}"
+          }
+        ]
+      },
+      "uploads_Asset:{\"uid\":\"eff73438-113c-413d-8150-8f60929886d7\",\"siteId\":1,\"id\":\"884208\"}": {
+        "__typename": "uploads_Asset",
+        "embeddedAsset": null,
+        "id": "884208",
+        "uid": "eff73438-113c-413d-8150-8f60929886d7",
+        "siteId": 1,
+        "kind": "image",
+        "width": 1280,
+        "height": 1280,
+        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Wood_Brown_1500px_00040.png",
+        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Wood_Brown_1500px_00040.png",
+        "alt": null,
+        "text": null,
+        "plainText": null,
+        "plainText2": null
+      },
+      "mediaElement_asset_BlockType:{\"uid\":\"adf1878d-7347-44a2-be87-241f9e853174\",\"siteId\":1,\"id\":\"8513\"}": {
+        "__typename": "mediaElement_asset_BlockType",
+        "id": "8513",
+        "uid": "adf1878d-7347-44a2-be87-241f9e853174",
+        "siteId": 1,
+        "videoSettings": [
+          {
+            "__typename": "videoSettings_TableRow",
+            "autoplay": false,
+            "controls": true,
+            "loop": false,
+            "muted": false
+          }
+        ],
+        "posterImage": [],
+        "asset": [
+          {
+            "__ref": "uploads_Asset:{\"uid\":\"eff73438-113c-413d-8150-8f60929886d7\",\"siteId\":1,\"id\":\"884208\"}"
+          }
+        ]
+      },
+      "mediaItems_items_BlockType:{\"uid\":\"c7e434e4-7e17-45d6-88e4-017aea9e6764\",\"siteId\":1,\"id\":\"8512\"}": {
+        "__typename": "mediaItems_items_BlockType",
+        "id": "8512",
+        "uid": "c7e434e4-7e17-45d6-88e4-017aea9e6764",
+        "siteId": 1,
+        "mediaElement": [
+          {
+            "__ref": "mediaElement_asset_BlockType:{\"uid\":\"adf1878d-7347-44a2-be87-241f9e853174\",\"siteId\":1,\"id\":\"8513\"}"
+          }
+        ]
+      },
+      "accessories_default_Entry:{\"uid\":\"afe3a072-767e-4145-a8a4-eaccb0d2ad7f\",\"siteId\":1,\"id\":\"8511\"}": {
+        "__typename": "accessories_default_Entry",
+        "id": "8511",
+        "uid": "afe3a072-767e-4145-a8a4-eaccb0d2ad7f",
+        "siteId": 1,
+        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-wood-brown",
+        "title": "Front cover parishes Wood Brown",
+        "mediaItems": [
+          {
+            "__ref": "mediaItems_items_BlockType:{\"uid\":\"c7e434e4-7e17-45d6-88e4-017aea9e6764\",\"siteId\":1,\"id\":\"8512\"}"
+          }
+        ]
+      }
+    },
+    "uri": "parishes",
+    "preview": false,
+    "previewData": null,
+    "fallbacks": {},
+    "routeProps": {
+      "uri": "parishes",
+      "seoSlug": "parishes",
+      "fullHero": false
+    }
+  },
+  "__N_SSG": true
+}
