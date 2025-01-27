@@ -1,0 +1,77 @@
+(self.__BUILD_MANIFEST = (function (s, t, a, e, c, i, m) {
+  return {
+    __rewrites: {
+      afterFiles: [
+        { has: s, source: "/autodiscover.xml", destination: s },
+        { has: s, source: "/autodiscover/autodiscover.xml", destination: s },
+      ],
+      beforeFiles: [],
+      fallback: [],
+    },
+    __routerFilterStatic: {
+      numItems: 0,
+      errorRate: 1e-4,
+      numBits: 0,
+      numHashes: e,
+      bitArray: [],
+    },
+    __routerFilterDynamic: {
+      numItems: 0,
+      errorRate: 1e-4,
+      numBits: t,
+      numHashes: e,
+      bitArray: [],
+    },
+    "/404": [
+      c,
+      i,
+      "static/chunks/389-ca32d794cb313058.js",
+      m,
+      "static/chunks/pages/404-764fc5a41ff7ea2c.js",
+    ],
+    "/_error": ["static/chunks/pages/_error-c66139fcb5282be1.js"],
+    "/humans.txt": ["static/chunks/pages/humans.txt-fcca6fb257fcc9ec.js"],
+    "/robots.txt": ["static/chunks/pages/robots.txt-a01bc553f21ef7b7.js"],
+    "/sitemap-empty.xsl": [
+      "static/chunks/pages/sitemap-empty.xsl-b14ad511db5f0403.js",
+    ],
+    "/sitemap.xml": ["static/chunks/pages/sitemap.xml-28663c6015fda79b.js"],
+    "/sitemap.xsl": ["static/chunks/pages/sitemap.xsl-40e61cb45924c46e.js"],
+    "/sitemaps/[file]": [
+      "static/chunks/pages/sitemaps/[file]-c533c9d91161dc7e.js",
+    ],
+    "/sitemaps-1-sitemap.xml": [
+      "static/chunks/pages/sitemaps-1-sitemap.xml-058809eab9876b93.js",
+    ],
+    "/[[...slug]]": [
+      c,
+      i,
+      "static/css/12e25e074e19d96a.css",
+      "static/chunks/1231-3561e3ee166c9658.js",
+      m,
+      "static/chunks/pages/[[...slug]]-6edab9866698d321.js",
+    ],
+    sortedPages: [
+      "/404",
+      "/_app",
+      "/_error",
+      "/humans.txt",
+      "/robots.txt",
+      "/sitemap-empty.xsl",
+      "/sitemap.xml",
+      "/sitemap.xsl",
+      "/sitemaps/[file]",
+      "/sitemaps-1-sitemap.xml",
+      "/[[...slug]]",
+    ],
+  };
+})(
+  void 0,
+  0,
+  0,
+  NaN,
+  "static/chunks/94726e6d-7de4dd36a0381720.js",
+  "static/chunks/480-a646616f0b9746af.js",
+  "static/chunks/5027-de2900f60e67ed20.js"
+)),
+  self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
