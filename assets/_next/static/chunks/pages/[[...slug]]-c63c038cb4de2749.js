@@ -2407,7 +2407,7 @@
       let J = (e) => {
         var n;
         let { globals: t } = e,
-          l = (0, H.useTranslations)("common"),
+          l = (0, H.useTranslations)(""),
           i = (0, B.useRef)(null),
           r = (0, B.useRef)(null),
           a = (0, B.useRef)(null),
@@ -2562,7 +2562,7 @@
                         ease: "power2.out",
                       });
                     },
-                    children: l("scrollDown"),
+                    children: l("Scroll down"),
                   }),
                 ],
               }),
@@ -2932,7 +2932,7 @@
               return null;
             let c = d.entry[l];
             return (0, T.jsx)("section", {
-              className: "modules ".concat(t),
+              className: "modules".concat(t),
               children: c.map((e, n) => {
                 let t = eV[e.typeHandle],
                   i = { top: !1, bottom: !1 };
@@ -3051,7 +3051,7 @@
       let e7 = (e) => {
           let { entry: n, className: t, globals: l } = e,
             { ancestors: i, level: r } = n || {},
-            a = (0, e6.useTranslations)("common");
+            a = (0, e6.useTranslations)("");
           return 1 !== r && (null == i ? void 0 : i.length)
             ? (0, T.jsx)("div", {
                 className:
@@ -3064,7 +3064,7 @@
                       href: l.currentSite.fullUrl.replace(/\/$/, ""),
                       className:
                         "underline transition-colors duration-300 hover:text-asphalt",
-                      children: a("home"),
+                      children: a("Home"),
                     }),
                     (0, T.jsx)("span", { children: "/" }),
                     i.map((e, n) =>
@@ -3104,7 +3104,7 @@
             u = (0, B.useRef)(null),
             m = (0, B.useRef)(null);
           return (0, T.jsxs)("header", {
-            className: "r-pt-[5.375] mb-[3.75rem] sm:r-mb-[7.5]",
+            className: "r-pt-[5.375] mb-[3.75rem] sm:r-mb-[7.5] pricing-mb",
             ref: m,
             children: [
               (0, T.jsx)(e7, {
@@ -3113,7 +3113,7 @@
                 globals: d,
               }),
               (0, T.jsxs)("div", {
-                className: "r-pt-[6.25] text-center container big",
+                className: "r-pt-[6.25] text-center container big pricing-padding",
                 children: [
                   (0, T.jsx)("h1", {
                     className: "".concat(
@@ -3238,7 +3238,7 @@
       let nn = (0, Z.WQ)("ui")((e) => {
         var n, t, l, i;
         let { heroEl: r, ui: a } = e,
-          s = (0, H.useTranslations)("common"),
+          s = (0, H.useTranslations)(""),
           o = (0, B.useRef)(null),
           d = (0, B.useRef)(null);
         return (
@@ -3369,7 +3369,7 @@
                     });
                   },
                   children: [
-                    s("scrollDown"),
+                    s("Scroll down"),
                     (0, T.jsxs)("svg", {
                       width: "24",
                       height: "25",
@@ -3542,7 +3542,7 @@
       var nc = t(25828);
       let nu = (e) => {
           let { entry: n } = e,
-            t = (0, H.useTranslations)("common"),
+            t = (0, H.useTranslations)(""),
             { data: l } = (0, M.I)(no, { variables: { siteId: n.siteId } }),
             i = null == l ? void 0 : l.entries,
             r =
@@ -4054,7 +4054,7 @@
         let { entry: l } = e,
           i = (0, nh.useRouter)(),
           r = nx(),
-          a = (0, H.useTranslations)("common"),
+          a = (0, H.useTranslations)(""),
           s = Number(i.query.page) || 0,
           [o, d] = (0, B.useState)(!1),
           { data: c } = (0, M.I)(r, {
@@ -4460,7 +4460,7 @@
           let { entry: l, ui: i } = e,
             r = (0, nh.useRouter)(),
             a = (0, n$.A)(),
-            s = (0, H.useTranslations)("common"),
+            s = (0, H.useTranslations)(""),
             o = Number(r.query.page) || 0,
             [d, c] = (0, B.useState)(!1),
             { data: u, loading: m } = (0, M.I)(a, {
@@ -5196,7 +5196,7 @@
           calendar: (e) => {
             let { block: n } = e,
               [t, l] = (0, B.useState)(!1),
-              i = (0, H.useTranslations)("common"),
+              i = (0, H.useTranslations)(""),
               r = n.calendarItems || [],
               a = r.length > 7 ? r.slice(0, 7) : r,
               s = r.length > 7 ? r.slice(7) : [];
@@ -5418,7 +5418,7 @@
             var n, t, l;
             let { block: i } = e,
               [r, a] = (0, B.useState)(!1),
-              s = (0, H.useTranslations)("common"),
+              s = (0, H.useTranslations)(""),
               o =
                 (null === (n = i.table) || void 0 === n ? void 0 : n.rows) ||
                 [],
@@ -5973,7 +5973,7 @@
         t$ = t(22360);
       let tE = (e) => {
           let n = (0, t$.y)(),
-            t = (0, H.useTranslations)("common"),
+            t = (0, H.useTranslations)(""),
             { query: l, refine: i } = (0, tT.V)(e),
             { status: r } = (0, tM.J)(),
             [a, s] = (0, B.useState)(l),
@@ -6069,7 +6069,7 @@
           });
         },
         tS = () => {
-          let e = (0, H.useTranslations)("common"),
+          let e = (0, H.useTranslations)(""),
             { indexUiState: n, results: t } = (0, tM.J)();
           return (0, T.jsx)("p", {
             className:
@@ -6092,7 +6092,7 @@
         tC = tA()("1KCYZ3OU4D", "085f6f00ce6efa0cada1d28649ffdb8e"),
         tD = (e) => {
           let { globals: n } = e,
-            t = (0, H.useTranslations)("common"),
+            t = (0, H.useTranslations)(""),
             { currentSite: l } = n,
             { siteId: i } = l,
             [r, a] = (0, B.useState)(!0);
@@ -6451,7 +6451,7 @@
           var n, t, l, i, r;
           let { className: a, globals: s } = e,
             { currentSite: o, currentRoute: d } = s || {},
-            c = (0, e6.useTranslations)("common"),
+            c = (0, e6.useTranslations)(""),
             { data: u } = (0, M.I)(tQ, {
               variables: { siteId: null == o ? void 0 : o.siteId },
             }),
@@ -6526,7 +6526,7 @@
                       href: null == o ? void 0 : o.fullUrl.replace(/\/$/, ""),
                       className:
                         "underline transition-colors duration-300 hover:text-asphalt",
-                      children: c("home"),
+                      children: c("Home"),
                     }),
                     (0, T.jsx)("span", { children: "/" }),
                     p.map((e, n) =>
@@ -6656,7 +6656,7 @@
           var n, t;
           let { data: l, className: i, globals: r } = e,
             { entry: a, fallbackBreadcrumb: s } = l || {},
-            o = (0, e6.useTranslations)("common"),
+            o = (0, e6.useTranslations)(""),
             d = (null == s ? void 0 : s.length) > 0 ? [s[0]] : [];
           return (
             (null == a
@@ -6679,7 +6679,7 @@
                     href: r.currentSite.fullUrl.replace(/\/$/, ""),
                     className:
                       "underline transition-colors duration-300 hover:text-asphalt",
-                    children: o("home"),
+                    children: o("Home"),
                   }),
                   (0, T.jsx)("span", { children: "/" }),
                   d.map((e, n) => {
@@ -6823,7 +6823,7 @@
       let t1 = (e) => {
         var n, t;
         let { globals: l } = e,
-          i = (0, H.useTranslations)("common"),
+          i = (0, H.useTranslations)(""),
           [r, a] = (0, B.useState)([]),
           { currentSite: s, routeProps: o } = l,
           [d] = (0, tp._)(tG, {
@@ -7088,7 +7088,7 @@
       let t5 = (0, E.J1)(t2(), S.A, S.A),
         t4 = (e) => {
           let { quote: n, author: t, url: l, imgSrc: i } = e,
-            r = (0, H.useTranslations)("common"),
+            r = (0, H.useTranslations)(""),
             a = ""
               .concat(e2()(n, { allowedTags: [] }))
               .concat(t ? " - ".concat(t) : ""),
@@ -7502,7 +7502,7 @@
           var n, t;
           let { data: l, className: i, globals: r } = e,
             { entry: a, fallbackBreadcrumb: s } = l || {},
-            o = (0, e6.useTranslations)("common"),
+            o = (0, e6.useTranslations)(""),
             d = (null == s ? void 0 : s.length) > 0 ? [s[0]] : [];
           return (
             (null == a
@@ -7525,7 +7525,7 @@
                     href: r.currentSite.fullUrl.replace(/\/$/, ""),
                     className:
                       "underline transition-colors duration-300 hover:text-asphalt",
-                    children: o("home"),
+                    children: o("Home"),
                   }),
                   (0, T.jsx)("span", { children: "/" }),
                   d.map((e, n) => {
@@ -7561,7 +7561,7 @@
         lr = (e) => {
           var n;
           let { globals: t } = e,
-            l = (0, H.useTranslations)("common"),
+            l = (0, H.useTranslations)(""),
             [i, r] = (0, B.useState)([]),
             { currentSite: a, routeProps: s } = t,
             [o] = (0, tp._)(lt, {
@@ -8122,7 +8122,7 @@
         l_ = (0, Z.WQ)("ui")(
           (0, Z.PA)((e) => {
             let { ui: n } = e,
-              t = (0, H.useTranslations)("common");
+              t = (0, H.useTranslations)("");
             return (0, T.jsx)("button", {
               "aria-label": t("button.openMenu"),
               className:
@@ -8171,184 +8171,134 @@
             o =
               (null == l
                 ? void 0
-                : null === (t = l.filter((e) => e.uid === i.open)) ||
-                  void 0 === t
+                : null === (t = l.filter((e) => e.uid === i.open)) || void 0 === t
                 ? void 0
                 : null === (n = t[0]) || void 0 === n
                 ? void 0
                 : n.sub) || [],
             d = (null == s ? void 0 : s.asPath) || "";
+              
+          // Initialize hover state
+          let hovering = false;
+        
+          // Function to handle mouse enter
+          function handleMouseEnter() {
+            console.log("Mouse Enter Triggered");
+            if (typeof r !== "function") {
+              console.error("setOpen is not a function or is undefined");
+              return;
+            }
+        
+            if (i.timeout) {
+              clearTimeout(i.timeout);
+            }
+        
+            hovering = true;
+            if (e.uid) {
+              r({ open: e.uid, timeout: null });
+            } else {
+              console.error("e.uid is undefined or invalid");
+            }
+          }
+        
+          // Function to handle mouse leave
+          function handleMouseLeave() {
+            console.log("Mouse Leave Triggered");
+            if (typeof r !== "function") {
+              console.error("setOpen is not a function or is undefined");
+              return;
+            }
+        
+            hovering = false;
+            let timeout = setTimeout(() => {
+              if (!hovering) {
+                r({ open: false, timeout: null });
+              }
+            }, 500);
+            r((n) => ({ ...n, timeout }));
+          }
+        
           return (0, T.jsx)(np.N, {
             mode: "wait",
             children:
               (null == o ? void 0 : o.length) > 0 &&
-              (0, T.jsx)(eW.P.div, {
-                className:
-                  "secondary-menu-dropdown absolute left-0 top-full w-full bg-white z-50 overflow-hidden border-b border-t border-grey-border",
-                initial: { opacity: 0, height: 0 },
-                animate: { opacity: 1, height: "auto" },
-                exit: { opacity: 0, height: 0 },
-                onMouseEnter: () => {
-                  i.timeout && clearTimeout(i.timeout),
-                    r({ open: i.open, timeout: null });
-                },
-                onMouseLeave: () => {
-                  let e = setTimeout(() => {
-                    r({ open: !1, timeout: null });
-                  }, 500);
-                  r((n) => ({ ...n, timeout: e }));
-                },
-                children: (0, T.jsxs)("div", {
-                  className: "inner container full flex items-stretch h-full",
-                  children: [
-                    o
-                      .filter((e) => "default" === e.typeHandle)
-                      .map((e) => {
-                        let { navigationLink: n, tag: t } = e || {};
-                        if (!(null == n ? void 0 : n.href)) return null;
-                        if ("custom" === n.type && "#blank" === n.href) {
-                          let n = e.sub.some((e) => {
-                            let n = new URL(e.navigationLink.href).pathname;
-                            return d.includes(n);
-                          });
-                          return (0, T.jsxs)(
-                            "div",
-                            {
-                              className:
-                                "primary-menu-item r-text-lg border-r border-grey-border first:border-l group/main relative flex flex-col items-start gap-2 ".concat(
-                                  n ? "active" : "",
-                                  " r-w-[13.75] r-p-6"
-                                ),
-                              children: [
-                                (0, T.jsx)("span", {
-                                  className: "block mb-2",
-                                  children: e.title,
-                                }),
-                                e.sub.map((t) => {
-                                  let { navigationLink: l } = t || {},
-                                    i = new URL(l.href).pathname,
-                                    r = d.includes(i);
-                                  return (0, T.jsx)(
-                                    e8.A,
-                                    {
-                                      href: l.href,
-                                      target: l.target,
-                                      title: l.title,
-                                      className:
-                                        "secondary-menu-item leading-none custom-underline "
-                                          .concat(
-                                            n ? " text-white" : " text-asphalt"
-                                          )
-                                          .concat(r ? " active" : ""),
-                                      onClick: () => {
-                                        a({
-                                          event: "menu_clicked",
-                                          menu: e.title,
-                                          menulocation: "Top bar",
-                                        });
-                                      },
-                                      children: (0, T.jsx)("span", {
-                                        className: "block",
-                                        children: t.title,
-                                      }),
-                                    },
-                                    t.uid
-                                  );
-                                }),
-                                t &&
-                                  (0, T.jsx)("span", {
-                                    className:
-                                      "tag inline-block r-text-xs px-3 rounded-button mt-2 self-start r-mb-6",
-                                    children: t,
-                                  }),
-                                (0, T.jsx)("span", {
-                                  className:
-                                    "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover/main:opacity-100 -translate-x-1/2 group-hover/main:translate-x-0",
-                                  children: (0, T.jsx)(nS.A, {
-                                    className: "w-3 stroke-white",
-                                  }),
-                                }),
-                              ],
-                            },
-                            e.uid
-                          );
-                        }
-                        let l = new URL(n.href).pathname,
-                          i = d.includes(l);
-                        return (0, T.jsxs)(
-                          e8.A,
+              (0, T.jsxs)(T.Fragment, {
+                children: [
+                  // Secondary menu
+                  (0, T.jsx)("div", {
+                    className: "secondary-menu",
+                    onMouseEnter: handleMouseEnter,
+                    onMouseLeave: handleMouseLeave,
+                    children: l.map((menuItem) => {
+                      if (menuItem.uid === e.uid) {
+                        return (0, T.jsx)(
+                          "div",
                           {
-                            href: n.href,
-                            target: n.target,
-                            title: n.title,
-                            className:
-                              "primary-menu-item r-text-lg border-r border-grey-border first:border-l group relative ".concat(
-                                i ? "active" : "",
-                                " r-w-[13.75] r-p-6"
-                              ),
-                            onClick: () => {
-                              a({
-                                event: "menu_clicked",
-                                menu: e.title,
-                                menulocation: "Top bar",
-                              });
-                            },
-                            children: [
-                              (0, T.jsx)("span", {
-                                className: "block",
-                                children: e.title,
-                              }),
-                              t &&
-                                (0, T.jsx)("span", {
-                                  className:
-                                    "tag inline-block r-text-xs px-3 rounded-button mt-2 r-mb-6",
-                                  children: t,
-                                }),
-                              (0, T.jsx)("span", {
-                                className:
-                                  "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover:opacity-100 -translate-x-1/2 group-hover:translate-x-0",
-                                children: (0, T.jsx)(nS.A, {
-                                  className: "w-3 stroke-white",
-                                }),
-                              }),
-                            ],
+                            className: "menu-item",
+                            children: menuItem.title,
                           },
-                          e.uid
+                          menuItem.uid
                         );
-                      }),
-                    (0, T.jsx)("div", {
-                      className:
-                        "secondary-links flex flex-col items-start gap-3 r-p-6",
-                      children: o
-                        .filter((e) => "secondaryLinks" === e.typeHandle)
-                        .map((e) => {
-                          let { navigationLink: n } = e || {};
-                          if (!(null == n ? void 0 : n.href)) return null;
-                          let t = new URL(n.href || "").pathname,
-                            l = d.includes(t);
-                          return (0, T.jsx)(
-                            e8.A,
-                            {
-                              href: n.href,
-                              className:
-                                "secondary-menu-item r-text-base custom-underline text-asphalt ".concat(
-                                  l ? "active" : ""
-                                ),
-                              onClick: () => {
-                                a({
-                                  event: "menu_clicked",
-                                  menu: e.title,
-                                  menulocation: "Top bar",
-                                });
-                              },
-                              children: e.title,
-                            },
-                            e.uid
-                          );
-                        }),
+                      }
+                      return null;
                     }),
-                  ],
-                }),
+                  }),
+                  // Dropdown content
+                  i.open &&
+                    (0, T.jsx)(eW.P.div, {
+                      className:
+                        "secondary-menu-dropdown absolute left-0 top-full w-full bg-white z-50 overflow-hidden border-b border-t border-grey-border",
+                      initial: { opacity: 0, height: 0 },
+                      animate: { opacity: 1, height: "auto" },
+                      exit: { opacity: 0, height: 0 },
+                      onMouseEnter: handleMouseEnter,
+                      onMouseLeave: handleMouseLeave,
+                      children: (0, T.jsxs)("div", {
+                        className: "inner container full flex items-stretch h-full",
+                        children: o.length
+                          ? o.map((e) => {
+                            let { navigationLink: n, tag: t } = e || {};
+                            if (!n || !n.href) {
+                              console.warn("Invalid or missing href:", n);
+                              return null;
+                            }
+                            return (0, T.jsxs)(
+                              "a",
+                              {
+                                className: "primary-menu-item r-text-lg border-r border-grey-border first:border-l group relative r-w-[13.75] r-p-6",
+                                href: n.href,
+                                target: n.target,
+                                title: e.title,
+                                children: [
+                                  // First span (replacing the <a> element)
+                                  (0, T.jsx)("span", { className: "block", children: e.title }),
+                          
+                                  // Second span with an <svg> element
+                                  (0, T.jsx)("span", {
+                                    className: "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover:opacity-100 -translate-x-1/2 group-hover:translate-x-0",
+                                    children: (0, T.jsx)("svg", {
+                                      xmlns: "http://www.w3.org/2000/svg",
+                                      viewBox: "0 0 14 14",
+                                      fill: "currentColor",
+                                      className: "w-3 stroke-white",
+                                      children: (0, T.jsx)("path", {
+                                        d: "M.74 7h12m0 0-6-6m6 6-6 6",
+                                        vectorEffect: "non-scaling-stroke",
+                                      }),
+                                    }),
+                                  }),
+                                ],
+                              },
+                              e.uid
+                            );
+                          })
+                          : (0, T.jsx)("div", {
+                              className: "no-content",
+                              children: "No submenu available.",
+                            }),
+                      }),
+                    }),
+                ],
               }),
           });
         };
@@ -8736,7 +8686,7 @@
           var n, t;
           let { globals: l } = e,
             i = (0, lC.getCookie)("__locationRedirect"),
-            r = (0, H.useTranslations)("common"),
+            r = (0, H.useTranslations)(""),
             a = (0, nh.useRouter)(),
             [s, o] = (0, B.useState)(!0),
             [d, c] = (0, B.useState)(null),
@@ -8996,7 +8946,7 @@
           (0, Z.PA)((e) => {
             let { ui: n, searchData: t } = e,
               l = (0, t$.y)(),
-              i = (0, H.useTranslations)("common"),
+              i = (0, H.useTranslations)(""),
               r = (0, nh.useRouter)(),
               [a, s] = (0, B.useState)(""),
               o = (0, B.useRef)(null),
@@ -9182,6 +9132,7 @@
                       (0, T.jsxs)("div", {
                         className: "menu-left flex items-center r-gap-[7.88] secondary-menu",
                         children: [
+                          !i.menuState &&
                           (0, T.jsx)(e8.A, {
                             className: "mr-element-xs text-xl",
                             href: "/".concat(
@@ -9200,6 +9151,7 @@
                                 "logo r-w-[5.875] fill-asphalt transition-colors duration-300",
                             }),
                           }),
+
                           (0, T.jsx)(lN, {
                             menu:
                               null == u
@@ -9428,7 +9380,7 @@
         },
         io = (e) => {
           let { globals: n, className: t, dark: l = !1 } = e,
-            i = (0, H.useTranslations)("common"),
+            i = (0, H.useTranslations)(""),
             r = (0, B.useRef)(null),
             { currentSite: a, routeProps: s } = n,
             [o, d] = (0, B.useState)([]),
@@ -9474,7 +9426,7 @@
           !o || o.length < 2)
             ? null
             : (0, T.jsxs)("div", {
-                className: "".concat(t, " relative language-switcher"),
+                className: "".concat(t, " relative language-switcher optional-hidden-sections"),
                 ref: r,
                 children: [
                   (0, T.jsxs)("button", {
@@ -9487,24 +9439,9 @@
                       h(e - 100 - 20);
                     },
                     children: [
-                      (0, T.jsx)(ii.A, {
-                        className: "icon w-4 h-4 stroke-current",
-                      }),
                       (0, T.jsx)("span", {
                         className: "",
-                        children: i("country"),
-                      }),
-                      (0, T.jsx)("span", {
-                        className:
-                          "icon-wrapper bg-current rounded-full w-6 h-6 flex-shrink-0 inline-flex items-center justify-center",
-                        children: (0, T.jsx)(ia, {
-                          width: null,
-                          height: null,
-                          viewBox: "0 0 10 10",
-                          className: "w-3 top-icon ".concat(
-                            l ? "stroke-white" : "stroke-asphalt"
-                          ),
-                        }),
+                        children: i("Created and Powered by QuackStudios"),
                       }),
                     ],
                   }),
@@ -9579,7 +9516,7 @@
           }),
         ic = (e) => {
           let { menu: n, globals: t, dark: l } = e,
-            i = (0, H.useTranslations)("common");
+            i = (0, H.useTranslations)("");
           return (0, T.jsx)("div", {
             className: "container full flex-shrink-0",
             children: (0, T.jsxs)("div", {
@@ -9634,7 +9571,7 @@
                         P.os.to(window, { duration: 1, scrollTo: { y: 0 } });
                       },
                       Icon: id,
-                      children: i("backToTop"),
+                      children: i("Back to top"),
                     }),
                   ],
                 }),
@@ -9857,108 +9794,138 @@
                 children: [
                   // Sidebar
                   (0, T.jsxs)(eW.P.aside, {
-                    className: "sidebar-lbmp flex flex-col items-center justify-between",
+                    className: "sidebar-lbm flex flex-col items-center justify-between left-column1-lbm", // Added left-column1-lbm
                     children: [
                       (0, T.jsx)("div", {
-                        className: "menu-icon-lbmp flex flex-col items-center gap-1",
-                        children: Array(3)
-                          .fill(null)
-                          .map((_, i) =>
-                            (0, T.jsx)("div", { className: "dot-lbmp w-2 h-2 bg-black rounded-full" }, i)
-                          ),
+                        className: "menu-icon-lbm flex flex-col items-center gap-1 menu-icon-lbm", // Added menu-icon-lbm
+                        children: (0, T.jsx)("div", {
+                          className: "grid-icon-lbm",
+                          id: "menu-button1",
+                          children: Array(9)
+                            .fill(null)
+                            .map((_, i) =>
+                              (0, T.jsx)("span", { className: "dot-lbm" }, i) // Added dot-lbm
+                            ),
+                        }),
                       }),
                       (0, T.jsx)("div", {
-                        className: "logo-lbmp",
+                        className: "scroll-indicator-lbm", // Added scroll-indicator-lbm
+                        style: { display: "none" },
+                        children: [
+                          (0, T.jsx)("div", { className: "top-line-lbm" }), // Added top-line-lbm
+                          (0, T.jsx)("div", { className: "ball-lbm" }), // Added ball-lbm
+                          (0, T.jsx)("div", { className: "bottom-line-lbm" }), // Added bottom-line-lbm
+                        ],
+                      }),
+                      (0, T.jsx)("div", {
+                        className: "logo-container-lbm", // Added logo-container-lbm
                         children: (0, T.jsx)("img", {
-                          src: "logo-placeholder.png",
+                          src: "assets/_next/image/Liturgia-Symbol-Logo.png",
                           alt: "Logo",
+                          className: "logo left-column-logo-lbm", // Added left-column-logo-lbm
                         }),
                       }),
                     ],
                   }),
-              
+                
                   // Main Content
                   (0, T.jsxs)(eW.P.main, {
-                    className: "main-content-lbmp flex flex-col items-center justify-center",
+                    className: "main-content-lbm flex flex-col items-center justify-center",
                     children: [
-                      // Navigation Menu
+
                       (0, T.jsxs)("section", {
-                        className: "menu-lbmp text-center",
+                        className: "menu-lbm text-center menu-page-lbm", // Added menu-page-lbm
                         children: [
-                          (0, T.jsx)("h1", {
-                            className: "title-lbmp text-4xl font-bold mb-4",
-                            children: "LITURGIA",
-                          }),
-                          (0, T.jsx)("nav", {
-                            children: (0, T.jsx)("ul", {
-                              className: "flex flex-col gap-2",
-                              children: ["Home", "Features", "Pricing", "Support"].map(
-                                (item, i) =>
-                                  (0, T.jsx)(
-                                    "li",
-                                    {
-                                      children: (0, T.jsx)("a", {
-                                        href: "#",
-                                        className: "text-lg hover:underline",
-                                        children: item,
-                                      }),
-                                    },
-                                    i
-                                  )
-                              ),
-                            }),
-                          }),
-                          (0, T.jsx)("button", {
-                            className:
-                              "get-started-lbmp mt-4 px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600",
-                            children: "Get Started",
-                          }),
-                          (0, T.jsxs)("div", {
-                            className: "links-lbmp mt-4 text-sm",
+                          (0, T.jsx)("div", {
+                            className: "left-container-lbm", // New encompassing div
                             children: [
-                              (0, T.jsx)("p", {
-                                children: (0, T.jsx)("a", {
-                                  href: "#",
-                                  className: "hover:underline",
-                                  children: "visit Liturgy Brisbane",
+                              (0, T.jsx)("h2", {
+                                className: "overlay-heading-lbm", // Added overlay-heading-lbm
+                                children: "LITURGIA",
+                              }),
+                              (0, T.jsx)("nav", {
+                                children: (0, T.jsx)("ul", {
+                                  className: "menu-items-lbm flex flex-col gap-2", // Added menu-items-lbm
+                                  children: [
+                                    { href: "/", text: "Home" },
+                                    { href: "/features.html", text: "Features" },
+                                    { href: "/pricing.html", text: "Pricing" },
+                                    { href: "/support.html", text: "Support" },
+                                  ].map((item, i) =>
+                                    (0, T.jsx)(
+                                      "li",
+                                      {
+                                        children: (0, T.jsx)("a", {
+                                          href: item.href,
+                                          style: { textDecoration: "none", color: "black" },
+                                          className: "text-lg hover:underline",
+                                          children: (0, T.jsx)("p", { children: item.text }),
+                                        }),
+                                      },
+                                      i
+                                    )
+                                  ),
                                 }),
                               }),
-                              (0, T.jsx)("p", {
-                                children: (0, T.jsx)("a", {
-                                  href: "#",
-                                  className: "hover:underline",
-                                  children: "visit Liturgy Publications",
-                                }),
+                              (0, T.jsx)("button", {
+                                className:
+                                  "get-started-lbm mt-4 px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 get-started-lbm", // Added get-started-lbm
+                                children: "Get Started",
+                              }),
+                              (0, T.jsxs)("div", {
+                                className: "visit-links-lbm mt-4 text-sm", // Added visit-links-lbm
+                                children: [
+                                  (0, T.jsx)("p", {
+                                    children: (0, T.jsx)("span", {
+                                      children: "visit Liturgy Brisbane",
+                                    }),
+                                  }),
+                                  (0, T.jsx)("p", {
+                                    children: (0, T.jsx)("span", {
+                                      children: "visit Liturgy Publications",
+                                    }),
+                                  }),
+                                ],
                               }),
                             ],
                           }),
                         ],
                       }),
-              
+                
                       // Content Grid
                       (0, T.jsxs)("section", {
-                        className: "content-grid-lbmp grid grid-cols-1 md:grid-cols-2 gap-4 mt-8",
+                        className: "content-grid-lbm grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 menu-images-lbm", // Added menu-images-lbm
                         children: [
                           (0, T.jsx)("div", {
-                            className: "large-image-lbmp",
+                            className: "menu-image-lbm", // Added menu-images-lbm
                             children: (0, T.jsx)("img", {
-                              src: "assets/images/menu-image.png",
-                              alt: "Church",
-                              className: "w-full h-auto",
+                              src: "assets/_next/image/menu-page-img.png",
+                              alt: "Church Image",
+                              className: "menu-image-lbm", // Added menu-image-lbm
                             }),
                           }),
                           (0, T.jsx)("div", {
-                            className: "cards-lbmp grid grid-cols-2 gap-4",
-                            children: ["Parishes", "Schools"].map((item, i) =>
+                            className: "image-cards-lbm grid grid-cols-2 gap-4", // Added image-cards-lbm
+                            children: [
+                              { text: "Parishes", img: "assets/_next/image/Filler-background.png" },
+                              { text: "Schools", img: "assets/_next/image/Filler-background.png" },
+                            ].map((item, i) =>
                               (0, T.jsx)(
                                 "div",
                                 {
                                   className:
-                                    "card-lbmp flex items-center justify-center bg-gray-200 p-4 rounded shadow",
-                                  children: (0, T.jsx)("p", {
-                                    className: "text-lg font-medium",
-                                    children: item,
-                                  }),
+                                    "card-lbm flex items-center justify-center bg-gray-200 p-4 rounded shadow", // Added card-lbm
+                                  children: [
+                                    (0, T.jsx)("img", {
+                                      src: item.img,
+                                      alt: "filler image",
+                                      className: "menu-filler-image-lbm", // Added menu-filler-image-lbm
+                                    }),
+                                    (0, T.jsx)("p", {
+                                      className: "text-lg font-medium",
+                                      children: item.text,
+                                    }),
+                                  ],
                                 },
                                 i
                               )
@@ -10129,24 +10096,7 @@
                     ),
                   }),
                 }),
-                (0, T.jsx)(np.N, {
-                  mode: "wait",
-                  children:
-                    d &&
-                    (0, T.jsx)(eW.P.div, {
-                      initial: "hidden",
-                      animate: "visible",
-                      exit: "hidden",
-                      variants: {
-                        hidden: { opacity: 0 },
-                        visible: { opacity: 1 },
-                      },
-                      transition: { duration: 0.3, delay: 0.3 },
-                      className:
-                        "fixed top-0 left-0 w-full h-screen bg-white bg-opacity-70 flex justify-center items-center z-[9999]",
-                      children: (0, T.jsx)(nT.A, { type: "lottie" }),
-                    }),
-                }),
+
               ],
             })
           : (0, T.jsx)("div", {
@@ -10196,3 +10146,23 @@
       (_N_E = e.O());
   },
 ]);
+
+
+// Select all elements with the classes 'a', 'b', and 'c' (i.e., .a.b.c)
+const hoverElements = document.querySelectorAll('.a.b.c');
+
+// Select the element with class 'e'
+const targetElement = document.querySelector('.e');
+
+// Add event listeners to handle hover
+hoverElements.forEach(element => {
+  element.addEventListener('mouseenter', () => {
+    targetElement.classList.add('d'); // Add class 'd' on hover
+  });
+
+  element.addEventListener('mouseleave', () => {
+    targetElement.classList.remove('d'); // Remove class 'd' when hover ends
+  });
+});
+
+
