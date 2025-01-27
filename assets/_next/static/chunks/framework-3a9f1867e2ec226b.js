@@ -2863,7 +2863,9 @@
           if (n) {
             var t = n;
             if (!lp(e, n)) {
-              if (lm(e)) throw Error(f(418));
+              if (lm(e)) {
+                throw Error(f(418));
+              }
               n = r_(t.nextSibling);
               var r = li;
               n && lp(e, n)

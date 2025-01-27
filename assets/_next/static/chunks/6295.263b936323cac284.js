@@ -403,7 +403,7 @@
             ref: w,
             id: "module-".concat(q.uid),
             className: "page-builder-block "
-              .concat(q.typeHandle, "-block module-margin ")
+              .concat(q.typeHandle, "-block module-margin optional-hidden-sections ")
               .concat(y.top ? "st" : "", " ")
               .concat(y.bottom ? "sb" : "", " relative ")
               .concat(q.hideImages && !isMobile ? " no-images" : ""),

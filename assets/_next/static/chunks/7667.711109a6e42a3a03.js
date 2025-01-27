@@ -98,7 +98,7 @@
         },
         P = (e) => {
           let { title: t, logos: n } = e,
-            l = (0, p.useTranslations)("common"),
+            l = (0, p.useTranslations)(""),
             [o, d] = (0, s.useState)(null),
             c = (0, s.useMemo)(
               () =>
@@ -305,7 +305,7 @@
             [f, v] = (0, s.useState)([]),
             [y, j] = (0, s.useState)([]),
             [C, E] = (0, s.useState)(!0),
-            R = (0, p.useTranslations)("common"),
+            R = (0, p.useTranslations)(""),
             $ = (0, s.useRef)(null),
             q = (0, N.U)("only screen and (max-width: 767px)"),
             [B, F] = (0, s.useState)(0),
@@ -663,7 +663,7 @@
       let V = (e) => {
         let { module: t, charger: n, setCharger: l, setCurrentStep: s } = e,
           a = (0, q.y)(),
-          o = (0, p.useTranslations)("common");
+          o = (0, p.useTranslations)("");
         return (0, i.jsxs)("div", {
           className:
             "questions-wrapper w-full mx-auto r-max-w-[40] r-py-10 text-center flex flex-col items-center",
@@ -743,7 +743,7 @@
               currentMarket: a,
             } = e,
             r = (0, q.y)(),
-            o = (0, p.useTranslations)("common");
+            o = (0, p.useTranslations)("");
           return (0, i.jsxs)("div", {
             className:
               "pick-region w-full mx-auto r-max-w-[40] r-py-10 text-center flex flex-col items-center",
@@ -784,7 +784,7 @@
           var t, n;
           let { module: l, charger: o, setCurrentStep: d } = e,
             c = (0, q.y)(),
-            u = (0, p.useTranslations)("common"),
+            u = (0, p.useTranslations)(""),
             h = (0, s.useRef)(null),
             [x, m] = (0, s.useState)("default"),
             [g, f] = (0, s.useState)({ x: 0, y: 0 }),
@@ -887,7 +887,7 @@
         et = (e) => {
           var t;
           let { globals: n, setShowModule: l } = e,
-            o = (0, p.useTranslations)("common"),
+            o = (0, p.useTranslations)(""),
             { currentSite: d } = n,
             [c, u] = (0, s.useState)(null),
             [m, g] = (0, s.useState)(0),

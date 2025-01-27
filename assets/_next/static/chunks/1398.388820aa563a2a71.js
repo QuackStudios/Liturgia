@@ -189,43 +189,29 @@ const observer = new MutationObserver((mutationsList) => {
 // Start observing the document body for changes
 observer.observe(document.body, { childList: true, subtree: true });
 
-
-
-
-// Create a MutationObserver to monitor changes in the DOM
-const observer1 = new MutationObserver((mutationsList) => {
-  for (const mutation of mutationsList) {
-    if (mutation.type === 'childList') {
-      console.log('Child list mutation detected'); // Debugging: Check if a childList mutation is detected
-
-      // Corrected selector
-      const targetElement = document.querySelector(
-        '.burger-button.text-asphalt.bg-white.md.rounded-full.flex.items-center.justify-center.z-60.transition-colors'
-      );
-
-      if (targetElement) {
-        console.log('Target element found:', targetElement); // Debugging: Log the target element
-
-        // Perform your actions here
-        // Example: Add a class to another element
-        const existingElement = document.querySelector('.existing-class-name');
-        if (existingElement) {
-          existingElement.classList.add('new-class-name');
-          console.log('Class "new-class-name" added to the existing element');
-        } else {
-          console.log('Existing element not found');
-        }
-
-        // Disconnect the observer once the task is complete
-        observer.disconnect();
-        console.log('Observer disconnected');
-      } else {
-        console.log('Target element not found'); // Debugging: Log if the target element is not found
+// Create a MutationObserver instance
+const observer2 = new MutationObserver((mutationsList, observer) => {
+  // Check if the target element exists in the DOM
+  const divElement = document.querySelector('[aria-label="button.openMenu"]');
+  if (divElement) {
+    // Add a click event listener to the div
+    divElement.addEventListener('click', () => {
+      // Select the <a> element with both classes "mr-element-xs" and "text-xl"
+      const anchorElement = document.querySelector('.mr-element-xs.text-xl');
+      
+      // Toggle the class "logo-opacity-handle" on the <a> element
+      if (anchorElement) {
+        anchorElement.classList.toggle('logo-opacity-handle');
       }
-    }
+    });
+
+    // Disconnect the observer once the target element is found and the listener is added
+    observer2.disconnect();
   }
 });
 
-// Start observing the document body for child node additions
-observer1.observe(document.body, { childList: true, subtree: true });
-console.log('Observer started'); // Debugging: Confirm the observer has started
+// Configure the observer to watch for changes in the entire document
+observer2.observe(document, {
+  childList: true, // Watch for added/removed child nodes
+  subtree: true    // Watch the entire subtree of the document
+});

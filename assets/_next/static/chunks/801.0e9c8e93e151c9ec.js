@@ -251,7 +251,7 @@
           { loadableGenerated: { webpack: () => [31398] }, ssr: !1 }
         ),
         m = {
-          zaptecGo: {
+          Schools: {
             colors: [
               { color: "#0a0a0a", name: "Asphalt Black" },
               { color: "#26252d", name: "Midnight Blue" },
@@ -262,7 +262,7 @@
             ],
             scale: [1, -1, -1],
             position: [0, 0, 0],
-            model: "https://zaptec.objects.frb.io/assets/3D/Zaptec-Go.gltf",
+            model: "https://zaptec.objects.frb.io/assets/3D/schools.gltf",
           },
           zaptecPro: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
@@ -371,107 +371,6 @@
                     setLoading: k,
                     setLoadedModels: N,
                   }),
-                (null === (v = m[C]) || void 0 === v
-                  ? void 0
-                  : null === (p = v.colors) || void 0 === p
-                  ? void 0
-                  : p.length) > 1 &&
-                  (0, r.jsx)("div", {
-                    className:
-                      "absolute bottom-4 md:bottom-auto left-1/2 md:top-0 md:left-0 md:h-full z-10 flex flex-row md:flex-col items-center justify-center gap-3 -translate-x-1/2 md:translate-x-0",
-                    children:
-                      null === (y = m[C]) || void 0 === y
-                        ? void 0
-                        : null === (h = y.colors) || void 0 === h
-                        ? void 0
-                        : h.map((e) =>
-                            (0, r.jsxs)(
-                              "button",
-                              {
-                                className:
-                                  "w-5 h-5 rounded-full relative group",
-                                style: {
-                                  backgroundColor:
-                                    "#f4f4f4" === e.color ? "#fff" : e.color,
-                                  border:
-                                    "#f4f4f4" === e.color
-                                      ? "1px solid #0a0a0a"
-                                      : "none",
-                                },
-                                onClick: () => {
-                                  P(e), g(e.name);
-                                },
-                                children: [
-                                  (0, r.jsx)("span", {
-                                    className:
-                                      "absolute left-1/2 md:left-full bottom-full md:bottom-auto md:top-1/2 -translate-x-1/2 md:translate-x-0 md:-translate-y-1/2 ".concat(
-                                        R.color === e.color
-                                          ? "opacity-100"
-                                          : "opacity-0 group-hover:opacity-100",
-                                        " transition-opacity duration-300 pointer-events-none block whitespace-nowrap text-xs mb-2 md:mb-0 md:ml-2"
-                                      ),
-                                    children: e.name,
-                                  }),
-                                  (0, r.jsx)("span", {
-                                    className:
-                                      "w-[1.625rem] h-[1.625rem] border rounded-full absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 ".concat(
-                                        R.color === e.color
-                                          ? "opacity-100"
-                                          : "opacity-0 group-hover:opacity-100",
-                                        " transition-opacity duration-300 pointer-events-none"
-                                      ),
-                                    style: {
-                                      borderColor:
-                                        "#f4f4f4" === e.color
-                                          ? "#fff"
-                                          : e.color,
-                                    },
-                                  }),
-                                ],
-                              },
-                              e.name
-                            )
-                          ),
-                  }),
-                x.chargers.length > 1 &&
-                  (0, r.jsx)("div", {
-                    className:
-                      "absolute left-1/2 md:left-auto bottom-4 md:bottom-auto md:top-0 md:right-0 md:h-full z-10 flex flex-row md:flex-col items-center justify-center gap-3 -translate-x-1/2 md:translate-x-0",
-                    children: x.chargers.map((e, t) =>
-                      (0, r.jsxs)(
-                        "button",
-                        {
-                          className: "w-5 h-5 rounded-full relative group",
-                          onClick: () => D(e),
-                          children: [
-                            (0, r.jsx)("span", {
-                              className:
-                                "absolute bottom-full md:bottom-auto left-1/2 md:left-auto md:right-full md:top-1/2 -translate-x-1/2 md:translate-x-0 md:-translate-y-1/2 ".concat(
-                                  C === e
-                                    ? "opacity-100"
-                                    : "opacity-0 group-hover:opacity-100",
-                                  " transition-opacity duration-300 pointer-events-none block whitespace-nowrap text-xs mb-2 md:mb-0 md:mr-2"
-                                ),
-                              children: x.chargerLabels[t],
-                            }),
-                            (0, r.jsx)("span", {
-                              className:
-                                "w-[1.625rem] h-[1.625rem] border border-current rounded-full absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 transition-colors duration-300 flex items-center justify-center ".concat(
-                                  C === e
-                                    ? "text-asphalt"
-                                    : "text-grey-border hover:text-asphalt"
-                                ),
-                              children: (0, r.jsx)("div", {
-                                className:
-                                  "block rounded-full w-1/2 aspect-1 bg-current transition-colors duration-300",
-                              }),
-                            }),
-                          ],
-                        },
-                        e
-                      )
-                    ),
-                  }),
               ],
             })
           );
@@ -498,3 +397,27 @@
     },
   },
 ]);
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Use event delegation to handle dynamically generated buttons
+  document.addEventListener('click', (event) => {
+    if (event.target.matches('.rounded-button')) {
+      event.stopPropagation(); // Prevent interference
+      console.log('Button clicked:', event.target);
+
+      // Perform your desired action
+      if (event.target.textContent.includes('Schools')) {
+        window.location.href = 'https://example.com/schools';
+      } else if (event.target.textContent.includes('Features')) {
+        window.location.href = 'https://example.com/liturgia';
+      }
+    }
+  });
+
+  // Debugging: Log all buttons
+  const buttons = document.querySelectorAll('.rounded-button');
+  buttons.forEach((button, index) => {
+    button.style.pointerEvents = 'auto'; // Ensure buttons are interactive
+  });
+});

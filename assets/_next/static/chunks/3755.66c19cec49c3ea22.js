@@ -154,7 +154,7 @@
           return (0, s.jsx)("div", {
             id: "module-".concat(h.uid),
             className: "page-builder-block "
-              .concat(h.typeHandle, "-block container full module-margin ")
+              .concat(h.typeHandle, "-block container full module-margin optional-hidden-sections")
               .concat(i.top ? "st" : "", " ")
               .concat(i.bottom ? "sb" : ""),
             "data-anchor": o,

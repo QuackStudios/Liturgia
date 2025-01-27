@@ -55,7 +55,7 @@
         f = l(29965),
         b = l.n(f);
       let A = {
-          src: "/_next/static/media/placeholder.ba5b7f01.png",
+          src: "assets/_next/static/media/placeholder.ba5b7f01.png",
           height: 1024,
           width: 1024,
           blurDataURL:

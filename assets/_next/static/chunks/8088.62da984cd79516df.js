@@ -712,7 +712,7 @@
             {
               title: "Cl\xf4ture du formulaire: Particulier",
               description:
-                "\n        <p>\n          Nous vous remercions de l’int\xe9r\xeat que vous partez \xe0 Zaptec et nos solutions. Notre borne Zaptec Go sera bient\xf4t disponible.\n        </p>\n      ",
+                "\n        <p>\n          Nous vous remercions de l’int\xe9r\xeat que vous partez \xe0 Zaptec et nos solutions. Notre borne Schools sera bient\xf4t disponible.\n        </p>\n      ",
               rows: [],
               action: "close",
             },

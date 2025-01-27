@@ -128,7 +128,7 @@
                 (0, o.jsx)(i.P.div, {
                   variants: Q,
                   className:
-                    "absolute z-50 flex items-center justify-center rounded-full overflow-hidden bg-forest border border-forest text-forest text-xs w-[6.75rem] h-[6.75rem] left-0 top-0 pointer-events-none p-4 text-center hidden-cursor",
+                    "absolute z-50 flex items-center justify-center rounded-full overflow-hidden bg-forest border border-forest text-forest text-xs w-[6.75rem] h-[6.75rem] left-0 top-0 pointer-events-none p-4 text-center",
                   initial: { x: R.x, y: R.y, scale: 0.65, opacity: 0 },
                   animate: B,
                   exit: { scale: 0.65, opacity: 0 },
@@ -175,38 +175,6 @@
                     "columns-".concat(X.products[H].uid)
                   ),
                 }),
-                (null === (e = X.products) || void 0 === e
-                  ? void 0
-                  : e.length) > 1 &&
-                  (0, o.jsx)("div", {
-                    className:
-                      "flex items-center justify-center gap-3 r-mt-6 w-full",
-                    children: X.products.map((t, e) =>
-                      (0, o.jsxs)(
-                        "button",
-                        {
-                          type: "button",
-                          onClick: () => L(e),
-                          className:
-                            "text-sm text-left px-6 h-[3.25rem] inline-flex items-center rounded-button transition-colors duration-300  bg-sand-light border border-forest overflow-hidden isolate relative ".concat(
-                              H === e ? "text-white" : "text-forest"
-                            ),
-                          children: [
-                            t.title,
-                            (0, o.jsx)(i.P.div, {
-                              className:
-                                "absolute left-0 top-0 w-full h-full bg-forest rounded-button -z-10",
-                              initial: { x: H > e ? "-100%" : "100%" },
-                              animate: {
-                                x: H === e ? 0 : H > e ? "100%" : "-100%",
-                              },
-                            }),
-                          ],
-                        },
-                        t.uid
-                      )
-                    ),
-                  }),
                 (0, o.jsx)(n.N, {
                   mode: "wait",
                   children:

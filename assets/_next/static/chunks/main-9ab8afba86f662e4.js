@@ -1080,7 +1080,7 @@
                 regexp:
                   "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next\\/static.*|_next\\/data.*|android-chrome-192x192.png|android-chrome-256x256.png|_next\\/image|favicon.*|fonts|models|autodiscover).*))(\\.json)?[\\/#\\?]?$",
                 originalSource:
-                  "/((?!api|_next/static.*|_next/data.*|android-chrome-192x192.png|android-chrome-256x256.png|_next/image|favicon.*|fonts|models|autodiscover).*)",
+                  "/((?!api|assets/_next/static.*|_next/data.*|android-chrome-192x192.png|android-chrome-256x256.png|assets/_next/image|favicon.*|fonts|models|autodiscover).*)",
               },
               {
                 regexp:
@@ -1104,7 +1104,7 @@
               ".json"
             );
             return (0, o.addBasePath)(
-              "/_next/data/" + this.buildId + t + p,
+              "assets/_next/data/" + this.buildId + t + p,
               !0
             );
           })(
@@ -3663,7 +3663,6 @@
             isBackground: l,
             unstable_skipClientCache: c,
           } = e,
-          { href: f } = new URL(t, window.location.href),
           d = (e) => {
             var l;
             return (function e(t, r, n) {
@@ -7567,6 +7566,3 @@
     e.O(0, [6593], () => t(81156)), (_N_E = e.O());
   },
 ]);
-
-
-

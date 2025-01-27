@@ -1,0 +1,58 @@
+// Function to handle animations when the "testimonials" section enters or exits the viewport
+function handleScrollAnimations(entries) {
+    entries.forEach((entry) => {
+      const target = entry.target;
+  
+      if (entry.isIntersecting) {
+        // If the section is in view, fade in
+        target.classList.add('fade-in');
+        target.classList.remove('fade-out');
+      } else {
+        // If the section is out of view, fade out
+        const bounding = entry.boundingClientRect;
+  
+        // Check if the element is above or below the viewport
+        if (bounding.top < 0) {
+          // Element is above the viewport (scrolling up)
+          target.classList.add('fade-out');
+          target.classList.remove('fade-in');
+        } else if (bounding.bottom > window.innerHeight) {
+          // Element is below the viewport (scrolling down)
+          target.classList.add('fade-out');
+          target.classList.remove('fade-in');
+        }
+      }
+    });
+  }
+  
+  // Function to observe the "testimonials" section for scroll-based animations
+  function observeTestimonialsSection() {
+    const testimonials = document.querySelector('.testimonials');
+    if (!testimonials) {
+      console.error('Testimonials section not found in the DOM.');
+      return;
+    }
+  
+    // Create an IntersectionObserver for the "testimonials" section
+    const observer = new IntersectionObserver(handleScrollAnimations, {
+      threshold: [0.5, 0.6], // Trigger when 10% or 90% of the section is visible
+    });
+  
+    observer.observe(testimonials);
+  }
+  
+  // MutationObserver to detect when the "testimonials" section is added to the DOM
+  const mutationObserver = new MutationObserver((mutationsList, observer) => {
+    mutationsList.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node instanceof Element && node.classList.contains('testimonials')) {
+          console.log('Testimonials section found in the DOM.');
+          observeTestimonialsSection(); // Start observing for scroll animations
+          observer.disconnect(); // Stop observing for mutations once the section is found
+        }
+      });
+    });
+  });
+  
+  // Start observing the body for added nodes
+  mutationObserver.observe(document.body, { childList: true, subtree: true });

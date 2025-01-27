@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4032],{51651:(e,s,l)=>{l.r(s),l.d(s,{default:()=>a});var r=l(74848),t=l(94203);let a=e=>{let{fieldData:s}=e;return(0,r.jsx)("div",{className:"freeform-field wysiwyg",children:(0,r.jsx)(t.A,{content:s.value})})}}}]);
