@@ -1158,12 +1158,12 @@ footer .wysiwyg a:not(.button):hover {
 }
 .button-big.white-green .icon {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .button-big.white-green .icon svg {
-  stroke: #fff;
+  stroke: #000000;
 }
 .button-big.white-green .icon svg,
 .button-big.white-green .icon svg path {
@@ -1194,7 +1194,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .button-big.green .button-inner {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1770,7 +1770,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .secondary-menu-dropdown .active:not(.secondary-menu-item) {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -2008,7 +2008,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .ctaS-block .theme-green-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
 }
 .ctaS-block .theme-beige {
   --tw-bg-opacity: 1;
@@ -3628,7 +3628,7 @@ footer .wysiwyg a:not(.button):hover {
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 .text-current {
-  color: currentColor;
+  color: black !important;
 }
 .text-forest {
   --tw-text-opacity: 1;
@@ -3636,7 +3636,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .text-green {
   --tw-text-opacity: 1;
-  color: rgb(76 175 80 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .text-grey {
   --tw-text-opacity: 1;
@@ -6017,7 +6017,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .logo-opacity-handle {
-  opacity: 0 !important;
+  opacity: 1 !important;
   transition: opacity 0.2s ease;
 }
 
@@ -6042,14 +6042,15 @@ footer .wysiwyg a:not(.button):hover {
 }
 .nested-div-2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 30px;
   font-family: Sohne, sans-serif;
   margin-bottom: 3%;
   font-size: 115%;
   font-weight: 400;
 }
 .nested-div-2-child-1 {
-  width: 30%;
+  width: 40%;
 }
 .nested-div-3 {
   display: flex;
@@ -6387,3 +6388,17 @@ label {
   border-color: #ccc; /* Reset to default border color */
 }
 
+.gap-adjust {
+  gap: 0.3rem !important;
+}
+
+.quack-logo-text {
+  text-decoration: none !important;
+  cursor: auto;
+}
+
+
+.quack-logo-redirect {
+  cursor: pointer;
+  font-weight: 600;
+}

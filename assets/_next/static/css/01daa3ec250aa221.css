@@ -1105,12 +1105,12 @@ footer .wysiwyg a:not(.button):hover {
 }
 .button-big.white-green .icon {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .button-big.white-green .icon svg {
-  stroke: #fff;
+  stroke: #000000;
 }
 .button-big.white-green .icon svg,
 .button-big.white-green .icon svg path {
@@ -1141,7 +1141,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .button-big.green .button-inner {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1737,7 +1737,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .secondary-menu-dropdown .active:not(.secondary-menu-item) {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1978,7 +1978,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .ctaS-block .theme-green-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
 }
 .ctaS-block .theme-beige {
   --tw-bg-opacity: 1;
@@ -3598,7 +3598,7 @@ footer .wysiwyg a:not(.button):hover {
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 .text-current {
-  color: currentColor;
+  color: black !important;
 }
 .text-forest {
   --tw-text-opacity: 1;
@@ -3606,7 +3606,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .text-green {
   --tw-text-opacity: 1;
-  color: rgb(76 175 80 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .text-grey {
   --tw-text-opacity: 1;
@@ -5839,11 +5839,12 @@ footer .wysiwyg a:not(.button):hover {
   padding: 120px 0 0 0;
 }
 
-.menu-items-lbm p {
+.menu-items-lbm-text {
   margin: 15px 0 15px 10%;
   border-bottom: 1px solid #000;
   padding: 0 0 5px 5%;
   width: 80%;
+  display: block;
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: normal;
@@ -5986,7 +5987,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .logo-opacity-handle {
-  opacity: 0 !important;
+  opacity: 1 !important;
   transition: opacity 0.2s ease;
 }
 
@@ -6240,7 +6241,7 @@ footer .wysiwyg a:not(.button):hover {
 
 .testimonials {
   position: relative;
-  width: 100%;
+  width: 90%;
   margin: 7% 0 0 0;
   padding-left: clamp(3.97rem, 4.9vw, 5.51rem);
   height: 50vh;
@@ -6278,7 +6279,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .cc-lhs {
-width: 70%;
+width: 85%;
 height: 50%;
 position: relative;
 z-index: 99;
@@ -6299,7 +6300,7 @@ text-align: start;
   font-family: Sohne, sans-serif;
   font-size: clamp(2.25rem, 2.78vw, 3.13rem);
   font-weight: 400;
-  margin: 0 0 3% 0;
+  margin: 0 0 0% 0;
 }
 
 
@@ -6368,6 +6369,7 @@ text-align: start;
   opacity: 0;
   transform: translateY(60px);
   transition: opacity 0.8s ease, transform 0.8s ease;
+  height: 70vh;
 }
 
 /* Fade-in animation */
@@ -6380,4 +6382,59 @@ text-align: start;
 .testimonials.fade-out {
   opacity: 0;
   transform: translateY(-60px); /* Move slightly up when fading out */
+}
+
+.optional-size-adjust1 {
+  font-size: clamp(0.6rem, 1.5vw, 2rem) !important; /* Min: 1rem, Preferred: 2.5% of viewport width, Max: 2rem */
+}
+
+.optional-size-adjust-p2 {
+  font-size: clamp(0.6rem, 1.5vw, 2rem) !important; /* Min: 1rem, Preferred: 2.5% of viewport width, Max: 2rem */
+}
+.optional-size-adjust-s3 {
+  font-size: clamp(0.6rem, 1.5vw, 2rem) !important; /* Min: 1rem, Preferred: 2.5% of viewport width, Max: 2rem */
+}
+
+.slide-indicator {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: translate(40vw, -27vh);
+}
+
+.slide-indicator-dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: grey;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slide-indicator-dot.active {
+  background-color: black;
+}
+
+.object-fit-fix {
+ object-fit: contain !important;
+}
+
+.brightness-adjust {
+  filter: brightness(0.8);
+}
+
+.quack-logo-text {
+  text-decoration: none !important;
+  cursor: auto;
+}
+
+
+.quack-logo-redirect {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.gap-adjust {
+  gap: 0.3rem !important;
 }
