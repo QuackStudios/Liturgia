@@ -310,7 +310,7 @@
                             (null === (r = e.mediaElement) || void 0 === r
                               ? void 0
                               : r[0]) || null,
-                          className: "w-full object-cover ".concat(
+                          className: "w-full object-cover object-fit-fix".concat(
                             !v.maintainRatio && v.fullHeight
                               ? " h-full r-max-h-[90rem]"
                               : ""

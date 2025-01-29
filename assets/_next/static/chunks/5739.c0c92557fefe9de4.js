@@ -197,7 +197,7 @@
                         ? void 0
                         : l.mediaElement[0],
                     className:
-                      "media-el media-c r-w-[17] r-h-[15.725] absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2  object-cover z-10",
+                      "media-el media-c r-w-[17] r-h-[15.725] absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2  object-cover z-10 brightness-adjust",
                     showCaption: !1,
                     width: 1920,
                     height: 1080,

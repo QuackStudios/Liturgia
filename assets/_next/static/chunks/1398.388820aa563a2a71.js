@@ -151,10 +151,6 @@
   },
 ]);
 
-
-
-
-
 const observer = new MutationObserver((mutationsList) => {
   for (const mutation of mutationsList) {
     if (mutation.type === 'childList') {
@@ -162,15 +158,14 @@ const observer = new MutationObserver((mutationsList) => {
       const image = document.querySelector('.mockup-image');
 
       if (container && image) {
-        console.log('Image and container found, adding event listeners');
 
         container.addEventListener('mousemove', (event) => {
           const { width, height, left, top } = container.getBoundingClientRect();
           const x = event.clientX - left - width / 2;
           const y = event.clientY - top - height / 2;
 
-          const rotateX = (y / height) * 30;
-          const rotateY = (x / width) * -30;
+          const rotateX = (y / height) * 20;
+          const rotateY = (x / width) * -20;
 
           image.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
         });

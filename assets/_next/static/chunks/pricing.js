@@ -1,5 +1,4 @@
 const observer = new MutationObserver((mutationsList, observer) => {
-  // Check if the "modules-pp" section exists
   let modulesSection = document.querySelector('.modules-pp');
   if (!modulesSection) {
     // Create the "modules-pp" section
@@ -27,7 +26,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
             <div class="gst">+GST</div>
           </div>
           <div class="annual-text">
-            <div class="calc-text">billed annualy*</div>
+            <div class="calc-text">billed annually*</div>
           </div>
           <button onclick="getStarted()">Get Started <span class="arrow-symbol"> →</span></button>
         </div>
@@ -47,198 +46,128 @@ const observer = new MutationObserver((mutationsList, observer) => {
     // Append the "modules-pp" section to the DOM
     document.querySelector('header').after(modulesSection);
     console.log('Modules-pp section added');
-  }
 
-  // Check if the "testimonials" section exists
-  let testimonialsSection = document.querySelector('.testimonials');
-  if (!testimonialsSection) {
-    // Create the "testimonials" section
-    testimonialsSection = document.createElement('section');
-    testimonialsSection.className = 'testimonials';
+    // Add mobile-specific CSS dynamically
+const mobileStyle = document.createElement('style');
+mobileStyle.textContent = `
+  @media (max-width: 768px) {
+    /* Modules section */
+    .modules-pp {
+      min-height: 500px; /* Extend height for mobile */
+      padding: 1.5rem;
+      box-sizing: border-box;
+      height: 60vh !important;
+    }
 
-    // Add the carousel HTML
-    testimonialsSection.innerHTML = `
-      <div class="carousel-container">
-      <div class="cc-title">Testimonials</div>
-        <div class="carousel-track">
-          <!-- Customizable content for 4 cards -->
+    /* Calculator container */
+    .calculator-container {
+      padding: 1rem;
+      max-width: 90%;
+      flex-direction: column;
+      height: 100%;
+    }
 
-          <div class="carousel-card">
-          <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
+    /* Dropdown controls */
+    .controls label {
+      font-size: 0.9rem;
+    }
 
-          <div class="carousel-card">
-            <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
-          <div class="carousel-card">
-            <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
-          <div class="carousel-card">
-            <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
-          <!-- Duplicate the 4 cards for seamless looping -->
-          <div class="carousel-card">
-          <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
+    .dropdown-button {
+      padding: 0.6rem;
+      font-size: 0.9rem;
+    }
 
-          <div class="carousel-card">
-            <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
-          <div class="carousel-card">
-            <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
-          <div class="carousel-card">
-            <div class="cc-lhs">
-              <div class="cc-lhs-text">
-                  <div class="card-main-text">
-                    <span class="quotation-mark1">"</span><span class="testimonial-main-text">I have been using Liturgia since about 2006 when I started participating
-                     formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even
-                    used the section for dedication for a church. I find the tool very easy to navigate, very easy
-                    to use, and comprehensive in its cover.</span><span class="quotation-mark2">"</span>
-                   <span class="quote-attribution">- Fr C, Parish Priest, Archdiocese of Melbourne </span> 
-                 </div>
-              </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    `;
+    .dropdown-menu li {
+      padding: 0.6rem;
+      font-size: 0.9rem;
+    }
 
-    // Append the "testimonials" section after the "modules-pp" section
-    const modules = document.querySelector('.modules');
-    if (modules) {
-      modules.after(testimonialsSection);
-      console.log('Testimonials section added');
+    /* Pricing card */
+    .price-card {
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
 
-      // Initialize the auto-scrolling functionality
-      const track = testimonialsSection.querySelector('.carousel-track');
-      const cards = testimonialsSection.querySelectorAll('.carousel-card');
-      const totalCards = cards.length;
-      const cardWidth = cards[0].offsetWidth;
-      let currentIndex = 0;
+    .price {
+      font-size: 2rem;
+    }
 
-      function autoScroll() {
-        currentIndex = (currentIndex + 1) % totalCards;
-        track.style.transform = `translateX(-${currentIndex * cardWidth}px)`; 
+    .gst {
+      font-size: 0.8rem;
+    }
 
-        // Reset to the start for seamless looping
-        if (currentIndex === totalCards / 2) {
-          setTimeout(() => {
-            track.style.transition = 'none';
-            currentIndex = 0;
-            track.style.transform = `translateX(0)`;
-            setTimeout(() => {
-              track.style.transition = 'transform 1s ease-in-out';
-            }, 50);
-          }, 1000);
-        }
-      }
+    .annual-text {
+      font-size: 0.8rem;
+    }
 
-      // Start auto-scrolling every 10 seconds
-          setInterval(autoScroll, 10000);
+    .price-card button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1rem;
+    }
 
-      // Resize listener to ensure proper alignment
-      window.addEventListener('resize', () => {
-        track.style.transition = 'none';
-        track.style.transform = `translateX(-${currentIndex * cards[0].offsetWidth}px)`;
-        setTimeout(() => {
-          track.style.transition = 'transform 1s ease-in-out';
-        }, 50);
-      });
+    /* Bulk licensing text */
+    .bulk-licensing-text {
+      font-size: 0.8rem;
+      line-height: 1.4;
+    }
+
+    /* Trusted-by-content adjustments */
+    .trusted-by-content {
+      display: flex;
+      flex-direction: column; /* Stack text and logos vertically */
+      align-items: center; /* Center-align text and logos */
+      gap: 0.5rem; /* Add spacing between text and logos */
+      margin-top: 1rem;
+      padding: 0.5rem;
+    }
+
+    .trusted-by-text {
+      font-size: 0.9rem;
+      font-weight: bold; /* Emphasize the text */
+      text-align: center;
+      margin-bottom: 0.5rem;
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .trusted-by-logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; /* Allow logos to wrap */
+      gap: 2.5rem; /* Reduce gap between logos */
+      width: 100%;
+    }
+
+    .tb-logo-img {
+      max-width: 50px; /* Smaller logos */
+      height: auto;
+    }
+
+    .text-animation {
+      text-align: center;
+    }  
+
+    .flex items-center gap-3 r-mt-8 {
+      align-items: center;
+    }  
+    
+    .testimonials {
+    height: 45vh;
+    }
+    
+    .r-mt-8 {
+    justify-content: center;
     }
   }
+`;
+document.head.appendChild(mobileStyle);
+}
 });
 
 // Start observing the document body for changes
 observer.observe(document.body, { childList: true, subtree: true });
 
-  // Use event delegation to handle clicks on the div with aria-label="Open menu"
-  document.body.addEventListener('click', (event) => {
-    const divElement = event.target.closest('[aria-label="Open menu"]');
-    if (divElement) {
-      console.log('hello1');
-      // Add a click event listener to the div
-      console.log('hello2');
-      // Select the <a> element with both classes "mr-element-xs" and "text-xl"
-      const anchorElement = document.querySelector('.mr-element-xs.text-xl');
-      console.log('hello3');
-      // Toggle the class "logo-opacity-handle" on the <a> element
-      if (anchorElement) {
-        console.log('hello4');
-        anchorElement.classList.toggle('logo-opacity-handle');
-      }
-    }
-  });
+
 
 // Function to initialize the custom dropdown
 function initializeCustomDropdown() {

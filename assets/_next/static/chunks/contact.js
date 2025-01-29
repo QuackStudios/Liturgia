@@ -21,143 +21,211 @@ document.addEventListener('DOMContentLoaded', () => {
   function ensureContactForm() {
     const contactForm = document.querySelector('.contact-form');
     if (!contactForm) {
-      const targetDiv = document.querySelector('.min-h-screen');
-      const footer = document.querySelector('footer');
+        const targetDiv = document.querySelector('.min-h-screen');
+        const footer = document.querySelector('footer');
 
-      if (targetDiv && footer) {
-        const newSection = document.createElement('section');
-        newSection.className = 'contact-form flex';
+        if (targetDiv && footer) {
+            const newSection = document.createElement('section');
+            newSection.className = 'contact-form flex';
 
-        // Create the left-hand side (LHS) div
-        const lhsDiv = document.createElement('div');
-        lhsDiv.className = 'lhs w-1/2';
+            // Create the left-hand side (LHS) div
+            const lhsDiv = document.createElement('div');
+            lhsDiv.className = 'lhs w-1/2';
 
-        // Add the custom form to the LHS
-        const formHTML = `
-          <div class="s-form">
-            <form id="contactForm"
-                  class="contact-form"
-                  method="POST"
-                  accept-charset="UTF-8"
-                  enctype="multipart/form-data">
-              <input type="hidden" name="pageTitle" value="Contact">
-              
-              <div class="s-form__field">
-                <div class="s-form__label">
-                  <label class="s-label" for="contactForm_fullName">Name and Surname <span class="s-form__label__info">*</span></label>
-                </div>
-                <div class="s-form__input">
-                  <input type="text" name="fullName" class="s-input js-form-input" id="contactForm_fullName" required="">
-                </div>
-              </div>
-              <div class="s-spacer s-spacer--medium"></div>
-              
-              <div class="s-form__field">
-                <div class="s-form__label">
-                  <label class="s-label" for="contactForm_email">Email Address <span class="s-form__label__info">*</span></label>
-                </div>
-                <div class="s-form__input">
-                  <input type="email" name="email" class="s-input js-form-input" id="contactForm_email" required="">
-                </div>
-              </div>
-              <div class="s-spacer s-spacer--medium"></div>
-              
-              <div class="s-form__field">
-                <div class="s-form__label">
-                  <label class="s-label" for="contactForm_phone">Phone Number</label>
-                </div>
-                <div class="s-form__input">
-                  <input type="text" name="phone" class="s-input js-form-input" id="contactForm_phone">
-                </div>
-              </div>
-              <div class="s-spacer s-spacer--medium"></div>
-              
-              <div class="s-form__field">
-                <div class="s-form__label">
-                  <label class="s-label" for="contactForm_message">Your Enquiry <span class="s-form__label__info">*</span></label>
-                </div>
-                <div class="s-form__input">
-                  <textarea name="message" class="s-input s-input--textarea js-form-input" id="contactForm_message" required="" rows="5"></textarea>
-                </div>
-              </div>
-              <div class="s-spacer s-spacer--medium"></div>
-              
-              <div class="s-form__field">
-                <div class="s-checkbox">
-                  <input class="s-checkbox__input" type="checkbox" name="privacyPolicy" id="contactForm_privacyPolicy" required="">
-                  <div class="s-checkbox__box"></div>
-                  <label class="s-checkbox__label s-text--markup" for="contactForm_privacyPolicy">I agree to the privacy conditions<span class="s-form__label__info">*</span></label>
-                </div>
-              </div>
-              <div class="s-spacer s-spacer--medium"></div>
-              
-              <div class="s-form__field s-form__field--full s-form__field--button">
-                <button type="submit" class="s-link-button js-link-button">
-                  <div class="s-link-button__text s-title s-title--small">Submit</div>
-                  <div class="s-link-button__arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="23.5" height="5" viewBox="0 0 23.5 5">
-                      <path d="M2.5,0,5,3.5H0Z" transform="translate(23.5) rotate(90)"></path>
-                      <line x2="20" transform="translate(0 2.5)" fill="none" stroke="#000" stroke-width="1" vector-effect="non-scaling-stroke"></line>
-                    </svg>
-                    <div class="s-link-button__circle js-link-button-circle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
-                        <g fill="none" stroke="#aaa" stroke-width="1">
-                          <circle cx="40" cy="40" r="40" stroke="none"></circle>
-                          <circle cx="40" cy="40" r="39.5" fill="none" vector-effect="non-scaling-stroke"></circle>
-                        </g>
-                      </svg>
+            // Add the custom form to the LHS
+            const formHTML = `
+              <div class="s-form">
+                <form id="contactForm"
+                      class="contact-form"
+                      method="POST"
+                      accept-charset="UTF-8"
+                      enctype="multipart/form-data">
+                  <input type="hidden" name="pageTitle" value="Contact">
+                  
+                  <div class="s-form__field">
+                    <div class="s-form__label">
+                      <label class="s-label" for="contactForm_fullName">Name and Surname <span class="s-form__label__info">*</span></label>
+                    </div>
+                    <div class="s-form__input">
+                      <input type="text" name="fullName" class="s-input js-form-input" id="contactForm_fullName" required="">
                     </div>
                   </div>
-                </button>
+                  <div class="s-spacer s-spacer--medium"></div>
+                  
+                  <div class="s-form__field">
+                    <div class="s-form__label">
+                      <label class="s-label" for="contactForm_email">Email Address <span class="s-form__label__info">*</span></label>
+                    </div>
+                    <div class="s-form__input">
+                      <input type="email" name="email" class="s-input js-form-input" id="contactForm_email" required="">
+                    </div>
+                  </div>
+                  <div class="s-spacer s-spacer--medium"></div>
+                  
+                  <div class="s-form__field">
+                    <div class="s-form__label">
+                      <label class="s-label" for="contactForm_phone">Phone Number</label>
+                    </div>
+                    <div class="s-form__input">
+                      <input type="text" name="phone" class="s-input js-form-input" id="contactForm_phone">
+                    </div>
+                  </div>
+                  <div class="s-spacer s-spacer--medium"></div>
+                  
+                  <div class="s-form__field">
+                    <div class="s-form__label">
+                      <label class="s-label" for="contactForm_message">Your Enquiry <span class="s-form__label__info">*</span></label>
+                    </div>
+                    <div class="s-form__input">
+                      <textarea name="message" class="s-input s-input--textarea js-form-input" id="contactForm_message" required="" rows="5"></textarea>
+                    </div>
+                  </div>
+                  <div class="s-spacer s-spacer--medium"></div>
+                  
+                  <div class="s-form__field">
+                    <div class="s-checkbox">
+                      <input class="s-checkbox__input" type="checkbox" name="privacyPolicy" id="contactForm_privacyPolicy" required="">
+                      <div class="s-checkbox__box"></div>
+                      <label class="s-checkbox__label s-text--markup" for="contactForm_privacyPolicy">I agree to the privacy conditions<span class="s-form__label__info">*</span></label>
+                    </div>
+                  </div>
+                  <div class="s-spacer s-spacer--medium"></div>
+                  
+                  <div class="s-form__field s-form__field--full s-form__field--button">
+                    <button type="submit" class="s-link-button js-link-button">
+                      <div class="s-link-button__text s-title s-title--small">Submit</div>
+                      <div class="s-link-button__arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23.5" height="5" viewBox="0 0 23.5 5">
+                          <path d="M2.5,0,5,3.5H0Z" transform="translate(23.5) rotate(90)"></path>
+                          <line x2="20" transform="translate(0 2.5)" fill="none" stroke="#000" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+                        </svg>
+                        <div class="s-link-button__circle js-link-button-circle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+                            <g fill="none" stroke="#aaa" stroke-width="1">
+                              <circle cx="40" cy="40" r="40" stroke="none"></circle>
+                              <circle cx="40" cy="40" r="39.5" fill="none" vector-effect="non-scaling-stroke"></circle>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </form>
               </div>
-            </form>
-          </div>
-        `;
-        lhsDiv.innerHTML = formHTML;
+            `;
+            lhsDiv.innerHTML = formHTML;
 
-        // Create the right-hand side (RHS) div
-        const rhsDiv = document.createElement('div');
-        rhsDiv.className = 'rhs w-1/2';
+            // Create the right-hand side (RHS) div
+            const rhsDiv = document.createElement('div');
+            rhsDiv.className = 'rhs w-1/2';
 
-        for (let i = 1; i <= 3; i++) {
-          // Create the parent div
-          const nestedDiv = document.createElement('div');
-          nestedDiv.className = `nested-div-${i}`;
-        
-          if (i === 1) {
-            // For the first nested div, just add default content
-            nestedDiv.textContent = 'Contact Information';
-          } else {
-            // For the second, third, fourth, and fifth nested divs, add two child divs
-            const childDiv1 = document.createElement('div');
-            childDiv1.className = `nested-div-${i}-child-1`;
-            childDiv1.textContent = `Child 1 of Nested Div ${i}`; // Default content for child 1
-        
-            const childDiv2 = document.createElement('div');
-            childDiv2.className = `nested-div-${i}-child-2`;
-            childDiv2.textContent = `Child 2 of Nested Div ${i}`; // Default content for child 2
-        
-            // Append the child divs to the parent div
-            nestedDiv.appendChild(childDiv1);
-            nestedDiv.appendChild(childDiv2);
-          }
-        
-          // Append the parent div to the right-hand side container
-          rhsDiv.appendChild(nestedDiv);
+            rhsDiv.innerHTML = `
+                <div class="nested-div-1">Contact Information</div>
+                <div class="nested-div-2">
+                  <div class="nested-div-2-child-1">Phone: (07) 3324 3314</div>
+                  <div class="nested-div-2-child-2">Email: liturgia@liturgybrisbane.net.au</div>
+                </div>
+            `;
+
+            newSection.appendChild(lhsDiv);
+            newSection.appendChild(rhsDiv);
+
+            footer.parentNode.insertBefore(newSection, footer);
+
+            // Add mobile CSS dynamically
+            const style = document.createElement('style');
+            style.textContent = `
+              @media (max-width: 768px) {
+                .contact-form {
+                  flex-direction: column;
+                  gap: 2rem;
+                }
+                .lhs, .rhs {
+                  width: 100%;
+                }
+                .s-form {
+                  padding: 1rem;
+                }
+                .s-form__input input,
+                .s-form__input textarea {
+                  width: 100%;
+                  padding: 0.8rem;
+                  font-size: 1rem;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                  box-sizing: border-box;
+                }
+                .rhs {
+                  text-align: center;
+                  padding: 1rem;
+                  background-color: #f9f9f9;
+                  border-radius: 8px;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                  margin-top: 1rem;
+                }
+                .rhs .nested-div-1 {
+                  font-size: 1.2rem;
+                  font-weight: bold;
+                  color: #333;
+                  margin-bottom: 0.5rem;
+                }
+                .rhs .nested-div-2-child-1,
+                .rhs .nested-div-2-child-2 {
+                  display: block;
+                  margin-bottom: 0.5rem;
+                  font-size: 1rem;
+                  line-height: 1.5;
+                  color: #555;
+                  text-align: center;
+                }
+                .nested-div-2 {
+                  display: flex;
+                  flex-direction: column;
+                }
+                .nested-div-2-child-1 {
+                  width: 100%;
+                }    
+              }
+            `;
+            document.head.appendChild(style);
+        } else {
+            console.warn('Target div or footer not found.');
         }
-
-        newSection.appendChild(lhsDiv);
-        newSection.appendChild(rhsDiv);
-
-        footer.parentNode.insertBefore(newSection, footer);
-        console.log('Contact form section with LHS and RHS added between the div and footer.');
-
-        // Update the text of the nested divs after they are added
-        updateNestedDivText();
-      } else {
-        console.warn('Target div or footer not found.');
-      }
     }
-  }
+}
+
+// Adjust the height of the top div for mobile
+function adjustTopDivHeight() {
+    const style = document.createElement('style');
+    style.textContent = `
+      @media (max-width: 768px) {
+        .min-h-screen {
+          min-height: 50vh; /* Adjust the height for mobile screens */
+        }
+      }
+    `;
+    document.head.appendChild(style);
+}
+
+// Ensure the contact form is added and adjust top div height
+ensureContactForm();
+adjustTopDivHeight();
+
+  function adjustTopDivHeight() {
+    const style = document.createElement('style');
+    style.textContent = `
+      @media (max-width: 768px) {
+        .min-h-screen {
+          min-height: 50vh; /* Adjust the height for mobile screens */
+        }
+      }
+    `;
+    document.head.appendChild(style);
+}
+
+// Call the function to apply the changes
+adjustTopDivHeight();
+
+
 
   const observer = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
@@ -181,42 +249,33 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('DOM fully loaded and parsed.');
 
   // Function to attach event listeners to inputs
   function attachInputListeners(input) {
-    console.log('Attaching event listeners to input:', input);
 
     // Add 'is-focus' class on focus
     input.addEventListener('focus', () => {
-      console.log(`Input focused:`, input);
 
       const formField = input.closest('.s-form__field');
       if (formField) {
         const label = formField.querySelector('.s-form__label');
         if (label) {
           label.classList.add('is-focus');
-          console.log('Added "is-focus" class to label.');
         }
         input.parentNode.classList.add('is-focus');
-        console.log('Added "is-focus" class to input parent.');
       }
     });
 
     // Remove 'is-focus' class on blur if the input is empty
     input.addEventListener('blur', () => {
-      console.log(`Input blurred:`, input);
-
       if (input.value === '') {
         const formField = input.closest('.s-form__field');
         if (formField) {
           const label = formField.querySelector('.s-form__label');
           if (label) {
             label.classList.remove('is-focus');
-            console.log('Removed "is-focus" class from label.');
           }
           input.parentNode.classList.remove('is-focus');
-          console.log('Removed "is-focus" class from input parent.');
         }
       }
     });
@@ -225,7 +284,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to initialize listeners for all existing inputs
   function initializeListeners() {
     const formInputs = document.querySelectorAll('.js-form-input');
-    console.log(`Found ${formInputs.length} input(s) with the class "js-form-input".`);
 
     formInputs.forEach((input) => {
       attachInputListeners(input);
@@ -243,14 +301,12 @@ document.addEventListener('DOMContentLoaded', () => {
           if (node.nodeType === 1) {
             // Check if the added node is an input with the class "js-form-input"
             if (node.matches('.js-form-input')) {
-              console.log('New input detected:', node);
               attachInputListeners(node);
             }
 
             // Check if the added node contains inputs with the class "js-form-input"
             const nestedInputs = node.querySelectorAll('.js-form-input');
             if (nestedInputs.length > 0) {
-              console.log(`Found ${nestedInputs.length} new input(s) inside added node.`);
               nestedInputs.forEach((nestedInput) => {
                 attachInputListeners(nestedInput);
               });
@@ -268,7 +324,6 @@ document.addEventListener('DOMContentLoaded', () => {
       childList: true,
       subtree: true,
     });
-    console.log('Input MutationObserver is now observing the body.');
   } else {
     console.error('document.body is not available.');
   }
@@ -282,7 +337,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (form) {
     form.addEventListener('submit', function (event) {
       event.preventDefault();
-      console.log('Form submission intercepted');
       const formData = new FormData(form);
 
       fetch('https://formkeep.com/f/87c15317d18f', {
@@ -293,7 +347,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }).then(response => {
         if (response.ok) {
-          console.log('Form submitted successfully');
           overlay.style.display = 'block';
           thankYouPopup.style.display = 'block';
         } else {

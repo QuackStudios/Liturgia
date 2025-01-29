@@ -321,7 +321,7 @@
             className: "page-builder-block "
               .concat(j.typeHandle, "-block module-margin ")
               .concat(m.top ? "st" : "", " ")
-              .concat(m.bottom ? "sb" : "", " relative isolate container full"),
+              .concat(m.bottom ? "sb" : "", " relative isolate container margin-bottom-adjust full"),
             "data-anchor": u,
             children: (0, a.jsx)(l.Suspense, {
               fallback: (0, a.jsx)(n, { module: j }),

@@ -397,27 +397,3 @@
     },
   },
 ]);
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Use event delegation to handle dynamically generated buttons
-  document.addEventListener('click', (event) => {
-    if (event.target.matches('.rounded-button')) {
-      event.stopPropagation(); // Prevent interference
-      console.log('Button clicked:', event.target);
-
-      // Perform your desired action
-      if (event.target.textContent.includes('Schools')) {
-        window.location.href = 'https://example.com/schools';
-      } else if (event.target.textContent.includes('Features')) {
-        window.location.href = 'https://example.com/liturgia';
-      }
-    }
-  });
-
-  // Debugging: Log all buttons
-  const buttons = document.querySelectorAll('.rounded-button');
-  buttons.forEach((button, index) => {
-    button.style.pointerEvents = 'auto'; // Ensure buttons are interactive
-  });
-});

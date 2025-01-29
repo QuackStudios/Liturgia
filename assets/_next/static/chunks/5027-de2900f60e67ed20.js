@@ -168,154 +168,266 @@
           })))
       })
         , w = l(86715);
-      let f = function(e) {
-          var t, l;
-          let {ariaLabel: n, title: a, type: s="link", target: c, href: d, onClick: m, children: f, style: g="big", className: v="", disabled: y=!1, Icon: b=o.A, arrow: x="front", linkProps: k={}, spanStyle: j="flex items-center flex-1 sm:whitespace-nowrap"} = e
-            , z = (0,
-          w.useRouter)()
-            , N = /\.(pdf|docx?|xlsx?|pptx?|zip|rar|7z|tar|gz|mp3|mp4|jpg|jpeg|png|gif|svg|webp|tiff|bmp|ico|flac|wav|aiff|wma|aac|ogg|mp3|mp4|mkv|avi|mov|wmv|flv|webm|pdf|docx?|xlsx?|pptx?|zip|rar|7z|tar|gz)$/i
-            , I = !1;
-          (d && d.match(N) || k.href && k.href.match(N)) && (I = "download");
-          let E = (0,
-          i.jsxs)(i.Fragment, {
-            children: [
-                (0, i.jsx)("span", {
-                  className: "target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2 js-text-animate"
-                }),
-                (0, i.jsxs)("span", {
-                  className: "button-inner",
-                  children: [
-                    "close" === s &&
-                      (0, i.jsx)("span", {
-                        className: "icon close-icon pr-4",
-                        children: (0, i.jsx)(u.A, {
-                          className: "stroke-black closeIcon",
-                        }),
-                      }),
-                    "back" === x &&
-                      (0, i.jsx)("span", {
-                        className: "icon back-icon pr-4",
-                        children: (0, i.jsx)(b, {
-                          className: "transform rotate-180 back-icon",
-                        }),
-                      }),
-                    (0, i.jsx)("span", {
-                      className: j,
-                      children: (() => {
-                        // Debugging: Log the values of `f` and `k.text`
-                        console.log("Value of f:", f);
-                        console.log("Value of k.text before:", k?.text);
-              
-                        // Prevent modifying a read-only property
-                        const updatedK = { ...k };
-                        if (!updatedK.text || updatedK.text === "Get Zaptec") {
-                          updatedK.text = "Get Liturgia";
-                          console.log("k.text updated to:", updatedK.text);
-                        }
-              
-                        // Return the correct value for the span's children
-                        return f || updatedK.text;
-                      })(),
-                    }),
-                    "front" === x &&
-                      "close" !== s &&
-                      b &&
-                      (0, i.jsx)("span", {
-                        className: "icon overflow-hidden", // Updated class name
-                        children: [
-                          "Get Liturgia", // Added the text inside the span
-                          (0, i.jsx)("span", {
-                            className: "inner-icon", // Added inner span
-                            children: (0, i.jsx)("svg", {
-                              viewBox: "0 0 16 16",
-                              className: "plus-icon undefined",
-                              fill: "none",
-                              xmlns: "http://www.w3.org/2000/svg",
-                              children: (0, i.jsx)("path", {
-                                d: "M0 8h16M8 0v16",
-                                "vector-effect": "non-scaling-stroke",
-                              }),
-                            }),
-                          }),
-                        ],
-                      }),
-                  ],
-                }),
-              ]
-          })
-            , A = "custom-button button-".concat(g, " ").concat(v, " group").concat(b ? "" : " no-icon");
-          if ("button" === s || "submit" === s)
-              return (0,
-              i.jsx)("button", {
-                  "aria-label": n || a,
-                  title: a,
-                  type: s,
-                  className: [A, y ? "opacity-60" : ""].join(" "),
-                  disabled: y,
-                  onClick: m,
-                  children: E
-              });
-          if ("close" === s)
-              return (0,
-              i.jsx)("button", {
-                  "aria-label": n || a,
-                  className: [A, y ? "opacity-60" : ""].join(" "),
-                  disabled: y,
-                  onClick: m,
-                  children: E
-              });
-          if ("download" === s)
-              return (0,
-              i.jsx)("a", {
-                  "aria-label": n || a,
-                  title: a,
-                  href: d,
-                  className: "".concat(A, " download"),
-                  target: "_blank",
-                  rel: "noreferrer",
-                  download: !0,
-                  children: E
-              });
-          if ((null == k ? void 0 : k.type) === "freeform")
-              return (0,
-              i.jsx)("a", {
-                  "aria-label": n || a,
-                  href: k.href,
-                  className: "".concat(A, " download-button"),
-                  "data-form": k.title,
-                  children: E
-              });
-          let _ = {
-              ariaLabel: n || k.ariaLabel || a,
-              title: a || k.title,
-              target: c || k.target,
-              href: d || k.href,
-              onClick: m,
-              className: A
-          };
-          if ((null == k ? void 0 : k.target) === "_blank" && (_.rel = "noreferrer",
-          _.className += " external"),
-          I && (_.download = I,
-          _.className += " download",
-          _.target = "_blank"),
-          null === (l = _.href) || void 0 === l ? void 0 : l.startsWith("#")) {
-              let[e] = z.asPath.split("?")
-                , t = (e = e.replace(/#.*$/, "")).split("/");
-              "en" === t[1] && t.splice(1, 1),
-              "en" === t[2] && t.splice(2, 1),
-              t[1].match(/^\d+$/) && t.splice(1, 1);
-              let l = t.join("/");
-              _.href = {
-                  hash: _.href,
-                  pathname: l || "/"
-              }
+// Mapping of href values to button indices
+const hrefToIndexMap = {
+  "https://shop.liturgybrisbane.net.au/collections/liturgia": 0,
+  "https://liturgia.quackstudios.com.au/features.html": 1,
+  // Add more mappings as needed
+};
+
+// Array of button texts corresponding to indices
+const buttonTexts = [
+  "Get Liturgia",  // Text for index 0
+  "Learn More",  // Text for index 1
+];
+
+// Function to process buttons and assign text based on href
+function processButton(button) {
+  // Step 1: Validate that the button is a valid DOM element
+  if (!(button instanceof Element)) {
+    console.error("Invalid DOM element:", button);
+    return; // Exit the function if the button is not valid
+  }
+
+  // Step 2: Get the href attribute of the button
+  const href = button.getAttribute("href");
+
+  // Step 3: Determine the button index based on the href
+  const buttonIndex = hrefToIndexMap[href];
+
+  // Step 4: Get the button text based on the index
+  const buttonText = buttonIndex !== undefined
+    ? buttonTexts[buttonIndex] // Use the mapped text
+    : "Default Text"; // Fallback to "Default Text" if href is not in the map
+
+  console.log("Processing button:");
+  console.log("  Href:", href);
+  console.log("  Button Index:", buttonIndex);
+  console.log("  Button Text:", buttonText);
+
+  // Step 5: Update only the text node inside the "icon overflow-hidden" span
+  const iconSpan = button.querySelector(".icon.overflow-hidden");
+  if (iconSpan) {
+    // Find the text node inside the icon span
+    const textNode = Array.from(iconSpan.childNodes).find(
+      (node) => node.nodeType === Node.TEXT_NODE
+    );
+
+    if (textNode) {
+      // Update the text node with the new text
+      textNode.textContent = buttonText;
+    } else {
+      console.warn("No text node found inside '.icon.overflow-hidden' for button:", button);
+    }
+  } else {
+    console.warn("Could not find '.icon.overflow-hidden' for button:", button);
+  }
+}
+
+// Function to observe the DOM for dynamically added buttons
+function observeButtons() {
+  // Select the container where buttons are dynamically added
+  const targetNode = document.body; // You can narrow this down to a specific container if needed
+
+  // Create a MutationObserver to watch for changes in the DOM
+  const observer = new MutationObserver((mutationsList) => {
+    console.log("MutationObserver detected changes:", mutationsList); // Debug log
+    for (const mutation of mutationsList) {
+      if (mutation.type === "childList") {
+        // Check added nodes for buttons
+        mutation.addedNodes.forEach((node) => {
+          if (node instanceof Element && node.matches(".custom-button")) {
+            // Process the dynamically added button
+            processButton(node);
           }
-          return (0,
-          i.jsx)(r.A, {
-              ..._,
-              children: E
-          })
+        });
       }
+    }
+  });
+
+  // Start observing the target node for child additions
+  observer.observe(targetNode, { childList: true, subtree: true });
+
+  console.log("MutationObserver is now watching for dynamically added buttons.");
+}
+
+// Fallback: Periodically check for unprocessed buttons
+function fallbackCheck() {
+  const buttons = document.querySelectorAll(".custom-button");
+  buttons.forEach((button) => {
+    if (!button.dataset.processed) {
+      processButton(button);
+      button.dataset.processed = "true"; // Mark the button as processed
+    }
+  });
+}
+
+// Start observing and set up the fallback
+observeButtons();
+setInterval(fallbackCheck, 1000); // Check every second for unprocessed buttons
+
+// Existing button rendering logic (restored `f(e)` function)
+let f = function (e) {
+  var t, l;
+  let {
+    ariaLabel: n,
+    title: a,
+    type: s = "link",
+    target: c,
+    href: d,
+    onClick: m,
+    children: f,
+    style: g = "big",
+    className: v = "",
+    disabled: y = !1,
+    Icon: b = o.A,
+    arrow: x = "front",
+    linkProps: k = {},
+    spanStyle: j = "flex items-center flex-1 sm:whitespace-nowrap",
+  } = e,
+    z = (0, w.useRouter)(),
+    N = /\.(pdf|docx?|xlsx?|pptx?|zip|rar|7z|tar|gz|mp3|mp4|jpg|jpeg|png|gif|svg|webp|tiff|bmp|ico|flac|wav|aiff|wma|aac|ogg|mp3|mp4|mkv|avi|mov|wmv|flv|webm|pdf|docx?|xlsx?|pptx?|zip|rar|7z|tar|gz)$/i,
+    I = !1;
+
+  (d && d.match(N) || k.href && k.href.match(N)) && (I = "download");
+
+  let E = (0, i.jsxs)(i.Fragment, {
+    children: [
+      (0, i.jsx)("span", {
+        className: "target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2 js-text-animate",
+      }),
+      (0, i.jsxs)("span", {
+        className: "button-inner",
+        children: [
+          "close" === s &&
+            (0, i.jsx)("span", {
+              className: "icon close-icon pr-4",
+              children: (0, i.jsx)(u.A, {
+                className: "stroke-black closeIcon",
+              }),
+            }),
+          "back" === x &&
+            (0, i.jsx)("span", {
+              className: "icon back-icon pr-4",
+              children: (0, i.jsx)(b, {
+                className: "transform rotate-180 back-icon",
+              }),
+            }),
+          (0, i.jsx)("span", {
+            className: j,
+            children: (() => {
+              const updatedK = { ...k };
+              if (!updatedK.text || updatedK.text === "Get Zaptec") {
+                updatedK.text = "Get Liturgia";
+              }
+              return f || updatedK.text;
+            })(),
+          }),
+          "front" === x &&
+            "close" !== s &&
+            b &&
+            (0, i.jsx)("span", {
+              className: "icon overflow-hidden",
+              children: [
+                "Default Text", // Placeholder text (will be updated dynamically)
+                (0, i.jsx)("span", {
+                  className: "inner-icon",
+                  children: (0, i.jsx)("svg", {
+                    viewBox: "0 0 16 16",
+                    className: "plus-icon undefined",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: (0, i.jsx)("path", {
+                      d: "M0 8h16M8 0v16",
+                      "vector-effect": "non-scaling-stroke",
+                    }),
+                  }),
+                }),
+              ],
+            }),
+        ],
+      }),
+    ],
+  });
+
+  let A = "custom-button button-".concat(g, " ").concat(v, " group").concat(b ? "" : " no-icon");
+
+  if ("button" === s || "submit" === s)
+    return (0, i.jsx)("button", {
+      "aria-label": n || a,
+      title: a,
+      type: s,
+      className: [A, y ? "opacity-60" : ""].join(" "),
+      disabled: y,
+      onClick: m,
+      children: E,
+    });
+
+  if ("close" === s)
+    return (0, i.jsx)("button", {
+      "aria-label": n || a,
+      className: [A, y ? "opacity-60" : ""].join(" "),
+      disabled: y,
+      onClick: m,
+      children: E,
+    });
+
+  if ("download" === s)
+    return (0, i.jsx)("a", {
+      "aria-label": n || a,
+      title: a,
+      href: d,
+      className: "".concat(A, " download"),
+      target: "_blank",
+      rel: "noreferrer",
+      download: !0,
+      children: E,
+    });
+
+  if ((null == k ? void 0 : k.type) === "freeform")
+    return (0, i.jsx)("a", {
+      "aria-label": n || a,
+      href: k.href,
+      className: "".concat(A, " download-button"),
+      "data-form": k.title,
+      children: E,
+    });
+
+  let _ = {
+    ariaLabel: n || k.ariaLabel || a,
+    title: a || k.title,
+    target: c || k.target,
+    href: d || k.href,
+    onClick: m,
+    className: A,
+  };
+
+  if (
+    (null == k ? void 0 : k.target) === "_blank" &&
+    ((_.rel = "noreferrer"), (_.className += " external")),
+    I &&
+    ((_.download = I), (_.className += " download"), (_.target = "_blank")),
+    null === (l = _.href) || void 0 === l
+      ? void 0
+      : l.startsWith("#")
+  ) {
+    let [e] = z.asPath.split("?"),
+      t = (e = e.replace(/#.*$/, "")).split("/");
+    "en" === t[1] && t.splice(1, 1),
+      "en" === t[2] && t.splice(2, 1),
+      t[1].match(/^\d+$/) && t.splice(1, 1);
+    let l = t.join("/");
+    _.href = {
+      hash: _.href,
+      pathname: l || "/",
+    };
+  }
+
+  return (0, i.jsx)(r.A, {
+    ..._,
+    children: E,
+  });
+}
   }
   ,
   72673: (e, t, l) => {
