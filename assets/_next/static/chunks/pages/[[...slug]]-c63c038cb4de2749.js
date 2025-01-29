@@ -3113,7 +3113,8 @@
                 globals: d,
               }),
               (0, T.jsxs)("div", {
-                className: "r-pt-[6.25] text-center container big pricing-padding",
+                className:
+                  "r-pt-[6.25] text-center container big pricing-padding",
                 children: [
                   (0, T.jsx)("h1", {
                     className: "".concat(
@@ -7915,35 +7916,35 @@
               (0, T.jsx)("link", {
                 rel: "apple-touch-icon",
                 sizes: "180x180",
-                href: "/favicon/apple-touch-icon.png",
+                href: "assets/favicon/apple-touch-icon.png",
               }),
               (0, T.jsx)("link", {
                 id: "favicon-32",
                 rel: "icon",
                 type: "image/png",
                 sizes: "32x32",
-                href: "/favicon/favicon-32x32.png",
+                href: "assets/favicon/favicon.ico",
               }),
               (0, T.jsx)("link", {
                 id: "favicon-16",
                 rel: "icon",
                 type: "image/png",
                 sizes: "16x16",
-                href: "/favicon/favicon-16x16.png",
+                href: "assets/favicon/favicon.ico",
               }),
               (0, T.jsx)("link", {
                 id: "favicon",
                 rel: "icon",
                 type: "image/x-icon",
-                href: "/favicon/favicon.ico",
+                href: "assets/favicon/favicon.ico",
               }),
               (0, T.jsx)("link", {
                 rel: "manifest",
-                href: "/favicon/site.webmanifest",
+                href: "assets/favicon/site.webmanifest",
               }),
               (0, T.jsx)("link", {
                 rel: "mask-icon",
-                href: "/favicon/safari-pinned-tab.svg",
+                href: "assets/favicon/safari-pinned-tab.svg",
                 color: "#5bbad5",
               }),
               (0, T.jsx)("meta", {
@@ -7972,18 +7973,18 @@
             let e = () => {
               if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
                 let e = document.querySelector("#favicon-32");
-                e && (e.href = "/favicon/favicon-32x32-white.png");
+                e && (e.href = "assets/favicon/favicon-32x32-white.png");
                 let n = document.querySelector("#favicon-16");
-                n && (n.href = "/favicon/favicon-16x16-white.png");
+                n && (n.href = "assets/favicon/favicon-16x16-white.png");
                 let t = document.querySelector("#favicon");
-                t && (t.href = "/favicon/favicon-white.ico");
+                t && (t.href = "assets/favicon/favicon-white.ico");
               } else {
                 let e = document.querySelector("#favicon-32");
-                e && (e.href = "/favicon/favicon-32x32.png");
+                e && (e.href = "assets/favicon/favicon.ico");
                 let n = document.querySelector("#favicon-16");
-                n && (n.href = "/favicon/favicon-16x16.png");
+                n && (n.href = "assets/favicon/favicon.ico");
                 let t = document.querySelector("#favicon");
-                t && (t.href = "/favicon/favicon.ico");
+                t && (t.href = "assets/favicon/favicon.ico");
               }
             };
             return (
@@ -8171,16 +8172,17 @@
             o =
               (null == l
                 ? void 0
-                : null === (t = l.filter((e) => e.uid === i.open)) || void 0 === t
+                : null === (t = l.filter((e) => e.uid === i.open)) ||
+                  void 0 === t
                 ? void 0
                 : null === (n = t[0]) || void 0 === n
                 ? void 0
                 : n.sub) || [],
             d = (null == s ? void 0 : s.asPath) || "";
-              
+
           // Initialize hover state
           let hovering = false;
-        
+
           // Function to handle mouse enter
           function handleMouseEnter() {
             console.log("Mouse Enter Triggered");
@@ -8188,11 +8190,11 @@
               console.error("setOpen is not a function or is undefined");
               return;
             }
-        
+
             if (i.timeout) {
               clearTimeout(i.timeout);
             }
-        
+
             hovering = true;
             if (e.uid) {
               r({ open: e.uid, timeout: null });
@@ -8200,7 +8202,7 @@
               console.error("e.uid is undefined or invalid");
             }
           }
-        
+
           // Function to handle mouse leave
           function handleMouseLeave() {
             console.log("Mouse Leave Triggered");
@@ -8208,7 +8210,7 @@
               console.error("setOpen is not a function or is undefined");
               return;
             }
-        
+
             hovering = false;
             let timeout = setTimeout(() => {
               if (!hovering) {
@@ -8217,7 +8219,7 @@
             }, 500);
             r((n) => ({ ...n, timeout }));
           }
-        
+
           return (0, T.jsx)(np.N, {
             mode: "wait",
             children:
@@ -8254,44 +8256,50 @@
                       onMouseEnter: handleMouseEnter,
                       onMouseLeave: handleMouseLeave,
                       children: (0, T.jsxs)("div", {
-                        className: "inner container full flex items-stretch h-full",
+                        className:
+                          "inner container full flex items-stretch h-full",
                         children: o.length
                           ? o.map((e) => {
-                            let { navigationLink: n, tag: t } = e || {};
-                            if (!n || !n.href) {
-                              console.warn("Invalid or missing href:", n);
-                              return null;
-                            }
-                            return (0, T.jsxs)(
-                              "a",
-                              {
-                                className: "primary-menu-item r-text-lg border-r border-grey-border first:border-l group relative r-w-[13.75] r-p-6",
-                                href: n.href,
-                                target: n.target,
-                                title: e.title,
-                                children: [
-                                  // First span (replacing the <a> element)
-                                  (0, T.jsx)("span", { className: "block", children: e.title }),
-                          
-                                  // Second span with an <svg> element
-                                  (0, T.jsx)("span", {
-                                    className: "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover:opacity-100 -translate-x-1/2 group-hover:translate-x-0",
-                                    children: (0, T.jsx)("svg", {
-                                      xmlns: "http://www.w3.org/2000/svg",
-                                      viewBox: "0 0 14 14",
-                                      fill: "currentColor",
-                                      className: "w-3 stroke-white",
-                                      children: (0, T.jsx)("path", {
-                                        d: "M.74 7h12m0 0-6-6m6 6-6 6",
-                                        vectorEffect: "non-scaling-stroke",
+                              let { navigationLink: n, tag: t } = e || {};
+                              if (!n || !n.href) {
+                                console.warn("Invalid or missing href:", n);
+                                return null;
+                              }
+                              return (0, T.jsxs)(
+                                "a",
+                                {
+                                  className:
+                                    "primary-menu-item r-text-lg border-r border-grey-border first:border-l group relative r-w-[13.75] r-p-6",
+                                  href: n.href,
+                                  target: n.target,
+                                  title: e.title,
+                                  children: [
+                                    // First span (replacing the <a> element)
+                                    (0, T.jsx)("span", {
+                                      className: "block",
+                                      children: e.title,
+                                    }),
+
+                                    // Second span with an <svg> element
+                                    (0, T.jsx)("span", {
+                                      className:
+                                        "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover:opacity-100 -translate-x-1/2 group-hover:translate-x-0",
+                                      children: (0, T.jsx)("svg", {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        viewBox: "0 0 14 14",
+                                        fill: "currentColor",
+                                        className: "w-3 stroke-white",
+                                        children: (0, T.jsx)("path", {
+                                          d: "M.74 7h12m0 0-6-6m6 6-6 6",
+                                          vectorEffect: "non-scaling-stroke",
+                                        }),
                                       }),
                                     }),
-                                  }),
-                                ],
-                              },
-                              e.uid
-                            );
-                          })
+                                  ],
+                                },
+                                e.uid
+                              );
+                            })
                           : (0, T.jsx)("div", {
                               className: "no-content",
                               children: "No submenu available.",
@@ -8805,142 +8813,155 @@
             }).apply(this, arguments);
       }
       var l2 = (0, B.forwardRef)(function (e, n) {
-        return B.createElement(
-          "svg",
-          l1(
-            {
-              width: "311px",
-              height: "97px",
-              viewBox: "0 0 311 97",
-              version: "1.1",
-              xmlns: "http://www.w3.org/2000/svg",
-              "xmlns:xlink": "http://www.w3.org/1999/xlink",
-              ref: n,
-            },
-            e
-          ),
-          B.createElement("title", null, "Logo-Red-Horiz"),
-          B.createElement("desc", null, "Created with Sketch."),
-          B.createElement(
-            "defs",
-            null,
-            B.createElement("polygon", {
-              id: "path-1",
-              points: "0 97 310.608221 97 310.608221 0.553708333 0 0.553708333",
-            })
-          ),
-          B.createElement(
-            "g",
-            {
-              id: "Desktop",
-              stroke: "none",
-              "stroke-width": "1",
-              fill: "none",
-              "fill-rule": "evenodd",
-            },
+          return B.createElement(
+            "svg",
+            l1(
+              {
+                width: "311px",
+                height: "97px",
+                viewBox: "0 0 311 97",
+                version: "1.1",
+                xmlns: "http://www.w3.org/2000/svg",
+                "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                ref: n,
+              },
+              e
+            ),
+            B.createElement("title", null, "Logo-Red-Horiz"),
+            B.createElement("desc", null, "Created with Sketch."),
+            B.createElement(
+              "defs",
+              null,
+              B.createElement("polygon", {
+                id: "path-1",
+                points:
+                  "0 97 310.608221 97 310.608221 0.553708333 0 0.553708333",
+              })
+            ),
             B.createElement(
               "g",
-              { id: "Elements", transform: "translate(-802.000000, -214.000000)" },
+              {
+                id: "Desktop",
+                stroke: "none",
+                "stroke-width": "1",
+                fill: "none",
+                "fill-rule": "evenodd",
+              },
               B.createElement(
                 "g",
-                { id: "Logo", transform: "translate(802.000000, 157.000000)" },
+                {
+                  id: "Elements",
+                  transform: "translate(-802.000000, -214.000000)",
+                },
                 B.createElement(
                   "g",
-                  { id: "Logo-Red-Horiz", transform: "translate(0.000000, 57.000000)" },
+                  {
+                    id: "Logo",
+                    transform: "translate(802.000000, 157.000000)",
+                  },
                   B.createElement(
                     "g",
-                    { id: "Logo1" },
-                    B.createElement("polygon", {
-                      id: "Fill-1",
-                      fill: "currentColor",
-                      points: "115.42768 31 115.42768 61.0329899 126 61.0329899 126 66 110 66 110 31",
-                    }),
-                    B.createElement("polygon", {
-                      id: "Fill-2",
-                      fill: "currentColor",
-                      points: "131 66 136 66 136 31 131 31",
-                    }),
-                    B.createElement("polygon", {
-                      id: "Fill-3",
-                      fill: "currentColor",
-                      points: "154.10757 35.9670101 154.10757 66 148.912351 66 148.912351 35.9670101 141 35.9670101 141 31 162 31 162 35.9670101",
-                    }),
+                    {
+                      id: "Logo-Red-Horiz",
+                      transform: "translate(0.000000, 57.000000)",
+                    },
                     B.createElement(
                       "g",
-                      { id: "Group-21" },
-                      B.createElement("path", {
-                        d: "M172.057721,30.7760792 L172.057721,51.8048708 C172.057721,54.8037875 172.546435,56.9984125 173.527903,58.3847042 C174.985968,60.3893708 177.041799,61.3917042 179.695396,61.3917042 C182.36111,61.3917042 184.429058,60.3893708 185.887123,58.3847042 C186.868591,57.0428708 187.357305,54.8522875 187.357305,51.8048708 L187.357305,30.7760792 L192.620071,30.7760792 L192.620071,53.2558292 C192.620071,56.9337458 191.477045,59.9649958 189.186955,62.3455375 C186.610097,64.9968708 183.447591,66.3225375 179.695396,66.3225375 C175.943201,66.3225375 172.788773,64.9968708 170.228071,62.3455375 C167.933942,59.9649958 166.790916,56.9337458 166.790916,53.2558292 L166.790916,30.7760792 L172.057721,30.7760792 Z",
-                        id: "Fill-4",
+                      { id: "Logo1" },
+                      B.createElement("polygon", {
+                        id: "Fill-1",
                         fill: "currentColor",
-                      }),
-                      B.createElement("path", {
-                        d: "M206.248738,46.8085625 L207.920868,46.8085625 C212.904945,46.8085625 215.401023,44.9008958 215.401023,41.0855625 C215.401023,37.5127292 212.977647,35.7303542 208.122816,35.7303542 L206.248738,35.7303542 L206.248738,46.8085625 Z M212.803971,50.8098125 L223.604153,65.6912292 L217.16201,65.6912292 L207.197894,51.3998958 L206.248738,51.3998958 L206.248738,65.6912292 L200.981932,65.6912292 L200.981932,30.7752708 L207.153465,30.7752708 C211.761919,30.7752708 215.090023,31.6401875 217.141816,33.3781042 C219.399595,35.3059792 220.530504,37.8522292 220.530504,41.0168542 C220.530504,43.4943958 219.823686,45.6162708 218.40601,47.3986458 C216.988335,49.1769792 215.122335,50.3126875 212.803971,50.8098125 L212.803971,50.8098125 Z",
-                        id: "Fill-6",
-                        fill: "currentColor",
-                      }),
-                      B.createElement("path", {
-                        d: "M245.999384,47.5110042 L260.418475,47.5110042 L260.418475,48.6628792 C260.418475,51.2859208 260.107475,53.6098792 259.489514,55.6266708 C258.887709,57.4979625 257.869891,59.2439625 256.440099,60.8767958 C253.200852,64.5223792 249.081112,66.3451708 244.076839,66.3451708 C239.197774,66.3451708 235.017449,64.5830042 231.535865,61.0546292 C228.058319,57.5141292 226.317527,53.2622958 226.317527,48.2991292 C226.317527,43.2349208 228.086592,38.9386292 231.624722,35.4102542 C235.166891,31.8697542 239.476462,30.0954625 244.553436,30.0954625 C247.279735,30.0954625 249.824281,30.6532125 252.191112,31.7687125 C254.45293,32.8882542 256.674358,34.6948792 258.859436,37.1966708 L255.107242,40.7937542 C252.243618,36.9824625 248.757995,35.0707542 244.646332,35.0707542 C240.950683,35.0707542 237.856839,36.3438792 235.356722,38.8941708 C232.856605,41.3959625 231.604527,44.5322958 231.604527,48.2991292 C231.604527,52.1912542 232.997969,55.3922542 235.784852,57.9102125 C238.389982,60.2462958 241.217255,61.4143375 244.258592,61.4143375 C246.851605,61.4143375 249.178047,60.5453792 251.241956,58.7953375 C253.305865,57.0291292 254.461008,54.9193792 254.699306,52.4620458 L245.999384,52.4620458 L245.999384,47.5110042 Z",
-                        id: "Fill-8",
-                        fill: "currentColor",
+                        points:
+                          "115.42768 31 115.42768 61.0329899 126 61.0329899 126 66 110 66 110 31",
                       }),
                       B.createElement("polygon", {
-                        id: "Fill-10",
+                        id: "Fill-2",
                         fill: "currentColor",
-                        points: "267.035909 65.6892083 272.302714 65.6892083 272.302714 30.77325 267.035909 30.77325",
+                        points: "131 66 136 66 136 31 131 31",
                       }),
-                      B.createElement("path", {
-                        d: "M299.036597,52.2591542 L293.862688,40.3847375 L288.438364,52.2591542 L299.036597,52.2591542 Z M301.185325,57.2101958 L286.245208,57.2101958 L282.359727,65.6896125 L276.689026,65.6896125 L293.951545,28.5830708 L310.608221,65.6896125 L304.844623,65.6896125 L301.185325,57.2101958 Z",
-                        id: "Fill-12",
+                      B.createElement("polygon", {
+                        id: "Fill-3",
                         fill: "currentColor",
+                        points:
+                          "154.10757 35.9670101 154.10757 66 148.912351 66 148.912351 35.9670101 141 35.9670101 141 31 162 31 162 35.9670101",
                       }),
-                      B.createElement("path", {
-                        d: "M64.5381545,48.1564583 L69.671674,48.1564583 C69.671674,48.1564583 74.8011545,65.3295 67.7248948,83.5655 C65.9558299,84.6244167 65.0712974,85.1579167 61.177739,86.5725 C62.5954143,83.7392917 70.2007779,68.518375 64.5381545,48.1564583",
-                        id: "Fill-13",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M74.0931247,48.1564583 L79.2226052,48.1564583 C79.2226052,48.1564583 82.4093455,58.2485 79.5780338,74.3585833 C77.9826442,75.951 74.2668,79.3136667 73.3863065,79.4915 C74.7999429,76.6623333 78.1603584,61.6111667 74.0931247,48.1564583",
-                        id: "Fill-14",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M83.6464792,48.33995 L89.1313883,48.33995 C89.1313883,48.33995 88.4245701,60.9095333 85.0601156,65.6867833 C85.2378299,63.03545 85.4155442,54.7136583 83.6464792,48.33995",
-                        id: "Fill-15",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M46.3175935,49.7056292 L46.3175935,23.7864208 C46.3175935,23.7864208 74.6226325,48.3355042 56.4028792,87.6366708 C54.9852039,88.1661292 52.3316065,88.8734208 50.207113,88.5217958 C51.6247883,86.5737125 66.484126,64.4415458 51.0956844,37.1805042 L51.0956844,59.2277958 L51.0795286,60.0442125 L51.0795286,73.6525042 C51.0795286,73.6525042 22.7744896,49.1074625 40.9982818,9.80225417 C42.4119182,9.2768375 45.0655156,8.56550417 47.1900091,8.92117083 C45.7723338,10.8652125 30.9129961,32.9973792 46.3054766,60.2584208 L46.3054766,50.5220458 L46.3175935,49.7056292 Z",
-                        id: "Fill-16",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M32.8593714,49.283275 L27.7258519,49.283275 C27.7258519,49.283275 22.5963714,32.1102333 29.6726312,13.8742333 C31.4416961,12.8153167 32.3262286,12.2818167 36.219787,10.8672333 C34.8021117,13.7004417 27.200787,28.9213583 32.8593714,49.283275",
-                        id: "Fill-17",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M23.3044013,49.283275 L18.1749208,49.283275 C18.1749208,49.283275 14.9922195,39.1912333 17.8235312,23.08115 C19.4148818,21.4887333 23.130726,18.1260667 24.0112195,17.9482333 C22.5975831,20.7774 19.2371675,35.8285667 23.3044013,49.283275",
-                        id: "Fill-18",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M13.7534701,49.0997833 L8.26856104,49.0997833 C8.26856104,49.0997833 8.97537922,36.5302 12.3357948,31.75295 C12.1580805,34.4042833 11.9844052,42.726075 13.7534701,49.0997833",
-                        id: "Fill-19",
-                        fill: "#E32925",
-                      }),
-                      B.createElement("path", {
-                        d: "M48.1908636,4.45391667 C23.7713052,4.45391667 3.89961688,24.334875 3.89961688,48.7748333 C3.89961688,73.2147917 23.7713052,93.0997917 48.1908636,93.0997917 C72.614461,93.0997917 92.4821104,73.2147917 92.4821104,48.7748333 C92.4821104,24.334875 72.614461,4.45391667 48.1908636,4.45391667 M48.1908636,97 C21.618539,97 -0.00201948052,75.3649583 -0.00201948052,48.7748333 C-0.00201948052,22.1847083 21.618539,0.553708333 48.1908636,0.553708333 C74.7672273,0.553708333 96.3837468,22.1847083 96.3837468,48.7748333 C96.3837468,75.3649583 74.7672273,97 48.1908636,97",
-                        id: "Fill-20",
-                        fill: "#E32925",
-                      })
+                      B.createElement(
+                        "g",
+                        { id: "Group-21" },
+                        B.createElement("path", {
+                          d: "M172.057721,30.7760792 L172.057721,51.8048708 C172.057721,54.8037875 172.546435,56.9984125 173.527903,58.3847042 C174.985968,60.3893708 177.041799,61.3917042 179.695396,61.3917042 C182.36111,61.3917042 184.429058,60.3893708 185.887123,58.3847042 C186.868591,57.0428708 187.357305,54.8522875 187.357305,51.8048708 L187.357305,30.7760792 L192.620071,30.7760792 L192.620071,53.2558292 C192.620071,56.9337458 191.477045,59.9649958 189.186955,62.3455375 C186.610097,64.9968708 183.447591,66.3225375 179.695396,66.3225375 C175.943201,66.3225375 172.788773,64.9968708 170.228071,62.3455375 C167.933942,59.9649958 166.790916,56.9337458 166.790916,53.2558292 L166.790916,30.7760792 L172.057721,30.7760792 Z",
+                          id: "Fill-4",
+                          fill: "currentColor",
+                        }),
+                        B.createElement("path", {
+                          d: "M206.248738,46.8085625 L207.920868,46.8085625 C212.904945,46.8085625 215.401023,44.9008958 215.401023,41.0855625 C215.401023,37.5127292 212.977647,35.7303542 208.122816,35.7303542 L206.248738,35.7303542 L206.248738,46.8085625 Z M212.803971,50.8098125 L223.604153,65.6912292 L217.16201,65.6912292 L207.197894,51.3998958 L206.248738,51.3998958 L206.248738,65.6912292 L200.981932,65.6912292 L200.981932,30.7752708 L207.153465,30.7752708 C211.761919,30.7752708 215.090023,31.6401875 217.141816,33.3781042 C219.399595,35.3059792 220.530504,37.8522292 220.530504,41.0168542 C220.530504,43.4943958 219.823686,45.6162708 218.40601,47.3986458 C216.988335,49.1769792 215.122335,50.3126875 212.803971,50.8098125 L212.803971,50.8098125 Z",
+                          id: "Fill-6",
+                          fill: "currentColor",
+                        }),
+                        B.createElement("path", {
+                          d: "M245.999384,47.5110042 L260.418475,47.5110042 L260.418475,48.6628792 C260.418475,51.2859208 260.107475,53.6098792 259.489514,55.6266708 C258.887709,57.4979625 257.869891,59.2439625 256.440099,60.8767958 C253.200852,64.5223792 249.081112,66.3451708 244.076839,66.3451708 C239.197774,66.3451708 235.017449,64.5830042 231.535865,61.0546292 C228.058319,57.5141292 226.317527,53.2622958 226.317527,48.2991292 C226.317527,43.2349208 228.086592,38.9386292 231.624722,35.4102542 C235.166891,31.8697542 239.476462,30.0954625 244.553436,30.0954625 C247.279735,30.0954625 249.824281,30.6532125 252.191112,31.7687125 C254.45293,32.8882542 256.674358,34.6948792 258.859436,37.1966708 L255.107242,40.7937542 C252.243618,36.9824625 248.757995,35.0707542 244.646332,35.0707542 C240.950683,35.0707542 237.856839,36.3438792 235.356722,38.8941708 C232.856605,41.3959625 231.604527,44.5322958 231.604527,48.2991292 C231.604527,52.1912542 232.997969,55.3922542 235.784852,57.9102125 C238.389982,60.2462958 241.217255,61.4143375 244.258592,61.4143375 C246.851605,61.4143375 249.178047,60.5453792 251.241956,58.7953375 C253.305865,57.0291292 254.461008,54.9193792 254.699306,52.4620458 L245.999384,52.4620458 L245.999384,47.5110042 Z",
+                          id: "Fill-8",
+                          fill: "currentColor",
+                        }),
+                        B.createElement("polygon", {
+                          id: "Fill-10",
+                          fill: "currentColor",
+                          points:
+                            "267.035909 65.6892083 272.302714 65.6892083 272.302714 30.77325 267.035909 30.77325",
+                        }),
+                        B.createElement("path", {
+                          d: "M299.036597,52.2591542 L293.862688,40.3847375 L288.438364,52.2591542 L299.036597,52.2591542 Z M301.185325,57.2101958 L286.245208,57.2101958 L282.359727,65.6896125 L276.689026,65.6896125 L293.951545,28.5830708 L310.608221,65.6896125 L304.844623,65.6896125 L301.185325,57.2101958 Z",
+                          id: "Fill-12",
+                          fill: "currentColor",
+                        }),
+                        B.createElement("path", {
+                          d: "M64.5381545,48.1564583 L69.671674,48.1564583 C69.671674,48.1564583 74.8011545,65.3295 67.7248948,83.5655 C65.9558299,84.6244167 65.0712974,85.1579167 61.177739,86.5725 C62.5954143,83.7392917 70.2007779,68.518375 64.5381545,48.1564583",
+                          id: "Fill-13",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M74.0931247,48.1564583 L79.2226052,48.1564583 C79.2226052,48.1564583 82.4093455,58.2485 79.5780338,74.3585833 C77.9826442,75.951 74.2668,79.3136667 73.3863065,79.4915 C74.7999429,76.6623333 78.1603584,61.6111667 74.0931247,48.1564583",
+                          id: "Fill-14",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M83.6464792,48.33995 L89.1313883,48.33995 C89.1313883,48.33995 88.4245701,60.9095333 85.0601156,65.6867833 C85.2378299,63.03545 85.4155442,54.7136583 83.6464792,48.33995",
+                          id: "Fill-15",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M46.3175935,49.7056292 L46.3175935,23.7864208 C46.3175935,23.7864208 74.6226325,48.3355042 56.4028792,87.6366708 C54.9852039,88.1661292 52.3316065,88.8734208 50.207113,88.5217958 C51.6247883,86.5737125 66.484126,64.4415458 51.0956844,37.1805042 L51.0956844,59.2277958 L51.0795286,60.0442125 L51.0795286,73.6525042 C51.0795286,73.6525042 22.7744896,49.1074625 40.9982818,9.80225417 C42.4119182,9.2768375 45.0655156,8.56550417 47.1900091,8.92117083 C45.7723338,10.8652125 30.9129961,32.9973792 46.3054766,60.2584208 L46.3054766,50.5220458 L46.3175935,49.7056292 Z",
+                          id: "Fill-16",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M32.8593714,49.283275 L27.7258519,49.283275 C27.7258519,49.283275 22.5963714,32.1102333 29.6726312,13.8742333 C31.4416961,12.8153167 32.3262286,12.2818167 36.219787,10.8672333 C34.8021117,13.7004417 27.200787,28.9213583 32.8593714,49.283275",
+                          id: "Fill-17",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M23.3044013,49.283275 L18.1749208,49.283275 C18.1749208,49.283275 14.9922195,39.1912333 17.8235312,23.08115 C19.4148818,21.4887333 23.130726,18.1260667 24.0112195,17.9482333 C22.5975831,20.7774 19.2371675,35.8285667 23.3044013,49.283275",
+                          id: "Fill-18",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M13.7534701,49.0997833 L8.26856104,49.0997833 C8.26856104,49.0997833 8.97537922,36.5302 12.3357948,31.75295 C12.1580805,34.4042833 11.9844052,42.726075 13.7534701,49.0997833",
+                          id: "Fill-19",
+                          fill: "#E32925",
+                        }),
+                        B.createElement("path", {
+                          d: "M48.1908636,4.45391667 C23.7713052,4.45391667 3.89961688,24.334875 3.89961688,48.7748333 C3.89961688,73.2147917 23.7713052,93.0997917 48.1908636,93.0997917 C72.614461,93.0997917 92.4821104,73.2147917 92.4821104,48.7748333 C92.4821104,24.334875 72.614461,4.45391667 48.1908636,4.45391667 M48.1908636,97 C21.618539,97 -0.00201948052,75.3649583 -0.00201948052,48.7748333 C-0.00201948052,22.1847083 21.618539,0.553708333 48.1908636,0.553708333 C74.7672273,0.553708333 96.3837468,22.1847083 96.3837468,48.7748333 C96.3837468,75.3649583 74.7672273,97 48.1908636,97",
+                          id: "Fill-20",
+                          fill: "#E32925",
+                        })
+                      )
                     )
                   )
                 )
               )
             )
-          )
-        );
-      }),
+          );
+        }),
         l5 = t(19602);
       let l4 = (0, Z.WQ)("ui")(
           (0, Z.PA)((e) => {
@@ -9130,27 +9151,28 @@
                       "inner container full r-h-[5.375] flex items-center justify-between transition-all duration-300",
                     children: [
                       (0, T.jsxs)("div", {
-                        className: "menu-left flex items-center r-gap-[7.88] secondary-menu",
+                        className:
+                          "menu-left flex items-center r-gap-[7.88] secondary-menu",
                         children: [
                           !i.menuState &&
-                          (0, T.jsx)(e8.A, {
-                            className: "mr-element-xs text-xl",
-                            href: "/".concat(
-                              (null == d ? void 0 : d.locale) !== "en"
-                                ? null == d
-                                  ? void 0
-                                  : null === (n = d.locale) || void 0 === n
-                                  ? void 0
-                                  : n.toLowerCase()
-                                : ""
-                            ),
-                            locale: null == d ? void 0 : d.locale,
-                            onClick: () => r.setMenuState(!1),
-                            children: (0, T.jsx)(l2, {
-                              className:
-                                "logo r-w-[5.875] fill-asphalt transition-colors duration-300",
+                            (0, T.jsx)(e8.A, {
+                              className: "mr-element-xs text-xl",
+                              href: "/".concat(
+                                (null == d ? void 0 : d.locale) !== "en"
+                                  ? null == d
+                                    ? void 0
+                                    : null === (n = d.locale) || void 0 === n
+                                    ? void 0
+                                    : n.toLowerCase()
+                                  : ""
+                              ),
+                              locale: null == d ? void 0 : d.locale,
+                              onClick: () => r.setMenuState(!1),
+                              children: (0, T.jsx)(l2, {
+                                className:
+                                  "logo r-w-[5.875] fill-asphalt transition-colors duration-300",
+                              }),
                             }),
-                          }),
 
                           (0, T.jsx)(lN, {
                             menu:
@@ -9426,7 +9448,10 @@
           !o || o.length < 2)
             ? null
             : (0, T.jsxs)("div", {
-                className: "".concat(t, " relative language-switcher optional-hidden-sections"),
+                className: "".concat(
+                  t,
+                  " relative language-switcher optional-hidden-sections"
+                ),
                 ref: r,
                 children: [
                   (0, T.jsxs)("button", {
@@ -9640,7 +9665,7 @@
               ? void 0
               : l.footerButton;
           return (0, T.jsx)("footer", {
-            className: "overflow-hidden ".concat(
+            className: "overflow-hidden margin-top-reduce ".concat(
               (null == o ? void 0 : o.whiteFooter)
                 ? "white-footer bg-white text-asphalt"
                 : "dark-footer bg-forest text-white r-mt-[12.5]"
@@ -9771,172 +9796,212 @@
                 }
               }, [h, d]),
               (0, T.jsxs)(eW.P.nav, {
-                className:
-                  "main-menu fixed top-0 left-0 z-[99] w-full h-full bg-forest flex",
+                className: "main-menu fixed top-0 left-0 z-[99] w-full h-full bg-forest flex",
                 initial: "closed",
                 animate: (null == s ? void 0 : s.menuState) ? "open" : "closed",
                 variants: {
-                  open: {
-                    x: 0,
-                    transition: {
-                      duration: 0.5,
-                      ease: [0.6, 0.05, -0.01, 0.9],
+                    open: {
+                        x: 0,
+                        transition: {
+                            duration: 0.5,
+                            ease: [0.6, 0.05, -0.01, 0.9],
+                        },
                     },
-                  },
-                  closed: {
-                    x: "-100%",
-                    transition: {
-                      duration: 0.5,
-                      ease: [0.6, 0.05, -0.01, 0.9],
+                    closed: {
+                        x: "-100%",
+                        transition: {
+                            duration: 0.5,
+                            ease: [0.6, 0.05, -0.01, 0.9],
+                        },
                     },
-                  },
                 },
                 children: [
-                  // Sidebar
-                  (0, T.jsxs)(eW.P.aside, {
-                    className: "sidebar-lbm flex flex-col items-center justify-between left-column1-lbm", // Added left-column1-lbm
-                    children: [
-                      (0, T.jsx)("div", {
-                        className: "menu-icon-lbm flex flex-col items-center gap-1 menu-icon-lbm", // Added menu-icon-lbm
-                        children: (0, T.jsx)("div", {
-                          className: "grid-icon-lbm",
-                          id: "menu-button1",
-                          children: Array(9)
-                            .fill(null)
-                            .map((_, i) =>
-                              (0, T.jsx)("span", { className: "dot-lbm" }, i) // Added dot-lbm
-                            ),
-                        }),
-                      }),
-                      (0, T.jsx)("div", {
-                        className: "scroll-indicator-lbm", // Added scroll-indicator-lbm
-                        style: { display: "none" },
-                        children: [
-                          (0, T.jsx)("div", { className: "top-line-lbm" }), // Added top-line-lbm
-                          (0, T.jsx)("div", { className: "ball-lbm" }), // Added ball-lbm
-                          (0, T.jsx)("div", { className: "bottom-line-lbm" }), // Added bottom-line-lbm
-                        ],
-                      }),
-                      (0, T.jsx)("div", {
-                        className: "logo-container-lbm", // Added logo-container-lbm
-                        children: (0, T.jsx)("img", {
-                          src: "assets/_next/image/Liturgia-Symbol-Logo.png",
-                          alt: "Logo",
-                          className: "logo left-column-logo-lbm", // Added left-column-logo-lbm
-                        }),
-                      }),
-                    ],
-                  }),
-                
-                  // Main Content
-                  (0, T.jsxs)(eW.P.main, {
-                    className: "main-content-lbm flex flex-col items-center justify-center",
-                    children: [
-
-                      (0, T.jsxs)("section", {
-                        className: "menu-lbm text-center menu-page-lbm", // Added menu-page-lbm
-                        children: [
-                          (0, T.jsx)("div", {
-                            className: "left-container-lbm", // New encompassing div
-                            children: [
-                              (0, T.jsx)("h2", {
-                                className: "overlay-heading-lbm", // Added overlay-heading-lbm
-                                children: "LITURGIA",
-                              }),
-                              (0, T.jsx)("nav", {
-                                children: (0, T.jsx)("ul", {
-                                  className: "menu-items-lbm flex flex-col gap-2", // Added menu-items-lbm
-                                  children: [
-                                    { href: "/", text: "Home" },
-                                    { href: "/features.html", text: "Features" },
-                                    { href: "/pricing.html", text: "Pricing" },
-                                    { href: "/support.html", text: "Support" },
-                                  ].map((item, i) =>
-                                    (0, T.jsx)(
-                                      "li",
-                                      {
-                                        children: (0, T.jsx)("a", {
-                                          href: item.href,
-                                          style: { textDecoration: "none", color: "black" },
-                                          className: "text-lg hover:underline",
-                                          children: (0, T.jsx)("p", { children: item.text }),
-                                        }),
-                                      },
-                                      i
-                                    )
-                                  ),
-                                }),
-                              }),
-                              (0, T.jsx)("button", {
-                                className:
-                                  "get-started-lbm mt-4 px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 get-started-lbm", // Added get-started-lbm
-                                children: "Get Started",
-                              }),
-                              (0, T.jsxs)("div", {
-                                className: "visit-links-lbm mt-4 text-sm", // Added visit-links-lbm
-                                children: [
-                                  (0, T.jsx)("p", {
-                                    children: (0, T.jsx)("span", {
-                                      children: "visit Liturgy Brisbane",
-                                    }),
-                                  }),
-                                  (0, T.jsx)("p", {
-                                    children: (0, T.jsx)("span", {
-                                      children: "visit Liturgy Publications",
-                                    }),
-                                  }),
-                                ],
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                
-                      // Content Grid
-                      (0, T.jsxs)("section", {
-                        className: "content-grid-lbm grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 menu-images-lbm", // Added menu-images-lbm
-                        children: [
-                          (0, T.jsx)("div", {
-                            className: "menu-image-lbm", // Added menu-images-lbm
-                            children: (0, T.jsx)("img", {
-                              src: "assets/_next/image/menu-page-img.png",
-                              alt: "Church Image",
-                              className: "menu-image-lbm", // Added menu-image-lbm
-                            }),
-                          }),
-                          (0, T.jsx)("div", {
-                            className: "image-cards-lbm grid grid-cols-2 gap-4", // Added image-cards-lbm
-                            children: [
-                              { text: "Parishes", img: "assets/_next/image/Filler-background.png" },
-                              { text: "Schools", img: "assets/_next/image/Filler-background.png" },
-                            ].map((item, i) =>
-                              (0, T.jsx)(
-                                "div",
-                                {
-                                  className:
-                                    "card-lbm flex items-center justify-center bg-gray-200 p-4 rounded shadow", // Added card-lbm
-                                  children: [
-                                    (0, T.jsx)("img", {
-                                      src: item.img,
-                                      alt: "filler image",
-                                      className: "menu-filler-image-lbm", // Added menu-filler-image-lbm
-                                    }),
-                                    (0, T.jsx)("p", {
-                                      className: "text-lg font-medium",
-                                      children: item.text,
-                                    }),
-                                  ],
+                    (0, T.jsxs)(eW.P.div, {
+                        className: "left h-[100svh] md:h-none flex-1 bg-sand-light pt-[8vh] flex flex-col items-start",
+                        initial: "closed",
+                        animate: (null == s ? void 0 : s.menuState) ? "open" : "closed",
+                        variants: {
+                            open: {
+                                x: 0,
+                                transition: {
+                                    duration: 0.5,
+                                    delay: 0.2,
+                                    ease: [0.6, 0.05, -0.01, 0.9],
                                 },
-                                i
-                              )
-                            ),
-                          }),
+                            },
+                            closed: {
+                                x: "-50%",
+                                transition: {
+                                    duration: 0.5,
+                                    ease: [0.6, 0.05, -0.01, 0.9],
+                                },
+                            },
+                        },
+                        children: [
+                            (0, T.jsx)("div", {
+                                className: "absolute left-0 bottom-0 r-mb-16 w-[calc(100%-20px)] h-16 z-[60] pointer-events-none",
+                                style: {
+                                    background: "linear-gradient(180deg, rgba(249, 243, 235, 0) 0%, rgba(249, 243, 235, 1) 100%)",
+                                },
+                            }),
+                            (0, T.jsx)("div", {
+                                className: "absolute left-0 top-0 r-mt-[5.375] w-[calc(100%-20px)] h-16 z-[60] pointer-events-none",
+                                style: {
+                                    background: "linear-gradient(0deg, rgba(249, 243, 235, 0) 0%, rgba(249, 243, 235, 1) 100%)",
+                                },
+                            }),
+                            (0, T.jsx)("div", {
+                                className: "overflow-auto max-h-full w-full flex flex-col items-start sm:py-16",
+                                children: (0, T.jsxs)("div", {
+                                    className: "inner w-full lg:w-auto px-8 md:r-pl-12 xl:r-pl-[7] py-16 sm:py-0 transition-color duration-300 ".concat(
+                                        (null == c ? void 0 : c.length) > 0 ? "xl:text-brown" : "text-asphalt hover:xl:text-brown",
+                                        " group flex flex-col items-stretch gap-4"
+                                    ),
+                                    children: [
+                                        // Debugging: Log the data to ensure it's being passed correctly
+                                        console.log("Main menu data:", p?.mainMenu),
+                                        // Render main menu items
+                                        p?.mainMenu
+                                            ?.filter((e) => "default" === e.typeHandle)
+                                            ?.map((e) => {
+                                                const { navigationLink: l } = e || {};
+                                                return (0, T.jsxs)(
+                                                    "div",
+                                                    {
+                                                        className: "flex items-center flex-wrap group/item relative justify-between ".concat(
+                                                            c.includes(e.uid) ? "text-asphalt" : "text-current"
+                                                        ),
+                                                        children: [
+                                                            (0, T.jsx)(e8.A, {
+                                                                href: l.href,
+                                                                target: l.target,
+                                                                title: l.title,
+                                                                className:
+                                                                    "r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300",
+                                                                onClick: (n) => {
+                                                                    const hasSubmenu = e?.sub?.length > 0;
+                                                                    if (hasSubmenu) {
+                                                                        n.preventDefault();
+                                                                        u((n) => (n.includes(e.uid) ? [] : [e.uid]));
+                                                                    } else {
+                                                                        s.setMenuState(false);
+                                                                        u([e.uid]);
+                                                                    }
+                                                                    o({
+                                                                        event: "menu_clicked",
+                                                                        menu: e.title,
+                                                                        menulocation: "Main menu",
+                                                                    });
+                                                                },
+                                                                children: e.title,
+                                                            }),
+                                                            e?.sub?.length > 0
+                                                                ? (0, T.jsxs)("button", {
+                                                                      className: "ml-3 r-w-4 r-h-4 relative mt-1 ".concat(
+                                                                          c.includes(e.uid)
+                                                                              ? "opacity-100"
+                                                                              : "opacity-100 xl:opacity-0",
+                                                                          " group-hover/item:opacity-100 transition-opacity"
+                                                                      ),
+                                                                      onClick: () => {
+                                                                          u((n) => (n.includes(e.uid) ? [] : [e.uid]));
+                                                                      },
+                                                                      children: [
+                                                                          (0, T.jsx)("span", {
+                                                                              className:
+                                                                                  "block w-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ".concat(
+                                                                                      c.includes(e.uid)
+                                                                                          ? "h-0"
+                                                                                          : "r-h-4 xl:h-0 group-hover/item:r-h-4"
+                                                                                  ),
+                                                                          }),
+                                                                          (0, T.jsx)("span", {
+                                                                              className:
+                                                                                  "block ".concat(
+                                                                                      c.includes(e.uid)
+                                                                                          ? "r-w-4"
+                                                                                          : "r-w-4 xl:w-0 group-hover/item:r-w-4",
+                                                                                      " h-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300"
+                                                                                  ),
+                                                                          }),
+                                                                      ],
+                                                                  })
+                                                                : null,
+                                                        ],
+                                                    },
+                                                    e.uid
+                                                );
+                                            }),
+                                        // Render secondary links
+                                        p?.mainMenu
+                                            ?.filter((e) => "secondaryLink" === e.typeHandle)
+                                            ?.map((e, n) => {
+                                                const { navigationLink: t } = e || {};
+                                                return (0, T.jsx)(
+                                                    e8.A,
+                                                    {
+                                                        href: t.href,
+                                                        className: "".concat(
+                                                            0 === n ? "r-mt-8" : "",
+                                                            " ",
+                                                            c.includes(e.uid) ? "text-asphalt" : "",
+                                                            " text-sm sm:r-text-xl  transition-color duration-300 hover:text-asphalt"
+                                                        ),
+                                                        onClick: () => {
+                                                            s.setMenuState(false);
+                                                            u([e.uid]);
+                                                            o({
+                                                                event: "menu_clicked",
+                                                                menu: e.title,
+                                                                menulocation: "Main menu",
+                                                            });
+                                                        },
+                                                        children: e.title,
+                                                    },
+                                                    e.uid
+                                                );
+                                            }),
+                                    ],
+                                }),
+                            }),
                         ],
-                      }),
-                    ],
-                  }),
+                    }),
+                    (0, T.jsx)("div", {
+                        className: "right md:r-max-w-[24] xl:r-max-w-[30] w-full pt-[8vh] hidden md:block relative z-20",
+                        children: (0, T.jsx)("div", {
+                            className: "inner md:r-pl-12 xl:r-pl-[7] py-16 text-white flex flex-col r-gap-14 r-max-w-[22] w-full",
+                            children: p?.blocks?.menuBlocks?.map((e) => {
+                                const { title: n, button: t } = e || {};
+                                return (0, T.jsxs)(
+                                    "div",
+                                    {
+                                        className: "block",
+                                        children: [
+                                            (0, T.jsx)("p", {
+                                                className: "r-text-2xl r-mb-6",
+                                                children: n,
+                                            }),
+                                            (0, T.jsx)(z.A, {
+                                                linkProps: t,
+                                                className: "white",
+                                                onClick: () => {
+                                                    s.setMenuState(false);
+                                                    o({
+                                                        event: "menu_clicked",
+                                                        menu: t.text,
+                                                        menulocation: "Main menu sidebar",
+                                                    });
+                                                },
+                                            }),
+                                        ],
+                                    },
+                                    e.uid
+                                );
+                            }),
+                        }),
+                    }),
                 ],
-              })
+            })
             );
           })
         ),
@@ -10096,7 +10161,6 @@
                     ),
                   }),
                 }),
-
               ],
             })
           : (0, T.jsx)("div", {
@@ -10147,22 +10211,235 @@
   },
 ]);
 
-
 // Select all elements with the classes 'a', 'b', and 'c' (i.e., .a.b.c)
-const hoverElements = document.querySelectorAll('.a.b.c');
+const hoverElements = document.querySelectorAll(".a.b.c");
 
 // Select the element with class 'e'
-const targetElement = document.querySelector('.e');
+const targetElement = document.querySelector(".e");
 
 // Add event listeners to handle hover
-hoverElements.forEach(element => {
-  element.addEventListener('mouseenter', () => {
-    targetElement.classList.add('d'); // Add class 'd' on hover
+hoverElements.forEach((element) => {
+  element.addEventListener("mouseenter", () => {
+    targetElement.classList.add("d"); // Add class 'd' on hover
   });
 
-  element.addEventListener('mouseleave', () => {
-    targetElement.classList.remove('d'); // Remove class 'd' when hover ends
+  element.addEventListener("mouseleave", () => {
+    targetElement.classList.remove("d"); // Remove class 'd' when hover ends
   });
 });
+
+// Function to update the href dynamically, set target="_blank", and override click behavior
+function updateHrefAndOverrideClick(targetElement) {
+  const desiredHref =
+    "https://shop.liturgybrisbane.net.au/collections/liturgia";
+
+  // Update the href if it's not already set
+  if (targetElement.getAttribute("href") !== desiredHref) {
+    targetElement.setAttribute("href", desiredHref);
+    console.log("Updated href to:", targetElement.getAttribute("href"));
+  }
+
+  // Set target="_blank" to open the link in a new tab
+  if (targetElement.getAttribute("target") !== "_blank") {
+    targetElement.setAttribute("target", "_blank");
+    console.log("Set target to _blank");
+  }
+
+  // Override the click behavior
+  targetElement.addEventListener(
+    "click",
+    (event) => {
+      event.preventDefault(); // Prevent any other click logic
+      window.open(desiredHref, "_blank"); // Open the link in a new tab
+    },
+    { once: true } // Ensure the event listener is added only once
+  );
+}
+
+// Create a MutationObserver
+const observer5 = new MutationObserver((mutationsList) => {
+  for (const mutation of mutationsList) {
+    // Check if nodes are added
+    if (mutation.type === "childList" && mutation.addedNodes.length > 0) {
+      mutation.addedNodes.forEach((node) => {
+        if (
+          node.nodeType === 1 &&
+          node.classList.contains("custom-button") &&
+          node.classList.contains("button-big") &&
+          node.classList.contains("hidden") &&
+          node.classList.contains("md:inline-flex") &&
+          node.classList.contains("grey") &&
+          node.classList.contains("small") &&
+          node.classList.contains("group")
+        ) {
+          updateHrefAndOverrideClick(node);
+        }
+      });
+    }
+
+    // Check if attributes are modified
+    if (
+      mutation.type === "attributes" &&
+      mutation.target.classList.contains("custom-button") &&
+      mutation.target.classList.contains("button-big") &&
+      mutation.target.classList.contains("hidden") &&
+      mutation.target.classList.contains("md:inline-flex") &&
+      mutation.target.classList.contains("grey") &&
+      mutation.target.classList.contains("small") &&
+      mutation.target.classList.contains("group")
+    ) {
+      updateHrefAndOverrideClick(mutation.target);
+    }
+  }
+});
+
+// Start observing the document body
+observer5.observe(document.body, {
+  childList: true, // Watch for added/removed nodes
+  attributes: true, // Watch for attribute changes
+  subtree: true, // Watch the entire DOM tree
+});
+
+
+
+
+
+
+function updateMenuHeadings() {
+  console.log("Attempting to update menu headings...");
+
+  // Update the first menu item: Change 'Products' to 'Home'
+  const productsMenuItem = document.querySelector(
+    '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="Products"]'
+  );
+  if (productsMenuItem) {
+    console.log("Found 'Products' menu item:", productsMenuItem);
+    productsMenuItem.textContent = "Home"; // Update visible text
+    productsMenuItem.setAttribute("title", "Home"); // Update the title attribute
+    productsMenuItem.setAttribute("href", "/home"); // Update the href
+
+    // Ensure no dropdown for 'Home'
+    productsMenuItem.addEventListener("mouseenter", () => {
+      console.log("'Home' hover ignored. No dropdown.");
+    });
+    productsMenuItem.addEventListener("mouseleave", () => {
+      console.log("'Home' hover ignored. No dropdown.");
+    });
+  } else {
+    console.log("Menu item with title 'Products' not found.");
+  }
+
+  // Update the second menu item: Change 'For partners & installers' to 'Product'
+  const partnersMenuItem = document.querySelector(
+    '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="For partners & installers"]'
+  );
+  if (partnersMenuItem) {
+    console.log("Found 'For partners & installers' menu item:", partnersMenuItem);
+    partnersMenuItem.textContent = "Product"; // Update visible text
+    partnersMenuItem.setAttribute("title", "Product"); // Update the title attribute
+    partnersMenuItem.setAttribute("href", "/product"); // Update the href
+
+    // Enable dropdown for 'Product'
+    const dropdownMenu = document.querySelector(".secondary-menu-dropdown");
+    if (dropdownMenu) {
+      partnersMenuItem.addEventListener("mouseenter", () => {
+        dropdownMenu.style.display = "block"; // Show the dropdown
+        console.log("Dropdown for 'Product' displayed.");
+      });
+
+      partnersMenuItem.addEventListener("mouseleave", () => {
+        setTimeout(() => {
+          dropdownMenu.style.display = "none"; // Hide the dropdown
+          console.log("Dropdown for 'Product' hidden.");
+        }, 200);
+      });
+    }
+  } else {
+    console.log("Menu item with title 'For partners & installers' not found.");
+  }
+
+  // Update the third menu item: Change 'Need help?' to 'More'
+  const helpMenuItem = document.querySelector(
+    '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="Need help?"]'
+  );
+  if (helpMenuItem) {
+    console.log("Found 'Need help?' menu item:", helpMenuItem);
+    helpMenuItem.textContent = "More"; // Update visible text
+    helpMenuItem.setAttribute("title", "More"); // Update the title attribute
+    helpMenuItem.setAttribute("href", "/more"); // Update the href
+
+    // Enable dropdown for 'More'
+    const dropdownMenu = document.querySelector(".secondary-menu-dropdown");
+    if (dropdownMenu) {
+      helpMenuItem.addEventListener("mouseenter", () => {
+        dropdownMenu.style.display = "block"; // Show the dropdown
+        console.log("Dropdown for 'More' displayed.");
+      });
+
+      helpMenuItem.addEventListener("mouseleave", () => {
+        setTimeout(() => {
+          dropdownMenu.style.display = "none"; // Hide the dropdown
+          console.log("Dropdown for 'More' hidden.");
+        }, 200);
+      });
+    }
+  } else {
+    console.log("Menu item with title 'Need help?' not found.");
+  }
+}
+
+// Observe changes in the DOM to ensure headings are updated dynamically
+function observeDOMChanges() {
+  const targetNode = document.body;
+
+  if (!targetNode) {
+    console.error("Failed to find the target node for MutationObserver.");
+    return;
+  }
+
+  const observer = new MutationObserver(() => {
+    updateMenuHeadings(); // Call the function to update headings on any DOM change
+  });
+
+  observer.observe(targetNode, {
+    childList: true,
+    subtree: true,
+  });
+
+  console.log("MutationObserver is now observing DOM changes.");
+}
+
+// Initialize the observer when the page loads
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOM fully loaded. Initializing MutationObserver...");
+  observeDOMChanges();
+  updateMenuHeadings(); // Run the function once immediately
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
