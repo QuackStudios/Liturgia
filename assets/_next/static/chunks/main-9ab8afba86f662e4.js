@@ -644,77 +644,47 @@
       function K(e, t) {
         return (0, g.jsx)(e, { ...t });
       }
-function $(e) {
-  var t;
-  let { children: r } = e,
-    o = y.default.useMemo(() => {
-      try {
-        return (0, k.adaptForAppRouterInstance)(n);
-      } catch (err) {
-        console.error("Error adapting AppRouterInstance: ", err);
-        return null; // Fallback in case of error
-      }
-    }, []);
-
-  return (0, g.jsx)(z, {
-    fn: (e) =>
-      J({ App: f, err: e })
-        .catch((e) => {
-          console.error("Error rendering page: ", e.message, e.stack);
-        }),
-    children: (0, g.jsx)(U.AppRouterContext.Provider, {
-      value: o,
-      children: (0, g.jsx)(F.SearchParamsContext.Provider, {
-        value: (() => {
-          try {
-            return (0, k.adaptForSearchParams)(n);
-          } catch (err) {
-            console.error("Error adapting SearchParams: ", err);
-            return {}; // Fallback to an empty object
-          }
-        })(),
-        children: (0, g.jsx)(k.PathnameContextProviderAdapter, {
-          router: n,
-          isAutoExport: null != (t = self.__NEXT_DATA__.autoExport) && t,
-          children: (0, g.jsx)(F.PathParamsContext.Provider, {
-            value: (() => {
-              try {
-                return (0, k.adaptForPathParams)(n);
-              } catch (err) {
-                console.error("Error adapting PathParams: ", err);
-                return {}; // Fallback to an empty object
-              }
-            })(),
-            children: (0, g.jsx)(v.RouterContext.Provider, {
-              value: (() => {
-                try {
-                  return (0, I.makePublicRouterInstance)(n);
-                } catch (err) {
-                  console.error("Error making public router instance: ", err);
-                  return {}; // Fallback to an empty object
-                }
-              })(),
-              children: (0, g.jsx)(P.HeadManagerContext.Provider, {
-                value: u,
-                children: (0, g.jsx)(N.ImageConfigContext.Provider, {
-                  value: {
-                    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-                    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                    path: "/assets/_next/image",
-                    loader: "default",
-                    dangerouslyAllowSVG: !0,
-                    unoptimized: !1,
-                  },
-                  children: r,
+      function $(e) {
+        var t;
+        let { children: r } = e,
+          o = y.default.useMemo(() => (0, k.adaptForAppRouterInstance)(n), []);
+        return (0, g.jsx)(z, {
+          fn: (e) =>
+            J({ App: f, err: e }).catch((e) =>
+              console.error("Error rendering page: ", e)
+            ),
+          children: (0, g.jsx)(U.AppRouterContext.Provider, {
+            value: o,
+            children: (0, g.jsx)(F.SearchParamsContext.Provider, {
+              value: (0, k.adaptForSearchParams)(n),
+              children: (0, g.jsx)(k.PathnameContextProviderAdapter, {
+                router: n,
+                isAutoExport: null != (t = self.__NEXT_DATA__.autoExport) && t,
+                children: (0, g.jsx)(F.PathParamsContext.Provider, {
+                  value: (0, k.adaptForPathParams)(n),
+                  children: (0, g.jsx)(v.RouterContext.Provider, {
+                    value: (0, I.makePublicRouterInstance)(n),
+                    children: (0, g.jsx)(P.HeadManagerContext.Provider, {
+                      value: u,
+                      children: (0, g.jsx)(N.ImageConfigContext.Provider, {
+                        value: {
+                          deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+                          imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+                          path: "/assets/_next/image",
+                          loader: "default",
+                          dangerouslyAllowSVG: !0,
+                          unoptimized: !1,
+                        },
+                        children: r,
+                      }),
+                    }),
+                  }),
                 }),
               }),
             }),
           }),
-        }),
-      }),
-    }),
-  });
-}
+        });
+      }
       let Q = (e) => (t) => {
         let r = { ...t, Component: p, err: o.err, router: n };
         return (0, g.jsx)($, { children: K(e, r) });
