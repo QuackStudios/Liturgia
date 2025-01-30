@@ -647,23 +647,53 @@
       function $(e) {
         var t;
         let { children: r } = e,
-          o = y.default.useMemo(() => (0, k.adaptForAppRouterInstance)(n), []);
+          o = y.default.useMemo(() => {
+            try {
+              return (0, k.adaptForAppRouterInstance)(n);
+            } catch (err) {
+              console.error("Error adapting AppRouterInstance: ", err);
+              return null; // Fallback in case of error
+            }
+          }, []);
+      
         return (0, g.jsx)(z, {
           fn: (e) =>
-            J({ App: f, err: e }).catch((e) =>
-              console.error("Error rendering page: ", e)
-            ),
+            J({ App: f, err: e })
+              .catch((e) => {
+                console.error("Error rendering page: ", e.message, e.stack);
+              }),
           children: (0, g.jsx)(U.AppRouterContext.Provider, {
             value: o,
             children: (0, g.jsx)(F.SearchParamsContext.Provider, {
-              value: (0, k.adaptForSearchParams)(n),
+              value: (() => {
+                try {
+                  return (0, k.adaptForSearchParams)(n);
+                } catch (err) {
+                  console.error("Error adapting SearchParams: ", err);
+                  return {}; // Fallback to an empty object
+                }
+              })(),
               children: (0, g.jsx)(k.PathnameContextProviderAdapter, {
                 router: n,
                 isAutoExport: null != (t = self.__NEXT_DATA__.autoExport) && t,
                 children: (0, g.jsx)(F.PathParamsContext.Provider, {
-                  value: (0, k.adaptForPathParams)(n),
+                  value: (() => {
+                    try {
+                      return (0, k.adaptForPathParams)(n);
+                    } catch (err) {
+                      console.error("Error adapting PathParams: ", err);
+                      return {}; // Fallback to an empty object
+                    }
+                  })(),
                   children: (0, g.jsx)(v.RouterContext.Provider, {
-                    value: (0, I.makePublicRouterInstance)(n),
+                    value: (() => {
+                      try {
+                        return (0, I.makePublicRouterInstance)(n);
+                      } catch (err) {
+                        console.error("Error making public router instance: ", err);
+                        return {}; // Fallback to an empty object
+                      }
+                    })(),
                     children: (0, g.jsx)(P.HeadManagerContext.Provider, {
                       value: u,
                       children: (0, g.jsx)(N.ImageConfigContext.Provider, {
