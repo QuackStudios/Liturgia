@@ -11013,7 +11013,7 @@
             }))
         }
         var H = function(e) {
-            e.cancelable && ,
+            e.cancelable && e.preventDefault(),
             e.stopPropagation()
         }
           , $ = ["boxSizing", "height", "overflow", "paddingRight", "position"]
@@ -11024,7 +11024,7 @@
             height: "100%"
         };
         function U(e) {
-            
+            e.preventDefault()
         }
         function z(e) {
             e.stopPropagation()
@@ -11718,7 +11718,7 @@
                 ,
                 t.onMenuMouseDown = function(e) {
                     0 === e.button && (e.stopPropagation(),
-                    ,
+                    e.preventDefault(),
                     t.focusInput())
                 }
                 ,
@@ -11731,7 +11731,7 @@
                         var r = t.props.openMenuOnClick;
                         t.state.isFocused ? t.props.menuIsOpen ? "INPUT" !== e.target.tagName && "TEXTAREA" !== e.target.tagName && t.onMenuClose() : r && t.openMenu("first") : (r && (t.openAfterFocus = !0),
                         t.focusInput()),
-                        "INPUT" !== e.target.tagName && "TEXTAREA" !== e.target.tagName && 
+                        "INPUT" !== e.target.tagName && "TEXTAREA" !== e.target.tagName && e.preventDefault()
                     }
                 }
                 ,
@@ -11745,13 +11745,13 @@
                             inputIsHiddenAfterUpdate: !n
                         }),
                         t.onMenuClose()) : t.openMenu("first"),
-                        
+                        e.preventDefault()
                     }
                 }
                 ,
                 t.onClearIndicatorMouseDown = function(e) {
                     e && "mousedown" === e.type && 0 !== e.button || (t.clearValue(),
-                    ,
+                    e.preventDefault(),
                     t.openAfterFocus = !1,
                     "touchend" === e.type ? t.focusInput() : setTimeout(function() {
                         return t.focusInput()
@@ -11863,7 +11863,7 @@
                 }
                 ,
                 t.onValueInputFocus = function(e) {
-                    ,
+                    e.preventDefault(),
                     e.stopPropagation(),
                     t.focus()
                 }
@@ -11977,7 +11977,7 @@
                         default:
                             return
                         }
-                        
+                        e.preventDefault()
                     }
                 }
                 ,
@@ -12370,7 +12370,7 @@
                                         return e.removeValue(t)
                                     },
                                     onMouseDown: function(e) {
-                                        
+                                        e.preventDefault()
                                     }
                                 },
                                 data: t
@@ -31969,12 +31969,12 @@ attempted value: ${s}
                 o(e, t.isEnd && !t.params.rewind)
             }
             function l(e) {
-                ,
+                e.preventDefault(),
                 (!t.isBeginning || t.params.loop || t.params.rewind) && (t.slidePrev(),
                 s("navigationPrev"))
             }
             function c(e) {
-                ,
+                e.preventDefault(),
                 (!t.isEnd || t.params.loop || t.params.rewind) && (t.slideNext(),
                 s("navigationNext"))
             }
@@ -33204,7 +33204,7 @@ attempted value: ${s}
             e.params.watchOverflow && s !== e.snapGrid && e.checkOverflow()
         }
         function S(e) {
-            this.enabled && !this.allowClick && (this.params.preventClicks && ,
+            this.enabled && !this.allowClick && (this.params.preventClicks && e.preventDefault(),
             this.params.preventClicksPropagation && this.animating && (e.stopPropagation(),
             e.stopImmediatePropagation()))
         }
