@@ -1560,7 +1560,7 @@
                         disabled: s,
                         onClick: (e) => {
                           "close" === p.pages[h].action &&
-                            (e.preventDefault(), t(), l.closeModal());
+                            (, t(), l.closeModal());
                         },
                         children:
                           (null === (r = p.pages) || void 0 === r

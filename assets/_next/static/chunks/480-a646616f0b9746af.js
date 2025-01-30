@@ -7240,7 +7240,7 @@
         }),
         (M = function (e, t) {
           return (
-            t && !e._gsapAllow && e.preventDefault(),
+            t && !e._gsapAllow && ,
             e.changedTouches ? e.changedTouches[0] : e
           );
         }),
@@ -11509,7 +11509,7 @@
                       (!c && !(0, a.isLocalURL)(r)))
                   )
                     return;
-                  e.preventDefault();
+                  ;
                   let f = () => {
                     let e = null == l || l;
                     "beforePopState" in t

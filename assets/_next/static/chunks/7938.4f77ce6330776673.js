@@ -1584,7 +1584,7 @@
               e &&
                 e.preventDefault &&
                 t4(e.preventDefault) &&
-                e.preventDefault(),
+                ,
                 e &&
                   e.stopPropagation &&
                   t4(e.stopPropagation) &&
@@ -1618,7 +1618,7 @@
               e &&
                 e.preventDefault &&
                 t4(e.preventDefault) &&
-                e.preventDefault(),
+                ,
                 e &&
                   e.stopPropagation &&
                   t4(e.stopPropagation) &&

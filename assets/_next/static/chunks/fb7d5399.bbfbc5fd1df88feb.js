@@ -17298,7 +17298,7 @@
           eT();
           let eE = new oP(j, eS);
           function ew(e) {
-            e.preventDefault(),
+            ,
               console.log("THREE.WebGLRenderer: Context Lost."),
               (q = !0);
           }

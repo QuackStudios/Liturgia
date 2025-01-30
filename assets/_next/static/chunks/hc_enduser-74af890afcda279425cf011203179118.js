@@ -2058,7 +2058,7 @@
             })([
               function (e, t) {
                 e.exports = function (e) {
-                  e.preventDefault ? e.preventDefault() : (e.returnValue = !1);
+                  e.preventDefault ?  : (e.returnValue = !1);
                 };
               },
               function (e, t) {
@@ -17682,7 +17682,7 @@
                       )
                         return (
                           e.stopImmediatePropagation(),
-                          e.preventDefault(),
+                          ,
                           a && a.value
                         );
                     } else
@@ -17984,7 +17984,7 @@
               preventDefault: function () {
                 var e = this.originalEvent;
                 (this.isDefaultPrevented = _e),
-                  e && !this.isSimulated && e.preventDefault();
+                  e && !this.isSimulated && ;
               },
               stopPropagation: function () {
                 var e = this.originalEvent;
@@ -19703,7 +19703,7 @@
                       u.apply &&
                       X(i) &&
                       ((e.result = u.apply(i, t)),
-                      !1 === e.result && e.preventDefault());
+                      !1 === e.result && );
                 return (
                   (e.type = g),
                   a ||
@@ -26271,7 +26271,7 @@
                 var e = this.nativeEvent;
                 e &&
                   (e.preventDefault
-                    ? e.preventDefault()
+                    ? 
                     : "unknown" != typeof e.returnValue && (e.returnValue = !1),
                   (this.isDefaultPrevented = on));
               },
@@ -38577,7 +38577,7 @@
             e.get("page") === e.get("page_count") ? this.hide() : this.show();
           },
           onClick: function (e) {
-            e.preventDefault(), he.trigger("controls:showmore");
+            , he.trigger("controls:showmore");
           },
           render: function () {
             this.el.innerHTML =
@@ -38803,10 +38803,10 @@
                     case De:
                     case Ie:
                     case Ue:
-                      e.preventDefault(), this.open(), this.focusNextMenuItem();
+                      , this.open(), this.focusNextMenuItem();
                       break;
                     case Fe:
-                      e.preventDefault(),
+                      ,
                         this.open(),
                         this.focusPreviousMenuItem();
                       break;
@@ -38828,23 +38828,23 @@
                       this.dismiss(), this.toggle.focus();
                       break;
                     case Ue:
-                      e.preventDefault(), this.focusNextMenuItem(o);
+                      , this.focusNextMenuItem(o);
                       break;
                     case Fe:
-                      e.preventDefault(), this.focusPreviousMenuItem(o);
+                      , this.focusPreviousMenuItem(o);
                       break;
                     case qe:
                       e.shiftKey
                         ? o === n
                           ? this.dismiss()
-                          : (e.preventDefault(), this.focusPreviousMenuItem(o))
+                          : (, this.focusPreviousMenuItem(o))
                         : o === a
                         ? this.dismiss()
-                        : (e.preventDefault(), this.focusNextMenuItem(o));
+                        : (, this.focusNextMenuItem(o));
                       break;
                     case De:
                     case Ie:
-                      e.preventDefault(), o.click();
+                      , o.click();
                   }
                 },
               },
@@ -39051,7 +39051,7 @@
             {
               href: "/users/revert",
               onClick: function (e) {
-                e.preventDefault(), n.current.submit();
+                , n.current.submit();
               },
             },
             y()("txt.help_center.views.shared.assume_user_warning.end")
@@ -39895,7 +39895,7 @@
             },
             changePassword: function (e) {
               var t = this;
-              e.preventDefault(),
+              ,
                 Promise.all([
                   i.e(75514),
                   i.e(7421),
@@ -40036,7 +40036,7 @@
                         })()
                       )
                       .on("click", "#user-email-cancel", function (e) {
-                        e.preventDefault(),
+                        ,
                           (window.location = "/access/logout");
                       });
                   }));
@@ -40091,7 +40091,7 @@
               }
             },
             dismissNotification: function (e) {
-              e.preventDefault(),
+              ,
                 this.$(e.target).closest(".notification").hide();
             },
             preventEmptySearch: function (e) {
@@ -40099,7 +40099,7 @@
               0 ===
                 c()((t = n().$(e.target)))
                   .call(t, "input[type=search]")
-                  .val().length && e.preventDefault();
+                  .val().length && ;
             },
             setupFormSubmit: function () {
               (0, r.Z)(
@@ -40151,7 +40151,7 @@
                     for (;;)
                       switch ((t.prev = t.next)) {
                         case 0:
-                          if ((e.preventDefault(), "A" === e.target.tagName)) {
+                          if ((, "A" === e.target.tagName)) {
                             t.next = 3;
                             break;
                           }
@@ -40526,7 +40526,7 @@
                     }));
           },
           approveComment: function (e) {
-            e.preventDefault();
+            ;
             var t = e.target.getAttribute("data-moderated-content-id");
             Promise.all([i.e(21301), i.e(24251), i.e(75508), i.e(72631)])
               .then(i.bind(i, 4433))
@@ -40536,7 +40536,7 @@
               });
           },
           editComment: function (e) {
-            e.preventDefault();
+            ;
             var t = e.target.href,
               n = e.target.dataset.returnTo,
               r = t.split("/").pop();
@@ -40578,7 +40578,7 @@
               });
           },
           showPermalink: function (e) {
-            e.preventDefault();
+            ;
             var t = e.target.href;
             Promise.all([i.e(21301), i.e(69270), i.e(99437), i.e(52295)])
               .then(i.bind(i, 7191))
@@ -41201,7 +41201,7 @@
               e &&
               e.addEventListener("click", function (e) {
                 void 0 !== window.grecaptcha &&
-                  (e.preventDefault(),
+                  (,
                   void 0 !== window.grecaptcha.enterprise &&
                     window.grecaptcha.enterprise.execute());
               });
@@ -41394,7 +41394,7 @@
                   for (;;)
                     switch ((n.prev = n.next)) {
                       case 0:
-                        return e.preventDefault(), (n.next = 3), (0, Z.RJ)();
+                        return , (n.next = 3), (0, Z.RJ)();
                       case 3:
                         return (
                           (r = n.sent),
@@ -41432,7 +41432,7 @@
           },
           changeRating: function (e) {
             var t = this;
-            e.preventDefault(),
+            ,
               g()
                 .get(e.target.href)
                 .then(function (e) {
@@ -41728,7 +41728,7 @@
           },
           editPost: function (e) {
             var t = this;
-            e.preventDefault();
+            ;
             var n = e.target.href;
             Promise.all([
               i.e(75514),
@@ -41801,7 +41801,7 @@
             });
           },
           approvePost: function (e) {
-            e.preventDefault();
+            ;
             var t = e.target.getAttribute("data-moderated-content-id");
             Promise.all([i.e(21301), i.e(24251), i.e(75508), i.e(15380)])
               .then(i.bind(i, 79884))
@@ -41811,7 +41811,7 @@
               });
           },
           approveComment: function (e) {
-            e.preventDefault();
+            ;
             var t = e.target.getAttribute("data-moderated-content-id");
             Promise.all([i.e(21301), i.e(24251), i.e(75508), i.e(72631)])
               .then(i.bind(i, 4433))
@@ -41822,7 +41822,7 @@
           },
           editComment: function (e) {
             var t = this;
-            e.preventDefault();
+            ;
             var n = e.target.href,
               r = e.target.dataset.returnTo,
               a = n.split("/").pop();
@@ -41856,7 +41856,7 @@
               });
           },
           showPermalink: function (e) {
-            e.preventDefault();
+            ;
             var t = e.target.href;
             Promise.all([i.e(21301), i.e(69270), i.e(99437), i.e(52295)])
               .then(i.bind(i, 7191))

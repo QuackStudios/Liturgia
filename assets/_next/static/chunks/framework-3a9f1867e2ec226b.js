@@ -1413,7 +1413,7 @@
               var e = this.nativeEvent;
               e &&
                 (e.preventDefault
-                  ? e.preventDefault()
+                  ? 
                   : "unknown" != typeof e.returnValue && (e.returnValue = !1),
                 (this.isDefaultPrevented = nQ));
             },

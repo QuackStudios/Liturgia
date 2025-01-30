@@ -15545,7 +15545,7 @@
               (r = function (e) {
                 "select" !== e.target.nodeName.toLowerCase() && e.type === s
                   ? (e.stopPropagation(),
-                    f0 && (e.preventDefault(), n.call(t, e)))
+                    f0 && (, n.call(t, e)))
                   : e.type !== s && n.call(t, e),
                   (f0 = !0);
               }),
