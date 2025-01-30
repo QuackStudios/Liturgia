@@ -114,7 +114,7 @@
                                           ),
                                         onClick: (e) => {
                                           var n;
-                                          ,
+
                                             e.stopPropagation(),
                                             null === (n = s.current) ||
                                               void 0 === n ||
@@ -146,7 +146,6 @@
                             "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
                           onClick: (e) => {
                             var t;
-                            ,
                               e.stopPropagation(),
                               null === (t = s.current) ||
                                 void 0 === t ||
@@ -174,7 +173,6 @@
                             "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
                           onClick: (e) => {
                             var t;
-                            ,
                               e.stopPropagation(),
                               null === (t = s.current) ||
                                 void 0 === t ||
