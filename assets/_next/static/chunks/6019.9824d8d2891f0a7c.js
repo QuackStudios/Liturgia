@@ -8049,7 +8049,7 @@
         pointerClick(e) {
           !this.state.tap &&
             e.detail > 0 &&
-            (, e.stopPropagation());
+            (e.preventDefault(), e.stopPropagation());
         }
         setupPointer(e) {
           let t = this.config,
@@ -8081,7 +8081,7 @@
             document.exitPointerLock();
         }
         preventScroll(e) {
-          this.state._preventScroll && e.cancelable && ;
+          this.state._preventScroll && e.cancelable && e.preventDefault();
         }
         setupScrollPrevention(e) {
           (this.state._preventScroll = !1),
