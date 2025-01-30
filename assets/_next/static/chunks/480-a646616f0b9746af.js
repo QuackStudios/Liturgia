@@ -7240,7 +7240,7 @@
         }),
         (M = function (e, t) {
           return (
-            t && !e._gsapAllow && ,
+            t && !e._gsapAllow &&
             e.changedTouches ? e.changedTouches[0] : e
           );
         }),
