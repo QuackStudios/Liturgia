@@ -4315,7 +4315,7 @@
                                             ),
                                           onClick: (e) => {
                                             var t;
-                                            e.preventDefault(),
+                                            ,
                                               e.stopPropagation(),
                                               null === (t = a.current) ||
                                                 void 0 === t ||
@@ -4358,7 +4358,7 @@
                               "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
                             onClick: (e) => {
                               var n;
-                              e.preventDefault(),
+                              ,
                                 e.stopPropagation(),
                                 null === (n = a.current) ||
                                   void 0 === n ||
@@ -4386,7 +4386,7 @@
                               "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
                             onClick: (e) => {
                               var n;
-                              e.preventDefault(),
+                              ,
                                 e.stopPropagation(),
                                 null === (n = a.current) ||
                                   void 0 === n ||
@@ -5999,12 +5999,12 @@
               noValidate: !0,
               className: "w-full flex justify-between items-center gap-4",
               onSubmit: (e) => {
-                e.preventDefault(),
+                ,
                   e.stopPropagation(),
                   o.current && o.current.blur();
               },
               onReset: (e) => {
-                e.preventDefault(),
+                ,
                   e.stopPropagation(),
                   c(""),
                   o.current && o.current.focus();
@@ -6382,7 +6382,7 @@
                                       ),
                                     onClick: (e) => {
                                       var l;
-                                      e.preventDefault(),
+                                      ,
                                         e.stopPropagation(),
                                         null === (l = t.current) ||
                                           void 0 === l ||
@@ -9013,7 +9013,7 @@
                     className:
                       "w-[10rem] md:w-[20rem] flex justify-between items-center gap-4 absolute left-0 top-0 h-full pl-[0.9rem] pr-[0.31rem] py-[0.31rem]",
                     onSubmit: (e) => {
-                      e.preventDefault(),
+                      ,
                         e.stopPropagation(),
                         o.current && o.current.blur();
                       let i = ""
