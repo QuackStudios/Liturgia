@@ -7665,86 +7665,16 @@
           }
           , [r.current]),
           !o || o.length < 2) ? null : (0,
-          T.jsxs)("div", {
-              className: "".concat(t, " relative language-switcher"),
-              ref: r,
-              children: [(0,
-              T.jsxs)("button", {
-                  className: "flex items-center gap-4 ".concat(l ? "text-asphalt" : "text-white"),
-                  onClick: () => {
-                      u(!c);
-                      let {top: e} = r.current.getBoundingClientRect();
-                      p(e - 100 - 20)
-                  }
-                  ,
-                  children: [(0,
-                  T.jsx)(ii.A, {
-                      className: "icon w-4 h-4 stroke-current"
-                  }), (0,
-                  T.jsx)("span", {
-                      className: "",
-                      children: i("country")
-                  }), (0,
-                  T.jsx)("span", {
-                      className: "icon-wrapper bg-current rounded-full w-6 h-6 flex-shrink-0 inline-flex items-center justify-center",
-                      children: (0,
-                      T.jsx)(ia, {
-                          width: null,
-                          height: null,
-                          viewBox: "0 0 10 10",
-                          className: "w-3 top-icon ".concat(l ? "stroke-white" : "stroke-asphalt")
-                      })
-                  })]
-              }), (0,
-              T.jsx)(eW.P.div, {
-                  className: "dropdown-options absolute bottom-full left-0 h-full bg-white border border-grey-border r-w-[16] r-mb-4 rounded-sm overflow-hidden",
-                  initial: "collapsed",
-                  style: {
-                      maxHeight: m
-                  },
-                  animate: c ? "open" : "collapsed",
-                  variants: {
-                      open: {
-                          height: "auto",
-                          opacity: 1
-                      },
-                      collapsed: {
-                          height: 0,
-                          opacity: 0
-                      }
-                  },
-                  transition: {
-                      duration: .5,
-                      ease: [.04, .62, .23, .98]
-                  },
-                  onAnimationComplete: () => {
-                      c ? r.current.querySelector(".dropdown-options").style.overflow = "auto" : r.current.querySelector(".dropdown-options").style.overflow = "hidden"
-                  }
-                  ,
-                  children: (0,
-                  T.jsx)("div", {
-                      className: "inner r-p-6 flex flex-col",
-                      children: o.map(e => (0,
-                      T.jsxs)("a", {
-                          href: e.url,
-                          className: "flex items-center justify-start w-full h-ful py-3 border-b last:border-b-0 r-text-sm ".concat(a.siteId === e.siteId ? " text-forest border-asphalt" : " text-asphalt border-grey-border", " }"),
-                          title: e.title,
-                          children: [(0,
-                          T.jsx)(ny(), {
-                              src: e.flag,
-                              alt: e.locale,
-                              className: "w-[1.125] h-[0.8125] mr-1 object-contain",
-                              width: "18",
-                              height: "13"
-                          }), (0,
-                          T.jsx)("span", {
-                              className: "whitespace-nowrap",
-                              children: e.name
-                          })]
-                      }, e.siteId))
-                  })
-              })]
-          })
+            T.jsx)("div", {
+                className: "".concat(t, " menu-bottom-container"),
+                ref: r,
+                children: (0,
+                    T.jsx)("img", {
+                        src: "assets/_next/image/liturgia-logo-text.svg", // Replace with the actual path to your SVG file
+                        alt: "SVG Icon", // Add an appropriate alt text
+                        className: "menu-bottom-text" // Optional: Add classes for styling
+                    })
+            })
       }
       ;
       P.os.registerPlugin(R());
@@ -7970,129 +7900,390 @@
               }
           }
           , [p, d]),
-          (0,
-          T.jsxs)(eW.P.nav, {
-              className: "main-menu fixed top-0 left-0 z-[99] w-full h-full bg-forest flex",
-              initial: "closed",
-              animate: (null == s ? void 0 : s.menuState) ? "open" : "closed",
-              variants: {
+          (0, T.jsxs)(eW.P.nav, {
+            className:
+              "main-menu fixed top-0 left-0 z-[99] w-full h-full menu-right-color flex",
+            initial: "closed",
+            animate: (null == s ? void 0 : s.menuState) ? "open" : "closed",
+            variants: {
+              open: {
+                x: 0,
+                transition: {
+                  duration: 0.5,
+                  ease: [0.6, 0.05, -0.01, 0.9],
+                },
+              },
+              closed: {
+                x: "-100%",
+                transition: {
+                  duration: 0.5,
+                  ease: [0.6, 0.05, -0.01, 0.9],
+                },
+              },
+            },
+            children: [
+              (0, T.jsxs)(eW.P.div, {
+                className:
+                  "left h-[100svh] md:h-none flex-1 bg-sand-light pt-[8vh] flex flex-col items-start",
+                initial: "closed",
+                animate: (null == s ? void 0 : s.menuState)
+                  ? "open"
+                  : "closed",
+                variants: {
                   open: {
-                      x: 0,
-                      transition: {
-                          duration: .5,
-                          ease: [.6, .05, -.01, .9]
-                      }
+                    x: 0,
+                    transition: {
+                      duration: 0.5,
+                      delay: 0.2,
+                      ease: [0.6, 0.05, -0.01, 0.9],
+                    },
                   },
                   closed: {
-                      x: "-100%",
-                      transition: {
-                          duration: .5,
-                          ease: [.6, .05, -.01, .9]
-                      }
-                  }
-              },
-              children: [(0,
-              T.jsxs)(eW.P.div, {
-                  className: "left h-[100svh] md:h-none flex-1 bg-sand-light pt-[8vh] flex flex-col items-start",
-                  initial: "closed",
-                  animate: (null == s ? void 0 : s.menuState) ? "open" : "closed",
-                  variants: {
-                      open: {
-                          x: 0,
-                          transition: {
-                              duration: .5,
-                              delay: .2,
-                              ease: [.6, .05, -.01, .9]
-                          }
-                      },
-                      closed: {
-                          x: "-50%",
-                          transition: {
-                              duration: .5,
-                              ease: [.6, .05, -.01, .9]
-                          }
-                      }
+                    x: "-50%",
+                    transition: {
+                      duration: 0.5,
+                      ease: [0.6, 0.05, -0.01, 0.9],
+                    },
                   },
-                  children: [(0,
-                  T.jsx)("div", {
-                      className: "absolute left-0 bottom-0 r-mb-16 w-[calc(100%-20px)] h-16 z-[60] pointer-events-none",
-                      style: {
-                          background: "linear-gradient(180deg, rgba(249, 243, 235, 0) 0%, rgba(249, 243, 235, 1) 100%)"
-                      }
-                  }), (0,
-                  T.jsx)("div", {
-                      className: "absolute left-0 top-0 r-mt-[5.375] w-[calc(100%-20px)] h-16 z-[60] pointer-events-none",
-                      style: {
-                          background: "linear-gradient(0deg, rgba(249, 243, 235, 0) 0%, rgba(249, 243, 235, 1) 100%)"
-                      }
-                  }), (0,
-                  T.jsx)("div", {
-                      className: "overflow-auto max-h-full w-full flex flex-col items-start sm:py-16",
-                      children: (0,
-                      T.jsxs)("div", {
-                          className: "inner w-full lg:w-auto px-8 md:r-pl-12 xl:r-pl-[7] py-16 sm:py-0 transition-color duration-300 ".concat((null == c ? void 0 : c.length) > 0 ? "xl:text-brown" : "text-asphalt hover:xl:text-brown", " group flex flex-col items-stretch gap-4"),
-                          children: [null == p ? void 0 : null === (n = p.mainMenu) || void 0 === n ? void 0 : n.filter(e => "default" === e.typeHandle).map(e => {
-                              var n, t;
-                              let {navigationLink: l} = e || {};
-                              return (0,
-                              T.jsxs)("div", {
-                                  className: "flex items-center flex-wrap group/item relative justify-between ".concat(c.includes(e.uid) ? "text-asphalt" : "text-current"),
-                                  children: [(0,
-                                  T.jsx)(e8.A, {
-                                      href: l.href,
-                                      target: l.target,
-                                      title: l.title,
-                                      className: "r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300",
-
-                                      children: e.title
-                                  }), ]
-                              }, e.uid)
-                          }
-                          ), null == p ? void 0 : null === (t = p.mainMenu) || void 0 === t ? void 0 : t.filter(e => "secondaryLink" === e.typeHandle).map( (e, n) => {
-                              let {navigationLink: t} = e || {};
-                              return (0,
-                              T.jsx)(e8.A, {
-                                  href: t.href,
-                                  className: "".concat(0 === n ? "r-mt-8" : "", " ").concat(c.includes(e.uid) ? "text-asphalt" : "", " text-sm sm:r-text-xl  transition-color duration-300 hover:text-asphalt"),
-                                  children: e.title
-                              }, e.uid)
-                          }
-                          )]
-                      })
-                  }),]
-              }), (0,
-              T.jsx)("div", {
-                  className: "right md:r-max-w-[24] xl:r-max-w-[30] w-full pt-[8vh] hidden md:block relative z-20",
-                  children: (0,
-                  T.jsx)("div", {
-                      className: "inner md:r-pl-12 xl:r-pl-[7] py-16 text-white flex flex-col r-gap-14 r-max-w-[22] w-full",
-                      children: null == p ? void 0 : null === (r = p.blocks) || void 0 === r ? void 0 : null === (i = r.menuBlocks) || void 0 === i ? void 0 : i.map(e => {
-                          let {title: n, button: t} = e || {};
-                          return (0,
-                          T.jsxs)("div", {
+                },
+                children: [
+                  (0, T.jsx)("div", {
+                    className:
+                      "absolute left-0 bottom-0 r-mb-16 w-[calc(100%-20px)] h-16 z-[60] pointer-events-none",
+                    style: {
+                      background:
+                        "white",
+                    },
+                  }),
+                  (0, T.jsx)("div", {
+                    className:
+                      "absolute left-0 top-0 r-mt-[5.375] w-[calc(100%-20px)] h-16 z-[60] pointer-events-none",
+                    style: {
+                      background:
+                        "white",
+                    },
+                  }),
+                  (0, T.jsx)("div", {
+                    className:
+                      "overflow-auto max-h-full w-full flex flex-col items-start sm:py-16 position-adjust",
+                    children: (0, T.jsxs)("div", {
+                      className:
+                        "inner w-full lg:w-auto px-8 md:r-pl-12 xl:r-pl-[7] py-16 sm:py-0 transition-color duration-300 ".concat(
+                          (null == c ? void 0 : c.length) > 0
+                            ? "xl:text-brown"
+                            : "text-asphalt hover:xl:text-brown",
+                          " group flex flex-col items-stretch gap-4"
+                        ),
+                      children: [
+                        null == p
+                          ? void 0
+                          : null === (n = p.mainMenu) || void 0 === n
+                          ? void 0
+                          : n
+                              .filter((e) => "default" === e.typeHandle)
+                              .map((e) => {
+                                var n, t;
+                                let { navigationLink: l } = e || {};
+                                return (0, T.jsxs)(
+                                  "div",
+                                  {
+                                    className:
+                                      "flex items-center flex-wrap group/item relative justify-between ".concat(
+                                        c.includes(e.uid)
+                                          ? "text-asphalt"
+                                          : "text-current"
+                                      ),
+                                    children: [
+                                      (0, T.jsx)(e8.A, {
+                                        href: l.href,
+                                        target: l.target,
+                                        title: l.title,
+                                        className:
+                                          "r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300",
+                                        onClick: (n) => {
+                                          var t;
+                                          (null == e
+                                            ? void 0
+                                            : null === (t = e.sub) ||
+                                              void 0 === t
+                                            ? void 0
+                                            : t.length) > 0
+                                            ? (n.preventDefault(),
+                                              u((n) =>
+                                                n.includes(e.uid)
+                                                  ? []
+                                                  : [e.uid]
+                                              ))
+                                            : (s.setMenuState(!1),
+                                              u([e.uid])),
+                                            o({
+                                              event: "menu_clicked",
+                                              menu: e.title,
+                                              menulocation: "Main menu",
+                                            });
+                                        },
+                                        children: e.title,
+                                      }),
+                                      (null == e
+                                        ? void 0
+                                        : null === (n = e.sub) ||
+                                          void 0 === n
+                                        ? void 0
+                                        : n.length) > 0
+                                        ? (0, T.jsxs)("button", {
+                                            className:
+                                              "ml-3 r-w-4 r-h-4 relative mt-1 ".concat(
+                                                c.includes(e.uid)
+                                                  ? "opacity-100"
+                                                  : "opacity-100 xl:opacity-0",
+                                                " group-hover/item:opacity-100 transition-opacity"
+                                              ),
+                                            onClick: () => {
+                                              u((n) =>
+                                                n.includes(e.uid)
+                                                  ? []
+                                                  : [e.uid]
+                                              );
+                                            },
+                                            children: [
+                                              (0, T.jsx)("span", {
+                                                className:
+                                                  "block w-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ".concat(
+                                                    c.includes(e.uid)
+                                                      ? "h-0"
+                                                      : "r-h-4 xl:h-0 group-hover/item:r-h-4"
+                                                  ),
+                                              }),
+                                              (0, T.jsx)("span", {
+                                                className: "block ".concat(
+                                                  c.includes(e.uid)
+                                                    ? "r-w-4"
+                                                    : "r-w-4 xl:w-0 group-hover/item:r-w-4",
+                                                  " h-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300"
+                                                ),
+                                              }),
+                                            ],
+                                          })
+                                        : (0, T.jsx)("span", {
+                                            className:
+                                              "block overflow-hidden ml-3",
+                                            children: (0, T.jsx)(nS.A, {
+                                              className:
+                                                "r-w-4 stroke-asphalt stroke-2 xl:-translate-x-full group-hover/item:-translate-x-0 transition-transform duration-300 ".concat(
+                                                  "_blank" === l.target
+                                                    ? " -rotate-45"
+                                                    : ""
+                                                ),
+                                            }),
+                                          }),
+                                      (0, T.jsx)(eW.P.div, {
+                                        className:
+                                          "sub-menu overflow-hidden w-full lg:w-auto lg:absolute top-0 lg:left-full z-50 flex flex-col items-start ml-10 lg:r-ml-20 gap-2",
+                                        initial: "hidden",
+                                        animate: c.includes(e.uid)
+                                          ? "visible"
+                                          : "hidden",
+                                        variants: {
+                                          visible: {
+                                            height: "auto",
+                                            transition: {
+                                              staggerChildren: 0.05,
+                                              delayChildren: 0.2,
+                                            },
+                                          },
+                                          hidden: {
+                                            height: 0,
+                                            transition: {
+                                              staggerChildren: 0.05,
+                                              staggerDirection: -1,
+                                            },
+                                          },
+                                        },
+                                        children:
+                                          null == e
+                                            ? void 0
+                                            : null === (t = e.sub) ||
+                                              void 0 === t
+                                            ? void 0
+                                            : t.map((n) => {
+                                                let { navigationLink: t } =
+                                                  n || {};
+                                                return (0, T.jsx)(
+                                                  eW.P.div,
+                                                  {
+                                                    variants: {
+                                                      visible: {
+                                                        opacity: 1,
+                                                        x: 0,
+                                                      },
+                                                      hidden: {
+                                                        opacity: 0,
+                                                        x: -50,
+                                                      },
+                                                    },
+                                                    className:
+                                                      "last:pb-4 first:pt-4 lg:!py-0",
+                                                    children: (0, T.jsxs)(
+                                                      e8.A,
+                                                      {
+                                                        href: t.href,
+                                                        target: t.target,
+                                                        title: t.title,
+                                                        className:
+                                                          "inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300 ".concat(
+                                                            c.includes(
+                                                              n.uid
+                                                            )
+                                                              ? " pl-6"
+                                                              : ""
+                                                          ),
+                                                        onClick: () => {
+                                                          s.setMenuState(
+                                                            !1
+                                                          ),
+                                                            u([
+                                                              e.uid,
+                                                              n.uid,
+                                                            ]),
+                                                            o({
+                                                              event:
+                                                                "menu_clicked",
+                                                              menu: n.title,
+                                                              menulocation:
+                                                                "Main menu",
+                                                            });
+                                                        },
+                                                        children: [
+                                                          (0, T.jsx)(nS.A, {
+                                                            className:
+                                                              "w-4 stroke-current absolute left-0 top-1/2 -translate-y-1/2 -translate-x-full group-hover/link:-translate-x-0 transition-transform duration-300 ".concat(
+                                                                c.includes(
+                                                                  n.uid
+                                                                )
+                                                                  ? "translate-x-0"
+                                                                  : ""
+                                                              ),
+                                                          }),
+                                                          n.title,
+                                                        ],
+                                                      }
+                                                    ),
+                                                  },
+                                                  n.uid
+                                                );
+                                              }),
+                                      }),
+                                    ],
+                                  },
+                                  e.uid
+                                );
+                              }),
+                        null == p
+                          ? void 0
+                          : null === (t = p.mainMenu) || void 0 === t
+                          ? void 0
+                          : t
+                              .filter(
+                                (e) => "secondaryLink" === e.typeHandle
+                              )
+                              .map((e, n) => {
+                                let { navigationLink: t } = e || {};
+                                return (0, T.jsx)(
+                                  e8.A,
+                                  {
+                                    href: t.href,
+                                    className: ""
+                                      .concat(0 === n ? "r-mt-8" : "", " ")
+                                      .concat(
+                                        c.includes(e.uid)
+                                          ? "text-asphalt"
+                                          : "",
+                                        " text-sm sm:r-text-xl  transition-color duration-300 hover:text-asphalt"
+                                      ),
+                                    onClick: () => {
+                                      s.setMenuState(!1),
+                                        u([e.uid]),
+                                        o({
+                                          event: "menu_clicked",
+                                          menu: e.title,
+                                          menulocation: "Main menu",
+                                        });
+                                    },
+                                    children: e.title,
+                                  },
+                                  e.uid
+                                );
+                              }),
+                      ],
+                    }),
+                  }),
+                  (0, T.jsx)("div", {
+                    className:
+                      "menu-footer mt-auto px-4 md:pr-0 md:r-pb-12 md:r-pl-12 xl:r-pl-[7] sticky bottom-0 w-full md:w-auto z-[70]",
+                    children: (0, T.jsxs)("div", {
+                      className:
+                        "bg-white md:bg-transparent rounded-[6.25rem] md:rounded-none flex md:relative items-center justify-between pl-6 md:pl-0 pr-2 md:pr-0 py-2 md:py-0 w-full md:w-auto",
+                      children: [
+                        (0, T.jsx)(io, { globals: a, dark: !0 }),
+                        (0, T.jsx)(e0.A, {
+                          linkProps:
+                            null == p
+                              ? void 0
+                              : null === (l = p.globalSet) || void 0 === l
+                              ? void 0
+                              : l.headerButton,
+                          className: "md:hidden grey small",
+                          Icon: nq.A,
+                        }),
+                      ],
+                    }),
+                  }),
+                ],
+              }),
+              (0, T.jsx)("div", {
+                className:
+                  "right md:r-max-w-[24] xl:r-max-w-[30] w-full pt-[8vh] hidden md:block relative z-20",
+                children: (0, T.jsx)("div", {
+                  className:
+                    "inner md:r-pl-12 xl:r-pl-[7] py-16 text-white flex flex-col r-gap-14 r-max-w-[22] w-full position-adjust",
+                  children:
+                    null == p
+                      ? void 0
+                      : null === (r = p.blocks) || void 0 === r
+                      ? void 0
+                      : null === (i = r.menuBlocks) || void 0 === i
+                      ? void 0
+                      : i.map((e) => {
+                          let { title: n, button: t } = e || {};
+                          return (0, T.jsxs)(
+                            "div",
+                            {
                               className: "block",
-                              children: [(0,
-                              T.jsx)("p", {
+                              children: [
+                                (0, T.jsx)("p", {
                                   className: "r-text-2xl r-mb-6",
-                                  children: n
-                              }), (0,
-                              T.jsx)(z.A, {
+                                  children: n,
+                                }),
+                                (0, T.jsx)(z.A, {
                                   linkProps: t,
                                   className: "white",
                                   onClick: () => {
-                                      s.setMenuState(!1),
+                                    s.setMenuState(!1),
                                       o({
-                                          event: "menu_clicked",
-                                          menu: t.text,
-                                          menulocation: "Main menu sidebar"
-                                      })
-                                  }
-                              })]
-                          }, e.uid)
-                      }
-                      )
-                  })
-              })]
+                                        event: "menu_clicked",
+                                        menu: t.text,
+                                        menulocation: "Main menu sidebar",
+                                      });
+                                  },
+                                }),
+                              ],
+                            },
+                            e.uid
+                          );
+                        }),
+                }),
+              }),
+            ],
           })
       }
       ))
@@ -8445,9 +8636,9 @@ function updateMenuHeadings() {
       '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="For partners & installers"]'
     );
     if (productMenuItem) {
-      productMenuItem.textContent = "Product";
-      productMenuItem.setAttribute("title", "Product");
-      productMenuItem.setAttribute("href", "/features.html");
+      productMenuItem.textContent = "Features";
+      productMenuItem.setAttribute("title", "Features");
+      productMenuItem.setAttribute("href", "/features");
       console.log("Updated 'For partners & installers' to 'Product' with /features link.");
     } else {
       console.warn("'For partners & installers' menu item not found.");
@@ -8460,7 +8651,7 @@ function updateMenuHeadings() {
     if (supportMenuItem) {
       supportMenuItem.textContent = "Support";
       supportMenuItem.setAttribute("title", "Support");
-      supportMenuItem.setAttribute("href", "/contact.html");
+      supportMenuItem.setAttribute("href", "/contact");
       console.log("Updated 'Need help?' to 'Support' with /contact link.");
     } else {
       console.warn("'Need help?' menu item not found.");
