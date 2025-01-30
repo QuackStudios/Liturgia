@@ -3278,7 +3278,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .bg-forest {
   --tw-bg-opacity: 1;
-  background-color:#d3d3d3;
+  background-color: rgb(172 172 172);
 }
 .bg-green {
   --tw-bg-opacity: 1;
@@ -3310,7 +3310,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .bg-sand-light {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 243 235 / var(--tw-bg-opacity));
+  background-color: white;
 }
 .bg-transparent {
   background-color: transparent;
@@ -3652,7 +3652,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .text-sand-light {
   --tw-text-opacity: 1;
-  color: rgb(249 243 235 / var(--tw-text-opacity));
+  color: white;
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -4622,7 +4622,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .hover\:bg-sand-light:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 243 235 / var(--tw-bg-opacity));
+  background-color: white;
 }
 .hover\:stroke-white:hover {
   stroke: #fff;
@@ -4651,7 +4651,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .hover\:text-sand:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 215 189 / var(--tw-text-opacity));
+  color: white;
 }
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
@@ -6050,7 +6050,11 @@ footer .wysiwyg a:not(.button):hover {
   font-weight: 400;
 }
 .nested-div-2-child-1 {
-  width: 40%;
+  width: fit-content;
+}
+
+.nested-div-2-child-2 {
+  width: fit-content;
 }
 .nested-div-3 {
   display: flex;
@@ -6401,4 +6405,29 @@ label {
 .quack-logo-redirect {
   cursor: pointer;
   font-weight: 600;
+}
+
+.position-adjust {
+  position: relative;
+  bottom: -10%;
+}
+
+.menu-bottom-container {
+  position: relative;
+  width: 50vw;
+  left: -35%;
+  bottom: 60px;
+  height: 27vh;
+}
+
+
+.menu-bottom-text {
+  width: 100%;
+  height: 150%;
+  opacity: 0.1;
+}
+
+
+.menu-right-color {
+  background-color: rgb(227, 41, 37);
 }
