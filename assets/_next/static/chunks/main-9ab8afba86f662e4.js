@@ -659,7 +659,7 @@
           window.__NEXT_P.push = l,
           (u = (0,
           j.default)()).getIsSsr = () => n.isSsr,
-          s = document.getElementById("assets__next"),
+          s = document.getElementById("assets/_next"),
           {
               assetPrefix: t
           }
