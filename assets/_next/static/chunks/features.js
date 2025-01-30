@@ -27,20 +27,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const cardsContent = [
         {
-          text: "With a few clicks of the mouse, I can browse through various options available and insert texts into booklets and presentations which look professional and are easy to use in liturgical celebrations. Liturgia has made my ministry of liturgical preparation much smoother and simpler than before with its easy-to-use and straightforward approach. ",
-          attribution: "- Parish Priest, Archdiocese of Melbourne."
+          text: "The parish team and I rely on Liturgia constantly for promptly preparing weekly liturgies, assisting couples to prepare weddings and families to prepare funerals, and to guide school staff in preparing school Masses. It is an intuitive, powerful, Australian tool that puts all you need at your fingertips and saves many hours in preparation time. ",
+          attribution: "- Pastoral Coordinator, Holy Trinity Parish, Bentleigh, and Music Leader, St Mary’s, Bairnsdale, Victoria."
         },
         {
-          text: "I have been using Liturgia for 20 plus years. I have been able to print each week for parishioners to join in the Entrance and Communion Antiphons and the Response Psalm. Liturgia enables me to print personalised Orders of Service for Baptisms which families keep to remember the occasion. It is a handy resource with all rituals close at hand to prepare occasional liturgies. ",
-          attribution: "- Parish Priest, Sacred Heart Parish, Invercargill, NZ"
+          text: "Liturgia has been indispensable as I prepare liturgies for plenary meetings of the bishops and for keeping on top of the details of the ordo to inform the rest of my work. It’s an essential resource that makes work that used to take hours a breeze. ",
+          attribution: "- Executive Secretary for Liturgy, Australian Catholic Bishops Conference"
         },
         {
-          text: "I have been using Liturgia since about 2006 when I started participating formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even used the section for dedication for a church. I find the tool very easy to navigate, very easy to use, and comprehensive in its cover.",
-          attribution: "-  Fr C, Parish Priest, Archdiocese of Melbourne"
+          text: "I use Liturgia as a resource for my students studying liturgy and sacraments. They have instant access to the current rites of the Church for analysis and reflection, and in their journey of learning the fundamentals of liturgy preparation. ",
+          attribution: "-  Senior Lecturer in Liturgical Studies and Sacramental Theology, Australian Catholic University"
         },
         {
-          text: "Liturgia is an invaluable tool for anyone involved in preparing liturgical celebrations, regardless of the occasion. It is efficient and well resourced; with everything you could possibly need right at your fingertips.",
-          attribution: "- Parish Priest – Diocese of Maitland-Newcastle"
+          text: "Liturgia provides an invaluable resource for accessing liturgical texts, rites, readings and even homily notes.  It is easy to navigate and provides the individual with stress-free guidelines and assistance for liturgy planning. Thoroughly recommended.",
+          attribution: "- Pastoral Assistant in the Brisbane Archdiocese."
         }
       ];
 

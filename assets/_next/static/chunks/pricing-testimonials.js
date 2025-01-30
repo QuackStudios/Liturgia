@@ -27,20 +27,20 @@ document.addEventListener('DOMContentLoaded', () => {
   
         const cardsContent = [
           {
-            text: "With a few clicks of the mouse, I can browse through various options available and insert texts into booklets and presentations which look professional and are easy to use in liturgical celebrations. Liturgia has made my ministry of liturgical preparation much smoother and simpler than before with its easy-to-use and straightforward approach. ",
-            attribution: "- Parish Priest, Archdiocese of Melbourne."
+            text: "I have used Liturgia to prepare liturgies ever since it was first published. It has everything needed - texts, documents, suggestions - to make it an invaluable  resource.",
+            attribution: "- Liturgy Coordinator, Diocese of Wollongong NSW"
           },
           {
-            text: "I have been using Liturgia for 20 plus years. I have been able to print each week for parishioners to join in the Entrance and Communion Antiphons and the Response Psalm. Liturgia enables me to print personalised Orders of Service for Baptisms which families keep to remember the occasion. It is a handy resource with all rituals close at hand to prepare occasional liturgies. ",
-            attribution: "- Parish Priest, Sacred Heart Parish, Invercargill, NZ"
+            text: "While I find Liturgia invaluable in preparing liturgies for the communities to which I belong, it has become my travel companion too.  Travelling, I have an opportunity for quiet reflection as I engage with the Prayer of the Church. ",
+            attribution: "- Parish Volunteer, Diamond Creek, Victoria "
           },
           {
-            text: "I have been using Liturgia since about 2006 when I started participating formally in leading or arranging Masses and Funerals and Sacraments for adults and for children. I have even used the section for dedication for a church. I find the tool very easy to navigate, very easy to use, and comprehensive in its cover.",
-            attribution: "-  Fr C, Parish Priest, Archdiocese of Melbourne"
+            text: "Liturgia is great! Complete and accurate information about any liturgy in the Church year is instantly available, making music planning dramatically easier. ",
+            attribution: "-  Director of Music, St. Ignatius’ Parish, Toowong"
           },
           {
-            text: "Liturgia is an invaluable tool for anyone involved in preparing liturgical celebrations, regardless of the occasion. It is efficient and well resourced; with everything you could possibly need right at your fingertips.",
-            attribution: "- Parish Priest – Diocese of Maitland-Newcastle"
+            text: "Liturgia is a wonderful resource for all those involved in the celebration of the Church’s liturgy.  The excellent suggestions for homily notes, the prayer of the faithful and the music suggestions, together with examples of illustrations for the relevant Sundays, enrich the celebration of the liturgy abundantly.",
+            attribution: "- Lecturer in Liturgy (Holy Spirit Seminary, Banyo)"
           }
         ];
   

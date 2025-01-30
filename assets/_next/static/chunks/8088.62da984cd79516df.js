@@ -1103,7 +1103,7 @@
                       ),
                       (0, i.jsx)(h.w, {
                         children: (0, i.jsx)(m.E, {
-                          children: "Zaptec website",
+                          children: "Liturgia website",
                         }),
                       }),
                     ],
@@ -1235,7 +1235,7 @@
                       ),
                       (0, i.jsx)(h.w, {
                         children: (0, i.jsx)(m.E, {
-                          children: "Zaptec website",
+                          children: "Liturgia website",
                         }),
                       }),
                     ],

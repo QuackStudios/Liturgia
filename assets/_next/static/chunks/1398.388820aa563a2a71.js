@@ -30,7 +30,7 @@
             } = t,
             { scene: g, materials: w } = (0, p.p)(e),
             x = (0, h.useRef)(w["Main Body"]),
-            j = (0, h.useRef)(w["Zaptec Logo"]),
+            j = (0, h.useRef)(w["Liturgia Logo"]),
             y = (0, h.useMemo)(() => g.clone(), [g]);
           return (
             (0, h.useEffect)(() => {

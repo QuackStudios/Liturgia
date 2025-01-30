@@ -36,9 +36,9 @@ const observer = new MutationObserver((mutationsList, observer) => {
         <div class="trusted-by-text">Trusted By</div>
         <div class="trusted-by-logos">
           <div class="tb-logo-1"><img class="tb-logo-img" src="assets/_next/image/BCE-logo.jpg"></div>
-          <div class="tb-logo-2"><img class="tb-logo-img" src="assets/_next/image/BCE-logo.jpg"></div>
-          <div class="tb-logo-3"><img class="tb-logo-img" src="assets/_next/image/BCE-logo.jpg"></div>
-          <div class="tb-logo-4"><img class="tb-logo-img" src="assets/_next/image/BCE-logo.jpg"></div>
+          <div class="tb-logo-2"><img class="tb-logo-img" src="assets/_next/image/logo_dbb.svg"></div>
+          <div class="tb-logo-3"><img class="tb-logo-img" src="assets/_next/image/logo_cs_inline_colour.png"></div>
+          <div class="tb-logo-4"><img class="tb-logo-img" src="assets/_next/image/crest-csdp-horizontal-colour.svg"></div>
         </div>
       </div>
     `;

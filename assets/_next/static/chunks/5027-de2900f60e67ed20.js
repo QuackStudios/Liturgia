@@ -171,7 +171,7 @@
 // Mapping of href values to button indices
 const hrefToIndexMap = {
   "https://shop.liturgybrisbane.net.au/collections/liturgia": 0,
-  "https://liturgia.quackstudios.com.au/features.html": 1,
+  "https://liturgia.quackstudios.com.au/features": 1,
   // Add more mappings as needed
 };
 
