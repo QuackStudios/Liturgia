@@ -114,7 +114,6 @@
                                           ),
                                         onClick: (e) => {
                                           var n;
-
                                             e.stopPropagation(),
                                             null === (n = s.current) ||
                                               void 0 === n ||
