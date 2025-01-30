@@ -4932,13 +4932,11 @@
                   noValidate: !0,
                   className: "w-full flex justify-between items-center gap-4",
                   onSubmit: e => {
-                      e.preventDefault(),
                       e.stopPropagation(),
                       o.current && o.current.blur()
                   }
                   ,
                   onReset: e => {
-                      e.preventDefault(),
                       e.stopPropagation(),
                       c(""),
                       o.current && o.current.focus()
