@@ -3369,7 +3369,6 @@
                                       className: "bullet w-2 h-2 rounded-full border transition-colors duration-500 cursor-pointer ".concat(s === n ? "bg-asphalt border-asphalt" : "bg-transparent border-grey"),
                                       onClick: e => {
                                           var t;
-                                          e.preventDefault(),
                                           e.stopPropagation(),
                                           null === (t = a.current) || void 0 === t || t.slideTo(n),
                                           o(n)
@@ -3398,7 +3397,6 @@
                               className: "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
                               onClick: e => {
                                   var n;
-                                  e.preventDefault(),
                                   e.stopPropagation(),
                                   null === (n = a.current) || void 0 === n || n.slidePrev()
                               }
@@ -3422,7 +3420,6 @@
                               className: "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
                               onClick: e => {
                                   var n;
-                                  e.preventDefault(),
                                   e.stopPropagation(),
                                   null === (n = a.current) || void 0 === n || n.slideNext()
                               }
@@ -5313,7 +5310,6 @@
                               className: "bullet w-2 h-2 rounded-full border transition-colors duration-200 cursor-pointer ".concat(r === n ? "bg-asphalt border-asphalt" : "bg-transparent border-grey"),
                               onClick: e => {
                                   var l;
-                                  e.preventDefault(),
                                   e.stopPropagation(),
                                   null === (l = t.current) || void 0 === l || l.slideTo(n),
                                   a(n)
