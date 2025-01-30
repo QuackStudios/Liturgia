@@ -5038,7 +5038,7 @@
           B.useState)(!0);
           return (0,
           T.jsxs)(tj.G, {
-              indexName: "Zaptec",
+              indexName: "Liturgia",
               searchClient: tC,
               routing: !0,
               children: [(0,
@@ -6452,44 +6452,44 @@
           T.jsx)("link", {
               rel: "apple-touch-icon",
               sizes: "180x180",
-              href: "/favicon/apple-touch-icon.png"
+              href: "/assets/favicon/apple-touch-icon.png"
           }), (0,
           T.jsx)("link", {
               id: "favicon-32",
               rel: "icon",
               type: "image/png",
               sizes: "32x32",
-              href: "/favicon/favicon-32x32.png"
+              href: "/assets/favicon/favicon-32x32.png"
           }), (0,
           T.jsx)("link", {
               id: "favicon-16",
               rel: "icon",
               type: "image/png",
               sizes: "16x16",
-              href: "/favicon/favicon-16x16.png"
+              href: "/assets/favicon/favicon-16x16.png"
           }), (0,
           T.jsx)("link", {
               id: "favicon",
               rel: "icon",
               type: "image/x-icon",
-              href: "/favicon/favicon.ico"
+              href: "/assets/favicon/favicon.ico"
           }), (0,
           T.jsx)("link", {
               rel: "manifest",
-              href: "/favicon/site.webmanifest"
+              href: "/assets/favicon/site.webmanifest"
           }), (0,
           T.jsx)("link", {
               rel: "mask-icon",
-              href: "/favicon/safari-pinned-tab.svg",
+              href: "/assets/favicon/safari-pinned-tab.svg",
               color: "#5bbad5"
           }), (0,
           T.jsx)("meta", {
               name: "apple-mobile-web-app-title",
-              content: "Zaptec"
+              content: "Liturgia"
           }), (0,
           T.jsx)("meta", {
               name: "application-name",
-              content: "Zaptec"
+              content: "Liturgia"
           }), (0,
           T.jsx)("meta", {
               name: "msapplication-TileColor",
@@ -6511,18 +6511,18 @@
               let e = () => {
                   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
                       let e = document.querySelector("#favicon-32");
-                      e && (e.href = "/favicon/favicon-32x32-white.png");
+                      e && (e.href = "/assets/favicon/favicon-32x32-white.png");
                       let n = document.querySelector("#favicon-16");
-                      n && (n.href = "/favicon/favicon-16x16-white.png");
+                      n && (n.href = "/assets/favicon/favicon-16x16-white.png");
                       let t = document.querySelector("#favicon");
-                      t && (t.href = "/favicon/favicon-white.ico")
+                      t && (t.href = "/assets/favicon/favicon-white.ico")
                   } else {
                       let e = document.querySelector("#favicon-32");
-                      e && (e.href = "/favicon/favicon-32x32.png");
+                      e && (e.href = "/assets/favicon/favicon-32x32.png");
                       let n = document.querySelector("#favicon-16");
-                      n && (n.href = "/favicon/favicon-16x16.png");
+                      n && (n.href = "/assets/favicon/favicon-16x16.png");
                       let t = document.querySelector("#favicon");
-                      t && (t.href = "/favicon/favicon.ico")
+                      t && (t.href = "/assets/favicon/favicon.ico")
                   }
               }
               ;
@@ -6560,7 +6560,7 @@
                   T.jsx)(lw, {})]
               }), (0,
               T.jsx)(lb(), {
-                  src: "https://zaptec.statuspage.io/embed/script.js"
+                  src: "/embed/script.js"
               }), (0,
               T.jsx)(lf, {
                   globals: l
@@ -6612,36 +6612,6 @@
                           target: i.target,
                           title: i.title,
                           className: "r-text-sm custom-underline ".concat(s ? "active" : ""),
-                          onMouseEnter: () => {
-                              l.timeout && clearTimeout(l.timeout),
-                              t({
-                                  open: e.uid,
-                                  timeout: null
-                              })
-                          }
-                          ,
-                          onMouseLeave: () => {
-                              let e = setTimeout( () => {
-                                  t({
-                                      open: !1,
-                                      timeout: null
-                                  })
-                              }
-                              , 500);
-                              t(n => ({
-                                  ...n,
-                                  timeout: e
-                              }))
-                          }
-                          ,
-                          onClick: () => {
-                              r({
-                                  event: "menu_clicked",
-                                  menu: e.title,
-                                  menulocation: "Top bar"
-                              })
-                          }
-                          ,
                           children: e.title
                       }, e.uid)
                   }
