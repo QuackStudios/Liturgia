@@ -633,7 +633,7 @@
           window.__NEXT_DATA__ = o,
           h = o.defaultLocale;
           let t = o.assetPrefix || "";
-          if (self.__next_set_public_path__("" + t + "/_next/"),
+          if (self.__next_set_public_path__("" + t + "assets/_next/"),
           (0,
           T.setConfig)({
               serverRuntimeConfig: {},
@@ -659,7 +659,7 @@
           window.__NEXT_P.push = l,
           (u = (0,
           j.default)()).getIsSsr = () => n.isSsr,
-          s = document.getElementById("__next"),
+          s = document.getElementById("assets__next"),
           {
               assetPrefix: t
           }
@@ -708,7 +708,7 @@
                                           value: {
                                               deviceSizes: [640, 750, 828, 1080, 1200, 1920],
                                               imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                                              path: "/_next/image",
+                                              path: "assets/_next/image",
                                               loader: "default",
                                               dangerouslyAllowSVG: !0,
                                               unoptimized: !1
@@ -1104,10 +1104,10 @@
           }
           getMiddleware() {
               return window.__MIDDLEWARE_MATCHERS = [{
-                  regexp: "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next\\/static.*|scripts\\/sw.js|_next\\/data.*|android-chrome-192x192.png|android-chrome-256x256.png|_next\\/image|favicon.*|fonts|models|autodiscover).*))(\\.json)?[\\/#\\?]?$",
-                  originalSource: "/((?!api|_next/static.*|scripts/sw.js|_next/data.*|android-chrome-192x192.png|android-chrome-256x256.png|_next/image|favicon.*|fonts|models|autodiscover).*)"
+                  regexp: "^(?:\\/(assets/_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|assets/_next\\/static.*|scripts\\/sw.js|assets/_next\\/data.*|android-chrome-192x192.png|android-chrome-256x256.png|_next\\/image|favicon.*|fonts|models|autodiscover).*))(\\.json)?[\\/#\\?]?$",
+                  originalSource: "/((?!api|assets/_next/static.*|scripts/sw.js|assets/_next/data.*|android-chrome-192x192.png|android-chrome-256x256.png|assets/_next/image|favicon.*|fonts|models|autodiscover).*)"
               }, {
-                  regexp: "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(\\/?index|\\/?index\\.json))?[\\/#\\?]?$",
+                  regexp: "^(?:\\/(assets/_next\\/data\\/[^/]{1,}))?(?:\\/(\\/?index|\\/?index\\.json))?[\\/#\\?]?$",
                   originalSource: "/"
               }],
               window.__MIDDLEWARE_MATCHERS
@@ -1128,7 +1128,7 @@
                   c.removeTrailingSlash)((0,
                   s.addLocale)(e, n)), ".json");
                   return (0,
-                  o.addBasePath)("/_next/data/" + this.buildId + t + p, !0)
+                  o.addBasePath)("assets/_next/data/" + this.buildId + t + p, !0)
               }
               )(e.skipInterpolation ? h : (0,
               u.isDynamicRoute)(_) ? (0,
@@ -1592,7 +1592,7 @@
           return h().then(r => {
               if (!(t in r))
                   throw l(Error("Failed to lookup route: " + t));
-              let o = r[t].map(t => e + "/_next/" + (0,
+              let o = r[t].map(t => e + "assets/_next/" + (0,
               i.encodeURIPath)(t));
               return {
                   scripts: o.filter(e => e.endsWith(".js")).map(e => (0,
@@ -3127,7 +3127,7 @@
         , n = {
           deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-          path: "/_next/image",
+          path: "assets/_next/image",
           loader: "default",
           loaderFile: "",
           domains: [],
@@ -3676,7 +3676,7 @@
       }
       let W = "scrollRestoration"in window.history && !!function() {
           try {
-              let e = "__next";
+              let e = "assets/__next";
               return sessionStorage.setItem(e, e),
               sessionStorage.removeItem(e),
               !0
@@ -4923,7 +4923,7 @@
           n.removeTrailingSlash)(t)),
           e.buildId && (t = (0,
           a.addPathSuffix)((0,
-          o.addPathPrefix)(t, "/_next/data/" + e.buildId), "/" === e.pathname ? "index.json" : ".json")),
+          o.addPathPrefix)(t, "assets/_next/data/" + e.buildId), "/" === e.pathname ? "index.json" : ".json")),
           t = (0,
           o.addPathPrefix)(t, e.basePath),
           !e.buildId && e.trailingSlash ? t.endsWith("/") ? t : (0,
@@ -5024,7 +5024,7 @@
           o.removePathPrefix)(c.pathname, s),
           c.basePath = s);
           let f = c.pathname;
-          if (c.pathname.startsWith("/_next/data/") && c.pathname.endsWith(".json")) {
+          if (c.pathname.startsWith("assets/_next/data/") && c.pathname.endsWith(".json")) {
               let e = c.pathname.replace(/^\/_next\/data\//, "").replace(/\.json$/, "").split("/")
                 , r = e[0];
               c.buildId = r,
