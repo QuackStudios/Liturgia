@@ -404,7 +404,7 @@ let f = function (e) {
 
   if (
     (null == k ? void 0 : k.target) === "_blank" &&
-    ((_.rel = "noreferrer"), (_.className += " external")),
+    ((_.rel = "noreferrer"), (_.className += "md:inline-flex grey small")),
     I &&
     ((_.download = I), (_.className += " download"), (_.target = "_blank")),
     null === (l = _.href) || void 0 === l
