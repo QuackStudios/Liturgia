@@ -633,7 +633,7 @@
           window.__NEXT_DATA__ = o,
           h = o.defaultLocale;
           let t = o.assetPrefix || "";
-          if (self.__next_set_public_path__("" + t + "/_next/"),
+          if (self.__next_set_public_path__("" + t + "/assets/_next/"),
           (0,
           T.setConfig)({
               serverRuntimeConfig: {},
@@ -708,7 +708,7 @@
                                           value: {
                                               deviceSizes: [640, 750, 828, 1080, 1200, 1920],
                                               imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                                              path: "/_next/image",
+                                              path: "/assets/_next/image",
                                               loader: "default",
                                               dangerouslyAllowSVG: !0,
                                               unoptimized: !1
@@ -1128,7 +1128,7 @@
                   c.removeTrailingSlash)((0,
                   s.addLocale)(e, n)), ".json");
                   return (0,
-                  o.addBasePath)("/_next/data/" + this.buildId + t + p, !0)
+                  o.addBasePath)("/assets/_next/data/" + this.buildId + t + p, !0)
               }
               )(e.skipInterpolation ? h : (0,
               u.isDynamicRoute)(_) ? (0,
@@ -1592,7 +1592,7 @@
           return h().then(r => {
               if (!(t in r))
                   throw l(Error("Failed to lookup route: " + t));
-              let o = r[t].map(t => e + "/_next/" + (0,
+              let o = r[t].map(t => e + "/assets/_next/" + (0,
               i.encodeURIPath)(t));
               return {
                   scripts: o.filter(e => e.endsWith(".js")).map(e => (0,
@@ -3127,7 +3127,7 @@
         , n = {
           deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-          path: "/_next/image",
+          path: "/assets/_next/image",
           loader: "default",
           loaderFile: "",
           domains: [],
