@@ -8683,4 +8683,12 @@ function updateMenuHeadings() {
   
   
   
-  
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault(); // Prevent the browser from reloading
+      const targetUrl = event.target.getAttribute('href');
+      history.pushState(null, '', targetUrl); // Update the URL without reloading
+      renderPage(targetUrl); // Call your function to dynamically render the page
+    });
+  });
+
