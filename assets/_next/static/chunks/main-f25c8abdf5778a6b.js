@@ -3637,7 +3637,7 @@
           "scrollRestoration" in window.history &&
           !!(function () {
             try {
-              let e = "__next";
+              let e = "assets/_next";
               return (
                 sessionStorage.setItem(e, e), sessionStorage.removeItem(e), !0
               );
