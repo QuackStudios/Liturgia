@@ -156,6 +156,33 @@
         font-weight: bold;
       }
     </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+      // Intercept all clicks on links
+      document.body.addEventListener("click", (event) => {
+        const target = event.target.closest("a"); // Check if the click is on or inside an <a> tag
+        if (target && target.tagName === "A") {
+          const href = target.getAttribute("href");
+
+          // Check if href is a relative URL and not an external link
+          if (href && href.startsWith("/")) {
+            event.preventDefault(); // Prevent the default browser behaviour
+            console.log(`Intercepted navigation to: ${href}`);
+
+            // Change the URL programmatically
+            window.history.pushState({}, "", href);
+
+            // Force the router or page to render the correct component
+            if (typeof window.onNavigate === "function") {
+              window.onNavigate(href);
+            } else {
+              location.reload(); // Fallback: reload the page to load the correct content
+            }
+          }
+        }
+      });
+    });
+    </script>
     <meta
       name="google-site-verification"
       content="l0_J4bqd0TlJM3crSkgU5f2wp6DCQKJQv0tZ_RsTYuA"
@@ -4696,7 +4723,7 @@
                     "text": "Pricing",
                     "title": null,
                     "type": "entry",
-                    "url": "https://liturgia.quackstudios.com.au/pricing"
+                    "url": "/pricing"
                 },
                 "children": [
                 ]
