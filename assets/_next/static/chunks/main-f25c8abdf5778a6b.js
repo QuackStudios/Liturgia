@@ -4996,7 +4996,7 @@
             (t = (0, n.removeTrailingSlash)(t)),
           e.buildId &&
             (t = (0, a.addPathSuffix)(
-              (0, o.addPathPrefix)(t, "/_next/data/" + e.buildId),
+              (0, o.addPathPrefix)(t, "assets/_next/data/" + e.buildId),
               "/" === e.pathname ? "index.json" : ".json"
             )),
           (t = (0, o.addPathPrefix)(t, e.basePath)),
@@ -5120,7 +5120,7 @@
           (c.basePath = s));
         let f = c.pathname;
         if (
-          c.pathname.startsWith("/_next/data/") &&
+          c.pathname.startsWith("assets/_next/data/") &&
           c.pathname.endsWith(".json")
         ) {
           let e = c.pathname
