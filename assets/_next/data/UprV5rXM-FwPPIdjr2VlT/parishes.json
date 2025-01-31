@@ -27,9 +27,9 @@
     "currentSite": {
       "siteId": 1,
       "locale": "en",
-      "domain": "127.0.0.1:5500",
+      "domain": "liturgia.quackstudios.com.au/",
       "url": "/",
-      "fullUrl": "http://127.0.0.1:5500/",
+      "fullUrl": "http://liturgia.quackstudios.com.au//",
       "handle": "default",
       "name": "Global / English",
       "primary": true,
@@ -564,10 +564,10 @@
         "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"parishes\"})": {
           "__typename": "SeomaticType",
           "metaTitleContainer": "{\"title\":{\"title\":\"parishes | Liturgia\"}}",
-          "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"parishes\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"parishes\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/127.0.0.1:5500\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"parishes\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/127.0.0.1:5500\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
-          "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/127.0.0.1:5500\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/127.0.0.1:5500\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/127.0.0.1:5500\\/nl\\/laadoplossingen\\/parishes\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/fr\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/en-uk\\/charging-solutions\\/parishes\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/de\\/ladeloesungen\\/parishes\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/da\\/ladeloesninger\\/parishes\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/sv\\/laddningslosningar\\/parishes\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/no\\/ladelosninger\\/parishes\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/fr-ch\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/de-ch\\/ladeloesungen\\/parishes\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/fr-be\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/127.0.0.1:5500\\/nl-be\\/laadoplossingen\\/parishes\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
+          "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"parishes\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\\/parishes\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"parishes\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"parishes\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+          "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\\/parishes\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/nl\\/laadoplossingen\\/parishes\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/fr\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/en-uk\\/charging-solutions\\/parishes\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/de\\/ladeloesungen\\/parishes\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/da\\/ladeloesninger\\/parishes\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/sv\\/laddningslosningar\\/parishes\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/no\\/ladelosninger\\/parishes\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\\/parishes\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/fr-ch\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/de-ch\\/ladeloesungen\\/parishes\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/fr-be\\/solutions-de-recharge\\/parishes\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/nl-be\\/laadoplossingen\\/parishes\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
           "metaScriptContainer": "{\"googleTagManager\":{\"script\":\"dataLayer = [];\\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\\n'https:\\/\\/www.googletagmanager.com\\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n})(window,document,'script','dataLayer','GTM-NXM58Z5J');\\n\",\"bodyScript\":\"<noscript><iframe src=\\\"https:\\/\\/www.googletagmanager.com\\/ns.html?id=GTM-NXM58Z5J\\\"\\nheight=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"><\\/iframe><\\/noscript>\\n\"}}",
-          "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2023-10-12T14:51:51+02:00\",\"dateModified\":\"2025-01-16T13:24:35+01:00\",\"datePublished\":\"2023-10-12T15:22:00+02:00\",\"description\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"headline\":\"parishes\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/127.0.0.1:5500\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"name\":\"parishes\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/127.0.0.1:5500\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/127.0.0.1:5500\\/products\",\"name\":\"Products\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/127.0.0.1:5500\\/products\\/parishes\",\"name\":\"parishes\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
+          "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2023-10-12T14:51:51+02:00\",\"dateModified\":\"2025-01-16T13:24:35+01:00\",\"datePublished\":\"2023-10-12T15:22:00+02:00\",\"description\":\"Clean in design and clever in function – our award-winning home charger simplifies your charging experience.\",\"headline\":\"parishes\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec.jpg?mtime=1718721473\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\\/parishes\",\"name\":\"parishes\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\\/parishes\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/liturgia.quackstudios.com.au/\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\",\"name\":\"Products\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/liturgia.quackstudios.com.au/\\/products\\/parishes\",\"name\":\"parishes\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
           "metaSiteVarsContainer": "{\"siteName\":\"parishes\",\"siteAlternateName\":\"\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"\",\"genericAlternateName\":\"\",\"genericDescription\":\"\",\"genericUrl\":\"\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"\",\"genericEmail\":\"\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Good Morning\",\"genericAlternateName\":\"\",\"genericDescription\":\"Digital first studio in Oslo – We design and build digital products.\",\"genericUrl\":\"https:\\/\\/www.goodmorning.no\\/\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"+47 932 83 071\",\"genericEmail\":\"eirik@goodmorning.no\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
         },
         "entry({\"level\":1,\"listType\":\"accessories\",\"section\":\"pages\",\"siteId\":1,\"type\":\"list\"})": null,
@@ -626,7 +626,7 @@
           "text": "Features",
           "title": "Features",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/features.html"
+          "url": "http://liturgia.quackstudios.com.au//features"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}": {
@@ -641,7 +641,7 @@
           "text": "parishes",
           "title": "parishes",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/parishes.html"
+          "url": "http://liturgia.quackstudios.com.au//parishes"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}": {
@@ -656,7 +656,7 @@
           "text": "Load balancing with Zaptec Sense",
           "title": "Load balancing with Zaptec Sense",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/zaptec-sense.html"
+          "url": "http://liturgia.quackstudios.com.au//zaptec-sense.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}": {
@@ -671,7 +671,7 @@
           "text": "Accessories",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/accessories.html"
+          "url": "http://liturgia.quackstudios.com.au//accessories.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
@@ -686,7 +686,7 @@
           "text": "Digital services",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/digital-services.html"
+          "url": "http://liturgia.quackstudios.com.au//digital-services.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
@@ -703,7 +703,7 @@
           "text": "Products",
           "title": "Products",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/products.html"
+          "url": "http://liturgia.quackstudios.com.au//products.html"
         },
         "children": [
           {
@@ -735,7 +735,7 @@
           "text": "Become a partner",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/become-a-partner.html"
+          "url": "http://liturgia.quackstudios.com.au//become-a-partner.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}": {
@@ -750,7 +750,7 @@
           "text": "For our partners & installers",
           "title": "For existing partners & installers",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/for-partners-installers.html"
+          "url": "http://liturgia.quackstudios.com.au//for-partners-installers.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}": {
@@ -810,7 +810,7 @@
           "text": "Liturgia Academy",
           "title": "Training courses",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/liturgia-academy.html"
+          "url": "http://liturgia.quackstudios.com.au//liturgia-academy.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}": {
@@ -827,7 +827,7 @@
           "text": "Partners & installers",
           "title": "For partners & installers",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/partners.html"
+          "url": "http://liturgia.quackstudios.com.au//partners.html"
         },
         "children": [
           {
@@ -892,7 +892,7 @@
           "text": "Contact us",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/contact.html"
+          "url": "http://liturgia.quackstudios.com.au//contact"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"b6112305-2cde-40dd-a909-b6ec32da259c\",\"siteId\":1,\"id\":\"1008639\"}": {
@@ -935,7 +935,7 @@
           "text": "About us",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/about-us.html"
+          "url": "http://liturgia.quackstudios.com.au//about-us.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
@@ -950,7 +950,7 @@
           "text": "Our journey",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/history.html"
+          "url": "http://liturgia.quackstudios.com.au//history.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
@@ -965,7 +965,7 @@
           "text": "Quality and safety",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/quality-and-safety.html"
+          "url": "http://liturgia.quackstudios.com.au//quality-and-safety.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
@@ -980,7 +980,7 @@
           "text": "Sustainability commitments",
           "title": "Sustainability commitments",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/sustainability.html"
+          "url": "http://liturgia.quackstudios.com.au//sustainability.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
@@ -995,7 +995,7 @@
           "text": "Investor Relations",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/investor-relations.html"
+          "url": "http://liturgia.quackstudios.com.au//investor-relations.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e88b213d-a4b1-4036-a2e8-b28a3f4611eb\",\"siteId\":1,\"id\":\"20674\"}": {
@@ -1012,7 +1012,7 @@
           "text": "Company",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/company.html"
+          "url": "http://liturgia.quackstudios.com.au//company.html"
         },
         "children": [
           {
@@ -1044,7 +1044,7 @@
           "text": "Industry news",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/industry-news"
+          "url": "http://liturgia.quackstudios.com.au//industry-news"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}": {
@@ -1059,7 +1059,7 @@
           "text": "Inside Zaptec",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/inside-zaptec.html"
+          "url": "http://liturgia.quackstudios.com.au//inside-zaptec.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}": {
@@ -1074,7 +1074,7 @@
           "text": "Tips and Tricks",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/tips-and-tricks.html"
+          "url": "http://liturgia.quackstudios.com.au//tips-and-tricks.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}": {
@@ -1089,7 +1089,7 @@
           "text": "Case studies",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/case-studies.html"
+          "url": "http://liturgia.quackstudios.com.au//case-studies.html"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
@@ -1106,7 +1106,7 @@
           "text": "Info Hub",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/info-hub.html"
+          "url": "http://liturgia.quackstudios.com.au//info-hub.html"
         },
         "children": [
           {
@@ -1137,7 +1137,7 @@
           "text": "Find an installer",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/find-an-installer.html"
+          "url": "http://liturgia.quackstudios.com.au//find-an-installer.html"
         },
         "children": []
       },
@@ -1155,7 +1155,7 @@
           "text": "Contact us",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/contact.html"
+          "url": "http://liturgia.quackstudios.com.au//contact"
         },
         "children": []
       },
@@ -1188,7 +1188,7 @@
           "target": "",
           "text": "Learn more",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/become-a-partner.html",
+          "url": "http://liturgia.quackstudios.com.au//become-a-partner.html",
           "title": null
         }
       },
@@ -1203,7 +1203,7 @@
           "target": "",
           "text": "Learn more",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/for-partners-installers.html",
+          "url": "http://liturgia.quackstudios.com.au//for-partners-installers.html",
           "title": null
         }
       },
@@ -1220,7 +1220,7 @@
           "target": "",
           "text": "Features",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/features.html",
+          "url": "http://liturgia.quackstudios.com.au//features",
           "title": "Features"
         },
         "plainText": "1-1000+ chargers",
@@ -1239,7 +1239,7 @@
           "target": "",
           "text": "parishes",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/parishes",
+          "url": "http://liturgia.quackstudios.com.au//parishes",
           "title": "parishes"
         },
         "plainText": "1-3 chargers",
@@ -1258,7 +1258,7 @@
           "target": "",
           "text": "Load balancing with Zaptec Sense",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/zaptec-sense.html",
+          "url": "http://liturgia.quackstudios.com.au//zaptec-sense.html",
           "title": "Load balancing with Zaptec Sense"
         },
         "children": []
@@ -1276,7 +1276,7 @@
           "target": "",
           "text": "Accessories",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/accessories.html",
+          "url": "http://liturgia.quackstudios.com.au//accessories.html",
           "title": "Accessories"
         },
         "plainText": null,
@@ -1295,7 +1295,7 @@
           "target": "",
           "text": "Digital services",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/digital-services.html",
+          "url": "http://liturgia.quackstudios.com.au//digital-services.html",
           "title": "Digital Services"
         },
         "plainText": null,
@@ -1314,7 +1314,7 @@
           "target": "",
           "text": "Products",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/products.html",
+          "url": "http://liturgia.quackstudios.com.au//products.html",
           "title": "Products"
         },
         "plainText": null,
@@ -1349,7 +1349,7 @@
           "target": "",
           "text": "Become a partner",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/become-a-partner.html",
+          "url": "http://liturgia.quackstudios.com.au//become-a-partner.html",
           "title": null
         },
         "plainText": null,
@@ -1368,7 +1368,7 @@
           "target": "",
           "text": "For our partners & installers",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/partners/for-partners-installers",
+          "url": "http://liturgia.quackstudios.com.au//partners/for-partners-installers",
           "title": "Existing partners & installers"
         },
         "plainText": null,
@@ -1387,7 +1387,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
           "title": "Documents & Manuals"
         },
         "plainText": null,
@@ -1425,7 +1425,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://portal.zaptec.com/login/en",
+          "url": "https://portal.liturgia.quackstudios.com.au/login/en",
           "title": "Zaptec Portal"
         },
         "plainText": null,
@@ -1444,7 +1444,7 @@
           "target": "",
           "text": "Zaptec Academy",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/partners/for-partners/zaptec-academy",
+          "url": "http://liturgia.quackstudios.com.au//partners/for-partners/zaptec-academy",
           "title": "Training courses"
         },
         "plainText": null,
@@ -1463,7 +1463,7 @@
           "target": "",
           "text": "Partners & installers",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/partners",
+          "url": "http://liturgia.quackstudios.com.au//partners",
           "title": "For partners & installers"
         },
         "plainText": null,
@@ -1501,7 +1501,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
           "title": "Documents & Manuals"
         },
         "plainText": null,
@@ -1520,7 +1520,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
           "title": "Help centre"
         },
         "plainText": null,
@@ -1539,7 +1539,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001",
           "title": "Need help?"
         },
         "plainText": null,
@@ -1557,7 +1557,7 @@
         "id": "39",
         "uid": "f1974efa-f4b9-44dc-93f8-b47ede5c6f14",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/search"
+        "url": "http://liturgia.quackstudios.com.au//search"
       },
       "footerMenu_default_Entry:{\"uid\":\"e817d0b8-d146-482f-a22a-c9321c7cbece\",\"siteId\":1,\"id\":\"20729\"}": {
         "__typename": "footerMenu_default_Entry",
@@ -1571,7 +1571,7 @@
           "text": "Products",
           "title": "Products",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/products"
+          "url": "http://liturgia.quackstudios.com.au//products"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}": {
@@ -1586,7 +1586,7 @@
           "text": "Partners & installers",
           "title": "Partners & installers",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/partners"
+          "url": "http://liturgia.quackstudios.com.au//partners"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}": {
@@ -1601,7 +1601,7 @@
           "text": "Learn More",
           "title": "Support",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}": {
@@ -1616,7 +1616,7 @@
           "text": "Learn More",
           "title": "Documents & manuals",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"ee2d54e4-33b8-4de0-8eb2-bbac018a2add\",\"siteId\":1,\"id\":\"20731\"}": {
@@ -1631,7 +1631,7 @@
           "text": "Company",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/company"
+          "url": "http://liturgia.quackstudios.com.au//company"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"b71c993a-02cd-43a9-889c-9dc7b0dfd778\",\"siteId\":1,\"id\":\"20733\"}": {
@@ -1646,7 +1646,7 @@
           "text": "Info Hub",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/info-hub"
+          "url": "http://liturgia.quackstudios.com.au//info-hub"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}": {
@@ -1661,7 +1661,7 @@
           "text": "Learn More",
           "title": "Zaptec portal",
           "type": "url",
-          "url": "https://portal.zaptec.com/"
+          "url": "https://portal.liturgia.quackstudios.com.au/"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"b0e310f8-8d75-4582-8047-52743ae3cea3\",\"siteId\":1,\"id\":\"594094\"}": {
@@ -1676,7 +1676,7 @@
           "text": "Investor Relations",
           "title": "Investor Relations",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/company/investor-relations"
+          "url": "http://liturgia.quackstudios.com.au//company/investor-relations"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}": {
@@ -1691,7 +1691,7 @@
           "text": "Learn More",
           "title": "Press",
           "type": "url",
-          "url": "http://127.0.0.1:5500/press-room"
+          "url": "http://liturgia.quackstudios.com.au//press-room"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"99d32ce6-5d76-4d5c-ad7d-1061316c5615\",\"siteId\":1,\"id\":\"969955\"}": {
@@ -1706,7 +1706,7 @@
           "text": "Zaptec Terms and Conditions (T&C)",
           "title": "Terms and conditions",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/terms-and-conditions"
+          "url": "http://liturgia.quackstudios.com.au//terms-and-conditions"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"dfba2d19-da22-4f3e-8ae1-7f4dc507f333\",\"siteId\":1,\"id\":\"991126\"}": {
@@ -1721,7 +1721,7 @@
           "text": "Privacy Policy",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/policies/privacy-policy"
+          "url": "http://liturgia.quackstudios.com.au//policies/privacy-policy"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"61c74074-ebb3-43d1-b6fd-6b980a5fa9d0\",\"siteId\":1,\"id\":\"1008505\"}": {
@@ -1736,7 +1736,7 @@
           "text": "Cookie Policy",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/cookie-policy"
+          "url": "http://liturgia.quackstudios.com.au//cookie-policy"
         }
       },
       "links_link_BlockType:{\"uid\":\"887ed5dc-4875-4c84-b056-c48ec0890a59\",\"siteId\":1,\"id\":\"20748\"}": {
@@ -1751,7 +1751,7 @@
           "text": "Contact us",
           "title": null,
           "type": "entry",
-          "url": "http://127.0.0.1:5500/company/contact"
+          "url": "http://liturgia.quackstudios.com.au//company/contact"
         }
       },
       "footer_GlobalSet:{\"uid\":\"b4dc18dd-e0a1-42c5-a2de-6da3fd1b55a5\",\"siteId\":1,\"id\":\"37\"}": {
@@ -1801,7 +1801,7 @@
         "siteId": 2,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/sv/laddningslosningar/parishes"
+        "url": "http://liturgia.quackstudios.com.au//sv/laddningslosningar/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":3,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1809,7 +1809,7 @@
         "siteId": 3,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/da/ladeloesninger/parishes"
+        "url": "http://liturgia.quackstudios.com.au//da/ladeloesninger/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":4,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1817,7 +1817,7 @@
         "siteId": 4,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/de/ladeloesungen/parishes"
+        "url": "http://liturgia.quackstudios.com.au//de/ladeloesungen/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":5,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1825,7 +1825,7 @@
         "siteId": 5,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/en-uk/charging-solutions/parishes"
+        "url": "http://liturgia.quackstudios.com.au//en-uk/charging-solutions/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":6,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1833,7 +1833,7 @@
         "siteId": 6,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/fr/solutions-de-recharge/parishes"
+        "url": "http://liturgia.quackstudios.com.au//fr/solutions-de-recharge/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":7,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1841,7 +1841,7 @@
         "siteId": 7,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/nl/laadoplossingen/parishes"
+        "url": "http://liturgia.quackstudios.com.au//nl/laadoplossingen/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":8,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1849,7 +1849,7 @@
         "siteId": 8,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/nl-be/laadoplossingen/parishes"
+        "url": "http://liturgia.quackstudios.com.au//nl-be/laadoplossingen/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":9,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1857,7 +1857,7 @@
         "siteId": 9,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/fr-be/solutions-de-recharge/parishes"
+        "url": "http://liturgia.quackstudios.com.au//fr-be/solutions-de-recharge/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":10,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1865,7 +1865,7 @@
         "siteId": 10,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/fr-ch/solutions-de-recharge/parishes"
+        "url": "http://liturgia.quackstudios.com.au//fr-ch/solutions-de-recharge/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":11,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1873,7 +1873,7 @@
         "siteId": 11,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/de-ch/ladeloesungen/parishes"
+        "url": "http://liturgia.quackstudios.com.au//de-ch/ladeloesungen/parishes"
       },
       "pages_default_Entry:{\"uid\":\"55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d\",\"siteId\":12,\"id\":\"1607\"}": {
         "__typename": "pages_default_Entry",
@@ -1881,7 +1881,7 @@
         "siteId": 12,
         "uid": "55bc0ed6-79f9-4e47-a9b3-f00c63bc3d3d",
         "title": "parishes",
-        "url": "http://127.0.0.1:5500/no/ladelosninger/parishes"
+        "url": "http://liturgia.quackstudios.com.au//no/ladelosninger/parishes"
       },
       "pages_default_Entry:{\"uid\":\"0b69eabb-3765-4209-b6d2-61512d0f664c\",\"siteId\":1,\"id\":\"53\"}": {
         "__typename": "pages_default_Entry",
@@ -1891,7 +1891,7 @@
         "level": 1,
         "title": "Products",
         "typeHandle": "default",
-        "url": "http://127.0.0.1:5500/products"
+        "url": "http://liturgia.quackstudios.com.au//products"
       },
       "mediaElement_vimeo_BlockType:{\"uid\":\"6588e159-f965-4812-ab11-27fb91510c55\",\"siteId\":1,\"id\":\"422922\"}": {
         "__typename": "mediaElement_vimeo_BlockType",
@@ -1947,8 +1947,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/no.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/no.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/no.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/no.png",
         "alt": null,
         "plainText2": null
       },
@@ -1961,7 +1961,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/no/"
+          "url": "http://liturgia.quackstudios.com.au//no/"
         }
       },
       "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
@@ -1989,8 +1989,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/sv.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/sv.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/sv.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/sv.png",
         "alt": null,
         "plainText2": null
       },
@@ -2003,7 +2003,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/sv/"
+          "url": "http://liturgia.quackstudios.com.au//sv/"
         }
       },
       "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
@@ -2031,8 +2031,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/da.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/da.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/da.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/da.png",
         "alt": null,
         "plainText2": null
       },
@@ -2045,7 +2045,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/da/"
+          "url": "http://liturgia.quackstudios.com.au//da/"
         }
       },
       "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
@@ -2073,8 +2073,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/de.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/de.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/de.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/de.png",
         "alt": null,
         "plainText2": null
       },
@@ -2087,7 +2087,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/de/"
+          "url": "http://liturgia.quackstudios.com.au//de/"
         }
       },
       "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
@@ -2115,8 +2115,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/uk.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/uk.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/uk.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/uk.png",
         "alt": null,
         "plainText2": null
       },
@@ -2129,7 +2129,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/en-uk/"
+          "url": "http://liturgia.quackstudios.com.au//en-uk/"
         }
       },
       "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
@@ -2157,8 +2157,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/fr.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/fr.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/fr.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/fr.png",
         "alt": null,
         "plainText2": null
       },
@@ -2171,7 +2171,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/fr/"
+          "url": "http://liturgia.quackstudios.com.au//fr/"
         }
       },
       "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
@@ -2199,8 +2199,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/nl.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/nl.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/nl.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/nl.png",
         "alt": null,
         "plainText2": null
       },
@@ -2213,7 +2213,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/nl/"
+          "url": "http://liturgia.quackstudios.com.au//nl/"
         }
       },
       "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
@@ -2241,8 +2241,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/be.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/be.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/be.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/be.png",
         "alt": null,
         "plainText2": null
       },
@@ -2255,7 +2255,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/nl-be/"
+          "url": "http://liturgia.quackstudios.com.au//nl-be/"
         }
       },
       "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
@@ -2267,7 +2267,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/fr-be/"
+          "url": "http://liturgia.quackstudios.com.au//fr-be/"
         }
       },
       "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
@@ -2298,8 +2298,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/ch.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/ch.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/ch.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/ch.png",
         "alt": null,
         "plainText2": null
       },
@@ -2312,7 +2312,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/fr-ch/"
+          "url": "http://liturgia.quackstudios.com.au//fr-ch/"
         }
       },
       "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
@@ -2324,7 +2324,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/de-ch/"
+          "url": "http://liturgia.quackstudios.com.au//de-ch/"
         }
       },
       "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
@@ -2355,8 +2355,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/pt.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/pt.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/pt.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/pt.png",
         "alt": null,
         "plainText2": null
       },
@@ -2381,8 +2381,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/it.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/it.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/it.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/it.png",
         "alt": null,
         "plainText2": null
       },
@@ -2407,8 +2407,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/is.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/is.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/is.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/is.png",
         "alt": null,
         "plainText2": null
       },
@@ -2433,8 +2433,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/ie.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/ie.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/ie.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/ie.png",
         "alt": null,
         "plainText2": null
       },
@@ -2459,8 +2459,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Flags/_100xAUTO_crop_center-center_none/fi.png",
-        "url": "https://127.0.0.1:5500/assets/Flags/fi.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Flags/_100xAUTO_crop_center-center_none/fi.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Flags/fi.png",
         "alt": null,
         "plainText2": null
       },
@@ -2485,8 +2485,8 @@
         "kind": "image",
         "width": 48,
         "height": 48,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/icons8-hungary-48.png",
-        "url": "https://127.0.0.1:5500/assets/icons8-hungary-48.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/_100xAUTO_crop_center-center_none/icons8-hungary-48.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/icons8-hungary-48.png",
         "alt": null,
         "plainText2": null
       },
@@ -2511,8 +2511,8 @@
         "kind": "image",
         "width": 48,
         "height": 48,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/icons8-spain-flag-48.png",
-        "url": "https://127.0.0.1:5500/assets/icons8-spain-flag-48.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/_100xAUTO_crop_center-center_none/icons8-spain-flag-48.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/icons8-spain-flag-48.png",
         "alt": null,
         "plainText2": null
       },
@@ -2537,8 +2537,8 @@
         "kind": "image",
         "width": 512,
         "height": 512,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/Wikipedia-Flags-GR-Greece-Flag.512.png",
-        "url": "https://127.0.0.1:5500/assets/Wikipedia-Flags-GR-Greece-Flag.512.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/_100xAUTO_crop_center-center_none/Wikipedia-Flags-GR-Greece-Flag.512.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Wikipedia-Flags-GR-Greece-Flag.512.png",
         "alt": null,
         "plainText2": null
       },
@@ -2563,8 +2563,8 @@
         "kind": "image",
         "width": 284,
         "height": 178,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/_100xAUTO_crop_center-center_none/download_2024-11-05-135339_hlpu.png",
-        "url": "https://127.0.0.1:5500/assets/download_2024-11-05-135339_hlpu.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/_100xAUTO_crop_center-center_none/download_2024-11-05-135339_hlpu.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/download_2024-11-05-135339_hlpu.png",
         "alt": null,
         "plainText2": null
       },
@@ -2577,7 +2577,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "http://127.0.0.1:5500/nl-be/"
+          "url": "http://liturgia.quackstudios.com.au//nl-be/"
         }
       },
       "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
@@ -2604,7 +2604,7 @@
         "siteId": 1,
         "typeHandle": "simpleCta",
         "smallMargins": false,
-        "anchor": "http://127.0.0.1:5500/charging-solutions/parishes#anchor-61949cdb-7809-437e-83fd-fdb89e02a7c6",
+        "anchor": "http://liturgia.quackstudios.com.au//charging-solutions/parishes#anchor-61949cdb-7809-437e-83fd-fdb89e02a7c6",
         "moduleTitle": "Voted as the No. 1 EV charger in Norway and Sweden",
         "text": "<p>Given the Nordics' standing as the world's most developed EV market, with high consumer standards, we're incredibly proud to be awarded 'Best in Test' in Norway and Sweden.</p>",
         "image": [
@@ -2617,7 +2617,7 @@
           "target": "",
           "text": "Read more",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/award-winning-ev-charger.html",
+          "url": "http://liturgia.quackstudios.com.au//award-winning-ev-charger.html",
           "title": null
         }
       },
@@ -2661,7 +2661,7 @@
         "siteId": 1,
         "typeHandle": "textAndMedia",
         "smallMargins": false,
-        "anchor": "http://127.0.0.1:5500/charging-solutions/parishes#anchor-bf27f9b2-ca80-4ad2-8552-0ba827f59050",
+        "anchor": "http://liturgia.quackstudios.com.au//charging-solutions/parishes#anchor-bf27f9b2-ca80-4ad2-8552-0ba827f59050",
         "blockAlignment": "right",
         "lightswitch": true,
         "lightswitch2": false,
@@ -2703,7 +2703,7 @@
           "target": "",
           "text": "Accessories",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/products/accessories",
+          "url": "http://liturgia.quackstudios.com.au//products/accessories",
           "title": null
         },
         "accessoryCategory": [
@@ -2721,8 +2721,8 @@
         "kind": "image",
         "width": 2048,
         "height": 1165,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Logos/_100xAUTO_crop_center-center_none/Testwinners4.png",
-        "url": "https://127.0.0.1:5500/assets/Logos/Testwinners4.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Logos/_100xAUTO_crop_center-center_none/Testwinners4.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Logos/Testwinners4.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -2735,7 +2735,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "There's an app for that",
-        "text": "<p>Whether you're into the nitty-gritty details or prefer a set-and-forget approach, the <a href=\"http://127.0.0.1:5500/products/zaptec-app\">Zaptec App</a> turns your phone into an EV mission control centre. <br /></p>",
+        "text": "<p>Whether you're into the nitty-gritty details or prefer a set-and-forget approach, the <a href=\"http://liturgia.quackstudios.com.au//products/zaptec-app\">Zaptec App</a> turns your phone into an EV mission control centre. <br /></p>",
         "columns": "3",
         "children": []
       },
@@ -2746,7 +2746,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "Quality and safety",
-        "text": "<p>The parishes is our domestic/home charging unit. The parishes has been through complete third-party laboratory tests, and it has been inspected by the Swedish Electrical Safety Agency (Elsäkerhetsvärket) without any technical remarks. The report from Swedish authorities is a public document and is <a href=\"https://zendesk.zaptec.com/hc/article_attachments/13436060589969\" target=\"_blank\" rel=\"noreferrer noopener\">available for download (PDF in Swedish)</a>.</p>\n<p>parishes has:</p>\n<ul><li>Integrated RDC-DD approved according to IEC 62955. The four pole safety relay is mechanically coupled and meets the 500 A make and break and 10 000 A conditional short circuit current requirements.</li></ul>\n<ul><li>Electrical safety according to IEC EN 61851-1 and other relevant standards. This has been tested and verified by a third-party laboratory.</li></ul>\n<p>parishes has an integrated RDC-DD which means that all parishes installations need a RCD Type A upstream. Usually, this is met by installing a normal low-cost RCBO Type A, which combines the MCB and RCD functions in the fuse cabinet.</p>",
+        "text": "<p>The parishes is our domestic/home charging unit. The parishes has been through complete third-party laboratory tests, and it has been inspected by the Swedish Electrical Safety Agency (Elsäkerhetsvärket) without any technical remarks. The report from Swedish authorities is a public document and is <a href=\"https://zendesk.liturgia.quackstudios.com.au/hc/article_attachments/13436060589969\" target=\"_blank\" rel=\"noreferrer noopener\">available for download (PDF in Swedish)</a>.</p>\n<p>parishes has:</p>\n<ul><li>Integrated RDC-DD approved according to IEC 62955. The four pole safety relay is mechanically coupled and meets the 500 A make and break and 10 000 A conditional short circuit current requirements.</li></ul>\n<ul><li>Electrical safety according to IEC EN 61851-1 and other relevant standards. This has been tested and verified by a third-party laboratory.</li></ul>\n<p>parishes has an integrated RDC-DD which means that all parishes installations need a RCD Type A upstream. Usually, this is met by installing a normal low-cost RCBO Type A, which combines the MCB and RCD functions in the fuse cabinet.</p>",
         "columns": "3",
         "children": []
       },
@@ -2790,7 +2790,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "All the support you need",
-        "text": "<ul><li><strong>Zaptec Help Center:</strong> At our <a href=\"https://help.zaptec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">Help Center</a>, you can find the assistance you need for various issues. Whether it's troubleshooting or seeking specific information about products or FAQ, we have designed this platform to provide quick and effective support.</li><li><strong>Customer support:</strong> Find contact information for customer support in each country, ensuring you get the support you need, tailored to your location.</li><li><strong>The benefit of cloud:</strong> Because the Zaptec Portal is a cloud platform, we can resolve a vast majority of cases remotely. This capability not only enhances efficiency but also ensures that, if you're in contact with us, we can have a more informed and productive discussion about your issue, leading to quicker solutions.</li></ul>",
+        "text": "<ul><li><strong>Zaptec Help Center:</strong> At our <a href=\"https://help.liturgia.quackstudios.com.au/\" target=\"_blank\" rel=\"noreferrer noopener\">Help Center</a>, you can find the assistance you need for various issues. Whether it's troubleshooting or seeking specific information about products or FAQ, we have designed this platform to provide quick and effective support.</li><li><strong>Customer support:</strong> Find contact information for customer support in each country, ensuring you get the support you need, tailored to your location.</li><li><strong>The benefit of cloud:</strong> Because the Zaptec Portal is a cloud platform, we can resolve a vast majority of cases remotely. This capability not only enhances efficiency but also ensures that, if you're in contact with us, we can have a more informed and productive discussion about your issue, leading to quicker solutions.</li></ul>",
         "columns": "3",
         "children": []
       },
@@ -2801,7 +2801,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "Eco Mode",
-        "text": "<p>Tap Eco Mode in the Zaptec app. Eco Mode tracks electricity prices to charge your car when prices are low. In addition, <a href=\"http://127.0.0.1:5500/products/zaptec-sense\" target=\"_blank\" rel=\"noreferrer noopener\">Zaptec Sense</a> can collect total consumption data from your fuse box, in real time, so that you can set power limits.</p>",
+        "text": "<p>Tap Eco Mode in the Zaptec app. Eco Mode tracks electricity prices to charge your car when prices are low. In addition, <a href=\"http://liturgia.quackstudios.com.au//products/zaptec-sense\" target=\"_blank\" rel=\"noreferrer noopener\">Zaptec Sense</a> can collect total consumption data from your fuse box, in real time, so that you can set power limits.</p>",
         "columns": "3",
         "children": []
       },
@@ -2857,7 +2857,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "Technical information",
-        "text": "<p>Find all product documents and manuals <a href=\"https://help.zaptec.com/hc/en-001/articles/360017688118-parishes-Documents-and-manuals\" target=\"_blank\" rel=\"noreferrer noopener\">here.</a></p>",
+        "text": "<p>Find all product documents and manuals <a href=\"https://help.liturgia.quackstudios.com.au/hc/en-001/articles/360017688118-parishes-Documents-and-manuals\" target=\"_blank\" rel=\"noreferrer noopener\">here.</a></p>",
         "columns": "3",
         "children": []
       },
@@ -2895,7 +2895,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "text": "Find an installer",
-          "url": "http://127.0.0.1:5500/find-an-installer",
+          "url": "http://liturgia.quackstudios.com.au//find-an-installer",
           "type": "entry",
           "title": null
         },
@@ -2978,7 +2978,7 @@
           "target": "",
           "text": "Read more",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/products/zaptec-app",
+          "url": "http://liturgia.quackstudios.com.au//products/zaptec-app",
           "title": null
         },
         "image": []
@@ -3090,7 +3090,7 @@
           "target": "",
           "text": "Read more",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/products/zaptec-sense",
+          "url": "http://liturgia.quackstudios.com.au//products/zaptec-sense",
           "title": null
         },
         "image": []
@@ -3149,7 +3149,7 @@
           "target": "",
           "text": "Read about our safety approach",
           "type": "entry",
-          "url": "http://127.0.0.1:5500/company/quality-and-safety",
+          "url": "http://liturgia.quackstudios.com.au//company/quality-and-safety",
           "title": null
         },
         "button2": {
@@ -3178,8 +3178,8 @@
         "kind": "image",
         "width": 1280,
         "height": 1280,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Moss_Green_1500px_00040.png",
-        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Moss_Green_1500px_00040.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Moss_Green_1500px_00040.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Moss_Green_1500px_00040.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -3222,7 +3222,7 @@
         "id": "8188",
         "uid": "d490595d-fe08-47de-bf13-e15438ceb9dd",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-moss-green",
+        "url": "http://liturgia.quackstudios.com.au//charging-solutions/accessories/frontcover-parishes-moss-green",
         "title": "Front cover - parishes - Moss Green",
         "mediaItems": [
           {
@@ -3239,8 +3239,8 @@
         "kind": "image",
         "width": 1280,
         "height": 1280,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Asphalt_Black_1500px_00040.png",
-        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Asphalt_Black_1500px_00040.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Asphalt_Black_1500px_00040.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Asphalt_Black_1500px_00040.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -3283,7 +3283,7 @@
         "id": "8497",
         "uid": "5191687f-0ea0-406f-a7c7-e18e584fafd4",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-asphalt-black",
+        "url": "http://liturgia.quackstudios.com.au//charging-solutions/accessories/frontcover-parishes-asphalt-black",
         "title": "Front cover - parishes - Asphalt Black",
         "mediaItems": [
           {
@@ -3300,8 +3300,8 @@
         "kind": "image",
         "width": 1280,
         "height": 1280,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_white_1500px_00040-1.png",
-        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_white_1500px_00040-1.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_white_1500px_00040-1.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_white_1500px_00040-1.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -3344,7 +3344,7 @@
         "id": "8325",
         "uid": "dea11c56-a92b-4368-92c4-aad10b31ffb8",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-cloud-white",
+        "url": "http://liturgia.quackstudios.com.au//charging-solutions/accessories/frontcover-parishes-cloud-white",
         "title": "Front cover - parishes - Cloud White",
         "mediaItems": [
           {
@@ -3361,8 +3361,8 @@
         "kind": "image",
         "width": 1280,
         "height": 1280,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v010_Rock_Grey_1500px_00040.png",
-        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v010_Rock_Grey_1500px_00040.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v010_Rock_Grey_1500px_00040.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v010_Rock_Grey_1500px_00040.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -3405,7 +3405,7 @@
         "id": "8525",
         "uid": "5ead991e-33e6-499f-a1b6-a3bba886f157",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-rock-grey",
+        "url": "http://liturgia.quackstudios.com.au//charging-solutions/accessories/frontcover-parishes-rock-grey",
         "title": "Front cover - parishes - Rock Grey",
         "mediaItems": [
           {
@@ -3422,8 +3422,8 @@
         "kind": "image",
         "width": 1280,
         "height": 1280,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Midnight_Blue_1500px_00040.png",
-        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Midnight_Blue_1500px_00040.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Midnight_Blue_1500px_00040.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Midnight_Blue_1500px_00040.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -3466,7 +3466,7 @@
         "id": "8311",
         "uid": "ed7e36ed-19a1-4d8f-9ca1-93d4340ac5c6",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-midnight-blue",
+        "url": "http://liturgia.quackstudios.com.au//charging-solutions/accessories/frontcover-parishes-midnight-blue",
         "title": "Front cover - parishes - Midnight Blue",
         "mediaItems": [
           {
@@ -3483,8 +3483,8 @@
         "kind": "image",
         "width": 1280,
         "height": 1280,
-        "url({\"width\":100})": "https://127.0.0.1:5500/assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Wood_Brown_1500px_00040.png",
-        "url": "https://127.0.0.1:5500/assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Wood_Brown_1500px_00040.png",
+        "url({\"width\":100})": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/_100xAUTO_crop_center-center_none/zaptec_go_COVER_skisse_v009_Wood_Brown_1500px_00040.png",
+        "url": "https://liturgia.quackstudios.com.au//assets/Accessories/Go-covers/zaptec_go_COVER_skisse_v009_Wood_Brown_1500px_00040.png",
         "alt": null,
         "text": null,
         "plainText": null,
@@ -3527,7 +3527,7 @@
         "id": "8511",
         "uid": "afe3a072-767e-4145-a8a4-eaccb0d2ad7f",
         "siteId": 1,
-        "url": "http://127.0.0.1:5500/charging-solutions/accessories/frontcover-parishes-wood-brown",
+        "url": "http://liturgia.quackstudios.com.au//charging-solutions/accessories/frontcover-parishes-wood-brown",
         "title": "Front cover parishes Wood Brown",
         "mediaItems": [
           {
