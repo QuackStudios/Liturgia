@@ -6467,3 +6467,7 @@ text-align: start;
 .menu-right-color {
   background-color: rgb(227, 41, 37);
 }
+
+.optional-hide {
+  display: none;
+}
