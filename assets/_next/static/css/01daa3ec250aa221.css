@@ -6469,5 +6469,5 @@ text-align: start;
 }
 
 .optional-hide {
-  display: none;
+  display: none !important;
 }
