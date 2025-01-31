@@ -8534,13 +8534,11 @@ function updateHrefAndOverrideClick(targetElement) {
   // Update the href if it's not already set
   if (targetElement.getAttribute("href") !== desiredHref) {
     targetElement.setAttribute("href", desiredHref);
-    console.log("Updated href to:", targetElement.getAttribute("href"));
   }
 
   // Set target="_blank" to open the link in a new tab
   if (targetElement.getAttribute("target") !== "_blank") {
     targetElement.setAttribute("target", "_blank");
-    console.log("Set target to _blank");
   }
 
   // Override the click behavior
@@ -8603,13 +8601,11 @@ observer5.observe(document.body, {
 
 
 function updateMenuHeadings() {
-    console.log("Updating menu headings...");
   
     // Ensure dropdown is always hidden
     const dropdownMenu = document.querySelector(".secondary-menu-dropdown");
     if (dropdownMenu) {
       dropdownMenu.style.display = "none"; // Hide dropdown permanently
-      console.log("Dropdown disabled globally.");
     }
   
     // Update the first menu item: Change 'Products' to 'Home'
@@ -8620,7 +8616,6 @@ function updateMenuHeadings() {
       homeMenuItem.textContent = "Home";
       homeMenuItem.setAttribute("title", "Home");
       homeMenuItem.setAttribute("href", "/");
-      console.log("Updated 'Products' to 'Home'.");
     } else {
       console.warn("'Products' menu item not found.");
     }
@@ -8633,7 +8628,6 @@ function updateMenuHeadings() {
       productMenuItem.textContent = "Features";
       productMenuItem.setAttribute("title", "Features");
       productMenuItem.setAttribute("href", "/features");
-      console.log("Updated 'For partners & installers' to 'Product' with /features link.");
     } else {
       console.warn("'For partners & installers' menu item not found.");
     }
@@ -8646,7 +8640,6 @@ function updateMenuHeadings() {
       supportMenuItem.textContent = "Support";
       supportMenuItem.setAttribute("title", "Support");
       supportMenuItem.setAttribute("href", "/support");
-      console.log("Updated 'Need help?' to 'Support' with /contact link.");
     } else {
       console.warn("'Need help?' menu item not found.");
     }
@@ -8662,7 +8655,6 @@ function updateMenuHeadings() {
     }
   
     const observer = new MutationObserver(() => {
-      console.log("DOM changes detected. Reapplying menu updates...");
       updateMenuHeadings();
     });
   
@@ -8671,12 +8663,10 @@ function updateMenuHeadings() {
       subtree: true,
     });
   
-    console.log("MutationObserver initialized.");
   }
   
   // Initialize on DOMContentLoaded
   document.addEventListener("DOMContentLoaded", () => {
-    console.log("Initializing menu updates...");
     updateMenuHeadings();
     observeDOMChanges();
   });
