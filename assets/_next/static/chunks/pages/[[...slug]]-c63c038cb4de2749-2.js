@@ -7529,6 +7529,7 @@
                   children: null == t ? void 0 : t.map(e => (0,
                   T.jsx)(e8.A, {
                       className: "custom-underline block text-xl sm:r-text-2xl ".concat(l ? "hover:text-forest" : "hover:text-sand", " transition-all duration-300"),
+                      children: e.itemLink.text
                   }, e.uid))
               }), (0,
               T.jsx)("div", {
@@ -7701,13 +7702,13 @@
                           children: i("Created and Powered by"),
                         }),
                         (0, T.jsx)("a", {
-                            className: "quack-logo-redirect",
-                            href: "https://quackstudios.com.au/",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            children: i("QuackStudios"),
+                          className: "quack-logo-redirect",
+                          href: "https://quackstudios.com.au/",
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                          children: i("QuackStudios"),
                         }),
-                      ],
+                      ],                      
                   }),
                   (0,
                   T.jsxs)("div", {
