@@ -7509,12 +7509,12 @@
               children: null == n ? void 0 : n.map(e => (0,
               T.jsxs)(e8.A, {
                   className: "text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative",
-                  href: e.navigationLink.href,
-                  target: e.navigationLink.target,
+                  href: e.navigationLink?.href || "#",
+                  target: e.navigationLink?.target || "_self",
                   children: [(0,
                   T.jsx)(nS.A, {
                       className: "r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                  }), e.title]
+                  }), e.title || "Untitled",]
               }, e.uid))
           })
       }
@@ -8619,7 +8619,7 @@ function updateMenuHeadings() {
     if (homeMenuItem) {
       homeMenuItem.textContent = "Home";
       homeMenuItem.setAttribute("title", "Home");
-      homeMenuItem.setAttribute("href", "/index.html");
+      homeMenuItem.setAttribute("href", "/index");
       console.log("Updated 'Products' to 'Home'.");
     } else {
       console.warn("'Products' menu item not found.");
