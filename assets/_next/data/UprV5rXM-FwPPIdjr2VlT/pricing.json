@@ -8,7 +8,7 @@
         "uid": "1abf9dbd-a86d-4205-b270-78544fb8d4e6",
         "slug": "digital-services",
         "uri": "pricing",
-        "title": "Digital services",
+        "title": "Pricing",
         "level": 2,
         "typeHandle": "default",
         "sectionHandle": "pages",
@@ -27,9 +27,9 @@
     "currentSite": {
       "siteId": 1,
       "locale": "en",
-      "domain": "www.zaptec.com",
+      "domain": "www.liturgia.quackstudios.com.au",
       "url": "/",
-      "fullUrl": "https://www.zaptec.com/",
+      "fullUrl": "https://www.liturgia.quackstudios.com.au/",
       "handle": "default",
       "name": "Global / English",
       "primary": true,
@@ -274,7 +274,7 @@
         "uri": "pricing",
         "lightswitch2": false,
         "slug": "digital-services",
-        "title": "Digital services",
+        "title": "Pricing",
         "level": 2,
         "lightswitch": false,
         "plainText": null,
@@ -482,11 +482,11 @@
         ],
         "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"pricing\"})": {
           "__typename": "SeomaticType",
-          "metaTitleContainer": "{\"title\":{\"title\":\"Digital services | Zaptec\"}}",
-          "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[],\"og:site_name\":{\"content\":\"Zaptec\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/www.zaptec.com\\/products\\/digital-services\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Digital services\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Digital services\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
-          "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/www.zaptec.com\\/products\\/digital-services\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/www.zaptec.com\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/www.zaptec.com\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[]}",
+          "metaTitleContainer": "{\"title\":{\"title\":\"Pricing | Liturgia\"}}",
+          "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[],\"og:site_name\":{\"content\":\"Zaptec\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/products\\/digital-services\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Pricing\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Pricing\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+          "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/products\\/digital-services\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[]}",
           "metaScriptContainer": "{\"googleTagManager\":{\"script\":\"dataLayer = [];\\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\\n'https:\\/\\/www.googletagmanager.com\\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n})(window,document,'script','dataLayer','GTM-NXM58Z5J');\\n\",\"bodyScript\":\"<noscript><iframe src=\\\"https:\\/\\/www.googletagmanager.com\\/ns.html?id=GTM-NXM58Z5J\\\"\\nheight=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"><\\/iframe><\\/noscript>\\n\"}}",
-          "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2025-01-09T15:18:42+01:00\",\"dateModified\":\"2025-01-09T15:27:34+01:00\",\"datePublished\":\"2023-10-12T14:06:00+02:00\",\"description\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"headline\":\"Digital services\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/www.zaptec.com\\/products\\/digital-services\",\"name\":\"Digital services\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/www.zaptec.com\\/products\\/digital-services\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.zaptec.com\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.zaptec.com\\/products\",\"name\":\"Products\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.zaptec.com\\/products\\/digital-services\",\"name\":\"Digital services\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
+          "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2025-01-09T15:18:42+01:00\",\"dateModified\":\"2025-01-09T15:27:34+01:00\",\"datePublished\":\"2023-10-12T14:06:00+02:00\",\"description\":\"Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\",\"headline\":\"Pricing\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/products\\/digital-services\",\"name\":\"Pricing\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/products\\/digital-services\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.liturgia.quackstudios.com.au\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/products\",\"name\":\"Products\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/products\\/digital-services\",\"name\":\"Pricing\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
           "metaSiteVarsContainer": "{\"siteName\":\"Zaptec\",\"siteAlternateName\":\"\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"\",\"genericAlternateName\":\"\",\"genericDescription\":\"\",\"genericUrl\":\"\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"\",\"genericEmail\":\"\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Good Morning\",\"genericAlternateName\":\"\",\"genericDescription\":\"Digital first studio in Oslo – We design and build digital products.\",\"genericUrl\":\"https:\\/\\/www.goodmorning.no\\/\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"+47 932 83 071\",\"genericEmail\":\"eirik@goodmorning.no\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
         }
       },
@@ -524,7 +524,7 @@
           "text": "System charging with Zaptec Pro",
           "title": "System charging with Zaptec Pro",
           "type": "entry",
-          "url": "https://www.zaptec.com/products/zaptec-pro"
+          "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}": {
@@ -539,7 +539,7 @@
           "text": "Home charging with Zaptec Go",
           "title": "Home charging with Zaptec Go",
           "type": "entry",
-          "url": "https://www.zaptec.com/products/zaptec-go"
+          "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}": {
@@ -554,7 +554,7 @@
           "text": "Load balancing with Zaptec Sense",
           "title": "Load balancing with Zaptec Sense",
           "type": "entry",
-          "url": "https://www.zaptec.com/products/zaptec-sense"
+          "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}": {
@@ -569,7 +569,7 @@
           "text": "Accessories",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/charging-solutions/accessories"
+          "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
@@ -577,14 +577,14 @@
         "uid": "e8987905-968b-4a9b-8419-49ab71ac92ad",
         "id": "1008623",
         "siteId": 1,
-        "title": "Digital services",
+        "title": "Pricing",
         "navigationLink": {
           "__typename": "linkField_Link",
           "target": "",
-          "text": "Digital services",
+          "text": "Pricing",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/pricing"
+          "url": "https://www.liturgia.quackstudios.com.au/pricing"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
@@ -601,7 +601,7 @@
           "text": "Products",
           "title": "Products",
           "type": "entry",
-          "url": "https://www.zaptec.com/products"
+          "url": "https://www.liturgia.quackstudios.com.au/products"
         },
         "children": [
           {
@@ -633,7 +633,7 @@
           "text": "Become a partner",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/become-a-partner"
+          "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}": {
@@ -648,7 +648,7 @@
           "text": "For our partners & installers",
           "title": "For existing partners & installers",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/for-partners-installers"
+          "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners-installers"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}": {
@@ -663,7 +663,7 @@
           "text": "Learn More",
           "title": "Documents & Manuals",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"ea65cf64-f898-4352-a56e-6a222a6105f8\",\"siteId\":1,\"id\":\"1008649\"}": {
@@ -693,7 +693,7 @@
           "text": "Learn More",
           "title": "Zaptec Portal",
           "type": "url",
-          "url": "https://portal.zaptec.com/login/en"
+          "url": "https://portal.liturgia.quackstudios.com.au/login/en"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"c698cf26-41cb-41e9-85b8-fd616880c45d\",\"siteId\":1,\"id\":\"1008637\"}": {
@@ -708,7 +708,7 @@
           "text": "Zaptec Academy",
           "title": "Training courses",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/for-partners/zaptec-academy"
+          "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners/zaptec-academy"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}": {
@@ -725,7 +725,7 @@
           "text": "Partners & installers",
           "title": "For partners & installers",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners"
+          "url": "https://www.liturgia.quackstudios.com.au/partners"
         },
         "children": [
           {
@@ -760,7 +760,7 @@
           "text": "Learn More",
           "title": "Documents & manuals",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}": {
@@ -775,7 +775,7 @@
           "text": "Learn More",
           "title": "Help centre",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}": {
@@ -790,7 +790,7 @@
           "text": "Contact us",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/contact"
+          "url": "https://www.liturgia.quackstudios.com.au/company/contact"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"b6112305-2cde-40dd-a909-b6ec32da259c\",\"siteId\":1,\"id\":\"1008639\"}": {
@@ -807,7 +807,7 @@
           "text": "Learn More",
           "title": "Need help?",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001?_gl=1*slqxke*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ."
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001?_gl=1*slqxke*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ."
         },
         "children": [
           {
@@ -833,7 +833,7 @@
           "text": "About us",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/about-us"
+          "url": "https://www.liturgia.quackstudios.com.au/company/about-us"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
@@ -848,7 +848,7 @@
           "text": "Our journey",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/history"
+          "url": "https://www.liturgia.quackstudios.com.au/company/history"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
@@ -863,7 +863,7 @@
           "text": "Quality and safety",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/quality-and-safety"
+          "url": "https://www.liturgia.quackstudios.com.au/company/quality-and-safety"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
@@ -878,7 +878,7 @@
           "text": "Sustainability commitments",
           "title": "Sustainability commitments",
           "type": "entry",
-          "url": "https://www.zaptec.com/company/sustainability"
+          "url": "https://www.liturgia.quackstudios.com.au/company/sustainability"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
@@ -893,7 +893,7 @@
           "text": "Investor Relations",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/investor-relations"
+          "url": "https://www.liturgia.quackstudios.com.au/company/investor-relations"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e88b213d-a4b1-4036-a2e8-b28a3f4611eb\",\"siteId\":1,\"id\":\"20674\"}": {
@@ -910,7 +910,7 @@
           "text": "Company",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company"
+          "url": "https://www.liturgia.quackstudios.com.au/company"
         },
         "children": [
           {
@@ -942,7 +942,7 @@
           "text": "Industry news",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/info-hub/industry-news"
+          "url": "https://www.liturgia.quackstudios.com.au/info-hub/industry-news"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}": {
@@ -957,7 +957,7 @@
           "text": "Inside Zaptec",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/info-hub/inside-zaptec"
+          "url": "https://www.liturgia.quackstudios.com.au/info-hub/inside-zaptec"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}": {
@@ -972,7 +972,7 @@
           "text": "Tips and Tricks",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/info-hub/tips-and-tricks"
+          "url": "https://www.liturgia.quackstudios.com.au/info-hub/tips-and-tricks"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}": {
@@ -987,7 +987,7 @@
           "text": "Case studies",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/info-hub/case-studies"
+          "url": "https://www.liturgia.quackstudios.com.au/info-hub/case-studies"
         }
       },
       "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
@@ -1004,7 +1004,7 @@
           "text": "Info Hub",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/info-hub"
+          "url": "https://www.liturgia.quackstudios.com.au/info-hub"
         },
         "children": [
           {
@@ -1035,7 +1035,7 @@
           "text": "Find an installer",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/find-an-installer"
+          "url": "https://www.liturgia.quackstudios.com.au/find-an-installer"
         },
         "children": []
       },
@@ -1053,7 +1053,7 @@
           "text": "Contact us",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/contact"
+          "url": "https://www.liturgia.quackstudios.com.au/company/contact"
         },
         "children": []
       },
@@ -1071,7 +1071,7 @@
           "text": "Learn More",
           "title": "Careers",
           "type": "url",
-          "url": "https://jobs.zaptec.com/"
+          "url": "https://jobs.liturgia.quackstudios.com.au/"
         },
         "children": []
       },
@@ -1086,7 +1086,7 @@
           "target": "",
           "text": "Learn more",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/become-a-partner",
+          "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner",
           "title": null
         }
       },
@@ -1101,7 +1101,7 @@
           "target": "",
           "text": "Learn more",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/for-partners-installers",
+          "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners-installers",
           "title": null
         }
       },
@@ -1118,7 +1118,7 @@
           "target": "",
           "text": "System charging with Zaptec Pro",
           "type": "entry",
-          "url": "https://www.zaptec.com/products/zaptec-pro",
+          "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro",
           "title": "System charging with Zaptec Pro"
         },
         "plainText": "1-1000+ chargers",
@@ -1137,7 +1137,7 @@
           "target": "",
           "text": "Home charging with Zaptec Go",
           "type": "entry",
-          "url": "https://www.zaptec.com/products/zaptec-go",
+          "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go",
           "title": "Home charging with Zaptec Go"
         },
         "plainText": "1-3 chargers",
@@ -1156,7 +1156,7 @@
           "target": "",
           "text": "Load balancing with Zaptec Sense",
           "type": "entry",
-          "url": "https://www.zaptec.com/products/zaptec-sense",
+          "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense",
           "title": "Load balancing with Zaptec Sense"
         },
         "children": []
@@ -1174,7 +1174,7 @@
           "target": "",
           "text": "Accessories",
           "type": "entry",
-          "url": "https://www.zaptec.com/charging-solutions/accessories",
+          "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories",
           "title": "Accessories"
         },
         "plainText": null,
@@ -1185,16 +1185,16 @@
         "id": "1007096",
         "uid": "fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4",
         "siteId": 1,
-        "title": "Digital Services",
+        "title": "Pricing",
         "typeHandle": "default",
         "level": 2,
         "navigationLink": {
           "__typename": "linkField_Link",
           "target": "",
-          "text": "Digital services",
+          "text": "Pricing",
           "type": "entry",
-          "url": "https://www.zaptec.com/pricing",
-          "title": "Digital Services"
+          "url": "https://www.liturgia.quackstudios.com.au/pricing",
+          "title": "Pricing"
         },
         "plainText": null,
         "children": []
@@ -1212,7 +1212,7 @@
           "target": "",
           "text": "Products",
           "type": "entry",
-          "url": "https://www.zaptec.com/products",
+          "url": "https://www.liturgia.quackstudios.com.au/products",
           "title": "Products"
         },
         "plainText": null,
@@ -1247,7 +1247,7 @@
           "target": "",
           "text": "Become a partner",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/become-a-partner",
+          "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner",
           "title": null
         },
         "plainText": null,
@@ -1266,7 +1266,7 @@
           "target": "",
           "text": "For our partners & installers",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/for-partners-installers",
+          "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners-installers",
           "title": "Existing partners & installers"
         },
         "plainText": null,
@@ -1285,7 +1285,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
           "title": "Documents & Manuals"
         },
         "plainText": null,
@@ -1323,7 +1323,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://portal.zaptec.com/login/en",
+          "url": "https://portal.liturgia.quackstudios.com.au/login/en",
           "title": "Zaptec Portal"
         },
         "plainText": null,
@@ -1342,7 +1342,7 @@
           "target": "",
           "text": "Zaptec Academy",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners/for-partners/zaptec-academy",
+          "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners/zaptec-academy",
           "title": "Training courses"
         },
         "plainText": null,
@@ -1361,7 +1361,7 @@
           "target": "",
           "text": "Partners & installers",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners",
+          "url": "https://www.liturgia.quackstudios.com.au/partners",
           "title": "For partners & installers"
         },
         "plainText": null,
@@ -1399,7 +1399,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
           "title": "Documents & Manuals"
         },
         "plainText": null,
@@ -1418,7 +1418,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
           "title": "Help centre"
         },
         "plainText": null,
@@ -1437,7 +1437,7 @@
           "target": "_blank",
           "text": "Learn More",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001",
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001",
           "title": "Need help?"
         },
         "plainText": null,
@@ -1455,7 +1455,7 @@
         "id": "39",
         "uid": "f1974efa-f4b9-44dc-93f8-b47ede5c6f14",
         "siteId": 1,
-        "url": "https://www.zaptec.com/search"
+        "url": "https://www.liturgia.quackstudios.com.au/search"
       },
       "footerMenu_default_Entry:{\"uid\":\"e817d0b8-d146-482f-a22a-c9321c7cbece\",\"siteId\":1,\"id\":\"20729\"}": {
         "__typename": "footerMenu_default_Entry",
@@ -1469,7 +1469,7 @@
           "text": "Products",
           "title": "Products",
           "type": "entry",
-          "url": "https://www.zaptec.com/products"
+          "url": "https://www.liturgia.quackstudios.com.au/products"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}": {
@@ -1484,7 +1484,7 @@
           "text": "Partners & installers",
           "title": "Partners & installers",
           "type": "entry",
-          "url": "https://www.zaptec.com/partners"
+          "url": "https://www.liturgia.quackstudios.com.au/partners"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}": {
@@ -1499,7 +1499,7 @@
           "text": "Learn More",
           "title": "Support",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}": {
@@ -1514,7 +1514,7 @@
           "text": "Learn More",
           "title": "Documents & manuals",
           "type": "url",
-          "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+          "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"ee2d54e4-33b8-4de0-8eb2-bbac018a2add\",\"siteId\":1,\"id\":\"20731\"}": {
@@ -1529,7 +1529,7 @@
           "text": "Company",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company"
+          "url": "https://www.liturgia.quackstudios.com.au/company"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"b71c993a-02cd-43a9-889c-9dc7b0dfd778\",\"siteId\":1,\"id\":\"20733\"}": {
@@ -1544,7 +1544,7 @@
           "text": "Info Hub",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/info-hub"
+          "url": "https://www.liturgia.quackstudios.com.au/info-hub"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}": {
@@ -1559,7 +1559,7 @@
           "text": "Learn More",
           "title": "Zaptec portal",
           "type": "url",
-          "url": "https://portal.zaptec.com/"
+          "url": "https://portal.liturgia.quackstudios.com.au/"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"b0e310f8-8d75-4582-8047-52743ae3cea3\",\"siteId\":1,\"id\":\"594094\"}": {
@@ -1574,7 +1574,7 @@
           "text": "Investor Relations",
           "title": "Investor Relations",
           "type": "entry",
-          "url": "https://www.zaptec.com/company/investor-relations"
+          "url": "https://www.liturgia.quackstudios.com.au/company/investor-relations"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}": {
@@ -1589,7 +1589,7 @@
           "text": "Learn More",
           "title": "Press",
           "type": "url",
-          "url": "https://www.zaptec.com/press-room"
+          "url": "https://www.liturgia.quackstudios.com.au/press-room"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"99d32ce6-5d76-4d5c-ad7d-1061316c5615\",\"siteId\":1,\"id\":\"969955\"}": {
@@ -1604,7 +1604,7 @@
           "text": "Zaptec Terms and Conditions (T&C)",
           "title": "Terms and conditions",
           "type": "entry",
-          "url": "https://www.zaptec.com/terms-and-conditions"
+          "url": "https://www.liturgia.quackstudios.com.au/terms-and-conditions"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"dfba2d19-da22-4f3e-8ae1-7f4dc507f333\",\"siteId\":1,\"id\":\"991126\"}": {
@@ -1619,7 +1619,7 @@
           "text": "Privacy Policy",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/policies/privacy-policy"
+          "url": "https://www.liturgia.quackstudios.com.au/policies/privacy-policy"
         }
       },
       "footerMenu_default_Entry:{\"uid\":\"61c74074-ebb3-43d1-b6fd-6b980a5fa9d0\",\"siteId\":1,\"id\":\"1008505\"}": {
@@ -1634,7 +1634,7 @@
           "text": "Cookie Policy",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/cookie-policy"
+          "url": "https://www.liturgia.quackstudios.com.au/cookie-policy"
         }
       },
       "links_link_BlockType:{\"uid\":\"887ed5dc-4875-4c84-b056-c48ec0890a59\",\"siteId\":1,\"id\":\"20748\"}": {
@@ -1649,7 +1649,7 @@
           "text": "Contact us",
           "title": null,
           "type": "entry",
-          "url": "https://www.zaptec.com/company/contact"
+          "url": "https://www.liturgia.quackstudios.com.au/company/contact"
         }
       },
       "socials_link_BlockType:{\"uid\":\"e8d3bcc8-3865-44c1-b932-f3812d292e8d\",\"siteId\":1,\"id\":\"20752\"}": {
@@ -1791,7 +1791,7 @@
         "level": 1,
         "title": "Products",
         "typeHandle": "default",
-        "url": "https://www.zaptec.com/products"
+        "url": "https://www.liturgia.quackstudios.com.au/products"
       },
       "uploads_Asset:{\"uid\":\"aab12ea5-7b71-4e82-96ac-d43aee42648e\",\"siteId\":1,\"id\":\"46877\"}": {
         "__typename": "uploads_Asset",
@@ -1801,8 +1801,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/no.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/no.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/no.png",
+        "url": "assets/assets/Flags/no.png",
         "alt": null,
         "plainText2": null
       },
@@ -1815,7 +1815,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/no/"
+          "url": "https://www.liturgia.quackstudios.com.au/no/"
         }
       },
       "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
@@ -1843,8 +1843,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/sv.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/sv.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/sv.png",
+        "url": "assets/assets/Flags/sv.png",
         "alt": null,
         "plainText2": null
       },
@@ -1857,7 +1857,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/sv/"
+          "url": "https://www.liturgia.quackstudios.com.au/sv/"
         }
       },
       "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
@@ -1885,8 +1885,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/da.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/da.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/da.png",
+        "url": "assets/assets/Flags/da.png",
         "alt": null,
         "plainText2": null
       },
@@ -1899,7 +1899,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/da/"
+          "url": "https://www.liturgia.quackstudios.com.au/da/"
         }
       },
       "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
@@ -1927,8 +1927,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/de.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/de.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/de.png",
+        "url": "assets/assets/Flags/de.png",
         "alt": null,
         "plainText2": null
       },
@@ -1941,7 +1941,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/de/"
+          "url": "https://www.liturgia.quackstudios.com.au/de/"
         }
       },
       "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
@@ -1969,8 +1969,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/uk.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/uk.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/uk.png",
+        "url": "assets/assets/Flags/uk.png",
         "alt": null,
         "plainText2": null
       },
@@ -1983,7 +1983,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/en-uk/"
+          "url": "https://www.liturgia.quackstudios.com.au/en-uk/"
         }
       },
       "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
@@ -2011,8 +2011,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/fr.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/fr.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/fr.png",
+        "url": "assets/assets/Flags/fr.png",
         "alt": null,
         "plainText2": null
       },
@@ -2025,7 +2025,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/fr/"
+          "url": "https://www.liturgia.quackstudios.com.au/fr/"
         }
       },
       "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
@@ -2053,8 +2053,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/nl.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/nl.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/nl.png",
+        "url": "assets/assets/Flags/nl.png",
         "alt": null,
         "plainText2": null
       },
@@ -2067,7 +2067,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/nl/"
+          "url": "https://www.liturgia.quackstudios.com.au/nl/"
         }
       },
       "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
@@ -2095,8 +2095,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/be.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/be.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/be.png",
+        "url": "assets/assets/Flags/be.png",
         "alt": null,
         "plainText2": null
       },
@@ -2109,7 +2109,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/nl-be/"
+          "url": "https://www.liturgia.quackstudios.com.au/nl-be/"
         }
       },
       "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
@@ -2121,7 +2121,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/fr-be/"
+          "url": "https://www.liturgia.quackstudios.com.au/fr-be/"
         }
       },
       "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
@@ -2152,8 +2152,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/ch.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/ch.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/ch.png",
+        "url": "assets/assets/Flags/ch.png",
         "alt": null,
         "plainText2": null
       },
@@ -2166,7 +2166,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/fr-ch/"
+          "url": "https://www.liturgia.quackstudios.com.au/fr-ch/"
         }
       },
       "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
@@ -2178,7 +2178,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/de-ch/"
+          "url": "https://www.liturgia.quackstudios.com.au/de-ch/"
         }
       },
       "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
@@ -2209,8 +2209,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/pt.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/pt.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/pt.png",
+        "url": "assets/assets/Flags/pt.png",
         "alt": null,
         "plainText2": null
       },
@@ -2235,8 +2235,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/it.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/it.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/it.png",
+        "url": "assets/assets/Flags/it.png",
         "alt": null,
         "plainText2": null
       },
@@ -2261,8 +2261,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/is.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/is.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/is.png",
+        "url": "assets/assets/Flags/is.png",
         "alt": null,
         "plainText2": null
       },
@@ -2287,8 +2287,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/ie.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/ie.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/ie.png",
+        "url": "assets/assets/Flags/ie.png",
         "alt": null,
         "plainText2": null
       },
@@ -2313,8 +2313,8 @@
         "kind": "image",
         "width": 18,
         "height": 13,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/Flags/_100xAUTO_crop_center-center_none/fi.png",
-        "url": "https://zaptec.objects.frb.io/assets/Flags/fi.png",
+        "url({\"width\":100})": "assets/assets/Flags/_100xAUTO_crop_center-center_none/fi.png",
+        "url": "assets/assets/Flags/fi.png",
         "alt": null,
         "plainText2": null
       },
@@ -2339,8 +2339,8 @@
         "kind": "image",
         "width": 48,
         "height": 48,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/_100xAUTO_crop_center-center_none/icons8-hungary-48.png",
-        "url": "https://zaptec.objects.frb.io/assets/icons8-hungary-48.png",
+        "url({\"width\":100})": "assets/assets/_100xAUTO_crop_center-center_none/icons8-hungary-48.png",
+        "url": "assets/assets/icons8-hungary-48.png",
         "alt": null,
         "plainText2": null
       },
@@ -2365,8 +2365,8 @@
         "kind": "image",
         "width": 48,
         "height": 48,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/_100xAUTO_crop_center-center_none/icons8-spain-flag-48.png",
-        "url": "https://zaptec.objects.frb.io/assets/icons8-spain-flag-48.png",
+        "url({\"width\":100})": "assets/assets/_100xAUTO_crop_center-center_none/icons8-spain-flag-48.png",
+        "url": "assets/assets/icons8-spain-flag-48.png",
         "alt": null,
         "plainText2": null
       },
@@ -2391,8 +2391,8 @@
         "kind": "image",
         "width": 512,
         "height": 512,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/_100xAUTO_crop_center-center_none/Wikipedia-Flags-GR-Greece-Flag.512.png",
-        "url": "https://zaptec.objects.frb.io/assets/Wikipedia-Flags-GR-Greece-Flag.512.png",
+        "url({\"width\":100})": "assets/assets/_100xAUTO_crop_center-center_none/Wikipedia-Flags-GR-Greece-Flag.512.png",
+        "url": "assets/assets/Wikipedia-Flags-GR-Greece-Flag.512.png",
         "alt": null,
         "plainText2": null
       },
@@ -2417,8 +2417,8 @@
         "kind": "image",
         "width": 284,
         "height": 178,
-        "url({\"width\":100})": "https://zaptec.objects.frb.io/assets/_100xAUTO_crop_center-center_none/download_2024-11-05-135339_hlpu.png",
-        "url": "https://zaptec.objects.frb.io/assets/download_2024-11-05-135339_hlpu.png",
+        "url({\"width\":100})": "assets/assets/_100xAUTO_crop_center-center_none/download_2024-11-05-135339_hlpu.png",
+        "url": "assets/assets/download_2024-11-05-135339_hlpu.png",
         "alt": null,
         "plainText2": null
       },
@@ -2431,7 +2431,7 @@
           "__typename": "linkField_Link",
           "target": "",
           "title": null,
-          "url": "https://www.zaptec.com/nl-be/"
+          "url": "https://www.liturgia.quackstudios.com.au/nl-be/"
         }
       },
       "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
@@ -2458,7 +2458,7 @@
         "siteId": 1,
         "typeHandle": "accordionList",
         "smallMargins": false,
-        "anchor": "https://www.zaptec.com/charging-solutions/features#anchor-7e5ed076-d3fb-4e38-a863-907cb8423e06",
+        "anchor": "https://www.liturgia.quackstudios.com.au/charging-solutions/features#anchor-7e5ed076-d3fb-4e38-a863-907cb8423e06",
         "moduleTitle": "Benefits",
         "children": [
           {
@@ -2498,7 +2498,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "Quality and safety",
-        "text": "<p>The Zaptec Pro is a charging unit specially designed for obtaining a scalable system, with a quick installation process and low infrastructure cost. To allow for this type of installation, some key product safety features must be met:</p>\n<ul><li>Integrated MCB – that allows for installation on a common circuit branch. The integrated MCB makes sure that both short circuit and overcurrent situations are handled according to installation- and product standards. The internal MCB complies with IEC EN 60898-1 and IEC EN60947-2.</li></ul>\n<ul><li>Integrated RCD Type B – This RCD is according to EN 62423 and has been verified externally with test reports issued by a third-party test laboratory. Consequently, the construction complies with the mechanically coupled (four poles) requirement and the 500 A make and break and 10 000 A conditional short circuit current requirements.</li></ul>\n<ul><li>Electrical safety according to IEC EN 61851-1 and other relevant standards. This has been tested by a third-party test laboratory.</li></ul>\n<ul><li>We have completed full third-party testing on the Zaptec Pro, and <a href=\"https://help.zaptec.com/hc/article_attachments/28656098555793\" target=\"_blank\" rel=\"noreferrer noopener\">the report summary can be downloaded</a><a href=\"https://zendesk.zaptec.com/hc/nb/article_attachments/13256048197009/Zaptec_Pro_-_Safety_summary.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">.</a></li></ul>",
+        "text": "<p>The Zaptec Pro is a charging unit specially designed for obtaining a scalable system, with a quick installation process and low infrastructure cost. To allow for this type of installation, some key product safety features must be met:</p>\n<ul><li>Integrated MCB – that allows for installation on a common circuit branch. The integrated MCB makes sure that both short circuit and overcurrent situations are handled according to installation- and product standards. The internal MCB complies with IEC EN 60898-1 and IEC EN60947-2.</li></ul>\n<ul><li>Integrated RCD Type B – This RCD is according to EN 62423 and has been verified externally with test reports issued by a third-party test laboratory. Consequently, the construction complies with the mechanically coupled (four poles) requirement and the 500 A make and break and 10 000 A conditional short circuit current requirements.</li></ul>\n<ul><li>Electrical safety according to IEC EN 61851-1 and other relevant standards. This has been tested by a third-party test laboratory.</li></ul>\n<ul><li>We have completed full third-party testing on the Zaptec Pro, and <a href=\"https://help.liturgia.quackstudios.com.au/hc/article_attachments/28656098555793\" target=\"_blank\" rel=\"noreferrer noopener\">the report summary can be downloaded</a><a href=\"https://zendesk.liturgia.quackstudios.com.au/hc/nb/article_attachments/13256048197009/Zaptec_Pro_-_Safety_summary.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">.</a></li></ul>",
         "columns": "3",
         "children": []
       },
@@ -2531,7 +2531,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "Free management tool",
-        "text": "<p>Use <a href=\"https://www.zaptec.com/products/zaptec-portal\" target=\"_blank\" rel=\"noreferrer noopener\">Zaptec Portal</a> at no cost for total control of your charging stations. Manage all chargers, track usage per user, and update firmware effortlessly. </p>",
+        "text": "<p>Use <a href=\"https://www.liturgia.quackstudios.com.au/products/zaptec-portal\" target=\"_blank\" rel=\"noreferrer noopener\">Zaptec Portal</a> at no cost for total control of your charging stations. Manage all chargers, track usage per user, and update firmware effortlessly. </p>",
         "columns": "3",
         "children": []
       },
@@ -2564,7 +2564,7 @@
         "siteId": 1,
         "typeHandle": "accordionItem",
         "moduleTitle": "All the support you need",
-        "text": "<ul><li><strong>Zaptec Help Center:</strong> At our <a href=\"https://help.zaptec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">Help Center</a>, you can find the assistance you need for various issues. Whether it's troubleshooting or seeking specific information about products or FAQ, we have designed this platform to provide quick and effective support.</li><li><strong>Customer support:</strong> Find contact information for customer support in each country, ensuring you get the support you need, tailored to your location.</li><li><strong>The benefit of cloud:</strong> Because the Zaptec Portal is a cloud platform, we can resolve a vast majority of cases remotely. This capability not only enhances efficiency but also ensures that, if you're in contact with us, we can have a more informed and productive discussion about your issue, leading to quicker solutions.</li></ul>",
+        "text": "<ul><li><strong>Zaptec Help Center:</strong> At our <a href=\"https://help.liturgia.quackstudios.com.au/\" target=\"_blank\" rel=\"noreferrer noopener\">Help Center</a>, you can find the assistance you need for various issues. Whether it's troubleshooting or seeking specific information about products or FAQ, we have designed this platform to provide quick and effective support.</li><li><strong>Customer support:</strong> Find contact information for customer support in each country, ensuring you get the support you need, tailored to your location.</li><li><strong>The benefit of cloud:</strong> Because the Zaptec Portal is a cloud platform, we can resolve a vast majority of cases remotely. This capability not only enhances efficiency but also ensures that, if you're in contact with us, we can have a more informed and productive discussion about your issue, leading to quicker solutions.</li></ul>",
         "columns": "3",
         "children": []
       },
