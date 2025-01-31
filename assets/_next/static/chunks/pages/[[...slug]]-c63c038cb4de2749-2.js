@@ -6623,7 +6623,7 @@
           return (0,
           T.jsx)("button", {
               "aria-label": t("button.openMenu"),
-              className: "burger-button text-asphalt bg-white md:bg-transparent w-[2.875rem] group h-[2.875rem] rounded-full flex items-center justify-center z-60 transition-colors ".concat(n.menuState ? "open" : ""),
+              className: "burger-button text-asphalt bg-white md:bg-transparent w-[2.875rem] group h-[2.875rem] rounded-full flex items-center justify-center z-60 transition-colors optional-hide".concat(n.menuState ? "open" : ""),
               onClick: () => {
                   n.setMenuState(!n.menuState)
               }
