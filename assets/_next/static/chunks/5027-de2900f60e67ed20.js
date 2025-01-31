@@ -171,7 +171,7 @@
 // Mapping of href values to button indices
 const hrefToIndexMap = {
   "https://shop.liturgybrisbane.net.au/collections/liturgia": 0,
-  "https://liturgia.quackstudios.com.au/features": 1,
+  "/features": 1,
   // Add more mappings as needed
 };
 
@@ -464,9 +464,9 @@ let f = function (e) {
               }
           }
           let z = "string" == typeof j ? j.replace(/\/$/, "") : j;
-          return "true" === r.env.NEXT_PUBLIC_STAGING && z && ("string" == typeof z ? z.startsWith("/") || "/" === z ? z = "https://staging.zaptec.com".concat(z) : z.startsWith("https://www.zaptec.com") && (z = z.replace("https://www.zaptec.com", "https://staging.zaptec.com")) : "object" == typeof z && (z = {
+          return "true" === r.env.NEXT_PUBLIC_STAGING && z && ("string" == typeof z ? z.startsWith("/") || "/" === z ? z = "https://liturgia.quackstudios.com.au".concat(z) : z.startsWith("https://www.liturgia.quackstudios.com.au") && (z = z.replace("https://liturgia.quackstudios.com.au", "https://liturgia.quackstudios.com.au")) : "object" == typeof z && (z = {
               ...z,
-              pathname: "https://staging.zaptec.com".concat(z.pathname)
+              pathname: "liturgia.quackstudios.com.au".concat(z.pathname)
           })),
           l ? (0,
           n.jsx)(i(), {
@@ -532,7 +532,7 @@ let f = function (e) {
           let {asset: t, mode: l, quality: n, ratio: a, width: s, providedHeight: i, providedWidth: r} = e
             , o = "crop" === l && (s / r * i || s * a) || null;
           return o = o ? Math.round(o) : o,
-          "".concat("https://cms.zaptec.com", "/actions/common/image?id=").concat(t.id, "&height=").concat(o, "&mode=").concat(l || "fit", "&quality=").concat(n || 80, "&width=").concat(s || null)
+          "".concat("liturgia.quackstudios.com.au", "/actions/common/image?id=").concat(t.id, "&height=").concat(o, "&mode=").concat(l || "fit", "&quality=").concat(n || 80, "&width=").concat(s || null)
       }
       ;
       var o = l(79475)
@@ -947,7 +947,7 @@ let f = function (e) {
               iframe: ["*"]
           },
           transformTags: {
-              img: (e, t) => (t.src && t.src.startsWith("/") && (t.src = "".concat("https://cms.zaptec.com").concat(t.src)),
+              img: (e, t) => (t.src && t.src.startsWith("/") && (t.src = "".concat("liturgia.quackstudios.com.au").concat(t.src)),
               t.loading = "lazy",
               t.decoding = "async",
               t.class = "w-full h-auto",
@@ -1017,6 +1017,6 @@ let f = function (e) {
   ,
   32654: e => {
       "use strict";
-      e.exports = JSON.parse('{"locales":["en","no","sv","da","de","en-uk","fr","nl","de-CH","fr-CH","nl-BE","fr-BE"],"domains":[{"domain":"www.zaptec.com","handle":"default","locales":[null,null,null,null,null,null,null,null]},{"domain":"www.zaptec.com","handle":"zaptecDeCh","locales":[null,null]},{"domain":"www.zaptec.com","handle":"zaptecNlBe","locales":[null,null]}],"sites":[{"siteId":1,"locale":"en","domain":"www.zaptec.com","url":"/","fullUrl":"https://www.zaptec.com/","handle":"default","name":"Global / English","primary":true,"groupId":1},{"siteId":12,"locale":"no","domain":"www.zaptec.com","url":"/no/","fullUrl":"https://www.zaptec.com/no/","handle":"zaptecNo","name":"Norway / Norsk","primary":false,"groupId":1},{"siteId":2,"locale":"sv","domain":"www.zaptec.com","url":"/sv/","fullUrl":"https://www.zaptec.com/sv/","handle":"zaptecSv","name":"Sweden / Svenska","primary":false,"groupId":1},{"siteId":3,"locale":"da","domain":"www.zaptec.com","url":"/da/","fullUrl":"https://www.zaptec.com/da/","handle":"zaptecDa","name":"Denmark / Dansk","primary":false,"groupId":1},{"siteId":4,"locale":"de","domain":"www.zaptec.com","url":"/de/","fullUrl":"https://www.zaptec.com/de/","handle":"zaptecDe","name":"Germany / Deutsch","primary":false,"groupId":1},{"siteId":5,"locale":"en-uk","domain":"www.zaptec.com","url":"/en-uk/","fullUrl":"https://www.zaptec.com/en-uk/","handle":"zaptecUk","name":"United Kingdom / English","primary":false,"groupId":1},{"siteId":6,"locale":"fr","domain":"www.zaptec.com","url":"/fr/","fullUrl":"https://www.zaptec.com/fr/","handle":"zaptecFr","name":"France / Fran\xe7ais","primary":false,"groupId":1},{"siteId":7,"locale":"nl","domain":"www.zaptec.com","url":"/nl/","fullUrl":"https://www.zaptec.com/nl/","handle":"zaptecNl","name":"Netherlands / Nederlands","primary":false,"groupId":1},{"siteId":11,"locale":"de-CH","domain":"www.zaptec.com","url":"/de-ch/","fullUrl":"https://www.zaptec.com/de-ch/","handle":"zaptecDeCh","name":"Switzerland / Deutsch","primary":false,"groupId":2},{"siteId":10,"locale":"fr-CH","domain":"www.zaptec.com","url":"/fr-ch/","fullUrl":"https://www.zaptec.com/fr-ch/","handle":"zaptecFrCh","name":"Switzerland / Fran\xe7ais","primary":false,"groupId":2},{"siteId":8,"locale":"nl-BE","domain":"www.zaptec.com","url":"/nl-be/","fullUrl":"https://www.zaptec.com/nl-be/","handle":"zaptecNlBe","name":"Belgium / Nederlands","primary":false,"groupId":3},{"siteId":9,"locale":"fr-BE","domain":"www.zaptec.com","url":"/fr-be/","fullUrl":"https://www.zaptec.com/fr-be/","handle":"zaptecFrBe","name":"Belgium / Fran\xe7ais","primary":false,"groupId":3}]}')
+      e.exports = JSON.parse('{"locales":["en","no","sv","da","de","en-uk","fr","nl","de-CH","fr-CH","nl-BE","fr-BE"],"domains":[{"domain":"www.liturgia.quackstudios.com.au","handle":"default","locales":[null,null,null,null,null,null,null,null]},{"domain":"www.liturgia.quackstudios.com.au","handle":"zaptecDeCh","locales":[null,null]},{"domain":"www.liturgia.quackstudios.com.au","handle":"zaptecNlBe","locales":[null,null]}],"sites":[{"siteId":1,"locale":"en","domain":"www.liturgia.quackstudios.com.au","url":"/","fullUrl":"https://www.liturgia.quackstudios.com.au/","handle":"default","name":"Global / English","primary":true,"groupId":1},{"siteId":12,"locale":"no","domain":"www.liturgia.quackstudios.com.au","url":"/no/","fullUrl":"https://www.liturgia.quackstudios.com.au/no/","handle":"zaptecNo","name":"Norway / Norsk","primary":false,"groupId":1},{"siteId":2,"locale":"sv","domain":"www.liturgia.quackstudios.com.au","url":"/sv/","fullUrl":"https://www.liturgia.quackstudios.com.au/sv/","handle":"zaptecSv","name":"Sweden / Svenska","primary":false,"groupId":1},{"siteId":3,"locale":"da","domain":"www.liturgia.quackstudios.com.au","url":"/da/","fullUrl":"https://www.liturgia.quackstudios.com.au/da/","handle":"zaptecDa","name":"Denmark / Dansk","primary":false,"groupId":1},{"siteId":4,"locale":"de","domain":"www.liturgia.quackstudios.com.au","url":"/de/","fullUrl":"https://www.liturgia.quackstudios.com.au/de/","handle":"zaptecDe","name":"Germany / Deutsch","primary":false,"groupId":1},{"siteId":5,"locale":"en-uk","domain":"www.liturgia.quackstudios.com.au","url":"/en-uk/","fullUrl":"https://www.liturgia.quackstudios.com.au/en-uk/","handle":"zaptecUk","name":"United Kingdom / English","primary":false,"groupId":1},{"siteId":6,"locale":"fr","domain":"www.liturgia.quackstudios.com.au","url":"/fr/","fullUrl":"https://www.liturgia.quackstudios.com.au/fr/","handle":"zaptecFr","name":"France / Fran\xe7ais","primary":false,"groupId":1},{"siteId":7,"locale":"nl","domain":"www.liturgia.quackstudios.com.au","url":"/nl/","fullUrl":"https://www.liturgia.quackstudios.com.au/nl/","handle":"zaptecNl","name":"Netherlands / Nederlands","primary":false,"groupId":1},{"siteId":11,"locale":"de-CH","domain":"www.liturgia.quackstudios.com.au","url":"/de-ch/","fullUrl":"https://www.liturgia.quackstudios.com.au/de-ch/","handle":"zaptecDeCh","name":"Switzerland / Deutsch","primary":false,"groupId":2},{"siteId":10,"locale":"fr-CH","domain":"www.liturgia.quackstudios.com.au","url":"/fr-ch/","fullUrl":"https://www.liturgia.quackstudios.com.au/fr-ch/","handle":"zaptecFrCh","name":"Switzerland / Fran\xe7ais","primary":false,"groupId":2},{"siteId":8,"locale":"nl-BE","domain":"www.liturgia.quackstudios.com.au","url":"/nl-be/","fullUrl":"https://www.liturgia.quackstudios.com.au/nl-be/","handle":"zaptecNlBe","name":"Belgium / Nederlands","primary":false,"groupId":3},{"siteId":9,"locale":"fr-BE","domain":"www.liturgia.quackstudios.com.au","url":"/fr-be/","fullUrl":"https://www.liturgia.quackstudios.com.au/fr-be/","handle":"zaptecFrBe","name":"Belgium / Fran\xe7ais","primary":false,"groupId":3}]}')
   }
 }]);
