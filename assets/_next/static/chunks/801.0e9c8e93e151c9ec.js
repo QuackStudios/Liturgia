@@ -262,27 +262,27 @@
             ],
             scale: [1, -1, -1],
             position: [0, 0, 0],
-            model: "https://zaptec.objects.frb.io/assets/3D/schools.gltf",
+            model: "assets/assets/3D/schools.gltf",
           },
           zaptecPro: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
             scale: [-0.7, -0.7, 0.7],
             position: [0, 0.06, 0],
-            model: "https://zaptec.objects.frb.io/assets/3D/Zaptec-Pro2.gltf",
+            model: "assets/assets/3D/Zaptec-Pro2.gltf",
           },
           zaptecProMid: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
             scale: [-0.7, -0.7, 0.7],
             position: [0, 0.06, 0],
             model:
-              "https://zaptec.objects.frb.io/assets/3D/zaptec-pro-mid.gltf",
+              "assets/assets/3D/zaptec-pro-mid.gltf",
           },
           zaptecProFrench: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
             scale: [-0.7, -0.7, 0.7],
             position: [0, 0.06, 0],
             model:
-              "https://zaptec.objects.frb.io/assets/3D/zaptec-pro-french.gltf",
+              "assets/assets/3D/zaptec-pro-french.gltf",
           },
         },
         p = (e) => {
