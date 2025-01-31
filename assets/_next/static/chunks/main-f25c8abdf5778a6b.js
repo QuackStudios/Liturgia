@@ -670,7 +670,7 @@
                         value: {
                           deviceSizes: [640, 750, 828, 1080, 1200, 1920],
                           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                          path: "/_next/image",
+                          path: "assets/_next/image",
                           loader: "default",
                           dangerouslyAllowSVG: !0,
                           unoptimized: !1,
@@ -1104,7 +1104,7 @@
               ".json"
             );
             return (0, o.addBasePath)(
-              "/_next/data/" + this.buildId + t + p,
+              "assets/_next/data/" + this.buildId + t + p,
               !0
             );
           })(
@@ -1556,7 +1556,7 @@
       function _(e, t) {
         return h().then((r) => {
           if (!(t in r)) throw l(Error("Failed to lookup route: " + t));
-          let o = r[t].map((t) => e + "/_next/" + (0, i.encodeURIPath)(t));
+          let o = r[t].map((t) => e + "/assets/_next/" + (0, i.encodeURIPath)(t));
           return {
             scripts: o
               .filter((e) => e.endsWith(".js"))
@@ -3138,7 +3138,7 @@
         n = {
           deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-          path: "/_next/image",
+          path: "assets/_next/image",
           loader: "default",
           loaderFile: "",
           domains: [],
