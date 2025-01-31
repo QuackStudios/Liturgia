@@ -273,7 +273,7 @@
       );
     })(),
     (t.tu = (e) => t.tt().createScriptURL(e)),
-    (t.p = "/_next/"),
+    (t.p = "assets/_next/"),
     (() => {
       var e = (e, a, t, r) => {
           var d = document.createElement("link");
