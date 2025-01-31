@@ -7703,7 +7703,8 @@
                           className: "quack-logo-text",
                           children: i("Created and Powered by"),
                         }),
-                        (0, T.jsx)("span", {
+                        (0, T.jsx)("a", {
+                          href: "https://quackstudios.com.au",
                           className: "quack-logo-redirect",
                           children: i("QuackStudios"),
                         }),
@@ -8645,7 +8646,7 @@ function updateMenuHeadings() {
     if (supportMenuItem) {
       supportMenuItem.textContent = "Support";
       supportMenuItem.setAttribute("title", "Support");
-      supportMenuItem.setAttribute("href", "/contact");
+      supportMenuItem.setAttribute("href", "/support");
       console.log("Updated 'Need help?' to 'Support' with /contact link.");
     } else {
       console.warn("'Need help?' menu item not found.");
@@ -8682,13 +8683,3 @@ function updateMenuHeadings() {
   });
   
   
-  
-  document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', event => {
-      event.preventDefault(); // Prevent the browser from reloading
-      const targetUrl = event.target.getAttribute('href');
-      history.pushState(null, '', targetUrl); // Update the URL without reloading
-      renderPage(targetUrl); // Call your function to dynamically render the page
-    });
-  });
-
