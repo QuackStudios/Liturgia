@@ -614,7 +614,7 @@
           (h = o.defaultLocale);
         let t = o.assetPrefix || "";
         if (
-          (self.__next_set_public_path__("" + t + "/_next/"),
+          (self.__next_set_public_path__("" + t + "assets/_next/"),
           (0, T.setConfig)({
             serverRuntimeConfig: {},
             publicRuntimeConfig: o.runtimeConfig || {},
