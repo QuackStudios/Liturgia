@@ -7705,6 +7705,7 @@
                         }),
                         (0, T.jsx)("a", {
                           href: "https://quackstudios.com.au",
+                          target: "_blank",
                           className: "quack-logo-redirect",
                           children: i("QuackStudios"),
                         }),
