@@ -7528,10 +7528,7 @@
                   className: "contact-links flex flex-col items-start",
                   children: null == t ? void 0 : t.map(e => (0,
                   T.jsx)(e8.A, {
-                      href: e.itemLink.href,
-                      target: e.itemLink.target,
                       className: "custom-underline block text-xl sm:r-text-2xl ".concat(l ? "hover:text-forest" : "hover:text-sand", " transition-all duration-300"),
-                      children: e.itemLink.text
                   }, e.uid))
               }), (0,
               T.jsx)("div", {
@@ -8621,7 +8618,7 @@ function updateMenuHeadings() {
     if (homeMenuItem) {
       homeMenuItem.textContent = "Home";
       homeMenuItem.setAttribute("title", "Home");
-      homeMenuItem.setAttribute("href", "/index");
+      homeMenuItem.setAttribute("href", "/");
       console.log("Updated 'Products' to 'Home'.");
     } else {
       console.warn("'Products' menu item not found.");
