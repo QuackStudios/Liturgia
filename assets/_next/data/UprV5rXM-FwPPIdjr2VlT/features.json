@@ -2792,7 +2792,7 @@
         "siteId": 1,
         "typeHandle": "ctaS",
         "smallMargins": false,
-        "anchor": "https://liturgia.quackstudios.com.au//charging-solutions/features#anchor-7ea3cda0-9365-4227-8b2b-ef67b92570af",
+        "anchor": "/features",
         "children": [
           {
             "__ref": "modules_cta_BlockType:{\"uid\":\"19d867f8-78ef-4d8f-a553-2991c75eace0\",\"siteId\":1,\"id\":\"953960\"}"
