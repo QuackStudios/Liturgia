@@ -60,10 +60,10 @@
           "url": "assets/assets/About/_1200x630_crop_center-center_82_none/Zaptec_37-1.jpg?mtime=1718721507"
         },
         "inLanguage": "en",
-        "mainEntityOfPage": "https://www.zaptec.com/contact",
+        "mainEntityOfPage": "https://www.liturgia.quackstudios.com.au/contact",
         "name": "Contact us",
         "publisher": { "@id": "#creator" },
-        "url": "https://www.zaptec.com/contact"
+        "url": "https://www.liturgia.quackstudios.com.au/contact"
       }
     </script>
     <link
@@ -166,6 +166,33 @@
         font-weight: bold;
       }
     </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+      // Intercept all clicks on links
+      document.body.addEventListener("click", (event) => {
+        const target = event.target.closest("a"); // Check if the click is on or inside an <a> tag
+        if (target && target.tagName === "A") {
+          const href = target.getAttribute("href");
+
+          // Check if href is a relative URL and not an external link
+          if (href && href.startsWith("/")) {
+            event.preventDefault(); // Prevent the default browser behaviour
+            console.log(`Intercepted navigation to: ${href}`);
+
+            // Change the URL programmatically
+            window.history.pushState({}, "", href);
+
+            // Force the router or page to render the correct component
+            if (typeof window.onNavigate === "function") {
+              window.onNavigate(href);
+            } else {
+              location.reload(); // Fallback: reload the page to load the correct content
+            }
+          }
+        }
+      });
+    });
+    </script>
     <meta
       name="google-site-verification"
       content="l0_J4bqd0TlJM3crSkgU5f2wp6DCQKJQv0tZ_RsTYuA"
@@ -2003,7 +2030,7 @@
                   target=""
                   class="r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300"
                   title="Products"
-                  href="https://www.zaptec.com/products"
+                  href="https://www.liturgia.quackstudios.com.au/products"
                   >Products</a
                 ><button
                   class="ml-3 r-w-4 r-h-4 relative mt-1 opacity-100 xl:opacity-0 group-hover/item:opacity-100 transition-opacity"
@@ -2030,7 +2057,7 @@
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="System charging with Zaptec Pro"
-                      href="https://www.zaptec.com/products/zaptec-pro"
+                      href="https://www.liturgia.quackstudios.com.au/products/zaptec-pro"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2056,7 +2083,7 @@
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Home charging with Zaptec Go"
-                      href="https://www.zaptec.com/products/zaptec-go"
+                      href="https://www.liturgia.quackstudios.com.au/products/zaptec-go"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2082,7 +2109,7 @@
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Load balancing with Zaptec Sense"
-                      href="https://www.zaptec.com/products/zaptec-sense"
+                      href="https://www.liturgia.quackstudios.com.au/products/zaptec-sense"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2107,7 +2134,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/charging-solutions/accessories"
+                      href="https://www.liturgia.quackstudios.com.au/charging-solutions/accessories"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2132,7 +2159,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/products/digital-services"
+                      href="https://www.liturgia.quackstudios.com.au/products/digital-services"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2156,7 +2183,7 @@
                   target=""
                   class="r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300"
                   title="For partners & installers"
-                  href="https://www.zaptec.com/partners"
+                  href="https://www.liturgia.quackstudios.com.au/partners"
                   >For partners & installers</a
                 ><button
                   class="ml-3 r-w-4 r-h-4 relative mt-1 opacity-100 xl:opacity-0 group-hover/item:opacity-100 transition-opacity"
@@ -2182,7 +2209,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/partners/become-a-partner"
+                      href="https://www.liturgia.quackstudios.com.au/partners/become-a-partner"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2208,7 +2235,7 @@
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="For existing partners & installers"
-                      href="https://www.zaptec.com/partners/for-partners-installers"
+                      href="https://www.liturgia.quackstudios.com.au/partners/for-partners-installers"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2234,7 +2261,7 @@
                       target="_blank"
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Documents & Manuals"
-                      href="https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+                      href="https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2286,7 +2313,7 @@
                       target="_blank"
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Zaptec Portal"
-                      href="https://portal.zaptec.com/login/en"
+                      href="https://portal.liturgia.quackstudios.com.au/login/en"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2312,7 +2339,7 @@
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Training courses"
-                      href="https://www.zaptec.com/partners/for-partners/zaptec-academy"
+                      href="https://www.liturgia.quackstudios.com.au/partners/for-partners/zaptec-academy"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2336,7 +2363,7 @@
                   target=""
                   class="r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300"
                   title="Need help?"
-                  href="https://help.zaptec.com/hc/en-001?_gl=1*slqxke*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ."
+                  href="https://help.liturgia.quackstudios.com.au/hc/en-001?_gl=1*slqxke*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ."
                   >Need help?</a
                 ><button
                   class="ml-3 r-w-4 r-h-4 relative mt-1 opacity-100 xl:opacity-0 group-hover/item:opacity-100 transition-opacity"
@@ -2363,7 +2390,7 @@
                       target="_blank"
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Documents & manuals"
-                      href="https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+                      href="https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2389,7 +2416,7 @@
                       target="_blank"
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Help centre"
-                      href="https://help.zaptec.com/hc/en-001"
+                      href="https://help.liturgia.quackstudios.com.au/hc/en-001"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2414,7 +2441,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/contact"
+                      href="https://www.liturgia.quackstudios.com.au/contact"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2437,7 +2464,7 @@
                 <a
                   target=""
                   class="r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300"
-                  href="https://www.zaptec.com/company"
+                  href="https://www.liturgia.quackstudios.com.au/company"
                   >Company</a
                 ><button
                   class="ml-3 r-w-4 r-h-4 relative mt-1 opacity-100 xl:opacity-0 group-hover/item:opacity-100 transition-opacity"
@@ -2463,7 +2490,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/company/about-us"
+                      href="https://www.liturgia.quackstudios.com.au/company/about-us"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2488,7 +2515,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/company/history"
+                      href="https://www.liturgia.quackstudios.com.au/company/history"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2513,7 +2540,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/company/quality-and-safety"
+                      href="https://www.liturgia.quackstudios.com.au/company/quality-and-safety"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2539,7 +2566,7 @@
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
                       title="Sustainability commitments"
-                      href="https://www.zaptec.com/company/sustainability"
+                      href="https://www.liturgia.quackstudios.com.au/company/sustainability"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2564,7 +2591,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/company/investor-relations"
+                      href="https://www.liturgia.quackstudios.com.au/company/investor-relations"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2587,7 +2614,7 @@
                 <a
                   target=""
                   class="r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300"
-                  href="https://www.zaptec.com/info-hub"
+                  href="https://www.liturgia.quackstudios.com.au/info-hub"
                   >Info Hub</a
                 ><button
                   class="ml-3 r-w-4 r-h-4 relative mt-1 opacity-100 xl:opacity-0 group-hover/item:opacity-100 transition-opacity"
@@ -2613,7 +2640,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/info-hub/industry-news"
+                      href="https://www.liturgia.quackstudios.com.au/info-hub/industry-news"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2638,7 +2665,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/info-hub/inside-zaptec"
+                      href="https://www.liturgia.quackstudios.com.au/info-hub/inside-zaptec"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2663,7 +2690,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/info-hub/tips-and-tricks"
+                      href="https://www.liturgia.quackstudios.com.au/info-hub/tips-and-tricks"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2688,7 +2715,7 @@
                     <a
                       target=""
                       class="inline-block secondary-menu-item whitespace-nowrap r-text-lg group relative group/link overflow-hidden hover:pl-6 transition-all duration-300"
-                      href="https://www.zaptec.com/info-hub/case-studies"
+                      href="https://www.liturgia.quackstudios.com.au/info-hub/case-studies"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -2711,7 +2738,7 @@
                 <a
                   target=""
                   class="r-text-3xl text-current group-hover/item:text-asphalt transition-color duration-300"
-                  href="https://www.zaptec.com/find-an-installer"
+                  href="https://www.liturgia.quackstudios.com.au/find-an-installer"
                   >Find an installer</a
                 ><span class="block overflow-hidden ml-3"
                   ><svg
@@ -2733,11 +2760,11 @@
               </div>
               <a
                 class="r-mt-8 text-sm sm:r-text-xl transition-color duration-300 hover:text-asphalt"
-                href="https://www.zaptec.com/contact"
+                href="https://www.liturgia.quackstudios.com.au/contact"
                 >Contact us</a
               ><a
                 class="text-sm sm:r-text-xl transition-color duration-300 hover:text-asphalt"
-                href="https://jobs.zaptec.com"
+                href="https://jobs.liturgia.quackstudios.com.au"
                 >Careers</a
               >
             </div>
@@ -2784,7 +2811,7 @@
               <a
                 target=""
                 class="simple-button white group"
-                href="https://www.zaptec.com/partners/become-a-partner"
+                href="https://www.liturgia.quackstudios.com.au/partners/become-a-partner"
                 ><span
                   class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
                 ></span
@@ -2808,7 +2835,7 @@
               <a
                 target=""
                 class="simple-button white group"
-                href="https://www.zaptec.com/partners/for-partners-installers"
+                href="https://www.liturgia.quackstudios.com.au/partners/for-partners-installers"
                 ><span
                   class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
                 ></span
@@ -2885,19 +2912,19 @@
                   target=""
                   class="r-text-sm custom-underline"
                   title="Products"
-                  href="https://www.zaptec.com/products"
+                  href="https://www.liturgia.quackstudios.com.au/products"
                   >Home</a
                 ><a
                   target=""
                   class="r-text-sm custom-underline"
                   title="For partners & installers"
-                  href="https://www.zaptec.com/partners"
+                  href="https://www.liturgia.quackstudios.com.au/partners"
                   >Features</a
                 ><a
                   target="_blank"
                   class="r-text-sm custom-underline"
                   title="Need help?"
-                  href="https://help.zaptec.com/hc/en-001"
+                  href="https://help.liturgia.quackstudios.com.au/hc/en-001"
                   >More</a
                 >
               </div>
@@ -3014,12 +3041,12 @@
                       >
                         <a
                           class="underline transition-colors duration-300 hover:text-asphalt"
-                          href="https://www.zaptec.com"
+                          href="https://www.liturgia.quackstudios.com.au"
                           >Home</a
                         ><span>/</span
                         ><a
                           class="underline transition-colors duration-300 hover:text-asphalt"
-                          href="https://www.zaptec.com/company"
+                          href="https://www.liturgia.quackstudios.com.au/company"
                           >Company</a
                         ><span>/</span>
                       </div>
@@ -3051,7 +3078,7 @@
                       ><a
                           target="_blank"
                           class="simple-button group"
-                          href="https://help.zaptec.com/hc/en-001/requests/new"
+                          href="https://help.liturgia.quackstudios.com.au/hc/en-001/requests/new"
                           ><span
                             class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
                           ></span
@@ -3116,7 +3143,7 @@
                     <a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/products"
+                      href="https://www.liturgia.quackstudios.com.au/products"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3132,7 +3159,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/partners"
+                      href="https://www.liturgia.quackstudios.com.au/partners"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3148,7 +3175,7 @@
                     ><a
                       target="_blank"
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://help.zaptec.com/hc/en-001"
+                      href="https://help.liturgia.quackstudios.com.au/hc/en-001"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3164,7 +3191,7 @@
                     ><a
                       target="_blank"
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+                      href="https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3180,7 +3207,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/company"
+                      href="https://www.liturgia.quackstudios.com.au/company"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3196,7 +3223,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/info-hub"
+                      href="https://www.liturgia.quackstudios.com.au/info-hub"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3212,7 +3239,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://portal.zaptec.com"
+                      href="https://portal.liturgia.quackstudios.com.au"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3228,7 +3255,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/company/investor-relations"
+                      href="https://www.liturgia.quackstudios.com.au/company/investor-relations"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3244,7 +3271,7 @@
                     ><a
                       target="_blank"
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/press-room"
+                      href="https://www.liturgia.quackstudios.com.au/press-room"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3260,7 +3287,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/terms-and-conditions"
+                      href="https://www.liturgia.quackstudios.com.au/terms-and-conditions"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3276,7 +3303,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/policies/privacy-policy"
+                      href="https://www.liturgia.quackstudios.com.au/policies/privacy-policy"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3292,7 +3319,7 @@
                     ><a
                       target=""
                       class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="https://www.zaptec.com/cookie-policy"
+                      href="https://www.liturgia.quackstudios.com.au/cookie-policy"
                       ><svg
                         viewBox="0 0 14 14"
                         fill="none"
@@ -3314,7 +3341,7 @@
                       <a
                         target=""
                         class="custom-underline block text-xl sm:r-text-2xl hover:text-sand transition-all duration-300"
-                        href="https://www.zaptec.com/contact"
+                        href="https://www.liturgia.quackstudios.com.au/contact"
                         >Contact us</a
                       >
                     </div>
@@ -3430,9 +3457,9 @@
             "currentSite": {
               "siteId": 1,
               "locale": "en",
-              "domain": "www.zaptec.com",
+              "domain": "www.liturgia.quackstudios.com.au",
               "url": "/",
-              "fullUrl": "https://www.zaptec.com/",
+              "fullUrl": "https://www.liturgia.quackstudios.com.au/",
               "handle": "default",
               "name": "Global / English",
               "primary": true,
@@ -3914,10 +3941,10 @@
                 "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"contact\"})": {
                   "__typename": "SeomaticType",
                   "metaTitleContainer": "{\"title\":{\"title\":\"Contact us | Liturgia\"}}",
-                  "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Use the contact forms below for partner and customer support inquiries\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Zaptec\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/www.zaptec.com\\/company\\/contact\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Contact us\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Use the contact forms below for partner and customer support inquiries\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Contact us\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Use the contact forms below for partner and customer support inquiries\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
-                  "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/www.zaptec.com\\/company\\/contact\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/www.zaptec.com\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/www.zaptec.com\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/www.zaptec.com\\/nl\\/organisatie\\/contact\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/fr\\/zaptec\\/contact\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/en-uk\\/company\\/contact\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/de\\/unternehmen\\/kontakt\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/da\\/virksomhed\\/kontakt\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/sv\\/foretag\\/kontakt\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/no\\/selskapet\\/kontakt\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/company\\/contact\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/fr-ch\\/entreprise\\/contact\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/de-ch\\/unternehmen\\/kontakt\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/fr-be\\/zaptec\\/nous-contacter\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.zaptec.com\\/nl-be\\/organisatie\\/contact\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
+                  "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Use the contact forms below for partner and customer support inquiries\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Zaptec\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\\/contact\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Contact us\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Use the contact forms below for partner and customer support inquiries\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":[],\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Contact us\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Use the contact forms below for partner and customer support inquiries\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":[],\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+                  "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\\/contact\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/nl\\/organisatie\\/contact\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/fr\\/zaptec\\/contact\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/en-uk\\/company\\/contact\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/de\\/unternehmen\\/kontakt\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/da\\/virksomhed\\/kontakt\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/sv\\/foretag\\/kontakt\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/no\\/selskapet\\/kontakt\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\\/contact\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/fr-ch\\/entreprise\\/contact\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/de-ch\\/unternehmen\\/kontakt\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/fr-be\\/zaptec\\/nous-contacter\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/nl-be\\/organisatie\\/contact\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
                   "metaScriptContainer": "{\"googleTagManager\":{\"script\":\"dataLayer = [];\\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\nj=d.createElement(s),dl=l!='dataLayer'?'\u0026l='+l:'';j.async=true;j.src=\\n'https:\\/\\/www.googletagmanager.com\\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n})(window,document,'script','dataLayer','GTM-NXM58Z5J');\\n\",\"bodyScript\":\"\u003cnoscript\u003e\u003ciframe src=\\\"https:\\/\\/www.googletagmanager.com\\/ns.html?id=GTM-NXM58Z5J\\\"\\nheight=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"\u003e\u003c\\/iframe\u003e\u003c\\/noscript\u003e\\n\"}}",
-                  "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2024-01-12T14:39:29+01:00\",\"dateModified\":\"2024-12-11T15:59:04+01:00\",\"datePublished\":\"2023-11-25T12:43:00+01:00\",\"description\":\"Use the contact forms below for partner and customer support inquiries\",\"headline\":\"Contact us\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/www.zaptec.com\\/company\\/contact\",\"name\":\"Contact us\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/www.zaptec.com\\/company\\/contact\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.zaptec.com\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.zaptec.com\\/company\",\"name\":\"Company\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.zaptec.com\\/company\\/contact\",\"name\":\"Contact us\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
+                  "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2024-01-12T14:39:29+01:00\",\"dateModified\":\"2024-12-11T15:59:04+01:00\",\"datePublished\":\"2023-11-25T12:43:00+01:00\",\"description\":\"Use the contact forms below for partner and customer support inquiries\",\"headline\":\"Contact us\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/zaptec.objects.frb.io\\/assets\\/About\\/_1200x630_crop_center-center_82_none\\/Zaptec_37-1.jpg?mtime=1718721507\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\\/contact\",\"name\":\"Contact us\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\\/contact\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"https:\\/\\/www.goodmorning.no\\/#creator\",\"@type\":\"LocalBusiness\",\"description\":\"Digital first studio in Oslo – We design and build digital products.\",\"email\":\"eirik@goodmorning.no\",\"name\":\"Good Morning\",\"priceRange\":\"$\",\"telephone\":\"+47 932 83 071\",\"url\":\"https:\\/\\/www.goodmorning.no\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.liturgia.quackstudios.com.au\",\"name\":\"Powers adventure\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\",\"name\":\"Company\",\"position\":2},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/www.liturgia.quackstudios.com.au\\/company\\/contact\",\"name\":\"Contact us\",\"position\":3}],\"name\":\"Breadcrumbs\"}}",
                   "metaSiteVarsContainer": "{\"siteName\":\"Zaptec\",\"siteAlternateName\":\"\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"\",\"genericAlternateName\":\"\",\"genericDescription\":\"\",\"genericUrl\":\"\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"\",\"genericEmail\":\"\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Good Morning\",\"genericAlternateName\":\"\",\"genericDescription\":\"Digital first studio in Oslo – We design and build digital products.\",\"genericUrl\":\"https:\\/\\/www.goodmorning.no\\/\",\"genericImage\":\"\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"+47 932 83 071\",\"genericEmail\":\"eirik@goodmorning.no\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"\",\"genericAddressRegion\":\"\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"Male\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
                 }
               },
@@ -3955,7 +3982,7 @@
                   "text": "System charging with Zaptec Pro",
                   "title": "System charging with Zaptec Pro",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/zaptec-pro"
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}": {
@@ -3970,7 +3997,7 @@
                   "text": "Home charging with Zaptec Go",
                   "title": "Home charging with Zaptec Go",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/zaptec-go"
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}": {
@@ -3985,7 +4012,7 @@
                   "text": "Load balancing with Zaptec Sense",
                   "title": "Load balancing with Zaptec Sense",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/zaptec-sense"
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}": {
@@ -4000,7 +4027,7 @@
                   "text": "Accessories",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/charging-solutions/accessories"
+                  "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
@@ -4015,7 +4042,7 @@
                   "text": "Digital services",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/digital-services"
+                  "url": "https://www.liturgia.quackstudios.com.au/products/digital-services"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
@@ -4131,7 +4158,7 @@
                   "text": "Learn More",
                   "title": "Documents \u0026 manuals",
                   "type": "url",
-                  "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals"
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}": {
@@ -4146,7 +4173,7 @@
                   "text": "Learn More",
                   "title": "Help centre",
                   "type": "url",
-                  "url": "https://help.zaptec.com/hc/en-001"
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}": {
@@ -4161,7 +4188,7 @@
                   "text": "Contact us",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/contact"
+                  "url": "https://www.liturgia.quackstudios.com.au/contact"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}": {
@@ -4176,7 +4203,7 @@
                   "text": "About us",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/company/about-us"
+                  "url": "https://www.liturgia.quackstudios.com.au/company/about-us"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
@@ -4191,7 +4218,7 @@
                   "text": "Our journey",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/company/history"
+                  "url": "https://www.liturgia.quackstudios.com.au/company/history"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
@@ -4206,7 +4233,7 @@
                   "text": "Quality and safety",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/company/quality-and-safety"
+                  "url": "https://www.liturgia.quackstudios.com.au/company/quality-and-safety"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
@@ -4221,7 +4248,7 @@
                   "text": "Sustainability commitments",
                   "title": "Sustainability commitments",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/company/sustainability"
+                  "url": "https://www.liturgia.quackstudios.com.au/company/sustainability"
                 }
               },
               "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
@@ -4236,7 +4263,7 @@
                   "text": "Investor Relations",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/company/investor-relations"
+                  "url": "https://www.liturgia.quackstudios.com.au/company/investor-relations"
                 }
               },       
               "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
@@ -4349,7 +4376,7 @@
                   "target": "",
                   "text": "System charging with Zaptec Pro",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/zaptec-pro",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro",
                   "title": "System charging with Zaptec Pro"
                 },
                 "plainText": "1-1000+ chargers",
@@ -4368,7 +4395,7 @@
                   "target": "",
                   "text": "Home charging with Zaptec Go",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/zaptec-go",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go",
                   "title": "Home charging with Zaptec Go"
                 },
                 "plainText": "1-3 chargers",
@@ -4387,7 +4414,7 @@
                   "target": "",
                   "text": "Load balancing with Zaptec Sense",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/zaptec-sense",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense",
                   "title": "Load balancing with Zaptec Sense"
                 },
                 "children": []
@@ -4405,7 +4432,7 @@
                   "target": "",
                   "text": "Accessories",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/charging-solutions/accessories",
+                  "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories",
                   "title": "Accessories"
                 },
                 "plainText": null,
@@ -4424,7 +4451,7 @@
                   "target": "",
                   "text": "Digital services",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/products/digital-services",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/digital-services",
                   "title": "Digital Services"
                 },
                 "plainText": null,
@@ -4478,7 +4505,7 @@
                   "target": "",
                   "text": "Become a partner",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/partners/become-a-partner",
+                  "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner",
                   "title": null
                 },
                 "plainText": null,
@@ -4497,7 +4524,7 @@
                   "target": "",
                   "text": "For our partners \u0026 installers",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/partners/for-partners-installers",
+                  "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners-installers",
                   "title": "Existing partners \u0026 installers"
                 },
                 "plainText": null,
@@ -4516,7 +4543,7 @@
                   "target": "_blank",
                   "text": "Learn More",
                   "type": "url",
-                  "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
                   "title": "Documents \u0026 Manuals"
                 },
                 "plainText": null,
@@ -4554,7 +4581,7 @@
                   "target": "_blank",
                   "text": "Learn More",
                   "type": "url",
-                  "url": "https://portal.zaptec.com/login/en",
+                  "url": "https://portal.liturgia.quackstudios.com.au/login/en",
                   "title": "Zaptec Portal"
                 },
                 "plainText": null,
@@ -4573,7 +4600,7 @@
                   "target": "",
                   "text": "Zaptec Academy",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/partners/for-partners/zaptec-academy",
+                  "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners/zaptec-academy",
                   "title": "Training courses"
                 },
                 "plainText": null,
@@ -4592,7 +4619,7 @@
                   "target": "",
                   "text": "Partners \u0026 installers",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/partners",
+                  "url": "https://www.liturgia.quackstudios.com.au/partners",
                   "title": "For partners \u0026 installers"
                 },
                 "plainText": null,
@@ -4630,7 +4657,7 @@
                   "target": "_blank",
                   "text": "Learn More",
                   "type": "url",
-                  "url": "https://help.zaptec.com/hc/en-001/categories/13983927892753-Documents-and-manuals",
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
                   "title": "Documents \u0026 Manuals"
                 },
                 "plainText": null,
@@ -4649,7 +4676,7 @@
                   "target": "_blank",
                   "text": "Learn More",
                   "type": "url",
-                  "url": "https://help.zaptec.com/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
                   "title": "Help centre"
                 },
                 "plainText": null,
@@ -4668,7 +4695,7 @@
                   "target": "_blank",
                   "text": "Learn More",
                   "type": "url",
-                  "url": "https://help.zaptec.com/hc/en-001",
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001",
                   "title": "Need help?"
                 },
                 "plainText": null,
@@ -4814,7 +4841,7 @@
                   "text": "Contact us",
                   "title": null,
                   "type": "entry",
-                  "url": "https://www.zaptec.com/contact"
+                  "url": "https://www.liturgia.quackstudios.com.au/contact"
                 }
               },
               "socials_link_BlockType:{\"uid\":\"e8d3bcc8-3865-44c1-b932-f3812d292e8d\",\"siteId\":1,\"id\":\"20752\"}": {
@@ -4912,7 +4939,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/no/"
+                  "url": "https://www.liturgia.quackstudios.com.au/no/"
                 }
               },
               "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
@@ -4941,7 +4968,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/sv/"
+                  "url": "https://www.liturgia.quackstudios.com.au/sv/"
                 }
               },
               "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
@@ -4970,7 +4997,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/da/"
+                  "url": "https://www.liturgia.quackstudios.com.au/da/"
                 }
               },
               "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
@@ -4999,7 +5026,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/de/"
+                  "url": "https://www.liturgia.quackstudios.com.au/de/"
                 }
               },
               "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
@@ -5028,7 +5055,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/en-uk/"
+                  "url": "https://www.liturgia.quackstudios.com.au/en-uk/"
                 }
               },
               "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
@@ -5057,7 +5084,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/fr/"
+                  "url": "https://www.liturgia.quackstudios.com.au/fr/"
                 }
               },
               "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
@@ -5086,7 +5113,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/nl/"
+                  "url": "https://www.liturgia.quackstudios.com.au/nl/"
                 }
               },
               "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
@@ -5115,7 +5142,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/nl-be/"
+                  "url": "https://www.liturgia.quackstudios.com.au/nl-be/"
                 }
               },
               "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
@@ -5127,7 +5154,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/fr-be/"
+                  "url": "https://www.liturgia.quackstudios.com.au/fr-be/"
                 }
               },
               "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
@@ -5159,7 +5186,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/fr-ch/"
+                  "url": "https://www.liturgia.quackstudios.com.au/fr-ch/"
                 }
               },
               "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
@@ -5171,7 +5198,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/de-ch/"
+                  "url": "https://www.liturgia.quackstudios.com.au/de-ch/"
                 }
               },
               "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
@@ -5307,7 +5334,7 @@
                   "__typename": "linkField_Link",
                   "target": "",
                   "title": null,
-                  "url": "https://www.zaptec.com/nl-be/"
+                  "url": "https://www.liturgia.quackstudios.com.au/nl-be/"
                 }
               },
               "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
@@ -5368,7 +5395,7 @@
                   "target": "",
                   "text": "Find an installer",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/find-an-installer",
+                  "url": "https://www.liturgia.quackstudios.com.au/find-an-installer",
                   "title": null
                 },
                 "image": []
@@ -5448,7 +5475,7 @@
                   "target": "",
                   "text": "Become a partner",
                   "type": "entry",
-                  "url": "https://www.zaptec.com/partners/become-a-partner",
+                  "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner",
                   "title": null
                 },
                 "image": []
