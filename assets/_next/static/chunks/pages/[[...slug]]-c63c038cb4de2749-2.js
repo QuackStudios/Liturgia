@@ -7528,6 +7528,8 @@
                   className: "contact-links flex flex-col items-start",
                   children: null == t ? void 0 : t.map(e => (0,
                   T.jsx)(e8.A, {
+                      href: e.itemLink.href,
+                      target: e.itemLink.target,
                       className: "custom-underline block text-xl sm:r-text-2xl ".concat(l ? "hover:text-forest" : "hover:text-sand", " transition-all duration-300"),
                       children: e.itemLink.text
                   }, e.uid))
@@ -7702,13 +7704,12 @@
                           children: i("Created and Powered by"),
                         }),
                         (0, T.jsx)("a", {
-                          className: "quack-logo-redirect",
-                          href: "https://quackstudios.com.au/",
+                          href: "https://quackstudios.com.au",
                           target: "_blank",
-                          rel: "noopener noreferrer",
+                          className: "quack-logo-redirect",
                           children: i("QuackStudios"),
                         }),
-                      ],                      
+                      ],
                   }),
                   (0,
                   T.jsxs)("div", {
