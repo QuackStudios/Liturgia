@@ -8615,8 +8615,6 @@ function updateMenuHeadings() {
       homeMenuItem.textContent = "Home";
       homeMenuItem.setAttribute("title", "Home");
       homeMenuItem.setAttribute("href", "/");
-    } else {
-      console.warn("'Products' menu item not found.");
     }
   
     // Update the second menu item: Change 'For partners & installers' to 'Product' -> '/features'
@@ -8627,8 +8625,6 @@ function updateMenuHeadings() {
       productMenuItem.textContent = "Features";
       productMenuItem.setAttribute("title", "Features");
       productMenuItem.setAttribute("href", "/features");
-    } else {
-      console.warn("'For partners & installers' menu item not found.");
     }
   
     // Update the third menu item: Change 'Need help?' to 'Support' -> '/contact'
@@ -8639,8 +8635,6 @@ function updateMenuHeadings() {
       supportMenuItem.textContent = "Support";
       supportMenuItem.setAttribute("title", "Support");
       supportMenuItem.setAttribute("href", "/support");
-    } else {
-      console.warn("'Need help?' menu item not found.");
     }
   }
   
@@ -8671,3 +8665,12 @@ function updateMenuHeadings() {
   });
   
   
+// Disable browser scroll restoration
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+  
+  // Force scroll to the top on page load
+  window.addEventListener('load', () => {
+    window.scrollTo(0, 0);
+  });
