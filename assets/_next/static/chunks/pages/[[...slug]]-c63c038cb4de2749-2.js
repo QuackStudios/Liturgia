@@ -6657,25 +6657,174 @@
           return (0,
           T.jsx)(nh.N, {
               mode: "wait",
-              children: (null == o ? void 0 : o.length) > 0 && (0,
-              T.jsx)(eW.P.div, {
-                  className: "secondary-menu-dropdown absolute left-0 top-full w-full bg-white z-50 overflow-hidden border-b border-t border-grey-border",
-                  initial: {
-                      opacity: 0,
-                      height: 0
-                  },
-                  animate: {
-                      opacity: 0,
-                      height: "0"
-                  },
-                  exit: {
-                      opacity: 0,
-                      height: 0
-                  },
-                
-                  children: (0,
-                  T.jsxs)("div", {
-                  })
+              children: (null == o ? void 0 : o.length) > 0 && 
+              (0, T.jsx)(eW.P.div, {
+                className:
+                  "secondary-menu-dropdown absolute left-0 top-full w-full bg-white z-50 overflow-hidden border-b border-t border-grey-border",
+                initial: { opacity: 0, height: 0 },
+                animate: { opacity: 1, height: "auto" },
+                exit: { opacity: 0, height: 0 },
+                onMouseEnter: () => {
+                  i.timeout && clearTimeout(i.timeout),
+                    r({ open: i.open, timeout: null });
+                },
+                onMouseLeave: () => {
+                  let e = setTimeout(() => {
+                    r({ open: !1, timeout: null });
+                  }, 500);
+                  r((n) => ({ ...n, timeout: e }));
+                },
+                children: (0, T.jsxs)("div", {
+                  className: "inner container full flex items-stretch h-full",
+                  children: [
+                    o
+                      .filter((e) => "default" === e.typeHandle)
+                      .map((e) => {
+                        let { navigationLink: n, tag: t } = e || {};
+                        if (!(null == n ? void 0 : n.href)) return null;
+                        if ("custom" === n.type && "#blank" === n.href) {
+                          let n = e.sub.some((e) => {
+                            let n = new URL(e.navigationLink.href).pathname;
+                            return d.includes(n);
+                          });
+                          return (0, T.jsxs)(
+                            "div",
+                            {
+                              className:
+                                "primary-menu-item r-text-lg border-r border-grey-border first:border-l group/main relative flex flex-col items-start gap-2 ".concat(
+                                  n ? "active" : "",
+                                  " r-w-[13.75] r-p-6"
+                                ),
+                              children: [
+                                (0, T.jsx)("span", {
+                                  className: "block mb-2",
+                                  children: e.title,
+                                }),
+                                e.sub.map((t) => {
+                                  let { navigationLink: l } = t || {},
+                                    i = new URL(l.href).pathname,
+                                    r = d.includes(i);
+                                  return (0, T.jsx)(
+                                    e8.A,
+                                    {
+                                      href: l.href,
+                                      target: l.target,
+                                      title: l.title,
+                                      className:
+                                        "secondary-menu-item leading-none custom-underline "
+                                          .concat(
+                                            n ? " text-white" : " text-asphalt"
+                                          )
+                                          .concat(r ? " active" : ""),
+                                      onClick: () => {
+                                        a({
+                                          event: "menu_clicked",
+                                          menu: e.title,
+                                          menulocation: "Top bar",
+                                        });
+                                      },
+                                      children: (0, T.jsx)("span", {
+                                        className: "block",
+                                        children: t.title,
+                                      }),
+                                    },
+                                    t.uid
+                                  );
+                                }),
+                                t &&
+                                  (0, T.jsx)("span", {
+                                    className:
+                                      "tag inline-block r-text-xs px-3 rounded-button mt-2 self-start r-mb-6",
+                                    children: t,
+                                  }),
+                                (0, T.jsx)("span", {
+                                  className:
+                                    "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover/main:opacity-100 -translate-x-1/2 group-hover/main:translate-x-0",
+                                  children: (0, T.jsx)(nS.A, {
+                                    className: "w-3 stroke-white",
+                                  }),
+                                }),
+                              ],
+                            },
+                            e.uid
+                          );
+                        }
+                        let l = new URL(n.href).pathname,
+                          i = d.includes(l);
+                        return (0, T.jsxs)(
+                          e8.A,
+                          {
+                            href: n.href,
+                            target: n.target,
+                            title: n.title,
+                            className:
+                              "primary-menu-item r-text-lg border-r border-grey-border first:border-l group relative ".concat(
+                                i ? "active" : "",
+                                " r-w-[13.75] r-p-6"
+                              ),
+                            onClick: () => {
+                              a({
+                                event: "menu_clicked",
+                                menu: e.title,
+                                menulocation: "Top bar",
+                              });
+                            },
+                            children: [
+                              (0, T.jsx)("span", {
+                                className: "block",
+                                children: e.title,
+                              }),
+                              t &&
+                                (0, T.jsx)("span", {
+                                  className:
+                                    "tag inline-block r-text-xs px-3 rounded-button mt-2 r-mb-6",
+                                  children: t,
+                                }),
+                              (0, T.jsx)("span", {
+                                className:
+                                  "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover:opacity-100 -translate-x-1/2 group-hover:translate-x-0",
+                                children: (0, T.jsx)(nS.A, {
+                                  className: "w-3 stroke-white",
+                                }),
+                              }),
+                            ],
+                          },
+                          e.uid
+                        );
+                      }),
+                    (0, T.jsx)("div", {
+                      className:
+                        "secondary-links flex flex-col items-start gap-3 r-p-6",
+                      children: o
+                        .filter((e) => "secondaryLinks" === e.typeHandle)
+                        .map((e) => {
+                          let { navigationLink: n } = e || {};
+                          if (!(null == n ? void 0 : n.href)) return null;
+                          let t = new URL(n.href || "").pathname,
+                            l = d.includes(t);
+                          return (0, T.jsx)(
+                            e8.A,
+                            {
+                              href: n.href,
+                              className:
+                                "secondary-menu-item r-text-base custom-underline text-asphalt ".concat(
+                                  l ? "active" : ""
+                                ),
+                              onClick: () => {
+                                a({
+                                  event: "menu_clicked",
+                                  menu: e.title,
+                                  menulocation: "Top bar",
+                                });
+                              },
+                              children: e.title,
+                            },
+                            e.uid
+                          );
+                        }),
+                    }),
+                  ],
+                }),
               })
           })
       }
@@ -8595,75 +8744,10 @@ observer5.observe(document.body, {
   subtree: true, // Watch the entire DOM tree
 });
 
+ 
 
 
 
-
-function updateMenuHeadings() {
-  
-    // Ensure dropdown is always hidden
-    const dropdownMenu = document.querySelector(".secondary-menu-dropdown");
-    if (dropdownMenu) {
-      dropdownMenu.style.display = "none"; // Hide dropdown permanently
-    }
-  
-    // Update the first menu item: Change 'Products' to 'Home'
-    const homeMenuItem = document.querySelector(
-      '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="Products"]'
-    );
-    if (homeMenuItem) {
-      homeMenuItem.textContent = "Home";
-      homeMenuItem.setAttribute("title", "Home");
-      homeMenuItem.setAttribute("href", "/");
-    }
-  
-    // Update the second menu item: Change 'For partners & installers' to 'Product' -> '/features'
-    const productMenuItem = document.querySelector(
-      '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="For partners & installers"]'
-    );
-    if (productMenuItem) {
-      productMenuItem.textContent = "Features";
-      productMenuItem.setAttribute("title", "Features");
-      productMenuItem.setAttribute("href", "/features");
-    }
-  
-    // Update the third menu item: Change 'Need help?' to 'Support' -> '/contact'
-    const supportMenuItem = document.querySelector(
-      '.secondary-menu.hidden.sm\\:flex.items-center.r-gap-12.text-asphalt a[title="Need help?"]'
-    );
-    if (supportMenuItem) {
-      supportMenuItem.textContent = "Support";
-      supportMenuItem.setAttribute("title", "Support");
-      supportMenuItem.setAttribute("href", "/support");
-    }
-  }
-  
-  // Observe DOM changes to dynamically update menu headings
-  function observeDOMChanges() {
-    const targetNode = document.body;
-  
-    if (!targetNode) {
-      console.error("Failed to find the target node for MutationObserver.");
-      return;
-    }
-  
-    const observer = new MutationObserver(() => {
-      updateMenuHeadings();
-    });
-  
-    observer.observe(targetNode, {
-      childList: true,
-      subtree: true,
-    });
-  
-  }
-  
-  // Initialize on DOMContentLoaded
-  document.addEventListener("DOMContentLoaded", () => {
-    updateMenuHeadings();
-    observeDOMChanges();
-  });
-  
   
 // Disable browser scroll restoration
 if ('scrollRestoration' in history) {

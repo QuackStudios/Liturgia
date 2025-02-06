@@ -8925,7 +8925,7 @@
               )
         ),
         F = (e) => {
-          let t = new URL("https://cms.zaptec.com/api");
+          let t = new URL("http://cms.zaptec.com/api");
           for (let [r, n] of Object.entries(e)) t.searchParams.append(r, n);
           return new R({
             uri: t.toString(),
