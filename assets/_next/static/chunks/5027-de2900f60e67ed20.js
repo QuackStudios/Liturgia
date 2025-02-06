@@ -200,10 +200,6 @@ function processButton(button) {
     ? buttonTexts[buttonIndex] // Use the mapped text
     : "Default Text"; // Fallback to "Default Text" if href is not in the map
 
-  console.log("Processing button:");
-  console.log("  Href:", href);
-  console.log("  Button Index:", buttonIndex);
-  console.log("  Button Text:", buttonText);
 
   // Step 5: Update only the text node inside the "icon overflow-hidden" span
   const iconSpan = button.querySelector(".icon.overflow-hidden");
@@ -216,11 +212,7 @@ function processButton(button) {
     if (textNode) {
       // Update the text node with the new text
       textNode.textContent = buttonText;
-    } else {
-      console.warn("No text node found inside '.icon.overflow-hidden' for button:", button);
     }
-  } else {
-    console.warn("Could not find '.icon.overflow-hidden' for button:", button);
   }
 }
 
@@ -231,7 +223,6 @@ function observeButtons() {
 
   // Create a MutationObserver to watch for changes in the DOM
   const observer = new MutationObserver((mutationsList) => {
-    console.log("MutationObserver detected changes:", mutationsList); // Debug log
     for (const mutation of mutationsList) {
       if (mutation.type === "childList") {
         // Check added nodes for buttons
@@ -772,6 +763,7 @@ let f = function (e) {
                       url: W.src,
                       width: "100%",
                       height: "100%",
+                      opacity: 0.8,
                       
                       onReady: () => {
                           c.os.to(S.current, {

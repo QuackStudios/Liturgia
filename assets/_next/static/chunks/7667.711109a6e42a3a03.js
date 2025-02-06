@@ -831,7 +831,7 @@
                   (0, i.jsx)(r.P.div, {
                     variants: I,
                     className:
-                      "absolute z-50 flex items-center justify-center rounded-full overflow-hidden bg-forest border border-forest text-forest text-xs w-[6.75rem] h-[6.75rem] left-0 top-0 pointer-events-none p-4 text-center hidden-cursor",
+                      "absolute z-50 flex items-center justify-center rounded-full overflow-hidden bg-forest border border-forest text-forest text-xs w-[6.75rem] h-[6.75rem] left-0 top-0 pointer-events-none p-4 text-center",
                     initial: { x: g.x, y: g.y, scale: 0.65, opacity: 0 },
                     animate: x,
                     exit: { scale: 0.65, opacity: 0 },

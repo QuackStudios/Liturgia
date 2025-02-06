@@ -1556,7 +1556,7 @@
       function _(e, t) {
         return h().then((r) => {
           if (!(t in r)) throw l(Error("Failed to lookup route: " + t));
-          let o = r[t].map((t) => e + "/assets/_next/" + (0, i.encodeURIPath)(t));
+          let o = r[t].map((t) => e + "assets/_next/" + (0, i.encodeURIPath)(t));
           return {
             scripts: o
               .filter((e) => e.endsWith(".js"))
@@ -3637,7 +3637,7 @@
           "scrollRestoration" in window.history &&
           !!(function () {
             try {
-              let e = "assets/_next";
+              let e = "__next";
               return (
                 sessionStorage.setItem(e, e), sessionStorage.removeItem(e), !0
               );

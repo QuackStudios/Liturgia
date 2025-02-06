@@ -262,38 +262,34 @@
             ],
             scale: [1, -1, -1],
             position: [0, 0, 0],
-            model: "assets/assets/3D/Zaptec-Go.gltf",
+            model: "https://zaptec.objects.frb.io/assets/3D/Zaptec-Go.gltf",
           },
           zaptecGo2: {
-            colors: [
-              { color: "#0a0a0a", name: "Asphalt Black" },
-              { color: "#26252d", name: "Midnight Blue" },
-              { color: "#474a51", name: "Rock Grey" },
-              { color: "#4e3b31", name: "Wood Brown" },
-              { color: "#f4f4f4", name: "Cloud White" },
-              { color: "#6c7059", name: "Moss Green" },
-            ],
+            colors: [{ color: "#0a0a0a", name: "Asphalt Black" }],
             scale: [0.01, -0.01, -0.01],
             position: [0, 0, 0],
-            model: "assets/assets/3D/Zaptec-Go-2-new.gltf",
+            model:
+              "https://zaptec.objects.frb.io/assets/3D/Zaptec-Go-2-new.gltf",
           },
           zaptecPro: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
             scale: [-0.7, -0.7, 0.7],
             position: [0, 0.06, 0],
-            model: "assets/assets/3D/Zaptec-Pro2.gltf",
+            model: "https://zaptec.objects.frb.io/assets/3D/Zaptec-Pro2.gltf",
           },
           zaptecProMid: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
             scale: [-0.7, -0.7, 0.7],
             position: [0, 0.06, 0],
-            model: "assets/assets/3D/zaptec-pro-mid.gltf",
+            model:
+              "https://zaptec.objects.frb.io/assets/3D/zaptec-pro-mid.gltf",
           },
           zaptecProFrench: {
             colors: [{ color: "#0a0a0a", name: "Black" }],
             scale: [-0.7, -0.7, 0.7],
             position: [0, 0.06, 0],
-            model: "assets/assets/3D/zaptec-pro-french.gltf",
+            model:
+              "https://zaptec.objects.frb.io/assets/3D/zaptec-pro-french.gltf",
           },
         },
         p = (e) => {
@@ -353,31 +349,31 @@
                 a
               );
             })(S, { once: !0 }),
-            [C, D] = (0, n.useState)(b.chargers[0]),
-            [B, R] = (0, n.useState)(
-              null === (t = m[C]) || void 0 === t ? void 0 : t.colors[0]
+            [D, C] = (0, n.useState)(b.chargers[0]),
+            [R, A] = (0, n.useState)(
+              null === (t = m[D]) || void 0 === t ? void 0 : t.colors[0]
             );
           return (
             (0, n.useEffect)(() => {
               var e;
-              z[null === (e = m[C]) || void 0 === e ? void 0 : e.model]
+              z[null === (e = m[D]) || void 0 === e ? void 0 : e.model]
                 ? k(!1)
                 : k(!0);
-            }, [z, C, k]),
+            }, [z, D, k]),
             (0, r.jsxs)("div", {
               className: "w-full h-full relative",
               ref: S,
               children: [
                   (0, r.jsx)(f, {
                     modelPath:
-                      null === (o = m[C]) || void 0 === o ? void 0 : o.model,
-                    color: B.color,
+                      null === (o = m[D]) || void 0 === o ? void 0 : o.model,
+                    color: R.color,
                     small: x,
                     scale:
-                      null === (l = m[C]) || void 0 === l ? void 0 : l.scale,
+                      null === (l = m[D]) || void 0 === l ? void 0 : l.scale,
                     position:
-                      null === (a = m[C]) || void 0 === a ? void 0 : a.position,
-                    currentProduct: C,
+                      null === (a = m[D]) || void 0 === a ? void 0 : a.position,
+                    currentProduct: D,
                     setCursorVariant: w,
                     setLoading: k,
                     setLoadedModels: E,

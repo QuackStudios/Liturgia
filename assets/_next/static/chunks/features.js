@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const cardsContent = [
         {
           text: "The parish team and I rely on Liturgia constantly for promptly preparing weekly liturgies, assisting couples to prepare weddings and families to prepare funerals, and to guide school staff in preparing school Masses. It is an intuitive, powerful, Australian tool that puts all you need at your fingertips and saves many hours in preparation time. ",
-          attribution: "- Pastoral Coordinator, Holy Trinity Parish, Bentleigh, and Music Leader, St Mary’s, Bairnsdale, Victoria."
+          attribution: "- Pastoral Coordinator, Holy Trinity Parish, Bentleigh, and Music Leader, St Mary’s, Bairnsdale, Victoria"
         },
         {
           text: "Liturgia has been indispensable as I prepare liturgies for plenary meetings of the bishops and for keeping on top of the details of the ordo to inform the rest of my work. It’s an essential resource that makes work that used to take hours a breeze. ",
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
           text: "Liturgia provides an invaluable resource for accessing liturgical texts, rites, readings and even homily notes.  It is easy to navigate and provides the individual with stress-free guidelines and assistance for liturgy planning. Thoroughly recommended.",
-          attribution: "- Pastoral Assistant in the Brisbane Archdiocese."
+          attribution: "- Pastoral Assistant in the Brisbane Archdiocese"
         }
       ];
 

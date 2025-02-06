@@ -11208,7 +11208,7 @@
         m = {
           deviceSizes: [640, 750, 828, 1080, 1200, 1920],
           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-          path: "/assets/_next/image",
+          path: "assets/_next/image",
           loader: "default",
           dangerouslyAllowSVG: !0,
           unoptimized: !1,
@@ -12103,7 +12103,7 @@
           imgConf: {
             deviceSizes: [640, 750, 828, 1080, 1200, 1920],
             imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-            path: "/assets/_next/image",
+            path: "assets/_next/image",
             loader: "default",
             dangerouslyAllowSVG: !0,
             unoptimized: !1,
@@ -12119,7 +12119,8 @@
       function r(e) {
         let { config: t, src: r, width: n, quality: i } = e;
         return (
-          r
+              r
+
         );
       }
       Object.defineProperty(t, "__esModule", { value: !0 }),

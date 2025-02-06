@@ -1,1 +1,88 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2419],{12419:(e,r,l)=>{l.r(r),l.d(r,{default:()=>o});var t=l(74848),a=l(17938),n=l(96540),s=l(89160),i=l(67667);let o=e=>{let{fieldData:r}=e,l=(0,n.useRef)(null),[o,d]=(0,a.Mt)(r.handle),[c,u]=(0,n.useState)(!1);return(0,n.useEffect)(()=>{(null==l?void 0:l.current)&&(l.current.addEventListener("focus",()=>{u(!0)}),l.current.addEventListener("blur",()=>{u(!1)}))},[l]),(0,t.jsxs)("div",{className:"freeform-field relative bg-grey-bg border border-grey-border rounded-sm flex flex-col items-start flex-1 py-2 px-2",children:[(0,t.jsx)(s.P.label,{htmlFor:r.handle,className:"freeform-label pointer-events-none transform origin-top-left will-change-auto",initial:{scale:1,color:"#222"},animate:o.value||c?{scale:.8571428571,y:"0",top:"0.25rem",color:"#767572"}:{scale:1,color:"#222",top:"0.5rem"},transition:{duration:.2},children:r.label}),(0,t.jsx)(a.D0,{as:"textarea",name:r.handle,id:r.handle,placeholder:r.placeholder,maxLength:r.maxLength,className:"freeform-input w-full bg-transparent outline-none r-min-h-[11]",innerRef:l}),(0,t.jsx)(i.N,{children:d.touched&&d.error?(0,t.jsx)(s.P.div,{className:"freeform-error absolute left-0 top-full text-red w-full z-10",initial:{opacity:0,y:-10},animate:{opacity:1,y:0},exit:{opacity:0,y:10},transition:{type:"spring",stiffness:300,damping:30},children:d.error}):null}),r.required&&(0,t.jsx)("span",{className:"freeform-required absolute right-2 top-1 text-red",children:"*"})]})}}}]);
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [2419],
+  {
+    12419: (e, r, l) => {
+      l.r(r), l.d(r, { default: () => o });
+      var t = l(74848),
+        a = l(17938),
+        n = l(96540),
+        s = l(89160),
+        i = l(67667);
+      let o = (e) => {
+        let { fieldData: r } = e,
+          l = (0, n.useRef)(null),
+          [o, d] = (0, a.Mt)(r.handle),
+          [c, u] = (0, n.useState)(!1);
+        return (
+          (0, n.useEffect)(() => {
+            (null == l ? void 0 : l.current) &&
+              (l.current.addEventListener("focus", () => {
+                u(!0);
+              }),
+              l.current.addEventListener("blur", () => {
+                u(!1);
+              }));
+          }, [l]),
+          (0, t.jsxs)("div", {
+            className:
+              "freeform-field relative bg-grey-bg border border-grey-border rounded-sm flex flex-col items-start flex-1 py-2 px-2",
+            children: [
+              (0, t.jsx)(s.P.label, {
+                htmlFor: r.handle,
+                className:
+                  "freeform-label pointer-events-none transform origin-top-left will-change-auto",
+                initial: { scale: 1, color: "#222" },
+                animate:
+                  o.value || c
+                    ? {
+                        scale: 0.8571428571,
+                        y: "0",
+                        top: "0.25rem",
+                        color: "#767572",
+                      }
+                    : { scale: 1, color: "#222", top: "0.5rem" },
+                transition: { duration: 0.2 },
+                children: r.label,
+              }),
+              (0, t.jsx)(a.D0, {
+                as: "textarea",
+                name: r.handle,
+                id: r.handle,
+                placeholder: r.placeholder,
+                maxLength: r.maxLength,
+                className:
+                  "freeform-input w-full bg-transparent outline-none r-min-h-[11]",
+                innerRef: l,
+              }),
+              (0, t.jsx)(i.N, {
+                children:
+                  d.touched && d.error
+                    ? (0, t.jsx)(s.P.div, {
+                        className:
+                          "freeform-error absolute left-0 top-full text-red w-full z-10",
+                        initial: { opacity: 0, y: -10 },
+                        animate: { opacity: 1, y: 0 },
+                        exit: { opacity: 0, y: 10 },
+                        transition: {
+                          type: "spring",
+                          stiffness: 300,
+                          damping: 30,
+                        },
+                        children: d.error,
+                      })
+                    : null,
+              }),
+              r.required &&
+                (0, t.jsx)("span", {
+                  className:
+                    "freeform-required absolute right-2 top-1 text-red",
+                  children: "*",
+                }),
+            ],
+          })
+        );
+      };
+    },
+  },
+]);

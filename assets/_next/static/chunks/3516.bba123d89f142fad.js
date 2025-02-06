@@ -145,50 +145,7 @@
             children: [
               (null === (u = v.items) || void 0 === u ? void 0 : u.length) >
                 1 &&
-                (0, l.jsx)("div", {
-                  className:
-                    "menu-wrapper flex flex-col relative row-start-1 row-span-1 ".concat(
-                      "right" === v.blockAlignment
-                        ? " col-start-1 col-end-3"
-                        : " col-start-9 col-end-11"
-                    ),
-                  children: (0, l.jsxs)("div", {
-                    className:
-                      "menu will-change-transform flex-col hidden 2xl:flex",
-                    ref: y,
-                    children: [
-                      (0, l.jsx)("div", {
-                        className:
-                          "line absolute left-0 top-0 h-full w-[2px] bg-grey-border",
-                        children: (0, l.jsx)("div", {
-                          ref: j,
-                          className:
-                            "bar w-full h-auto absolute left-0 top-0 bg-asphalt",
-                        }),
-                      }),
-                      v.items.map((e, t) =>
-                        (0, l.jsx)(
-                          "button",
-                          {
-                            className:
-                              "leading-[1.75] text-sm text-left p-0 r-ml-4 ".concat(
-                                N === t ? "text-asphalt" : "text-grey",
-                                " duration-300 transition-colors"
-                              ),
-                            onClick: () => {
-                              s.os.to(window, {
-                                duration: 0.5,
-                                scrollTo: { y: b.current[t], offsetY: 0 },
-                              });
-                            },
-                            children: e.menuTitle,
-                          },
-                          "menu-".concat(e.uid)
-                        )
-                      ),
-                    ],
-                  }),
-                }),
+          
               (0, l.jsx)("div", {
                 className:
                   "block-content-wrapper row-start-1 row-span-3 mt-[-5vh] ".concat(

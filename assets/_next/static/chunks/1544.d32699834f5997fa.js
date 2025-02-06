@@ -121,6 +121,21 @@
             T({ x: e - n, y: l - o });
           },
           children: [
+            (0, o.jsx)(n.N, {
+              children:
+                G.isOver &&
+                !D &&
+                (0, o.jsx)(i.P.div, {
+                  variants: Q,
+                  className:
+                    "absolute z-50 flex items-center justify-center rounded-full overflow-hidden bg-forest border border-forest text-forest text-xs w-[6.75rem] h-[6.75rem] left-0 top-0 pointer-events-none p-4 text-center",
+                  initial: { x: R.x, y: R.y, scale: 0.65, opacity: 0 },
+                  animate: B,
+                  exit: { scale: 0.65, opacity: 0 },
+                  transition: { type: "spring", stiffness: 500, damping: 28 },
+                  children: _("dragRotate"),
+                }),
+            }),
             (0, o.jsxs)("div", {
               className: "container py-12 sm:r-pt-[8.5] sm:r-pb-[9.25]",
               children: [
@@ -160,6 +175,11 @@
                     "columns-".concat(X.products[H].uid)
                   ),
                 }),
+                (null === (e = X.products) || void 0 === e
+                  ? void 0
+                  : e.length) > 1 &&
+                  (0, o.jsx)("div", {
+                  }),
                 (0, o.jsx)(n.N, {
                   mode: "wait",
                   children:

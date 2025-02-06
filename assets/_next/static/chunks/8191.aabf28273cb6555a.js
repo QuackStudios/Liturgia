@@ -104,7 +104,7 @@
                             ease: [0.04, 0.62, 0.23, 0.98],
                           },
                           children: (0, s.jsx)(t.P.div, {
-                            className: "bg-asphalt h-full w-full origin-left",
+                            className: "bg-asphalt h-full w-full origin-left red-border",
                             variants: {
                               hidden: { scaleX: 0 },
                               hover: { scaleX: 1 },

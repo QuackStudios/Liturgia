@@ -144,35 +144,7 @@
                 className: "h2-text-alt",
                 children: (0, i.jsx)(h.A, { children: T.title }),
               }),
-            (null === (l = T.groups) || void 0 === l ? void 0 : l.length) > 1 &&
-              (0, i.jsx)("div", {
-                className: "flex items-center gap-3 r-mt-8",
-                children: T.groups.map((e, l) =>
-                  (0, i.jsxs)(
-                    "button",
-                    {
-                      type: "button",
-                      onClick: () => P(l),
-                      className:
-                        "text-sm text-left px-6 h-[3.25rem] inline-flex items-center rounded-button transition-colors duration-300  bg-white border border-forest overflow-hidden isolate relative hover:bg-sand-light ".concat(
-                          C === l ? "text-white" : "text-forest"
-                        ),
-                      children: [
-                        e.title,
-                        (0, i.jsx)(s.P.div, {
-                          className:
-                            "absolute left-0 top-0 w-full h-full bg-forest rounded-button -z-10",
-                          initial: { x: C > l ? "-100%" : "100%" },
-                          animate: {
-                            x: C === l ? 0 : C > l ? "100%" : "-100%",
-                          },
-                        }),
-                      ],
-                    },
-                    e.uid
-                  )
-                ),
-              }),
+            
             (0, i.jsx)(n.N, {
               mode: "wait",
               children: (0, i.jsx)(
@@ -445,7 +417,7 @@
                                   },
                                   children: (0, i.jsx)(s.P.div, {
                                     className:
-                                      "bg-asphalt h-full w-full origin-left",
+                                      "bg-asphalt h-full w-full origin-left red-border",
                                     variants: {
                                       hidden: { scaleX: 0 },
                                       hover: { scaleX: 1 },

@@ -242,7 +242,7 @@
               !v &&
               (0, l.jsx)(n.w1, {
                 options: {
-                  imagePath: "assets/assets/Map/m",
+                  imagePath: "https://zaptec.objects.frb.io/assets/Map/m",
                   imageExtension: "png",
                   imageSizes: [120, 150, 170, 190, 210, 210],
                   maxZoom: 16,

@@ -7,6 +7,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
 
     // Add the pricing calculator HTML
     modulesSection.innerHTML = `
+    <div class="pricing-calculator-container">
       <div class="calculator-container">
         <div class="controls">
           <label for="pricing-class">Select Pricing Class</label>
@@ -31,7 +32,10 @@ const observer = new MutationObserver((mutationsList, observer) => {
           <button onclick="getStarted()">Get Started <span class="arrow-symbol"> →</span></button>
         </div>
       </div>
-      <div class="bulk-licensing-text">Liturgia offers competitive rates for organizations interested in bulk purchasing. Contact us to learn more about our flexible options. </div>
+      <div class="rhs-bulk-licensing-text">
+      Liturgia offers competitive rates for organizations interested in bulk purchasing. Contact us to learn more about our flexible options. 
+      </div>
+    </div>
       <div class="trusted-by-content">
         <div class="trusted-by-text">Trusted By</div>
         <div class="trusted-by-logos">
@@ -41,6 +45,8 @@ const observer = new MutationObserver((mutationsList, observer) => {
           <div class="tb-logo-4"><img class="tb-logo-img" src="assets/_next/image/crest-csdp-horizontal-colour.svg"></div>
         </div>
       </div>
+
+  
     `;
 
     // Append the "modules-pp" section to the DOM
