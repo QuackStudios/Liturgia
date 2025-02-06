@@ -66,11 +66,7 @@
         "url": "https://www.liturgia.quackstudios.com.au/pricing"
       }
     </script>
-    <link
-      href="/pricing"
-      rel="canonical"
-      data-next-head=""
-    />
+    <link href="/pricing" rel="canonical" data-next-head="" />
     <link href="https://www.getliturgia.com.au" rel="home" data-next-head="" />
     <link
       href="https://www.getliturgia.com.au/humans.txt"
@@ -93,11 +89,7 @@
     <meta content="en" property="og:locale" data-next-head="" />
     <meta content="Liturgia" property="og:site_name" data-next-head="" />
     <meta content="website" property="og:type" data-next-head="" />
-    <meta
-      content="/pricing"
-      property="og:url"
-      data-next-head=""
-    />
+    <meta content="/pricing" property="og:url" data-next-head="" />
     <meta content="Pricing" property="og:title" data-next-head="" />
     <meta
       content="Be in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips."
@@ -158,37 +150,40 @@
     </style>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-      // Intercept all clicks on links
-      document.body.addEventListener("click", (event) => {
-        const target = event.target.closest("a"); // Check if the click is on or inside an <a> tag
-        if (target && target.tagName === "A") {
-          const href = target.getAttribute("href");
+        // Intercept all clicks on links
+        document.body.addEventListener("click", (event) => {
+          const target = event.target.closest("a"); // Check if the click is on or inside an <a> tag
+          if (target && target.tagName === "A") {
+            const href = target.getAttribute("href");
 
-          // Check if href is a relative URL and not an external link
-          if (href && href.startsWith("/")) {
-            event.preventDefault(); // Prevent the default browser behaviour
-            console.log(`Intercepted navigation to: ${href}`);
+            // Check if href is a relative URL and not an external link
+            if (href && href.startsWith("/")) {
+              event.preventDefault(); // Prevent the default browser behaviour
+              console.log(`Intercepted navigation to: ${href}`);
 
-            // Change the URL programmatically
-            window.history.pushState({}, "", href);
+              // Change the URL programmatically
+              window.history.pushState({}, "", href);
 
-            // Force the router or page to render the correct component
-            if (typeof window.onNavigate === "function") {
-              window.onNavigate(href);
-            } else {
-              location.reload(); // Fallback: reload the page to load the correct content
+              // Force the router or page to render the correct component
+              if (typeof window.onNavigate === "function") {
+                window.onNavigate(href);
+              } else {
+                location.reload(); // Fallback: reload the page to load the correct content
+              }
             }
           }
-        }
+        });
       });
-    });
     </script>
     <meta
       name="google-site-verification"
       content="l0_J4bqd0TlJM3crSkgU5f2wp6DCQKJQv0tZ_RsTYuA"
     />
     <script defer src="assets/_next/static/chunks/pricing.js"></script>
-    <script defer src="assets/_next/static/chunks/pricing-testimonials.js"></script>
+    <script
+      defer
+      src="assets/_next/static/chunks/pricing-testimonials.js"
+    ></script>
     <script
       defer=""
       nomodule=""
@@ -231,7 +226,7 @@
       defer=""
     ></script>
     <script
-      src="assets/_next/static/chunks/pages/%5B%5B...slug%5D%5D-c63c038cb4de2749-2.js"
+      src="assets/_next/static/chunks/pages/[[...slug]]-9387500064baee6e.js"
       defer=""
     ></script>
     <script
@@ -1955,7 +1950,10 @@
       onload="this.media='all'"
     />
     <noscript>
-      <link rel="stylesheet" href="assets/_next/static/css/aa1da930d1bdb383.css" />
+      <link
+        rel="stylesheet"
+        href="assets/_next/static/css/aa1da930d1bdb383.css"
+      />
     </noscript>
     <link
       rel="stylesheet"
@@ -1970,6 +1968,7 @@
     <noscript data-n-css=""></noscript>
     <link rel="stylesheet" href="/assets/_next/static/css/pricing.css" />
   </head>
+
   <body class="font-primary text-base bg-white">
     <div id="__next">
       <nav
@@ -1990,366 +1989,470 @@
               );
             "
           ></div>
-          <div
-            class="absolute left-0 top-0 r-mt-[5.375] w-[calc(100%-20px)] h-16 z-[60] pointer-events-none"
-            style="
-              background: linear-gradient(
-                0deg,
-                rgba(249, 243, 235, 0) 0%,
-                rgba(249, 243, 235, 1) 100%
-              );
-            "
-          ></div>
+        </div>
+        <div
+          class="absolute left-0 top-0 w-full h-16 z-50 pointer-events-none"
+          style="
+            background: linear-gradient(
+              0deg,
+              rgba(249, 243, 235, 0) 0%,
+              rgba(249, 243, 235, 1) 100%
+            );
+          "
+        ></div>
       </nav>
       <div class="flex flex-col text-body body-text max-w-[100vw]">
-        <div style="display: none !important">
-        </div>
-        <nav class="top-bar fixed top-0 z-[100] w-full transition-all">
-          <div
-            class="inner container full r-h-[5.375] flex items-center justify-between transition-all duration-300"
-          >
-            <div class="menu-left flex items-center r-gap-[7.88]">
-              <a class="mr-element-xs text-xl" href="/"
+        <div style="display: none !important"></div>
+      </div>
+      <nav class="top-bar fixed top-0 z-[100] w-full transition-all">
+        <div
+          class="inner container full r-h-[5.375] flex items-center justify-between transition-all duration-300"
+        >
+          <div class="menu-left flex items-center r-gap-[7.88]">
+            <a class="mr-element-xs text-xl" href="/">
+              <svg
+                width="311px"
+                height="97px"
+                viewBox="0 0 311 97"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                class="logo r-w-[5.875] fill-asphalt transition-colors duration-300"
+              >
+                <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+                <title>Logo-Red-Horiz</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+                  <polygon
+                    id="path-1"
+                    points="0 97 310.608221 97 310.608221 0.553708333 0 0.553708333"
+                  ></polygon>
+                </defs>
+                <g
+                  id="Desktop"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
                 >
-                <svg width="311px" height="97px" viewBox="0 0 311 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="logo r-w-[5.875] fill-asphalt transition-colors duration-300">
-                  <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-                  <title>Logo-Red-Horiz</title>
-                  <desc>Created with Sketch.</desc>
-                  <defs>
-                      <polygon id="path-1" points="0 97 310.608221 97 310.608221 0.553708333 0 0.553708333"></polygon>
-                  </defs>
-                  <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="Elements" transform="translate(-802.000000, -214.000000)">
-                          <g id="Logo" transform="translate(802.000000, 157.000000)">
-                              <g id="Logo-Red-Horiz" transform="translate(0.000000, 57.000000)">
-                                  <g id="Logo1">
-                                      <polygon id="Fill-1" fill="currentColor" points="115.42768 31 115.42768 61.0329899 126 61.0329899 126 66 110 66 110 31"></polygon>
-                                      <polygon id="Fill-2" fill="currentColor" points="131 66 136 66 136 31 131 31"></polygon>
-                                      <polygon id="Fill-3" fill="currentColor" points="154.10757 35.9670101 154.10757 66 148.912351 66 148.912351 35.9670101 141 35.9670101 141 31 162 31 162 35.9670101"></polygon>
-                                      <g id="Group-21">
-                                          <path d="M172.057721,30.7760792 L172.057721,51.8048708 C172.057721,54.8037875 172.546435,56.9984125 173.527903,58.3847042 C174.985968,60.3893708 177.041799,61.3917042 179.695396,61.3917042 C182.36111,61.3917042 184.429058,60.3893708 185.887123,58.3847042 C186.868591,57.0428708 187.357305,54.8522875 187.357305,51.8048708 L187.357305,30.7760792 L192.620071,30.7760792 L192.620071,53.2558292 C192.620071,56.9337458 191.477045,59.9649958 189.186955,62.3455375 C186.610097,64.9968708 183.447591,66.3225375 179.695396,66.3225375 C175.943201,66.3225375 172.788773,64.9968708 170.228071,62.3455375 C167.933942,59.9649958 166.790916,56.9337458 166.790916,53.2558292 L166.790916,30.7760792 L172.057721,30.7760792 Z" id="Fill-4" fill="currentColor"></path>
-                                          <path d="M206.248738,46.8085625 L207.920868,46.8085625 C212.904945,46.8085625 215.401023,44.9008958 215.401023,41.0855625 C215.401023,37.5127292 212.977647,35.7303542 208.122816,35.7303542 L206.248738,35.7303542 L206.248738,46.8085625 Z M212.803971,50.8098125 L223.604153,65.6912292 L217.16201,65.6912292 L207.197894,51.3998958 L206.248738,51.3998958 L206.248738,65.6912292 L200.981932,65.6912292 L200.981932,30.7752708 L207.153465,30.7752708 C211.761919,30.7752708 215.090023,31.6401875 217.141816,33.3781042 C219.399595,35.3059792 220.530504,37.8522292 220.530504,41.0168542 C220.530504,43.4943958 219.823686,45.6162708 218.40601,47.3986458 C216.988335,49.1769792 215.122335,50.3126875 212.803971,50.8098125 L212.803971,50.8098125 Z" id="Fill-6" fill="currentColor"></path>
-                                          <path d="M245.999384,47.5110042 L260.418475,47.5110042 L260.418475,48.6628792 C260.418475,51.2859208 260.107475,53.6098792 259.489514,55.6266708 C258.887709,57.4979625 257.869891,59.2439625 256.440099,60.8767958 C253.200852,64.5223792 249.081112,66.3451708 244.076839,66.3451708 C239.197774,66.3451708 235.017449,64.5830042 231.535865,61.0546292 C228.058319,57.5141292 226.317527,53.2622958 226.317527,48.2991292 C226.317527,43.2349208 228.086592,38.9386292 231.624722,35.4102542 C235.166891,31.8697542 239.476462,30.0954625 244.553436,30.0954625 C247.279735,30.0954625 249.824281,30.6532125 252.191112,31.7687125 C254.45293,32.8882542 256.674358,34.6948792 258.859436,37.1966708 L255.107242,40.7937542 C252.243618,36.9824625 248.757995,35.0707542 244.646332,35.0707542 C240.950683,35.0707542 237.856839,36.3438792 235.356722,38.8941708 C232.856605,41.3959625 231.604527,44.5322958 231.604527,48.2991292 C231.604527,52.1912542 232.997969,55.3922542 235.784852,57.9102125 C238.389982,60.2462958 241.217255,61.4143375 244.258592,61.4143375 C246.851605,61.4143375 249.178047,60.5453792 251.241956,58.7953375 C253.305865,57.0291292 254.461008,54.9193792 254.699306,52.4620458 L245.999384,52.4620458 L245.999384,47.5110042 Z" id="Fill-8" fill="currentColor"></path>
-                                          <mask id="mask-2" fill="white">
-                                              <use xlink:href="#path-1"></use>
-                                          </mask>
-                                          <g id="Clip-11"></g>
-                                          <polygon id="Fill-10" fill="currentColor" mask="url(#mask-2)" points="267.035909 65.6892083 272.302714 65.6892083 272.302714 30.77325 267.035909 30.77325"></polygon>
-                                          <path d="M299.036597,52.2591542 L293.862688,40.3847375 L288.438364,52.2591542 L299.036597,52.2591542 Z M301.185325,57.2101958 L286.245208,57.2101958 L282.359727,65.6896125 L276.689026,65.6896125 L293.951545,28.5830708 L310.608221,65.6896125 L304.844623,65.6896125 L301.185325,57.2101958 Z" id="Fill-12" fill="currentColor" mask="url(#mask-2)"></path>
-                                          <path d="M64.5381545,48.1564583 L69.671674,48.1564583 C69.671674,48.1564583 74.8011545,65.3295 67.7248948,83.5655 C65.9558299,84.6244167 65.0712974,85.1579167 61.177739,86.5725 C62.5954143,83.7392917 70.2007779,68.518375 64.5381545,48.1564583" id="Fill-13" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M74.0931247,48.1564583 L79.2226052,48.1564583 C79.2226052,48.1564583 82.4093455,58.2485 79.5780338,74.3585833 C77.9826442,75.951 74.2668,79.3136667 73.3863065,79.4915 C74.7999429,76.6623333 78.1603584,61.6111667 74.0931247,48.1564583" id="Fill-14" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M83.6464792,48.33995 L89.1313883,48.33995 C89.1313883,48.33995 88.4245701,60.9095333 85.0601156,65.6867833 C85.2378299,63.03545 85.4155442,54.7136583 83.6464792,48.33995" id="Fill-15" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M46.3175935,49.7056292 L46.3175935,23.7864208 C46.3175935,23.7864208 74.6226325,48.3355042 56.4028792,87.6366708 C54.9852039,88.1661292 52.3316065,88.8734208 50.207113,88.5217958 C51.6247883,86.5737125 66.484126,64.4415458 51.0956844,37.1805042 L51.0956844,59.2277958 L51.0795286,60.0442125 L51.0795286,73.6525042 C51.0795286,73.6525042 22.7744896,49.1074625 40.9982818,9.80225417 C42.4119182,9.2768375 45.0655156,8.56550417 47.1900091,8.92117083 C45.7723338,10.8652125 30.9129961,32.9973792 46.3054766,60.2584208 L46.3054766,50.5220458 L46.3175935,49.7056292 Z" id="Fill-16" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M32.8593714,49.283275 L27.7258519,49.283275 C27.7258519,49.283275 22.5963714,32.1102333 29.6726312,13.8742333 C31.4416961,12.8153167 32.3262286,12.2818167 36.219787,10.8672333 C34.8021117,13.7004417 27.200787,28.9213583 32.8593714,49.283275" id="Fill-17" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M23.3044013,49.283275 L18.1749208,49.283275 C18.1749208,49.283275 14.9922195,39.1912333 17.8235312,23.08115 C19.4148818,21.4887333 23.130726,18.1260667 24.0112195,17.9482333 C22.5975831,20.7774 19.2371675,35.8285667 23.3044013,49.283275" id="Fill-18" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M13.7534701,49.0997833 L8.26856104,49.0997833 C8.26856104,49.0997833 8.97537922,36.5302 12.3357948,31.75295 C12.1580805,34.4042833 11.9844052,42.726075 13.7534701,49.0997833" id="Fill-19" fill="#E32925" mask="url(#mask-2)"></path>
-                                          <path d="M48.1908636,4.45391667 C23.7713052,4.45391667 3.89961688,24.334875 3.89961688,48.7748333 C3.89961688,73.2147917 23.7713052,93.0997917 48.1908636,93.0997917 C72.614461,93.0997917 92.4821104,73.2147917 92.4821104,48.7748333 C92.4821104,24.334875 72.614461,4.45391667 48.1908636,4.45391667 M48.1908636,97 C21.618539,97 -0.00201948052,75.3649583 -0.00201948052,48.7748333 C-0.00201948052,22.1847083 21.618539,0.553708333 48.1908636,0.553708333 C74.7672273,0.553708333 96.3837468,22.1847083 96.3837468,48.7748333 C96.3837468,75.3649583 74.7672273,97 48.1908636,97" id="Fill-20" fill="#E32925" mask="url(#mask-2)"></path>
-                                      </g>
-                                  </g>
-                              </g>
+                  <g
+                    id="Elements"
+                    transform="translate(-802.000000, -214.000000)"
+                  >
+                    <g id="Logo" transform="translate(802.000000, 157.000000)">
+                      <g
+                        id="Logo-Red-Horiz"
+                        transform="translate(0.000000, 57.000000)"
+                      >
+                        <g id="Logo1">
+                          <polygon
+                            id="Fill-1"
+                            fill="currentColor"
+                            points="115.42768 31 115.42768 61.0329899 126 61.0329899 126 66 110 66 110 31"
+                          ></polygon>
+                          <polygon
+                            id="Fill-2"
+                            fill="currentColor"
+                            points="131 66 136 66 136 31 131 31"
+                          ></polygon>
+                          <polygon
+                            id="Fill-3"
+                            fill="currentColor"
+                            points="154.10757 35.9670101 154.10757 66 148.912351 66 148.912351 35.9670101 141 35.9670101 141 31 162 31 162 35.9670101"
+                          ></polygon>
+                          <g id="Group-21">
+                            <path
+                              d="M172.057721,30.7760792 L172.057721,51.8048708 C172.057721,54.8037875 172.546435,56.9984125 173.527903,58.3847042 C174.985968,60.3893708 177.041799,61.3917042 179.695396,61.3917042 C182.36111,61.3917042 184.429058,60.3893708 185.887123,58.3847042 C186.868591,57.0428708 187.357305,54.8522875 187.357305,51.8048708 L187.357305,30.7760792 L192.620071,30.7760792 L192.620071,53.2558292 C192.620071,56.9337458 191.477045,59.9649958 189.186955,62.3455375 C186.610097,64.9968708 183.447591,66.3225375 179.695396,66.3225375 C175.943201,66.3225375 172.788773,64.9968708 170.228071,62.3455375 C167.933942,59.9649958 166.790916,56.9337458 166.790916,53.2558292 L166.790916,30.7760792 L172.057721,30.7760792 Z"
+                              id="Fill-4"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M206.248738,46.8085625 L207.920868,46.8085625 C212.904945,46.8085625 215.401023,44.9008958 215.401023,41.0855625 C215.401023,37.5127292 212.977647,35.7303542 208.122816,35.7303542 L206.248738,35.7303542 L206.248738,46.8085625 Z M212.803971,50.8098125 L223.604153,65.6912292 L217.16201,65.6912292 L207.197894,51.3998958 L206.248738,51.3998958 L206.248738,65.6912292 L200.981932,65.6912292 L200.981932,30.7752708 L207.153465,30.7752708 C211.761919,30.7752708 215.090023,31.6401875 217.141816,33.3781042 C219.399595,35.3059792 220.530504,37.8522292 220.530504,41.0168542 C220.530504,43.4943958 219.823686,45.6162708 218.40601,47.3986458 C216.988335,49.1769792 215.122335,50.3126875 212.803971,50.8098125 L212.803971,50.8098125 Z"
+                              id="Fill-6"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M245.999384,47.5110042 L260.418475,47.5110042 L260.418475,48.6628792 C260.418475,51.2859208 260.107475,53.6098792 259.489514,55.6266708 C258.887709,57.4979625 257.869891,59.2439625 256.440099,60.8767958 C253.200852,64.5223792 249.081112,66.3451708 244.076839,66.3451708 C239.197774,66.3451708 235.017449,64.5830042 231.535865,61.0546292 C228.058319,57.5141292 226.317527,53.2622958 226.317527,48.2991292 C226.317527,43.2349208 228.086592,38.9386292 231.624722,35.4102542 C235.166891,31.8697542 239.476462,30.0954625 244.553436,30.0954625 C247.279735,30.0954625 249.824281,30.6532125 252.191112,31.7687125 C254.45293,32.8882542 256.674358,34.6948792 258.859436,37.1966708 L255.107242,40.7937542 C252.243618,36.9824625 248.757995,35.0707542 244.646332,35.0707542 C240.950683,35.0707542 237.856839,36.3438792 235.356722,38.8941708 C232.856605,41.3959625 231.604527,44.5322958 231.604527,48.2991292 C231.604527,52.1912542 232.997969,55.3922542 235.784852,57.9102125 C238.389982,60.2462958 241.217255,61.4143375 244.258592,61.4143375 C246.851605,61.4143375 249.178047,60.5453792 251.241956,58.7953375 C253.305865,57.0291292 254.461008,54.9193792 254.699306,52.4620458 L245.999384,52.4620458 L245.999384,47.5110042 Z"
+                              id="Fill-8"
+                              fill="currentColor"
+                            ></path>
+                            <mask id="mask-2" fill="white">
+                              <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-11"></g>
+                            <polygon
+                              id="Fill-10"
+                              fill="currentColor"
+                              mask="url(#mask-2)"
+                              points="267.035909 65.6892083 272.302714 65.6892083 272.302714 30.77325 267.035909 30.77325"
+                            ></polygon>
+                            <path
+                              d="M299.036597,52.2591542 L293.862688,40.3847375 L288.438364,52.2591542 L299.036597,52.2591542 Z M301.185325,57.2101958 L286.245208,57.2101958 L282.359727,65.6896125 L276.689026,65.6896125 L293.951545,28.5830708 L310.608221,65.6896125 L304.844623,65.6896125 L301.185325,57.2101958 Z"
+                              id="Fill-12"
+                              fill="currentColor"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M64.5381545,48.1564583 L69.671674,48.1564583 C69.671674,48.1564583 74.8011545,65.3295 67.7248948,83.5655 C65.9558299,84.6244167 65.0712974,85.1579167 61.177739,86.5725 C62.5954143,83.7392917 70.2007779,68.518375 64.5381545,48.1564583"
+                              id="Fill-13"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M74.0931247,48.1564583 L79.2226052,48.1564583 C79.2226052,48.1564583 82.4093455,58.2485 79.5780338,74.3585833 C77.9826442,75.951 74.2668,79.3136667 73.3863065,79.4915 C74.7999429,76.6623333 78.1603584,61.6111667 74.0931247,48.1564583"
+                              id="Fill-14"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M83.6464792,48.33995 L89.1313883,48.33995 C89.1313883,48.33995 88.4245701,60.9095333 85.0601156,65.6867833 C85.2378299,63.03545 85.4155442,54.7136583 83.6464792,48.33995"
+                              id="Fill-15"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M46.3175935,49.7056292 L46.3175935,23.7864208 C46.3175935,23.7864208 74.6226325,48.3355042 56.4028792,87.6366708 C54.9852039,88.1661292 52.3316065,88.8734208 50.207113,88.5217958 C51.6247883,86.5737125 66.484126,64.4415458 51.0956844,37.1805042 L51.0956844,59.2277958 L51.0795286,60.0442125 L51.0795286,73.6525042 C51.0795286,73.6525042 22.7744896,49.1074625 40.9982818,9.80225417 C42.4119182,9.2768375 45.0655156,8.56550417 47.1900091,8.92117083 C45.7723338,10.8652125 30.9129961,32.9973792 46.3054766,60.2584208 L46.3054766,50.5220458 L46.3175935,49.7056292 Z"
+                              id="Fill-16"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M32.8593714,49.283275 L27.7258519,49.283275 C27.7258519,49.283275 22.5963714,32.1102333 29.6726312,13.8742333 C31.4416961,12.8153167 32.3262286,12.2818167 36.219787,10.8672333 C34.8021117,13.7004417 27.200787,28.9213583 32.8593714,49.283275"
+                              id="Fill-17"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M23.3044013,49.283275 L18.1749208,49.283275 C18.1749208,49.283275 14.9922195,39.1912333 17.8235312,23.08115 C19.4148818,21.4887333 23.130726,18.1260667 24.0112195,17.9482333 C22.5975831,20.7774 19.2371675,35.8285667 23.3044013,49.283275"
+                              id="Fill-18"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M13.7534701,49.0997833 L8.26856104,49.0997833 C8.26856104,49.0997833 8.97537922,36.5302 12.3357948,31.75295 C12.1580805,34.4042833 11.9844052,42.726075 13.7534701,49.0997833"
+                              id="Fill-19"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
+                            <path
+                              d="M48.1908636,4.45391667 C23.7713052,4.45391667 3.89961688,24.334875 3.89961688,48.7748333 C3.89961688,73.2147917 23.7713052,93.0997917 48.1908636,93.0997917 C72.614461,93.0997917 92.4821104,73.2147917 92.4821104,48.7748333 C92.4821104,24.334875 72.614461,4.45391667 48.1908636,4.45391667 M48.1908636,97 C21.618539,97 -0.00201948052,75.3649583 -0.00201948052,48.7748333 C-0.00201948052,22.1847083 21.618539,0.553708333 48.1908636,0.553708333 C74.7672273,0.553708333 96.3837468,22.1847083 96.3837468,48.7748333 C96.3837468,75.3649583 74.7672273,97 48.1908636,97"
+                              id="Fill-20"
+                              fill="#E32925"
+                              mask="url(#mask-2)"
+                            ></path>
                           </g>
+                        </g>
                       </g>
+                    </g>
                   </g>
+                </g>
               </svg>
-              </a>
-            </div>
-            <div class="menu-right flex items-center gap-4">
-            </div>
+            </a>
           </div>
-        </nav>
-        <main id="smooth-wrapper">
-          <div id="smooth-content" class="min-h-screen">
-            <div class="min-h-screen">
-              <div style="opacity: 1">
-                <div class="w-full">
-                  <header class="r-pt-[5.375] mb-[3.75rem] sm:r-mb-[7.5]">
-                    <div class="r-pt-[6.25] text-center container big">
-                      <h1
-                        class="text-[3rem] sm:h1-text leading-none mb-3 sm:r-mb-5 last:mb-0"
-                      >
-                        <span class="opacity-0 text-animation">Pricing</span>
-                      </h1>
-                      <div
-                        class="wysiwyg sm:r-max-w-[26.25] mx-auto w-full text-grey r-text-lg"
-                        style="
-                          opacity: 0;
-                          transform: translateY(50px) translateZ(0);
-                        "
-                      >
-                        <p>
-                          Use the pricing calculator below to see how much
-                          Liturgia will cost you.
-                        </p>
-                      </div>
+          <div class="menu-right flex items-center gap-4"></div>
+        </div>
+      </nav>
+      <main id="smooth-wrapper">
+        <div id="smooth-content" class="min-h-screen">
+          <div class="min-h-screen">
+            <div style="opacity: 1">
+              <div class="w-full">
+                <header class="r-pt-[5.375] mb-[3.75rem] sm:r-mb-[7.5]">
+                  <div class="r-pt-[6.25] text-center container big">
+                    <h1
+                      class="text-[3rem] sm:h1-text leading-none mb-3 sm:r-mb-5 last:mb-0"
+                    >
+                      <span class="opacity-0 text-animation">Pricing</span>
+                    </h1>
+                    <div
+                      class="wysiwyg sm:r-max-w-[26.25] mx-auto w-full text-grey r-text-lg"
+                      style="
+                        opacity: 0;
+                        transform: translateY(50px) translateZ(0);
+                      "
+                    >
+                      <p>
+                        Use the pricing calculator below to see how much
+                        Liturgia will cost you.
+                      </p>
                     </div>
-                  </header>
-                  <section class="modules-pp">
-                    <div class="controls">
-                      <div>
-                        <label for="type">Type</label>
-                        <select id="type">
-                          <option value="individuals">Individuals</option>
-                          <option value="business">Business</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label for="seats">No. of Seats</label>
-                        <input
-                          type="range"
-                          id="seats"
-                          min="1"
-                          max="30"
-                          value="1"
-                          oninput="updateSeats(this.value)"
-                        />
-                        <input
-                          type="number"
-                          id="seat-value"
-                          min="1"
-                          max="30"
-                          value="1"
-                          readonly
-                        />
-                      </div>
+                  </div>
+                </header>
+                <section class="modules-pp">
+                  <div class="controls">
+                    <div>
+                      <label for="type">Type</label>
+                      <select id="type">
+                        <option value="individuals">Individuals</option>
+                        <option value="business">Business</option>
+                      </select>
                     </div>
-                    <div class="price-card">
-                      <div class="price" id="price">$355</div>
-                      <div class="gst">+GST</div>
-                      <button onclick="getStarted()">Get Started</button>
+                    <div>
+                      <label for="seats">No. of Seats</label>
+                      <input
+                        type="range"
+                        id="seats"
+                        min="1"
+                        max="30"
+                        value="1"
+                        oninput="updateSeats(this.value)"
+                      />
+                      <input
+                        type="number"
+                        id="seat-value"
+                        min="1"
+                        max="30"
+                        value="1"
+                        readonly
+                      />
                     </div>
-                  </section>
-                  <section class="modules"></section>
-                </div>
+                  </div>
+                  <div class="price-card">
+                    <div class="price" id="price">$355</div>
+                    <div class="gst">+GST</div>
+                    <button onclick="getStarted()">Get Started</button>
+                  </div>
+                </section>
+                <section class="modules"></section>
               </div>
             </div>
-            <footer
-              class="overflow-hidden dark-footer bg-forest text-white r-mt-[12.5]"
-            >
-              <div class="md:h-screen inner-wrapper flex flex-col">
-                <div class="inner container full md:h-[50vh] flex">
-                  <div
-                    class="footer-cta py-20 sm:r-py-10 text-center w-full flex items-center justify-center flex-col"
-                  >
-                    <p class="h2-text">Explore with a free trial</p>
-                    <a
-                      target=""
-                      class="custom-button button-big r-mt-6 white-green group"
-                      href="https://shop.liturgybrisbane.net.au/collections/liturgia"
-                      ><span
-                        class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
-                      ></span
-                      ><span class="button-inner"
-                        ><span
-                          class="flex items-center flex-1 sm:whitespace-nowrap"
-                          >Get Liturgia</span
-                        ><span class="icon overflow-hidden"
-                          >Get Liturgia<span class="inner-icon"
-                            ><svg
-                              viewBox="0 0 14 14"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M.74 7h12m0 0-6-6m6 6-6 6"
-                                vector-effect="non-scaling-stroke"
-                              ></path></svg></span></span></span
-                    ></a>
-                  </div>
-                </div>
+          </div>
+          <footer
+            class="overflow-hidden dark-footer bg-forest text-white r-mt-[12.5]"
+          >
+            <div class="md:h-screen inner-wrapper flex flex-col">
+              <div class="inner container full md:h-[50vh] flex">
                 <div
-                  class="inner container big flex flex-col lg:flex-row justify-between r-gap-10 r-mb-[6.8] flex-1"
+                  class="footer-cta py-20 sm:r-py-10 text-center w-full flex items-center justify-center flex-col"
                 >
-                  <nav class="footer-menu columns-2 gap-x-4 sm:r-gap-x-16">
-                    <a
-                      target=""
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/index"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Home</a
-                    ><a
-                      target=""
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/features"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Features</a
-                    ><a
-                      target=""
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/parishes"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Parishes</a
-                    ><a
-                      target="_blank"
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/schools"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Schools</a
-                    ><a
-                      target="_blank"
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/pricing"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Pricing</a
-                    ><a
-                      target="_blank"
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/support"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      support</a
-                    ><a
-                      target=""
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/liturgybrisbane.com.au"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Liturgy Brisbane</a
-                    ><a
-                      target=""
-                      class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
-                      href="/liturgypublications.com.au"
-                      ><svg
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
-                      >
-                        <path
-                          d="M.74 7h12m0 0-6-6m6 6-6 6"
-                          vector-effect="non-scaling-stroke"
-                        ></path></svg>
-                      Liturgy Publications</a
-                    >
-                  </nav>
-                  <div
-                    class="flex flex-col r-gap-10 lg:r-max-w-[26.25] w-full lg:ml-auto"
-                  >
-                    <div class="contact-links flex flex-col items-start">
-                      <a
-                        target=""
-                        class="custom-underline block text-xl sm:r-text-2xl hover:text-sand transition-all duration-300"
-                        href="/support"
-                        >Contact us</a
-                      >
-                    </div>
-                    <div class="flex r-gap-16 lg:r-gap-5"></div>
-                  </div>
-                </div>
-                <div class="container full flex-shrink-0">
-                  <div
-                    class="inner border-t border-white flex flex-col-reverse sm:flex-row items-start sm:items-center gap-6 r-pt-6 r-pb-8"
-                  >
-                    <div
-                      class="sm:ml-auto w-full sm:w-auto flex items-center r-gap-20"
-                    >
-                      <div
-                        class="socials flex flex-wrap items-center w-full sm:w-auto justify-between sm:justify-end gap-2 sm:r-gap-8"
-                      >
-                        <a
-                          target="_blank"
-                          class="text-xs sm:r-text-xs hover:text-sand transition-all duration-300"
-                          href="https://www.facebook.com/liturgiaofficial"
-                          >Terms and Conditions</a
-                        ><a
-                          target="_blank"
-                          class="text-xs sm:r-text-xs hover:text-sand transition-all duration-300"
-                          href="https://www.instagram.com/liturgia"
-                          >Privacy Policy</a
-                        ><a
-                          target="_blank"
-                          class="text-xs sm:r-text-xs hover:text-sand transition-all duration-300"
-                          href="https://www.tiktok.com/@liturgia"
-                          >Cookie Policy</a
-                        >
-                      </div>
-                      <button
-                        type="button"
-                        class="simple-button hidden lg:flex full-white group"
-                      >
-                        <span
-                          class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
-                        ></span
-                        >Back to top<span class="icon-wrapper after"
+                  <p class="h2-text">Explore with a free trial</p>
+                  <a
+                    target=""
+                    class="custom-button button-big r-mt-6 white-green group"
+                    href="https://shop.liturgybrisbane.net.au/collections/liturgia"
+                    ><span
+                      class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
+                    ></span
+                    ><span class="button-inner"
+                      ><span
+                        class="flex items-center flex-1 sm:whitespace-nowrap"
+                        >Get Liturgia</span
+                      ><span class="icon overflow-hidden"
+                        >Get Liturgia<span class="inner-icon"
                           ><svg
+                            viewBox="0 0 14 14"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 10 10"
-                            class="w-3 stroke-asphalt top-icon"
                           >
                             <path
-                              d="M5 8.94V1.384m0 0L1.223 5.162M5 1.385l3.777 3.777"
-                            ></path></svg>
-                        </span>
-                      </button>
+                              d="M.74 7h12m0 0-6-6m6 6-6 6"
+                              vector-effect="non-scaling-stroke"
+                            ></path></svg></span></span></span
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="inner container big flex flex-col lg:flex-row justify-between r-gap-10 r-mb-[6.8] flex-1"
+              >
+                <nav class="footer-menu columns-2 gap-x-4 sm:r-gap-x-16">
+                  <a
+                    target=""
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/index"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Home</a
+                  ><a
+                    target=""
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/features"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Features</a
+                  ><a
+                    target=""
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/parishes"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Parishes</a
+                  ><a
+                    target="_blank"
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/schools"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Schools</a
+                  ><a
+                    target="_blank"
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/pricing"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Pricing</a
+                  ><a
+                    target="_blank"
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/support"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    support</a
+                  ><a
+                    target=""
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/liturgybrisbane.com.au"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Liturgy Brisbane</a
+                  ><a
+                    target=""
+                    class="text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative"
+                    href="/liturgypublications.com.au"
+                    ><svg
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300"
+                    >
+                      <path
+                        d="M.74 7h12m0 0-6-6m6 6-6 6"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                    Liturgy Publications</a
+                  >
+                </nav>
+                <div
+                  class="flex flex-col r-gap-10 lg:r-max-w-[26.25] w-full lg:ml-auto"
+                >
+                  <div class="contact-links flex flex-col items-start">
+                    <a
+                      target=""
+                      class="custom-underline block text-xl sm:r-text-2xl hover:text-sand transition-all duration-300"
+                      href="/support"
+                      >Contact us</a
+                    >
+                  </div>
+                  <div class="flex r-gap-16 lg:r-gap-5"></div>
+                </div>
+              </div>
+              <div class="container full flex-shrink-0">
+                <div
+                  class="inner border-t border-white flex flex-col-reverse sm:flex-row items-start sm:items-center gap-6 r-pt-6 r-pb-8"
+                >
+                  <div
+                    class="sm:ml-auto w-full sm:w-auto flex items-center r-gap-20"
+                  >
+                    <div
+                      class="socials flex flex-wrap items-center w-full sm:w-auto justify-between sm:justify-end gap-2 sm:r-gap-8"
+                    >
+                      <a
+                        target="_blank"
+                        class="text-xs sm:r-text-xs hover:text-sand transition-all duration-300"
+                        href="https://www.facebook.com/liturgiaofficial"
+                        >Terms and Conditions</a
+                      ><a
+                        target="_blank"
+                        class="text-xs sm:r-text-xs hover:text-sand transition-all duration-300"
+                        href="https://www.instagram.com/liturgia"
+                        >Privacy Policy</a
+                      ><a
+                        target="_blank"
+                        class="text-xs sm:r-text-xs hover:text-sand transition-all duration-300"
+                        href="https://www.tiktok.com/@liturgia"
+                        >Cookie Policy</a
+                      >
                     </div>
+                    <button
+                      type="button"
+                      class="simple-button hidden lg:flex full-white group"
+                    >
+                      <span
+                        class="target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2"
+                      ></span
+                      >Back to top<span class="icon-wrapper after"
+                        ><svg
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 10 10"
+                          class="w-3 stroke-asphalt top-icon"
+                        >
+                          <path
+                            d="M5 8.94V1.384m0 0L1.223 5.162M5 1.385l3.777 3.777"
+                          ></path>
+                        </svg>
+                      </span>
+                    </button>
                   </div>
                 </div>
               </div>
-            </footer>
-          </div>
-        </main>
-      </div>
+            </div>
+          </footer>
+        </div>
+      </main>
     </div>
     <script id="__NEXT_DATA__" type="application/json">
       {
@@ -2364,7 +2467,7 @@
                 "slug": "pricing",
                 "uri": "pricing",
                 "title": "Pricing",
-                "level": 1,
+                "level": 2,
                 "typeHandle": "default",
                 "sectionHandle": "pages",
                 "whiteFooter": false,
@@ -2384,7 +2487,7 @@
               "locale": "en",
               "domain": "liturgia.quackstudios.com.au/",
               "url": "/",
-              "fullUrl": "http://liturgia.quackstudios.com.au//",
+              "fullUrl": "http://liturgia.quackstudios.com.au/",
               "handle": "default",
               "name": "Global / English",
               "primary": true,
@@ -2418,7 +2521,7 @@
                   "theme": "light",
                   "cms": {
                     "section": "knowledgeHub",
-                    "types": ["default"],
+                    "types": ["legacy"],
                     "fields": "\n        id\n        uid\n        siteId\n        slug\n        uri\n        title\n        url\n        typeHandle\n        sectionHandle\n        ... on knowledgeHub_legacy_Entry {\n          content: text3\n        }\n      ",
                     "cache": []
                   }
@@ -2495,10 +2598,18 @@
                   "close": "Close",
                   "seeAll": "See all"
                 },
-                "header": { "logoTitle": "Go to homepage" },
-                "socials": { "followUs": "Follow us" },
-                "timestamp": { "published": "Published" },
-                "breadcrumb": { "home": "Home" },
+                "header": {
+                  "logoTitle": "Go to homepage"
+                },
+                "socials": {
+                  "followUs": "Follow us"
+                },
+                "timestamp": {
+                  "published": "Published"
+                },
+                "breadcrumb": {
+                  "home": "Home"
+                },
                 "validation": {
                   "required": "This field is required",
                   "email": "Please enter a valid email address",
@@ -2512,7 +2623,10 @@
                   "error": "Something went wrong. Please try again later.",
                   "send": "Subscribe"
                 },
-                "news": { "title": "News", "latestNews": "Latest news" },
+                "news": {
+                  "title": "News",
+                  "latestNews": "Latest news"
+                },
                 "media": "Media",
                 "noResults": "No results",
                 "add_to_calendar": "Add to calendar",
@@ -2603,7 +2717,8 @@
                 "cookieConsent": {
                   "codeBlockConsent": "This content requires cookies to be enabled.",
                   "renewConsent": "Renew consent"
-                }
+                },
+                "editConsent": "Edit consent"
               }
             },
             "locale": "en",
@@ -2630,7 +2745,7 @@
                 "lightswitch2": false,
                 "slug": "pricing",
                 "title": "Pricing",
-                "level": 1,
+                "level": 2,
                 "lightswitch": false,
                 "plainText": null,
                 "button3": {
@@ -2641,41 +2756,7 @@
                   "url": null,
                   "title": null
                 },
-                "localized": [
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":2,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":3,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":4,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":5,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":6,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":7,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":8,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":9,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":10,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":11,\"id\":\"8616\"}"
-                  },
-                  {
-                    "__ref": "pages_default_Entry:{\"uid\":\"96b2e249-bbe2-446c-87d8-17f5e2e4b2f1\",\"siteId\":12,\"id\":\"8616\"}"
-                  }
-                ],
+                "localized": [],
                 "ancestors": [
                   {
                     "__ref": "pages_default_Entry:{\"uid\":\"0b69eabb-3765-4209-b6d2-61512d0f664c\",\"siteId\":1,\"id\":\"53\"}"
@@ -2684,7 +2765,7 @@
                 "lightswitch3": false,
                 "lightswitch4": false,
                 "lightswitch6": false,
-                "text": "\u003cp\u003eUse the pricing calculator below to see how much Liturgia will cost you. \u003c/p\u003e",
+                "text": "\u003cp\u003eBe in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\u003c/p\u003e",
                 "button": {
                   "__typename": "linkField_Link",
                   "target": "",
@@ -2704,9 +2785,9 @@
                 "mediaElement": [],
                 "heroColumns": [],
                 "modules({\"level\":1})": [
-                  {
-                    "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
-                  }
+                {
+                  "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
+                }
                 ],
                 "modules({\"level\":1,\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\"})": [
                   {
@@ -2717,7 +2798,8 @@
                   {
                     "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
                   }
-                ]
+                ],
+                "children": []
               },
               "ROOT_QUERY": {
                 "__typename": "Query",
@@ -2732,31 +2814,28 @@
                 },
                 "entries({\"level\":1,\"section\":\"mainMenu\",\"siteId\":1})": [
                   {
-                      "__ref": "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}"
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}"
                   },
                   {
-                      "__ref": "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}"
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}"
                   },
                   {
-                      "__ref": "mainMenu_default_Entry:{\"uid\":\"b6112305-2cde-40dd-a909-b6ec32da259c\",\"siteId\":1,\"id\":\"1008639\"}"
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"b6112305-2cde-40dd-a909-b6ec32da259c\",\"siteId\":1,\"id\":\"1008639\"}"
                   },
                   {
-                      "__ref": "mainMenu_default_Entry:{\"uid\":\"e88b213d-a4b1-4036-a2e8-b28a3f4611eb\",\"siteId\":1,\"id\":\"20674\"}"
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"e88b213d-a4b1-4036-a2e8-b28a3f4611eb\",\"siteId\":1,\"id\":\"20674\"}"
                   },
                   {
-                      "__ref": "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}"
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}"
                   },
                   {
-                      "__ref": "mainMenu_default_Entry:{\"uid\":\"2e46c67e-5f7b-4583-a070-baa9c032d371\",\"siteId\":1,\"id\":\"20684\"}"
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"2e46c67e-5f7b-4583-a070-baa9c032d371\",\"siteId\":1,\"id\":\"20684\"}"
                   },
                   {
                     "__ref": "mainMenu_secondaryLink_Entry:{\"uid\":\"b52ccb22-4cf2-4a3c-890f-559d1139f48f\",\"siteId\":1,\"id\":\"20682\"}"
                   },
                   {
                     "__ref": "mainMenu_secondaryLink_Entry:{\"uid\":\"c5be0a66-94d6-46a8-aab4-cd3cb634b3db\",\"siteId\":1,\"id\":\"624381\"}"
-                  },
-                  {
-                    "__ref": "mainMenu_secondaryLink_Entry:{\"uid\":\"0a530c1f-dbd3-4406-9e6c-b37ec8d09b78\",\"siteId\":1,\"id\":\"20686\"}"
                   }
                 ],
                 "entries({\"level\":1,\"section\":\"secondaryMenu\",\"siteId\":1})": [
@@ -2764,10 +2843,10 @@
                     "__ref": "secondaryMenu_default_Entry:{\"uid\":\"8349c120-87a9-45db-a9d9-33d53de0253e\",\"siteId\":1,\"id\":\"20645\"}"
                   },
                   {
-                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"81ea411a-dd38-461b-8337-ed3e96a03d5f\",\"siteId\":1,\"id\":\"20647\"}"
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"6589318f-2a84-4c43-b5e2-6b3de9c55568\",\"siteId\":1,\"id\":\"574926\"}"
                   },
                   {
-                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"6589318f-2a84-4c43-b5e2-6b3de9c55568\",\"siteId\":1,\"id\":\"574926\"}"
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"cf77d794-0aac-476e-bd19-2d36fa641858\",\"siteId\":1,\"id\":\"1008611\"}"
                   }
                 ],
                 "entry({\"section\":\"search\",\"siteId\":1})": {
@@ -2778,25 +2857,25 @@
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"e817d0b8-d146-482f-a22a-c9321c7cbece\",\"siteId\":1,\"id\":\"20729\"}"
                   },
                   {
+                    "__ref": "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}"
+                  },
+                  {
+                    "__ref": "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}"
+                  },
+                  {
+                    "__ref": "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}"
+                  },
+                  {
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"ee2d54e4-33b8-4de0-8eb2-bbac018a2add\",\"siteId\":1,\"id\":\"20731\"}"
                   },
                   {
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"b71c993a-02cd-43a9-889c-9dc7b0dfd778\",\"siteId\":1,\"id\":\"20733\"}"
                   },
                   {
-                    "__ref": "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}"
-                  },
-                  {
-                    "__ref": "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}"
-                  },
-                  {
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}"
                   },
                   {
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"b0e310f8-8d75-4582-8047-52743ae3cea3\",\"siteId\":1,\"id\":\"594094\"}"
-                  },
-                  {
-                    "__ref": "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}"
                   },
                   {
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}"
@@ -2806,6 +2885,9 @@
                   },
                   {
                     "__ref": "footerMenu_default_Entry:{\"uid\":\"dfba2d19-da22-4f3e-8ae1-7f4dc507f333\",\"siteId\":1,\"id\":\"991126\"}"
+                  },
+                  {
+                    "__ref": "footerMenu_default_Entry:{\"uid\":\"61c74074-ebb3-43d1-b6fd-6b980a5fa9d0\",\"siteId\":1,\"id\":\"1008505\"}"
                   }
                 ],
                 "globalSet({\"handle\":\"footer\",\"siteId\":1})": {
@@ -2906,75 +2988,75 @@
                 "siteId": 1,
                 "title": "System charging with Zaptec Pro",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "System charging with Zaptec Pro",
-                    "title": "System charging with Zaptec Pro",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "System charging with Zaptec Pro",
+                  "title": "System charging with Zaptec Pro",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"6e0eaf91-04a8-40ef-aa00-ec60045dde53\",\"siteId\":1,\"id\":\"20694\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "6e0eaf91-04a8-40ef-aa00-ec60045dde53",
                 "id": "20694",
                 "siteId": 1,
                 "title": "Home charging with Zaptec Go",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Home charging with Zaptec Go",
-                    "title": "Home charging with Zaptec Go",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Home charging with Zaptec Go",
+                  "title": "Home charging with Zaptec Go",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"aaf3ce11-9952-456d-b82d-19912be1a87f\",\"siteId\":1,\"id\":\"20698\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "aaf3ce11-9952-456d-b82d-19912be1a87f",
                 "id": "20698",
                 "siteId": 1,
                 "title": "Load balancing with Zaptec Sense",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Load balancing with Zaptec Sense",
-                    "title": "Load balancing with Zaptec Sense",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Load balancing with Zaptec Sense",
+                  "title": "Load balancing with Zaptec Sense",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"4c38e00f-85bb-465c-9548-38b22b77fa63\",\"siteId\":1,\"id\":\"20700\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "4c38e00f-85bb-465c-9548-38b22b77fa63",
                 "id": "20700",
                 "siteId": 1,
                 "title": "Accessories",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Accessories",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Accessories",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "e8987905-968b-4a9b-8419-49ab71ac92ad",
                 "id": "1008623",
                 "siteId": 1,
                 "title": "Pricing",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Pricing",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/digital-services"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Pricing",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/digital-services"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "title": "Home",
                 "uid": "bb909196-465a-4c54-87ef-ea080ed4c580",
@@ -2983,62 +3065,61 @@
                 "typeHandle": "default",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Home",
-                    "title": "Home",
-                    "type": "entry",
-                    "url": "/"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Home",
+                  "title": "Home",
+                  "type": "entry",
+                  "url": "/"
                 },
-                "children": [
-                ]
-            },
-            "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}": {
+                "children": []
+              },
+              "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "06a39b58-99bf-4b8e-b0fc-ae1d0fae3936",
                 "id": "20724",
                 "siteId": 1,
                 "title": "Features",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Features",
-                    "title": null,
-                    "type": "entry",
-                    "url": "features"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Features",
+                  "title": null,
+                  "type": "entry",
+                  "url": "features"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "179a6a80-9909-4015-a3ec-c8bec01673f0",
                 "id": "20722",
                 "siteId": 1,
                 "title": "Parishes",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Parishes",
-                    "title": "Parishes",
-                    "type": "entry",
-                    "url": "/parishes"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Parishes",
+                  "title": "Parishes",
+                  "type": "entry",
+                  "url": "/parishes"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "3687b93f-08c1-4c08-84ae-e9a8a5d13d06",
                 "id": "1008629",
                 "siteId": 1,
                 "title": "Schools",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Schools",
-                    "title": "Schools",
-                    "type": "url",
-                    "url": "/schools"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Schools",
+                  "title": "Schools",
+                  "type": "url",
+                  "url": "/schools"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "title": "Features",
                 "uid": "e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac",
@@ -3047,215 +3128,215 @@
                 "typeHandle": "default",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Features",
-                    "title": "Features",
-                    "type": "entry",
-                    "url": "/features"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Features",
+                  "title": "Features",
+                  "type": "entry",
+                  "url": "/features"
                 },
                 "children": [
-                    {
-                        "__ref": "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}"
-                    },
-                    {
-                        "__ref": "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}"
-                    },
-                    {
-                        "__ref": "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}"
-                    },
-                    {
-                        "__ref": "mainMenu_default_Entry:{\"uid\":\"ea65cf64-f898-4352-a56e-6a222a6105f8\",\"siteId\":1,\"id\":\"1008649\"}"
-                    },
-                    {
-                        "__ref": "mainMenu_default_Entry:{\"uid\":\"a5c21d5c-257d-4bc0-bfb7-781ce851a1c5\",\"siteId\":1,\"id\":\"1008631\"}"
-                    },
-                    {
-                        "__ref": "mainMenu_default_Entry:{\"uid\":\"c698cf26-41cb-41e9-85b8-fd616880c45d\",\"siteId\":1,\"id\":\"1008637\"}"
-                    }
+                  {
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}"
+                  },
+                  {
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}"
+                  },
+                  {
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"3687b93f-08c1-4c08-84ae-e9a8a5d13d06\",\"siteId\":1,\"id\":\"1008629\"}"
+                  },
+                  {
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"ea65cf64-f898-4352-a56e-6a222a6105f8\",\"siteId\":1,\"id\":\"1008649\"}"
+                  },
+                  {
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"a5c21d5c-257d-4bc0-bfb7-781ce851a1c5\",\"siteId\":1,\"id\":\"1008631\"}"
+                  },
+                  {
+                    "__ref": "mainMenu_default_Entry:{\"uid\":\"c698cf26-41cb-41e9-85b8-fd616880c45d\",\"siteId\":1,\"id\":\"1008637\"}"
+                  }
                 ]
-            },
-            "mainMenu_default_Entry:{\"uid\":\"cad3349e-f4ee-404a-99c1-25f634d23038\",\"siteId\":1,\"id\":\"1008641\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"cad3349e-f4ee-404a-99c1-25f634d23038\",\"siteId\":1,\"id\":\"1008641\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "cad3349e-f4ee-404a-99c1-25f634d23038",
                 "id": "1008641",
                 "siteId": 1,
                 "title": "Documents \u0026 manuals",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "title": "Documents \u0026 manuals",
-                    "type": "url",
-                    "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Learn More",
+                  "title": "Documents \u0026 manuals",
+                  "type": "url",
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72",
                 "id": "1008643",
                 "siteId": 1,
                 "title": "Help centre",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "title": "Help centre",
-                    "type": "url",
-                    "url": "https://help.liturgia.quackstudios.com.au/hc/en-001"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Learn More",
+                  "title": "Help centre",
+                  "type": "url",
+                  "url": "https://help.liturgia.quackstudios.com.au/hc/en-001"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "4da94d65-b2c0-4547-8b66-26933e2e8efe",
                 "id": "1008645",
                 "siteId": 1,
                 "title": "Contact us",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Contact us",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/company/support"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Contact us",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/company/support"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9",
                 "id": "20711",
                 "siteId": 1,
                 "title": "About us",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "About us",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/company/about-us"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "About us",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/company/about-us"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "80d752af-898e-4ff8-a263-f1882d98e639",
                 "id": "20709",
                 "siteId": 1,
                 "title": "Our journey",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Our journey",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/company/history"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Our journey",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/company/history"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "3891052c-dc0c-4fd1-8937-871e8ed73b21",
                 "id": "20707",
                 "siteId": 1,
                 "title": "Quality and safety",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Quality and safety",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/company/quality-and-safety"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Quality and safety",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/company/quality-and-safety"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "99e5c6a7-942b-40bc-8726-89eaeb1263d7",
                 "id": "856714",
                 "siteId": 1,
                 "title": "Sustainability commitments",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Sustainability commitments",
-                    "title": "Sustainability commitments",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/company/sustainability"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Sustainability commitments",
+                  "title": "Sustainability commitments",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/company/sustainability"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "accde77f-c24e-45a6-82d1-edbf3a9e2647",
                 "id": "941260",
                 "siteId": 1,
                 "title": "Investor Relations",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Investor Relations",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/company/investor-relations"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Investor Relations",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/company/investor-relations"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"3f043661-7b02-4916-a65f-46b59391b6ea\",\"siteId\":1,\"id\":\"20719\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"3f043661-7b02-4916-a65f-46b59391b6ea\",\"siteId\":1,\"id\":\"20719\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "3f043661-7b02-4916-a65f-46b59391b6ea",
                 "id": "20719",
                 "siteId": 1,
                 "title": "Industry news",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Industry news",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/info-hub/industry-news"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Industry news",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/info-hub/industry-news"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "4c059895-84a4-4678-bde4-ac361f391a9b",
                 "id": "20717",
                 "siteId": 1,
                 "title": "Inside Zaptec",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Inside Zaptec",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/info-hub/inside-zaptec"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Inside Zaptec",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/info-hub/inside-zaptec"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "1e05ccd1-ffc3-4735-9e08-526dfbce735b",
                 "id": "20715",
                 "siteId": 1,
                 "title": "Tips and Tricks",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Tips and Tricks",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/info-hub/tips-and-tricks"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Tips and Tricks",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/info-hub/tips-and-tricks"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "uid": "87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c",
                 "id": "20713",
                 "siteId": 1,
                 "title": "Case studies",
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Case studies",
-                    "title": null,
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/info-hub/case-studies"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Case studies",
+                  "title": null,
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/info-hub/case-studies"
                 }
-            },
-            "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
+              },
+              "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
                 "__typename": "mainMenu_default_Entry",
                 "title": "Pricing",
                 "uid": "e766bc5b-8be7-4966-a901-274b00b64304",
@@ -3264,17 +3345,16 @@
                 "typeHandle": "default",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Pricing",
-                    "title": null,
-                    "type": "entry",
-                    "url": "/pricing"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Pricing",
+                  "title": null,
+                  "type": "entry",
+                  "url": "/pricing"
                 },
-                "children": [
-                ]
-            },
-            "mainMenu_secondaryLink_Entry:{\"uid\":\"b52ccb22-4cf2-4a3c-890f-559d1139f48f\",\"siteId\":1,\"id\":\"20682\"}": {
+                "children": []
+              },
+              "mainMenu_secondaryLink_Entry:{\"uid\":\"b52ccb22-4cf2-4a3c-890f-559d1139f48f\",\"siteId\":1,\"id\":\"20682\"}": {
                 "__typename": "mainMenu_secondaryLink_Entry",
                 "title": "Support",
                 "uid": "b52ccb22-4cf2-4a3c-890f-559d1139f48f",
@@ -3283,17 +3363,16 @@
                 "typeHandle": "secondaryLink",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Support",
-                    "title": null,
-                    "type": "entry",
-                    "url": "/support"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Support",
+                  "title": null,
+                  "type": "entry",
+                  "url": "/support"
                 },
-                "children": [
-                ]
-            },
-            "mainMenu_secondaryLink_Entry:{\"uid\":\"c5be0a66-94d6-46a8-aab4-cd3cb634b3db\",\"siteId\":1,\"id\":\"624381\"}": {
+                "children": []
+              },
+              "mainMenu_secondaryLink_Entry:{\"uid\":\"c5be0a66-94d6-46a8-aab4-cd3cb634b3db\",\"siteId\":1,\"id\":\"624381\"}": {
                 "__typename": "mainMenu_secondaryLink_Entry",
                 "title": "Login",
                 "uid": "c5be0a66-94d6-46a8-aab4-cd3cb634b3db",
@@ -3302,47 +3381,46 @@
                 "typeHandle": "secondaryLink",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Login",
-                    "title": "Login",
-                    "type": "url",
-                    "url": "https://www.liturgia.com.au/app/Login"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Login",
+                  "title": "Login",
+                  "type": "url",
+                  "url": "https://www.liturgia.com.au/app/Login"
                 },
-                "children": [
-                ]
-            },
-            "menuBlocks_menuBlock_BlockType:{\"uid\":\"630219e7-8900-468b-a9d0-e959b04e0ece\",\"siteId\":1,\"id\":\"90735\"}": {
+                "children": []
+              },
+              "menuBlocks_menuBlock_BlockType:{\"uid\":\"630219e7-8900-468b-a9d0-e959b04e0ece\",\"siteId\":1,\"id\":\"90735\"}": {
                 "__typename": "menuBlocks_menuBlock_BlockType",
                 "id": "90735",
                 "uid": "630219e7-8900-468b-a9d0-e959b04e0ece",
                 "siteId": 1,
                 "moduleTitle": "Liturgy Brisbane",
                 "button": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Learn more",
-                    "type": "entry",
-                    "url": "https://www.liturgybrisbane.net.au",
-                    "title": null
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Learn more",
+                  "type": "entry",
+                  "url": "https://www.liturgybrisbane.net.au",
+                  "title": null
                 }
-            },
-            "menuBlocks_menuBlock_BlockType:{\"uid\":\"a20034ef-d8f9-4792-8c79-6983b3202548\",\"siteId\":1,\"id\":\"90736\"}": {
+              },
+              "menuBlocks_menuBlock_BlockType:{\"uid\":\"a20034ef-d8f9-4792-8c79-6983b3202548\",\"siteId\":1,\"id\":\"90736\"}": {
                 "__typename": "menuBlocks_menuBlock_BlockType",
                 "id": "90736",
                 "uid": "a20034ef-d8f9-4792-8c79-6983b3202548",
                 "siteId": 1,
                 "moduleTitle": "Explore Liturgy Publications",
                 "button": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Learn more",
-                    "type": "entry",
-                    "url": "https://shop.liturgybrisbane.net.au",
-                    "title": null
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Learn more",
+                  "type": "entry",
+                  "url": "https://shop.liturgybrisbane.net.au",
+                  "title": null
                 }
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"b7f8d544-da1a-43d9-ba58-451c40c679e0\",\"siteId\":1,\"id\":\"20659\"}": {
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"b7f8d544-da1a-43d9-ba58-451c40c679e0\",\"siteId\":1,\"id\":\"20659\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "20659",
                 "uid": "b7f8d544-da1a-43d9-ba58-451c40c679e0",
@@ -3351,18 +3429,17 @@
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "System charging with Zaptec Pro",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro",
-                    "title": "System charging with Zaptec Pro"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "System charging with Zaptec Pro",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-pro",
+                  "title": "System charging with Zaptec Pro"
                 },
                 "plainText": "1-1000+ chargers",
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"02ff465b-39ee-4008-929f-2acacb32cd4b\",\"siteId\":1,\"id\":\"20657\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"02ff465b-39ee-4008-929f-2acacb32cd4b\",\"siteId\":1,\"id\":\"20657\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "20657",
                 "uid": "02ff465b-39ee-4008-929f-2acacb32cd4b",
@@ -3371,18 +3448,17 @@
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Home charging with Zaptec Go",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go",
-                    "title": "Home charging with Zaptec Go"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Home charging with Zaptec Go",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-go",
+                  "title": "Home charging with Zaptec Go"
                 },
                 "plainText": "1-3 chargers",
-                "children": [
-                ]
-            },
-            "secondaryMenu_secondaryLinks_Entry:{\"uid\":\"a2fd68a2-3143-4574-bc60-b4ab80ea27f1\",\"siteId\":1,\"id\":\"20663\"}": {
+                "children": []
+              },
+              "secondaryMenu_secondaryLinks_Entry:{\"uid\":\"a2fd68a2-3143-4574-bc60-b4ab80ea27f1\",\"siteId\":1,\"id\":\"20663\"}": {
                 "__typename": "secondaryMenu_secondaryLinks_Entry",
                 "id": "20663",
                 "uid": "a2fd68a2-3143-4574-bc60-b4ab80ea27f1",
@@ -3391,17 +3467,16 @@
                 "typeHandle": "secondaryLinks",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Load balancing with Zaptec Sense",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense",
-                    "title": "Load balancing with Zaptec Sense"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Load balancing with Zaptec Sense",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/zaptec-sense",
+                  "title": "Load balancing with Zaptec Sense"
                 },
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"f0d8780e-d295-4c09-88ec-b133f1995433\",\"siteId\":1,\"id\":\"20661\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"f0d8780e-d295-4c09-88ec-b133f1995433\",\"siteId\":1,\"id\":\"20661\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "20661",
                 "uid": "f0d8780e-d295-4c09-88ec-b133f1995433",
@@ -3410,18 +3485,17 @@
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Accessories",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories",
-                    "title": "Accessories"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Accessories",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/charging-solutions/accessories",
+                  "title": "Accessories"
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4\",\"siteId\":1,\"id\":\"1007096\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4\",\"siteId\":1,\"id\":\"1007096\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "1007096",
                 "uid": "fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4",
@@ -3430,275 +3504,201 @@
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Pricing",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products/digital-services",
-                    "title": "Pricing"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Pricing",
+                  "type": "entry",
+                  "url": "https://www.liturgia.quackstudios.com.au/products/digital-services",
+                  "title": "Pricing"
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"8349c120-87a9-45db-a9d9-33d53de0253e\",\"siteId\":1,\"id\":\"20645\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"8349c120-87a9-45db-a9d9-33d53de0253e\",\"siteId\":1,\"id\":\"20645\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "20645",
                 "uid": "8349c120-87a9-45db-a9d9-33d53de0253e",
                 "siteId": 1,
-                "title": "Products",
+                "title": "Home",
                 "typeHandle": "default",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Products",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/products",
-                    "title": "Products"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Home",
+                  "type": "entry",
+                  "url": "/",
+                  "title": "Home"
                 },
                 "plainText": null,
                 "children": [
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"b7f8d544-da1a-43d9-ba58-451c40c679e0\",\"siteId\":1,\"id\":\"20659\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"02ff465b-39ee-4008-929f-2acacb32cd4b\",\"siteId\":1,\"id\":\"20657\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_secondaryLinks_Entry:{\"uid\":\"a2fd68a2-3143-4574-bc60-b4ab80ea27f1\",\"siteId\":1,\"id\":\"20663\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"f0d8780e-d295-4c09-88ec-b133f1995433\",\"siteId\":1,\"id\":\"20661\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4\",\"siteId\":1,\"id\":\"1007096\"}"
-                    }
                 ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"62d50898-05f3-4139-bbc4-241f8c106dfe\",\"siteId\":1,\"id\":\"888895\"}": {
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"62d50898-05f3-4139-bbc4-241f8c106dfe\",\"siteId\":1,\"id\":\"888895\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "888895",
                 "uid": "62d50898-05f3-4139-bbc4-241f8c106dfe",
                 "siteId": 1,
-                "title": "Become a partner",
+                "title": "Features",
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Become a partner",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner",
-                    "title": null
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Features",
+                  "type": "entry",
+                  "url": "http://127.0.0.1:8800/features",
+                  "title": null
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"c55f8723-3ee0-4383-bca8-747b1bf512c0\",\"siteId\":1,\"id\":\"888893\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"c55f8723-3ee0-4383-bca8-747b1bf512c0\",\"siteId\":1,\"id\":\"888893\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "888893",
                 "uid": "c55f8723-3ee0-4383-bca8-747b1bf512c0",
                 "siteId": 1,
-                "title": "Existing partners \u0026 installers",
+                "title": "Parishes",
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "For our partners \u0026 installers",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners-installers",
-                    "title": "Existing partners \u0026 installers"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Parishes",
+                  "type": "entry",
+                  "url": "http://127.0.0.1:8800/parishes",
+                  "title": "Parishes"
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"ff4a5100-14b1-433d-aa81-5e5eb591671e\",\"siteId\":1,\"id\":\"1008605\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"ff4a5100-14b1-433d-aa81-5e5eb591671e\",\"siteId\":1,\"id\":\"1008605\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "1008605",
                 "uid": "ff4a5100-14b1-433d-aa81-5e5eb591671e",
                 "siteId": 1,
-                "title": "Documents \u0026 Manuals",
+                "title": "Schools",
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "type": "url",
-                    "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
-                    "title": "Documents \u0026 Manuals"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Schools",
+                  "type": "url",
+                  "url": "http://127.0.0.1:8800/schools",
+                  "title": "Schools"
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"2032de2b-6a18-46e2-8377-68a950821bfd\",\"siteId\":1,\"id\":\"1008647\"}": {
-                "__typename": "secondaryMenu_default_Entry",
-                "id": "1008647",
-                "uid": "2032de2b-6a18-46e2-8377-68a950821bfd",
-                "siteId": 1,
-                "title": "Partner webshop",
-                "typeHandle": "default",
-                "level": 2,
-                "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "type": "url",
-                    "url": "https://int.zaptec.shop/",
-                    "title": "Partner webshop"
-                },
-                "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"115d0061-3c60-40ce-a3e0-f7aa12dc3063\",\"siteId\":1,\"id\":\"1008607\"}": {
-                "__typename": "secondaryMenu_default_Entry",
-                "id": "1008607",
-                "uid": "115d0061-3c60-40ce-a3e0-f7aa12dc3063",
-                "siteId": 1,
-                "title": "Zaptec Portal",
-                "typeHandle": "default",
-                "level": 2,
-                "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "type": "url",
-                    "url": "https://portal.liturgia.quackstudios.com.au/login/en",
-                    "title": "Zaptec Portal"
-                },
-                "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"b1064550-cede-46f9-828e-4ffeca04f498\",\"siteId\":1,\"id\":\"1008609\"}": {
-                "__typename": "secondaryMenu_default_Entry",
-                "id": "1008609",
-                "uid": "b1064550-cede-46f9-828e-4ffeca04f498",
-                "siteId": 1,
-                "title": "Training courses",
-                "typeHandle": "default",
-                "level": 2,
-                "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Zaptec Academy",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/partners/for-partners/zaptec-academy",
-                    "title": "Training courses"
-                },
-                "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"6589318f-2a84-4c43-b5e2-6b3de9c55568\",\"siteId\":1,\"id\":\"574926\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"6589318f-2a84-4c43-b5e2-6b3de9c55568\",\"siteId\":1,\"id\":\"574926\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "574926",
                 "uid": "6589318f-2a84-4c43-b5e2-6b3de9c55568",
                 "siteId": 1,
-                "title": "For partners \u0026 installers",
+                "title": "Features",
                 "typeHandle": "default",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "",
-                    "text": "Partners \u0026 installers",
-                    "type": "entry",
-                    "url": "https://www.liturgia.quackstudios.com.au/partners",
-                    "title": "For partners \u0026 installers"
+                  "__typename": "linkField_Link",
+                  "target": "",
+                  "text": "Features",
+                  "type": "entry",
+                  "url": "http://127.0.0.1:8800/features",
+                  "title": "Features"
                 },
                 "plainText": null,
                 "children": [
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"62d50898-05f3-4139-bbc4-241f8c106dfe\",\"siteId\":1,\"id\":\"888895\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"c55f8723-3ee0-4383-bca8-747b1bf512c0\",\"siteId\":1,\"id\":\"888893\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"ff4a5100-14b1-433d-aa81-5e5eb591671e\",\"siteId\":1,\"id\":\"1008605\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"2032de2b-6a18-46e2-8377-68a950821bfd\",\"siteId\":1,\"id\":\"1008647\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"115d0061-3c60-40ce-a3e0-f7aa12dc3063\",\"siteId\":1,\"id\":\"1008607\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"b1064550-cede-46f9-828e-4ffeca04f498\",\"siteId\":1,\"id\":\"1008609\"}"
-                    }
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"62d50898-05f3-4139-bbc4-241f8c106dfe\",\"siteId\":1,\"id\":\"888895\"}"
+                  },
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"c55f8723-3ee0-4383-bca8-747b1bf512c0\",\"siteId\":1,\"id\":\"888893\"}"
+                  },
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"ff4a5100-14b1-433d-aa81-5e5eb591671e\",\"siteId\":1,\"id\":\"1008605\"}"
+                  },
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"2032de2b-6a18-46e2-8377-68a950821bfd\",\"siteId\":1,\"id\":\"1008647\"}"
+                  },
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"115d0061-3c60-40ce-a3e0-f7aa12dc3063\",\"siteId\":1,\"id\":\"1008607\"}"
+                  },
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"b1064550-cede-46f9-828e-4ffeca04f498\",\"siteId\":1,\"id\":\"1008609\"}"
+                  }
                 ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"d26c4326-4980-4c0b-8e2b-39210996c253\",\"siteId\":1,\"id\":\"1008613\"}": {
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"d26c4326-4980-4c0b-8e2b-39210996c253\",\"siteId\":1,\"id\":\"1008613\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "1008613",
                 "uid": "d26c4326-4980-4c0b-8e2b-39210996c253",
                 "siteId": 1,
-                "title": "Documents \u0026 Manuals",
+                "title": "Support",
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "type": "url",
-                    "url": "https://help.liturgia.quackstudios.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals",
-                    "title": "Documents \u0026 Manuals"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Support",
+                  "type": "url",
+                  "url": "http://127.0.0.1:8800/support",
+                  "title": "Support"
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"f0690215-c24b-45d3-a559-5f3bb38098a5\",\"siteId\":1,\"id\":\"1008615\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"f0690215-c24b-45d3-a559-5f3bb38098a5\",\"siteId\":1,\"id\":\"1008615\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "1008615",
                 "uid": "f0690215-c24b-45d3-a559-5f3bb38098a5",
                 "siteId": 1,
-                "title": "Help centre",
+                "title": "Pricing",
                 "typeHandle": "default",
                 "level": 2,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "type": "url",
-                    "url": "https://help.liturgia.quackstudios.com.au/hc/en-001?_gl=1*17jx80e*_gcl_au*MzQ2NTQzNjU4LjE3MzE0MDAwNzQ.",
-                    "title": "Help centre"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Pricing",
+                  "type": "url",
+                  "url": "http://127.0.0.1:8800/pricing",
+                  "title": "Pricing"
                 },
                 "plainText": null,
-                "children": [
-                ]
-            },
-            "secondaryMenu_default_Entry:{\"uid\":\"cf77d794-0aac-476e-bd19-2d36fa641858\",\"siteId\":1,\"id\":\"1008611\"}": {
+                "children": []
+              },
+              "secondaryMenu_default_Entry:{\"uid\":\"cf77d794-0aac-476e-bd19-2d36fa641858\",\"siteId\":1,\"id\":\"1008611\"}": {
                 "__typename": "secondaryMenu_default_Entry",
                 "id": "1008611",
                 "uid": "cf77d794-0aac-476e-bd19-2d36fa641858",
                 "siteId": 1,
-                "title": "Need help?",
+                "title": "Support",
                 "typeHandle": "default",
                 "level": 1,
                 "navigationLink": {
-                    "__typename": "linkField_Link",
-                    "target": "_blank",
-                    "text": "Learn More",
-                    "type": "url",
-                    "url": "https://help.liturgia.quackstudios.com.au/hc/en-001",
-                    "title": "Need help?"
+                  "__typename": "linkField_Link",
+                  "target": "_blank",
+                  "text": "Support",
+                  "type": "url",
+                  "url": "http://127.0.0.1:8800/support",
+                  "title": "Support"
                 },
                 "plainText": null,
                 "children": [
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"d26c4326-4980-4c0b-8e2b-39210996c253\",\"siteId\":1,\"id\":\"1008613\"}"
-                    },
-                    {
-                        "__ref": "secondaryMenu_default_Entry:{\"uid\":\"f0690215-c24b-45d3-a559-5f3bb38098a5\",\"siteId\":1,\"id\":\"1008615\"}"
-                    }
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"d26c4326-4980-4c0b-8e2b-39210996c253\",\"siteId\":1,\"id\":\"1008613\"}"
+                  },
+                  {
+                    "__ref": "secondaryMenu_default_Entry:{\"uid\":\"f0690215-c24b-45d3-a559-5f3bb38098a5\",\"siteId\":1,\"id\":\"1008615\"}"
+                  }
                 ]
+              },
+              "search_search_Entry:{\"uid\":\"f1974efa-f4b9-44dc-93f8-b47ede5c6f14\",\"siteId\":1,\"id\":\"39\"}": {
+                "__typename": "search_search_Entry",
+                "id": "39",
+                "uid": "f1974efa-f4b9-44dc-93f8-b47ede5c6f14",
+                "siteId": 1,
+                "url": "https://www.zaptec.com/search"
               },
               "footerMenu_default_Entry:{\"uid\":\"e817d0b8-d146-482f-a22a-c9321c7cbece\",\"siteId\":1,\"id\":\"20729\"}": {
                 "__typename": "footerMenu_default_Entry",
@@ -4367,8 +4367,10 @@
           "__N_SSG": true
         },
         "page": "/[[...slug]]",
-        "query": { "slug": ["1", "en", "pricing"] },
-        "buildId": "UprV5rXM-FwPPIdjr2VlT",
+        "query": {
+          "slug": ["1", "en", "products", "digital-services"]
+        },
+        "buildId": "jwT3XyAx1hsRWORHYwLtr",
         "isFallback": false,
         "isExperimentalCompile": false,
         "dynamicIds": [68191],
