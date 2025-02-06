@@ -1,6 +1,5 @@
 .swiper-virtual .swiper-slide {
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;  
   transform: translateZ(0);
 }
 .swiper-virtual.swiper-css-mode .swiper-wrapper:after {
@@ -666,9 +665,4 @@ button.swiper-pagination-bullet {
 .swiper-free-mode > .swiper-wrapper {
   transition-timing-function: ease-out;
   margin: 0 auto;
-}
-
-
-.optional-hide {
-  display: none !important;
 }

@@ -1121,6 +1121,19 @@ footer .wysiwyg a:not(.button):hover {
   vector-effect: non-scaling-stroke;
   stroke-width: 1.5;
 }
+.button-big.white-green:hover .icon{
+  background-color: rgb(34 34 34 / var(--tw-text-opacity)) !important;
+  color: rgb(255 255 255 / var(--tw-border-opacity)) !important;
+}
+.button-big.white-green:hover .button-inner{
+  border-color: rgb(34 34 34 / var(--tw-text-opacity)) !important;
+}
+.button-big.white-green:hover .plus-icon.undefined{
+  stroke: rgb(255 255 255 / var(--tw-border-opacity)) !important;
+}
+.button-big.white-green:hover .inner-icon svg{
+  stroke: rgb(255 255 255 / var(--tw-border-opacity)) !important;
+}
 .button-big.white .button-inner {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -1743,13 +1756,13 @@ footer .wysiwyg a:not(.button):hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255, 255, 255);
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: black;
 }
 .secondary-menu-dropdown .active:not(.secondary-menu-item) .tag {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
   --tw-text-opacity: 1;
-  color: rgb(232 232 233 / var(--tw-text-opacity));
+  color: black;
 }
 .top-bar {
   --tw-bg-opacity: 1;
@@ -1840,8 +1853,9 @@ footer .wysiwyg a:not(.button):hover {
   height: clamp(3.6rem, 4.44vw, 5rem);
 }
 @media (min-width: 768px) {
+  /* Ensure the top-bar remains in hover state when the dropdown is hovered */
   .top-bar:hover {
-    --tw-bg-opacity: 1;
+    --tw-bg-opacity: 1 ;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 }
@@ -6060,18 +6074,29 @@ footer .wysiwyg a:not(.button):hover {
  
 .calculator-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  width: 60%;
+  width: 30%;
   height: 60%;
-  margin: 20px auto 75px auto;
+  margin: 20px 50px 75px 50px;
   gap: 50px; /* Adds space between dropdown and price card */
   background-color: transparent; /* No background */
 }
 
+.pricing-calculator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rhs-bulk-licensing-text {
+  width: 30%;
+}
+
 .controls {
-  width: 70%;
+  width: 100%;
 }
 
 .controls label {
@@ -6347,6 +6372,7 @@ text-align: start;
   display: flex;
   justify-content: start;
   align-items: start;
+  color: #e32925;
 }
 
 .quotation-mark2 {
@@ -6357,6 +6383,7 @@ text-align: start;
   display: flex;
   justify-content: end;
   align-items: end;
+  color: #e32925;
 }
 
 .card-main-text {
@@ -6425,7 +6452,7 @@ text-align: start;
 }
 
 .brightness-adjust {
-  filter: brightness(0.8);
+  filter: brightness(0.8) !important;
 }
 
 .quack-logo-text {
@@ -6470,4 +6497,81 @@ text-align: start;
 
 .optional-hide {
   display: none !important;
+}
+
+.dropdown-header {
+  position: absolute;
+  background-color: white;
+  height: 10vh;
+  width: 100vw;
+  transform: translate(0%, 2.9vh);
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dropdown-item {
+  position: relative;
+  height: 10vh;
+  width: 15vw;
+  border: 0.5px solid grey;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(238, 71, 71);
+}
+
+.dropdown-svg-container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.dropdown-svg-background {
+  position: relative;
+  height: 100%;
+  width: 13.7%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dropdown-svg {
+  position: relative;
+  height: 60%;
+  width: 60%;
+  color: white;
+  transform: translate(32%, 28%) !important;
+  top: 0% !important;
+}
+
+.dropdown-text {
+  font-family: Sohne, sans-serif;
+  line-height: 1.5;
+  font-size: clamp(.9rem, 1.11vw, 1.25rem);
+
+}
+
+.hover-active {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(34 34 34 / var(--tw-text-opacity)) !important;
+}
+
+.red-border {
+  background-color: #e32925;
+}
+
+.w-4.stroke-current.flex-shrink-0:hover {
+  color: #e32925;
 }
