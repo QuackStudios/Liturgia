@@ -220,7 +220,7 @@
         "close": "Close",
         "home": "Home",
         "contactUs": "Contact us",
-        "backToTop": "Back to top",
+        "backToTop": "Back to Top",
         "country": "Country",
         "tags": "Tags",
         "date": "Date",
@@ -610,7 +610,7 @@
       },
       "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
         "__typename": "mainMenu_default_Entry",
-        "title": "Products",
+        "title": "Home",
         "uid": "bb909196-465a-4c54-87ef-ea080ed4c580",
         "id": "20672",
         "siteId": 1,
@@ -619,10 +619,10 @@
         "navigationLink": {
           "__typename": "linkField_Link",
           "target": "",
-          "text": "Products",
-          "title": "Products",
+          "text": "Home",
+          "title": "Home",
           "type": "entry",
-          "url": "http://liturgia.quackstudios.com.au//charging-solutions.html"
+          "url": "/"
         },
         "children": [
           {
@@ -1628,9 +1628,9 @@
         "id": "115941",
         "uid": "dfd917e5-b499-4034-aaf8-2293a18803cd",
         "siteId": 1,
-        "sdVideo": "https://player.vimeo.com/progressive_redirect/playback/913310240/rendition/540p/file.mp4?loc=external&signature=3afd44061e304c6a65b04caa72ae6aadaf497c32c273c00f621ab2672296cc20",
+        "sdVideo": "assets/videos/Liturgia-Hero-Video3.mp4",
         "typeHandle": "vimeo",
-        "hdVideo": "https://player.vimeo.com/progressive_redirect/playback/912942127/rendition/720p/file.mp4?loc=external&signature=1769bc70d5abe7ab15b4502faac1b4af22528e37475791a8d3e59197081dbf0d",
+        "hdVideo": "assets/videos/Liturgia-Hero-Video3.mp4",
         "videoSettings": [
           {
             "__typename": "videoSettings_TableRow",
@@ -1649,7 +1649,7 @@
         "siteId": 1,
         "typeHandle": "textAndMedia",
         "smallMargins": false,
-        "anchor": "https://www.liturgia.quackstudios.com.au/#anchor-3ad27e79-cf00-4df3-b525-188513158114",
+        "anchor": "/",
         "blockAlignment": "left",
         "lightswitch": false,
         "lightswitch2": false,
@@ -1700,7 +1700,7 @@
         "siteId": 1,
         "typeHandle": "knowledgeHub",
         "smallMargins": false,
-        "anchor": "https://www.liturgia.quackstudios.com.au/#anchor-99c5cdaa-92fb-4d3e-a132-fba556afde64",
+        "anchor": "/",
         "number": 3,
         "lightswitch": false,
         "moduleTitle": "Info hub",
@@ -1724,7 +1724,7 @@
         "siteId": 1,
         "typeHandle": "knowledgeHub",
         "smallMargins": false,
-        "anchor": "https://www.liturgia.quackstudios.com.au/#anchor-43df13e8-e5e3-461a-b2b1-633cec5ff9ca",
+        "anchor": "/",
         "number": 3,
         "lightswitch": true,
         "moduleTitle": null,
