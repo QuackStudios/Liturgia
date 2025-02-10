@@ -238,8 +238,6 @@ function observeButtons() {
 
   // Start observing the target node for child additions
   observer.observe(targetNode, { childList: true, subtree: true });
-
-  console.log("MutationObserver is now watching for dynamically added buttons.");
 }
 
 // Fallback: Periodically check for unprocessed buttons

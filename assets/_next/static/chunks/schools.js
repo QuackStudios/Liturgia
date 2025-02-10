@@ -11,10 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // Retry mechanism: Check for the targetDiv again after a delay
       if (retryCount < MAX_RETRIES) {
         retryCount++;
-        console.warn(`Target div not found. Retrying (${retryCount}/${MAX_RETRIES})...`);
         setTimeout(initializeTestimonials, RETRY_INTERVAL);
       } else {
-        console.error('Target div not found after maximum retries. Testimonials section will not be added.');
       }
       return;
     }
@@ -81,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Inject the testimonials section after the target div
       targetDiv.after(testimonialsSection);
-      console.log('Testimonials section added after the target div');
     }
 
     // Function to initialize the slider logic
@@ -175,7 +172,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check if the cards are already in the DOM
     const cards = testimonialsSection.querySelectorAll('.carousel-card');
     if (cards.length > 0) {
-      console.log('Cards already present. Initializing slider...');
       initializeSlider();
     } else {
       // Use a MutationObserver to detect when the cards are added to the DOM

@@ -46,7 +46,6 @@ function handleScrollAnimations(entries) {
     mutationsList.forEach((mutation) => {
       mutation.addedNodes.forEach((node) => {
         if (node instanceof Element && node.classList.contains('testimonials')) {
-          console.log('Testimonials section found in the DOM.');
           observeTestimonialsSection(); // Start observing for scroll animations
           observer.disconnect(); // Stop observing for mutations once the section is found
         }

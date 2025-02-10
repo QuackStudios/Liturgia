@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function ensureContactForm() {
     const contactForm = document.querySelector('.contact-form');
     if (!contactForm) {
+        const modulesSection = document.querySelector('.modules'); // Locate the section with the class "modules"
         const targetDiv = document.querySelector('.min-h-screen');
         const footer = document.querySelector('footer');
 
@@ -34,12 +35,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Add the custom form to the LHS
             const formHTML = `
+            	<div class="statify" id="popup1">
+                  <div class="popup-content">
+                    <h1>Thank you! 👍</h1>
+                    <br>
+                    <p>Thanks for your inquiry! We'll contact you shortly! 😊</p>
+                  </div>
+                </div>	
               <div class="s-form">
                 <form id="contactForm"
                       class="contact-form"
                       method="POST"
-                      accept-charset="UTF-8"
-                      enctype="multipart/form-data">
+                      action="https://script.google.com/macros/s/AKfycbzY_VTmTjH7vSXv0ymjY-ixuLIHqHwxBZiDL_LYTvMV-v-KW8nb22xHSDEgDliqTX-h/exec">
                   <input type="hidden" name="pageTitle" value="Contact">
                   
                   <div class="s-form__field">
@@ -129,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             newSection.appendChild(lhsDiv);
             newSection.appendChild(rhsDiv);
 
-            footer.parentNode.insertBefore(newSection, footer);
+            modulesSection.parentNode.insertBefore(newSection, modulesSection);
 
             // Add mobile CSS dynamically
             const style = document.createElement('style');
@@ -249,13 +256,10 @@ adjustTopDivHeight();
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-
   // Function to attach event listeners to inputs
   function attachInputListeners(input) {
-
     // Add 'is-focus' class on focus
     input.addEventListener('focus', () => {
-
       const formField = input.closest('.s-form__field');
       if (formField) {
         const label = formField.querySelector('.s-form__label');
@@ -284,7 +288,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to initialize listeners for all existing inputs
   function initializeListeners() {
     const formInputs = document.querySelectorAll('.js-form-input');
-
     formInputs.forEach((input) => {
       attachInputListeners(input);
     });
@@ -328,49 +331,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('document.body is not available.');
   }
 
-  // Form submission and reset logic
-  const form = document.getElementById('contactForm');
-  const thankYouPopup = document.getElementById('thankYouPopup');
-  const overlay = document.getElementById('overlay');
-  const closePopup = document.getElementById('closePopup');
-
-  if (form) {
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-      const formData = new FormData(form);
-
-      fetch('https://formkeep.com/f/87c15317d18f', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          overlay.style.display = 'block';
-          thankYouPopup.style.display = 'block';
-        } else {
-          console.error('Form submission failed with status:', response.status);
-          alert('There was an issue submitting the form. Please try again.');
-        }
-      }).catch(error => {
-        console.error('Error:', error);
-        alert('There was an issue submitting the form. Please try again.');
-      });
-    });
-  } else {
-    console.warn('Form with ID "contactForm" not found.');
-  }
-
-  if (closePopup) {
-    closePopup.addEventListener('click', function () {
-      overlay.style.display = 'none';
-      thankYouPopup.style.display = 'none';
-      resetForm();
-    });
-  } else {
-    console.warn('Close popup button with ID "closePopup" not found.');
-  }
 
   function resetForm() {
     if (!form) {
@@ -378,12 +338,11 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    console.log('Resetting form...');
     // Reset the form fields
     form.reset();
 
     // Clear input values and reset any inline styles
-    form.querySelectorAll('input:not([type="checkbox"]), textarea').forEach(field => {
+    form.querySelectorAll('input:not([type="checkbox"]), textarea').forEach((field) => {
       field.value = '';
       field.style.removeProperty('background-color');
       field.style.removeProperty('border');
@@ -391,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
       field.style.removeProperty('padding');
       field.classList.remove('filled', 'has-value', 'is-focused');
 
-      // Trigger collapse/expand behavior
+      // Trigger collapse/expand behaviour
       if (field.classList.contains('expanded')) {
         field.classList.remove('expanded');
       }
@@ -401,42 +360,93 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Reset checkboxes
-    form.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+    form.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
       checkbox.checked = false;
     });
 
     // Remove custom class styling on form fields
-    form.querySelectorAll('.s-form__field, .form-field').forEach(field => {
+    form.querySelectorAll('.s-form__field, .form-field').forEach((field) => {
       field.classList.remove('has-value', 'is-focused', 'filled');
     });
 
-    // Reset any labels that might be stuck in an active state
-    form.querySelectorAll('label').forEach(label => {
-      label.classList.remove('filled', 'active', 'has-value');
-    });
-
-    // Reset placeholders if they exist
-    form.querySelectorAll('.placeholder').forEach(placeholder => {
-      placeholder.style.transform = '';
-      placeholder.style.transition = '';
-    });
-
-    // Remove any validation-related classes
-    form.querySelectorAll('.is-invalid, .is-valid').forEach(field => {
-      field.classList.remove('is-invalid', 'is-valid');
-    });
-
-    // Reset custom elements like select boxes or checkboxes
-    form.querySelectorAll('.custom-select, .custom-checkbox').forEach(element => {
-      element.classList.remove('selected', 'checked');
-    });
-
-    // Force a repaint to ensure all style resets take effect
-    form.style.display = 'none';
-    setTimeout(() => {
-      form.style.display = 'block';
-    }, 10);
-
-    console.log('Form reset complete.');
   }
 });
+
+// Function to handle form submission
+function attachFormSubmitHandler(form) {
+  if (!form.dataset.listenerAttached) { // Ensure the listener is only attached once
+    form.addEventListener('submit', (event) => {
+      event.preventDefault(); // Prevent the default behaviour (navigation)
+
+      // Instantly scroll to the top of the page to ensure the popup is fully visible
+      window.scrollTo(0, 0);
+
+      // Select the popup element by its ID
+      const popup = document.getElementById('popup1');
+      if (popup) {
+        popup.classList.add('show'); // Show the popup
+        document.body.classList.add('popup-active'); // Disable scrolling on the body
+
+        // Hide the popup after 1800ms and reset the form
+        setTimeout(function () {
+          popup.classList.remove('show'); // Hide the popup
+          document.body.classList.remove('popup-active'); // Re-enable scrolling on the body
+          form.reset(); // Reset the form fields
+        }, 1800); // Set to 1800ms
+      } else {
+        console.warn('Popup element with ID "popup1" not found.');
+      }
+
+      // Collect form data
+      const formData = new FormData(form);
+
+      // Send the data to the Google Apps Script endpoint
+      fetch(form.action, {
+        method: 'POST',
+        body: formData,
+      })
+        .then((response) => response.text())
+        .then((data) => {
+          // Show a success message to the user
+          form.reset(); // Reset the form
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+    });
+
+    // Mark the form to indicate the listener has been attached
+    form.dataset.listenerAttached = "true";
+  }
+}
+
+// MutationObserver to detect when the form with ID "contactForm" and popup with ID "popup1" are added to the DOM
+const observer6 = new MutationObserver((mutationsList) => {
+  for (const mutation of mutationsList) {
+    if (mutation.type === 'childList') {
+      // Check if the form is now in the DOM
+      const form = document.getElementById('contactForm');
+      if (form) {
+        attachFormSubmitHandler(form); // Attach the submit handler
+      }
+
+      // Check if the popup is now in the DOM
+      const popup = document.getElementById('popup1');
+      if (popup) {
+      }
+    }
+  }
+});
+
+// Start observing the body for changes
+observer6.observe(document.body, { childList: true, subtree: true });
+
+// Check if the form and popup are already in the DOM (in case they were added before the observer started)
+const existingForm = document.getElementById('contactForm');
+if (existingForm) {
+  attachFormSubmitHandler(existingForm);
+}
+
+const existingPopup = document.getElementById('popup1');
+if (existingPopup) {
+}

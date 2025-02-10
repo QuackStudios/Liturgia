@@ -51,7 +51,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
 
     // Append the "modules-pp" section to the DOM
     document.querySelector('header').after(modulesSection);
-    console.log('Modules-pp section added');
+
 
     // Add mobile-specific CSS dynamically
 const mobileStyle = document.createElement('style');
@@ -189,7 +189,6 @@ function initializeCustomDropdown() {
     dropdownButton.addEventListener('click', (e) => {
       e.stopPropagation(); // Prevent click from propagating to the document
       const dropdown = dropdownButton.closest('.custom-dropdown'); // Get the parent .custom-dropdown
-      console.log('Toggling class on:', dropdown); // Log the element being toggled
       dropdown.classList.toggle('active'); // Toggle the 'active' class
     });
 
@@ -201,7 +200,6 @@ function initializeCustomDropdown() {
 
         // Get the selected value from the data-value attribute
         const selectedValue = e.target.getAttribute('data-value');
-        console.log('Selected value:', selectedValue); // Log the selected value
 
         // Close the dropdown menu
         dropdownMenu.parentElement.classList.remove('active');
@@ -211,14 +209,22 @@ function initializeCustomDropdown() {
       }
     });
 
-    console.log('Custom dropdown initialized.');
+
   }
 }
 
-// Example updatePrice function
 function updatePrice(value) {
-  console.log('Updating price with value:', value);
-  // Add your logic here to update the price based on the selected value
+
+  // Find the price element in the DOM
+  const priceElement = document.getElementById('price');
+
+  // Check if the price element exists
+  if (priceElement) {
+    // Update the text content of the price element
+    priceElement.textContent = `$${value}`;
+  } else {
+    console.error('Price element not found in the DOM.');
+  }
 }
 
 // MutationObserver to detect when the dropdown is added to the DOM
@@ -243,12 +249,11 @@ observer2.observe(document.body, {
   subtree: true,   // Watch the entire DOM subtree
 });
 
-console.log('MutationObserver is now watching for dropdown elements.');
+
 
 // Close the dropdown if the user clicks outside of it
 document.addEventListener('click', (e) => {
   if (!e.target.closest('.custom-dropdown')) {
-    console.log('Click outside detected. Closing dropdown.');
     document.querySelectorAll('.custom-dropdown').forEach((dropdown) => {
       dropdown.classList.remove('active'); // Remove 'active' class
     });

@@ -107,7 +107,7 @@
           return (Q = tg(t, N)) && ra;
         },
         j = function (t, e) {
-          return console.warn(
+          return(
             "Invalid property",
             t,
             "set to",
@@ -116,7 +116,7 @@
           );
         },
         G = function (t, e) {
-          return !e && console.warn(t);
+          return !e;
         },
         W = function (t, e) {
           return (t && (N[t] = e) && Q && (Q[t] = e)) || N;
