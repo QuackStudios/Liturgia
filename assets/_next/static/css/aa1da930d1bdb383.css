@@ -1768,18 +1768,6 @@ footer .wysiwyg a:not(.button):hover {
   --tw-text-opacity: 1;
   color: rgb(118 117 114 / var(--tw-text-opacity));
 }
-.secondary-menu-dropdown .active:not(.secondary-menu-item) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.secondary-menu-dropdown .active:not(.secondary-menu-item) .tag {
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.1;
-  --tw-text-opacity: 1;
-  color: rgb(232 232 233 / var(--tw-text-opacity));
-}
 .top-bar {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -3281,7 +3269,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 .bg-forest {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 49 47 / var(--tw-bg-opacity));
+  background-color: rgb(172 172 172);
 }
 .bg-green {
   --tw-bg-opacity: 1;
@@ -5326,7 +5314,7 @@ footer .wysiwyg a:not(.button):hover {
     padding-right: 0;
   }
   .md\:text-\[clamp\(102px\2c 11vw\2c 400px\)\] {
-    font-size: clamp(102px, 11vw, 400px);
+    font-size: clamp(102px, 7vw, 400px);
   }
   .md\:r-max-w-\[14\] {
     max-width: clamp(12.6rem, 15.56vw, 17.5rem);
@@ -5748,7 +5736,7 @@ footer .wysiwyg a:not(.button):hover {
   width: 80%;
   display: flex;
   flex-direction: column;
-  padding: 0% 0% 0% 10%;
+  padding: 0.4em 0% 0% 10%;
 }
 
 .nested-div-1 {
@@ -6158,4 +6146,51 @@ label {
 
 .optional-hide {
   display: none !important;
+}
+
+
+.support-height-adjust {
+  min-height: 55vh !important;
+}
+
+.contact-form {
+  margin-bottom: 7%;
+}
+
+#popup1 {
+  position: fixed; /* Fixed relative to the viewport */
+  top: 0;          /* Align to the top of the viewport */
+  left: 0;         /* Align to the left of the viewport */
+  width: 100vw;    /* Full width of the viewport */
+  height: 100vh;   /* Full height of the viewport */
+  background-color: rgba(255, 255, 255); /* Semi-transparent white background */
+  display: flex;   /* Use flexbox for centring */
+  justify-content: center; /* Horizontally centre the content */
+  align-items: center; /* Vertically centre the content */
+  visibility: hidden; /* Initially hidden */
+  opacity: 0;         /* Initially invisible */
+  transition: 0.3s ease-in-out; /* Smooth fade in/out */
+  z-index: 1000;      /* Ensure it is on top of everything else on the page */
+}
+
+/* Popup Content */
+.popup-content {
+  text-align: center; /* Centre the text inside the popup */
+}
+
+/* When the popup is shown */
+#popup1.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Prevent scrolling on the body when the popup is visible */
+body.popup-active {
+  overflow: hidden; /* Disable scrolling on the body */
+}
+
+.hero-text-adjust {
+  font-style: italic;
+  position: relative;
+  left: 40%;
 }
