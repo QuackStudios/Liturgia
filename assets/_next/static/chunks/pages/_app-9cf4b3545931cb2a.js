@@ -8925,7 +8925,7 @@
               )
         ),
         F = (e) => {
-          let t = new URL("http://cms.zaptec.com/api");
+          let t = new URL("http://127.0.0.1:8800/api");
           for (let [r, n] of Object.entries(e)) t.searchParams.append(r, n);
           return new R({
             uri: t.toString(),
@@ -10615,7 +10615,6 @@ ${t}`
         return i(e.namespace, e.key);
       }
       function a(e) {
-        console.error(e);
       }
       function s(e, t) {
         return n.memoize(e, {

@@ -2570,7 +2570,7 @@
                         ease: "power2.out",
                       });
                     },
-                    children: l("scrollDown"),
+                    children: l("Scroll down"),
                   }),
                 ],
               }),
@@ -3068,35 +3068,6 @@
                   className:
                     "inner pb-3 flex gap-1 border-b border-grey-border",
                   children: [
-                    (0, T.jsx)(e8.A, {
-                      href: l.currentSite.fullUrl.replace(/\/$/, ""),
-                      className:
-                        "underline transition-colors duration-300 hover:text-asphalt",
-                      children: a("home"),
-                    }),
-                    (0, T.jsx)("span", { children: "/" }),
-                    i.map((e, n) =>
-                      (null == e ? void 0 : e.url)
-                        ? (0, T.jsxs)(
-                            B.Fragment,
-                            {
-                              children: [
-                                (0, T.jsx)(e8.A, {
-                                  href:
-                                    "string" == typeof e.url
-                                      ? e.url
-                                      : e.link.url,
-                                  className:
-                                    "underline transition-colors duration-300 hover:text-asphalt",
-                                  children: e.title,
-                                }),
-                                (0, T.jsx)("span", { children: "/" }),
-                              ],
-                            },
-                            "".concat(e.uid, "-").concat(n)
-                          )
-                        : null
-                    ),
                   ],
                 }),
               })
@@ -6555,35 +6526,6 @@
                   className:
                     "inner pb-3 flex gap-1 border-b border-grey-border",
                   children: [
-                    (0, T.jsx)(e8.A, {
-                      href: null == o ? void 0 : o.fullUrl.replace(/\/$/, ""),
-                      className:
-                        "underline transition-colors duration-300 hover:text-asphalt",
-                      children: c("home"),
-                    }),
-                    (0, T.jsx)("span", { children: "/" }),
-                    h.map((e, n) =>
-                      (null == e ? void 0 : e.url)
-                        ? (0, T.jsxs)(
-                            B.Fragment,
-                            {
-                              children: [
-                                (0, T.jsx)(e8.A, {
-                                  href:
-                                    "string" == typeof e.url
-                                      ? e.url
-                                      : e.link.url,
-                                  className:
-                                    "underline transition-colors duration-300 hover:text-asphalt",
-                                  children: e.title,
-                                }),
-                                (0, T.jsx)("span", { children: "/" }),
-                              ],
-                            },
-                            "".concat(e.uid, "-").concat(n)
-                          )
-                        : null
-                    ),
                   ],
                 }),
               })
@@ -6708,38 +6650,6 @@
               children: (0, T.jsxs)("div", {
                 className: "inner pb-3 flex gap-1 border-b border-grey-border",
                 children: [
-                  (0, T.jsx)(e8.A, {
-                    href: r.currentSite.fullUrl.replace(/\/$/, ""),
-                    className:
-                      "underline transition-colors duration-300 hover:text-asphalt",
-                    children: o("home"),
-                  }),
-                  (0, T.jsx)("span", { children: "/" }),
-                  d.map((e, n) => {
-                    var t;
-                    return (null == e ? void 0 : e.url)
-                      ? (0, T.jsxs)(
-                          B.Fragment,
-                          {
-                            children: [
-                              (0, T.jsx)(e8.A, {
-                                href:
-                                  "string" == typeof e.url
-                                    ? e.url
-                                    : null === (t = e.link) || void 0 === t
-                                    ? void 0
-                                    : t.url,
-                                className:
-                                  "underline transition-colors duration-300 hover:text-asphalt",
-                                children: e.title,
-                              }),
-                              (0, T.jsx)("span", { children: "/" }),
-                            ],
-                          },
-                          "".concat(e.uid, "-").concat(n)
-                        )
-                      : null;
-                  }),
                 ],
               }),
             })
@@ -7554,38 +7464,6 @@
               children: (0, T.jsxs)("div", {
                 className: "inner pb-3 flex gap-1 border-b border-grey-border",
                 children: [
-                  (0, T.jsx)(e8.A, {
-                    href: r.currentSite.fullUrl.replace(/\/$/, ""),
-                    className:
-                      "underline transition-colors duration-300 hover:text-asphalt",
-                    children: o("home"),
-                  }),
-                  (0, T.jsx)("span", { children: "/" }),
-                  d.map((e, n) => {
-                    var t;
-                    return (null == e ? void 0 : e.url)
-                      ? (0, T.jsxs)(
-                          B.Fragment,
-                          {
-                            children: [
-                              (0, T.jsx)(e8.A, {
-                                href:
-                                  "string" == typeof e.url
-                                    ? e.url
-                                    : null === (t = e.link) || void 0 === t
-                                    ? void 0
-                                    : t.url,
-                                className:
-                                  "underline transition-colors duration-300 hover:text-asphalt",
-                                children: e.title,
-                              }),
-                              (0, T.jsx)("span", { children: "/" }),
-                            ],
-                          },
-                          "".concat(e.uid, "-").concat(n)
-                        )
-                      : null;
-                  }),
                 ],
               }),
             })
@@ -7972,7 +7850,7 @@
               }),
               (0, T.jsx)("link", {
                 rel: "manifest",
-                href: "/favicon/site.webmanifest",
+                href: "/assets/favicon/site.webmanifest",
               }),
               (0, T.jsx)("link", {
                 rel: "mask-icon",
@@ -8071,7 +7949,7 @@
                 ],
               }),
               (0, T.jsx)(lb(), {
-                src: "https://zaptec.statuspage.io/embed/script.js",
+                src: "",
               }),
               (0, T.jsx)(lf, { globals: l }),
             ],
@@ -9029,113 +8907,7 @@
                     document.removeEventListener("click", e);
                   }
                 );
-              }, []),
-              (0, T.jsx)(nh.N, {
-                children: (0, T.jsx)(eW.P.div, {
-                  className:
-                    "search-box border border-grey-border rounded-[6.25rem] r-text-sm w-[2.75rem] h-[2.75rem] overflow-hidden bg-white cursor-pointer relative ".concat(
-                      c ? " is-open" : ""
-                    ),
-                  initial: { width: "2.75rem" },
-                  animate: { width: c ? (m ? "10rem" : "20rem") : "2.75rem" },
-                  exit: { width: "2.75rem" },
-                  onClick: () => {
-                    u(!0), o.current && o.current.focus();
-                  },
-                  ref: d,
-                  children: (0, T.jsxs)("form", {
-                    action: "",
-                    role: "search",
-                    noValidate: !0,
-                    className:
-                      "w-[10rem] md:w-[20rem] flex justify-between items-center gap-4 absolute left-0 top-0 h-full pl-[0.9rem] pr-[0.31rem] py-[0.31rem]",
-                    onSubmit: (e) => {
-                      e.preventDefault(),
-                        e.stopPropagation(),
-                        o.current && o.current.blur();
-                      let i = ""
-                        .concat(
-                          encodeURIComponent("".concat("Zaptec", "[query]")),
-                          "="
-                        )
-                        .concat(encodeURIComponent(a));
-                      l({
-                        event: "site_search",
-                        searchquery: a,
-                        location: "Main menu",
-                      });
-                      let d = new URL(t.url);
-                      r.push({ pathname: d.pathname, query: i }),
-                        s(""),
-                        u(!1),
-                        n.setMenuState(!1);
-                    },
-                    children: [
-                      (0, T.jsx)("svg", {
-                        width: "14",
-                        height: "14",
-                        viewBox: "0 0 14 14",
-                        fill: "none",
-                        xmlns: "http://www.w3.org/2000/svg",
-                        className: "search-icon flex-shrink-0 ".concat(
-                          n.menuState && !c
-                            ? "stroke-grey md:stroke-white"
-                            : "stroke-grey",
-                          " transition-colors duration-300"
-                        ),
-                        children: (0, T.jsx)("path", {
-                          d: "M13 13.2109L9.5 9.71094M11 6.21094C11 8.97236 8.76142 11.2109 6 11.2109C3.23858 11.2109 1 8.97236 1 6.21094C1 3.44951 3.23858 1.21094 6 1.21094C8.76142 1.21094 11 3.44951 11 6.21094Z",
-                        }),
-                      }),
-                      (0, T.jsx)("input", {
-                        ref: o,
-                        autoComplete: "off",
-                        autoCorrect: "off",
-                        autoCapitalize: "off",
-                        placeholder: i("search.input"),
-                        spellCheck: !1,
-                        type: "text",
-                        className:
-                          "flex-1 r-text-sm outline-none bg-transparent w-[100px] sm:w-[120px]",
-                        value: a,
-                        onChange: (e) => {
-                          s(e.currentTarget.value);
-                        },
-                      }),
-                      (0, T.jsx)("button", {
-                        type: "reset",
-                        hidden: 0 === a.length,
-                        onClick: () => {
-                          s("");
-                        },
-                        children: (0, T.jsxs)("svg", {
-                          width: "12",
-                          height: "13",
-                          viewBox: "0 0 12 13",
-                          fill: "none",
-                          xmlns: "http://www.w3.org/2000/svg",
-                          children: [
-                            (0, T.jsx)("path", {
-                              d: "M2 10.2109L9.99997 2.21097",
-                              stroke: "#767572",
-                            }),
-                            (0, T.jsx)("path", {
-                              d: "M2 2.21094L9.99997 10.2109",
-                              stroke: "#767572",
-                            }),
-                          ],
-                        }),
-                      }),
-                      (0, T.jsx)("button", {
-                        type: "submit",
-                        className:
-                          "bg-asphalt text-white rounded-[6.25rem] r-px-4 py-1 r-text-xs flex-shrink-0 hidden md:inline-flex",
-                        children: i("search.button"),
-                      }),
-                    ],
-                  }),
-                }),
-              })
+              }, [])
             );
           })
         ),
@@ -9510,37 +9282,6 @@
                     },
                     children: (0, T.jsx)("div", {
                       className: "inner r-p-6 flex flex-col",
-                      children: o.map((e) =>
-                        (0, T.jsxs)(
-                          "a",
-                          {
-                            href: e.url,
-                            className:
-                              "flex items-center justify-start w-full h-ful py-3 border-b last:border-b-0 r-text-sm ".concat(
-                                a.siteId === e.siteId
-                                  ? " text-forest border-asphalt"
-                                  : " text-asphalt border-grey-border",
-                                " }"
-                              ),
-                            title: e.title,
-                            children: [
-                              (0, T.jsx)(ny(), {
-                                src: e.flag,
-                                alt: e.locale,
-                                className:
-                                  "w-[1.125] h-[0.8125] mr-1 object-contain",
-                                width: "18",
-                                height: "13",
-                              }),
-                              (0, T.jsx)("span", {
-                                className: "whitespace-nowrap",
-                                children: e.name,
-                              }),
-                            ],
-                          },
-                          e.siteId
-                        )
-                      ),
                     }),
                   }),
                 ],
@@ -10259,7 +10000,7 @@
                           className: "min-h-screen",
                           children: [
                             (0, T.jsx)("div", {
-                              className: "min-h-screen",
+                              className: "min-h-screen support-height-adjust",
                               children: n,
                             }),
                             (0, T.jsx)(iu, { globals: t, entry: l }),

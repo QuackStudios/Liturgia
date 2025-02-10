@@ -2562,7 +2562,7 @@
                         ease: "power2.out",
                       });
                     },
-                    children: l("scrollDown"),
+                    children: l("Scroll down"),
                   }),
                 ],
               }),

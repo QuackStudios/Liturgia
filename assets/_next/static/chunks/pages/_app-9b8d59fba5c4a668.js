@@ -8925,7 +8925,7 @@
               )
         ),
         F = (e) => {
-          let t = new URL("https://cms.zaptec.com/api");
+          let t = new URL("http://127.0.0.1:8800/api");
           for (let [r, n] of Object.entries(e)) t.searchParams.append(r, n);
           return new R({
             uri: t.toString(),
@@ -9871,8 +9871,7 @@ ${t}`
           if (t.hasDynamicMetadata) {
             if (i)
               throw (
-                (console.error(i),
-                new o.StaticGenBailoutError(
+                (new o.StaticGenBailoutError(
                   `Route "${e}" has a \`generateMetadata\` that could not finish rendering before ${a} was used. Follow the instructions in the error for this expression to resolve.`
                 ))
               );
@@ -9883,8 +9882,7 @@ ${t}`
           if (t.hasDynamicViewport) {
             if (i)
               throw (
-                (console.error(i),
-                new o.StaticGenBailoutError(
+                (new o.StaticGenBailoutError(
                   `Route "${e}" has a \`generateViewport\` that could not finish rendering before ${a} was used. Follow the instructions in the error for this expression to resolve.`
                 ))
               );
@@ -10615,7 +10613,6 @@ ${t}`
         return i(e.namespace, e.key);
       }
       function a(e) {
-        console.error(e);
       }
       function s(e, t) {
         return n.memoize(e, {
