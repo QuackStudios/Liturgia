@@ -7957,7 +7957,7 @@
                       })
                   }), (0,
                   T.jsxs)("div", {
-                      className: "inner container big flex flex-col lg:flex-row justify-between r-gap-10 r-mb-[6.8] flex-1",
+                      className: "inner container big flex flex-col lg:flex-row justify-between r-gap-10 r-mb-[6.8] flex-1 margin-bottom-footer-adjust",
                       children: [(0,
                       T.jsx)(l9, {
                           menu: null == u ? void 0 : u.footerMenu

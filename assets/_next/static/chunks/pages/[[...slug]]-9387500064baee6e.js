@@ -3165,7 +3165,7 @@
                       : r.length) > 0 &&
                       (0, T.jsx)("div", {
                         className:
-                          "grid grid-cols-1 sm:grid-cols-3 gap-4 md:r-gap-24 text-left w-full pt-[3.75rem] sm:r-pt-14 container big",
+                          "grid grid-cols-1 sm:grid-cols-3 gap-4 md:r-gap-24 text-left w-full pt-[3.75rem] sm:r-pt-14 container big mobile-adjust",
                         children: o.heroColumns.map((e, n) =>
                           (0, T.jsx)(
                             e3,
@@ -3185,7 +3185,7 @@
                       : a.length) > 0 &&
                       (0, T.jsx)(eW.P.div, {
                         className:
-                          "media-wrapper px-4 mt-[3.75rem] sm:r-mt-[6.25] overflow-hidden aspect-[22.5/33] sm:aspect-[16/9] max-h-[80vh] sm:max-h-none w-full",
+                          "media-wrapper px-4 mt-[3.75rem] sm:r-mt-[6.25] overflow-hidden aspect-[22.5/33] sm:aspect-[16/9] max-h-[80vh] sm:max-h-none w-full mobile-media-wrapper-adjust",
                         ref: u,
                         initial: { y: 50, opacity: 0 },
                         animate: { y: 0, opacity: 1 },
@@ -9055,7 +9055,7 @@
                 className:
                   "footer-cta py-20 sm:r-py-10 text-center w-full flex items-center justify-center flex-col",
                 children: [
-                  (0, T.jsx)("p", { className: "h2-text", children: n }),
+                  (0, T.jsx)("p", { className: "h2-text footer-mobile-text-adjust", children: n }),
                   (0, T.jsx)(e0.A, {
                     linkProps: t,
                     className: "r-mt-6".concat(l ? " " : " white-green"),
@@ -9441,7 +9441,7 @@
                 }),
                 (0, T.jsxs)("div", {
                   className:
-                    "inner container big flex flex-col lg:flex-row justify-between r-gap-10 r-mb-[6.8] flex-1",
+                    "inner container big flex flex-col lg:flex-row justify-between r-gap-10 r-mb-[6.8] flex-1 margin-bottom-footer-adjust",
                   children: [
                     (0, T.jsx)(l9, { menu: null == u ? void 0 : u.footerMenu }),
                     (0, T.jsx)(ie, {
@@ -10156,4 +10156,164 @@ if ('scrollRestoration' in history) {
 // Force scroll to the top on page load
 window.addEventListener('load', () => {
   window.scrollTo(0, 0);
+});
+
+
+
+
+// Function to add the mobile hamburger menu
+function addMobileHamburgerMenu(target) {
+  // Check if the viewport width is less than or equal to 639 pixels
+  if (window.innerWidth <= 639) { // Check if the mobile-hamburger-menu div already exists
+    if (!target.querySelector('.mobile-hamburger-menu')) {
+      // Create the outer div
+      const hamburgerMenu = document.createElement('div');
+      hamburgerMenu.className = 'mobile-hamburger-menu';
+
+      // Create the nested div
+      const nestedDiv = document.createElement('div');
+      nestedDiv.className = 'hamburger-icon-container';
+
+      // Add the initial hamburger SVG to the nested div
+      nestedDiv.innerHTML = `
+        <svg width="40px" height="40px" class="mobile-hamburger-menu-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 18L20 18" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            <path d="M4 12L20 12" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            <path d="M4 6L20 6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+        </svg>`
+;
+
+
+      // Append the nested div to the outer div
+     hamburgerMenu.appendChild(nestedDiv);
+
+      // Append the outer div to the target element
+      target.appendChild(hamburgerMenu);
+
+      // Dynamically add the menu HTML structure
+      addLiturgiaMenu();
+    }
+  } else {
+    // If the viewport is larger than 639px, remove the mobile-hamburger-menu if it exists
+    const existingMenu = target.querySelector('.mobile-hamburger-menu');
+    if (existingMenu) {
+      existingMenu.remove();
+    }
+
+    // Remove the liturgia menu if it exists
+    const liturgiaMenu = document.querySelector('.liturgia-menu-mobile');
+    if (liturgiaMenu) {
+      liturgiaMenu.remove();
+    }
+  }
+}
+
+// Function to dynamically add the liturgia menu HTML structure
+function addLiturgiaMenu() {
+  // Check if the menu already exists
+  if (!document.querySelector('.liturgia-menu-mobile')) {
+    // Create the outer menu div
+    const liturgiaMenu = document.createElement('div');
+    liturgiaMenu.className = 'liturgia-menu-mobile';
+
+    // Create the menu items container
+    liturgiaMenu.innerHTML = `
+      <div class="items-container">
+        <div class="menu-items-container">
+          <a href="/" class="item-1">Home</a>
+          <a href="/features" class="item-2">Features</a>
+          <a href="/parishes" class="item-3">Parishes</a>
+          <a href="/schools" class="item-4">Schools</a>
+          <a href="/pricing" class="item-5">Pricing</a>
+          <a href="/Support" class="item-6">Support</a>
+</div>
+</div>`
+;
+
+    // Append the menu to the body
+    document.body.appendChild(liturgiaMenu);
+  }
+}
+
+// Set up the MutationObserver
+const observer9 = new MutationObserver((mutationsList) => {
+  for (const mutation of mutationsList) {
+    if (mutation.type === 'childList') {
+      // Check if the target element is added to the DOM
+      const target = document.querySelector('.menu-right.flex.items-center.gap-4');
+      if (target) {
+        addMobileHamburgerMenu(target);
+      }
+    }
+  }
+});
+
+// Start observing the document body for changes
+observer9.observe(document.body, {
+  childList: true,
+  subtree: true,
+});
+
+// Add a resize event listener to handle viewport changes
+window.addEventListener('resize', () => {
+  const target = document.querySelector('.menu-right.flex.items-center.gap-4');
+  if (target) {
+    addMobileHamburgerMenu(target);
+  }
+});
+
+// Add a click event listener to the mobile hamburger menu
+// Add a click event listener to the mobile hamburger menu
+document.addEventListener('click', (event) => {
+  // Check if the clicked element is the mobile hamburger menu or its child
+  const hamburgerMenu = document.querySelector('.mobile-hamburger-menu');
+  const hamburgerIconContainer = document.querySelector('.hamburger-icon-container');
+  if (hamburgerMenu && (event.target === hamburgerMenu || hamburgerMenu.contains(event.target))) {
+    // Find the liturgia-menu-mobile div
+    const liturgiaMenu = document.querySelector('.liturgia-menu-mobile');
+    if (liturgiaMenu) {
+      // Toggle the "menu-appear" class to show/hide the menu
+      liturgiaMenu.classList.toggle('menu-appear');
+
+      // Check if the menu is open or closed
+      if (liturgiaMenu.classList.contains('menu-appear')) {
+        // Menu is open: disable scrolling
+        document.body.classList.add('no-scroll');
+
+        // Change to cross icon
+        hamburgerIconContainer.innerHTML = `
+          <svg width="30px" height="30px" viewBox="0 0 24 24" class="mobile-menu-close" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Menu / Close_LG">
+              <path idVector" d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+         </svg>`;
+
+ // Add the fade-in effect to the close icon
+        const closeIcon = hamburgerIconContainer.querySelector('.mobile-menu-close');
+        if (closeIcon) {
+          setTimeout(() => {
+            closeIcon.classList.add('fade-in');
+          }, 10); // Small delay to ensure rendering
+        }
+      } else {
+        // Menu is closed: enable scrolling
+        document.body.classList.remove('no-scroll');
+
+        // Change back to hamburger icon
+        hamburgerIconContainer.innerHTML = `
+          <svg width="40px" height="40px" class="mobile-hamburger-menu-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 18L20 18" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            <path d="M4 12L20 12" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            <path d="M4 6L20 6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+          </svg>`;
+ }
+    }
+
+    // Find the logo SVG inside the "top-bar full" parent
+    const logo = document.querySelector('.top-bar.full .logo');
+    if (logo) {
+      // Toggle the "menu-open-logo-change" class on the logo
+      logo.classList.toggle('menu-open-logo-change');
+    }
+  }
 });
