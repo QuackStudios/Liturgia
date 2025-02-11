@@ -8,7 +8,7 @@
   frame.style.zIndex = '9999';
   frame.style.transition = 'left 1s ease, bottom 1s ease, right 1s ease';
 
-  frame.title = 'Zaptec Status';
+  frame.title = 'Liturgia Status';
   frame.ariaHidden = true;
 
   var mobile;
