@@ -5,11 +5,11 @@
         "entry": {
           "__typename": "pages_default_Entry",
           "siteId": 1,
-          "id": "1007055",
-          "uid": "1abf9dbd-a86d-4205-b270-78544fb8d4e6",
-          "slug": "pricing",
-          "uri": "pricing",
-          "title": "Pricing",
+          "id": "55016",
+          "uid": "fe7fe6ed-c2db-4ac9-99b1-b99eafe618db",
+          "slug": "contact",
+          "uri": "contact",
+          "title": "Support",
           "level": 2,
           "typeHandle": "default",
           "sectionHandle": "pages",
@@ -28,9 +28,9 @@
       "currentSite": {
         "siteId": 1,
         "locale": "en",
-        "domain": "liturgia.quackstudios.com.au/",
+        "domain": "www.liturgia.quackstudios.com.au",
         "url": "/",
-        "fullUrl": "http://liturgia.quackstudios.com.au/",
+        "fullUrl": "https://www.liturgia.quackstudios.com.au/",
         "handle": "default",
         "name": "Global / English",
         "primary": true,
@@ -141,18 +141,10 @@
             "close": "Close",
             "seeAll": "See all"
           },
-          "header": {
-            "logoTitle": "Go to homepage"
-          },
-          "socials": {
-            "followUs": "Follow us"
-          },
-          "timestamp": {
-            "published": "Published"
-          },
-          "breadcrumb": {
-            "home": "Home"
-          },
+          "header": { "logoTitle": "Go to homepage" },
+          "socials": { "followUs": "Follow us" },
+          "timestamp": { "published": "Published" },
+          "breadcrumb": { "home": "Home" },
           "validation": {
             "required": "This field is required",
             "email": "Please enter a valid email address",
@@ -166,10 +158,7 @@
             "error": "Something went wrong. Please try again later.",
             "send": "Subscribe"
           },
-          "news": {
-            "title": "News",
-            "latestNews": "Latest news"
-          },
+          "news": { "title": "News", "latestNews": "Latest news" },
           "media": "Media",
           "noResults": "No results",
           "add_to_calendar": "Add to calendar",
@@ -277,17 +266,17 @@
         }
       },
       "apolloState": {
-        "pages_default_Entry:{\"uid\":\"1abf9dbd-a86d-4205-b270-78544fb8d4e6\",\"siteId\":1,\"id\":\"1007055\"}": {
+        "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":1,\"id\":\"55016\"}": {
           "__typename": "pages_default_Entry",
-          "id": "1007055",
-          "uid": "1abf9dbd-a86d-4205-b270-78544fb8d4e6",
+          "id": "55016",
+          "uid": "fe7fe6ed-c2db-4ac9-99b1-b99eafe618db",
           "siteId": 1,
           "sectionHandle": "pages",
           "typeHandle": "default",
-          "uri": "pricing",
+          "uri": "contact",
           "lightswitch2": false,
-          "slug": "pricing",
-          "title": "Pricing",
+          "slug": "contact",
+          "title": "Contact us for support",
           "level": 2,
           "lightswitch": false,
           "plainText": null,
@@ -299,58 +288,94 @@
             "url": null,
             "title": null
           },
-          "localized": [],
+          "localized": [
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":2,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":3,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":4,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":5,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":6,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":7,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":8,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":9,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":10,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":11,\"id\":\"55016\"}"
+            },
+            {
+              "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":12,\"id\":\"55016\"}"
+            }
+          ],
           "ancestors": [
             {
-              "__ref": "pages_default_Entry:{\"uid\":\"0b69eabb-3765-4209-b6d2-61512d0f664c\",\"siteId\":1,\"id\":\"53\"}"
+              "__ref": "pages_default_Entry:{\"uid\":\"16a7d035-c755-4ee5-8671-89fa8cca75ce\",\"siteId\":1,\"id\":\"1603\"}"
             }
           ],
           "lightswitch3": false,
           "lightswitch4": false,
           "lightswitch6": false,
-          "text": "\u003cp\u003eBe in control anytime, anywhere with our app and portal. Monitor charging stations, decide who can charge, and much more all at your fingertips.\u003c/p\u003e",
+          "text": "\u003cp\u003eUse the contact forms below for partner and customer support inquiries\u003c/p\u003e",
           "button": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Learn More",
-            "type": "entry",
-            "url": null,
-            "title": null
+            "text": "",
+            "type": "",
+            "url": "",
+            "title": ""
           },
           "button2": {
             "__typename": "linkField_Link",
-            "target": "",
-            "text": "Learn More",
-            "type": "",
-            "url": null,
+            "target": "_blank",
+            "text": "Submit a support request",
+            "type": "url",
+            "url": "https://mail.google.com/mail/?view=cm&fs=1&to=liturgia@liturgybrisbane.net.au&su=Liturgia%20support%20question",
             "title": null
           },
           "mediaElement": [],
           "heroColumns": [],
           "modules({\"level\":1})": [
-          {
-            "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
-          }
-          ],
-          "modules({\"level\":1,\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\"})": [
             {
-              "__ref": "modules_children_BlockType:{\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\",\"siteId\":1,\"id\":\"1007056\"}"
+              "__ref": "modules_textAndMedia_BlockType:{\"uid\":\"5be15d78-b4f4-43e2-8115-4633e48aabc2\",\"siteId\":1,\"id\":\"107295\"}"
+            },
+            {
+              "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
+            }
+          ],
+          "modules({\"level\":1,\"uid\":\"5be15d78-b4f4-43e2-8115-4633e48aabc2\"})": [
+            {
+              "__ref": "modules_textAndMedia_BlockType:{\"uid\":\"5be15d78-b4f4-43e2-8115-4633e48aabc2\",\"siteId\":1,\"id\":\"107295\"}"
             }
           ],
           "modules({\"level\":1,\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\"})": [
             {
               "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
             }
-          ],
-          "children": []
+          ]
         },
         "ROOT_QUERY": {
           "__typename": "Query",
-          "entry({\"siteId\":1,\"uri\":\"pricing\"})": {
-            "__ref": "pages_default_Entry:{\"uid\":\"1abf9dbd-a86d-4205-b270-78544fb8d4e6\",\"siteId\":1,\"id\":\"1007055\"}"
+          "entry({\"siteId\":1,\"uri\":\"contact\"})": {
+            "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":1,\"id\":\"55016\"}"
           },
-          "entry({\"section\":\"pages\",\"siteId\":1,\"uri\":\"pricing\"})": {
-            "__ref": "pages_default_Entry:{\"uid\":\"1abf9dbd-a86d-4205-b270-78544fb8d4e6\",\"siteId\":1,\"id\":\"1007055\"}"
+          "entry({\"section\":\"pages\",\"siteId\":1,\"uri\":\"contact\"})": {
+            "__ref": "pages_default_Entry:{\"uid\":\"fe7fe6ed-c2db-4ac9-99b1-b99eafe618db\",\"siteId\":1,\"id\":\"55016\"}"
           },
           "globalSet({\"handle\":\"menuSettings\",\"siteId\":1})": {
             "__ref": "menuSettings_GlobalSet:{\"uid\":\"0c6df58d-5aee-44d6-b754-d104a8c9b64f\",\"siteId\":1,\"id\":\"20726\"}"
@@ -492,14 +517,14 @@
               "__ref": "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}"
             }
           ],
-          "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"pricing\"})": {
+          "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"contact\"})": {
             "__typename": "SeomaticType",
-            "metaTitleContainer": "{\"title\":{\"title\":\"Pricing | Liturgia\"}}",
-            "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Explore our affordable pricing options for religious products and services. Find the perfect plan tailored to your needs.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[],\"og:site_name\":{\"content\":\"Liturgia\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/pricing\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Affordable Pricing | Liturgia\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Explore our affordable pricing options for religious products and services. Find the perfect plan tailored to your needs.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/pricing.jpg\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":{\"content\":\"Liturgia Pricing Overview\",\"property\":\"og:image:alt\"},\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@Liturgia\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Affordable Pricing | Liturgia\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Explore our affordable pricing options for religious products and services. Find the perfect plan tailored to your needs.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/pricing.jpg\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":{\"content\":\"Liturgia Pricing Overview\",\"name\":\"twitter:image:alt\"},\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
-            "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/pricing\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/getliturgia.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[]}",
+            "metaTitleContainer": "{\"title\":{\"title\":\"Support | Liturgia\"}}",
+            "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Liturgia Support\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/support\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Liturgia Support\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":{\"content\":\"Liturgia Support\",\"property\":\"og:image:alt\"},\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@Liturgia\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Liturgia Support\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":{\"content\":\"Liturgia Support\",\"name\":\"twitter:image:alt\"},\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+            "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/support\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/getliturgia.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/getliturgia.com.au\\/nl\\/support\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr\\/support\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/en-uk\\/support\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/de\\/support\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/da\\/support\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/sv\\/support\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/no\\/support\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/support\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr-ch\\/support\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/de-ch\\/support\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr-be\\/support\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/nl-be\\/support\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
             "metaScriptContainer": "{}",
-            "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2025-01-09T15:18:42+01:00\",\"dateModified\":\"2025-01-09T15:27:34+01:00\",\"datePublished\":\"2023-10-12T14:06:00+02:00\",\"description\":\"Explore our affordable pricing options for religious products and services. Find the perfect plan tailored to your needs.\",\"headline\":\"Affordable Pricing\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/pricing.jpg\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/getliturgia.com.au\\/pricing\",\"name\":\"Affordable Pricing\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/getliturgia.com.au\\/pricing\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"description\":\"Liturgia provides premium services for religious products and materials.\",\"email\":\"liturgy@liturgybrisbane.net.au\",\"name\":\"Liturgia\",\"priceRange\":\"$\",\"telephone\":\"07 3324 3314\",\"url\":\"https:\\/\\/getliturgia.com.au\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\\/pricing\",\"name\":\"Affordable Pricing\",\"position\":2}],\"name\":\"Breadcrumbs\"}}",
-            "metaSiteVarsContainer": "{\"siteName\":\"Liturgia\",\"siteAlternateName\":\"Liturgy Brisbane\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgia provides premium services for religious products and materials.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/logo.jpg\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgia provides premium services for religious products and materials.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/logo.jpg\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
+            "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#identity\"},\"dateCreated\":\"2024-01-12T14:39:29+01:00\",\"dateModified\":\"2024-12-11T15:59:04+01:00\",\"datePublished\":\"2023-11-25T12:43:00+01:00\",\"description\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"headline\":\"Liturgia Support\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/getliturgia.com.au\\/support\",\"name\":\"Liturgia Support\",\"publisher\":{\"@id\":\"#identity\"},\"url\":\"https:\\/\\/getliturgia.com.au\\/support\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"description\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"email\":\"liturgy@liturgybrisbane.net.au\",\"name\":\"Liturgy Brisbane\",\"priceRange\":\"$\",\"telephone\":\"07 3324 3314\",\"url\":\"https:\\/\\/getliturgia.com.au\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\\/support\",\"name\":\"Liturgia Support\",\"position\":2}],\"name\":\"Breadcrumbs\"}}",
+            "metaSiteVarsContainer": "{\"siteName\":\"Liturgia Support\",\"siteAlternateName\":\"Liturgy Brisbane\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"genericImageWidth\":\"1200\",\"genericImageHeight\":\"630\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"genericImageWidth\":\"1200\",\"genericImageHeight\":\"630\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"@Liturgia\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/twitter.com\\/Liturgia\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/facebook.com\\/Liturgia\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"liturgia\",\"url\":\"https:\\/\\/linkedin.com\\/company\\/liturgia\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/youtube.com\\/Liturgia\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/instagram.com\\/Liturgia\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
           }
         },
         "menuSettings_GlobalSet:{\"uid\":\"0c6df58d-5aee-44d6-b754-d104a8c9b64f\",\"siteId\":1,\"id\":\"20726\"}": {
@@ -513,7 +538,7 @@
             "text": "Get Liturgia",
             "type": "custom",
             "url": "https://shop.liturgybrisbane.net.au/collections/liturgia",
-            "title": "Get Liturgia"
+            "title": null
           },
           "menuBlocks": [
             {
@@ -544,11 +569,11 @@
           "uid": "e8987905-968b-4a9b-8419-49ab71ac92ad",
           "id": "1008623",
           "siteId": 1,
-          "title": "Pricing",
+          "title": "Digital services",
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Pricing",
+            "text": "Digital services",
             "title": null,
             "type": "entry",
             "url": "https://www.liturgia.quackstudios.com.au/products/digital-services"
@@ -570,7 +595,8 @@
             "type": "entry",
             "url": "/"
           },
-          "children": []
+          "children": [
+          ]
         },
         "mainMenu_default_Entry:{\"uid\":\"06a39b58-99bf-4b8e-b0fc-ae1d0fae3936\",\"siteId\":1,\"id\":\"20724\"}": {
           "__typename": "mainMenu_default_Entry",
@@ -584,7 +610,7 @@
             "text": "Features",
             "title": null,
             "type": "entry",
-            "url": "features"
+            "url": "/features"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"179a6a80-9909-4015-a3ec-c8bec01673f0\",\"siteId\":1,\"id\":\"20722\"}": {
@@ -609,12 +635,12 @@
           "siteId": 1,
           "title": "Schools",
           "navigationLink": {
-            "__typename": "linkField_Link",
-            "target": "_blank",
-            "text": "Schools",
-            "title": "Schools",
-            "type": "url",
-            "url": "/schools"
+              "__typename": "linkField_Link",
+              "target": "",
+              "text": "Schools",
+              "title": "Schools",
+              "type": "url",
+              "url": "/schools"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"e7d7b7be-6913-4ea8-8813-ee4eaf13d8ac\",\"siteId\":1,\"id\":\"20680\"}": {
@@ -628,7 +654,7 @@
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Features",
+            "text": "Partners \u0026 installers",
             "title": "Features",
             "type": "entry",
             "url": "/features"
@@ -696,7 +722,7 @@
             "text": "Contact us",
             "title": null,
             "type": "entry",
-            "url": "https://www.liturgia.quackstudios.com.au/company/support"
+            "url": "https://www.liturgia.quackstudios.com.au/support"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}": {
@@ -773,52 +799,7 @@
             "type": "entry",
             "url": "https://www.liturgia.quackstudios.com.au/company/investor-relations"
           }
-        },
-        "mainMenu_default_Entry:{\"uid\":\"3f043661-7b02-4916-a65f-46b59391b6ea\",\"siteId\":1,\"id\":\"20719\"}": {
-          "__typename": "mainMenu_default_Entry",
-          "uid": "3f043661-7b02-4916-a65f-46b59391b6ea",
-          "id": "20719",
-          "siteId": 1,
-          "title": "Industry news",
-          "navigationLink": {
-            "__typename": "linkField_Link",
-            "target": "",
-            "text": "Industry news",
-            "title": null,
-            "type": "entry",
-            "url": "https://www.liturgia.quackstudios.com.au/info-hub/industry-news"
-          }
-        },
-        "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}": {
-          "__typename": "mainMenu_default_Entry",
-          "uid": "1e05ccd1-ffc3-4735-9e08-526dfbce735b",
-          "id": "20715",
-          "siteId": 1,
-          "title": "Tips and Tricks",
-          "navigationLink": {
-            "__typename": "linkField_Link",
-            "target": "",
-            "text": "Tips and Tricks",
-            "title": null,
-            "type": "entry",
-            "url": "https://www.liturgia.quackstudios.com.au/info-hub/tips-and-tricks"
-          }
-        },
-        "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}": {
-          "__typename": "mainMenu_default_Entry",
-          "uid": "87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c",
-          "id": "20713",
-          "siteId": 1,
-          "title": "Case studies",
-          "navigationLink": {
-            "__typename": "linkField_Link",
-            "target": "",
-            "text": "Case studies",
-            "title": null,
-            "type": "entry",
-            "url": "https://www.liturgia.quackstudios.com.au/info-hub/case-studies"
-          }
-        },
+        },       
         "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
           "__typename": "mainMenu_default_Entry",
           "title": "Pricing",
@@ -835,7 +816,20 @@
             "type": "entry",
             "url": "/pricing"
           },
-          "children": []
+          "children": [
+            {
+              "__ref": "mainMenu_default_Entry:{\"uid\":\"3f043661-7b02-4916-a65f-46b59391b6ea\",\"siteId\":1,\"id\":\"20719\"}"
+            },
+            {
+              "__ref": "mainMenu_default_Entry:{\"uid\":\"4c059895-84a4-4678-bde4-ac361f391a9b\",\"siteId\":1,\"id\":\"20717\"}"
+            },
+            {
+              "__ref": "mainMenu_default_Entry:{\"uid\":\"1e05ccd1-ffc3-4735-9e08-526dfbce735b\",\"siteId\":1,\"id\":\"20715\"}"
+            },
+            {
+              "__ref": "mainMenu_default_Entry:{\"uid\":\"87dbc7eb-bdb6-48d4-b2a6-26b073b54e9c\",\"siteId\":1,\"id\":\"20713\"}"
+            }
+          ]
         },
         "mainMenu_secondaryLink_Entry:{\"uid\":\"b52ccb22-4cf2-4a3c-890f-559d1139f48f\",\"siteId\":1,\"id\":\"20682\"}": {
           "__typename": "mainMenu_secondaryLink_Entry",
@@ -927,16 +921,16 @@
           "id": "1007096",
           "uid": "fa39d8f3-5a4e-48f9-b4e4-2b0899d4e8c4",
           "siteId": 1,
-          "title": "Pricing",
+          "title": "Digital Services",
           "typeHandle": "default",
           "level": 2,
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Pricing",
+            "text": "Digital services",
             "type": "entry",
             "url": "https://www.liturgia.quackstudios.com.au/products/digital-services",
-            "title": "Pricing"
+            "title": "Digital Services"
           },
           "plainText": null,
           "children": []
@@ -1108,7 +1102,7 @@
             "text": "Support",
             "type": "url",
             "url": "https://liturgia.quackstudios.com.au/support",
-            "title": "Support"
+            "title": "Support?"
           },
           "plainText": null,
           "children": [
@@ -1144,54 +1138,39 @@
         },
         "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}": {
           "__typename": "footerMenu_default_Entry",
-          "title": "Parishes",
+          "title": "Features",
           "uid": "4e341b35-2575-49b3-8a9c-f0429dd06177",
           "id": "20740",
           "siteId": 1,
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Parishes",
-            "title": "Parishes",
+            "text": "Features",
+            "title": "Features",
             "type": "entry",
-            "url": "/parishes"
+            "url": "/features"
           }
         },
         "footerMenu_default_Entry:{\"uid\":\"cd58e9df-63d4-4f39-ba99-aef504544242\",\"siteId\":1,\"id\":\"20737\"}": {
           "__typename": "footerMenu_default_Entry",
-          "title": "Features",
+          "title": "Parishes",
           "uid": "cd58e9df-63d4-4f39-ba99-aef504544242",
           "id": "20737",
           "siteId": 1,
           "navigationLink": {
             "__typename": "linkField_Link",
-            "target": "_blank",
-            "text": "Features",
-            "title": "Features",
+            "target": "",
+            "text": "Parishes",
+            "title": "Parishes",
             "type": "url",
-            "url": "/features"
+            "url": "/parishes"
           }
         },
         "footerMenu_default_Entry:{\"uid\":\"ce9eb1be-1d2e-48dd-bbf0-660bbcdae617\",\"siteId\":1,\"id\":\"151457\"}": {
           "__typename": "footerMenu_default_Entry",
-          "title": "Pricing",
+          "title": "Schools",
           "uid": "ce9eb1be-1d2e-48dd-bbf0-660bbcdae617",
           "id": "151457",
-          "siteId": 1,
-          "navigationLink": {
-            "__typename": "linkField_Link",
-            "target": "_blank",
-            "text": "Pricing",
-            "title": "Pricing",
-            "type": "url",
-            "url": "/pricing"
-          }
-        },
-        "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}": {
-          "__typename": "footerMenu_default_Entry",
-          "title": "Schools",
-          "uid": "b01f3bb9-94f7-449b-aa73-9206d30e8fbe",
-          "id": "20744",
           "siteId": 1,
           "navigationLink": {
             "__typename": "linkField_Link",
@@ -1202,6 +1181,22 @@
             "url": "/schools"
           }
         },
+        
+        "footerMenu_default_Entry:{\"uid\":\"b01f3bb9-94f7-449b-aa73-9206d30e8fbe\",\"siteId\":1,\"id\":\"20744\"}": {
+          "__typename": "footerMenu_default_Entry",
+          "title": "Pricing",
+          "uid": "b01f3bb9-94f7-449b-aa73-9206d30e8fbe",
+          "id": "20744",
+          "siteId": 1,
+          "navigationLink": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "text": "Pricing",
+            "title": "Pricing",
+            "type": "url",
+            "url": "/pricing"
+          }
+        },
         "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}": {
           "__typename": "footerMenu_default_Entry",
           "title": "Support",
@@ -1210,7 +1205,7 @@
           "siteId": 1,
           "navigationLink": {
             "__typename": "linkField_Link",
-            "target": "_blank",
+            "target": "",
             "text": "Support",
             "title": "Support",
             "type": "url",
@@ -1247,6 +1242,21 @@
             "url": "https://shop.liturgybrisbane.net.au/"
           }
         },
+        "links_link_BlockType:{\"uid\":\"887ed5dc-4875-4c84-b056-c48ec0890a59\",\"siteId\":1,\"id\":\"20748\"}": {
+          "__typename": "links_link_BlockType",
+          "id": "20748",
+          "uid": "887ed5dc-4875-4c84-b056-c48ec0890a59",
+          "siteId": 1,
+          "typeHandle": "link",
+          "itemLink": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "text": "Contact us",
+            "title": null,
+            "type": "entry",
+            "url": "support"
+          }
+        },
         "socials_link_BlockType:{\"uid\":\"e8d3bcc8-3865-44c1-b932-f3812d292e8d\",\"siteId\":1,\"id\":\"20752\"}": {
           "__typename": "socials_link_BlockType",
           "id": "20752",
@@ -1254,42 +1264,42 @@
           "siteId": 1,
           "typeHandle": "link",
           "itemLink": {
-            "__typename": "linkField_Link",
-            "target": "_blank",
-            "text": "Liturgy Brisbane",
-            "title": null,
-            "type": "url",
-            "url": "https://www.liturgybrisbane.net.au/"
+              "__typename": "linkField_Link",
+              "target": "_blank",
+              "text": "Terms and Conditions",
+              "title": null,
+              "type": "url",
+              "url": "/terms-and-conditions"
           }
-        },
-        "socials_link_BlockType:{\"uid\":\"b20f5b36-165e-41e1-b601-54b4b5fd1e8c\",\"siteId\":1,\"id\":\"20754\"}": {
+      },
+      "socials_link_BlockType:{\"uid\":\"b20f5b36-165e-41e1-b601-54b4b5fd1e8c\",\"siteId\":1,\"id\":\"20754\"}": {
           "__typename": "socials_link_BlockType",
           "id": "20754",
           "uid": "b20f5b36-165e-41e1-b601-54b4b5fd1e8c",
           "siteId": 1,
           "typeHandle": "link",
           "itemLink": {
-            "__typename": "linkField_Link",
-            "target": "_blank",
-            "text": "Privacy Policy",
-            "title": null,
-            "type": "url",
-            "url": "/privacy-policy"
+              "__typename": "linkField_Link",
+              "target": "_blank",
+              "text": "Privacy Policy",
+              "title": null,
+              "type": "url",
+              "url": "/privacy-policy"
           }
-        },
-        "socials_link_BlockType:{\"uid\":\"734aef24-7dd1-404f-8d65-31b05f255bce\",\"siteId\":1,\"id\":\"307449\"}": {
+      },
+      "socials_link_BlockType:{\"uid\":\"734aef24-7dd1-404f-8d65-31b05f255bce\",\"siteId\":1,\"id\":\"307449\"}": {
           "__typename": "socials_link_BlockType",
           "id": "307449",
           "uid": "734aef24-7dd1-404f-8d65-31b05f255bce",
           "siteId": 1,
           "typeHandle": "link",
           "itemLink": {
-            "__typename": "linkField_Link",
-            "target": "_blank",
-            "text": "Cookie Policy",
-            "title": null,
-            "type": "url",
-            "url": "/cookie-policy"
+              "__typename": "linkField_Link",
+              "target": "_blank",
+              "text": "Cookie Policy",
+              "title": null,
+              "type": "url",
+              "url": "/cookie-policy"
           }
         },
         "footer_GlobalSet:{\"uid\":\"b4dc18dd-e0a1-42c5-a2de-6da3fd1b55a5\",\"siteId\":1,\"id\":\"37\"}": {
@@ -1333,6 +1343,18 @@
             }
           ]
         },
+        "hasSites_selectSite_BlockType:{\"uid\":\"d5f563d3-f4a3-4e21-9fc7-bc2f340f7384\",\"siteId\":1,\"id\":\"50094\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50094",
+          "uid": "d5f563d3-f4a3-4e21-9fc7-bc2f340f7384",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/no/"
+          }
+        },
         "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
           "__typename": "regions_Category",
           "id": "50093",
@@ -1349,6 +1371,18 @@
               "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"d5f563d3-f4a3-4e21-9fc7-bc2f340f7384\",\"siteId\":1,\"id\":\"50094\"}"
             }
           ]
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"1776589c-571f-4297-b573-710cd3b8517e\",\"siteId\":1,\"id\":\"50097\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50097",
+          "uid": "1776589c-571f-4297-b573-710cd3b8517e",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/sv/"
+          }
         },
         "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
           "__typename": "regions_Category",
@@ -1367,6 +1401,18 @@
             }
           ]
         },
+        "hasSites_selectSite_BlockType:{\"uid\":\"2857dfa2-f1c6-49da-8697-472ee182ebde\",\"siteId\":1,\"id\":\"50100\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50100",
+          "uid": "2857dfa2-f1c6-49da-8697-472ee182ebde",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/da/"
+          }
+        },
         "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
           "__typename": "regions_Category",
           "id": "50098",
@@ -1383,6 +1429,18 @@
               "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"2857dfa2-f1c6-49da-8697-472ee182ebde\",\"siteId\":1,\"id\":\"50100\"}"
             }
           ]
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"9e6a9407-025f-406a-925e-bd951e93ec9b\",\"siteId\":1,\"id\":\"50103\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50103",
+          "uid": "9e6a9407-025f-406a-925e-bd951e93ec9b",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/de/"
+          }
         },
         "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
           "__typename": "regions_Category",
@@ -1401,6 +1459,18 @@
             }
           ]
         },
+        "hasSites_selectSite_BlockType:{\"uid\":\"6253dd94-5fbd-4870-be64-9831930bfb05\",\"siteId\":1,\"id\":\"50106\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50106",
+          "uid": "6253dd94-5fbd-4870-be64-9831930bfb05",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/en-uk/"
+          }
+        },
         "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
           "__typename": "regions_Category",
           "id": "50104",
@@ -1417,6 +1487,18 @@
               "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"6253dd94-5fbd-4870-be64-9831930bfb05\",\"siteId\":1,\"id\":\"50106\"}"
             }
           ]
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"72ee61b6-9b37-4745-90d4-fe4eef4b8bfa\",\"siteId\":1,\"id\":\"50109\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50109",
+          "uid": "72ee61b6-9b37-4745-90d4-fe4eef4b8bfa",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/fr/"
+          }
         },
         "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
           "__typename": "regions_Category",
@@ -1435,6 +1517,18 @@
             }
           ]
         },
+        "hasSites_selectSite_BlockType:{\"uid\":\"bb297d57-9dbf-494e-a590-e61f414f8baf\",\"siteId\":1,\"id\":\"50112\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50112",
+          "uid": "bb297d57-9dbf-494e-a590-e61f414f8baf",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/nl/"
+          }
+        },
         "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
           "__typename": "regions_Category",
           "id": "50110",
@@ -1451,6 +1545,30 @@
               "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"bb297d57-9dbf-494e-a590-e61f414f8baf\",\"siteId\":1,\"id\":\"50112\"}"
             }
           ]
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"ad82330a-a51b-4c81-b614-7cc447033ee8\",\"siteId\":1,\"id\":\"50118\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50118",
+          "uid": "ad82330a-a51b-4c81-b614-7cc447033ee8",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/nl-be/"
+          }
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50119",
+          "uid": "68f44895-695a-4004-8f54-61bf70cb9744",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/fr-be/"
+          }
         },
         "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
           "__typename": "regions_Category",
@@ -1471,6 +1589,30 @@
               "__ref": "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}"
             }
           ]
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"681b5c65-dc49-442f-8097-705fabf5deee\",\"siteId\":1,\"id\":\"50125\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50125",
+          "uid": "681b5c65-dc49-442f-8097-705fabf5deee",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/fr-ch/"
+          }
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "50126",
+          "uid": "ab121d12-c1b0-442b-a135-d5bf179cd27d",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/de-ch/"
+          }
         },
         "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
           "__typename": "regions_Category",
@@ -1595,6 +1737,18 @@
             }
           ],
           "hasSites": []
+        },
+        "hasSites_selectSite_BlockType:{\"uid\":\"4f60ac38-11aa-4e86-9f06-4e9635d8e447\",\"siteId\":1,\"id\":\"979541\"}": {
+          "__typename": "hasSites_selectSite_BlockType",
+          "id": "979541",
+          "uid": "4f60ac38-11aa-4e86-9f06-4e9635d8e447",
+          "siteId": 1,
+          "hasSite": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "title": null,
+            "url": "https://www.liturgia.quackstudios.com.au/nl-be/"
+          }
         },
         "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
           "__typename": "regions_Category",
@@ -1779,28 +1933,186 @@
               "__ref": "modules_accordionItem_BlockType:{\"uid\":\"64cc24e3-7582-4b54-99fc-8b4300a8eeb1\",\"siteId\":1,\"id\":\"107652\"}"
             }
           ]
+        },
+        "mediaElement_asset_BlockType:{\"uid\":\"1fa0622d-3ca0-476c-9a0a-d6d1fdd51f65\",\"siteId\":1,\"id\":\"107297\"}": {
+          "__typename": "mediaElement_asset_BlockType",
+          "id": "107297",
+          "uid": "1fa0622d-3ca0-476c-9a0a-d6d1fdd51f65",
+          "siteId": 1,
+          "videoSettings": [
+            {
+              "__typename": "videoSettings_TableRow",
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false
+            }
+          ],
+          "posterImage": [],
+          "asset": [
+            {
+              "__ref": "uploads_Asset:{\"uid\":\"70e69623-1b69-47e6-847c-8396117c7c50\",\"siteId\":1,\"id\":\"16649\"}"
+            }
+          ]
+        },
+        "modules_wysiwyg_BlockType:{\"uid\":\"acdc5ca1-d0ec-4cfa-91c0-6d81c25941c1\",\"siteId\":1,\"id\":\"107298\"}": {
+          "__typename": "modules_wysiwyg_BlockType",
+          "id": "107298",
+          "uid": "acdc5ca1-d0ec-4cfa-91c0-6d81c25941c1",
+          "siteId": 1,
+          "typeHandle": "wysiwyg",
+          "text4": "\u003cp\u003eAre you searching for an installer to set up our EV charging station? With just one click, you can find the nearest professional to you. This is the beginning of seamless EV charging. \u003c/p\u003e",
+          "lightswitch": false
+        },
+        "modules_buttonImage_BlockType:{\"uid\":\"c4d1736b-57a5-4264-a5ba-7d74fbd7d2c2\",\"siteId\":1,\"id\":\"107300\"}": {
+          "__typename": "modules_buttonImage_BlockType",
+          "id": "107300",
+          "uid": "c4d1736b-57a5-4264-a5ba-7d74fbd7d2c2",
+          "siteId": 1,
+          "typeHandle": "buttonImage",
+          "button": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "text": "Find an installer",
+            "type": "entry",
+            "url": "https://www.liturgia.quackstudios.com.au/find-an-installer",
+            "title": null
+          },
+          "image": []
+        },
+        "modules_buttonsImages_BlockType:{\"uid\":\"fbb1fedd-11a2-49fd-adb0-b0d6e202f297\",\"siteId\":1,\"id\":\"107299\"}": {
+          "__typename": "modules_buttonsImages_BlockType",
+          "id": "107299",
+          "uid": "fbb1fedd-11a2-49fd-adb0-b0d6e202f297",
+          "siteId": 1,
+          "typeHandle": "buttonsImages",
+          "children": [
+            {
+              "__ref": "modules_buttonImage_BlockType:{\"uid\":\"c4d1736b-57a5-4264-a5ba-7d74fbd7d2c2\",\"siteId\":1,\"id\":\"107300\"}"
+            }
+          ]
+        },
+        "modules_textAndMediaItem_BlockType:{\"uid\":\"9602c7cd-d6e2-45dd-8116-64b4318f98d3\",\"siteId\":1,\"id\":\"107296\"}": {
+          "__typename": "modules_textAndMediaItem_BlockType",
+          "id": "107296",
+          "uid": "9602c7cd-d6e2-45dd-8116-64b4318f98d3",
+          "siteId": 1,
+          "typeHandle": "textAndMediaItem",
+          "moduleTitle": "Are you looking for an installer?",
+          "plainText": "Find an installer",
+          "mediaElement": [
+            {
+              "__ref": "mediaElement_asset_BlockType:{\"uid\":\"1fa0622d-3ca0-476c-9a0a-d6d1fdd51f65\",\"siteId\":1,\"id\":\"107297\"}"
+            }
+          ],
+          "children": [
+            {
+              "__ref": "modules_wysiwyg_BlockType:{\"uid\":\"acdc5ca1-d0ec-4cfa-91c0-6d81c25941c1\",\"siteId\":1,\"id\":\"107298\"}"
+            },
+            {
+              "__ref": "modules_buttonsImages_BlockType:{\"uid\":\"fbb1fedd-11a2-49fd-adb0-b0d6e202f297\",\"siteId\":1,\"id\":\"107299\"}"
+            }
+          ]
+        },
+        "mediaElement_asset_BlockType:{\"uid\":\"5c0f1842-d013-4c6b-89c9-4c8fb106b6f2\",\"siteId\":1,\"id\":\"107302\"}": {
+          "__typename": "mediaElement_asset_BlockType",
+          "id": "107302",
+          "uid": "5c0f1842-d013-4c6b-89c9-4c8fb106b6f2",
+          "siteId": 1,
+          "videoSettings": [
+            {
+              "__typename": "videoSettings_TableRow",
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false
+            }
+          ],
+          "posterImage": [],
+          "asset": [
+            {
+              "__ref": "uploads_Asset:{\"uid\":\"70e69623-1b69-47e6-847c-8396117c7c50\",\"siteId\":1,\"id\":\"16649\"}"
+            }
+          ]
+        },
+        "modules_wysiwyg_BlockType:{\"uid\":\"71befff3-4f2f-4adc-b86c-7425e25ddb52\",\"siteId\":1,\"id\":\"107303\"}": {
+          "__typename": "modules_wysiwyg_BlockType",
+          "id": "107303",
+          "uid": "71befff3-4f2f-4adc-b86c-7425e25ddb52",
+          "siteId": 1,
+          "typeHandle": "wysiwyg",
+          "text4": "\u003cp\u003eJoin us in leading the electric future. With our deep experience in top EV markets, we know the challenges and opportunities that come with growth. Become our partner and let's innovate and succeed together in this exciting, ever-changing journey.\u003c/p\u003e",
+          "lightswitch": false
+        },
+        "modules_buttonImage_BlockType:{\"uid\":\"9384d23c-7024-4589-9d11-c1daa5854754\",\"siteId\":1,\"id\":\"107305\"}": {
+          "__typename": "modules_buttonImage_BlockType",
+          "id": "107305",
+          "uid": "9384d23c-7024-4589-9d11-c1daa5854754",
+          "siteId": 1,
+          "typeHandle": "buttonImage",
+          "button": {
+            "__typename": "linkField_Link",
+            "target": "",
+            "text": "Become a partner",
+            "type": "entry",
+            "url": "https://www.liturgia.quackstudios.com.au/partners/become-a-partner",
+            "title": null
+          },
+          "image": []
+        },
+        "modules_buttonsImages_BlockType:{\"uid\":\"c606139d-42ed-4035-aaed-dcf5d76b0d71\",\"siteId\":1,\"id\":\"107304\"}": {
+          "__typename": "modules_buttonsImages_BlockType",
+          "id": "107304",
+          "uid": "c606139d-42ed-4035-aaed-dcf5d76b0d71",
+          "siteId": 1,
+          "typeHandle": "buttonsImages",
+          "children": [
+            {
+              "__ref": "modules_buttonImage_BlockType:{\"uid\":\"9384d23c-7024-4589-9d11-c1daa5854754\",\"siteId\":1,\"id\":\"107305\"}"
+            }
+          ]
+        },
+        "modules_textAndMediaItem_BlockType:{\"uid\":\"ebda5ebc-8ce9-4be7-a2de-ef01dac2bf38\",\"siteId\":1,\"id\":\"107301\"}": {
+          "__typename": "modules_textAndMediaItem_BlockType",
+          "id": "107301",
+          "uid": "ebda5ebc-8ce9-4be7-a2de-ef01dac2bf38",
+          "siteId": 1,
+          "typeHandle": "textAndMediaItem",
+          "moduleTitle": "Want to become a partner?",
+          "plainText": "Become a partner",
+          "mediaElement": [
+            {
+              "__ref": "mediaElement_asset_BlockType:{\"uid\":\"5c0f1842-d013-4c6b-89c9-4c8fb106b6f2\",\"siteId\":1,\"id\":\"107302\"}"
+            }
+          ],
+          "children": [
+            {
+              "__ref": "modules_wysiwyg_BlockType:{\"uid\":\"71befff3-4f2f-4adc-b86c-7425e25ddb52\",\"siteId\":1,\"id\":\"107303\"}"
+            },
+            {
+              "__ref": "modules_buttonsImages_BlockType:{\"uid\":\"c606139d-42ed-4035-aaed-dcf5d76b0d71\",\"siteId\":1,\"id\":\"107304\"}"
+            }
+          ]
         }
       },
-      "uri": "pricing",
+      "uri": "contact",
       "preview": false,
       "previewData": null,
       "fallbacks": {},
       "routeProps": {
-        "uri": "pricing",
-        "seoSlug": "pricing",
+        "uri": "contact",
+        "seoSlug": "contact",
         "fullHero": false
       }
     },
     "__N_SSG": true
   },
   "page": "/[[...slug]]",
-  "query": {
-    "slug": ["1", "en", "products", "digital-services"]
-  },
-  "buildId": "jwT3XyAx1hsRWORHYwLtr",
+  "query": { "slug": ["1", "en", "company", "support"] },
+  "buildId": "V2dHkDmd9odLaviAjv5ej",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "dynamicIds": [68191],
+  "dynamicIds": [59033],
   "gsp": true,
   "scriptLoader": []
 }
