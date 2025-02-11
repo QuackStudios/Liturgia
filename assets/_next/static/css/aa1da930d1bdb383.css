@@ -1779,6 +1779,11 @@ footer .wysiwyg a:not(.button):hover {
   fill: #fff;
   color: white;
 }
+.top-bar.full .mobile-hamburger-menu-svg {
+  fill: #fff;
+  color: white;
+}
+
 .top-bar.full .secondary-menu {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1825,6 +1830,13 @@ footer .wysiwyg a:not(.button):hover {
   fill: #222 !important;
   color: #222 !important;
 }
+
+.top-bar.full.leaves-hero .mobile-hamburger-menu-svg{
+  fill: #222 !important;
+  color: #222 !important;
+}
+
+
 .top-bar.full.leaves-hero .burger-button,
 .top-bar.full.leaves-hero .secondary-menu {
   --tw-text-opacity: 1;
@@ -1861,10 +1873,13 @@ footer .wysiwyg a:not(.button):hover {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 }
+
+
 .top-bar:hover .logo {
   fill: #222;
-  color: black;
+  color: #222;
 }
+
 .top-bar:hover .burger-button,
 .top-bar:hover .language-switcher .lang-link,
 .top-bar:hover .secondary-menu {
@@ -5729,7 +5744,7 @@ footer .wysiwyg a:not(.button):hover {
 
 .lhs {
   width: 100%;
-  padding: 0% 0% 0% 5%;
+  padding: 0% 5% 0% 5%;
 }
 
 .rhs {
@@ -5760,7 +5775,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .nested-div-2-child-2 {
-  width: fit-content;
+  width: 100%;
 }
 .nested-div-3 {
   display: flex;
@@ -6193,4 +6208,287 @@ body.popup-active {
   font-style: italic;
   position: relative;
   left: 40%;
+}
+.margin-bottom-footer-adjust {
+  margin-bottom: 0px !important;
+}
+@media (max-width: 768px) { /* Mobile view */
+  .h2-text {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 100%;
+  }
+
+  .title-wrapper {
+    margin-top: 50%; /* Adjust the value to move the section down */
+  }
+
+  .hero-text-adjust {
+    left: 35% !important;
+    font-size: 8vw !important;
+  }
+}
+@media (max-width: 639px) {
+  .testimonials {
+    display: none;
+  }
+
+  .mobile-adjust {
+    padding-top: 0% !important;
+    margin-bottom: 15%;
+  }
+  .mobile-media-wrapper-adjust {
+    margin-top: 0% !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .nested-div-2 {
+    gap: 0px !important;
+  }
+  .modules {
+    margin: 30% 0 0 0;
+  }
+}
+@media (max-width: 639px) {
+  .testimonials {
+    display: none;
+  }
+
+  .mobile-adjust {
+    padding-top: 0px !important;
+    margin-bottom: 15%;
+  }
+  .mobile-media-wrapper-adjust {
+    margin-top: 0px !important;
+  }
+  .modules-pp {
+    padding-top: 0px !important;
+  }
+  .pricing-calculator-container {
+    flex-direction: column !important;
+    justify-content: start;
+    height: 90% !important;
+  }
+
+  .calculator-container {
+    width: 94% !important;
+    height: 30% !important;
+    max-width: 100% !important;
+    position: relative;
+    left: -10%;
+  }
+
+  .controls {
+    gap: 0px !important;
+  }
+
+  .rhs-bulk-licensing-text {
+    width: 100%;
+    margin: 35% 0 0 0;
+    font-style: italic;
+    padding: 0 0 0 4%;
+  }
+  
+  .trusted-by-content {
+    margin-top: -5% !important;
+    flex-direction: row !important;
+  }
+
+  .trusted-by-text {
+    width: 20% !important;
+    font-size: clamp(1rem, 1vw, 1.5rem) !important;
+  }
+  .trusted-by-logos {
+    width: 80% !important;
+    height: 50% !important;
+    flex-wrap: nowrap !important;
+  }
+
+}
+@media (min-width: 381px) and (max-width: 430px) {
+  .trusted-by-logos {
+    gap: 7% !important;
+  }
+}
+
+
+@media (min-width: 340px) and (max-width: 380px) {
+.rhs-bulk-licensing-text {
+  width: 100%;
+  margin: 40% 0 0 0;
+  font-style: italic;
+  padding: 3px 0 0 7%;
+}
+
+.trusted-by-logos {
+ gap: 7% !important;
+}
+.trusted-by-text {
+  width: 20% !important;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+}
+.trusted-by-logos {
+  gap: 7% !important;
+ }
+}
+@media (min-width: 300px) and (max-width: 339px) {
+  .rhs-bulk-licensing-text {
+    width: 100%;
+    margin: 42% 0 0 0;
+    font-style: italic;
+    padding: 5px 0 0 10%;
+  }
+  
+  .modules-pp {
+    padding: 0px 1.5rem 0px 0.5rem !important;
+  }
+
+  .trusted-by-content {
+    margin-top: 2%;
+    position: relative;
+    width: 95vw !important;
+    flex-direction: row !important;
+
+  }
+  .trusted-by-logos {
+    gap: 7% !important;
+   }
+   .trusted-by-text {
+    width: 20% !important;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+  }
+  }
+
+/* Style for the liturgia-menu-mobile */
+.liturgia-menu-mobile {
+  position: fixed; /* Ensures the menu stays in place relative to the viewport */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the screen */
+  height: 100%; /* Full height of the screen */
+  background-color: white;
+  display: flex; /* Flexbox for centring content */
+  justify-content: center; /* Centre items horizontally */
+  align-items: center; /* Centre items vertically */
+  z-index: 10; /* Ensure it appears above other elements */
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Prevent interaction when hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for appearance */
+}
+
+.menu-open-logo-change {
+  color: #222 !important;
+  stroke: #222 !important;
+}
+
+/* When the menu-appear class is added, make the menu visible */
+.liturgia-menu-mobile.menu-appear {
+  opacity: 1;
+  visibility: visible;
+}
+
+.items-container {
+  height: 80%;
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Style for the menu-items-container */
+.menu-items-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  width: 50%;
+  height: 50%;
+  position: relative;
+  gap: 20px; /* Add spacing between items */
+  text-align: center; /* Centre-align text */
+}
+
+/* Style for the second-menu-items-container */
+.second-menu-items-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 15px; /* Add spacing between items */
+}
+
+/* Style for individual menu items */
+.menu-items-container .item-1,
+.menu-items-container .item-2,
+.menu-items-container .item-3,
+.menu-items-container .item-4,
+.menu-items-container .item-5,
+.menu-items-container .item-6 {
+  font-size: 1.5rem; /* Adjust font size */
+  color: black;
+  cursor: pointer; /* Pointer cursor on hover */
+  padding: 10px 20px; /* Add padding for better clickability */
+  border-radius: 5px; /* Optional: rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for menu items */
+.menu-items-container .item-1:hover,
+.menu-items-container .item-2:hover,
+.menu-items-container .item-3:hover,
+.menu-items-container .item-4:hover,
+.menu-items-container .item-5:hover,
+.menu-items-container .item-6:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+
+
+
+.mobile-hamburger-menu {
+  z-index: 20;
+}
+
+/* Style for the hamburger icon container */
+.hamburger-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: relative; /* Ensures the SVGs are positioned relative to the container */
+}
+
+/* Style for the SVG icons */
+.hamburger-icon-container svg {
+  position: absolute; /* Stack SVGs on top of each other */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade-in and fade-out effect */
+}
+.mobile-menu-close {
+  position: absolute; /* Stack SVGs on top of each other */
+  opacity: 1; /* Initially hidden */
+  visibility: visible; /* Prevent interaction when hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade-in and fade-out effect */
+}
+/* When the menu is open, show the cross icon */
+.hamburger-icon-container .mobile-hamburger-menu-svg.cross {
+  opacity: 1; /* Make the cross icon visible */
+}
+
+/* When the menu is closed, show the hamburger icon */
+.hamburger-icon-container .mobile-hamburger-menu-svg.hamburger {
+  opacity: 1; /* Make the hamburger icon visible */
+}
+/* Disable scrolling when the menu is open */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* Prevent scrolling on mobile devices */
+}
+
+/* Default state for the close icon */
+.mobile-menu-close {
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+/* When the close icon is rendered and becomes visible */
+.mobile-menu-close.fade-in {
+  opacity: 1; /* Fade in */
 }
