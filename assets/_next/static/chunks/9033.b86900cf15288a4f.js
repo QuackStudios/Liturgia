@@ -227,7 +227,7 @@
                             (null === (t = e.mediaElement) || void 0 === t
                               ? void 0
                               : t[0]) || null,
-                          className: "w-full object-cover aspect-1",
+                          className: "w-full object-cover aspect-1 object-fit-fix",
                           figureClasses: "w-full mb-10",
                           width: 960,
                           height: 1080,
