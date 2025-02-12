@@ -6396,6 +6396,7 @@ body.popup-active {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translate(0% -8%);
 }
 /* Style for the menu-items-container */
 .menu-items-container {
