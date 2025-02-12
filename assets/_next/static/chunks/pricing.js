@@ -14,10 +14,10 @@ const observer = new MutationObserver((mutationsList, observer) => {
           <div class="custom-dropdown">
             <button class="dropdown-button">1-5 Seats</button>
             <ul class="dropdown-menu">
-              <li data-value="355">1-5 Seats</li>
-              <li data-value="435">6-10 Seats</li>
-              <li data-value="510">11-20 Seats</li>
-              <li data-value="565">21-30 Seats</li>
+              <li data-value="355">Up to 5 Users</li>
+              <li data-value="435">Up to 10 Users</li>
+              <li data-value="510">Up to 20 Users</li>
+              <li data-value="565">Up to 30 Users</li>
             </ul>
           </div>
         </div>

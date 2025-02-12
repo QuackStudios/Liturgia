@@ -423,18 +423,12 @@ function attachFormSubmitHandler(form) {
 // MutationObserver to detect when the form with ID "contactForm" and popup with ID "popup1" are added to the DOM
 const observer6 = new MutationObserver((mutationsList) => {
   for (const mutation of mutationsList) {
-    if (mutation.type === 'childList') {
-      // Check if the form is now in the DOM
-      const form = document.getElementById('contactForm');
-      if (form) {
-        attachFormSubmitHandler(form); // Attach the submit handler
+      if (mutation.type === 'childList') {
+          const popup = document.getElementById('popup1');
+          if (popup && !popup.classList.contains('show')) {
+              popup.style.display = "none"; // Ensure popup is hidden
+          }
       }
-
-      // Check if the popup is now in the DOM
-      const popup = document.getElementById('popup1');
-      if (popup) {
-      }
-    }
   }
 });
 
@@ -450,3 +444,6 @@ if (existingForm) {
 const existingPopup = document.getElementById('popup1');
 if (existingPopup) {
 }
+
+
+
