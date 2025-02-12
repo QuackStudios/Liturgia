@@ -6414,7 +6414,7 @@ body.popup-active {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(0% -8%);
+  transform: translate(0%, -8%);
 }
 /* Style for the menu-items-container */
 .menu-items-container {
@@ -6422,7 +6422,7 @@ body.popup-active {
   flex-direction: column; /* Stack items vertically */
   width: 50%;
   height: 50%;
-  position: relative;
+  position: fixed;
   gap: 20px; /* Add spacing between items */
   text-align: center; /* Centre-align text */
 }
