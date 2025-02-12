@@ -2539,7 +2539,7 @@
                   // First h1 element
                   (0, T.jsx)("h1", {
                     className:
-                      "text-6xl sm:h1-text leading-none sm:leading-tight text-sand-light md:text-[clamp(102px,11vw,400px)] md:whitespace-nowrap",
+                      "text-6xl sm:h1-text leading-none sm:leading-tight text-sand-light md:text-[clamp(102px,11vw,400px)] md:whitespace-nowrap full-width",
                     ref: a,
                     children: "Liturgy Preparation",
                   }),
@@ -7833,20 +7833,20 @@
                 rel: "icon",
                 type: "image/png",
                 sizes: "32x32",
-                href: "/favicon/favicon-32x32.png",
+                href: "/assets/favicon/favicon-32x32.ico",
               }),
               (0, T.jsx)("link", {
                 id: "favicon-16",
                 rel: "icon",
                 type: "image/png",
                 sizes: "16x16",
-                href: "/favicon/favicon-16x16.png",
+                href: "/assets/favicon/favicon-16x16.ico",
               }),
               (0, T.jsx)("link", {
                 id: "favicon",
                 rel: "icon",
                 type: "image/x-icon",
-                href: "/favicon/favicon.ico",
+                href: "/assets/favicon/favicon.ico",
               }),
               (0, T.jsx)("link", {
                 rel: "manifest",
@@ -7883,18 +7883,18 @@
             let e = () => {
               if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
                 let e = document.querySelector("#favicon-32");
-                e && (e.href = "/favicon/favicon-32x32-white.png");
+                e && (e.href = "/assets/favicon/favicon-32x32-white.ico");
                 let n = document.querySelector("#favicon-16");
-                n && (n.href = "/favicon/favicon-16x16-white.png");
+                n && (n.href = "/assets/favicon/favicon-16x16-white.ico");
                 let t = document.querySelector("#favicon");
-                t && (t.href = "/favicon/favicon-white.ico");
+                t && (t.href = "/assets/favicon/favicon-white.ico");
               } else {
                 let e = document.querySelector("#favicon-32");
-                e && (e.href = "/favicon/favicon-32x32.png");
+                e && (e.href = "/assets/favicon/favicon-32x32.ico");
                 let n = document.querySelector("#favicon-16");
-                n && (n.href = "/favicon/favicon-16x16.png");
+                n && (n.href = "/assets/favicon/favicon-16x16.ico");
                 let t = document.querySelector("#favicon");
-                t && (t.href = "/favicon/favicon.ico");
+                t && (t.href = "/assets/favicon/favicon.ico");
               }
             };
             return (
