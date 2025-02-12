@@ -12,7 +12,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         <div class="controls">
           <label for="pricing-class">Select Pricing Class</label>
           <div class="custom-dropdown">
-            <button class="dropdown-button">1-5 Seats</button>
+            <button class="dropdown-button">Up to 5 Users</button>
             <ul class="dropdown-menu">
               <li data-value="355">Up to 5 Users</li>
               <li data-value="435">Up to 10 Users</li>
@@ -33,7 +33,18 @@ const observer = new MutationObserver((mutationsList, observer) => {
         </div>
       </div>
       <div class="rhs-bulk-licensing-text">
-      Liturgia offers competitive rates for organizations interested in bulk purchasing. Contact us to learn more about our flexible options. 
+     <div class="rhs-bulk-licensing-text-text">
+    Liturgia offers competitive rates for organizations interested in bulk purchasing. Contact us to learn more about our flexible options.
+      </div>
+    <div class="rhs-bulk-licensing-contact-button simple-button  group">
+        <span>Contact Us</span>
+        <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=liturgia@liturgybrisbane.net.au&su=Liturgia%20Bulk%20Licensing%20Enquiry" class="simple-button  group">  
+        <span class="icon-wrapper after"><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-3 -rotate-45 external-icon">
+          <path d= "M.74 7h12m0 0-6-6m6 6-6 6" vector-effect="non-scaling-stroke" fill="#767572"/>
+        </svg>
+      </span>
+      </a>
+    </div>
       </div>
     </div>
       <div class="trusted-by-content">
