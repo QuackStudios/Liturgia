@@ -2056,7 +2056,7 @@
                         }),
                         option: (e, n) => ({
                           ...e,
-                          backgroundColor: n.isSelected ? "#19312f" : "#ffffff",
+                          backgroundColor: n.isSelected ? "#ffffff" : "#ffffff",
                           fontSize: "0.875rem",
                         }),
                       },
@@ -7867,9 +7867,9 @@
               }),
               (0, T.jsx)("meta", {
                 name: "msapplication-TileColor",
-                content: "#19312f",
+                content: "#ffffff",
               }),
-              (0, T.jsx)("meta", { name: "theme-color", content: "#19312f" }),
+              (0, T.jsx)("meta", { name: "theme-color", content: "#ffffff" }),
             ],
           });
       var ly = t(28133),
