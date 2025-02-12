@@ -10020,100 +10020,118 @@
               })
             : (0, T.jsx)("h1", { children: "Something went wrong" });
         },
-        iI = (e) => e.charAt(0).toUpperCase() + e.slice(1);
-      var ik = !0;
-      let iN = (e) => {
-        var n;
-        let { data: t, currentSite: l, currentRoute: i, routeProps: r } = e,
-          a = (0, B.useRef)(!0),
-          s = (0, t$.y)(),
-          o = (0, np.useRouter)(),
-          [d, c] = (0, B.useState)(!1),
-          { entry: u } = t;
-        (0, B.useEffect)(() => {
-          a.current && (s({ event: "page_view" }), (a.current = !1));
-          let e = () => {
-              c(!1);
-            },
-            n = (e, n) => {
-              let { shallow: t } = n;
-              t || c(!0), s({ event: "page_view" });
-            };
-          return (
-            o.events.on("routeChangeStart", n),
-            o.events.on("routeChangeComplete", e),
-            () => {
-              o.events.off("routeChangeStart", n),
-                o.events.off("routeChangeComplete", e);
-            }
-          );
-        }, [o, s]);
-        let m = { currentSite: l, currentRoute: i, routeProps: r },
-          { sectionHandle: p, typeHandle: h } = u || {},
-          g = null === (n = _[p]) || void 0 === n ? void 0 : n[h];
-        return g
-          ? (0, T.jsxs)(T.Fragment, {
-              children: [
-                (0, T.jsx)(ij, {
-                  globals: m,
-                  entry: {
-                    whiteFooter: null == u ? void 0 : u.whiteFooter,
-                    footerTitle: null == u ? void 0 : u.footerTitle,
-                    footerButton: null == u ? void 0 : u.footerButton,
-                  },
-                  children: (0, T.jsx)(nh.N, {
-                    mode: "wait",
-                    initial: !1,
-                    onExitComplete: () => {
-                      let e = lo().get();
-                      e && e.scrollTop(0),
-                        window.scrollTo(0, 0),
-                        document
-                          .querySelector(".top-bar")
-                          .classList.remove("-translate-y-full"),
-                        setTimeout(() => {
-                          Q().refresh();
-                        }, 1e3);
-                    },
-                    children: (0, T.jsx)(
-                      eW.P.div,
-                      {
-                        initial: { opacity: 0 },
-                        animate: { opacity: 1 },
-                        exit: { opacity: 0 },
-                        transition: {
-                          duration: 0.6,
-                          ease: [0.43, 0.13, 0.23, 0.96],
-                        },
-                        children: (0, T.jsxs)(nh.N, {
-                          children: [
-                            (0, T.jsx)(g, { data: { ...t }, globals: m }),
-                            ";",
-                          ],
-                        }),
-                      },
-                      null == u ? void 0 : u.uid
-                    ),
-                  }),
-                }),
-              ],
-            })
-          : (0, T.jsx)("div", {
+        iI = (e) => {
+          if (typeof e === 'string' && e.length > 0) {
+            return e.charAt(0).toUpperCase() + e.slice(1);
+          } else {
+            console.error('Error: e is not a valid string', e);
+            return ''; // Return a default value or handle the error
+          }
+        };
+        
+        let iN = (e) => {
+          var n;
+          let { data: t = {}, currentSite: l = null, currentRoute: i = null, routeProps: r = {} } = e || {},
+            a = (0, B.useRef)(!0),
+            s = (0, t$.y)(),
+            o = (0, np.useRouter)(),
+            [d, c] = (0, B.useState)(!1),
+            { entry: u = {} } = t || {}, // Ensure u is at least an empty object
+            { sectionHandle: p = '', typeHandle: h = '' } = u || {}; // Ensure p and h are strings
+        
+          if (!p || !h) {
+            console.error('Error: Missing sectionHandle or typeHandle', { p, h });
+            return (0, T.jsx)("div", {
               className: "w-screen h-screen flex items-center justify-center",
-              children: (0, T.jsxs)("div", {
-                className: "container",
-                children: [
-                  "you have to create a new Section/EntryType components in components/Sections/",
-                  iI(p),
-                  "/Types/",
-                  iI(h),
-                  ". Also you have to reference it in components/Sections/index.js , components/Sections/",
-                  iI(p),
-                  "/index.js",
-                ],
-              }),
+              children: "Error: Missing sectionHandle or typeHandle",
             });
-      };
+          }
+        
+          (0, B.useEffect)(() => {
+            a.current && (s({ event: "page_view" }), (a.current = !1));
+            let e = () => {
+                c(!1);
+              },
+              n = (e, n) => {
+                let { shallow: t } = n;
+                t || c(!0), s({ event: "page_view" });
+              };
+            return (
+              o.events.on("routeChangeStart", n),
+              o.events.on("routeChangeComplete", e),
+              () => {
+                o.events.off("routeChangeStart", n),
+                  o.events.off("routeChangeComplete", e);
+              }
+            );
+          }, [o, s]);
+        
+          let m = { currentSite: l, currentRoute: i, routeProps: r },
+            g = null === (n = _[p]) || void 0 === n ? void 0 : n[h];
+        
+          return g
+            ? (0, T.jsxs)(T.Fragment, {
+                children: [
+                  (0, T.jsx)(ij, {
+                    globals: m,
+                    entry: {
+                      whiteFooter: null == u ? void 0 : u.whiteFooter,
+                      footerTitle: null == u ? void 0 : u.footerTitle,
+                      footerButton: null == u ? void 0 : u.footerButton,
+                    },
+                    children: (0, T.jsx)(nh.N, {
+                      mode: "wait",
+                      initial: !1,
+                      onExitComplete: () => {
+                        let e = lo().get();
+                        e && e.scrollTop(0),
+                          window.scrollTo(0, 0),
+                          document
+                            .querySelector(".top-bar")
+                            .classList.remove("-translate-y-full"),
+                          setTimeout(() => {
+                            Q().refresh();
+                          }, 1e3);
+                      },
+                      children: (0, T.jsx)(
+                        eW.P.div,
+                        {
+                          initial: { opacity: 0 },
+                          animate: { opacity: 1 },
+                          exit: { opacity: 0 },
+                          transition: {
+                            duration: 0.6,
+                            ease: [0.43, 0.13, 0.23, 0.96],
+                          },
+                          children: (0, T.jsxs)(nh.N, {
+                            children: [
+                              (0, T.jsx)(g, { data: { ...t }, globals: m }),
+                              ";",
+                            ],
+                          }),
+                        },
+                        null == u ? void 0 : u.uid
+                      ),
+                    }),
+                  }),
+                ],
+              })
+            : (0, T.jsx)("div", {
+                className: "w-screen h-screen flex items-center justify-center",
+                children: (0, T.jsxs)("div", {
+                  className: "container",
+                  children: [
+                    "you have to create a new Section/EntryType components in components/Sections/",
+                    iI(p),
+                    "/Types/",
+                    iI(h),
+                    ". Also you have to reference it in components/Sections/index.js , components/Sections/",
+                    iI(p),
+                    "/index.js",
+                  ],
+                }),
+              });
+        };
     },
     22360: (e, n, t) => {
       "use strict";
@@ -10315,5 +10333,12 @@ document.addEventListener('click', (event) => {
       // Toggle the "menu-open-logo-change" class on the logo
       logo.classList.toggle('menu-open-logo-change');
     }
+  }
+});
+
+window.addEventListener('pageshow', (event) => {
+  if (event.persisted) {
+    // Reset any dynamic state here
+    window.location.reload();
   }
 });
