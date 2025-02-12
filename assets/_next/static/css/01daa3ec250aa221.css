@@ -6110,8 +6110,18 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .rhs-bulk-licensing-text {
-  width: 30%;
-}
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    margin: 0.8% 0px 0px 0px;
+  }
+
+  .rhs-bulk-licensing-text-text {
+    font-size: clamp(1.07rem, 1.32vw, 1.48rem);
+    color: rgb(83, 83, 83);
+  }
+
 
 .controls {
   width: 100%;
