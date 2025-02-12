@@ -6310,7 +6310,7 @@ body.popup-active {
   }
   
   .trusted-by-content {
-    margin-top: -5% !important;
+    margin-top: 20vw !important;
     flex-direction: row !important;
   }
 
@@ -6510,4 +6510,8 @@ body.popup-active {
 /* When the close icon is rendered and becomes visible */
 .mobile-menu-close.fade-in {
   opacity: 1; /* Fade in */
+}
+
+.full-width {
+  width: 100% !important
 }
