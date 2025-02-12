@@ -772,8 +772,8 @@ body {
 }
 .react-player.object-cover video,
 .video-wrapper.object-cover video {
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: contain !important;
+  object-fit: contain !important;
 }
 .text-animation .lineChildren {
   padding-bottom: 0.1em;
