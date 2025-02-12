@@ -787,6 +787,12 @@ video {
 video {
   object-fit: contain !important;
 }
+
+.video-wrapper.opacity-0.h-full.max-w-full.w-full.object-cover.object-fit-fix.h-full > 
+.react-player.object-cover.aspect-\[16\/9\]> 
+video {
+  object-fit: contain !important;
+}
 .text-animation .lineChildren {
   padding-bottom: 0.1em;
 }
