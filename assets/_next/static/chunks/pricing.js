@@ -34,7 +34,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
       </div>
       <div class="rhs-bulk-licensing-text">
      <div class="rhs-bulk-licensing-text-text">
-    Liturgia offers competitive rates for organizations interested in bulk purchasing. Contact us to learn more about our flexible options.
+    Liturgia offers competitive rates for organisations interested in bulk purchasing. Contact us to learn more about our flexible options.
       </div>
     <div class="rhs-bulk-licensing-contact-button simple-button  group">
         <span>Contact Us</span>
