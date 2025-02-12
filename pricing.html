@@ -2147,41 +2147,6 @@
                     </div>
                   </div>
                 </header>
-                <section class="modules-pp">
-                  <div class="controls">
-                    <div>
-                      <label for="type">Type</label>
-                      <select id="type">
-                        <option value="individuals">Individuals</option>
-                        <option value="business">Business</option>
-                      </select>
-                    </div>
-                    <div>
-                      <label for="seats">No. of Seats</label>
-                      <input
-                        type="range"
-                        id="seats"
-                        min="1"
-                        max="30"
-                        value="1"
-                        oninput="updateSeats(this.value)"
-                      />
-                      <input
-                        type="number"
-                        id="seat-value"
-                        min="1"
-                        max="30"
-                        value="1"
-                        readonly
-                      />
-                    </div>
-                  </div>
-                  <div class="price-card">
-                    <div class="price" id="price">$355</div>
-                    <div class="gst">+GST</div>
-                    <button onclick="getStarted()">Get Started</button>
-                  </div>
-                </section>
                 <section class="modules"></section>
               </div>
             </div>
@@ -2754,18 +2719,13 @@
                 "mediaElement": [],
                 "heroColumns": [],
                 "modules({\"level\":1})": [
-                {
-                  "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
-                }
-                ],
-                "modules({\"level\":1,\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\"})": [
                   {
-                    "__ref": "modules_children_BlockType:{\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\",\"siteId\":1,\"id\":\"1007056\"}"
+                      "__ref": "modules_children_BlockType:{\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\",\"siteId\":1,\"id\":\"1007056\"}"
                   }
                 ],
-                "modules({\"level\":1,\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\"})": [
+                 "modules({\"level\":1,\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\"})": [
                   {
-                    "__ref": "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}"
+                      "__ref": "modules_children_BlockType:{\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\",\"siteId\":1,\"id\":\"1007056\"}"
                   }
                 ],
                 "children": []
@@ -4039,171 +3999,15 @@
                   }
                 ]
               },
-              "modules_accordionList_BlockType:{\"uid\":\"7e5ed076-d3fb-4e38-a863-907cb8423e07\",\"siteId\":1,\"id\":\"107641\"}": {
-                "__typename": "modules_accordionList_BlockType",
-                "id": "107641",
-                "uid": "7e5ed076-d3fb-4e38-a863-907cb8423e07",
+              "modules_children_BlockType:{\"uid\":\"87b95dbe-bc65-4f0b-ac01-9a1f151fd931\",\"siteId\":1,\"id\":\"1007056\"}": {
+                "__typename": "modules_children_BlockType",
+                "id": "1007056",
+                "uid": "87b95dbe-bc65-4f0b-ac01-9a1f151fd931",
                 "siteId": 1,
                 "typeHandle": "accordionList",
                 "smallMargins": false,
                 "anchor": "/features",
-                "moduleTitle": "Frequently Asked Questions",
                 "children": [
-                  {
-                    "__ref": "modules_accordionGroup_BlockType:{\"uid\":\"370be2b5-35cb-4c03-b94d-3a4c4967c4bd\",\"siteId\":1,\"id\":\"107641\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionGroup_BlockType:{\"uid\":\"8ba10281-34eb-4a35-aaa5-dbb5e6eb567b\",\"siteId\":1,\"id\":\"107651\"}"
-                  }
-                ]
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"3c3e5245-cf21-4906-ace6-184efdaa9f8b\",\"siteId\":1,\"id\":\"107642\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107642",
-                "uid": "3c3e5245-cf21-4906-ace6-184efdaa9f8b",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Does Liturgia offer hymn suggestions for Sundays?",
-                "text": "\u003cp\u003eYes, Liturgia offers a list of hymn suggestions, organised into the various parts of the Mass, for every Sunday and Solemnity.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"d46593bf-3ecb-4d26-ba90-ff14e60c177e\",\"siteId\":1,\"id\":\"107643\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107643",
-                "uid": "d46593bf-3ecb-4d26-ba90-ff14e60c177e",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Can I print a booklet after preparing a liturgy?",
-                "text": "\u003cp\u003eYes! With a couple of clicks, you can create a booklet in Word or PDF format. You can select which parts of the liturgy you’d like to print, depending on whether you would like to prepare participation booklets for the assembly or for the Presider.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"e5492de7-04c5-44ff-a599-ca10eed1b901\",\"siteId\":1,\"id\":\"107644\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107644",
-                "uid": "e5492de7-04c5-44ff-a599-ca10eed1b901",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "We have a screen in our church. Can Liturgia work with PowerPoint?",
-                "text": "\u003cp\u003eYes. Once you have made your selections in Liturgia, you can export the liturgy to PowerPoint.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"bb961e50-96fc-474c-a960-05b948ddecc1\",\"siteId\":1,\"id\":\"107645\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107645",
-                "uid": "bb961e50-96fc-474c-a960-05b948ddecc1",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Can I prepare a Mass for Children with Liturgia?",
-                "text": "\u003cp\u003eYou certainly can. When planning a liturgy for children, Liturgia automatically displays readings from the Children’s Lectionary, and offers hymn suggestions that have been selected for children. The Children’s Eucharistic Prayers are included. There are also a range of school liturgies for children such as Mother’s Day and Father’s Day.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"80feb544-d72c-4da9-b65e-21aa8d90f334\",\"siteId\":1,\"id\":\"107646\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107646",
-                "uid": "80feb544-d72c-4da9-b65e-21aa8d90f334",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Can I view the liturgical books in Liturgia?",
-                "text": "\u003cp\u003eYes. Liturgia contains a full electronic library of all the ritual books, as well as other offerings such as the Book of Blessings.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"a65cddb0-8ff5-4fb4-885c-b537a6f9d9a9\",\"siteId\":1,\"id\":\"107647\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107647",
-                "uid": "a65cddb0-8ff5-4fb4-885c-b537a6f9d9a9",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Can I make choices when preparing a liturgy?",
-                "text": "\u003cp\u003eYes. Where there are choices for readings for a particular day, or for a ritual such as Baptism, you can view the possible alternatives and make your choice. The same applies where there is a choice of prayers. Only authorised options are included so you can be sure that your liturgy complies with the ritual books. \u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"83f396e6-a2f8-4a20-a247-7b4c3091e7e7\",\"siteId\":1,\"id\":\"107648\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107648",
-                "uid": "83f396e6-a2f8-4a20-a247-7b4c3091e7e7",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Can more than one person in our parish have access to Liturgia?",
-                "text": "\u003cp\u003eYes. The base licence for Liturgia gives access for up to 5 users. For example, the parish priest, the parish secretary, the sacramental co-ordinator and the leader of the music ministry team can all access Liturgia under the parish licence. Each person has their own login details, and liturgies can be shared amongst users.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"cd7c32d5-d46d-4c23-926e-549dc82a85d7\",\"siteId\":1,\"id\":\"107649\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107649",
-                "uid": "cd7c32d5-d46d-4c23-926e-549dc82a85d7",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Can our school and parish share a Liturgia licence?",
-                "text": "\u003cp\u003eNo. Due to copyright obligations concerning the texts contained in Liturgia, a parish and its school must each have their own Liturgia licence.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionGroup_BlockType:{\"uid\":\"370be2b5-35cb-4c03-b94d-3a4c4967c4bd\",\"siteId\":1,\"id\":\"107641\"}": {
-                "__typename": "modules_accordionGroup_BlockType",
-                "id": "107641",
-                "uid": "370be2b5-35cb-4c03-b94d-3a4c4967c4bd",
-                "siteId": 1,
-                "typeHandle": "accordionGroup",
-                "moduleTitle": "Benefits",
-                "children": [
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"3c3e5245-cf21-4906-ace6-184efdaa9f8b\",\"siteId\":1,\"id\":\"107642\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"d46593bf-3ecb-4d26-ba90-ff14e60c177e\",\"siteId\":1,\"id\":\"107643\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"e5492de7-04c5-44ff-a599-ca10eed1b901\",\"siteId\":1,\"id\":\"107644\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"bb961e50-96fc-474c-a960-05b948ddecc1\",\"siteId\":1,\"id\":\"107645\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"80feb544-d72c-4da9-b65e-21aa8d90f334\",\"siteId\":1,\"id\":\"107646\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"a65cddb0-8ff5-4fb4-885c-b537a6f9d9a9\",\"siteId\":1,\"id\":\"107647\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"83f396e6-a2f8-4a20-a247-7b4c3091e7e7\",\"siteId\":1,\"id\":\"107648\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"cd7c32d5-d46d-4c23-926e-549dc82a85d7\",\"siteId\":1,\"id\":\"107649\"}"
-                  },
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"131e18eb-05c6-4507-9547-116afa38d45c\",\"siteId\":1,\"id\":\"107650\"}"
-                  }
-                ]
-              },
-              "modules_accordionItem_BlockType:{\"uid\":\"64cc24e3-7582-4b54-99fc-8b4300a8eeb1\",\"siteId\":1,\"id\":\"107652\"}": {
-                "__typename": "modules_accordionItem_BlockType",
-                "id": "107652",
-                "uid": "64cc24e3-7582-4b54-99fc-8b4300a8eeb1",
-                "siteId": 1,
-                "typeHandle": "accordionItem",
-                "moduleTitle": "Technical information",
-                "text": "\u003cp\u003eLiturgia is a web-based software that can be accessed on any modern device with an internet connection. To ensure the best user experience, we recommend the following:</p><p><strong>Recommended Web Browsers</strong><br>Google Chrome (latest version)<br>Mozilla Firefox (latest version)<br>Apple Safari (latest version)<br>Microsoft Edge (latest version)<br></p><p></p><p></p><p><strong>Screen Resolution</strong><br>For the best user experience, a screen resolution of at least 1280x720 is recommended. Higher resolutions (e.g., 1920x1080 or greater) will provide a more comfortable interface.\u003c/p\u003e",
-                "columns": "3",
-                "children": []
-              },
-              "modules_accordionGroup_BlockType:{\"uid\":\"8ba10281-34eb-4a35-aaa5-dbb5e6eb567b\",\"siteId\":1,\"id\":\"107651\"}": {
-                "__typename": "modules_accordionGroup_BlockType",
-                "id": "107651",
-                "uid": "8ba10281-34eb-4a35-aaa5-dbb5e6eb567b",
-                "siteId": 1,
-                "typeHandle": "accordionGroup",
-                "moduleTitle": "Specifications",
-                "children": [
-                  {
-                    "__ref": "modules_accordionItem_BlockType:{\"uid\":\"64cc24e3-7582-4b54-99fc-8b4300a8eeb1\",\"siteId\":1,\"id\":\"107652\"}"
-                  }
                 ]
               }
             },
