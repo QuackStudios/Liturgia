@@ -2549,6 +2549,7 @@
                       "text-4xl sm:h1-text leading-none sm:leading-tight text-sand-light md:text-[clamp(72px,8vw,300px)] md:whitespace-nowrap hero-text-adjust",
                     children: "Made Simple", // Replace with the desired text
                   }),
+
                 ],
               }),
             })

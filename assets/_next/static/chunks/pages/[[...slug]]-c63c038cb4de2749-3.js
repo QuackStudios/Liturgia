@@ -2542,28 +2542,6 @@
                     ref: a,
                     children: (0, T.jsx)(F.A, { children: p.title }),
                   }),
-                  (0, T.jsx)(z.A, {
-                    type: "button",
-                    className:
-                      "ml-auto hidden sm:inline-flex full-white no-icon-wrapper",
-                    Icon: () =>
-                      (0, T.jsx)("span", {
-                        className:
-                          "border border-white flex items-center justify-center rounded-full w-6 h-6",
-                        children: (0, T.jsx)(V, {
-                          className: "w-3 bottom-icon",
-                        }),
-                      }),
-                    onClick: () => {
-                      let e = i.current.offsetHeight;
-                      P.os.to(window, {
-                        duration: 1,
-                        scrollTo: { y: e, autoKill: !1 },
-                        ease: "power2.out",
-                      });
-                    },
-                    children: l("Scroll down"),
-                  }),
                 ],
               }),
             }),
