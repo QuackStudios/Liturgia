@@ -3605,6 +3605,11 @@ footer .wysiwyg a:not(.button):hover {
 .text-6xl {
   font-size: 4.5rem;
 }
+@media (max-width: 400px) {
+  .text-6xl {
+    font-size: 3.5rem !important;
+  }
+}
 .text-\[2\.4rem\] {
   font-size: 2.4rem;
 }
