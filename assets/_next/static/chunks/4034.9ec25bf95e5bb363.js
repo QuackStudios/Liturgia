@@ -211,7 +211,7 @@
                                             },
                                             children: (0, i.jsx)(b.A, {
                                               className:
-                                                "w-4 sm:w-8 stroke-current flex-shrink-0",
+                                                "w-4 sm:w-8 stroke-current flex-shrink-0 red-outline",
                                             }),
                                           }),
                                       ],
