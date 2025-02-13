@@ -6597,13 +6597,16 @@ text-align: start;
 }
 
 .red-border {
-  background-color: #e32925;
+  background-color: #e32925 !important;
+}
+
+.red-outline {
+  color: #e32925 !important;
 }
 
 .w-4.stroke-current.flex-shrink-0:hover {
-  color: #e32925;
+  color: #e32925 !important;
 }
-
 .margin-bottom-footer-adjust {
   margin-bottom: 0px !important;
 }

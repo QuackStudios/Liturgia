@@ -713,6 +713,18 @@ video {
   pointer-events: none;
   z-index: 10;
 }
+.red-border {
+  background-color: #e32925 !important;
+}
+
+.red-outline {
+  color: #e32925 !important;
+}
+
+.w-4.stroke-current.flex-shrink-0:hover {
+  color: #e32925 !important;
+}
+
 .swiper-3d .swiper-slide-shadow {
   background: rgba(0, 0, 0, 0.15);
 }
@@ -787,12 +799,14 @@ video {
 .react-player.object-cover > 
 video {
   object-fit: contain !important;
+  filter: brightness(1) !important;
 }
 
 .video-wrapper.opacity-0.h-full.max-w-full.w-full.object-cover.object-fit-fix.h-full > 
 .react-player.object-cover.aspect-\[16\/9\]> 
 video {
   object-fit: contain !important;
+  filter: brightness(1) !important;
 }
 .text-animation .lineChildren {
   padding-bottom: 0.1em;
