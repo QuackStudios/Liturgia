@@ -242,7 +242,7 @@
               !v &&
               (0, l.jsx)(n.w1, {
                 options: {
-                  imagePath: "https://zaptec.objects.frb.io/assets/Map/m",
+                  imagePath: "https://liturgia/assets/Map/m",
                   imageExtension: "png",
                   imageSizes: [120, 150, 170, 190, 210, 210],
                   maxZoom: 16,

@@ -270,3 +270,39 @@ document.addEventListener('click', (e) => {
     });
   }
 });
+
+
+
+function getStarted() {
+  // Get the selected pricing class from the dropdown button
+  const dropdownButton = document.querySelector('.dropdown-button');
+  if (!dropdownButton) {
+    console.error('Dropdown button not found.');
+    return;
+  }
+
+  const selectedText = dropdownButton.textContent.trim(); // Get the selected text
+  let redirectUrl = '';
+
+  // Determine the URL based on the selected pricing class
+  switch (selectedText) {
+    case 'Up to 5 Users':
+      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia';
+      break;
+    case 'Up to 10 Users':
+      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-10-users';
+      break;
+    case 'Up to 20 Users':
+      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users';
+      break;
+    case 'Up to 30 Users':
+      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users-1';
+      break;
+    default:
+      console.error('Unknown pricing class selected.');
+      return;
+  }
+
+  // Redirect the user to the appropriate URL
+  window.open(redirectUrl, '_blank');
+}

@@ -190,7 +190,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 .nested-div-2-child-1 {
                   width: 100%;
-                }    
+                }   
+                .nested-div-2-child-2 {
+                  width: 100%;
+                }   
               }
             `;
             document.head.appendChild(style);
@@ -424,10 +427,11 @@ function attachFormSubmitHandler(form) {
 const observer6 = new MutationObserver((mutationsList) => {
   for (const mutation of mutationsList) {
       if (mutation.type === 'childList') {
-          const popup = document.getElementById('popup1');
-          if (popup && !popup.classList.contains('show')) {
-              popup.style.display = "none"; // Ensure popup is hidden
+        const form = document.getElementById('contactForm');
+          if (form) {
+            attachFormSubmitHandler(form); // Attach the handler if the form is found
           }
+          const popup = document.getElementById('popup1');
       }
   }
 });

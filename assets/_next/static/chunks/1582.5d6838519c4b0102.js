@@ -18,7 +18,7 @@
                 let [, n] = e.split("-"),
                   l = document.createElement("script");
                 (l.src =
-                  "https://forms.jumptech.co.uk/zaptec/frm_embed/".concat(n)),
+                  "https://forms.jumptech.co.uk/liturgia/frm_embed/".concat(n)),
                   (l.async = !0),
                   t.openModal({
                     content: (0, c.jsx)("div", {

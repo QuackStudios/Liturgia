@@ -172,6 +172,7 @@
 const hrefToIndexMap = {
   "https://shop.liturgybrisbane.net.au/collections/liturgia": 0,
   "/features": 1,
+  "https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-trial": 2,
   // Add more mappings as needed
 };
 
@@ -179,6 +180,7 @@ const hrefToIndexMap = {
 const buttonTexts = [
   "Get Liturgia",  // Text for index 0
   "Learn More",  // Text for index 1
+  "Get Liturgia", //Text for index 2
 ];
 
 // Function to process buttons and assign text based on href
@@ -453,9 +455,9 @@ let f = function (e) {
               }
           }
           let z = "string" == typeof j ? j.replace(/\/$/, "") : j;
-          return "true" === r.env.NEXT_PUBLIC_STAGING && z && ("string" == typeof z ? z.startsWith("/") || "/" === z ? z = "https://liturgia.quackstudios.com.au".concat(z) : z.startsWith("https://www.liturgia.quackstudios.com.au") && (z = z.replace("https://liturgia.quackstudios.com.au", "https://liturgia.quackstudios.com.au")) : "object" == typeof z && (z = {
+          return "true" === r.env.NEXT_PUBLIC_STAGING && z && ("string" == typeof z ? z.startsWith("/") || "/" === z ? z = "https://getliturgia.com.au".concat(z) : z.startsWith("https://www.getliturgia.com.au") && (z = z.replace("https://getliturgia.com.au", "https://getliturgia.com.au")) : "object" == typeof z && (z = {
               ...z,
-              pathname: "liturgia.quackstudios.com.au".concat(z.pathname)
+              pathname: "getliturgia.com.au".concat(z.pathname)
           })),
           l ? (0,
           n.jsx)(i(), {
@@ -521,7 +523,7 @@ let f = function (e) {
           let {asset: t, mode: l, quality: n, ratio: a, width: s, providedHeight: i, providedWidth: r} = e
             , o = "crop" === l && (s / r * i || s * a) || null;
           return o = o ? Math.round(o) : o,
-          "".concat("liturgia.quackstudios.com.au", "/actions/common/image?id=").concat(t.id, "&height=").concat(o, "&mode=").concat(l || "fit", "&quality=").concat(n || 80, "&width=").concat(s || null)
+          "".concat("getliturgia.com.au", "/actions/common/image?id=").concat(t.id, "&height=").concat(o, "&mode=").concat(l || "fit", "&quality=").concat(n || 80, "&width=").concat(s || null)
       }
       ;
       var o = l(79475)
@@ -937,7 +939,7 @@ let f = function (e) {
               iframe: ["*"]
           },
           transformTags: {
-              img: (e, t) => (t.src && t.src.startsWith("/") && (t.src = "".concat("liturgia.quackstudios.com.au").concat(t.src)),
+              img: (e, t) => (t.src && t.src.startsWith("/") && (t.src = "".concat("getliturgia.com.au").concat(t.src)),
               t.loading = "lazy",
               t.decoding = "async",
               t.class = "w-full h-auto",
@@ -1007,6 +1009,6 @@ let f = function (e) {
   ,
   32654: e => {
       "use strict";
-      e.exports = JSON.parse('{"locales":["en","no","sv","da","de","en-uk","fr","nl","de-CH","fr-CH","nl-BE","fr-BE"],"domains":[{"domain":"www.liturgia.quackstudios.com.au","handle":"default","locales":[null,null,null,null,null,null,null,null]},{"domain":"www.liturgia.quackstudios.com.au","handle":"zaptecDeCh","locales":[null,null]},{"domain":"www.liturgia.quackstudios.com.au","handle":"zaptecNlBe","locales":[null,null]}],"sites":[{"siteId":1,"locale":"en","domain":"www.liturgia.quackstudios.com.au","url":"/","fullUrl":"https://www.liturgia.quackstudios.com.au/","handle":"default","name":"Global / English","primary":true,"groupId":1},{"siteId":12,"locale":"no","domain":"www.liturgia.quackstudios.com.au","url":"/no/","fullUrl":"https://www.liturgia.quackstudios.com.au/no/","handle":"zaptecNo","name":"Norway / Norsk","primary":false,"groupId":1},{"siteId":2,"locale":"sv","domain":"www.liturgia.quackstudios.com.au","url":"/sv/","fullUrl":"https://www.liturgia.quackstudios.com.au/sv/","handle":"zaptecSv","name":"Sweden / Svenska","primary":false,"groupId":1},{"siteId":3,"locale":"da","domain":"www.liturgia.quackstudios.com.au","url":"/da/","fullUrl":"https://www.liturgia.quackstudios.com.au/da/","handle":"zaptecDa","name":"Denmark / Dansk","primary":false,"groupId":1},{"siteId":4,"locale":"de","domain":"www.liturgia.quackstudios.com.au","url":"/de/","fullUrl":"https://www.liturgia.quackstudios.com.au/de/","handle":"zaptecDe","name":"Germany / Deutsch","primary":false,"groupId":1},{"siteId":5,"locale":"en-uk","domain":"www.liturgia.quackstudios.com.au","url":"/en-uk/","fullUrl":"https://www.liturgia.quackstudios.com.au/en-uk/","handle":"zaptecUk","name":"United Kingdom / English","primary":false,"groupId":1},{"siteId":6,"locale":"fr","domain":"www.liturgia.quackstudios.com.au","url":"/fr/","fullUrl":"https://www.liturgia.quackstudios.com.au/fr/","handle":"zaptecFr","name":"France / Fran\xe7ais","primary":false,"groupId":1},{"siteId":7,"locale":"nl","domain":"www.liturgia.quackstudios.com.au","url":"/nl/","fullUrl":"https://www.liturgia.quackstudios.com.au/nl/","handle":"zaptecNl","name":"Netherlands / Nederlands","primary":false,"groupId":1},{"siteId":11,"locale":"de-CH","domain":"www.liturgia.quackstudios.com.au","url":"/de-ch/","fullUrl":"https://www.liturgia.quackstudios.com.au/de-ch/","handle":"zaptecDeCh","name":"Switzerland / Deutsch","primary":false,"groupId":2},{"siteId":10,"locale":"fr-CH","domain":"www.liturgia.quackstudios.com.au","url":"/fr-ch/","fullUrl":"https://www.liturgia.quackstudios.com.au/fr-ch/","handle":"zaptecFrCh","name":"Switzerland / Fran\xe7ais","primary":false,"groupId":2},{"siteId":8,"locale":"nl-BE","domain":"www.liturgia.quackstudios.com.au","url":"/nl-be/","fullUrl":"https://www.liturgia.quackstudios.com.au/nl-be/","handle":"zaptecNlBe","name":"Belgium / Nederlands","primary":false,"groupId":3},{"siteId":9,"locale":"fr-BE","domain":"www.liturgia.quackstudios.com.au","url":"/fr-be/","fullUrl":"https://www.liturgia.quackstudios.com.au/fr-be/","handle":"zaptecFrBe","name":"Belgium / Fran\xe7ais","primary":false,"groupId":3}]}')
+      e.exports = JSON.parse('{"locales":["en","no","sv","da","de","en-uk","fr","nl","de-CH","fr-CH","nl-BE","fr-BE"],"domains":[{"domain":"www.getliturgia.com.au","handle":"default","locales":[null,null,null,null,null,null,null,null]},{"domain":"www.getliturgia.com.au","handle":"zaptecDeCh","locales":[null,null]},{"domain":"www.getliturgia.com.au","handle":"zaptecNlBe","locales":[null,null]}],"sites":[{"siteId":1,"locale":"en","domain":"www.getliturgia.com.au","url":"/","fullUrl":"https://www.getliturgia.com.au/","handle":"default","name":"Global / English","primary":true,"groupId":1},{"siteId":12,"locale":"no","domain":"www.getliturgia.com.au","url":"/no/","fullUrl":"https://www.getliturgia.com.au/no/","handle":"zaptecNo","name":"Norway / Norsk","primary":false,"groupId":1},{"siteId":2,"locale":"sv","domain":"www.getliturgia.com.au","url":"/sv/","fullUrl":"https://www.getliturgia.com.au/sv/","handle":"zaptecSv","name":"Sweden / Svenska","primary":false,"groupId":1},{"siteId":3,"locale":"da","domain":"www.getliturgia.com.au","url":"/da/","fullUrl":"https://www.getliturgia.com.au/da/","handle":"zaptecDa","name":"Denmark / Dansk","primary":false,"groupId":1},{"siteId":4,"locale":"de","domain":"www.getliturgia.com.au","url":"/de/","fullUrl":"https://www.getliturgia.com.au/de/","handle":"zaptecDe","name":"Germany / Deutsch","primary":false,"groupId":1},{"siteId":5,"locale":"en-uk","domain":"www.getliturgia.com.au","url":"/en-uk/","fullUrl":"https://www.getliturgia.com.au/en-uk/","handle":"zaptecUk","name":"United Kingdom / English","primary":false,"groupId":1},{"siteId":6,"locale":"fr","domain":"www.getliturgia.com.au","url":"/fr/","fullUrl":"https://www.getliturgia.com.au/fr/","handle":"zaptecFr","name":"France / Fran\xe7ais","primary":false,"groupId":1},{"siteId":7,"locale":"nl","domain":"www.getliturgia.com.au","url":"/nl/","fullUrl":"https://www.getliturgia.com.au/nl/","handle":"zaptecNl","name":"Netherlands / Nederlands","primary":false,"groupId":1},{"siteId":11,"locale":"de-CH","domain":"www.getliturgia.com.au","url":"/de-ch/","fullUrl":"https://www.getliturgia.com.au/de-ch/","handle":"zaptecDeCh","name":"Switzerland / Deutsch","primary":false,"groupId":2},{"siteId":10,"locale":"fr-CH","domain":"www.getliturgia.com.au","url":"/fr-ch/","fullUrl":"https://www.getliturgia.com.au/fr-ch/","handle":"zaptecFrCh","name":"Switzerland / Fran\xe7ais","primary":false,"groupId":2},{"siteId":8,"locale":"nl-BE","domain":"www.getliturgia.com.au","url":"/nl-be/","fullUrl":"https://www.getliturgia.com.au/nl-be/","handle":"zaptecNlBe","name":"Belgium / Nederlands","primary":false,"groupId":3},{"siteId":9,"locale":"fr-BE","domain":"www.getliturgia.com.au","url":"/fr-be/","fullUrl":"https://www.getliturgia.com.au/fr-be/","handle":"zaptecFrBe","name":"Belgium / Fran\xe7ais","primary":false,"groupId":3}]}')
   }
 }]);
