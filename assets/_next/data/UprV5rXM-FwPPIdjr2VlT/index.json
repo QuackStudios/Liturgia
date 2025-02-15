@@ -10,7 +10,7 @@
           "slug": "home",
           "uri": "__home__",
           "title": "Empowers Liturgy",
-          "url": "https://liturgia.quackstudios.com.au/",
+          "url": "https://getliturgia.com.au/",
           "typeHandle": "home",
           "sectionHandle": "home",
           "whiteFooter": true,
@@ -28,9 +28,9 @@
       "currentSite": {
         "siteId": 1,
         "locale": "en",
-        "domain": "https://liturgia.quackstudios.com.au/",
+        "domain": "https://getliturgia.com.au/",
         "url": "/",
-        "fullUrl": "https://liturgia.quackstudios.com.au/index",
+        "fullUrl": "https://getliturgia.com.au/index",
         "handle": "default",
         "name": "Global / English",
         "primary": true,
@@ -276,7 +276,7 @@
           "uri": "__home__",
           "slug": "home",
           "title": "Liturgy Preparation",
-          "url": "https://liturgia.quackstudios.com.au/",
+          "url": "https://getliturgia.com.au/",
           "lightswitch": true,
           "plainText": null,
           "button": {
@@ -538,7 +538,7 @@
             "target": "",
             "text": "Features",
             "type": "entry",
-            "url": "https://liturgia.quackstudios.com.au/features",
+            "url": "https://getliturgia.com.au/features",
             "title": null
           },
           "plainText": null,
@@ -557,7 +557,7 @@
             "target": "",
             "text": "Parishes",
             "type": "entry",
-            "url": "https://liturgia.quackstudios.com.au/parishes",
+            "url": "https://getliturgia.com.au/parishes",
             "title": "Parishes"
           },
           "plainText": null,
@@ -576,7 +576,7 @@
             "target": "",
             "text": "Schools",
             "type": "url",
-            "url": "https://liturgia.quackstudios.com.au/schools",
+            "url": "https://getliturgia.com.au/schools",
             "title": "Schools"
           },
           "plainText": null,
@@ -595,7 +595,7 @@
             "target": "",
             "text": "Features",
             "type": "entry",
-            "url": "/features",
+            "url": "https://getliturgia.com.au/features",
             "title": "Features"
           },
           "plainText": null,
@@ -625,16 +625,16 @@
           "id": "1008613",
           "uid": "d26c4326-4980-4c0b-8e2b-39210996c253",
           "siteId": 1,
-          "title": "Support",
+          "title": "Pricing",
           "typeHandle": "default",
           "level": 2,
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Support",
+            "text": "Pricing",
             "type": "url",
-            "url": "https://liturgia.quackstudios.com.au/support",
-            "title": "Support"
+            "url": "https://getliturgia.com.au/pricing",
+            "title": "Pricing"
           },
           "plainText": null,
           "children": []
@@ -644,16 +644,16 @@
           "id": "1008615",
           "uid": "f0690215-c24b-45d3-a559-5f3bb38098a5",
           "siteId": 1,
-          "title": "Pricing",
+          "title": "Support",
           "typeHandle": "default",
           "level": 2,
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Pricing",
+            "text": "Support",
             "type": "url",
-            "url": "https://liturgia.quackstudios.com.au/pricing",
-            "title": "Pricing"
+            "url": "https://getliturgia.com.au/support",
+            "title": "Support"
           },
           "plainText": null,
           "children": []
@@ -663,16 +663,16 @@
           "id": "1008611",
           "uid": "cf77d794-0aac-476e-bd19-2d36fa641858",
           "siteId": 1,
-          "title": "Support",
+          "title": "Pricing",
           "typeHandle": "default",
           "level": 1,
           "navigationLink": {
             "__typename": "linkField_Link",
             "target": "",
-            "text": "Support",
+            "text": "Pricing",
             "type": "url",
-            "url": "https://liturgia.quackstudios.com.au/support",
-            "title": "Support"
+            "url": "https://getliturgia.com.au/pricing",
+            "title": "Pricing"
           },
           "plainText": null,
           "children": [
@@ -763,7 +763,7 @@
             "text": "Pricing",
             "title": "Pricing",
             "type": "url",
-            "url": "https://liturgia.quackstudios.com.au/pricing"
+            "url": "https://getliturgia.com.au/pricing"
           }
         },
         "footerMenu_default_Entry:{\"uid\":\"3e014c6f-1f41-4044-a8a2-287eae486e90\",\"siteId\":1,\"id\":\"20742\"}": {
@@ -883,7 +883,7 @@
             "text": "Get Liturgia",
             "title": null,
             "type": "custom",
-            "url": "https://shop.liturgybrisbane.net.au/collections/liturgia"
+            "url": "https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-trial"
           },
           "links": [
             {
@@ -1005,9 +1005,9 @@
           "id": "115941",
           "uid": "dfd917e5-b499-4034-aaf8-2293a18803cd",
           "siteId": 1,
-          "sdVideo": "assets/videos/Liturgia-Hero-Video3.mp4",
+          "sdVideo": "assets/videos/Baptism-Of-Christ.mp4",
           "typeHandle": "vimeo",
-          "hdVideo": "assets/videos/Liturgia-Hero-Video3.mp4",
+          "hdVideo": "assets/videos/Baptism-Of-Christ.mp4",
           "videoSettings": [
             {
               "__typename": "videoSettings_TableRow",
