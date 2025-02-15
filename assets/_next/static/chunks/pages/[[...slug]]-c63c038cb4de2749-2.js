@@ -3668,6 +3668,29 @@
                     });
                   },
                   children: [
+                    s("Scroll down"),
+                    (0, T.jsxs)("svg", {
+                      width: "24",
+                      height: "25",
+                      viewBox: "0 0 24 25",
+                      fill: "none",
+                      xmlns: "http://www.w3.org/2000/svg",
+                      children: [
+                        (0, T.jsx)("rect", {
+                          x: "24",
+                          y: "0.212891",
+                          width: "24",
+                          height: "24",
+                          rx: "12",
+                          transform: "rotate(90 24 0.212891)",
+                          fill: "white",
+                        }),
+                        (0, T.jsx)("path", {
+                          d: "M12 6.21289L12 18.2129M12 18.2129L18 12.2129M12 18.2129L6 12.2129",
+                          stroke: "#222222",
+                        }),
+                      ],
+                    }),
                   ],
                 }),
             ],

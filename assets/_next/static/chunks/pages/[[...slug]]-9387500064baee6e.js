@@ -2549,7 +2549,29 @@
                       "text-4xl sm:h1-text leading-none sm:leading-tight text-sand-light md:text-[clamp(72px,8vw,300px)] md:whitespace-nowrap hero-text-adjust",
                     children: "Made Simple", // Replace with the desired text
                   }),
-
+                  // Button element
+                  (0, T.jsx)(z.A, {
+                    type: "button",
+                    className:
+                      " hidden ",
+                    Icon: () =>
+                      (0, T.jsx)("span", {
+                        className:
+                          "border border-white flex items-center justify-center rounded-full w-6 h-6",
+                        children: (0, T.jsx)(V, {
+                          className: "w-3 bottom-icon",
+                        }),
+                      }),
+                    onClick: () => {
+                      let e = i.current.offsetHeight;
+                      P.os.to(window, {
+                        duration: 1,
+                        scrollTo: { y: e, autoKill: !1 },
+                        ease: "power2.out",
+                      });
+                    },
+                    children: l("Scroll down"),
+                  }),
                 ],
               }),
             })
@@ -6079,7 +6101,7 @@
             { siteId: i } = l,
             [r, a] = (0, B.useState)(!0);
           return (0, T.jsxs)(tj.G, {
-            indexName: "Zaptec",
+            indexName: "Liturgia",
             searchClient: tC,
             routing: !0,
             children: [
@@ -7837,11 +7859,11 @@
               }),
               (0, T.jsx)("meta", {
                 name: "apple-mobile-web-app-title",
-                content: "Zaptec",
+                content: "Liturgia",
               }),
               (0, T.jsx)("meta", {
                 name: "application-name",
-                content: "Zaptec",
+                content: "Liturgia",
               }),
               (0, T.jsx)("meta", {
                 name: "msapplication-TileColor",

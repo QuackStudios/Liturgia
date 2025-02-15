@@ -8916,16 +8916,14 @@
                       }
                       return t;
                     })(
-                      e.data,
-                      "https://www.zaptec.com",
-                      "https://staging.zaptec.com"
+                      e.data
                     )),
                   e
                 )
               )
         ),
         F = (e) => {
-          let t = new URL("http://liturgia.quackstudios.com.au/api");
+          let t = new URL("http://getliturgia.com.au/api");
           for (let [r, n] of Object.entries(e)) t.searchParams.append(r, n);
           return new R({
             uri: t.toString(),
