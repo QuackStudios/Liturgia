@@ -5813,7 +5813,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .nested-div-2-child-2 {
-  width: 100%;
+  width: fit-content;
 }
 .nested-div-3 {
   display: flex;
@@ -5851,7 +5851,7 @@ footer .wysiwyg a:not(.button):hover {
 }
 
 .rhs .nested-div-2-child-2,
-.rhs .nested-div-3-child-2,
+.rhs .nested-div-2-child-1,
 .rhs .nested-div-4-child-2,
 .rhs .nested-div-5-child-2 {
   cursor: pointer; /* Makes it clear that it's interactive */
@@ -5863,7 +5863,7 @@ footer .wysiwyg a:not(.button):hover {
 
 /* Add the underline effect using the ::after pseudo-element */
 .rhs .nested-div-2-child-2::after,
-.rhs .nested-div-3-child-2::after,
+.rhs .nested-div-2-child-1::after,
 .rhs .nested-div-4-child-2::after,
 .rhs .nested-div-5-child-2::after {
   content: ''; /* Empty content for the pseudo-element */
@@ -5878,7 +5878,7 @@ footer .wysiwyg a:not(.button):hover {
 
 /* On hover, expand the underline from left to right */
 .rhs .nested-div-2-child-2:hover::after,
-.rhs .nested-div-3-child-2:hover::after,
+.rhs .nested-div-2-child-1:hover::after,
 .rhs .nested-div-4-child-2:hover::after,
 .rhs .nested-div-5-child-2:hover::after {
   width: 100%; /* Full width of the text */
@@ -6325,12 +6325,11 @@ body.popup-active {
   .rhs-bulk-licensing-text {
     width: 100%;
     margin: 35% 0 0 0;
-    font-style: italic;
     padding: 0 0 0 4%;
   }
   
   .trusted-by-content {
-    margin-top: 20vw !important;
+    margin-top: 100px !important;
     flex-direction: row !important;
   }
 
@@ -6356,7 +6355,6 @@ body.popup-active {
 .rhs-bulk-licensing-text {
   width: 100%;
   margin: 40% 0 0 0;
-  font-style: italic;
   padding: 3px 0 0 7%;
 }
 
@@ -6375,7 +6373,6 @@ body.popup-active {
   .rhs-bulk-licensing-text {
     width: 100%;
     margin: 42% 0 0 0;
-    font-style: italic;
     padding: 5px 0 0 10%;
   }
   
@@ -6534,4 +6531,9 @@ body.popup-active {
 
 .full-width {
   width: 100% !important
+}
+
+
+.secondary-menu-dropdown {
+  height: 197.188px !important;
 }
