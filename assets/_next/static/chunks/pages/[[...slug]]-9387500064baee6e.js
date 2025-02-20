@@ -7826,27 +7826,27 @@
               (0, T.jsx)("link", {
                 rel: "apple-touch-icon",
                 sizes: "180x180",
-                href: "/favicon/apple-touch-icon.png",
+                href: "/apple-touch-icon.png",
               }),
               (0, T.jsx)("link", {
                 id: "favicon-32",
                 rel: "icon",
                 type: "image/png",
                 sizes: "32x32",
-                href: "/assets/favicon/favicon-32x32.ico",
+                href: "/favicon-32x32.ico",
               }),
               (0, T.jsx)("link", {
                 id: "favicon-16",
                 rel: "icon",
                 type: "image/png",
                 sizes: "16x16",
-                href: "/assets/favicon/favicon-16x16.ico",
+                href: "/favicon-16x16.ico",
               }),
               (0, T.jsx)("link", {
                 id: "favicon",
                 rel: "icon",
                 type: "image/x-icon",
-                href: "/assets/favicon/favicon.ico",
+                href: "/favicon.ico",
               }),
               (0, T.jsx)("link", {
                 rel: "manifest",
