@@ -7883,18 +7883,18 @@
             let e = () => {
               if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
                 let e = document.querySelector("#favicon-32");
-                e && (e.href = "/assets/favicon/favicon-32x32-white.ico");
+                e && (e.href = "/favicon-32x32-white.ico");
                 let n = document.querySelector("#favicon-16");
-                n && (n.href = "/assets/favicon/favicon-16x16-white.ico");
+                n && (n.href = "/favicon-16x16-white.ico");
                 let t = document.querySelector("#favicon");
-                t && (t.href = "/assets/favicon/favicon-white.ico");
+                t && (t.href = "/favicon-white.ico");
               } else {
                 let e = document.querySelector("#favicon-32");
-                e && (e.href = "/assets/favicon/favicon-32x32.ico");
+                e && (e.href = "/favicon-32x32.ico");
                 let n = document.querySelector("#favicon-16");
-                n && (n.href = "/assets/favicon/favicon-16x16.ico");
+                n && (n.href = "/favicon-16x16.ico");
                 let t = document.querySelector("#favicon");
-                t && (t.href = "/assets/favicon/favicon.ico");
+                t && (t.href = "/favicon.ico");
               }
             };
             return (
