@@ -10342,3 +10342,12 @@ window.addEventListener('pageshow', (event) => {
     window.location.reload();
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('a[target="_blank"]').forEach(a => {
+        a.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(this.href, '_blank');
+        });
+    });
+});
+
