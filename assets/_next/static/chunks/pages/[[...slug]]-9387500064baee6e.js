@@ -10345,8 +10345,9 @@ window.addEventListener('pageshow', (event) => {
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll('a[target="_blank"]').forEach(a => {
         a.addEventListener('click', function(e) {
-            e.preventDefault(); // Prevents the browser from following the link
-            window.open(this.href, '_blank'); // Opens in a new tab
+            e.preventDefault(); // Stop default navigation
+            e.stopImmediatePropagation(); // Stop any other click handlers from interfering
+            window.open(this.href, '_blank', 'noopener,noreferrer'); // Force a new tab
         });
     });
 });
