@@ -10343,11 +10343,13 @@ window.addEventListener('pageshow', (event) => {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[target="_blank"]').forEach(a => {
-        a.addEventListener('click', function(e) {
-            e.preventDefault(); // Stop default navigation
-            e.stopImmediatePropagation(); // Stop any other click handlers from interfering
-            window.open(this.href, '_blank', 'noopener,noreferrer'); // Force a new tab
-        });
-    });
+    document.body.addEventListener('click', function(e) {
+        let link = e.target.closest('a[target="_blank"]'); // Find closest <a> with target="_blank"
+        if (link) {
+            e.preventDefault(); // Prevent the default behavior
+            e.stopPropagation(); // Stop other event listeners
+            e.stopImmediatePropagation(); // Stop any conflicting JS
+            window.open(link.href, '_blank', 'noopener,noreferrer'); // Open in new tab
+        }
+    }, true); // Capturing phase to catch all clicks early
 });
