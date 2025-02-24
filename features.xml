@@ -4,7 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
@@ -14,11 +13,6 @@
 </url>
 <url>
   <loc>https://getliturgia.com.au/</loc>
-  <lastmod>2025-02-21T04:23:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://getliturgia.com.au/index</loc>
   <lastmod>2025-02-21T04:23:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
