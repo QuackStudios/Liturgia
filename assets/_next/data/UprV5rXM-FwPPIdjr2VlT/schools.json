@@ -1393,7 +1393,7 @@
           "level": 1,
           "title": "Products",
           "typeHandle": "default",
-          "url": "http://getliturgia.com.au/schools"
+          "url": "https://getliturgia.com.au/schools"
         },
         "mediaElement_vimeo_BlockType:{\"uid\":\"6588e159-f965-4812-ab11-27fb91510c55\",\"siteId\":1,\"id\":\"422922\"}": {
           "__typename": "mediaElement_vimeo_BlockType",
