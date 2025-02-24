@@ -8925,7 +8925,7 @@
               )
         ),
         F = (e) => {
-          let t = new URL("http://getliturgia.com.au/api");
+          let t = new URL("https://getliturgia.com.au/api");
           for (let [r, n] of Object.entries(e)) t.searchParams.append(r, n);
           return new R({
             uri: t.toString(),
