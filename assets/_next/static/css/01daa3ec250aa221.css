@@ -6119,7 +6119,7 @@ footer .wysiwyg a:not(.button):hover {
   }
 
   .rhs-bulk-licensing-text-text {
-    font-size: clamp(1.07rem, 1.32vw, 1.48rem);
+    font-size: clamp(1.07rem, 1.4vw, 1.9rem);
     color: black
   }
 
