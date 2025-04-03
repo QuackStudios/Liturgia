@@ -301,7 +301,7 @@ function getStarted() {
       break;
     case '30+ Users': // Added case for the new tier
       // For 30+ users, redirect to the contact email link (same as bulk licensing)
-      redirectUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=liturgia@liturgybrisbane.net.au&su=Liturgia%20Bulk%20Licensing%20Enquiry';
+      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-30-users';
       break;
     default:
       console.error('Unknown pricing class selected: ', selectedText); // Log the unknown selection
