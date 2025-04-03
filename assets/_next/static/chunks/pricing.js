@@ -18,6 +18,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
               <li data-value="435">Up to 10 Users</li>
               <li data-value="510">Up to 20 Users</li>
               <li data-value="565">Up to 30 Users</li>
+              <li data-value="695">30+ Users</li> 
             </ul>
           </div>
         </div>
@@ -38,7 +39,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
       </div>
     <div class="rhs-bulk-licensing-contact-button simple-button  group">
         <span>Contact Us</span>
-        <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=liturgia@liturgybrisbane.net.au&su=Liturgia%20Bulk%20Licensing%20Enquiry" class="simple-button  group">  
+        <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=liturgia@liturgybrisbane.net.au&su=Liturgia%20Bulk%20Licensing%20Enquiry" class="simple-button  group">
         <span class="icon-wrapper after"><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-3 -rotate-45 external-icon">
           <path d= "M.74 7h12m0 0-6-6m6 6-6 6" vector-effect="non-scaling-stroke" fill="#767572"/>
         </svg>
@@ -57,7 +58,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         </div>
       </div>
 
-  
+
     `;
 
     // Append the "modules-pp" section to the DOM
@@ -65,8 +66,8 @@ const observer = new MutationObserver((mutationsList, observer) => {
 
 
     // Add mobile-specific CSS dynamically
-const mobileStyle = document.createElement('style');
-mobileStyle.textContent = `
+    const mobileStyle = document.createElement('style');
+    mobileStyle.textContent = `
   @media (max-width: 768px) {
     /* Modules section */
     .modules-pp {
@@ -162,23 +163,23 @@ mobileStyle.textContent = `
 
     .text-animation {
       text-align: center;
-    }  
+    }
 
     .flex items-center gap-3 r-mt-8 {
       align-items: center;
-    }  
-    
+    }
+
     .testimonials {
     height: 45vh;
     }
-    
+
     .r-mt-8 {
     justify-content: center;
     }
   }
 `;
-document.head.appendChild(mobileStyle);
-}
+    document.head.appendChild(mobileStyle);
+  }
 });
 
 // Start observing the document body for changes
@@ -298,11 +299,19 @@ function getStarted() {
     case 'Up to 30 Users':
       redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users-1';
       break;
+    case '30+ Users': // Added case for the new tier
+      // For 30+ users, redirect to the contact email link (same as bulk licensing)
+      redirectUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=liturgia@liturgybrisbane.net.au&su=Liturgia%20Bulk%20Licensing%20Enquiry';
+      break;
     default:
-      console.error('Unknown pricing class selected.');
-      return;
+      console.error('Unknown pricing class selected: ', selectedText); // Log the unknown selection
+      // Optionally redirect to a default page or show an error message
+      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia'; // Fallback URL
+      break;
   }
 
   // Redirect the user to the appropriate URL
-  window.open(redirectUrl, '_blank');
+  if (redirectUrl) {
+    window.open(redirectUrl, '_blank');
+  }
 }

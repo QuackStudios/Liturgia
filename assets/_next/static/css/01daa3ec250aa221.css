@@ -1861,9 +1861,7 @@ footer .wysiwyg a:not(.button):hover {
 .top-bar.full.leaves-hero .search-box .search-icon {
   stroke: #222;
 }
-.top-bar.leaves-hero > .inner {
-  height: clamp(3.6rem, 4.44vw, 5rem);
-}
+
 @media (min-width: 768px) {
   /* Ensure the top-bar remains in hover state when the dropdown is hovered */
   .top-bar:hover {
@@ -6875,4 +6873,8 @@ text-align: start;
 
 .secondary-menu-dropdown {
   height: auto !important;
+}
+
+.gap-buttons-fix {
+  gap: 20px !important;
 }

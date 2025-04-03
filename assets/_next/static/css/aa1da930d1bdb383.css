@@ -1859,9 +1859,23 @@ footer .wysiwyg a:not(.button):hover {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s,
     background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
 }
+@keyframes fadeToDarkLogo {
+  0% {
+    fill: white;
+    color: white;
+  }
+  99% {
+    fill: white;
+    color: white;
+  }
+  100% {
+    fill: #222;
+    color: #222;
+  }
+}
+
 .top-bar.full.leaves-hero .logo {
-  fill: #222 !important;
-  color: #222 !important;
+  animation: fadeToDarkLogo 0.4s ease forwards;
 }
 
 .top-bar.full.leaves-hero .mobile-hamburger-menu-svg{
@@ -1869,11 +1883,21 @@ footer .wysiwyg a:not(.button):hover {
   color: #222 !important;
 }
 
-
+@keyframes fadeToBlack {
+  0% {
+    color: white;
+  }
+  99% {
+    color: white;
+  }
+  100% {
+    color: rgb(34 34 34 / var(--tw-text-opacity));
+  }
+}
 .top-bar.full.leaves-hero .burger-button,
 .top-bar.full.leaves-hero .secondary-menu {
   --tw-text-opacity: 1;
-  color: rgb(34 34 34 / var(--tw-text-opacity));
+  animation: fadeToBlack 0.4s ease forwards;
 }
 .top-bar.full.leaves-hero.menu-open {
   background-color: transparent;
@@ -1897,9 +1921,7 @@ footer .wysiwyg a:not(.button):hover {
 .top-bar.full.leaves-hero .search-box .search-icon {
   stroke: #222;
 }
-.top-bar.leaves-hero > .inner {
-  height: clamp(3.6rem, 4.44vw, 5rem);
-}
+
 @media (min-width: 768px) {
   .top-bar:hover {
     --tw-bg-opacity: 1;
@@ -2979,7 +3001,7 @@ footer .wysiwyg a:not(.button):hover {
   --tw-translate-y: -0.15rem;
 }
 .-translate-y-full {
-  --tw-translate-y: -100%;
+  --tw-translate-y: 0%;
 }
 .-translate-y-full,
 .translate-x-0 {

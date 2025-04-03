@@ -19,15 +19,15 @@
       let m = (t) => (Math.PI / 180) * t,
         g = (t) => {
           let {
-              path: e,
-              color: o,
-              rx: n,
-              ry: s,
-              scale: i,
-              position: r,
-              setShow: l,
-              setLoadedModels: u,
-            } = t,
+            path: e,
+            color: o,
+            rx: n,
+            ry: s,
+            scale: i,
+            position: r,
+            setShow: l,
+            setLoadedModels: u,
+          } = t,
             { scene: g, materials: w } = (0, p.p)(e),
             x = (0, h.useRef)(w["Main Body"]),
             j = (0, h.useRef)(w["Liturgia Logo"]),
@@ -53,17 +53,17 @@
                 e = "#".concat(j.current.color.getHexString());
               "#f4f4f4" === o
                 ? (0, c.i)(e, "#000000", {
-                    duration: 0.5,
-                    onUpdate: (t) => {
-                      j.current.color = new f.Color(t);
-                    },
-                  })
+                  duration: 0.5,
+                  onUpdate: (t) => {
+                    j.current.color = new f.Color(t);
+                  },
+                })
                 : (0, c.i)(e, "#f4f4f4", {
-                    duration: 0.5,
-                    onUpdate: (t) => {
-                      j.current.color = new f.Color(t);
-                    },
-                  }),
+                  duration: 0.5,
+                  onUpdate: (t) => {
+                    j.current.color = new f.Color(t);
+                  },
+                }),
                 (0, c.i)(t, o, {
                   duration: 0.5,
                   onUpdate: (t) => {
@@ -83,15 +83,15 @@
         x = o(9655);
       let j = (t) => {
         let {
-            modelPath: e,
-            color: o,
-            small: d = !1,
-            scale: p,
-            position: f,
-            currentProduct: m,
-            setCursorVariant: j = () => {},
-            setLoadedModels: y = () => {},
-          } = t,
+          modelPath: e,
+          color: o,
+          small: d = !1,
+          scale: p,
+          position: f,
+          currentProduct: m,
+          setCursorVariant: j = () => { },
+          setLoadedModels: y = () => { },
+        } = t,
           [v, b] = (0, h.useState)({ path: e, scale: p, position: f }),
           [E, C] = (0, h.useState)(!1),
           k = (0, s.d)(100),
@@ -135,8 +135,9 @@
                 onMouseEnter: () => j("project"),
                 onMouseLeave: () => j("default"),
               }),
-              (0, a.jsx)("div", {
+              (0, a.jsx)("a", {
                 className: "image-wrapper-moving",  // Add a class for styling the wrapper div
+                href: "/features", // Added the href attribute - replace with your
                 children: (0, a.jsx)("img", {
                   src: "assets/_next/image/Ipad-Mockup.svg", // Replace with the path to your image
                   alt: "Static Image",
@@ -193,7 +194,7 @@ const observer2 = new MutationObserver((mutationsList, observer) => {
     divElement.addEventListener('click', () => {
       // Select the <a> element with both classes "mr-element-xs" and "text-xl"
       const anchorElement = document.querySelector('.mr-element-xs.text-xl');
-      
+
       // Toggle the class "logo-opacity-handle" on the <a> element
       if (anchorElement) {
         anchorElement.classList.toggle('logo-opacity-handle');

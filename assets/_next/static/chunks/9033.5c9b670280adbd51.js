@@ -14,34 +14,34 @@
         c = i.n(o),
         m = i(72673);
       let u = (e) => {
-          let { image: t, button: i } = e;
-          return (null == t ? void 0 : t.length) > 0
-            ? (null == i ? void 0 : i.href)
-              ? (0, a.jsx)(m.A, {
-                  href: i.href,
-                  target: i.target,
-                  title: i.title || i.text,
-                  children: (0, a.jsx)(c(), {
-                    src: t[0].url,
-                    alt: t[0].altTranslation || t[0].alt || t[0].title,
-                    width: 1024,
-                    height: 1024,
-                    className: "r-h-10 w-auto",
-                    quality: 100,
-                    sizes: "(max-width: 768px) 100vw, 33vw",
-                  }),
-                })
-              : (0, a.jsx)(c(), {
-                  src: t[0].url,
-                  alt: t[0].title,
-                  width: 1024,
-                  height: 1024,
-                  quality: 100,
-                  className: "r-h-10 w-auto",
-                  sizes: "(max-width: 768px) 100vw, 33vw",
-                })
-            : (0, a.jsx)(d.A, { linkProps: i });
-        },
+        let { image: t, button: i } = e;
+        return (null == t ? void 0 : t.length) > 0
+          ? (null == i ? void 0 : i.href)
+            ? (0, a.jsx)(m.A, {
+              href: i.href,
+              target: i.target,
+              title: i.title || i.text,
+              children: (0, a.jsx)(c(), {
+                src: t[0].url,
+                alt: t[0].altTranslation || t[0].alt || t[0].title,
+                width: 1024,
+                height: 1024,
+                className: "r-h-10 w-auto",
+                quality: 100,
+                sizes: "(max-width: 768px) 100vw, 33vw",
+              }),
+            })
+            : (0, a.jsx)(c(), {
+              src: t[0].url,
+              alt: t[0].title,
+              width: 1024,
+              height: 1024,
+              quality: 100,
+              className: "r-h-10 w-auto",
+              sizes: "(max-width: 768px) 100vw, 33vw",
+            })
+          : (0, a.jsx)(d.A, { linkProps: i });
+      },
         x = {
           wysiwyg: (e) => {
             let { block: t, index: i } = e;
@@ -146,10 +146,10 @@
               },
               children: [
                 t.title &&
-                  (0, a.jsx)("h3", {
-                    className: "text-xs text-grey r-mb-4",
-                    children: t.title,
-                  }),
+                (0, a.jsx)("h3", {
+                  className: "text-xs text-grey r-mb-4",
+                  children: t.title,
+                }),
                 (0, a.jsx)("div", {
                   className: "tags flex flex-wrap gap-3",
                   children: t.tags.map((e) =>
@@ -171,7 +171,7 @@
             let { block: t, index: i } = e;
             return (0, a.jsx)(n.P.div, {
               className:
-                "button-wrapper flex items-center r-my-8 first:mt-0 last:mb-0 flex-wrap justify-start gap-2",
+                "button-wrapper flex items-center r-my-8 first:mt-0 last:mb-0 flex-wrap justify-start gap-2 gap-buttons-fix",
               variants: {
                 hidden: { opacity: 0, y: 45 },
                 visible: {
@@ -214,8 +214,8 @@
             null == i
               ? void 0
               : null === (t = i.items) || void 0 === t
-              ? void 0
-              : t.map((e) => {
+                ? void 0
+                : t.map((e) => {
                   var t;
                   return (0, a.jsxs)(
                     "div",
@@ -237,18 +237,18 @@
                           className: "block-content",
                           children: [
                             e.title &&
-                              (0, a.jsx)("h2", {
-                                className: "h3-text r-mb-5",
-                                children: e.title,
-                              }),
+                            (0, a.jsx)("h2", {
+                              className: "h3-text r-mb-5",
+                              children: e.title,
+                            }),
                             e.children.map((e) => {
                               let t = r.A[e.typeHandle];
                               return t
                                 ? (0, a.jsx)(
-                                    t,
-                                    { block: e },
-                                    "block-".concat(e.uid)
-                                  )
+                                  t,
+                                  { block: e },
+                                  "block-".concat(e.uid)
+                                )
                                 : null;
                             }),
                           ],
@@ -263,17 +263,17 @@
       var d = i(1723),
         o = i(56080);
       let c = (0, l.lazy)(() =>
-          Promise.all([i.e(3101), i.e(3516)]).then(i.bind(i, 53516))
-        ),
+        Promise.all([i.e(3101), i.e(3516)]).then(i.bind(i, 53516))
+      ),
         m = (e) => {
           var t;
           let {
-              globals: i,
-              uid: s,
-              moduleSet: r = "modules",
-              smallMargins: m,
-              anchor: u,
-            } = e,
+            globals: i,
+            uid: s,
+            moduleSet: r = "modules",
+            smallMargins: m,
+            anchor: u,
+          } = e,
             [x, y] = (0, l.useState)(!1),
             [h, v] = (0, l.useState)(void 0),
             { currentSite: p, currentRoute: b, routeProps: g } = i,
@@ -304,13 +304,13 @@
                 () => window.removeEventListener("resize", e)
               );
             }, []),
-            !x ||
+              !x ||
               void 0 === h ||
               !(null == f
                 ? void 0
                 : null === (t = f.entry) || void 0 === t
-                ? void 0
-                : t.modules) ||
+                  ? void 0
+                  : t.modules) ||
               0 === f.entry.modules.length)
           )
             return null;
