@@ -7989,7 +7989,7 @@
                   lA.env.NEXT_PUBLIC_PREVIEW
                     ? (0, T.jsx)("meta", {
                         name: "robots",
-                        content: "noindex, nofollow",
+                        content: "index, follow",
                       })
                     : (0, T.jsxs)(T.Fragment, {
                         children: [
