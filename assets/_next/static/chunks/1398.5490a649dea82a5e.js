@@ -165,8 +165,8 @@ const observer = new MutationObserver((mutationsList) => {
           const x = event.clientX - left - width / 2;
           const y = event.clientY - top - height / 2;
 
-          const rotateX = (y / height) * 20;
-          const rotateY = (x / width) * -20;
+          const rotateX = (y / height) * 40;
+          const rotateY = (x / width) * -40;
 
           image.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
         });

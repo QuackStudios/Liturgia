@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="cc-title">Testimonials</div>
  <div class="carousel-track">
             ${cardsContent
-              .map(
-                (card, index) => `
+          .map(
+            (card, index) => `
                 <div class="carousel-card">
                   <div class="cc-lhs">
                     <div class="cc-lhs-text">
@@ -58,17 +58,17 @@ document.addEventListener('DOMContentLoaded', () => {
  </div>
  </div>
  `
-              )
-              .join('')}
+          )
+          .join('')}
           </div>
  <div class="slide-indicator">
             ${cardsContent
-              .map(
-                (_, index) => `
+          .map(
+            (_, index) => `
                 <div class="slide-indicator-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></div>
  `
-              )
-              .join('')}
+          )
+          .join('')}
           </div>
  </div>
  `;

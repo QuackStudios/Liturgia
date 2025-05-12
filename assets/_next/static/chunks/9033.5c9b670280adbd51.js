@@ -145,25 +145,7 @@
                 },
               },
               children: [
-                t.title &&
-                (0, a.jsx)("h3", {
-                  className: "text-xs text-grey r-mb-4",
-                  children: t.title,
-                }),
-                (0, a.jsx)("div", {
-                  className: "tags flex flex-wrap gap-3",
-                  children: t.tags.map((e) =>
-                    (0, a.jsx)(
-                      "div",
-                      {
-                        className:
-                          "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey",
-                        children: e.title,
-                      },
-                      e.uid
-                    )
-                  ),
-                }),
+
               ],
             });
           },

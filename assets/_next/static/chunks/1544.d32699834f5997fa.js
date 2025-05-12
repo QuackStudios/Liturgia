@@ -24,12 +24,12 @@
       let b = (t) => {
         var e, l, u, b, w, j, N, k, C, A;
         let {
-            globals: E,
-            uid: P,
-            moduleSet: S = "modules",
-            smallMargins: F,
-            anchor: I,
-          } = t,
+          globals: E,
+          uid: P,
+          moduleSet: S = "modules",
+          smallMargins: F,
+          anchor: I,
+        } = t,
           _ = (0, a.useTranslations)("common"),
           z = (0, r.useRef)(null),
           [B, M] = (0, r.useState)("default"),
@@ -137,22 +137,22 @@
                 }),
             }),
             (0, o.jsxs)("div", {
-              className: "container py-12 sm:r-pt-[8.5] sm:r-pb-[9.25]",
+              className: "container py-12 sm:r-pt-[8.5] sm:r-pb-[9.25] padding-top-adjust",
               children: [
                 X.title &&
-                  (0, o.jsx)("h2", {
-                    className:
-                      "text-[3.625rem] md:h2-text r-mb-[2] lg:r-text-8xl !leading-none text-forest text-center r-max-w-[56] w-full mx-auto",
-                    children: (0, o.jsx)(x.A, {
-                      dangerouslySetInnerHTML: !0,
-                      children: (function (t) {
-                        let e = t.split(" ");
-                        return e.length > 1
-                          ? e[0] + "<br />" + e.slice(1).join(" ")
-                          : t;
-                      })(X.title),
-                    }),
+                (0, o.jsx)("h2", {
+                  className:
+                    "text-[3.625rem] md:h2-text r-mb-[2] lg:r-text-8xl !leading-none text-forest text-center r-max-w-[56] w-full mx-auto margin-adjust5",
+                  children: (0, o.jsx)(x.A, {
+                    dangerouslySetInnerHTML: !0,
+                    children: (function (t) {
+                      let e = t.split(" ");
+                      return e.length > 1
+                        ? e[0] + "<br />" + e.slice(1).join(" ")
+                        : t;
+                    })(X.title),
                   }),
+                }),
                 (0, o.jsx)(n.N, {
                   mode: "wait",
                   children: (0, o.jsx)(
@@ -178,8 +178,8 @@
                 (null === (e = X.products) || void 0 === e
                   ? void 0
                   : e.length) > 1 &&
-                  (0, o.jsx)("div", {
-                  }),
+                (0, o.jsx)("div", {
+                }),
                 (0, o.jsx)(n.N, {
                   mode: "wait",
                   children:
@@ -189,7 +189,7 @@
                     (0, o.jsxs)(
                       i.P.div,
                       {
-                        className: "mt-12 md:r-mt-[6.25]",
+                        className: "mt-12 md:r-mt-[6.25] margin-adjust4",
                         initial: { opacity: 0, x: -100 },
                         animate: { opacity: 1, x: 0 },
                         exit: { opacity: 0, x: 100 },
@@ -202,94 +202,94 @@
                           (null === (w = X.products) || void 0 === w
                             ? void 0
                             : null === (b = w[H]) || void 0 === b
-                            ? void 0
-                            : null === (u = b.columns) || void 0 === u
-                            ? void 0
-                            : u.length) > 0 &&
-                            (0, o.jsx)("div", {
-                              className:
-                                "columns flex flex-wrap lg:flex-nowrap sm:justify-center r-gap-[3.75] w-full",
-                              children: X.products[H].columns.map((t) => {
-                                var e, l, n, i, r, s, d, a, c;
-                                return (0, o.jsxs)(
-                                  "div",
-                                  {
-                                    className:
-                                      "w-full sm:w-2/5 lg:w-auto lg:flex-1 r-max-w-[53.75] ".concat(
-                                        (null === (n = X.products) ||
+                              ? void 0
+                              : null === (u = b.columns) || void 0 === u
+                                ? void 0
+                                : u.length) > 0 &&
+                          (0, o.jsx)("div", {
+                            className:
+                              "columns flex flex-wrap lg:flex-nowrap sm:justify-center r-gap-[3.75] w-full",
+                            children: X.products[H].columns.map((t) => {
+                              var e, l, n, i, r, s, d, a, c;
+                              return (0, o.jsxs)(
+                                "div",
+                                {
+                                  className:
+                                    "w-full sm:w-2/5 lg:w-auto lg:flex-1 r-max-w-[53.75] ".concat(
+                                      (null === (n = X.products) ||
                                         void 0 === n
-                                          ? void 0
-                                          : null === (l = n[H]) || void 0 === l
+                                        ? void 0
+                                        : null === (l = n[H]) || void 0 === l
                                           ? void 0
                                           : null === (e = l.columns) ||
                                             void 0 === e
-                                          ? void 0
-                                          : e.length) === 1
-                                          ? "text-center"
-                                          : "text-center sm:text-left"
-                                      ),
-                                    children: [
-                                      (0, o.jsx)("h3", {
-                                        className: "text-forest ".concat(
-                                          (null === (s = X.products) ||
-                                          void 0 === s
                                             ? void 0
-                                            : null === (r = s[H]) ||
-                                              void 0 === r
+                                            : e.length) === 1
+                                        ? "text-center"
+                                        : "text-center sm:text-left"
+                                    ),
+                                  children: [
+                                    (0, o.jsx)("h3", {
+                                      className: "text-forest ".concat(
+                                        (null === (s = X.products) ||
+                                          void 0 === s
+                                          ? void 0
+                                          : null === (r = s[H]) ||
+                                            void 0 === r
                                             ? void 0
                                             : null === (i = r.columns) ||
                                               void 0 === i
-                                            ? void 0
-                                            : i.length) < 3
-                                            ? "h3-text r-mb-5"
-                                            : "r-text-[1.4375] mb-3"
-                                        ),
-                                        children: t.title,
-                                      }),
-                                      (0, o.jsx)("div", {
-                                        className:
-                                          "w-full mx-auto max-w-[20rem] sm:r-max-w-[26.25] wysiwyg text-grey ".concat(
-                                            (null === (c = X.products) ||
-                                            void 0 === c
                                               ? void 0
-                                              : null === (a = c[H]) ||
-                                                void 0 === a
+                                              : i.length) < 3
+                                          ? "h3-text r-mb-5"
+                                          : "r-text-[1.4375] mb-3"
+                                      ),
+                                      children: t.title,
+                                    }),
+                                    (0, o.jsx)("div", {
+                                      className:
+                                        "w-full mx-auto max-w-[20rem] sm:r-max-w-[26.25] wysiwyg text-grey ".concat(
+                                          (null === (c = X.products) ||
+                                            void 0 === c
+                                            ? void 0
+                                            : null === (a = c[H]) ||
+                                              void 0 === a
                                               ? void 0
                                               : null === (d = a.columns) ||
                                                 void 0 === d
-                                              ? void 0
-                                              : d.length) < 3
-                                              ? "r-text-lg"
-                                              : "text-base"
-                                          ),
-                                        children: (0, o.jsx)(v.A, {
-                                          content: t.text,
-                                        }),
+                                                ? void 0
+                                                : d.length) < 3
+                                            ? "r-text-lg"
+                                            : "text-base"
+                                        ),
+                                      children: (0, o.jsx)(v.A, {
+                                        content: t.text,
                                       }),
-                                    ],
-                                  },
-                                  t.uid
-                                );
-                              }),
+                                    }),
+                                  ],
+                                },
+                                t.uid
+                              );
                             }),
+                          }),
                           (null === (k = X.products) || void 0 === k
                             ? void 0
                             : null === (N = k[H]) || void 0 === N
-                            ? void 0
-                            : null === (j = N.button) || void 0 === j
-                            ? void 0
-                            : j.href) &&
-                            (0, o.jsx)("div", {
-                              className: "mt-12 sm:r-mt-20 flex justify-center",
-                              children: (0, o.jsx)(h.A, {
-                                linkProps:
-                                  null === (A = X.products) || void 0 === A
-                                    ? void 0
-                                    : null === (C = A[H]) || void 0 === C
+                              ? void 0
+                              : null === (j = N.button) || void 0 === j
+                                ? void 0
+                                : j.href) &&
+                          (0, o.jsx)("div", {
+                            className: "mt-12 sm:r-mt-20 flex justify-center",
+                            children: (0, o.jsx)(h.A, {
+                              linkProps:
+                                null === (A = X.products) || void 0 === A
+                                  ? void 0
+                                  : null === (C = A[H]) || void 0 === C
                                     ? void 0
                                     : C.button,
-                              }),
                             }),
+                          }),
                         ],
                       },
                       "columns-".concat(X.products[H].uid)

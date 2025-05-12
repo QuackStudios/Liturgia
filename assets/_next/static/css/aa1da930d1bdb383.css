@@ -6559,3 +6559,15 @@ body.popup-active {
 .secondary-menu-dropdown {
   height: auto !important;
 }
+
+.padding-top-adjust {
+    padding-top: clamp(2.65rem, 4.44vw, 4.63rem) !important;
+}
+
+.margin-adjust4 {
+  margin-top: 0 !important;
+}
+
+.margin-adjust5 {
+  margin-bottom: clamp(2.3rem, 4vw, 7rem) !important;
+}

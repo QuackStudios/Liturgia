@@ -11,13 +11,13 @@
         return (a = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       let s = (0, r.forwardRef)(function (e, n) {
         return r.createElement(
@@ -32,35 +32,35 @@
             e
           ),
           l ||
-            (l = r.createElement(
-              "g",
-              { clipPath: "url(#globe_svg__a)" },
-              r.createElement("path", {
-                d: "M15.5 8.162c0 .36-.03.72-.08 1.07-.52 3.63-3.64 6.43-7.42 6.43s-6.9-2.8-7.42-6.43a7.37 7.37 0 0 1 .84-4.66A7.486 7.486 0 0 1 8 .662c2.84 0 5.31 1.58 6.58 3.91.59 1.06.92 2.29.92 3.59Z",
-              }),
-              r.createElement("path", {
-                d: "M14.58 4.572c-1.01.37-2.13.66-3.34.84-1.02.16-2.11.25-3.24.25-1.13 0-2.22-.09-3.24-.25-1.21-.18-2.33-.47-3.34-.84A7.486 7.486 0 0 1 8 .662c2.84 0 5.31 1.58 6.58 3.91Z",
-              }),
-              r.createElement("path", {
-                d: "M15.5 8.162c0 .36-.03.72-.08 1.07-1.18.52-2.57.93-4.09 1.17-1.05.17-2.17.26-3.33.26-1.16 0-2.28-.09-3.33-.26-1.52-.24-2.91-.65-4.09-1.17a7.37 7.37 0 0 1 .84-4.66A7.486 7.486 0 0 1 8 .662c2.84 0 5.31 1.58 6.58 3.91.59 1.06.92 2.29.92 3.59Z",
-              }),
-              r.createElement("path", {
-                d: "M11.5 8.162c0 2.15-.44 4.07-1.12 5.43-.68 1.36-1.57 2.07-2.38 2.07-.81 0-1.68-.67-2.38-2.07-.68-1.36-1.12-3.28-1.12-5.43s.44-4.07 1.12-5.43C6.32 1.342 7.19.662 8 .662c.81 0 1.68.67 2.38 2.07.68 1.36 1.12 3.28 1.12 5.43Z",
-              })
-            )),
+          (l = r.createElement(
+            "g",
+            { clipPath: "url(#globe_svg__a)" },
+            r.createElement("path", {
+              d: "M15.5 8.162c0 .36-.03.72-.08 1.07-.52 3.63-3.64 6.43-7.42 6.43s-6.9-2.8-7.42-6.43a7.37 7.37 0 0 1 .84-4.66A7.486 7.486 0 0 1 8 .662c2.84 0 5.31 1.58 6.58 3.91.59 1.06.92 2.29.92 3.59Z",
+            }),
+            r.createElement("path", {
+              d: "M14.58 4.572c-1.01.37-2.13.66-3.34.84-1.02.16-2.11.25-3.24.25-1.13 0-2.22-.09-3.24-.25-1.21-.18-2.33-.47-3.34-.84A7.486 7.486 0 0 1 8 .662c2.84 0 5.31 1.58 6.58 3.91Z",
+            }),
+            r.createElement("path", {
+              d: "M15.5 8.162c0 .36-.03.72-.08 1.07-1.18.52-2.57.93-4.09 1.17-1.05.17-2.17.26-3.33.26-1.16 0-2.28-.09-3.33-.26-1.52-.24-2.91-.65-4.09-1.17a7.37 7.37 0 0 1 .84-4.66A7.486 7.486 0 0 1 8 .662c2.84 0 5.31 1.58 6.58 3.91.59 1.06.92 2.29.92 3.59Z",
+            }),
+            r.createElement("path", {
+              d: "M11.5 8.162c0 2.15-.44 4.07-1.12 5.43-.68 1.36-1.57 2.07-2.38 2.07-.81 0-1.68-.67-2.38-2.07-.68-1.36-1.12-3.28-1.12-5.43s.44-4.07 1.12-5.43C6.32 1.342 7.19.662 8 .662c.81 0 1.68.67 2.38 2.07.68 1.36 1.12 3.28 1.12 5.43Z",
+            })
+          )),
           i ||
-            (i = r.createElement(
-              "defs",
-              null,
-              r.createElement(
-                "clipPath",
-                { id: "globe_svg__a" },
-                r.createElement("path", {
-                  transform: "translate(0 .162)",
-                  d: "M0 0h16v16H0z",
-                })
-              )
-            ))
+          (i = r.createElement(
+            "defs",
+            null,
+            r.createElement(
+              "clipPath",
+              { id: "globe_svg__a" },
+              r.createElement("path", {
+                transform: "translate(0 .162)",
+                d: "M0 0h16v16H0z",
+              })
+            )
+          ))
         );
       });
     },
@@ -73,13 +73,13 @@
         return (r = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       let a = (0, i.forwardRef)(function (e, n) {
         return i.createElement(
@@ -94,10 +94,10 @@
             e
           ),
           l ||
-            (l = i.createElement("path", {
-              d: "M0 8h16M8 0v16",
-              vectorEffect: "non-scaling-stroke",
-            }))
+          (l = i.createElement("path", {
+            d: "M0 8h16M8 0v16",
+            vectorEffect: "non-scaling-stroke",
+          }))
         );
       });
     },
@@ -131,19 +131,19 @@
         a = t(96540);
       let s = function (e) {
         let {
-            ariaLabel: n,
-            title: t,
-            type: s = "link",
-            target: o,
-            href: d,
-            onClick: c,
-            children: u,
-            className: m = "",
-            disabled: p = !1,
-            Icon: h = r.A,
-            linkProps: g = {},
-            external: x = !1,
-          } = e,
+          ariaLabel: n,
+          title: t,
+          type: s = "link",
+          target: o,
+          href: d,
+          onClick: c,
+          children: u,
+          className: m = "",
+          disabled: p = !1,
+          Icon: h = r.A,
+          linkProps: g = {},
+          external: x = !1,
+        } = e,
           [v, f] = (0, a.useState)(x),
           w = (null == g ? void 0 : g.type) || s,
           y = (0, l.jsxs)(l.Fragment, {
@@ -153,33 +153,33 @@
                   "target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2",
               }),
               "asset" === w &&
-                (0, l.jsx)("span", {
-                  className: "file-icon -mr-2",
-                  children: (0, l.jsx)("svg", {
-                    viewBox: "0 0 24 25",
-                    fill: "none",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    className: "w-6 stroke-none",
-                    children: (0, l.jsx)("path", {
-                      d: "M8 18.1416H16V16.1416H8V18.1416ZM8 14.1416H16V12.1416H8V14.1416ZM6 22.1416C5.45 22.1416 4.97917 21.9458 4.5875 21.5541C4.19583 21.1624 4 20.6916 4 20.1416V4.1416C4 3.5916 4.19583 3.12077 4.5875 2.7291C4.97917 2.33743 5.45 2.1416 6 2.1416H14L20 8.1416V20.1416C20 20.6916 19.8042 21.1624 19.4125 21.5541C19.0208 21.9458 18.55 22.1416 18 22.1416H6ZM13 9.1416V4.1416H6V20.1416H18V9.1416H13Z",
-                      fill: "#767572",
-                    }),
+              (0, l.jsx)("span", {
+                className: "file-icon -mr-2",
+                children: (0, l.jsx)("svg", {
+                  viewBox: "0 0 24 25",
+                  fill: "none",
+                  xmlns: "http://www.w3.org/2000/svg",
+                  className: "w-6 stroke-none",
+                  children: (0, l.jsx)("path", {
+                    d: "M8 18.1416H16V16.1416H8V18.1416ZM8 14.1416H16V12.1416H8V14.1416ZM6 22.1416C5.45 22.1416 4.97917 21.9458 4.5875 21.5541C4.19583 21.1624 4 20.6916 4 20.1416V4.1416C4 3.5916 4.19583 3.12077 4.5875 2.7291C4.97917 2.33743 5.45 2.1416 6 2.1416H14L20 8.1416V20.1416C20 20.6916 19.8042 21.1624 19.4125 21.5541C19.0208 21.9458 18.55 22.1416 18 22.1416H6ZM13 9.1416V4.1416H6V20.1416H18V9.1416H13Z",
+                    fill: "#767572",
                   }),
                 }),
+              }),
               u || g.text,
               !["tel", "email"].includes(null == g ? void 0 : g.type) &&
-                (0, l.jsx)("span", {
-                  className: "icon-wrapper after",
-                  children: (0, l.jsx)(h, {
-                    className: "w-3".concat(
-                      "asset" === w
-                        ? " rotate-90 asset-icon"
-                        : v
+              (0, l.jsx)("span", {
+                className: "icon-wrapper after",
+                children: (0, l.jsx)(h, {
+                  className: "w-3".concat(
+                    "asset" === w
+                      ? " rotate-90 asset-icon"
+                      : v
                         ? " -rotate-45 external-icon"
                         : ""
-                    ),
-                  }),
+                  ),
                 }),
+              }),
             ],
           }),
           b = "simple-button ".concat(m, " group");
@@ -195,13 +195,13 @@
                 (null == g
                   ? void 0
                   : null === (e = g.href) || void 0 === e
-                  ? void 0
-                  : e.includes(n)),
+                    ? void 0
+                    : e.includes(n)),
               l =
                 "_blank" === o || (null == g ? void 0 : g.target) === "_blank";
             f(!t || l);
           }, [d, g, o, x]),
-          "span" === s)
+            "span" === s)
         )
           return (0, l.jsx)("span", {
             "aria-label": n || t,
@@ -283,72 +283,72 @@
         );
       }
       let o = [
-          {
-            query: (0, i.J1)(a(), r.A),
-            variables: (e, n) => {
-              var t, l;
-              let [i] =
-                  (null == e ? void 0 : e.entry) &&
-                  (null == e ? void 0 : e.entry[n])
-                    ? null == e
-                      ? void 0
-                      : e.entry[n]
-                    : [],
-                r = [];
-              return (
-                (null === (t = i.accessoryCategory) || void 0 === t
-                  ? void 0
-                  : t.length) &&
-                  r.push(
-                    ...(null == i
-                      ? void 0
-                      : null === (l = i.accessoryCategory) || void 0 === l
-                      ? void 0
-                      : l.map((e) => e.id))
-                  ),
-                { siteId: i.siteId, relatedTo: r, limit: Number(i.amount) || 3 }
-              );
-            },
-            shouldRun: (e, n) => {
-              var t;
-              let [l] =
-                (null == e ? void 0 : e.entry) &&
+        {
+          query: (0, i.J1)(a(), r.A),
+          variables: (e, n) => {
+            var t, l;
+            let [i] =
+              (null == e ? void 0 : e.entry) &&
                 (null == e ? void 0 : e.entry[n])
-                  ? null == e
-                    ? void 0
-                    : e.entry[n]
-                  : [];
-              return !(
-                (null == l
+                ? null == e
                   ? void 0
-                  : null === (t = l.items) || void 0 === t
+                  : e.entry[n]
+                : [],
+              r = [];
+            return (
+              (null === (t = i.accessoryCategory) || void 0 === t
+                ? void 0
+                : t.length) &&
+              r.push(
+                ...(null == i
+                  ? void 0
+                  : null === (l = i.accessoryCategory) || void 0 === l
+                    ? void 0
+                    : l.map((e) => e.id))
+              ),
+              { siteId: i.siteId, relatedTo: r, limit: Number(i.amount) || 3 }
+            );
+          },
+          shouldRun: (e, n) => {
+            var t;
+            let [l] =
+              (null == e ? void 0 : e.entry) &&
+                (null == e ? void 0 : e.entry[n])
+                ? null == e
+                  ? void 0
+                  : e.entry[n]
+                : [];
+            return !(
+              (null == l
+                ? void 0
+                : null === (t = l.items) || void 0 === t
                   ? void 0
                   : t.length) > 0
-              );
-            },
+            );
           },
-        ],
+        },
+      ],
         d = (e) => {
           let { section: n, types: t = [], moduleSet: l = "modules" } = e,
             a =
               null == t
                 ? void 0
                 : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(e, "_Entry {\n      ")
-                        .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                        .concat(
-                          l,
-                          "_accessories_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          amount: number\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          accessoryCategory {\n            id\n            siteId\n            uid\n            title\n          }\n          items: accessoryEntries {\n            id\n            uid\n            siteId\n            title\n            url\n            ... on accessories_default_Entry {\n              mediaItems {\n                ... on mediaItems_items_BlockType {\n                  id\n                  uid\n                  siteId\n                  "
-                        )
-                        .concat(
-                          r.A,
-                          "\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                        )
-                    )
-                    .join("");
+                  .map((e) =>
+                    "\n    ... on "
+                      .concat(n, "_")
+                      .concat(e, "_Entry {\n      ")
+                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                      .concat(
+                        l,
+                        "_accessories_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          amount: number\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          accessoryCategory {\n            id\n            siteId\n            uid\n            title\n          }\n          items: accessoryEntries {\n            id\n            uid\n            siteId\n            title\n            url\n            ... on accessories_default_Entry {\n              mediaItems {\n                ... on mediaItems_items_BlockType {\n                  id\n                  uid\n                  siteId\n                  "
+                      )
+                      .concat(
+                        r.A,
+                        "\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                      )
+                  )
+                  .join("");
           return (0, i.J1)(s(), n, a);
         };
     },
@@ -377,57 +377,57 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_accordionList_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          groups: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_accordionGroup_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              items: children {\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_accordionItem_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  title: moduleTitle\n                  text\n                  columnCount: columns\n                  columns: children {\n                    ... on "
-                      )
-                      .concat(
-                        l,
-                        "_accordionColumn_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      blocks: children {\n                        ... on "
-                      )
-                      .concat(
-                        l,
-                        "_accordionTextBlock_BlockType {\n                          id\n                          uid\n                          siteId\n                          typeHandle\n                          title: moduleTitle\n                          text\n                          button { \n                            target\n                            text\n                            type\n                            href: url\n                            title\n                          }\n                        }\n                        ... on "
-                      )
-                      .concat(
-                        l,
-                        "_orderedList_BlockType {\n                          id\n                          uid\n                          siteId\n                          typeHandle\n                          items: children {\n                            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_listItem_BlockType {\n                              id\n                              uid\n                              siteId\n                              typeHandle\n                              title: moduleTitle\n                            }\n                          }\n                        }\n                        ... on "
-                      )
-                      .concat(
-                        l,
-                        "_mediaItems_BlockType {\n                          id\n                          uid\n                          siteId\n                          typeHandle\n                          "
-                      )
-                      .concat(
-                        r.A,
-                        "\n                          credit: plainText\n                          description: text\n                        }\n                      }\n                    }\n                    ... on "
-                      )
-                      .concat(
-                        l,
-                        "_specTable_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      table: simpleTable {\n                        name\n                        value\n                      }\n                    }\n                    ... on "
-                      )
-                      .concat(
-                        l,
-                        "_fullTable_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      title: moduleTitle\n                      fullTable: table {\n                        table\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_accordionList_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          groups: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_accordionGroup_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              items: children {\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_accordionItem_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  title: moduleTitle\n                  text\n                  columnCount: columns\n                  columns: children {\n                    ... on "
+                    )
+                    .concat(
+                      l,
+                      "_accordionColumn_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      blocks: children {\n                        ... on "
+                    )
+                    .concat(
+                      l,
+                      "_accordionTextBlock_BlockType {\n                          id\n                          uid\n                          siteId\n                          typeHandle\n                          title: moduleTitle\n                          text\n                          button { \n                            target\n                            text\n                            type\n                            href: url\n                            title\n                          }\n                        }\n                        ... on "
+                    )
+                    .concat(
+                      l,
+                      "_orderedList_BlockType {\n                          id\n                          uid\n                          siteId\n                          typeHandle\n                          items: children {\n                            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_listItem_BlockType {\n                              id\n                              uid\n                              siteId\n                              typeHandle\n                              title: moduleTitle\n                            }\n                          }\n                        }\n                        ... on "
+                    )
+                    .concat(
+                      l,
+                      "_mediaItems_BlockType {\n                          id\n                          uid\n                          siteId\n                          typeHandle\n                          "
+                    )
+                    .concat(
+                      r.A,
+                      "\n                          credit: plainText\n                          description: text\n                        }\n                      }\n                    }\n                    ... on "
+                    )
+                    .concat(
+                      l,
+                      "_specTable_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      table: simpleTable {\n                        name\n                        value\n                      }\n                    }\n                    ... on "
+                    )
+                    .concat(
+                      l,
+                      "_fullTable_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      title: moduleTitle\n                      fullTable: table {\n                        table\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -456,21 +456,21 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_animatedText_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          fontSize\n          title: moduleTitle\n          text: plainText\n          "
-                      )
-                      .concat(
-                        i.A,
-                        "\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_animatedText_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          fontSize\n          title: moduleTitle\n          text: plainText\n          "
+                    )
+                    .concat(
+                      i.A,
+                      "\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, r.J1)(a(), n, s);
       };
     },
@@ -512,88 +512,88 @@
                     "module-top flex flex-col sm:flex-row r-gap-8 r-mb-[3.75]",
                   children: [
                     g.title &&
-                      (0, l.jsx)("h2", {
-                        className: "h2-text-alt w-full r-max-w-[33]",
-                        children: (0, l.jsx)(m.A, { children: g.title }),
-                      }),
+                    (0, l.jsx)("h2", {
+                      className: "h2-text-alt w-full r-max-w-[33]",
+                      children: (0, l.jsx)(m.A, { children: g.title }),
+                    }),
                     ((null === (n = g.button) || void 0 === n
                       ? void 0
                       : n.href) ||
                       g.text) &&
-                      (0, l.jsxs)(i.P.div, {
-                        className:
-                          "module-content flex flex-col r-gap-10 r-max-w-[40] w-full ml-auto",
-                        initial: { opacity: 0, y: 50 },
-                        whileInView: { opacity: 1, y: 0 },
-                        transition: { duration: 1.5, ease: "easeOut" },
-                        viewport: { once: !0, amount: "some" },
-                        children: [
-                          g.text &&
-                            (0, l.jsx)("div", {
-                              className: "wysiwyg r-text-xl text-asphalt",
-                              children: (0, l.jsx)(s.A, { content: g.text }),
-                            }),
-                          ((null === (t = g.primaryButton) || void 0 === t
+                    (0, l.jsxs)(i.P.div, {
+                      className:
+                        "module-content flex flex-col r-gap-10 r-max-w-[40] w-full ml-auto",
+                      initial: { opacity: 0, y: 50 },
+                      whileInView: { opacity: 1, y: 0 },
+                      transition: { duration: 1.5, ease: "easeOut" },
+                      viewport: { once: !0, amount: "some" },
+                      children: [
+                        g.text &&
+                        (0, l.jsx)("div", {
+                          className: "wysiwyg r-text-xl text-asphalt",
+                          children: (0, l.jsx)(s.A, { content: g.text }),
+                        }),
+                        ((null === (t = g.primaryButton) || void 0 === t
+                          ? void 0
+                          : t.href) ||
+                          (null === (a = g.secondaryButton) || void 0 === a
                             ? void 0
-                            : t.href) ||
-                            (null === (a = g.secondaryButton) || void 0 === a
-                              ? void 0
-                              : a.href)) &&
-                            (0, l.jsxs)("div", {
-                              className: "flex r-gap-6",
-                              children: [
-                                (0, l.jsx)(d.A, { linkProps: g.primaryButton }),
-                                (0, l.jsx)(c.A, {
-                                  linkProps: g.secondaryButton,
-                                }),
-                              ],
+                            : a.href)) &&
+                        (0, l.jsxs)("div", {
+                          className: "flex r-gap-6",
+                          children: [
+                            (0, l.jsx)(d.A, { linkProps: g.primaryButton }),
+                            (0, l.jsx)(c.A, {
+                              linkProps: g.secondaryButton,
                             }),
-                        ],
-                      }),
+                          ],
+                        }),
+                      ],
+                    }),
                   ],
                 }),
                 (null === (p = g.children) || void 0 === p
                   ? void 0
                   : p.length) > 0 &&
-                  (0, l.jsx)("div", {
-                    className: "media flex flex-col sm:flex-row r-gap-5",
-                    children:
-                      null === (h = g.children) || void 0 === h
-                        ? void 0
-                        : h.map((e) => {
-                            var n;
-                            return (0, l.jsx)(
-                              "div",
-                              {
-                                className:
-                                  "media-wrapper flex-1 overflow-hidden aspect-[16/9] ".concat(
-                                    g.children.length > 1
-                                      ? "sm:aspect-[40/25]"
-                                      : "sm:aspect-[81/30]"
-                                  ),
-                                children: (0, l.jsx)(u.A, {
-                                  media:
-                                    null == e
-                                      ? void 0
-                                      : null === (n = e.mediaElement) ||
-                                        void 0 === n
-                                      ? void 0
-                                      : n[0],
-                                  width: 1920,
-                                  ratio:
-                                    g.children.length > 1 ? 0.625 : 30 / 81,
-                                  figureClasses: "flex-1",
-                                  className:
-                                    "media-el w-full h-[120%] object-cover",
-                                  credit: e.credit,
-                                  description: e.description,
-                                  showCaption: !1,
-                                }),
-                              },
-                              e.uid
-                            );
-                          }),
-                  }),
+                (0, l.jsx)("div", {
+                  className: "media flex flex-col sm:flex-row r-gap-5",
+                  children:
+                    null === (h = g.children) || void 0 === h
+                      ? void 0
+                      : h.map((e) => {
+                        var n;
+                        return (0, l.jsx)(
+                          "div",
+                          {
+                            className:
+                              "media-wrapper flex-1 overflow-hidden aspect-[16/9] ".concat(
+                                g.children.length > 1
+                                  ? "sm:aspect-[40/25]"
+                                  : "sm:aspect-[81/30]"
+                              ),
+                            children: (0, l.jsx)(u.A, {
+                              media:
+                                null == e
+                                  ? void 0
+                                  : null === (n = e.mediaElement) ||
+                                    void 0 === n
+                                    ? void 0
+                                    : n[0],
+                              width: 1920,
+                              ratio:
+                                g.children.length > 1 ? 0.625 : 30 / 81,
+                              figureClasses: "flex-1",
+                              className:
+                                "media-el w-full h-[120%] object-cover",
+                              credit: e.credit,
+                              description: e.description,
+                              showCaption: !1,
+                            }),
+                          },
+                          e.uid
+                        );
+                      }),
+                }),
               ],
             })
           );
@@ -625,25 +625,25 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_banner_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          primaryButton: button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          secondaryButton: button2 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_mediaItems_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              "
-                      )
-                      .concat(
-                        r.A,
-                        "\n              credit: plainText\n              description: text\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_banner_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          primaryButton: button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          secondaryButton: button2 {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_mediaItems_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              "
+                    )
+                    .concat(
+                      r.A,
+                      "\n              credit: plainText\n              description: text\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -671,21 +671,21 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_bigNumbers_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          items: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_bigNumberItem_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              number: number2\n              description: plainText\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_bigNumbers_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          items: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_bigNumberItem_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              number: number2\n              description: plainText\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -713,17 +713,17 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_children_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_children_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -752,25 +752,25 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_contentCards_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          columns\n          slider: lightswitch\n          items: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_card_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              "
-                      )
-                      .concat(
-                        r.A,
-                        "\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_contentCards_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          columns\n          slider: lightswitch\n          items: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_card_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              "
+                    )
+                    .concat(
+                      r.A,
+                      "\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -799,25 +799,25 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_ctaS_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          cta: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_cta_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              color {\n                class\n                color\n                label\n              }\n              spanFull: lightswitch\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              secondaryButton: button2 {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              "
-                      )
-                      .concat(
-                        r.A,
-                        "\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_ctaS_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          cta: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_cta_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              color {\n                class\n                color\n                label\n              }\n              spanFull: lightswitch\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              secondaryButton: button2 {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              "
+                    )
+                    .concat(
+                      r.A,
+                      "\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -869,25 +869,25 @@
               null == t
                 ? void 0
                 : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(e, "_Entry {\n      ")
-                        .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                        .concat(
-                          l,
-                          "_findInstaller_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          logosTitle: plainText\n          exceptions: children {\n            ... on "
-                        )
-                        .concat(
-                          l,
-                          "_installerExceptions_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              showMap: lightswitch\n              siteSelector {\n                id\n                uid\n                siteId\n              }\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              contactRows: children {\n                ... on "
-                        )
-                        .concat(
-                          l,
-                          "_contactRow_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  title: moduleTitle\n                  text\n                  links {\n                    ... on links_link_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      \n                      button: itemLink {\n                        target\n                        text\n                        type\n                        href: url\n                        title\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                        )
-                    )
-                    .join("");
+                  .map((e) =>
+                    "\n    ... on "
+                      .concat(n, "_")
+                      .concat(e, "_Entry {\n      ")
+                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                      .concat(
+                        l,
+                        "_findInstaller_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          logosTitle: plainText\n          exceptions: children {\n            ... on "
+                      )
+                      .concat(
+                        l,
+                        "_installerExceptions_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              showMap: lightswitch\n              siteSelector {\n                id\n                uid\n                siteId\n              }\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              contactRows: children {\n                ... on "
+                      )
+                      .concat(
+                        l,
+                        "_contactRow_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  title: moduleTitle\n                  text\n                  links {\n                    ... on links_link_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      \n                      button: itemLink {\n                        target\n                        text\n                        type\n                        href: url\n                        title\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                      )
+                  )
+                  .join("");
           return (0, i.J1)(s(), n, r);
         };
     },
@@ -916,25 +916,25 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_gallery_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          dark: lightswitch\n          media: children {\n            typeHandle\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_mediaItems_BlockType {\n              uid\n              id\n              siteId\n              description: text\n              credit: plainText\n              "
-                      )
-                      .concat(
-                        i.A,
-                        "\n            }\n          }\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_gallery_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          dark: lightswitch\n          media: children {\n            typeHandle\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_mediaItems_BlockType {\n              uid\n              id\n              siteId\n              description: text\n              credit: plainText\n              "
+                    )
+                    .concat(
+                      i.A,
+                      "\n            }\n          }\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, r.J1)(a(), n, s);
       };
     },
@@ -962,21 +962,21 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_iconCards_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          items: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_iconCard_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              text\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_iconCards_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          items: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_iconCard_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              text\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1012,72 +1012,72 @@
         );
       }
       let o = [
-          {
-            query: (0, r.J1)(a(), i.A),
-            variables: (e, n) => {
-              var t, l;
-              let [i] =
-                  (null == e ? void 0 : e.entry) &&
-                  (null == e ? void 0 : e.entry[n])
-                    ? null == e
-                      ? void 0
-                      : e.entry[n]
-                    : [],
-                r = [];
-              return (
-                (null === (t = i.knowledgeHubCategories) || void 0 === t
-                  ? void 0
-                  : t.length) &&
-                  r.push(
-                    ...(null == i
-                      ? void 0
-                      : null === (l = i.knowledgeHubCategories) || void 0 === l
-                      ? void 0
-                      : l.map((e) => e.id))
-                  ),
-                { siteId: i.siteId, relatedTo: r, limit: Number(i.amount) || 3 }
-              );
-            },
-            shouldRun: (e, n) => {
-              var t;
-              let [l] =
-                (null == e ? void 0 : e.entry) &&
+        {
+          query: (0, r.J1)(a(), i.A),
+          variables: (e, n) => {
+            var t, l;
+            let [i] =
+              (null == e ? void 0 : e.entry) &&
                 (null == e ? void 0 : e.entry[n])
-                  ? null == e
-                    ? void 0
-                    : e.entry[n]
-                  : [];
-              return !(
-                (null == l
+                ? null == e
                   ? void 0
-                  : null === (t = l.items) || void 0 === t
+                  : e.entry[n]
+                : [],
+              r = [];
+            return (
+              (null === (t = i.knowledgeHubCategories) || void 0 === t
+                ? void 0
+                : t.length) &&
+              r.push(
+                ...(null == i
+                  ? void 0
+                  : null === (l = i.knowledgeHubCategories) || void 0 === l
+                    ? void 0
+                    : l.map((e) => e.id))
+              ),
+              { siteId: i.siteId, relatedTo: r, limit: Number(i.amount) || 3 }
+            );
+          },
+          shouldRun: (e, n) => {
+            var t;
+            let [l] =
+              (null == e ? void 0 : e.entry) &&
+                (null == e ? void 0 : e.entry[n])
+                ? null == e
+                  ? void 0
+                  : e.entry[n]
+                : [];
+            return !(
+              (null == l
+                ? void 0
+                : null === (t = l.items) || void 0 === t
                   ? void 0
                   : t.length) > 0
-              );
-            },
+            );
           },
-        ],
+        },
+      ],
         d = (e) => {
           let { section: n, types: t = [], moduleSet: l } = e,
             a =
               null == t
                 ? void 0
                 : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(e, "_Entry {\n      ")
-                        .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                        .concat(
-                          l,
-                          "_knowledgeHub_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          amount: number\n          hideImages: lightswitch\n          title: moduleTitle\n          categories: knowledgeHubCategories {\n            id\n            uid\n            siteId\n            title\n            url\n          }\n          items: knowledgeHubEntries {\n            id\n            uid\n            siteId\n            url\n            typeHandle\n            postDate\n            ... on knowledgeHub_default_Entry {\n              title\n              "
-                        )
-                        .concat(
-                          i.A,
-                          "\n              postDate\n              knowledgeHubCategories {\n                id\n                uid\n                siteId\n                title\n              }\n            }\n            ... on knowledgeHub_legacy_Entry {\n              title\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                        )
-                    )
-                    .join("");
+                  .map((e) =>
+                    "\n    ... on "
+                      .concat(n, "_")
+                      .concat(e, "_Entry {\n      ")
+                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                      .concat(
+                        l,
+                        "_knowledgeHub_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          amount: number\n          hideImages: lightswitch\n          title: moduleTitle\n          categories: knowledgeHubCategories {\n            id\n            uid\n            siteId\n            title\n            url\n          }\n          items: knowledgeHubEntries {\n            id\n            uid\n            siteId\n            url\n            typeHandle\n            postDate\n            ... on knowledgeHub_default_Entry {\n              title\n              "
+                      )
+                      .concat(
+                        i.A,
+                        "\n              postDate\n              knowledgeHubCategories {\n                id\n                uid\n                siteId\n                title\n              }\n            }\n            ... on knowledgeHub_legacy_Entry {\n              title\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                      )
+                  )
+                  .join("");
           return (0, r.J1)(s(), n, a);
         };
     },
@@ -1105,17 +1105,17 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_linkList_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          links {\n            ... on links_link_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              itemLink {\n                target\n                text\n                type\n                href: url\n                title\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_linkList_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          links {\n            ... on links_link_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              itemLink {\n                target\n                text\n                type\n                href: url\n                title\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1143,21 +1143,21 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_logos_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          logos: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_logo_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_logos_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          logos: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_logo_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1185,17 +1185,17 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_newsletter_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          mailchimpAudience\n          description: plainText\n          note: plainText2\n          doubleOptIn: lightswitch\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_newsletter_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          mailchimpAudience\n          description: plainText\n          note: plainText2\n          doubleOptIn: lightswitch\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1238,35 +1238,35 @@
               children: i.position,
             }),
             t &&
-              (null === (n = i.links) || void 0 === n ? void 0 : n.length) >
-                0 &&
-              (0, l.jsx)("div", {
-                className: "links mt-4",
-                children: i.links.map((e, n) =>
-                  (0, l.jsx)(
-                    m.A,
-                    {
-                      className: "body-text underline",
-                      href: e.href,
-                      target: e.targe,
-                      title: e.title,
-                      children: e.text,
-                    },
-                    n
-                  )
-                ),
-              }),
+            (null === (n = i.links) || void 0 === n ? void 0 : n.length) >
+            0 &&
+            (0, l.jsx)("div", {
+              className: "links mt-4",
+              children: i.links.map((e, n) =>
+                (0, l.jsx)(
+                  m.A,
+                  {
+                    className: "body-text underline",
+                    href: e.href,
+                    target: e.targe,
+                    title: e.title,
+                    children: e.text,
+                  },
+                  n
+                )
+              ),
+            }),
           ],
         });
       };
       i.os.registerPlugin(a(), s.ScrollTrigger);
       let h = (e) => {
         let {
-            module: n,
-            smallMargins: t = { top: !1, bottom: !1 },
-            items: r,
-            anchor: a,
-          } = e,
+          module: n,
+          smallMargins: t = { top: !1, bottom: !1 },
+          items: r,
+          anchor: a,
+        } = e,
           c = (0, o.useRef)(null),
           u = (0, o.useRef)(null);
         return (
@@ -1313,15 +1313,15 @@
               className: "container full",
               children: [
                 n.title &&
-                  (0, l.jsx)("h2", {
-                    className:
-                      "h2-text-alt mb-8 sm:r-mb-16 pb-5 border-b ".concat(
-                        n.addBackground
-                          ? "border-asphalt"
-                          : "border-grey-border"
-                      ),
-                    children: n.title,
-                  }),
+                (0, l.jsx)("h2", {
+                  className:
+                    "h2-text-alt mb-8 sm:r-mb-16 pb-5 border-b ".concat(
+                      n.addBackground
+                        ? "border-asphalt"
+                        : "border-grey-border"
+                    ),
+                  children: n.title,
+                }),
                 (0, l.jsx)("div", {
                   className: "people-content flex flex-col",
                   ref: c,
@@ -1329,47 +1329,47 @@
                     null == r
                       ? void 0
                       : r.map((e) => {
-                          var t;
-                          return (0, l.jsxs)(
-                            "div",
-                            {
-                              className:
-                                "people w-full flex flex-col sm:flex-row gap-5 r-mt-[6.25] first:mt-0 group",
-                              children: [
-                                (0, l.jsx)("h3", {
-                                  className:
-                                    "r-text-2xl sm:r-text-xl sm:r-pt-[6.25] group-first:pt-0",
-                                  children: e.title,
-                                }),
-                                (0, l.jsx)("div", {
-                                  id: "group-".concat(e.id),
-                                  className:
-                                    "grid grid-cols-2 lg:grid-cols-3 gap-x-5 r-gap-y-16 w-full r-max-w-[64] ml-auto border-none sm:border-t group-first:border-0 ".concat(
-                                      n.addBackground
-                                        ? "border-asphalt"
-                                        : "border-grey-border",
-                                      " sm:r-pt-[6.25] group-first:pt-0"
+                        var t;
+                        return (0, l.jsxs)(
+                          "div",
+                          {
+                            className:
+                              "people w-full flex flex-col sm:flex-row gap-5 r-mt-[6.25] first:mt-0 group",
+                            children: [
+                              (0, l.jsx)("h3", {
+                                className:
+                                  "r-text-2xl sm:r-text-xl sm:r-pt-[6.25] group-first:pt-0",
+                                children: e.title,
+                              }),
+                              (0, l.jsx)("div", {
+                                id: "group-".concat(e.id),
+                                className:
+                                  "grid grid-cols-2 lg:grid-cols-3 gap-x-5 r-gap-y-16 w-full r-max-w-[64] ml-auto border-none sm:border-t group-first:border-0 ".concat(
+                                    n.addBackground
+                                      ? "border-asphalt"
+                                      : "border-grey-border",
+                                    " sm:r-pt-[6.25] group-first:pt-0"
+                                  ),
+                                children:
+                                  null === (t = e.people) || void 0 === t
+                                    ? void 0
+                                    : t.map((e, t) =>
+                                      (0, l.jsx)(
+                                        p,
+                                        {
+                                          person: e,
+                                          showLinks: n.showLinks,
+                                          bg: n.addBackground,
+                                        },
+                                        t
+                                      )
                                     ),
-                                  children:
-                                    null === (t = e.people) || void 0 === t
-                                      ? void 0
-                                      : t.map((e, t) =>
-                                          (0, l.jsx)(
-                                            p,
-                                            {
-                                              person: e,
-                                              showLinks: n.showLinks,
-                                              bg: n.addBackground,
-                                            },
-                                            t
-                                          )
-                                        ),
-                                }),
-                              ],
-                            },
-                            e.id
-                          );
-                        }),
+                              }),
+                            ],
+                          },
+                          e.id
+                        );
+                      }),
                 }),
               ],
             }),
@@ -1407,68 +1407,68 @@
         );
       }
       let s = [
-          {
-            query: (0, i.J1)(r()),
-            variables: (e, n) => {
-              var t, l;
-              let [i] =
-                  (null == e ? void 0 : e.entry) &&
-                  (null == e ? void 0 : e.entry[n])
-                    ? null == e
-                      ? void 0
-                      : e.entry[n]
-                    : [],
-                r = [];
-              return (
-                (null === (t = i.category) || void 0 === t
-                  ? void 0
-                  : t.length) &&
-                  r.push(
-                    ...(null == i
-                      ? void 0
-                      : null === (l = i.category) || void 0 === l
-                      ? void 0
-                      : l.map((e) => e.id))
-                  ),
-                { siteId: i.siteId, relatedTo: r }
-              );
-            },
-            shouldRun: (e, n) => {
-              var t;
-              let [l] =
-                (null == e ? void 0 : e.entry) &&
+        {
+          query: (0, i.J1)(r()),
+          variables: (e, n) => {
+            var t, l;
+            let [i] =
+              (null == e ? void 0 : e.entry) &&
                 (null == e ? void 0 : e.entry[n])
-                  ? null == e
-                    ? void 0
-                    : e.entry[n]
-                  : [];
-              return !(
-                (null == l
+                ? null == e
                   ? void 0
-                  : null === (t = l.people) || void 0 === t
+                  : e.entry[n]
+                : [],
+              r = [];
+            return (
+              (null === (t = i.category) || void 0 === t
+                ? void 0
+                : t.length) &&
+              r.push(
+                ...(null == i
+                  ? void 0
+                  : null === (l = i.category) || void 0 === l
+                    ? void 0
+                    : l.map((e) => e.id))
+              ),
+              { siteId: i.siteId, relatedTo: r }
+            );
+          },
+          shouldRun: (e, n) => {
+            var t;
+            let [l] =
+              (null == e ? void 0 : e.entry) &&
+                (null == e ? void 0 : e.entry[n])
+                ? null == e
+                  ? void 0
+                  : e.entry[n]
+                : [];
+            return !(
+              (null == l
+                ? void 0
+                : null === (t = l.people) || void 0 === t
                   ? void 0
                   : t.length) > 0
-              );
-            },
+            );
           },
-        ],
+        },
+      ],
         o = (e) => {
           let { section: n, types: t = [], moduleSet: l = "modules" } = e,
             r =
               null == t
                 ? void 0
                 : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(e, "_Entry {\n      ")
-                        .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                        .concat(
-                          l,
-                          "_people_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          showLinks: lightswitch\n          addBackground: lightswitch2\n          category: peopleCategory {\n            id\n            uid\n            siteId\n            title\n          }\n          people {\n            id\n            uid\n            siteId\n            title\n            ... on people_default_Entry {\n              position: plainText\n              category: peopleCategory {\n                id\n                uid\n                siteId\n                title\n              }\n              links {\n                ... on links_link_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  itemLink {\n                    target\n                    text\n                    type\n                    href: url\n                    title\n                  }\n                }\n              }\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                        )
-                    )
-                    .join("");
+                  .map((e) =>
+                    "\n    ... on "
+                      .concat(n, "_")
+                      .concat(e, "_Entry {\n      ")
+                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                      .concat(
+                        l,
+                        "_people_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          showLinks: lightswitch\n          addBackground: lightswitch2\n          category: peopleCategory {\n            id\n            uid\n            siteId\n            title\n          }\n          people {\n            id\n            uid\n            siteId\n            title\n            ... on people_default_Entry {\n              position: plainText\n              category: peopleCategory {\n                id\n                uid\n                siteId\n                title\n              }\n              links {\n                ... on links_link_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  itemLink {\n                    target\n                    text\n                    type\n                    href: url\n                    title\n                  }\n                }\n              }\n              image {\n                id\n                uid\n                siteId\n                kind\n                width\n                height\n                url(width: 100)\n                primaryUrl: url\n                alt\n                ... on uploads_Asset {\n                  text\n                  plainText\n                  altTranslation: plainText2\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                      )
+                  )
+                  .join("");
           return (0, i.J1)(a(), n, r);
         };
     },
@@ -1496,17 +1496,17 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_scriptBlock_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          code: monospace\n          text\n          consentType\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_scriptBlock_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          code: monospace\n          text\n          consentType\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1534,17 +1534,17 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_simpleCta_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          image {\n            id\n            uid\n            siteId\n            kind\n            width\n            height\n            url(width: 100)\n            primaryUrl: url\n            alt\n            ... on uploads_Asset {\n              text\n              plainText\n              altTranslation: plainText2\n            }\n          }\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_simpleCta_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          image {\n            id\n            uid\n            siteId\n            kind\n            width\n            height\n            url(width: 100)\n            primaryUrl: url\n            alt\n            ... on uploads_Asset {\n              text\n              plainText\n              altTranslation: plainText2\n            }\n          }\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1573,25 +1573,25 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_testimonials_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          testimonials: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_testimonial_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              text\n              author: plainText\n              position: plainText2\n              tags: testimonialTags {\n                ... on testimonials_Tag {\n                  id\n                  uid\n                  siteId\n                  title\n                }\n              }\n              "
-                      )
-                      .concat(
-                        r.A,
-                        "\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_testimonials_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          testimonials: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_testimonial_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              text\n              author: plainText\n              position: plainText2\n              tags: testimonialTags {\n                ... on testimonials_Tag {\n                  id\n                  uid\n                  siteId\n                  title\n                }\n              }\n              "
+                    )
+                    .concat(
+                      r.A,
+                      "\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -1616,33 +1616,33 @@
           "data-anchor": c,
           children: [
             t.title &&
-              (0, l.jsxs)("h2", {
-                className: "h2-text-alt text-asphalt mb-10 sm:r-mb-20",
-                children: [
-                  (0, l.jsx)(r.A, { children: t.title }),
-                  (0, l.jsx)(i.P.div, {
-                    className:
-                      "w-full h-[1px] bg-grey-border r-mt-5 origin-left",
-                    variants: { hidden: { scaleX: 0 }, visible: { scaleX: 1 } },
-                    transition: {
-                      duration: 1.5,
-                      ease: [0.04, 0.62, 0.23, 0.98],
-                      delay: 0.2,
-                    },
-                    initial: "hidden",
-                    whileInView: "visible",
-                    viewport: { once: !0, threshold: 1 },
-                  }),
-                ],
-              }),
+            (0, l.jsxs)("h2", {
+              className: "h2-text-alt text-asphalt mb-10 sm:r-mb-20",
+              children: [
+                (0, l.jsx)(r.A, { children: t.title }),
+                (0, l.jsx)(i.P.div, {
+                  className:
+                    "w-full h-[1px] bg-grey-border r-mt-5 origin-left",
+                  variants: { hidden: { scaleX: 0 }, visible: { scaleX: 1 } },
+                  transition: {
+                    duration: 1.5,
+                    ease: [0.04, 0.62, 0.23, 0.98],
+                    delay: 0.2,
+                  },
+                  initial: "hidden",
+                  whileInView: "visible",
+                  viewport: { once: !0, threshold: 1 },
+                }),
+              ],
+            }),
             (0, l.jsx)("div", {
               className: "text-blocks flex flex-col r-gap-20",
               children:
                 null == t
                   ? void 0
                   : null === (n = t.blocks) || void 0 === n
-                  ? void 0
-                  : n.map((e) => {
+                    ? void 0
+                    : n.map((e) => {
                       var n, t;
                       return (0, l.jsxs)(
                         i.P.div,
@@ -1666,10 +1666,10 @@
                           },
                           children: [
                             e.title &&
-                              (0, l.jsx)("h3", {
-                                className: "h3-text r-mb-5",
-                                children: e.title,
-                              }),
+                            (0, l.jsx)("h3", {
+                              className: "h3-text r-mb-5",
+                              children: e.title,
+                            }),
                             (0, l.jsx)("div", {
                               className: "wysiwyg r-text-lg",
                               children: (0, l.jsx)(o.A, { content: e.text }),
@@ -1680,16 +1680,16 @@
                               (null === (t = e.secondaryButton) || void 0 === t
                                 ? void 0
                                 : t.href)) &&
-                              (0, l.jsxs)("div", {
-                                className:
-                                  "button flex items-center r-gap-6 r-mt-10",
-                                children: [
-                                  (0, l.jsx)(a.A, { linkProps: e.button }),
-                                  (0, l.jsx)(s.A, {
-                                    linkProps: e.secondaryButton,
-                                  }),
-                                ],
-                              }),
+                            (0, l.jsxs)("div", {
+                              className:
+                                "button flex items-center r-gap-6 r-mt-10",
+                              children: [
+                                (0, l.jsx)(a.A, { linkProps: e.button }),
+                                (0, l.jsx)(s.A, {
+                                  linkProps: e.secondaryButton,
+                                }),
+                              ],
+                            }),
                           ],
                         },
                         "block-".concat(e.uid)
@@ -1724,21 +1724,21 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_text_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          blocks: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_textBlock_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              blockAlignment\n              text: text4\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              secondaryButton: button2 {\n                target\n                text\n                type\n                href: url\n                title\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_text_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          blocks: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_textBlock_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              blockAlignment\n              text: text4\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n              secondaryButton: button2 {\n                target\n                text\n                type\n                href: url\n                title\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1767,53 +1767,53 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_textAndMedia_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          blockAlignment\n          fullHeight: lightswitch\n          maintainRatio: lightswitch2\n          items: children {\n            ...  on "
-                      )
-                      .concat(
-                        l,
-                        "_textAndMediaItem_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              menuTitle: plainText\n              "
-                      )
-                      .concat(
-                        i.A,
-                        "\n              children {\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_wysiwyg_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  text: text4\n                  biggerFont: lightswitch\n                }\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_tags_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  title: moduleTitle\n                  tags: children {\n                    ... on "
-                      )
-                      .concat(
-                        l,
-                        "_tag_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      title: moduleTitle\n                    }\n                  }\n                }\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_buttonsImages_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  items: children {\n                    ... on "
-                      )
-                      .concat(
-                        l,
-                        "_buttonImage_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      button {\n                        target\n                        text\n                        type\n                        href: url\n                        title\n                      }  \n                      image {\n                        id\n                        uid\n                        siteId\n                        kind\n                        width\n                        height\n                        url(width: 100)\n                        primaryUrl: url\n                        alt\n                        ... on uploads_Asset {\n                          text\n                          plainText\n                          altTranslation: plainText2\n                        }\n                      }\n                    }\n                  }\n                }\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_orderedList_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  items: children {\n                    ... on "
-                      )
-                      .concat(
-                        l,
-                        "_listItem_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      title: moduleTitle\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_textAndMedia_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          blockAlignment\n          fullHeight: lightswitch\n          maintainRatio: lightswitch2\n          items: children {\n            ...  on "
+                    )
+                    .concat(
+                      l,
+                      "_textAndMediaItem_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              menuTitle: plainText\n              "
+                    )
+                    .concat(
+                      i.A,
+                      "\n              children {\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_wysiwyg_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  text: text4\n                  biggerFont: lightswitch\n                }\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_tags_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  title: moduleTitle\n                  tags: children {\n                    ... on "
+                    )
+                    .concat(
+                      l,
+                      "_tag_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      title: moduleTitle\n                    }\n                  }\n                }\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_buttonsImages_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  items: children {\n                    ... on "
+                    )
+                    .concat(
+                      l,
+                      "_buttonImage_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      button {\n                        target\n                        text\n                        type\n                        href: url\n                        title\n                      }  \n                      image {\n                        id\n                        uid\n                        siteId\n                        kind\n                        width\n                        height\n                        url(width: 100)\n                        primaryUrl: url\n                        alt\n                        ... on uploads_Asset {\n                          text\n                          plainText\n                          altTranslation: plainText2\n                        }\n                      }\n                    }\n                  }\n                }\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_orderedList_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  items: children {\n                    ... on "
+                    )
+                    .concat(
+                      l,
+                      "_listItem_BlockType {\n                      id\n                      uid\n                      siteId\n                      typeHandle\n                      title: moduleTitle\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, r.J1)(a(), n, s);
       };
     },
@@ -1842,27 +1842,27 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_textGrid_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          media1: "
-                      )
-                      .concat(r.A, "\n          media2: ")
-                      .concat((0, r.w)("mediaElement2"), "\n          media3: ")
-                      .concat(
-                        (0, r.w)("mediaElement3"),
-                        "\n          textBlocks: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_gridColumn_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              pretitle: plainText\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_textGrid_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          text\n          button {\n            target\n            text\n            type\n            href: url\n            title\n          }\n          media1: "
+                    )
+                    .concat(r.A, "\n          media2: ")
+                    .concat((0, r.w)("mediaElement2"), "\n          media3: ")
+                    .concat(
+                      (0, r.w)("mediaElement3"),
+                      "\n          textBlocks: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_gridColumn_BlockType {\n              id\n              uid\n              siteId\n              typeHandle\n              title: moduleTitle\n              pretitle: plainText\n              text\n              button {\n                target\n                text\n                type\n                href: url\n                title\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -1890,25 +1890,25 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_threeProducts_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          products: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_product_BlockType {\n              id\n              uid\n              siteId\n              title: moduleTitle\n              typeHandle\n              chargers\n              chargerLabels: chargers(label: true)\n              button {\n                target\n                text\n                href: url\n                type\n                title\n              }\n              columns: children {\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_column_BlockType {\n                  id\n                  uid\n                  siteId\n                  title: moduleTitle\n                  text\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_threeProducts_BlockType {\n          id\n          uid\n          siteId\n          typeHandle\n          title: moduleTitle\n          products: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_product_BlockType {\n              id\n              uid\n              siteId\n              title: moduleTitle\n              typeHandle\n              chargers\n              chargerLabels: chargers(label: true)\n              button {\n                target\n                text\n                href: url\n                type\n                title\n              }\n              columns: children {\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_column_BlockType {\n                  id\n                  uid\n                  siteId\n                  title: moduleTitle\n                  text\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(r(), n, a);
       };
     },
@@ -1937,29 +1937,29 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      ")
-                      .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
-                      .concat(
-                        l,
-                        "_timeline_BlockType {\n          uid\n          id\n          siteId\n          typeHandle\n          items: children {\n            ... on "
-                      )
-                      .concat(
-                        l,
-                        "_timelineItem_BlockType {\n              id\n              uid\n              siteId\n              year: plainText\n              title: moduleTitle\n              text\n              media: children {\n                ... on "
-                      )
-                      .concat(
-                        l,
-                        "_mediaItems_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  "
-                      )
-                      .concat(
-                        r.A,
-                        "\n                  credit: plainText\n                  description: text\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
-                      )
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1, uid: $uid) {\n        ... on ")
+                    .concat(
+                      l,
+                      "_timeline_BlockType {\n          uid\n          id\n          siteId\n          typeHandle\n          items: children {\n            ... on "
+                    )
+                    .concat(
+                      l,
+                      "_timelineItem_BlockType {\n              id\n              uid\n              siteId\n              year: plainText\n              title: moduleTitle\n              text\n              media: children {\n                ... on "
+                    )
+                    .concat(
+                      l,
+                      "_mediaItems_BlockType {\n                  id\n                  uid\n                  siteId\n                  typeHandle\n                  "
+                    )
+                    .concat(
+                      r.A,
+                      "\n                  credit: plainText\n                  description: text\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+                    )
+                )
+                .join("");
         return (0, i.J1)(a(), n, s);
       };
     },
@@ -1973,51 +1973,51 @@
         s = t(19602),
         o = t(72673);
       let d = (e) => {
-          let { checked: n, href: t, title: i } = e;
-          return (0, l.jsxs)(o.A, {
-            href: t,
-            className: "inline-flex gap-2 items-center ".concat(
-              n ? "text-asphalt" : "text-grey hover:text-asphalt",
-              " transition-colors duration-200"
-            ),
-            children: [
-              (0, l.jsx)("span", {
+        let { checked: n, href: t, title: i } = e;
+        return (0, l.jsxs)(o.A, {
+          href: t,
+          className: "inline-flex gap-2 items-center ".concat(
+            n ? "text-asphalt" : "text-grey hover:text-asphalt",
+            " transition-colors duration-200"
+          ),
+          children: [
+            (0, l.jsx)("span", {
+              className:
+                "radio w-4 h-4 rounded-full border border-current inline-flex items-center justify-center",
+              children: (0, l.jsx)("span", {
                 className:
-                  "radio w-4 h-4 rounded-full border border-current inline-flex items-center justify-center",
-                children: (0, l.jsx)("span", {
-                  className:
-                    "radio-inner w-2 h-2 rounded-full bg-asphalt ".concat(
-                      n ? "opacity-100" : "opacity-0",
-                      " transition-opacity duration-200"
-                    ),
-                }),
+                  "radio-inner w-2 h-2 rounded-full bg-asphalt ".concat(
+                    n ? "opacity-100" : "opacity-0",
+                    " transition-opacity duration-200"
+                  ),
               }),
-              i,
-            ],
-          });
-        },
+            }),
+            i,
+          ],
+        });
+      },
         c = r()(() => Promise.resolve().then(t.bind(t, 93731)), {
           loadableGenerated: { webpack: () => [93731] },
           ssr: !1,
         }),
         u = (e) => {
           let {
-              allFilter: n,
-              filters: t,
-              entry: i,
-              className: r,
-              allLabel: o,
-              title: u,
-            } = e,
+            allFilter: n,
+            filters: t,
+            entry: i,
+            className: r,
+            allLabel: o,
+            title: u,
+          } = e,
             m = (0, a.useRouter)(),
             p = (0, s.U)("only screen and (max-width: 640px)");
           return (0, l.jsxs)(l.Fragment, {
             children: [
               u &&
-                (0, l.jsx)("h2", {
-                  className: "r-text-xs r-mb-5",
-                  children: u,
-                }),
+              (0, l.jsx)("h2", {
+                className: "r-text-xs r-mb-5",
+                children: u,
+              }),
               (0, l.jsx)("div", {
                 className:
                   "news-filters flex items-center r-gap-6 relative z-30 ".concat(
@@ -2025,65 +2025,65 @@
                   ),
                 children: p
                   ? (0, l.jsx)(c, {
-                      className: "w-full",
-                      options: [
-                        { value: null == n ? void 0 : n.url, label: o },
-                        ...(null == t
-                          ? void 0
-                          : t.map((e) => ({
-                              value: null == e ? void 0 : e.url,
-                              label: null == e ? void 0 : e.title,
-                            }))),
-                      ],
-                      value: i
-                        ? {
-                            value: null == i ? void 0 : i.url,
-                            label: null == i ? void 0 : i.title,
-                          }
-                        : { value: null == n ? void 0 : n.url, label: o },
-                      defaultValue: {
-                        value: null == n ? void 0 : n.url,
-                        label: o,
-                      },
-                      onChange: (e) => {
-                        m.push(e.value);
-                      },
-                      styles: {
-                        control: (e) => ({
-                          ...e,
-                          backgroundColor: "#fbfbfb",
-                          fontSize: "0.875rem",
-                        }),
-                        option: (e, n) => ({
-                          ...e,
-                          backgroundColor: n.isSelected ? "#ffffff" : "#ffffff",
-                          fontSize: "0.875rem",
-                        }),
-                      },
-                    })
+                    className: "w-full",
+                    options: [
+                      { value: null == n ? void 0 : n.url, label: o },
+                      ...(null == t
+                        ? void 0
+                        : t.map((e) => ({
+                          value: null == e ? void 0 : e.url,
+                          label: null == e ? void 0 : e.title,
+                        }))),
+                    ],
+                    value: i
+                      ? {
+                        value: null == i ? void 0 : i.url,
+                        label: null == i ? void 0 : i.title,
+                      }
+                      : { value: null == n ? void 0 : n.url, label: o },
+                    defaultValue: {
+                      value: null == n ? void 0 : n.url,
+                      label: o,
+                    },
+                    onChange: (e) => {
+                      m.push(e.value);
+                    },
+                    styles: {
+                      control: (e) => ({
+                        ...e,
+                        backgroundColor: "#fbfbfb",
+                        fontSize: "0.875rem",
+                      }),
+                      option: (e, n) => ({
+                        ...e,
+                        backgroundColor: n.isSelected ? "#ffffff" : "#ffffff",
+                        fontSize: "0.875rem",
+                      }),
+                    },
+                  })
                   : (0, l.jsxs)(l.Fragment, {
-                      children: [
-                        (0, l.jsx)(d, {
-                          checked: (null == n ? void 0 : n.uid) === i.uid,
-                          href: null == n ? void 0 : n.url,
-                          title: o,
-                        }),
-                        null == t
-                          ? void 0
-                          : t.map((e, n) =>
-                              (0, l.jsx)(
-                                d,
-                                {
-                                  checked:
-                                    (null == e ? void 0 : e.uid) === i.uid,
-                                  href: null == e ? void 0 : e.url,
-                                  title: null == e ? void 0 : e.title,
-                                },
-                                "filter-".concat(n)
-                              )
-                            ),
-                      ],
-                    }),
+                    children: [
+                      (0, l.jsx)(d, {
+                        checked: (null == n ? void 0 : n.uid) === i.uid,
+                        href: null == n ? void 0 : n.url,
+                        title: o,
+                      }),
+                      null == t
+                        ? void 0
+                        : t.map((e, n) =>
+                          (0, l.jsx)(
+                            d,
+                            {
+                              checked:
+                                (null == e ? void 0 : e.uid) === i.uid,
+                              href: null == e ? void 0 : e.url,
+                              title: null == e ? void 0 : e.title,
+                            },
+                            "filter-".concat(n)
+                          )
+                        ),
+                    ],
+                  }),
               }),
             ],
           });
@@ -2134,22 +2134,22 @@
         c = t(33473);
       let u = (e) => {
         let {
-            children: n,
-            dangerouslySetInnerHTML: t = !1,
-            speed: i = 1.5,
-            stagger: a = 0.15,
-            once: u = !0,
-          } = e,
+          children: n,
+          dangerouslySetInnerHTML: t = !1,
+          speed: i = 1.5,
+          stagger: a = 0.15,
+          once: u = !0,
+        } = e,
           m = (0, d.useRef)(null);
         return (
           (0, c.E)(() => {
             if (!m.current) return;
             o.os.registerPlugin(r(), s());
             let e = new (r())(m.current, {
-                type: "lines, words",
-                linesClass: "lineChildren overflow-hidden",
-                wordsClass: "wordChildren",
-              }),
+              type: "lines, words",
+              linesClass: "lineChildren overflow-hidden",
+              wordsClass: "wordChildren",
+            }),
               n = o.os.timeline({
                 ease: "power2.out",
                 onStart: () => {
@@ -2186,15 +2186,15 @@
           }, [i, a, u]),
           t
             ? (0, l.jsx)("div", {
-                ref: m,
-                className: "opacity-0 text-animation",
-                dangerouslySetInnerHTML: { __html: n },
-              })
+              ref: m,
+              className: "opacity-0 text-animation",
+              dangerouslySetInnerHTML: { __html: n },
+            })
             : (0, l.jsx)("span", {
-                ref: m,
-                className: "opacity-0 text-animation",
-                children: n,
-              })
+              ref: m,
+              className: "opacity-0 text-animation",
+              children: n,
+            })
         );
       };
     },
@@ -2211,27 +2211,27 @@
         c = t(96540),
         u = t(15385);
       let m = (e) => {
-          let { src: n, alt: t, w: i, h: r } = e,
-            [s, o] = (0, c.useState)(!1),
-            [m, p] = (0, c.useState)(n);
-          return (
-            (0, c.useEffect)(() => {
-              d().refresh();
-            }, [s]),
-            (0, l.jsx)(a(), {
-              src: m,
-              alt: t,
-              width: i || 800,
-              height: r || 800,
-              onLoad: () => {
-                o(!0);
-              },
-              onError: () => {
-                p(u.A);
-              },
-            })
-          );
-        },
+        let { src: n, alt: t, w: i, h: r } = e,
+          [s, o] = (0, c.useState)(!1),
+          [m, p] = (0, c.useState)(n);
+        return (
+          (0, c.useEffect)(() => {
+            d().refresh();
+          }, [s]),
+          (0, l.jsx)(a(), {
+            src: m,
+            alt: t,
+            width: i || 800,
+            height: r || 800,
+            onLoad: () => {
+              o(!0);
+            },
+            onError: () => {
+              p(u.A);
+            },
+          })
+        );
+      },
         p = (e) => {
           if ("tag" === e.type && "img" === e.name) {
             let { src: n, alt: t, width: i, height: r } = e.attribs,
@@ -2354,13 +2354,13 @@
             null == t
               ? void 0
               : t
-                  .map((e) =>
-                    "\n    ... on "
-                      .concat(n, "_")
-                      .concat(e, "_Entry {\n      id\n      title\n      ")
-                      .concat(S.A, "\n    }\n  ")
-                  )
-                  .join("");
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      id\n      title\n      ")
+                    .concat(S.A, "\n    }\n  ")
+                )
+                .join("");
         return (0, E.J1)(C(), n, l);
       };
       var B = t(96540),
@@ -2378,13 +2378,13 @@
         return (G = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var V = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -2400,7 +2400,7 @@
             e
           ),
           l ||
-            (l = B.createElement("path", { d: "M12.5 7v10m0 0 5-5m-5 5-5-5" }))
+          (l = B.createElement("path", { d: "M12.5 7v10m0 0 5-5m-5 5-5-5" }))
         );
       });
       P.os.registerPlugin(R(), Q());
@@ -2500,15 +2500,15 @@
               }
             );
           }, [r.current]),
-          !p)
+            !p)
         )
           return null;
         let h =
           (null == p
             ? void 0
             : null === (n = p.mediaElement) || void 0 === n
-            ? void 0
-            : n[0]) || null;
+              ? void 0
+              : n[0]) || null;
         return (0, T.jsxs)("div", {
           className:
             "home-hero w-full h-screen relative isolate flex items-start sm:items-end pt-40 sm:pt-0 overflow-hidden",
@@ -2606,8 +2606,8 @@
         ey = t(2363),
         eb = t(63240);
       let eA = X()(() => t.e(6183).then(t.bind(t, 36183)), {
-          loadableGenerated: { webpack: () => [36183] },
-        }),
+        loadableGenerated: { webpack: () => [36183] },
+      }),
         ej = X()(() => t.e(9033).then(t.bind(t, 59033)), {
           loadableGenerated: { webpack: () => [59033] },
         }),
@@ -2781,41 +2781,41 @@
         );
       }
       let eZ = (e) => {
-          let { section: n, types: t = [], moduleSet: l = "modules" } = e,
-            i =
-              null == t
-                ? void 0
-                : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(e, "_Entry {\n      ")
-                        .concat(l, "(level: 1) {\n        ")
-                        .concat(
-                          eG[l]
-                            .map((e) =>
-                              "\n          ... on "
-                                .concat(l, "_")
-                                .concat(
-                                  e,
-                                  "_BlockType {\n            id\n            uid\n            siteId\n            typeHandle\n            smallMargins\n            anchor\n          }\n        "
-                                )
+        let { section: n, types: t = [], moduleSet: l = "modules" } = e,
+          i =
+            null == t
+              ? void 0
+              : t
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      ")
+                    .concat(l, "(level: 1) {\n        ")
+                    .concat(
+                      eG[l]
+                        .map((e) =>
+                          "\n          ... on "
+                            .concat(l, "_")
+                            .concat(
+                              e,
+                              "_BlockType {\n            id\n            uid\n            siteId\n            typeHandle\n            smallMargins\n            anchor\n          }\n        "
                             )
-                            .join(""),
-                          "\n      }\n    }\n  "
                         )
+                        .join(""),
+                      "\n      }\n    }\n  "
                     )
-                    .join("");
-          return (0, E.J1)(eJ(), n, i);
-        },
+                )
+                .join("");
+        return (0, E.J1)(eJ(), n, i);
+      },
         eY = (0, Z.WQ)("ui")(
           (0, Z.PA)((e) => {
             let {
-                globals: n,
-                containerClass: t = "",
-                type: l = "modules",
-                ui: i,
-              } = e,
+              globals: n,
+              containerClass: t = "",
+              type: l = "modules",
+              ui: i,
+            } = e,
               { currentSite: r, currentRoute: a, routeProps: s } = n || {},
               o = eZ({
                 section: null == a ? void 0 : a.cms.section,
@@ -2860,11 +2860,11 @@
                           (t = document.querySelector(
                             '[data-anchor="'.concat(e, '"]')
                           )),
-                        t ||
+                          t ||
                           (t = document.querySelector(
                             '[data-anchor="'.concat(e.replace("#", ""), '"]')
                           )),
-                        t)
+                          t)
                       ) {
                         let l = 0;
                         if (t.dataset.offset)
@@ -2884,43 +2884,43 @@
                         }
                         i.smoother
                           ? P.Ay.to(i.smoother, {
-                              duration: 2,
-                              scrollTo: i.smoother.offset(
-                                t,
-                                "top ".concat(l, "px")
-                              ),
-                              ease: "power4.inOut",
-                              onComplete: () => {
-                                let t = document.querySelector(n);
+                            duration: 2,
+                            scrollTo: i.smoother.offset(
+                              t,
+                              "top ".concat(l, "px")
+                            ),
+                            ease: "power4.inOut",
+                            onComplete: () => {
+                              let t = document.querySelector(n);
+                              t ||
+                                (t = document.querySelector(
+                                  '[data-anchor="'.concat(e, '"]')
+                                )),
                                 t ||
-                                  (t = document.querySelector(
-                                    '[data-anchor="'.concat(e, '"]')
-                                  )),
-                                  t ||
-                                    (t = document.querySelector(
-                                      '[data-anchor="'.concat(
-                                        e.replace("#", ""),
-                                        '"]'
-                                      )
-                                    )),
-                                  i.smoother.scrollTop() <
-                                    i.smoother.offset(
-                                      t,
-                                      "top ".concat(l, "px")
-                                    ) &&
-                                    i.smoother.scrollTop(
-                                      i.smoother.offset(
-                                        t,
-                                        "top ".concat(l, "px")
-                                      )
-                                    );
-                              },
-                            })
+                                (t = document.querySelector(
+                                  '[data-anchor="'.concat(
+                                    e.replace("#", ""),
+                                    '"]'
+                                  )
+                                )),
+                                i.smoother.scrollTop() <
+                                i.smoother.offset(
+                                  t,
+                                  "top ".concat(l, "px")
+                                ) &&
+                                i.smoother.scrollTop(
+                                  i.smoother.offset(
+                                    t,
+                                    "top ".concat(l, "px")
+                                  )
+                                );
+                            },
+                          })
                           : P.Ay.to(window, {
-                              duration: 1,
-                              scrollTo: { y: t, offsetY: l },
-                              ease: "power4.inOut",
-                            });
+                            duration: 1,
+                            scrollTo: { y: t, offsetY: l },
+                            ease: "power4.inOut",
+                          });
                       }
                     }, 2e3);
                   }
@@ -2933,7 +2933,7 @@
                   }
                 );
               }, [d, i.menuState, i.menuRef, i.smoother]),
-              !(null == d ? void 0 : d.entry) ||
+                !(null == d ? void 0 : d.entry) ||
                 !d.entry[l] ||
                 0 === d.entry[l].length)
             )
@@ -2945,25 +2945,25 @@
                 let t = eV[e.typeHandle],
                   i = { top: !1, bottom: !1 };
                 return (n > 0 && (i.top = c[n - 1].smallMargins),
-                n < c.length - 1 && (i.bottom = c[n + 1].smallMargins),
-                e.smallMargins && ((i.top = !0), (i.bottom = !0)),
-                t)
+                  n < c.length - 1 && (i.bottom = c[n + 1].smallMargins),
+                  e.smallMargins && ((i.top = !0), (i.bottom = !0)),
+                  t)
                   ? (0, T.jsx)(
-                      t,
-                      {
-                        moduleSet: l,
-                        uid: e.uid,
-                        globals: {
-                          currentSite: r,
-                          currentRoute: a,
-                          routeProps: s,
-                        },
-                        smallMargins: i,
-                        index: n,
-                        anchor: e.anchor,
+                    t,
+                    {
+                      moduleSet: l,
+                      uid: e.uid,
+                      globals: {
+                        currentSite: r,
+                        currentRoute: a,
+                        routeProps: s,
                       },
-                      "".concat((e.uid || e.id) + n, "-module")
-                    )
+                      smallMargins: i,
+                      index: n,
+                      anchor: e.anchor,
+                    },
+                    "".concat((e.uid || e.id) + n, "-module")
+                  )
                   : null;
               }),
             });
@@ -2986,10 +2986,10 @@
         e2 = t.n(e1),
         e5 = t(4536);
       let e4 = X()(() => t.e(4242).then(t.bind(t, 34242)), {
-          loadableGenerated: { webpack: () => [34242] },
-          ssr: !1,
-          loading: () => 0,
-        }),
+        loadableGenerated: { webpack: () => [34242] },
+        ssr: !1,
+        loading: () => 0,
+      }),
         e3 = (e) => {
           let { item: n, index: t, addLine: l } = e,
             [i, r] = (0, B.useState)(0);
@@ -3010,41 +3010,41 @@
               },
               children: [
                 l &&
-                  (0, T.jsx)("div", {
-                    className:
-                      "line hidden sm:block absolute left-full top-1/2 -translate-y-1/2 w-[1px] r-h-20 ml-1 md:r-ml-12 red-border",
-                  }),
+                (0, T.jsx)("div", {
+                  className:
+                    "line hidden sm:block absolute left-full top-1/2 -translate-y-1/2 w-[1px] r-h-20 ml-1 md:r-ml-12 red-border",
+                }),
                 "numberColumn" === n.typeHandle
                   ? (0, T.jsxs)("h2", {
-                      className: "text-forest r-text-xl mb-3 flex items-center",
-                      children: [
-                        n.prefix &&
-                          (0, T.jsx)("span", {
-                            className: "prefix",
-                            children: n.prefix,
-                          }),
-                        (0, T.jsx)(e4, {
-                          value: i,
-                          format: "d",
-                          duration: 500,
-                          theme: "minimal",
-                        }),
-                        n.suffix &&
-                          (0, T.jsx)("span", {
-                            className: "suffix",
-                            children: n.suffix,
-                          }),
-                        n.title &&
-                          (0, T.jsxs)("span", {
-                            className: "title inline-block ml-[0.33em]",
-                            children: [" ", n.title],
-                          }),
-                      ],
-                    })
+                    className: "text-forest r-text-xl mb-3 flex items-center",
+                    children: [
+                      n.prefix &&
+                      (0, T.jsx)("span", {
+                        className: "prefix",
+                        children: n.prefix,
+                      }),
+                      (0, T.jsx)(e4, {
+                        value: i,
+                        format: "d",
+                        duration: 500,
+                        theme: "minimal",
+                      }),
+                      n.suffix &&
+                      (0, T.jsx)("span", {
+                        className: "suffix",
+                        children: n.suffix,
+                      }),
+                      n.title &&
+                      (0, T.jsxs)("span", {
+                        className: "title inline-block ml-[0.33em]",
+                        children: [" ", n.title],
+                      }),
+                    ],
+                  })
                   : (0, T.jsx)("h2", {
-                      className: "text-forest r-text-xl mb-3",
-                      children: n.title,
-                    }),
+                    className: "text-forest r-text-xl mb-3",
+                    children: n.title,
+                  }),
                 (0, T.jsx)("div", {
                   className: "wysiwyg body-text text-grey",
                   dangerouslySetInnerHTML: { __html: e2()(n.text, e5.OM) },
@@ -3057,22 +3057,22 @@
       var e6 = t(51697),
         e8 = t(72673);
       let e7 = (e) => {
-          let { entry: n, className: t, globals: l } = e,
-            { ancestors: i, level: r } = n || {},
-            a = (0, e6.useTranslations)("");
-          return 1 !== r && (null == i ? void 0 : i.length)
-            ? (0, T.jsx)("div", {
-                className:
-                  "breadcrumb pointer-events-auto text-xs text-grey ".concat(t),
-                children: (0, T.jsxs)("div", {
-                  className:
-                    "inner pb-3 flex gap-1 border-b border-grey-border",
-                  children: [
-                  ],
-                }),
-              })
-            : null;
-        },
+        let { entry: n, className: t, globals: l } = e,
+          { ancestors: i, level: r } = n || {},
+          a = (0, e6.useTranslations)("");
+        return 1 !== r && (null == i ? void 0 : i.length)
+          ? (0, T.jsx)("div", {
+            className:
+              "breadcrumb pointer-events-auto text-xs text-grey ".concat(t),
+            children: (0, T.jsxs)("div", {
+              className:
+                "inner pb-3 flex gap-1 border-b border-grey-border",
+              children: [
+              ],
+            }),
+          })
+          : null;
+      },
         e9 = X()(() => t.e(2335).then(t.bind(t, 82335)), {
           loadableGenerated: { webpack: () => [82335] },
           ssr: !1,
@@ -3106,110 +3106,110 @@
                     }),
                   }),
                   (null == o ? void 0 : o.description) &&
-                    (0, T.jsx)(eW.P.div, {
-                      className:
-                        "wysiwyg sm:r-max-w-[26.25] mx-auto w-full text-grey r-text-lg",
-                      initial: { y: 50, opacity: 0 },
-                      animate: { y: 0, opacity: 1 },
-                      transition: { delay: 0.4, duration: 1, ease: "easeOut" },
-                      children: (0, T.jsx)(eK.A, { content: o.description }),
-                    }),
+                  (0, T.jsx)(eW.P.div, {
+                    className:
+                      "wysiwyg sm:r-max-w-[26.25] mx-auto w-full text-grey r-text-lg",
+                    initial: { y: 50, opacity: 0 },
+                    animate: { y: 0, opacity: 1 },
+                    transition: { delay: 0.4, duration: 1, ease: "easeOut" },
+                    children: (0, T.jsx)(eK.A, { content: o.description }),
+                  }),
                   ((null == o
                     ? void 0
                     : null === (n = o.button) || void 0 === n
-                    ? void 0
-                    : n.href) ||
+                      ? void 0
+                      : n.href) ||
                     (null == o
                       ? void 0
                       : null === (t = o.button2) || void 0 === t
-                      ? void 0
-                      : t.href)) &&
-                    (0, T.jsxs)(eW.P.div, {
-                      className:
-                        "flex r-mt-10 items-center gap-4 justify-center",
-                      initial: { y: 50, opacity: 0 },
-                      animate: { y: 0, opacity: 1 },
-                      transition: { delay: 0.6, duration: 1, ease: "easeOut" },
-                      children: [
-                        (0, T.jsx)(e0.A, { linkProps: o.button }),
-                        (0, T.jsx)(z.A, { linkProps: o.button2 }),
-                      ],
-                    }),
+                        ? void 0
+                        : t.href)) &&
+                  (0, T.jsxs)(eW.P.div, {
+                    className:
+                      "flex r-mt-10 items-center gap-4 justify-center",
+                    initial: { y: 50, opacity: 0 },
+                    animate: { y: 0, opacity: 1 },
+                    transition: { delay: 0.6, duration: 1, ease: "easeOut" },
+                    children: [
+                      (0, T.jsx)(e0.A, { linkProps: o.button }),
+                      (0, T.jsx)(z.A, { linkProps: o.button2 }),
+                    ],
+                  }),
                   (null == o ? void 0 : o.regionSelector) &&
-                    (0, T.jsx)(eW.P.div, {
-                      className: "flex items-center justify-center r-mt-10",
-                      initial: { y: 50, opacity: 0 },
-                      animate: { y: 0, opacity: 1 },
-                      transition: { delay: 0.6, duration: 1, ease: "easeOut" },
-                      children: (0, T.jsx)(e9, {
-                        globals: d,
-                        dark: !0,
-                        regions: c,
-                      }),
+                  (0, T.jsx)(eW.P.div, {
+                    className: "flex items-center justify-center r-mt-10",
+                    initial: { y: 50, opacity: 0 },
+                    animate: { y: 0, opacity: 1 },
+                    transition: { delay: 0.6, duration: 1, ease: "easeOut" },
+                    children: (0, T.jsx)(e9, {
+                      globals: d,
+                      dark: !0,
+                      regions: c,
                     }),
+                  }),
                 ],
               }),
               ((null == o
                 ? void 0
                 : null === (l = o.mediaElement) || void 0 === l
-                ? void 0
-                : l.length) > 0 ||
+                  ? void 0
+                  : l.length) > 0 ||
                 (null === (i = o.heroColumns) || void 0 === i
                   ? void 0
                   : i.length) > 0) &&
-                (0, T.jsxs)("div", {
-                  className: "flex flex-col-reverse sm:flex-col",
-                  children: [
-                    (null === (r = o.heroColumns) || void 0 === r
-                      ? void 0
-                      : r.length) > 0 &&
-                      (0, T.jsx)("div", {
-                        className:
-                          "grid grid-cols-1 sm:grid-cols-3 gap-4 md:r-gap-24 text-left w-full pt-[3.75rem] sm:r-pt-14 container big mobile-adjust",
-                        children: o.heroColumns.map((e, n) =>
-                          (0, T.jsx)(
-                            e3,
-                            {
-                              item: e,
-                              index: n,
-                              addLine: o.heroColumns.length - 1 > n,
-                            },
-                            e.uid
-                          )
-                        ),
-                      }),
-                    (null == o
-                      ? void 0
-                      : null === (a = o.mediaElement) || void 0 === a
+              (0, T.jsxs)("div", {
+                className: "flex flex-col-reverse sm:flex-col",
+                children: [
+                  (null === (r = o.heroColumns) || void 0 === r
+                    ? void 0
+                    : r.length) > 0 &&
+                  (0, T.jsx)("div", {
+                    className:
+                      "grid grid-cols-1 sm:grid-cols-3 gap-4 md:r-gap-24 text-left w-full pt-[3.75rem] sm:r-pt-14 container big mobile-adjust",
+                    children: o.heroColumns.map((e, n) =>
+                      (0, T.jsx)(
+                        e3,
+                        {
+                          item: e,
+                          index: n,
+                          addLine: o.heroColumns.length - 1 > n,
+                        },
+                        e.uid
+                      )
+                    ),
+                  }),
+                  (null == o
+                    ? void 0
+                    : null === (a = o.mediaElement) || void 0 === a
                       ? void 0
                       : a.length) > 0 &&
-                      (0, T.jsx)(eW.P.div, {
-                        className:
-                          "media-wrapper px-4 mt-[3.75rem] sm:r-mt-[6.25] overflow-hidden aspect-[22.5/33] sm:aspect-[16/9] max-h-[80vh] sm:max-h-none w-full mobile-media-wrapper-adjust",
-                        ref: u,
-                        initial: { y: 50, opacity: 0 },
-                        animate: { y: 0, opacity: 1 },
-                        transition: {
-                          delay: 0.6,
-                          duration: 1,
-                          ease: "easeOut",
-                        },
-                        children: (0, T.jsx)(q.A, {
-                          media:
-                            null == o
-                              ? void 0
-                              : null === (s = o.mediaElement) || void 0 === s
-                              ? void 0
-                              : s[0],
-                          className: "w-full object-cover h-[120%]",
-                          width: 1920,
-                          ratio: 16 / 9,
-                          showCaption: !1,
-                          priority: !0,
-                        }),
-                      }),
-                  ],
-                }),
+                  (0, T.jsx)(eW.P.div, {
+                    className:
+                      "media-wrapper px-4 mt-[3.75rem] sm:r-mt-[6.25] overflow-hidden aspect-[22.5/33] sm:aspect-[16/9] max-h-[80vh] sm:max-h-none w-full mobile-media-wrapper-adjust",
+                    ref: u,
+                    initial: { y: 50, opacity: 0 },
+                    animate: { y: 0, opacity: 1 },
+                    transition: {
+                      delay: 0.6,
+                      duration: 1,
+                      ease: "easeOut",
+                    },
+                    children: (0, T.jsx)(q.A, {
+                      media:
+                        null == o
+                          ? void 0
+                          : null === (s = o.mediaElement) || void 0 === s
+                            ? void 0
+                            : s[0],
+                      className: "w-full object-cover h-[120%]",
+                      width: 1920,
+                      ratio: 16 / 9,
+                      showCaption: !1,
+                      priority: !0,
+                    }),
+                  }),
+                ],
+              }),
             ],
           });
         };
@@ -3276,47 +3276,47 @@
                     children: null == r ? void 0 : r.title,
                   }),
                   (null == r ? void 0 : r.description) &&
-                    (0, T.jsx)("div", {
-                      className:
-                        "wysiwyg r-max-w-[26.25] mx-auto w-full r-text-lg",
-                      children: (0, T.jsx)(eK.A, { content: r.description }),
-                    }),
+                  (0, T.jsx)("div", {
+                    className:
+                      "wysiwyg r-max-w-[26.25] mx-auto w-full r-text-lg",
+                    children: (0, T.jsx)(eK.A, { content: r.description }),
+                  }),
                   ((null == r
                     ? void 0
                     : null === (n = r.button) || void 0 === n
-                    ? void 0
-                    : n.href) ||
+                      ? void 0
+                      : n.href) ||
                     (null == r
                       ? void 0
                       : null === (t = r.button2) || void 0 === t
-                      ? void 0
-                      : t.href)) &&
-                    (0, T.jsxs)("div", {
-                      className:
-                        "flex r-mt-10 items-center gap-4 justify-center",
-                      children: [
-                        (0, T.jsx)(e0.A, { linkProps: r.button }),
-                        (0, T.jsx)(z.A, { linkProps: r.button2 }),
-                      ],
-                    }),
+                        ? void 0
+                        : t.href)) &&
+                  (0, T.jsxs)("div", {
+                    className:
+                      "flex r-mt-10 items-center gap-4 justify-center",
+                    children: [
+                      (0, T.jsx)(e0.A, { linkProps: r.button }),
+                      (0, T.jsx)(z.A, { linkProps: r.button2 }),
+                    ],
+                  }),
                   (null === (l = r.heroColumns) || void 0 === l
                     ? void 0
                     : l.length) > 0 &&
-                    (0, T.jsx)("div", {
-                      className:
-                        "grid grid-cols-3 r-gap-40 text-left container small r-mt-14",
-                      children: r.heroColumns.map((e, n) =>
-                        (0, T.jsx)(
-                          e3,
-                          {
-                            item: e,
-                            index: n,
-                            addLine: r.heroColumns.length - 1 > n,
-                          },
-                          e.uid
-                        )
-                      ),
-                    }),
+                  (0, T.jsx)("div", {
+                    className:
+                      "grid grid-cols-3 r-gap-40 text-left container small r-mt-14",
+                    children: r.heroColumns.map((e, n) =>
+                      (0, T.jsx)(
+                        e3,
+                        {
+                          item: e,
+                          index: n,
+                          addLine: r.heroColumns.length - 1 > n,
+                        },
+                        e.uid
+                      )
+                    ),
+                  }),
                 ],
               }),
               (0, T.jsx)("div", {
@@ -3328,8 +3328,8 @@
                     null == r
                       ? void 0
                       : null === (i = r.mediaElement) || void 0 === i
-                      ? void 0
-                      : i[0],
+                        ? void 0
+                        : i[0],
                   className: "w-full h-full object-cover !opacity-70",
                   videoClassName: "w-full h-full object-cover",
                   width: 1920,
@@ -3338,41 +3338,41 @@
                 }),
               }),
               !r.disableScroll &&
-                (0, T.jsxs)("button", {
-                  className:
-                    "absolute left-1/2 bottom-0 -translate-x-1/2 z-10 r-mb-[1.86] flex flex-col items-center gap-3 text-white r-text-sm",
-                  onClick: () => {
-                    P.os.to(window, {
-                      duration: 1,
-                      scrollTo: { y: window.innerHeight, autoKill: !1 },
-                    });
-                  },
-                  children: [
-                    s("scrollDown"),
-                    (0, T.jsxs)("svg", {
-                      width: "24",
-                      height: "25",
-                      viewBox: "0 0 24 25",
-                      fill: "none",
-                      xmlns: "http://www.w3.org/2000/svg",
-                      children: [
-                        (0, T.jsx)("rect", {
-                          x: "24",
-                          y: "0.212891",
-                          width: "24",
-                          height: "24",
-                          rx: "12",
-                          transform: "rotate(90 24 0.212891)",
-                          fill: "white",
-                        }),
-                        (0, T.jsx)("path", {
-                          d: "M12 6.21289L12 18.2129M12 18.2129L18 12.2129M12 18.2129L6 12.2129",
-                          stroke: "#222222",
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
+              (0, T.jsxs)("button", {
+                className:
+                  "absolute left-1/2 bottom-0 -translate-x-1/2 z-10 r-mb-[1.86] flex flex-col items-center gap-3 text-white r-text-sm",
+                onClick: () => {
+                  P.os.to(window, {
+                    duration: 1,
+                    scrollTo: { y: window.innerHeight, autoKill: !1 },
+                  });
+                },
+                children: [
+                  s("scrollDown"),
+                  (0, T.jsxs)("svg", {
+                    width: "24",
+                    height: "25",
+                    viewBox: "0 0 24 25",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: [
+                      (0, T.jsx)("rect", {
+                        x: "24",
+                        y: "0.212891",
+                        width: "24",
+                        height: "24",
+                        rx: "12",
+                        transform: "rotate(90 24 0.212891)",
+                        fill: "white",
+                      }),
+                      (0, T.jsx)("path", {
+                        d: "M12 6.21289L12 18.2129M12 18.2129L18 12.2129M12 18.2129L6 12.2129",
+                        stroke: "#222222",
+                      }),
+                    ],
+                  }),
+                ],
+              }),
             ],
           })
         );
@@ -3391,48 +3391,48 @@
         );
       }
       let nl = (e) => {
-          let { section: n, types: t = [] } = e,
-            l =
-              null == t
-                ? void 0
-                : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(e, "_Entry {\n      title\n      ")
-                        .concat(
-                          "default" === e || "irPages" === e
-                            ? "bgHero: lightswitch2"
-                            : "",
-                          "\n      "
-                        )
-                        .concat(
-                          "default" === e ? "regionSelector: lightswitch3" : "",
-                          "\n      "
-                        )
-                        .concat(
-                          "default" === e ? "disableScroll: lightswitch4" : "",
-                          "\n      "
-                        )
-                        .concat(
-                          "default" === e || "list" === e
-                            ? "smallTitle: lightswitch6"
-                            : "",
-                          "\n      description: text\n      level\n      ancestors {\n        id\n        uid\n        siteId\n        title\n        url\n        level\n      }\n      button {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      button2 {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      "
-                        )
-                        .concat(
-                          "default" === e || "irPages" === e
-                            ? "\n        ".concat(
-                                S.A,
-                                "\n        heroColumns {\n          ... on heroColumns_numberColumn_BlockType {\n            id\n            uid\n            siteId\n            typeHandle\n            prefix: plainText2\n            number: number2\n            suffix: plainText\n            title: moduleTitle\n            text\n          }\n          ... on heroColumns_column_BlockType {\n            id\n            uid\n            siteId\n            typeHandle\n            title: moduleTitle\n            text\n          }\n        }\n      "
-                              )
-                            : "",
-                          "\n    }\n  "
-                        )
+        let { section: n, types: t = [] } = e,
+          l =
+            null == t
+              ? void 0
+              : t
+                .map((e) =>
+                  "\n    ... on "
+                    .concat(n, "_")
+                    .concat(e, "_Entry {\n      title\n      ")
+                    .concat(
+                      "default" === e || "irPages" === e
+                        ? "bgHero: lightswitch2"
+                        : "",
+                      "\n      "
                     )
-                    .join("");
-          return (0, E.J1)(nt(), n, l);
-        },
+                    .concat(
+                      "default" === e ? "regionSelector: lightswitch3" : "",
+                      "\n      "
+                    )
+                    .concat(
+                      "default" === e ? "disableScroll: lightswitch4" : "",
+                      "\n      "
+                    )
+                    .concat(
+                      "default" === e || "list" === e
+                        ? "smallTitle: lightswitch6"
+                        : "",
+                      "\n      description: text\n      level\n      ancestors {\n        id\n        uid\n        siteId\n        title\n        url\n        level\n      }\n      button {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      button2 {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      "
+                    )
+                    .concat(
+                      "default" === e || "irPages" === e
+                        ? "\n        ".concat(
+                          S.A,
+                          "\n        heroColumns {\n          ... on heroColumns_numberColumn_BlockType {\n            id\n            uid\n            siteId\n            typeHandle\n            prefix: plainText2\n            number: number2\n            suffix: plainText\n            title: moduleTitle\n            text\n          }\n          ... on heroColumns_column_BlockType {\n            id\n            uid\n            siteId\n            typeHandle\n            title: moduleTitle\n            text\n          }\n        }\n      "
+                        )
+                        : "",
+                      "\n    }\n  "
+                    )
+                )
+                .join("");
+        return (0, E.J1)(nt(), n, l);
+      },
         ni = (e) => {
           let { globals: n } = e,
             { currentSite: t, routeProps: l, currentRoute: i } = n,
@@ -3451,10 +3451,10 @@
           return s.bgHero
             ? (0, T.jsx)(nn, { heroEl: s })
             : (0, T.jsx)(ne, {
-                heroEl: s,
-                globals: n,
-                regions: null == a ? void 0 : a.regions,
-              });
+              heroEl: s,
+              globals: n,
+              regions: null == a ? void 0 : a.regions,
+            });
         },
         nr = (e) => {
           let { globals: n } = e;
@@ -3497,56 +3497,56 @@
               null == t
                 ? void 0
                 : t
-                    .map((e) =>
-                      "\n    ... on "
-                        .concat(n, "_")
-                        .concat(
-                          e,
-                          "_Entry {\n      title\n      url\n      level\n      description: text\n      button {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      button2 {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      "
-                        )
-                        .concat(
-                          "pages" === n && "list" === e ? "listType" : "",
-                          "\n      "
-                        )
-                        .concat(
-                          "default" === e || "list" === e
-                            ? "smallTitle: lightswitch6"
-                            : "",
-                          "\n    }\n  "
-                        )
-                    )
-                    .join("");
+                  .map((e) =>
+                    "\n    ... on "
+                      .concat(n, "_")
+                      .concat(
+                        e,
+                        "_Entry {\n      title\n      url\n      level\n      description: text\n      button {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      button2 {\n        target\n        text\n        type\n        href: url\n        title\n      }\n      "
+                      )
+                      .concat(
+                        "pages" === n && "list" === e ? "listType" : "",
+                        "\n      "
+                      )
+                      .concat(
+                        "default" === e || "list" === e
+                          ? "smallTitle: lightswitch6"
+                          : "",
+                        "\n    }\n  "
+                      )
+                  )
+                  .join("");
           return (0, E.J1)(na(), n, l);
         };
       var nc = t(25828);
       let nu = (e) => {
-          let { entry: n } = e,
-            t = (0, H.useTranslations)(""),
-            { data: l } = (0, M.I)(no, { variables: { siteId: n.siteId } }),
-            i = null == l ? void 0 : l.entries,
-            r =
-              null == i
-                ? void 0
-                : i.find(
-                    (e) =>
-                      e.children.some((e) => e.id === n.id) || e.id === n.id
-                  );
-          if (!r) return null;
-          let a = r.children;
-          return (0, T.jsx)(eW.P.div, {
-            className: "flex items-center justify-center r-mt-10",
-            initial: { y: 50, opacity: 0 },
-            animate: { y: 0, opacity: 1 },
-            transition: { delay: 0.6, duration: 1, ease: "easeOut" },
-            children: (0, T.jsx)(nc.A, {
-              allFilter: r,
-              filters: a,
-              entry: n,
-              className: "justify-center",
-              allLabel: t("all"),
-            }),
-          });
-        },
+        let { entry: n } = e,
+          t = (0, H.useTranslations)(""),
+          { data: l } = (0, M.I)(no, { variables: { siteId: n.siteId } }),
+          i = null == l ? void 0 : l.entries,
+          r =
+            null == i
+              ? void 0
+              : i.find(
+                (e) =>
+                  e.children.some((e) => e.id === n.id) || e.id === n.id
+              );
+        if (!r) return null;
+        let a = r.children;
+        return (0, T.jsx)(eW.P.div, {
+          className: "flex items-center justify-center r-mt-10",
+          initial: { y: 50, opacity: 0 },
+          animate: { y: 0, opacity: 1 },
+          transition: { delay: 0.6, duration: 1, ease: "easeOut" },
+          children: (0, T.jsx)(nc.A, {
+            allFilter: r,
+            filters: a,
+            entry: n,
+            className: "justify-center",
+            allLabel: t("all"),
+          }),
+        });
+      },
         nm = (e) => {
           var n, t;
           let { globals: l } = e,
@@ -3582,45 +3582,45 @@
                     }),
                   }),
                   (null == d ? void 0 : d.description) &&
-                    (0, T.jsx)(eW.P.div, {
-                      className:
-                        "wysiwyg r-max-w-[26.25] mx-auto w-full text-grey r-text-lg",
-                      initial: { y: 50, opacity: 0 },
-                      animate: { y: 0, opacity: 1 },
-                      transition: {
-                        delay: 0.4,
-                        duration: 1.5,
-                        ease: "easeOut",
-                      },
-                      children: (0, T.jsx)(eK.A, { content: d.description }),
-                    }),
+                  (0, T.jsx)(eW.P.div, {
+                    className:
+                      "wysiwyg r-max-w-[26.25] mx-auto w-full text-grey r-text-lg",
+                    initial: { y: 50, opacity: 0 },
+                    animate: { y: 0, opacity: 1 },
+                    transition: {
+                      delay: 0.4,
+                      duration: 1.5,
+                      ease: "easeOut",
+                    },
+                    children: (0, T.jsx)(eK.A, { content: d.description }),
+                  }),
                   (null == d ? void 0 : d.listType) === "knowledgeHub" &&
-                    (0, T.jsx)(nu, { entry: d }),
+                  (0, T.jsx)(nu, { entry: d }),
                   ((null == d
                     ? void 0
                     : null === (n = d.button) || void 0 === n
-                    ? void 0
-                    : n.href) ||
+                      ? void 0
+                      : n.href) ||
                     (null == d
                       ? void 0
                       : null === (t = d.button2) || void 0 === t
-                      ? void 0
-                      : t.href)) &&
-                    (0, T.jsxs)(eW.P.div, {
-                      className:
-                        "flex r-mt-10 items-center gap-4 justify-center",
-                      initial: { y: 50, opacity: 0 },
-                      animate: { y: 0, opacity: 1 },
-                      transition: {
-                        delay: 0.4,
-                        duration: 1.5,
-                        ease: "easeOut",
-                      },
-                      children: [
-                        (0, T.jsx)(e0.A, { linkProps: d.button }),
-                        (0, T.jsx)(z.A, { linkProps: d.button2 }),
-                      ],
-                    }),
+                        ? void 0
+                        : t.href)) &&
+                  (0, T.jsxs)(eW.P.div, {
+                    className:
+                      "flex r-mt-10 items-center gap-4 justify-center",
+                    initial: { y: 50, opacity: 0 },
+                    animate: { y: 0, opacity: 1 },
+                    transition: {
+                      delay: 0.4,
+                      duration: 1.5,
+                      ease: "easeOut",
+                    },
+                    children: [
+                      (0, T.jsx)(e0.A, { linkProps: d.button }),
+                      (0, T.jsx)(z.A, { linkProps: d.button2 }),
+                    ],
+                  }),
                 ],
               }),
             ],
@@ -3737,34 +3737,34 @@
                   children:
                     "default" === r.typeHandle
                       ? (null === (n = r.mediaElement) || void 0 === n
-                          ? void 0
-                          : n.length) > 0
+                        ? void 0
+                        : n.length) > 0
                         ? (0, T.jsx)(q.A, {
-                            className: "".concat(
-                              s.aspect,
-                              " w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 will-change-transform"
-                            ),
-                            media:
-                              null === (t = r.mediaElement) || void 0 === t
-                                ? void 0
-                                : t[0],
-                            ratio: s.ratio,
-                            width: 480,
-                          })
+                          className: "".concat(
+                            s.aspect,
+                            " w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 will-change-transform"
+                          ),
+                          media:
+                            null === (t = r.mediaElement) || void 0 === t
+                              ? void 0
+                              : t[0],
+                          ratio: s.ratio,
+                          width: 480,
+                        })
                         : (0, T.jsx)(ny(), {
-                            src: nb.A,
-                            alt: "Placeholder",
-                            width: 480,
-                            height: 480 * s.ratio,
-                            className: "".concat(
-                              s.aspect,
-                              " w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 will-change-transform"
-                            ),
-                          })
+                          src: nb.A,
+                          alt: "Placeholder",
+                          width: 480,
+                          height: 480 * s.ratio,
+                          className: "".concat(
+                            s.aspect,
+                            " w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 will-change-transform"
+                          ),
+                        })
                       : (null === (l = r.image) || void 0 === l
-                          ? void 0
-                          : l.length) > 0
-                      ? (0, T.jsx)(nf.A, {
+                        ? void 0
+                        : l.length) > 0
+                        ? (0, T.jsx)(nf.A, {
                           className: "".concat(
                             s.aspect,
                             " w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 will-change-transform"
@@ -3773,7 +3773,7 @@
                           ratio: s.ratio,
                           width: 480,
                         })
-                      : (0, T.jsx)(ny(), {
+                        : (0, T.jsx)(ny(), {
                           src: nb.A,
                           alt: "Placeholder",
                           width: 480,
@@ -3794,16 +3794,16 @@
                       null === (i = r.knowledgeHubCategories) || void 0 === i
                         ? void 0
                         : i.map((e) =>
-                            (0, T.jsx)(
-                              "span",
-                              {
-                                className:
-                                  "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
-                                children: e.title,
-                              },
-                              e.uid
-                            )
-                          ),
+                          (0, T.jsx)(
+                            "span",
+                            {
+                              className:
+                                "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
+                              children: e.title,
+                            },
+                            e.uid
+                          )
+                        ),
                       (0, T.jsx)("time", {
                         className: "text-xs text-grey",
                         dateTime: o.toISODate(),
@@ -3826,13 +3826,13 @@
         return (nj = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var nI = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -3848,20 +3848,20 @@
             e
           ),
           i ||
-            (i = B.createElement("path", { d: "M0 7.5 8.4.572v13.856L0 7.5Z" }))
+          (i = B.createElement("path", { d: "M0 7.5 8.4.572v13.856L0 7.5Z" }))
         );
       });
       function nk() {
         return (nk = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var nN = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -3877,10 +3877,10 @@
             e
           ),
           r ||
-            (r = B.createElement("path", {
-              d: "m8.492 7.5-8.4 6.928V.572l8.4 6.928Z",
-              fill: "#222",
-            }))
+          (r = B.createElement("path", {
+            d: "m8.492 7.5-8.4 6.928V.572l8.4 6.928Z",
+            fill: "#222",
+          }))
         );
       });
       let n_ = (e) => {
@@ -3891,30 +3891,30 @@
           ((0, B.useEffect)(() => {
             P.os.registerPlugin(R());
           }, []),
-          t <= 1)
+            t <= 1)
         )
           return null;
         let r = (function (e, n) {
-            let t, l;
-            n <= 7
-              ? ((t = 0), (l = n - 1))
-              : e <= 3
+          let t, l;
+          n <= 7
+            ? ((t = 0), (l = n - 1))
+            : e <= 3
               ? ((t = 0), (l = 6))
               : e + 3 >= n
-              ? ((t = n - 7), (l = n - 1))
-              : ((t = e - 3), (l = e + 3));
-            let i = Array.from(Array(l + 1 - t).keys()).map((e) => ({
-              page: e + t,
-              label: e + t + 1,
-            }));
-            return (
-              i.some((e) => 0 === e.page) ||
-                i.unshift({ page: 0, label: "1..." }),
-              i.some((e) => e.page === n - 1) ||
-                i.push({ page: n - 1, label: "...".concat(n) }),
-              i
-            );
-          })(Number(n), t),
+                ? ((t = n - 7), (l = n - 1))
+                : ((t = e - 3), (l = e + 3));
+          let i = Array.from(Array(l + 1 - t).keys()).map((e) => ({
+            page: e + t,
+            label: e + t + 1,
+          }));
+          return (
+            i.some((e) => 0 === e.page) ||
+            i.unshift({ page: 0, label: "1..." }),
+            i.some((e) => e.page === n - 1) ||
+            i.push({ page: n - 1, label: "...".concat(n) }),
+            i
+          );
+        })(Number(n), t),
           [a] = l.asPath.split("?");
         return (0, T.jsxs)("div", {
           ref: i,
@@ -3922,108 +3922,108 @@
             "flex justify-center r-mt-[2.87] button-text r-gap-[0.5] w-full",
           children: [
             Number(n) > 0 &&
-              (0, T.jsx)(e8.A, {
-                href: {
-                  pathname: a,
-                  query: { ...l.query, page: Number(n) - 1 },
-                },
-                shallow: !0,
-                scroll: !1,
-                className:
-                  "flex items-center justify-center w-12 h-12 sm:h-auto sm:r-min-w-[1.875] sm:py-[0.25rem] rounded-full bg-grey-button sm:bg-transparent rounded-full text-asphalt transition-colors duration-300 hover:bg-blue hover:text-grey",
-                onClick: () => {
-                  var e, n;
-                  P.os.to(window, {
-                    duration: 0.5,
-                    scrollTo: {
-                      y:
-                        null === (n = i.current) || void 0 === n
-                          ? void 0
-                          : null === (e = n.parentElement) || void 0 === e
+            (0, T.jsx)(e8.A, {
+              href: {
+                pathname: a,
+                query: { ...l.query, page: Number(n) - 1 },
+              },
+              shallow: !0,
+              scroll: !1,
+              className:
+                "flex items-center justify-center w-12 h-12 sm:h-auto sm:r-min-w-[1.875] sm:py-[0.25rem] rounded-full bg-grey-button sm:bg-transparent rounded-full text-asphalt transition-colors duration-300 hover:bg-blue hover:text-grey",
+              onClick: () => {
+                var e, n;
+                P.os.to(window, {
+                  duration: 0.5,
+                  scrollTo: {
+                    y:
+                      null === (n = i.current) || void 0 === n
+                        ? void 0
+                        : null === (e = n.parentElement) || void 0 === e
                           ? void 0
                           : e.parentElement,
-                      offsetY: 200,
-                      autoKill: !1,
-                    },
-                    onComplete: () => {},
-                  });
-                },
-                children: (0, T.jsx)(nI, { className: "fill-current" }),
-              }),
+                    offsetY: 200,
+                    autoKill: !1,
+                  },
+                  onComplete: () => { },
+                });
+              },
+              children: (0, T.jsx)(nI, { className: "fill-current" }),
+            }),
             r.map((e) => {
               let t = e.page + 1;
               return e.page == Number(n)
                 ? (0, T.jsx)(
-                    "div",
-                    {
-                      className:
-                        "hidden sm:flex items-center justify-center r-min-w-[2] rounded-full aspect-1 transition-colors duration-300 bg-asphalt text-white hover:bg-grey-bg hover:text-asphalt",
-                      children: e.label,
-                    },
-                    t
-                  )
+                  "div",
+                  {
+                    className:
+                      "hidden sm:flex items-center justify-center r-min-w-[2] rounded-full aspect-1 transition-colors duration-300 bg-asphalt text-white hover:bg-grey-bg hover:text-asphalt",
+                    children: e.label,
+                  },
+                  t
+                )
                 : (0, T.jsx)(
-                    e8.A,
-                    {
-                      href: {
-                        pathname: a,
-                        query: { ...l.query, page: e.page },
-                      },
-                      shallow: !0,
-                      scroll: !1,
-                      className:
-                        "hidden sm:flex items-center justify-center r-min-w-[2] rounded-full aspect-1 transition-colors duration-300 hover:bg-grey-bg",
-                      onClick: () => {
-                        var e, n;
-                        P.os.to(window, {
-                          duration: 0.5,
-                          scrollTo: {
-                            y:
-                              null === (n = i.current) || void 0 === n
-                                ? void 0
-                                : null === (e = n.parentElement) || void 0 === e
+                  e8.A,
+                  {
+                    href: {
+                      pathname: a,
+                      query: { ...l.query, page: e.page },
+                    },
+                    shallow: !0,
+                    scroll: !1,
+                    className:
+                      "hidden sm:flex items-center justify-center r-min-w-[2] rounded-full aspect-1 transition-colors duration-300 hover:bg-grey-bg",
+                    onClick: () => {
+                      var e, n;
+                      P.os.to(window, {
+                        duration: 0.5,
+                        scrollTo: {
+                          y:
+                            null === (n = i.current) || void 0 === n
+                              ? void 0
+                              : null === (e = n.parentElement) || void 0 === e
                                 ? void 0
                                 : e.parentElement,
-                            offsetY: 200,
-                            autoKill: !1,
-                          },
-                          onComplete: () => {},
-                        });
-                      },
-                      children: e.label,
+                          offsetY: 200,
+                          autoKill: !1,
+                        },
+                        onComplete: () => { },
+                      });
                     },
-                    t
-                  );
+                    children: e.label,
+                  },
+                  t
+                );
             }),
             Number(n) < t - 1 &&
-              (0, T.jsx)(e8.A, {
-                href: {
-                  pathname: a,
-                  query: { ...l.query, page: Number(n) + 1 },
-                },
-                shallow: !0,
-                scroll: !1,
-                className:
-                  "flex items-center justify-center w-12 h-12 sm:h-auto sm:r-min-w-[1.875] rounded-full sm:py-[0.25rem] bg-grey-button sm:bg-transparent stroke-blue transition-colors duration-300 hover:bg-blue hover:stroke-white",
-                onClick: () => {
-                  var e, n;
-                  P.os.to(window, {
-                    duration: 0.5,
-                    scrollTo: {
-                      y:
-                        null === (n = i.current) || void 0 === n
-                          ? void 0
-                          : null === (e = n.parentElement) || void 0 === e
+            (0, T.jsx)(e8.A, {
+              href: {
+                pathname: a,
+                query: { ...l.query, page: Number(n) + 1 },
+              },
+              shallow: !0,
+              scroll: !1,
+              className:
+                "flex items-center justify-center w-12 h-12 sm:h-auto sm:r-min-w-[1.875] rounded-full sm:py-[0.25rem] bg-grey-button sm:bg-transparent stroke-blue transition-colors duration-300 hover:bg-blue hover:stroke-white",
+              onClick: () => {
+                var e, n;
+                P.os.to(window, {
+                  duration: 0.5,
+                  scrollTo: {
+                    y:
+                      null === (n = i.current) || void 0 === n
+                        ? void 0
+                        : null === (e = n.parentElement) || void 0 === e
                           ? void 0
                           : e.parentElement,
-                      offsetY: 200,
-                      autoKill: !1,
-                    },
-                    onComplete: () => {},
-                  });
-                },
-                children: (0, T.jsx)(nN, {}),
-              }),
+                    offsetY: 200,
+                    autoKill: !1,
+                  },
+                  onComplete: () => { },
+                });
+              },
+              children: (0, T.jsx)(nN, {}),
+            }),
           ],
         });
       };
@@ -4078,16 +4078,16 @@
                 },
                 children: o
                   ? (0, T.jsx)("div", {
-                      className:
-                        "flex justify-center items-center min-h-[50vh]",
-                      children: (0, T.jsx)(nT.A, {}),
-                    })
+                    className:
+                      "flex justify-center items-center min-h-[50vh]",
+                    children: (0, T.jsx)(nT.A, {}),
+                  })
                   : (null == c
-                      ? void 0
-                      : null === (n = c.entries) || void 0 === n
+                    ? void 0
+                    : null === (n = c.entries) || void 0 === n
                       ? void 0
                       : n.length) > 0
-                  ? (0, T.jsxs)(T.Fragment, {
+                    ? (0, T.jsxs)(T.Fragment, {
                       children: [
                         (0, T.jsx)("div", {
                           className:
@@ -4096,8 +4096,8 @@
                             null == c
                               ? void 0
                               : null === (t = c.entries) || void 0 === t
-                              ? void 0
-                              : t.map((e, n) =>
+                                ? void 0
+                                : t.map((e, n) =>
                                   (0, T.jsx)(nA, { item: e, index: n }, e.uid)
                                 ),
                         }),
@@ -4107,7 +4107,7 @@
                         }),
                       ],
                     })
-                  : (0, T.jsx)("div", {
+                    : (0, T.jsx)("div", {
                       className:
                         "flex justify-center items-center min-h-[50vh]",
                       children: (0, T.jsx)("p", { children: a("noResults") }),
@@ -4125,13 +4125,13 @@
         return (nC = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var nD = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -4146,47 +4146,47 @@
             e
           ),
           a ||
-            (a = B.createElement(
-              "g",
-              { filter: "url(#accessoryShadow_svg__a)" },
-              B.createElement("ellipse", {
-                cx: 106.437,
-                cy: 28.952,
-                rx: 85.921,
-                ry: 8.452,
-                fill: "#DEDEDE",
-              })
-            )),
+          (a = B.createElement(
+            "g",
+            { filter: "url(#accessoryShadow_svg__a)" },
+            B.createElement("ellipse", {
+              cx: 106.437,
+              cy: 28.952,
+              rx: 85.921,
+              ry: 8.452,
+              fill: "#DEDEDE",
+            })
+          )),
           s ||
-            (s = B.createElement(
-              "defs",
-              null,
-              B.createElement(
-                "filter",
-                {
-                  id: "accessoryShadow_svg__a",
-                  x: 0.516,
-                  y: 0.5,
-                  width: 211.843,
-                  height: 56.904,
-                  filterUnits: "userSpaceOnUse",
-                  colorInterpolationFilters: "sRGB",
-                },
-                B.createElement("feFlood", {
-                  floodOpacity: 0,
-                  result: "BackgroundImageFix",
-                }),
-                B.createElement("feBlend", {
-                  in: "SourceGraphic",
-                  in2: "BackgroundImageFix",
-                  result: "shape",
-                }),
-                B.createElement("feGaussianBlur", {
-                  stdDeviation: 10,
-                  result: "effect1_foregroundBlur_2493_19131",
-                })
-              )
-            ))
+          (s = B.createElement(
+            "defs",
+            null,
+            B.createElement(
+              "filter",
+              {
+                id: "accessoryShadow_svg__a",
+                x: 0.516,
+                y: 0.5,
+                width: 211.843,
+                height: 56.904,
+                filterUnits: "userSpaceOnUse",
+                colorInterpolationFilters: "sRGB",
+              },
+              B.createElement("feFlood", {
+                floodOpacity: 0,
+                result: "BackgroundImageFix",
+              }),
+              B.createElement("feBlend", {
+                in: "SourceGraphic",
+                in2: "BackgroundImageFix",
+                result: "shape",
+              }),
+              B.createElement("feGaussianBlur", {
+                stdDeviation: 10,
+                result: "effect1_foregroundBlur_2493_19131",
+              })
+            )
+          ))
         );
       });
       t(33853);
@@ -4201,56 +4201,56 @@
           (c =
             (null == d ? void 0 : d.length) > 1
               ? (0, T.jsx)(nE.RC, {
-                  slidesPerView: 1,
-                  spaceBetween: 0,
-                  className:
-                    "w-full z-10 transition-transform duration-500 group-hover:-translate-y-5 will-change-transform",
-                  onSwiper: (e) => {
-                    a.current = e;
-                  },
-                  onSlideChange: (e) => {
-                    o(e.realIndex);
-                  },
-                  children:
-                    null == d
-                      ? void 0
-                      : d.map((e) => {
-                          var n;
-                          return (0, T.jsx)(
-                            nE.qr,
-                            {
-                              children: (0, T.jsx)(q.A, {
-                                className: "w-full object-contain aspect-1",
-                                media:
-                                  null === (n = e.mediaElement) || void 0 === n
-                                    ? void 0
-                                    : n[0],
-                                ratio: 1,
-                                width: 480,
-                                priority: !0,
-                                showCaption: !1,
-                              }),
-                            },
-                            e.uid
-                          );
-                        }),
-                })
+                slidesPerView: 1,
+                spaceBetween: 0,
+                className:
+                  "w-full z-10 transition-transform duration-500 group-hover:-translate-y-5 will-change-transform",
+                onSwiper: (e) => {
+                  a.current = e;
+                },
+                onSlideChange: (e) => {
+                  o(e.realIndex);
+                },
+                children:
+                  null == d
+                    ? void 0
+                    : d.map((e) => {
+                      var n;
+                      return (0, T.jsx)(
+                        nE.qr,
+                        {
+                          children: (0, T.jsx)(q.A, {
+                            className: "w-full object-contain aspect-1",
+                            media:
+                              null === (n = e.mediaElement) || void 0 === n
+                                ? void 0
+                                : n[0],
+                            ratio: 1,
+                            width: 480,
+                            priority: !0,
+                            showCaption: !1,
+                          }),
+                        },
+                        e.uid
+                      );
+                    }),
+              })
               : (0, T.jsx)(q.A, {
-                  className:
-                    "w-full object-contain relative z-10 transition-transform duration-500 group-hover:-translate-y-5 will-change-transform aspect-1",
-                  media:
-                    null == d
-                      ? void 0
-                      : null === (i = d[0]) || void 0 === i
+                className:
+                  "w-full object-contain relative z-10 transition-transform duration-500 group-hover:-translate-y-5 will-change-transform aspect-1",
+                media:
+                  null == d
+                    ? void 0
+                    : null === (i = d[0]) || void 0 === i
                       ? void 0
                       : null === (l = i.mediaElement) || void 0 === l
-                      ? void 0
-                      : l[0],
-                  ratio: 1,
-                  width: 480,
-                  priority: !0,
-                  showCaption: !1,
-                })),
+                        ? void 0
+                        : l[0],
+                ratio: 1,
+                width: 480,
+                priority: !0,
+                showCaption: !1,
+              })),
           (0, T.jsx)(nh.N, {
             mode: "wait",
             children: (0, T.jsx)(eW.P.div, {
@@ -4275,36 +4275,36 @@
                             children: c,
                           }),
                           (null == d ? void 0 : d.length) > 1 &&
-                            (0, T.jsx)("div", {
-                              className:
-                                "bullets absolute left-1/2 bottom-6 -translate-x-1/2 flex gap-2",
-                              children:
-                                null == d
-                                  ? void 0
-                                  : d.map((e, n) =>
-                                      (0, T.jsx)(
-                                        "div",
-                                        {
-                                          className:
-                                            "bullet w-2 h-2 rounded-full border transition-colors duration-500 cursor-pointer ".concat(
-                                              s === n
-                                                ? "bg-asphalt border-asphalt"
-                                                : "bg-transparent border-grey"
-                                            ),
-                                          onClick: (e) => {
-                                            var t;
-                                            e.preventDefault(),
-                                              e.stopPropagation(),
-                                              null === (t = a.current) ||
-                                                void 0 === t ||
-                                                t.slideTo(n),
-                                              o(n);
-                                          },
-                                        },
-                                        e.uid
-                                      )
-                                    ),
-                            }),
+                          (0, T.jsx)("div", {
+                            className:
+                              "bullets absolute left-1/2 bottom-6 -translate-x-1/2 flex gap-2",
+                            children:
+                              null == d
+                                ? void 0
+                                : d.map((e, n) =>
+                                  (0, T.jsx)(
+                                    "div",
+                                    {
+                                      className:
+                                        "bullet w-2 h-2 rounded-full border transition-colors duration-500 cursor-pointer ".concat(
+                                          s === n
+                                            ? "bg-asphalt border-asphalt"
+                                            : "bg-transparent border-grey"
+                                        ),
+                                      onClick: (e) => {
+                                        var t;
+                                        e.preventDefault(),
+                                          e.stopPropagation(),
+                                          null === (t = a.current) ||
+                                          void 0 === t ||
+                                          t.slideTo(n),
+                                          o(n);
+                                      },
+                                    },
+                                    e.uid
+                                  )
+                                ),
+                          }),
                           (0, T.jsx)(nD, {
                             className:
                               "absolute r-bottom-[2.3] left-1/2 r-w-[10.7] h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-500 -translate-x-1/2 will-change-auto",
@@ -4326,64 +4326,64 @@
                     }),
                   }),
                   (null == d ? void 0 : d.length) > 1 &&
-                    (0, T.jsxs)(T.Fragment, {
-                      children: [
-                        (null === (n = a.current) || void 0 === n
-                          ? void 0
-                          : n.realIndex) !== 0 &&
-                          (0, T.jsx)("button", {
-                            className:
-                              "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
-                            onClick: (e) => {
-                              var n;
-                              e.preventDefault(),
-                                e.stopPropagation(),
-                                null === (n = a.current) ||
-                                  void 0 === n ||
-                                  n.slidePrev();
-                            },
-                            children: (0, T.jsx)("svg", {
-                              width: "13",
-                              height: "13",
-                              viewBox: "0 0 13 13",
-                              fill: "none",
-                              xmlns: "http://www.w3.org/2000/svg",
-                              className: "rotate-180",
-                              children: (0, T.jsx)("path", {
-                                d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
-                                stroke: "#222222",
-                              }),
-                            }),
+                  (0, T.jsxs)(T.Fragment, {
+                    children: [
+                      (null === (n = a.current) || void 0 === n
+                        ? void 0
+                        : n.realIndex) !== 0 &&
+                      (0, T.jsx)("button", {
+                        className:
+                          "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
+                        onClick: (e) => {
+                          var n;
+                          e.preventDefault(),
+                            e.stopPropagation(),
+                            null === (n = a.current) ||
+                            void 0 === n ||
+                            n.slidePrev();
+                        },
+                        children: (0, T.jsx)("svg", {
+                          width: "13",
+                          height: "13",
+                          viewBox: "0 0 13 13",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                          className: "rotate-180",
+                          children: (0, T.jsx)("path", {
+                            d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
+                            stroke: "#222222",
                           }),
-                        (null === (t = a.current) || void 0 === t
-                          ? void 0
-                          : t.realIndex) !==
-                          d.length - 1 &&
-                          (0, T.jsx)("button", {
-                            className:
-                              "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
-                            onClick: (e) => {
-                              var n;
-                              e.preventDefault(),
-                                e.stopPropagation(),
-                                null === (n = a.current) ||
-                                  void 0 === n ||
-                                  n.slideNext();
-                            },
-                            children: (0, T.jsx)("svg", {
-                              width: "13",
-                              height: "13",
-                              viewBox: "0 0 13 13",
-                              fill: "none",
-                              xmlns: "http://www.w3.org/2000/svg",
-                              children: (0, T.jsx)("path", {
-                                d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
-                                stroke: "#222222",
-                              }),
-                            }),
+                        }),
+                      }),
+                      (null === (t = a.current) || void 0 === t
+                        ? void 0
+                        : t.realIndex) !==
+                      d.length - 1 &&
+                      (0, T.jsx)("button", {
+                        className:
+                          "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
+                        onClick: (e) => {
+                          var n;
+                          e.preventDefault(),
+                            e.stopPropagation(),
+                            null === (n = a.current) ||
+                            void 0 === n ||
+                            n.slideNext();
+                        },
+                        children: (0, T.jsx)("svg", {
+                          width: "13",
+                          height: "13",
+                          viewBox: "0 0 13 13",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                          children: (0, T.jsx)("path", {
+                            d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
+                            stroke: "#222222",
                           }),
-                      ],
-                    }),
+                        }),
+                      }),
+                    ],
+                  }),
                 ],
               }),
             }),
@@ -4394,13 +4394,13 @@
         return (nH = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var nP = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -4416,24 +4416,24 @@
             e
           ),
           o ||
-            (o = B.createElement("path", {
-              d: "M4.29 12.466A17.629 17.629 0 0 1 3.926 12a18.902 18.902 0 0 1 2.218-2.448C7.733 8.089 9.804 6.75 12 6.75c2.196 0 4.267 1.339 5.856 2.802A18.897 18.897 0 0 1 20.074 12a18.895 18.895 0 0 1-2.218 2.448c-1.589 1.463-3.66 2.802-5.856 2.802-2.196 0-4.267-1.339-5.856-2.802a18.9 18.9 0 0 1-1.854-1.982Z",
-              stroke: "#222",
-              strokeWidth: 1.5,
-            })),
+          (o = B.createElement("path", {
+            d: "M4.29 12.466A17.629 17.629 0 0 1 3.926 12a18.902 18.902 0 0 1 2.218-2.448C7.733 8.089 9.804 6.75 12 6.75c2.196 0 4.267 1.339 5.856 2.802A18.897 18.897 0 0 1 20.074 12a18.895 18.895 0 0 1-2.218 2.448c-1.589 1.463-3.66 2.802-5.856 2.802-2.196 0-4.267-1.339-5.856-2.802a18.9 18.9 0 0 1-1.854-1.982Z",
+            stroke: "#222",
+            strokeWidth: 1.5,
+          })),
           d ||
-            (d = B.createElement("circle", {
-              cx: 12,
-              cy: 12,
-              r: 3,
-              fill: "#222",
-            }))
+          (d = B.createElement("circle", {
+            cx: 12,
+            cy: 12,
+            r: 3,
+            fill: "#222",
+          }))
         );
       });
       let nL = X()(() => t.e(3680).then(t.bind(t, 53680)), {
-          loadableGenerated: { webpack: () => [53680] },
-          ssr: !1,
-        }),
+        loadableGenerated: { webpack: () => [53680] },
+        ssr: !1,
+      }),
         nR = (0, Z.WQ)("ui")((e) => {
           var n, t;
           let { entry: l, ui: i } = e,
@@ -4520,16 +4520,16 @@
                       children:
                         d && m
                           ? (0, T.jsx)("div", {
-                              className:
-                                "flex justify-center items-center min-h-[50vh]",
-                              children: (0, T.jsx)(nT.A, {}),
-                            })
+                            className:
+                              "flex justify-center items-center min-h-[50vh]",
+                            children: (0, T.jsx)(nT.A, {}),
+                          })
                           : (null == u
-                              ? void 0
-                              : null === (n = u.entries) || void 0 === n
+                            ? void 0
+                            : null === (n = u.entries) || void 0 === n
                               ? void 0
                               : n.length) > 0
-                          ? (0, T.jsxs)(T.Fragment, {
+                            ? (0, T.jsxs)(T.Fragment, {
                               children: [
                                 (0, T.jsx)("div", {
                                   className:
@@ -4538,8 +4538,8 @@
                                     null == u
                                       ? void 0
                                       : null === (t = u.entries) || void 0 === t
-                                      ? void 0
-                                      : t.map((e, n) =>
+                                        ? void 0
+                                        : t.map((e, n) =>
                                           (0, T.jsx)(
                                             nB,
                                             { item: e, index: n },
@@ -4553,7 +4553,7 @@
                                 }),
                               ],
                             })
-                          : (0, T.jsx)("div", {
+                            : (0, T.jsx)("div", {
                               className:
                                 "flex justify-center items-center min-h-[50vh]",
                               children: (0, T.jsx)("p", {
@@ -4575,21 +4575,21 @@
             r = b[i];
           return r
             ? (0, T.jsxs)("div", {
-                className: "w-full",
-                children: [
-                  (0, T.jsx)(nm, { globals: n }),
-                  (0, T.jsx)(r, { entry: l }),
-                ],
-              })
+              className: "w-full",
+              children: [
+                (0, T.jsx)(nm, { globals: n }),
+                (0, T.jsx)(r, { entry: l }),
+              ],
+            })
             : (0, T.jsxs)("div", {
-                className:
-                  "flex items-center justify-center text-center h2-text h-screen container full",
-                children: [
-                  "You need to create a component for this list type (",
-                  i,
-                  ")",
-                ],
-              });
+              className:
+                "flex items-center justify-center text-center h2-text h-screen container full",
+              children: [
+                "You need to create a component for this list type (",
+                i,
+                ")",
+              ],
+            });
         };
       function nQ() {
         let e = (0, $._)([
@@ -4605,162 +4605,162 @@
       let nU = (0, E.J1)(nQ());
       var nq = t(91323);
       let nz = {
-          textBlock: (e) => {
-            let { module: n } = e,
-              { title: t, text: l, button: i, button2: r } = n;
-            return (0, T.jsxs)("div", {
-              id: "module-".concat(n.uid),
-              className: "page-builder-block ".concat(
-                n.typeHandle,
-                "-block module-margin flex flex-col lg:flex-row items-start r-gap-12"
-              ),
-              children: [
-                t &&
-                  (0, T.jsx)("h2", {
-                    className: "h2-text-alt flex-1",
-                    children: t,
+        textBlock: (e) => {
+          let { module: n } = e,
+            { title: t, text: l, button: i, button2: r } = n;
+          return (0, T.jsxs)("div", {
+            id: "module-".concat(n.uid),
+            className: "page-builder-block ".concat(
+              n.typeHandle,
+              "-block module-margin flex flex-col lg:flex-row items-start r-gap-12"
+            ),
+            children: [
+              t &&
+              (0, T.jsx)("h2", {
+                className: "h2-text-alt flex-1",
+                children: t,
+              }),
+              (0, T.jsxs)("div", {
+                className:
+                  "wysiwyg r-max-w-[40] flex-1 text-asphalt r-text-lg",
+                children: [
+                  (0, T.jsx)(eK.A, { content: l }),
+                  (i || r) &&
+                  (0, T.jsxs)("div", {
+                    className: "flex flex-row r-gap-4 mt-4",
+                    children: [
+                      (0, T.jsx)(e0.A, { linkProps: i }),
+                      (0, T.jsx)(z.A, { linkProps: r }),
+                    ],
                   }),
-                (0, T.jsxs)("div", {
-                  className:
-                    "wysiwyg r-max-w-[40] flex-1 text-asphalt r-text-lg",
-                  children: [
-                    (0, T.jsx)(eK.A, { content: l }),
-                    (i || r) &&
-                      (0, T.jsxs)("div", {
-                        className: "flex flex-row r-gap-4 mt-4",
-                        children: [
-                          (0, T.jsx)(e0.A, { linkProps: i }),
-                          (0, T.jsx)(z.A, { linkProps: r }),
-                        ],
-                      }),
-                  ],
-                }),
-              ],
-            });
-          },
-          accordion: (e) => {
-            var n, t;
-            let { module: l } = e,
-              [i, r] = (0, B.useState)(
-                null === (n = l.items) || void 0 === n
-                  ? void 0
-                  : n.map(() => l.opened)
-              );
-            return (0, T.jsx)("div", {
-              id: "module-".concat(l.uid),
-              className: "page-builder-block ".concat(
-                l.typeHandle,
-                "-block module-margin"
-              ),
-              children:
-                null === (t = l.items) || void 0 === t
-                  ? void 0
-                  : t.map((e, n) =>
-                      (0, T.jsxs)(
-                        "div",
-                        {
+                ],
+              }),
+            ],
+          });
+        },
+        accordion: (e) => {
+          var n, t;
+          let { module: l } = e,
+            [i, r] = (0, B.useState)(
+              null === (n = l.items) || void 0 === n
+                ? void 0
+                : n.map(() => l.opened)
+            );
+          return (0, T.jsx)("div", {
+            id: "module-".concat(l.uid),
+            className: "page-builder-block ".concat(
+              l.typeHandle,
+              "-block module-margin"
+            ),
+            children:
+              null === (t = l.items) || void 0 === t
+                ? void 0
+                : t.map((e, n) =>
+                  (0, T.jsxs)(
+                    "div",
+                    {
+                      className:
+                        "accordion-item py-3 border-b transition-colors duration-300 ".concat(
+                          i[n] ? "border-asphalt" : "border-grey-border"
+                        ),
+                      children: [
+                        (0, T.jsxs)("button", {
                           className:
-                            "accordion-item py-3 border-b transition-colors duration-300 ".concat(
-                              i[n] ? "border-asphalt" : "border-grey-border"
-                            ),
-                          children: [
-                            (0, T.jsxs)("button", {
-                              className:
-                                "flex items-center justify-between w-full text-left text-asphalt r-text-xl gap-4",
-                              type: "button",
-                              onClick: () =>
-                                r((e) => {
-                                  let t = [...e];
-                                  return (t[n] = !t[n]), t;
-                                }),
-                              children: [
-                                (0, T.jsx)("span", { children: e.title }),
-                                (0, T.jsx)(eW.P.div, {
-                                  animate: { rotate: i[n] ? 135 : 0 },
-                                  children: (0, T.jsx)(nq.A, {
-                                    className:
-                                      "w-8 stroke-current flex-shrink-0",
-                                  }),
-                                }),
-                              ],
+                            "flex items-center justify-between w-full text-left text-asphalt r-text-xl gap-4",
+                          type: "button",
+                          onClick: () =>
+                            r((e) => {
+                              let t = [...e];
+                              return (t[n] = !t[n]), t;
                             }),
+                          children: [
+                            (0, T.jsx)("span", { children: e.title }),
                             (0, T.jsx)(eW.P.div, {
-                              className:
-                                "wysiwyg text-asphalt r-text-base overflow-hidden r-max-w-[40] ml-auto",
-                              initial: l.opened ? "open" : "collapsed",
-                              animate: i[n] ? "open" : "collapsed",
-                              variants: {
-                                open: { height: "auto", opacity: 1 },
-                                collapsed: { height: 0, opacity: 0 },
-                              },
-                              transition: {
-                                duration: 0.5,
-                                ease: [0.04, 0.62, 0.23, 0.98],
-                              },
-                              children: (0, T.jsx)("div", {
-                                className: "py-8 sm:r-pb-[7] sm:r-pt-[4]",
-                                children: (0, T.jsx)(eK.A, { content: e.text }),
+                              animate: { rotate: i[n] ? 135 : 0 },
+                              children: (0, T.jsx)(nq.A, {
+                                className:
+                                  "w-8 stroke-current flex-shrink-0",
                               }),
                             }),
                           ],
-                        },
-                        e.uid
-                      )
-                    ),
-            });
-          },
-          cookiebotIntegration: (e) => {
-            let { module: n } = e,
-              t = (0, B.useRef)(null);
-            return (
-              (0, B.useEffect)(() => {
-                let e = new DOMParser()
-                    .parseFromString(n.script, "text/html")
-                    .querySelector("script"),
-                  l = null == e ? void 0 : e.getAttribute("src"),
-                  i = null == e ? void 0 : e.getAttribute("id");
-                if (l) {
-                  let e = document.createElement("script");
-                  (e.src = l),
-                    (e.async = !0),
-                    (e.id = i),
-                    t.current.appendChild(e);
-                }
-              }, [n.script]),
-              (0, T.jsxs)("div", {
-                className: "cookiebot-integration module-margin",
-                children: [
-                  n.title &&
-                    (0, T.jsx)("h2", {
-                      className: "h2-text-alt flex-1 r-mb-10",
-                      children: n.title,
-                    }),
-                  (0, T.jsx)("div", {
-                    className:
-                      "wysiwyg r-max-w-[67.5rem] flex-1 text-asphalt r-text-lg",
-                    id: "cookie-content",
-                    ref: t,
-                  }),
-                ],
-              })
-            );
-          },
-          buttons: (e) => {
-            let { module: n } = e,
-              { button: t, button2: l } = n;
-            return (0, T.jsxs)("div", {
-              id: "module-".concat(n.uid),
-              className: "page-builder-block ".concat(
-                n.typeHandle,
-                "-block module-margin flex flex-row items-center r-gap-4"
-              ),
-              children: [
-                (0, T.jsx)(e0.A, { linkProps: t }),
-                (0, T.jsx)(z.A, { linkProps: l }),
-              ],
-            });
-          },
+                        }),
+                        (0, T.jsx)(eW.P.div, {
+                          className:
+                            "wysiwyg text-asphalt r-text-base overflow-hidden r-max-w-[40] ml-auto",
+                          initial: l.opened ? "open" : "collapsed",
+                          animate: i[n] ? "open" : "collapsed",
+                          variants: {
+                            open: { height: "auto", opacity: 1 },
+                            collapsed: { height: 0, opacity: 0 },
+                          },
+                          transition: {
+                            duration: 0.5,
+                            ease: [0.04, 0.62, 0.23, 0.98],
+                          },
+                          children: (0, T.jsx)("div", {
+                            className: "py-8 sm:r-pb-[7] sm:r-pt-[4]",
+                            children: (0, T.jsx)(eK.A, { content: e.text }),
+                          }),
+                        }),
+                      ],
+                    },
+                    e.uid
+                  )
+                ),
+          });
         },
+        cookiebotIntegration: (e) => {
+          let { module: n } = e,
+            t = (0, B.useRef)(null);
+          return (
+            (0, B.useEffect)(() => {
+              let e = new DOMParser()
+                .parseFromString(n.script, "text/html")
+                .querySelector("script"),
+                l = null == e ? void 0 : e.getAttribute("src"),
+                i = null == e ? void 0 : e.getAttribute("id");
+              if (l) {
+                let e = document.createElement("script");
+                (e.src = l),
+                  (e.async = !0),
+                  (e.id = i),
+                  t.current.appendChild(e);
+              }
+            }, [n.script]),
+            (0, T.jsxs)("div", {
+              className: "cookiebot-integration module-margin",
+              children: [
+                n.title &&
+                (0, T.jsx)("h2", {
+                  className: "h2-text-alt flex-1 r-mb-10",
+                  children: n.title,
+                }),
+                (0, T.jsx)("div", {
+                  className:
+                    "wysiwyg r-max-w-[67.5rem] flex-1 text-asphalt r-text-lg",
+                  id: "cookie-content",
+                  ref: t,
+                }),
+              ],
+            })
+          );
+        },
+        buttons: (e) => {
+          let { module: n } = e,
+            { button: t, button2: l } = n;
+          return (0, T.jsxs)("div", {
+            id: "module-".concat(n.uid),
+            className: "page-builder-block ".concat(
+              n.typeHandle,
+              "-block module-margin flex flex-row items-center r-gap-4"
+            ),
+            children: [
+              (0, T.jsx)(e0.A, { linkProps: t }),
+              (0, T.jsx)(z.A, { linkProps: l }),
+            ],
+          });
+        },
+      },
         nF = (e) => {
           let { globals: n, entry: t } = e,
             { currentSite: l, currentRoute: i } = n,
@@ -4779,10 +4779,10 @@
               null == a
                 ? void 0
                 : a.map((e) => {
-                    let { typeHandle: n } = e,
-                      t = nz[n];
-                    return t ? (0, T.jsx)(t, { module: e }, e.uid) : null;
-                  }),
+                  let { typeHandle: n } = e,
+                    t = nz[n];
+                  return t ? (0, T.jsx)(t, { module: e }, e.uid) : null;
+                }),
           });
         },
         nG = (e) => {
@@ -4837,14 +4837,14 @@
                 children: (0, T.jsx)(eK.A, { content: i }),
               }),
               (null == r ? void 0 : r.href) ||
-                ((null == a ? void 0 : a.href) &&
-                  (0, T.jsxs)("div", {
-                    className: "flex r-mt-10 items-center gap-4 justify-center",
-                    children: [
-                      (0, T.jsx)(e0.A, { linkProps: r }),
-                      (0, T.jsx)(z.A, { linkProps: a }),
-                    ],
-                  })),
+              ((null == a ? void 0 : a.href) &&
+                (0, T.jsxs)("div", {
+                  className: "flex r-mt-10 items-center gap-4 justify-center",
+                  children: [
+                    (0, T.jsx)(e0.A, { linkProps: r }),
+                    (0, T.jsx)(z.A, { linkProps: a }),
+                  ],
+                })),
             ],
           });
         };
@@ -5008,42 +5008,42 @@
         return (to = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var td = (0, B.forwardRef)(function (e, n) {
-          return B.createElement(
-            "svg",
-            to(
-              {
-                width: 8,
-                height: 8,
-                fill: "none",
-                xmlns: "http://www.w3.org/2000/svg",
-                ref: n,
-              },
-              e
-            ),
-            c ||
-              (c = B.createElement("path", {
-                d: "m1.171 6.828 5.657-5.656m0 0H1.171m5.657 0v5.656",
-                stroke: "#222",
-              }))
-          );
-        }),
+        return B.createElement(
+          "svg",
+          to(
+            {
+              width: 8,
+              height: 8,
+              fill: "none",
+              xmlns: "http://www.w3.org/2000/svg",
+              ref: n,
+            },
+            e
+          ),
+          c ||
+          (c = B.createElement("path", {
+            d: "m1.171 6.828 5.657-5.656m0 0H1.171m5.657 0v5.656",
+            stroke: "#222",
+          }))
+        );
+      }),
         tc = t(57707);
       let tu = function (e) {
-          let n =
-            arguments.length > 1 && void 0 !== arguments[1]
-              ? arguments[1]
-              : "Europe/Oslo";
-          return nv.c9.fromISO(e, { zone: n }).toFormat("dd.MM.yyyy");
-        },
+        let n =
+          arguments.length > 1 && void 0 !== arguments[1]
+            ? arguments[1]
+            : "Europe/Oslo";
+        return nv.c9.fromISO(e, { zone: n }).toFormat("dd.MM.yyyy");
+      },
         tm = {
           accordion: (e) => {
             let { block: n, group: t } = e,
@@ -5122,42 +5122,42 @@
                                         " r-pt-4 r-pb-8 flex flex-col r-gap-4",
                                       children: [
                                         e.text &&
-                                          (0, T.jsx)("div", {
-                                            className:
-                                              "wysiwyg text-grey r-text-sm",
-                                            children: (0, T.jsx)(eK.A, {
-                                              content: e.text,
-                                            }),
+                                        (0, T.jsx)("div", {
+                                          className:
+                                            "wysiwyg text-grey r-text-sm",
+                                          children: (0, T.jsx)(eK.A, {
+                                            content: e.text,
                                           }),
+                                        }),
                                         (null === (n = e.links) || void 0 === n
                                           ? void 0
                                           : n.length) > 0 &&
-                                          (0, T.jsx)("div", {
-                                            className:
-                                              "flex flex-wrap r-gap-x-[1.81] gap-y-4",
-                                            children: e.links.map((e) =>
-                                              (0, T.jsxs)(
-                                                e8.A,
-                                                {
-                                                  target: e.itemLink.target,
-                                                  href: e.itemLink.href,
-                                                  title: e.itemLink.title,
-                                                  className:
-                                                    "text-asphalt r-text-sm inline-flex gap-2 items-center border-b border-grey-border pb-1 transition-colors duration-300 hover:text-forest hover:border-forest",
-                                                  children: [
-                                                    e.itemLink.text,
-                                                    "_blank" ===
-                                                      e.itemLink.target &&
-                                                      (0, T.jsx)(td, {
-                                                        className:
-                                                          "w-4 ml-1 inline-block",
-                                                      }),
-                                                  ],
-                                                },
-                                                e.id
-                                              )
-                                            ),
-                                          }),
+                                        (0, T.jsx)("div", {
+                                          className:
+                                            "flex flex-wrap r-gap-x-[1.81] gap-y-4",
+                                          children: e.links.map((e) =>
+                                            (0, T.jsxs)(
+                                              e8.A,
+                                              {
+                                                target: e.itemLink.target,
+                                                href: e.itemLink.href,
+                                                title: e.itemLink.title,
+                                                className:
+                                                  "text-asphalt r-text-sm inline-flex gap-2 items-center border-b border-grey-border pb-1 transition-colors duration-300 hover:text-forest hover:border-forest",
+                                                children: [
+                                                  e.itemLink.text,
+                                                  "_blank" ===
+                                                  e.itemLink.target &&
+                                                  (0, T.jsx)(td, {
+                                                    className:
+                                                      "w-4 ml-1 inline-block",
+                                                  }),
+                                                ],
+                                              },
+                                              e.id
+                                            )
+                                          ),
+                                        }),
                                       ],
                                     }),
                                   }),
@@ -5222,33 +5222,94 @@
                       null == a
                         ? void 0
                         : a.map((e, n) =>
-                            (0, T.jsxs)(
-                              "tr",
-                              {
-                                className: "flex flex-col sm:table-row",
-                                children: [
-                                  (0, T.jsx)("td", {
-                                    className: "!px-0 !pb-0 sm:!pr-3 sm:!pb-3",
-                                    children: tu(e.date),
-                                  }),
-                                  (0, T.jsx)("td", {
-                                    className:
-                                      "!px-0 !pb-0 !pt-0 sm:!pr-3 sm:!pb-3",
-                                    children: e.title,
-                                  }),
-                                  (0, T.jsx)("td", {
-                                    className:
-                                      "text-left sm:text-right !px-0 sm:!pr-3",
-                                    children: e.showAddToCalendar
-                                      ? (0, T.jsx)(z.A, {
+                          (0, T.jsxs)(
+                            "tr",
+                            {
+                              className: "flex flex-col sm:table-row",
+                              children: [
+                                (0, T.jsx)("td", {
+                                  className: "!px-0 !pb-0 sm:!pr-3 sm:!pb-3",
+                                  children: tu(e.date),
+                                }),
+                                (0, T.jsx)("td", {
+                                  className:
+                                    "!px-0 !pb-0 !pt-0 sm:!pr-3 sm:!pb-3",
+                                  children: e.title,
+                                }),
+                                (0, T.jsx)("td", {
+                                  className:
+                                    "text-left sm:text-right !px-0 sm:!pr-3",
+                                  children: e.showAddToCalendar
+                                    ? (0, T.jsx)(z.A, {
+                                      type: "button",
+                                      external: !0,
+                                      onClick: () => {
+                                        let n = nv.c9
+                                          .fromISO(e.date)
+                                          .setLocale("nb-NO")
+                                          .setZone("Europe/Oslo")
+                                          .setLocale("nb-NO"),
+                                          t = {
+                                            title: e.title,
+                                            start: [
+                                              n.year,
+                                              n.month,
+                                              n.day,
+                                              n.hour,
+                                              n.minute,
+                                            ],
+                                          };
+                                        tc.lh(t, (e, n) => {
+                                          if (e) {
+                                            console.log(e);
+                                            return;
+                                          }
+                                          window.open(
+                                            "data:text/calendar;charset=utf-8,".concat(
+                                              encodeURIComponent(n)
+                                            )
+                                          );
+                                        });
+                                      },
+                                      children: i("add_to_calendar"),
+                                    })
+                                    : null,
+                                }),
+                              ],
+                            },
+                            n
+                          )
+                        ),
+                      (0, T.jsx)(nh.N, {
+                        children:
+                          t &&
+                          (null == s
+                            ? void 0
+                            : s.map((e, n) =>
+                              (0, T.jsxs)(
+                                eW.P.tr,
+                                {
+                                  initial: { opacity: 0 },
+                                  animate: { opacity: 1 },
+                                  exit: { opacity: 0 },
+                                  layout: "size",
+                                  children: [
+                                    (0, T.jsx)("td", {
+                                      children: tu(e.date),
+                                    }),
+                                    (0, T.jsx)("td", { children: e.title }),
+                                    (0, T.jsx)("td", {
+                                      align: "right",
+                                      children: e.showAddToCalendar
+                                        ? (0, T.jsx)(z.A, {
                                           type: "button",
                                           external: !0,
                                           onClick: () => {
                                             let n = nv.c9
-                                                .fromISO(e.date)
-                                                .setLocale("nb-NO")
-                                                .setZone("Europe/Oslo")
-                                                .setLocale("nb-NO"),
+                                              .fromISO(e.date)
+                                              .setLocale("nb-NO")
+                                              .setZone("Europe/Oslo")
+                                              .setLocale("nb-NO"),
                                               t = {
                                                 title: e.title,
                                                 start: [
@@ -5273,89 +5334,28 @@
                                           },
                                           children: i("add_to_calendar"),
                                         })
-                                      : null,
-                                  }),
-                                ],
-                              },
-                              n
-                            )
-                          ),
-                      (0, T.jsx)(nh.N, {
-                        children:
-                          t &&
-                          (null == s
-                            ? void 0
-                            : s.map((e, n) =>
-                                (0, T.jsxs)(
-                                  eW.P.tr,
-                                  {
-                                    initial: { opacity: 0 },
-                                    animate: { opacity: 1 },
-                                    exit: { opacity: 0 },
-                                    layout: "size",
-                                    children: [
-                                      (0, T.jsx)("td", {
-                                        children: tu(e.date),
-                                      }),
-                                      (0, T.jsx)("td", { children: e.title }),
-                                      (0, T.jsx)("td", {
-                                        align: "right",
-                                        children: e.showAddToCalendar
-                                          ? (0, T.jsx)(z.A, {
-                                              type: "button",
-                                              external: !0,
-                                              onClick: () => {
-                                                let n = nv.c9
-                                                    .fromISO(e.date)
-                                                    .setLocale("nb-NO")
-                                                    .setZone("Europe/Oslo")
-                                                    .setLocale("nb-NO"),
-                                                  t = {
-                                                    title: e.title,
-                                                    start: [
-                                                      n.year,
-                                                      n.month,
-                                                      n.day,
-                                                      n.hour,
-                                                      n.minute,
-                                                    ],
-                                                  };
-                                                tc.lh(t, (e, n) => {
-                                                  if (e) {
-                                                    console.log(e);
-                                                    return;
-                                                  }
-                                                  window.open(
-                                                    "data:text/calendar;charset=utf-8,".concat(
-                                                      encodeURIComponent(n)
-                                                    )
-                                                  );
-                                                });
-                                              },
-                                              children: i("add_to_calendar"),
-                                            })
-                                          : null,
-                                      }),
-                                    ],
-                                  },
-                                  n
-                                )
-                              )),
+                                        : null,
+                                    }),
+                                  ],
+                                },
+                                n
+                              )
+                            )),
                       }),
                       (null == s ? void 0 : s.length) > 0 &&
-                        (0, T.jsx)("tr", {
-                          className: "!border-b-0",
-                          children: (0, T.jsx)("td", {
-                            colSpan: n.table.columns.length,
-                            children: (0, T.jsx)("button", {
-                              className: "text-asphalt underline",
-                              onClick: () => l(!t),
-                              children: t
-                                ? i("showLess")
-                                : i("showMore", { count: s.length }),
-                            }),
+                      (0, T.jsx)("tr", {
+                        className: "!border-b-0",
+                        children: (0, T.jsx)("td", {
+                          colSpan: n.table.columns.length,
+                          children: (0, T.jsx)("button", {
+                            className: "text-asphalt underline",
+                            onClick: () => l(!t),
+                            children: t
+                              ? i("showLess")
+                              : i("showMore", { count: s.length }),
                           }),
                         }),
+                      }),
                     ],
                   }),
                 ],
@@ -5369,37 +5369,37 @@
               className: "contact-block r-max-w-[26.25] w-full",
               children: [
                 t.title &&
-                  (0, T.jsx)("h3", {
-                    className: "h6-text mb-3",
-                    children: t.title,
-                  }),
+                (0, T.jsx)("h3", {
+                  className: "h6-text mb-3",
+                  children: t.title,
+                }),
                 (0, T.jsx)("div", {
                   className: "contact-rows body-text",
                   children:
                     null === (n = t.contactRows) || void 0 === n
                       ? void 0
                       : n.map((e) =>
-                          (0, T.jsxs)(
-                            "div",
-                            {
-                              className:
-                                "contact-row r-py-6 border-t border-grey flex r-gap-5",
-                              children: [
-                                (0, T.jsx)("div", {
-                                  className: "contact-row-title r-w-[5.625]",
-                                  children: e.title,
+                        (0, T.jsxs)(
+                          "div",
+                          {
+                            className:
+                              "contact-row r-py-6 border-t border-grey flex r-gap-5",
+                            children: [
+                              (0, T.jsx)("div", {
+                                className: "contact-row-title r-w-[5.625]",
+                                children: e.title,
+                              }),
+                              (0, T.jsx)("div", {
+                                className: "contact-row-text flex-1 wysiwyg",
+                                children: (0, T.jsx)(eK.A, {
+                                  content: e.text,
                                 }),
-                                (0, T.jsx)("div", {
-                                  className: "contact-row-text flex-1 wysiwyg",
-                                  children: (0, T.jsx)(eK.A, {
-                                    content: e.text,
-                                  }),
-                                }),
-                              ],
-                            },
-                            e.uid
-                          )
-                        ),
+                              }),
+                            ],
+                          },
+                          e.uid
+                        )
+                      ),
                 }),
               ],
             });
@@ -5410,10 +5410,10 @@
               className: "links-block r-max-w-[26.25] w-full",
               children: [
                 n.title &&
-                  (0, T.jsx)("p", {
-                    className: "link-description body-text r-mb-6",
-                    children: n.title,
-                  }),
+                (0, T.jsx)("p", {
+                  className: "link-description body-text r-mb-6",
+                  children: n.title,
+                }),
                 (0, T.jsx)(z.A, { linkProps: n.button }),
               ],
             });
@@ -5440,8 +5440,8 @@
                         null === (l = i.table) || void 0 === l
                           ? void 0
                           : null === (t = l.columns) || void 0 === t
-                          ? void 0
-                          : t.map((e) =>
+                            ? void 0
+                            : t.map((e) =>
                               (0, T.jsx)(
                                 "th",
                                 {
@@ -5463,76 +5463,76 @@
                       null == d
                         ? void 0
                         : d.map((e, n) =>
-                            (0, T.jsx)(
-                              "tr",
-                              {
-                                children: e.map((e, n) =>
-                                  (0, T.jsx)(
-                                    "td",
-                                    {
-                                      className: "".concat(
-                                        "right" === i.table.columns[n].align
-                                          ? "text-right"
-                                          : ""
-                                      ),
-                                      children: e,
-                                    },
-                                    n
-                                  )
-                                ),
-                              },
-                              n
-                            )
-                          ),
+                          (0, T.jsx)(
+                            "tr",
+                            {
+                              children: e.map((e, n) =>
+                                (0, T.jsx)(
+                                  "td",
+                                  {
+                                    className: "".concat(
+                                      "right" === i.table.columns[n].align
+                                        ? "text-right"
+                                        : ""
+                                    ),
+                                    children: e,
+                                  },
+                                  n
+                                )
+                              ),
+                            },
+                            n
+                          )
+                        ),
                       (0, T.jsx)(nh.N, {
                         children:
                           r &&
                           (null == c
                             ? void 0
                             : c.map((e, n) =>
-                                (0, T.jsx)(
-                                  eW.P.tr,
-                                  {
-                                    initial: { opacity: 0 },
-                                    animate: { opacity: 1 },
-                                    exit: { opacity: 0 },
-                                    layout: "size",
-                                    onAnimationComplete: () => {
-                                      Q().refresh();
-                                    },
-                                    children: e.map((e, n) =>
-                                      (0, T.jsx)(
-                                        "td",
-                                        {
-                                          className: "".concat(
-                                            "right" === i.table.columns[n].align
-                                              ? "text-right"
-                                              : ""
-                                          ),
-                                          children: e,
-                                        },
-                                        n
-                                      )
-                                    ),
+                              (0, T.jsx)(
+                                eW.P.tr,
+                                {
+                                  initial: { opacity: 0 },
+                                  animate: { opacity: 1 },
+                                  exit: { opacity: 0 },
+                                  layout: "size",
+                                  onAnimationComplete: () => {
+                                    Q().refresh();
                                   },
-                                  n
-                                )
-                              )),
+                                  children: e.map((e, n) =>
+                                    (0, T.jsx)(
+                                      "td",
+                                      {
+                                        className: "".concat(
+                                          "right" === i.table.columns[n].align
+                                            ? "text-right"
+                                            : ""
+                                        ),
+                                        children: e,
+                                      },
+                                      n
+                                    )
+                                  ),
+                                },
+                                n
+                              )
+                            )),
                       }),
                       (null == c ? void 0 : c.length) > 0 &&
-                        (0, T.jsx)("tr", {
-                          className: "!border-b-0",
-                          children: (0, T.jsx)("td", {
-                            colSpan: i.table.columns.length,
-                            children: (0, T.jsx)("button", {
-                              className: "text-asphalt underline",
-                              onClick: () => a(!r),
-                              children: r
-                                ? s("showLess")
-                                : s("showMore", { count: c.length }),
-                            }),
+                      (0, T.jsx)("tr", {
+                        className: "!border-b-0",
+                        children: (0, T.jsx)("td", {
+                          colSpan: i.table.columns.length,
+                          children: (0, T.jsx)("button", {
+                            className: "text-asphalt underline",
+                            onClick: () => a(!r),
+                            children: r
+                              ? s("showLess")
+                              : s("showMore", { count: c.length }),
                           }),
                         }),
+                      }),
                     ],
                   }),
                 ],
@@ -5544,233 +5544,233 @@
         th = t(77969),
         tg = t(76852);
       let tx = {
-          text: (e) => {
-            let { module: n } = e;
-            return (0, T.jsx)(ts.A, { module: n, anchor: n.anchor });
-          },
-          layout: (e) => {
-            var n;
-            let { module: t } = e,
-              [l, i] = (0, B.useState)(0),
-              r = t.blocks.find(
-                (e) => "accordion" === e.typeHandle && e.groups.length > 1
-              );
-            return (0, T.jsxs)("div", {
-              id: "module-".concat(t.uid),
-              className: "page-builder-block ".concat(
-                t.typeHandle,
-                "-block container full module-margin"
-              ),
-              "data-anchor": t.anchor,
-              children: [
-                t.title &&
-                  (0, T.jsxs)("h2", {
-                    className: "h2-text-alt text-asphalt r-mb-10 sm:r-mb-20",
-                    children: [
-                      (0, T.jsx)(F.A, { children: t.title }),
-                      (0, T.jsx)(eW.P.div, {
-                        className:
-                          "w-full h-[1px] bg-grey-border r-mt-5 origin-left",
-                        variants: {
-                          hidden: { scaleX: 0 },
-                          visible: { scaleX: 1 },
-                        },
-                        transition: {
-                          duration: 1.5,
-                          ease: [0.04, 0.62, 0.23, 0.98],
-                          delay: 0.2,
-                        },
-                        initial: "hidden",
-                        whileInView: "visible",
-                        viewport: { once: !0, threshold: 1 },
-                      }),
-                    ],
-                  }),
-                (0, T.jsxs)("div", {
-                  className:
-                    "flex flex-col lg:flex-row items-start justify-between r-gap-10",
-                  children: [
-                    r &&
-                      (0, T.jsx)("div", {
-                        className: "flex items-center gap-3 self-start r-mb-4",
-                        children: r.groups.map((e, n) =>
-                          (0, T.jsxs)(
-                            "button",
-                            {
-                              type: "button",
-                              onClick: () => i(n),
-                              className:
-                                "text-sm text-left px-6 h-[3.25rem] inline-flex items-center rounded-button transition-colors duration-300  bg-white border border-forest overflow-hidden isolate relative hover:bg-sand-light ".concat(
-                                  l === n ? "text-white" : "text-forest"
-                                ),
-                              children: [
-                                e.title,
-                                (0, T.jsx)(eW.P.div, {
-                                  className:
-                                    "absolute left-0 top-0 w-full h-full bg-forest rounded-button -z-10",
-                                  initial: { x: l > n ? "-100%" : "100%" },
-                                  animate: {
-                                    x: l === n ? 0 : l > n ? "100%" : "-100%",
-                                  },
-                                }),
-                              ],
-                            },
-                            e.uid
-                          )
-                        ),
-                      }),
-                    t.text &&
-                      (0, T.jsx)("div", {
-                        className:
-                          "wysiwyg r-text-[1] flex-1 r-max-w-[26.25] text-grey",
-                        children: (0, T.jsx)(eK.A, { content: t.text }),
-                      }),
-                    (0, T.jsx)("div", {
-                      className:
-                        "max-w-full w-full sm:w-auto sm:ml-auto flex-1 flex flex-col items-end r-gap-10",
-                      children:
-                        null === (n = t.blocks) || void 0 === n
-                          ? void 0
-                          : n.map((e) => {
-                              let { typeHandle: n } = e,
-                                t = tm[n];
-                              return t
-                                ? (0, T.jsx)(t, { block: e, group: l }, e.uid)
-                                : null;
-                            }),
-                    }),
-                  ],
-                }),
-              ],
-            });
-          },
-          banner: (e) => {
-            let { module: n } = e;
-            return (0, T.jsx)(tp.A, { module: n, anchor: n.anchor });
-          },
-          people: (e) => {
-            let { module: n } = e,
-              [t, l] = (0, B.useState)(null),
-              [i] = (0, th._)(ec._[0].query, {
-                onCompleted: (e) => {
-                  var t;
-                  let i = (null == e ? void 0 : e.entries) || [];
-                  if (
-                    (null === (t = n.category) || void 0 === t
-                      ? void 0
-                      : t.length) > 1
-                  ) {
-                    let e = [];
-                    n.category.forEach((n) => {
-                      e.push({
-                        id: n.id,
-                        uid: n.uid,
-                        title: n.title,
-                        people: i.filter((e) =>
-                          e.category.some((e) => n.id === e.id)
-                        ),
-                      });
-                    }),
-                      l(e);
-                  } else l([{ id: null, uid: null, title: null, people: i }]);
-                },
-              });
-            return (
-              (0, B.useEffect)(() => {
-                var e, t;
-                (null === (e = n.people) || void 0 === e
-                  ? void 0
-                  : e.length) === 0
-                  ? i({
-                      variables: {
-                        siteId: n.siteId,
-                        relatedTo:
-                          null === (t = n.category) || void 0 === t
-                            ? void 0
-                            : t.map((e) => e.id),
-                      },
-                    })
-                  : l([{ id: null, uid: null, title: null, people: n.people }]);
-              }, [n, i]),
-              (0, T.jsx)(tg.A, { module: n, items: t, anchor: n.anchor })
-            );
-          },
-          columns: (e) => {
-            let { module: n } = e;
-            return (0, T.jsxs)("div", {
-              id: "module-".concat(n.uid),
-              className: "page-builder-block ".concat(
-                n.typeHandle,
-                "-block container full module-margin"
-              ),
-              "data-anchor": n.anchor,
-              children: [
-                n.title &&
-                  (0, T.jsxs)("h2", {
-                    className: "h2-text-alt text-asphalt r-mb-10 sm:r-mb-20",
-                    children: [
-                      (0, T.jsx)(F.A, { children: n.title }),
-                      (0, T.jsx)(eW.P.div, {
-                        className:
-                          "w-full h-[1px] bg-grey-border r-mt-5 origin-left",
-                        variants: {
-                          hidden: { scaleX: 0 },
-                          visible: { scaleX: 1 },
-                        },
-                        transition: {
-                          duration: 1.5,
-                          ease: [0.04, 0.62, 0.23, 0.98],
-                          delay: 0.2,
-                        },
-                        initial: "hidden",
-                        whileInView: "visible",
-                        viewport: { once: !0, threshold: 1 },
-                      }),
-                    ],
-                  }),
-                (0, T.jsx)("div", {
-                  className: "grid grid-cols-1 sm:grid-cols-3 r-gap-[3.21]",
-                  children: n.columns.map((e) =>
-                    (0, T.jsxs)(
-                      eW.P.div,
-                      {
-                        className: "flex flex-col items-start r-gap-5",
-                        initial: { opacity: 0, y: 50 },
-                        whileInView: {
-                          opacity: 1,
-                          y: 0,
-                          transition: {
-                            duration: 0.5,
-                            ease: [0.04, 0.62, 0.23, 0.98],
-                          },
-                        },
-                        viewport: { once: !0, threshold: 0.5 },
-                        children: [
-                          e.title &&
-                            (0, T.jsx)("h3", {
-                              className: "r-text-2xl text-asphalt",
-                              children: e.title,
-                            }),
-                          e.text &&
-                            (0, T.jsx)("div", {
-                              className: "text-base text-asphalt wysiwyg",
-                              children: (0, T.jsx)(eK.A, { content: e.text }),
-                            }),
-                          e.button &&
-                            (0, T.jsx)(z.A, {
-                              linkProps: e.button,
-                              className: e.secondaryButtonStyle ? "" : "plain",
-                            }),
-                        ],
-                      },
-                      e.uid
-                    )
-                  ),
-                }),
-              ],
-            });
-          },
+        text: (e) => {
+          let { module: n } = e;
+          return (0, T.jsx)(ts.A, { module: n, anchor: n.anchor });
         },
+        layout: (e) => {
+          var n;
+          let { module: t } = e,
+            [l, i] = (0, B.useState)(0),
+            r = t.blocks.find(
+              (e) => "accordion" === e.typeHandle && e.groups.length > 1
+            );
+          return (0, T.jsxs)("div", {
+            id: "module-".concat(t.uid),
+            className: "page-builder-block ".concat(
+              t.typeHandle,
+              "-block container full module-margin"
+            ),
+            "data-anchor": t.anchor,
+            children: [
+              t.title &&
+              (0, T.jsxs)("h2", {
+                className: "h2-text-alt text-asphalt r-mb-10 sm:r-mb-20",
+                children: [
+                  (0, T.jsx)(F.A, { children: t.title }),
+                  (0, T.jsx)(eW.P.div, {
+                    className:
+                      "w-full h-[1px] bg-grey-border r-mt-5 origin-left",
+                    variants: {
+                      hidden: { scaleX: 0 },
+                      visible: { scaleX: 1 },
+                    },
+                    transition: {
+                      duration: 1.5,
+                      ease: [0.04, 0.62, 0.23, 0.98],
+                      delay: 0.2,
+                    },
+                    initial: "hidden",
+                    whileInView: "visible",
+                    viewport: { once: !0, threshold: 1 },
+                  }),
+                ],
+              }),
+              (0, T.jsxs)("div", {
+                className:
+                  "flex flex-col lg:flex-row items-start justify-between r-gap-10",
+                children: [
+                  r &&
+                  (0, T.jsx)("div", {
+                    className: "flex items-center gap-3 self-start r-mb-4",
+                    children: r.groups.map((e, n) =>
+                      (0, T.jsxs)(
+                        "button",
+                        {
+                          type: "button",
+                          onClick: () => i(n),
+                          className:
+                            "text-sm text-left px-6 h-[3.25rem] inline-flex items-center rounded-button transition-colors duration-300  bg-white border border-forest overflow-hidden isolate relative hover:bg-sand-light ".concat(
+                              l === n ? "text-white" : "text-forest"
+                            ),
+                          children: [
+                            e.title,
+                            (0, T.jsx)(eW.P.div, {
+                              className:
+                                "absolute left-0 top-0 w-full h-full bg-forest rounded-button -z-10",
+                              initial: { x: l > n ? "-100%" : "100%" },
+                              animate: {
+                                x: l === n ? 0 : l > n ? "100%" : "-100%",
+                              },
+                            }),
+                          ],
+                        },
+                        e.uid
+                      )
+                    ),
+                  }),
+                  t.text &&
+                  (0, T.jsx)("div", {
+                    className:
+                      "wysiwyg r-text-[1] flex-1 r-max-w-[26.25] text-grey",
+                    children: (0, T.jsx)(eK.A, { content: t.text }),
+                  }),
+                  (0, T.jsx)("div", {
+                    className:
+                      "max-w-full w-full sm:w-auto sm:ml-auto flex-1 flex flex-col items-end r-gap-10",
+                    children:
+                      null === (n = t.blocks) || void 0 === n
+                        ? void 0
+                        : n.map((e) => {
+                          let { typeHandle: n } = e,
+                            t = tm[n];
+                          return t
+                            ? (0, T.jsx)(t, { block: e, group: l }, e.uid)
+                            : null;
+                        }),
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+        banner: (e) => {
+          let { module: n } = e;
+          return (0, T.jsx)(tp.A, { module: n, anchor: n.anchor });
+        },
+        people: (e) => {
+          let { module: n } = e,
+            [t, l] = (0, B.useState)(null),
+            [i] = (0, th._)(ec._[0].query, {
+              onCompleted: (e) => {
+                var t;
+                let i = (null == e ? void 0 : e.entries) || [];
+                if (
+                  (null === (t = n.category) || void 0 === t
+                    ? void 0
+                    : t.length) > 1
+                ) {
+                  let e = [];
+                  n.category.forEach((n) => {
+                    e.push({
+                      id: n.id,
+                      uid: n.uid,
+                      title: n.title,
+                      people: i.filter((e) =>
+                        e.category.some((e) => n.id === e.id)
+                      ),
+                    });
+                  }),
+                    l(e);
+                } else l([{ id: null, uid: null, title: null, people: i }]);
+              },
+            });
+          return (
+            (0, B.useEffect)(() => {
+              var e, t;
+              (null === (e = n.people) || void 0 === e
+                ? void 0
+                : e.length) === 0
+                ? i({
+                  variables: {
+                    siteId: n.siteId,
+                    relatedTo:
+                      null === (t = n.category) || void 0 === t
+                        ? void 0
+                        : t.map((e) => e.id),
+                  },
+                })
+                : l([{ id: null, uid: null, title: null, people: n.people }]);
+            }, [n, i]),
+            (0, T.jsx)(tg.A, { module: n, items: t, anchor: n.anchor })
+          );
+        },
+        columns: (e) => {
+          let { module: n } = e;
+          return (0, T.jsxs)("div", {
+            id: "module-".concat(n.uid),
+            className: "page-builder-block ".concat(
+              n.typeHandle,
+              "-block container full module-margin"
+            ),
+            "data-anchor": n.anchor,
+            children: [
+              n.title &&
+              (0, T.jsxs)("h2", {
+                className: "h2-text-alt text-asphalt r-mb-10 sm:r-mb-20",
+                children: [
+                  (0, T.jsx)(F.A, { children: n.title }),
+                  (0, T.jsx)(eW.P.div, {
+                    className:
+                      "w-full h-[1px] bg-grey-border r-mt-5 origin-left",
+                    variants: {
+                      hidden: { scaleX: 0 },
+                      visible: { scaleX: 1 },
+                    },
+                    transition: {
+                      duration: 1.5,
+                      ease: [0.04, 0.62, 0.23, 0.98],
+                      delay: 0.2,
+                    },
+                    initial: "hidden",
+                    whileInView: "visible",
+                    viewport: { once: !0, threshold: 1 },
+                  }),
+                ],
+              }),
+              (0, T.jsx)("div", {
+                className: "grid grid-cols-1 sm:grid-cols-3 r-gap-[3.21]",
+                children: n.columns.map((e) =>
+                  (0, T.jsxs)(
+                    eW.P.div,
+                    {
+                      className: "flex flex-col items-start r-gap-5",
+                      initial: { opacity: 0, y: 50 },
+                      whileInView: {
+                        opacity: 1,
+                        y: 0,
+                        transition: {
+                          duration: 0.5,
+                          ease: [0.04, 0.62, 0.23, 0.98],
+                        },
+                      },
+                      viewport: { once: !0, threshold: 0.5 },
+                      children: [
+                        e.title &&
+                        (0, T.jsx)("h3", {
+                          className: "r-text-2xl text-asphalt",
+                          children: e.title,
+                        }),
+                        e.text &&
+                        (0, T.jsx)("div", {
+                          className: "text-base text-asphalt wysiwyg",
+                          children: (0, T.jsx)(eK.A, { content: e.text }),
+                        }),
+                        e.button &&
+                        (0, T.jsx)(z.A, {
+                          linkProps: e.button,
+                          className: e.secondaryButtonStyle ? "" : "plain",
+                        }),
+                      ],
+                    },
+                    e.uid
+                  )
+                ),
+              }),
+            ],
+          });
+        },
+      },
         tv = (0, Z.WQ)("ui")(
           (0, Z.PA)((e) => {
             let { globals: n, entry: t, ui: l } = e,
@@ -5814,11 +5814,11 @@
                           (t = document.querySelector(
                             '[data-anchor="'.concat(e, '"]')
                           )),
-                        t ||
+                          t ||
                           (t = document.querySelector(
                             '[data-anchor="'.concat(e.replace("#", ""), '"]')
                           )),
-                        t)
+                          t)
                       ) {
                         let i = 0;
                         if (t.dataset.offset)
@@ -5838,43 +5838,43 @@
                         }
                         l.smoother
                           ? gsap.to(l.smoother, {
-                              duration: 2,
-                              scrollTo: l.smoother.offset(
-                                t,
-                                "top ".concat(i, "px")
-                              ),
-                              ease: "power4.inOut",
-                              onComplete: () => {
-                                let t = document.querySelector(n);
+                            duration: 2,
+                            scrollTo: l.smoother.offset(
+                              t,
+                              "top ".concat(i, "px")
+                            ),
+                            ease: "power4.inOut",
+                            onComplete: () => {
+                              let t = document.querySelector(n);
+                              t ||
+                                (t = document.querySelector(
+                                  '[data-anchor="'.concat(e, '"]')
+                                )),
                                 t ||
-                                  (t = document.querySelector(
-                                    '[data-anchor="'.concat(e, '"]')
-                                  )),
-                                  t ||
-                                    (t = document.querySelector(
-                                      '[data-anchor="'.concat(
-                                        e.replace("#", ""),
-                                        '"]'
-                                      )
-                                    )),
-                                  l.smoother.scrollTop() <
-                                    l.smoother.offset(
-                                      t,
-                                      "top ".concat(i, "px")
-                                    ) &&
-                                    l.smoother.scrollTop(
-                                      l.smoother.offset(
-                                        t,
-                                        "top ".concat(i, "px")
-                                      )
-                                    );
-                              },
-                            })
+                                (t = document.querySelector(
+                                  '[data-anchor="'.concat(
+                                    e.replace("#", ""),
+                                    '"]'
+                                  )
+                                )),
+                                l.smoother.scrollTop() <
+                                l.smoother.offset(
+                                  t,
+                                  "top ".concat(i, "px")
+                                ) &&
+                                l.smoother.scrollTop(
+                                  l.smoother.offset(
+                                    t,
+                                    "top ".concat(i, "px")
+                                  )
+                                );
+                            },
+                          })
                           : gsap.to(window, {
-                              duration: 1,
-                              scrollTo: { y: t, offsetY: i },
-                              ease: "power4.inOut",
-                            });
+                            duration: 1,
+                            scrollTo: { y: t, offsetY: i },
+                            ease: "power4.inOut",
+                          });
                       }
                     }, 500);
                   }
@@ -5893,10 +5893,10 @@
                   null == s
                     ? void 0
                     : s.map((e) => {
-                        let { typeHandle: n } = e,
-                          t = tx[n];
-                        return t ? (0, T.jsx)(t, { module: e }, e.uid) : null;
-                      }),
+                      let { typeHandle: n } = e,
+                        t = tx[n];
+                      return t ? (0, T.jsx)(t, { module: e }, e.uid) : null;
+                    }),
               })
             );
           })
@@ -5976,102 +5976,102 @@
         tM = t(20750),
         t$ = t(22360);
       let tE = (e) => {
-          let n = (0, t$.y)(),
-            t = (0, H.useTranslations)(""),
-            { query: l, refine: i } = (0, tT.V)(e),
-            { status: r } = (0, tM.J)(),
-            [a, s] = (0, B.useState)(l),
-            o = (0, B.useRef)(null),
-            d = "stalled" === r;
-          function c(e) {
-            s(e),
-              i(e),
-              (null == e ? void 0 : e.length) > 3 &&
-                n({
-                  event: "site_search",
-                  searchquery: e,
-                  location: "Search page",
-                });
-          }
-          return (0, T.jsx)("div", {
-            className:
-              "flex gap-4 r-mb-8 border border-grey-border rounded-[6.25rem] r-pl-4 pr-[0.31rem] py-[0.31rem] r-text-sm",
-            children: (0, T.jsxs)("form", {
-              action: "",
-              role: "search",
-              noValidate: !0,
-              className: "w-full flex justify-between items-center gap-4",
-              onSubmit: (e) => {
-                e.preventDefault(),
-                  e.stopPropagation(),
-                  o.current && o.current.blur();
-              },
-              onReset: (e) => {
-                e.preventDefault(),
-                  e.stopPropagation(),
-                  c(""),
-                  o.current && o.current.focus();
-              },
-              children: [
-                (0, T.jsx)("svg", {
-                  width: "14",
-                  height: "14",
-                  viewBox: "0 0 14 14",
+        let n = (0, t$.y)(),
+          t = (0, H.useTranslations)(""),
+          { query: l, refine: i } = (0, tT.V)(e),
+          { status: r } = (0, tM.J)(),
+          [a, s] = (0, B.useState)(l),
+          o = (0, B.useRef)(null),
+          d = "stalled" === r;
+        function c(e) {
+          s(e),
+            i(e),
+            (null == e ? void 0 : e.length) > 3 &&
+            n({
+              event: "site_search",
+              searchquery: e,
+              location: "Search page",
+            });
+        }
+        return (0, T.jsx)("div", {
+          className:
+            "flex gap-4 r-mb-8 border border-grey-border rounded-[6.25rem] r-pl-4 pr-[0.31rem] py-[0.31rem] r-text-sm",
+          children: (0, T.jsxs)("form", {
+            action: "",
+            role: "search",
+            noValidate: !0,
+            className: "w-full flex justify-between items-center gap-4",
+            onSubmit: (e) => {
+              e.preventDefault(),
+                e.stopPropagation(),
+                o.current && o.current.blur();
+            },
+            onReset: (e) => {
+              e.preventDefault(),
+                e.stopPropagation(),
+                c(""),
+                o.current && o.current.focus();
+            },
+            children: [
+              (0, T.jsx)("svg", {
+                width: "14",
+                height: "14",
+                viewBox: "0 0 14 14",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: (0, T.jsx)("path", {
+                  d: "M13 13.2109L9.5 9.71094M11 6.21094C11 8.97236 8.76142 11.2109 6 11.2109C3.23858 11.2109 1 8.97236 1 6.21094C1 3.44951 3.23858 1.21094 6 1.21094C8.76142 1.21094 11 3.44951 11 6.21094Z",
+                  stroke: "#767572",
+                }),
+              }),
+              (0, T.jsx)("input", {
+                ref: o,
+                autoComplete: "off",
+                autoCorrect: "off",
+                autoCapitalize: "off",
+                placeholder: t("search.input"),
+                spellCheck: !1,
+                maxLength: 512,
+                type: "text",
+                className: "flex-1 r-text-sm outline-none bg-transparent",
+                value: a,
+                onChange: (e) => {
+                  c(e.currentTarget.value);
+                },
+                autoFocus: !0,
+              }),
+              (0, T.jsx)("button", {
+                type: "reset",
+                hidden: 0 === a.length || d,
+                children: (0, T.jsxs)("svg", {
+                  width: "12",
+                  height: "13",
+                  viewBox: "0 0 12 13",
                   fill: "none",
                   xmlns: "http://www.w3.org/2000/svg",
-                  children: (0, T.jsx)("path", {
-                    d: "M13 13.2109L9.5 9.71094M11 6.21094C11 8.97236 8.76142 11.2109 6 11.2109C3.23858 11.2109 1 8.97236 1 6.21094C1 3.44951 3.23858 1.21094 6 1.21094C8.76142 1.21094 11 3.44951 11 6.21094Z",
-                    stroke: "#767572",
-                  }),
+                  children: [
+                    (0, T.jsx)("path", {
+                      d: "M2 10.2109L9.99997 2.21097",
+                      stroke: "#767572",
+                    }),
+                    (0, T.jsx)("path", {
+                      d: "M2 2.21094L9.99997 10.2109",
+                      stroke: "#767572",
+                    }),
+                  ],
                 }),
-                (0, T.jsx)("input", {
-                  ref: o,
-                  autoComplete: "off",
-                  autoCorrect: "off",
-                  autoCapitalize: "off",
-                  placeholder: t("search.input"),
-                  spellCheck: !1,
-                  maxLength: 512,
-                  type: "text",
-                  className: "flex-1 r-text-sm outline-none bg-transparent",
-                  value: a,
-                  onChange: (e) => {
-                    c(e.currentTarget.value);
-                  },
-                  autoFocus: !0,
-                }),
-                (0, T.jsx)("button", {
-                  type: "reset",
-                  hidden: 0 === a.length || d,
-                  children: (0, T.jsxs)("svg", {
-                    width: "12",
-                    height: "13",
-                    viewBox: "0 0 12 13",
-                    fill: "none",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    children: [
-                      (0, T.jsx)("path", {
-                        d: "M2 10.2109L9.99997 2.21097",
-                        stroke: "#767572",
-                      }),
-                      (0, T.jsx)("path", {
-                        d: "M2 2.21094L9.99997 10.2109",
-                        stroke: "#767572",
-                      }),
-                    ],
-                  }),
-                }),
-                (0, T.jsx)("span", { hidden: !d, children: "Searching…" }),
-                (0, T.jsx)("button", {
-                  type: "submit",
-                  className:
-                    "bg-asphalt text-white rounded-[6.25rem] r-px-4 py-3 r-text-sm flex-shrink-0",
-                  children: t("search.button"),
-                }),
-              ],
-            }),
-          });
-        },
+              }),
+              (0, T.jsx)("span", { hidden: !d, children: "Searching…" }),
+              (0, T.jsx)("button", {
+                type: "submit",
+                className:
+                  "bg-asphalt text-white rounded-[6.25rem] r-px-4 py-3 r-text-sm flex-shrink-0",
+                children: t("search.button"),
+              }),
+            ],
+          }),
+        });
+      },
         tS = () => {
           let e = (0, H.useTranslations)(""),
             { indexUiState: n, results: t } = (0, tM.J)();
@@ -6219,54 +6219,54 @@
               null == n
                 ? void 0
                 : n.map((e) =>
-                    (0, T.jsxs)(
-                      "div",
-                      {
-                        className:
-                          "accordion-item py-3 border-b transition-colors duration-300 ".concat(
-                            t === e.uid
-                              ? "border-asphalt"
-                              : "border-grey-border"
-                          ),
-                        children: [
-                          (0, T.jsxs)("button", {
-                            className:
-                              "flex items-center justify-between w-full text-left text-asphalt r-text-xl gap-4",
-                            type: "button",
-                            onClick: () => l(t === e.uid ? null : e.uid),
-                            children: [
-                              (0, T.jsx)("span", { children: e.title }),
-                              (0, T.jsx)(eW.P.div, {
-                                animate: { rotate: t === e.uid ? 135 : 0 },
-                                children: (0, T.jsx)(nq.A, {
-                                  className: "w-4 stroke-current flex-shrink-0",
-                                }),
+                  (0, T.jsxs)(
+                    "div",
+                    {
+                      className:
+                        "accordion-item py-3 border-b transition-colors duration-300 ".concat(
+                          t === e.uid
+                            ? "border-asphalt"
+                            : "border-grey-border"
+                        ),
+                      children: [
+                        (0, T.jsxs)("button", {
+                          className:
+                            "flex items-center justify-between w-full text-left text-asphalt r-text-xl gap-4",
+                          type: "button",
+                          onClick: () => l(t === e.uid ? null : e.uid),
+                          children: [
+                            (0, T.jsx)("span", { children: e.title }),
+                            (0, T.jsx)(eW.P.div, {
+                              animate: { rotate: t === e.uid ? 135 : 0 },
+                              children: (0, T.jsx)(nq.A, {
+                                className: "w-4 stroke-current flex-shrink-0",
                               }),
-                            ],
-                          }),
-                          (0, T.jsx)(eW.P.div, {
-                            className:
-                              "wysiwyg text-asphalt r-text-sm overflow-hidden",
-                            initial: "collapsed",
-                            animate: t === e.uid ? "open" : "collapsed",
-                            variants: {
-                              open: { height: "auto", opacity: 1 },
-                              collapsed: { height: 0, opacity: 0 },
-                            },
-                            transition: {
-                              duration: 0.5,
-                              ease: [0.04, 0.62, 0.23, 0.98],
-                            },
-                            children: (0, T.jsx)("div", {
-                              className: "py-5",
-                              children: (0, T.jsx)(eK.A, { content: e.text }),
                             }),
+                          ],
+                        }),
+                        (0, T.jsx)(eW.P.div, {
+                          className:
+                            "wysiwyg text-asphalt r-text-sm overflow-hidden",
+                          initial: "collapsed",
+                          animate: t === e.uid ? "open" : "collapsed",
+                          variants: {
+                            open: { height: "auto", opacity: 1 },
+                            collapsed: { height: 0, opacity: 0 },
+                          },
+                          transition: {
+                            duration: 0.5,
+                            ease: [0.04, 0.62, 0.23, 0.98],
+                          },
+                          children: (0, T.jsx)("div", {
+                            className: "py-5",
+                            children: (0, T.jsx)(eK.A, { content: e.text }),
                           }),
-                        ],
-                      },
-                      e.uid
-                    )
-                  ),
+                        }),
+                      ],
+                    },
+                    e.uid
+                  )
+                ),
           });
         };
       var tP = t(27626),
@@ -6307,135 +6307,135 @@
                     null == n
                       ? void 0
                       : n.map((e) => {
-                          var n;
-                          return (0, T.jsx)(
-                            nE.qr,
-                            {
-                              children: (0, T.jsx)("div", {
-                                className:
-                                  "inner w-full py-8 md:r-py-[6.12] h-[70vh]",
-                                children: (0, T.jsx)(q.A, {
-                                  className:
-                                    "w-4/5 md:w-[50%] h-full mx-auto object-contain",
-                                  media:
-                                    null === (n = e.mediaElement) ||
-                                    void 0 === n
-                                      ? void 0
-                                      : n[0],
-                                  ratio: 1,
-                                  width: 640,
-                                  priority: !0,
-                                  showCaption: !1,
-                                }),
-                              }),
-                            },
-                            e.uid
-                          );
-                        }),
-                }),
-                (null == n ? void 0 : n.length) > 1 &&
-                  (0, T.jsxs)(T.Fragment, {
-                    children: [
-                      (0, T.jsx)("button", {
-                        className:
-                          "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
-                        children: (0, T.jsx)("svg", {
-                          width: "13",
-                          height: "13",
-                          viewBox: "0 0 13 13",
-                          fill: "none",
-                          xmlns: "http://www.w3.org/2000/svg",
-                          children: (0, T.jsx)("path", {
-                            d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
-                            stroke: "#222222",
-                          }),
-                        }),
-                      }),
-                      (0, T.jsx)("button", {
-                        className:
-                          "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
-                        children: (0, T.jsx)("svg", {
-                          width: "13",
-                          height: "13",
-                          viewBox: "0 0 13 13",
-                          fill: "none",
-                          xmlns: "http://www.w3.org/2000/svg",
-                          className: "rotate-180",
-                          children: (0, T.jsx)("path", {
-                            d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
-                            stroke: "#222222",
-                          }),
-                        }),
-                      }),
-                      (0, T.jsx)("div", {
-                        className:
-                          "bullets absolute left-1/2 bottom-4 -translate-x-1/2 flex gap-2 z-10",
-                        children:
-                          null == n
-                            ? void 0
-                            : n.map((e, n) =>
-                                (0, T.jsx)(
-                                  "div",
-                                  {
-                                    className:
-                                      "bullet w-2 h-2 rounded-full border transition-colors duration-200 cursor-pointer ".concat(
-                                        r === n
-                                          ? "bg-asphalt border-asphalt"
-                                          : "bg-transparent border-grey"
-                                      ),
-                                    onClick: (e) => {
-                                      var l;
-                                      e.preventDefault(),
-                                        e.stopPropagation(),
-                                        null === (l = t.current) ||
-                                          void 0 === l ||
-                                          l.slideTo(n),
-                                        a(n);
-                                    },
-                                  },
-                                  e.uid
-                                )
-                              ),
-                      }),
-                    ],
-                  }),
-              ],
-            }),
-            (null == n ? void 0 : n.length) > 1 &&
-              !s &&
-              (0, T.jsx)(nE.RC, {
-                onSwiper: i,
-                spaceBetween: 10,
-                slidesPerView: 4,
-                freeMode: !0,
-                watchSlidesProgress: !0,
-                modules: [tP.U1, tP.Vx, tP.WO],
-                className: "accessory-gallery-thumbs w-full",
-                children:
-                  null == n
-                    ? void 0
-                    : n.map((e) => {
                         var n;
                         return (0, T.jsx)(
                           nE.qr,
                           {
-                            children: (0, T.jsx)(q.A, {
+                            children: (0, T.jsx)("div", {
                               className:
-                                "w-full h-auto aspect-1 object-contain cursor-pointer",
-                              media:
-                                null === (n = e.mediaElement) || void 0 === n
-                                  ? void 0
-                                  : n[0],
-                              ratio: 1,
-                              width: 320,
-                              priority: !0,
-                              showCaption: !1,
+                                "inner w-full py-8 md:r-py-[6.12] h-[70vh]",
+                              children: (0, T.jsx)(q.A, {
+                                className:
+                                  "w-4/5 md:w-[50%] h-full mx-auto object-contain",
+                                media:
+                                  null === (n = e.mediaElement) ||
+                                    void 0 === n
+                                    ? void 0
+                                    : n[0],
+                                ratio: 1,
+                                width: 640,
+                                priority: !0,
+                                showCaption: !1,
+                              }),
                             }),
                           },
                           e.uid
                         );
                       }),
-              }),
+                }),
+                (null == n ? void 0 : n.length) > 1 &&
+                (0, T.jsxs)(T.Fragment, {
+                  children: [
+                    (0, T.jsx)("button", {
+                      className:
+                        "button-next absolute top-1/2 r-right-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
+                      children: (0, T.jsx)("svg", {
+                        width: "13",
+                        height: "13",
+                        viewBox: "0 0 13 13",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        children: (0, T.jsx)("path", {
+                          d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
+                          stroke: "#222222",
+                        }),
+                      }),
+                    }),
+                    (0, T.jsx)("button", {
+                      className:
+                        "button-prev absolute top-1/2 r-left-[2.25] -translate-x-1/2 -translate-y-1/2 z-10",
+                      children: (0, T.jsx)("svg", {
+                        width: "13",
+                        height: "13",
+                        viewBox: "0 0 13 13",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        className: "rotate-180",
+                        children: (0, T.jsx)("path", {
+                          d: "M0 6.58887H12M12 6.58887L6 0.588867M12 6.58887L6 12.5889",
+                          stroke: "#222222",
+                        }),
+                      }),
+                    }),
+                    (0, T.jsx)("div", {
+                      className:
+                        "bullets absolute left-1/2 bottom-4 -translate-x-1/2 flex gap-2 z-10",
+                      children:
+                        null == n
+                          ? void 0
+                          : n.map((e, n) =>
+                            (0, T.jsx)(
+                              "div",
+                              {
+                                className:
+                                  "bullet w-2 h-2 rounded-full border transition-colors duration-200 cursor-pointer ".concat(
+                                    r === n
+                                      ? "bg-asphalt border-asphalt"
+                                      : "bg-transparent border-grey"
+                                  ),
+                                onClick: (e) => {
+                                  var l;
+                                  e.preventDefault(),
+                                    e.stopPropagation(),
+                                    null === (l = t.current) ||
+                                    void 0 === l ||
+                                    l.slideTo(n),
+                                    a(n);
+                                },
+                              },
+                              e.uid
+                            )
+                          ),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            (null == n ? void 0 : n.length) > 1 &&
+            !s &&
+            (0, T.jsx)(nE.RC, {
+              onSwiper: i,
+              spaceBetween: 10,
+              slidesPerView: 4,
+              freeMode: !0,
+              watchSlidesProgress: !0,
+              modules: [tP.U1, tP.Vx, tP.WO],
+              className: "accessory-gallery-thumbs w-full",
+              children:
+                null == n
+                  ? void 0
+                  : n.map((e) => {
+                    var n;
+                    return (0, T.jsx)(
+                      nE.qr,
+                      {
+                        children: (0, T.jsx)(q.A, {
+                          className:
+                            "w-full h-auto aspect-1 object-contain cursor-pointer",
+                          media:
+                            null === (n = e.mediaElement) || void 0 === n
+                              ? void 0
+                              : n[0],
+                          ratio: 1,
+                          width: 320,
+                          priority: !0,
+                          showCaption: !1,
+                        }),
+                      },
+                      e.uid
+                    );
+                  }),
+            }),
           ],
         });
       };
@@ -6463,27 +6463,27 @@
               (null == u
                 ? void 0
                 : null === (t = u.globalSet) || void 0 === t
-                ? void 0
-                : null === (n = t.channelMappings) || void 0 === n
-                ? void 0
-                : n.find(
-                    (e) =>
-                      e.channelHandle === (null == d ? void 0 : d.cms.section)
-                  )) || {},
+                  ? void 0
+                  : null === (n = t.channelMappings) || void 0 === n
+                    ? void 0
+                    : n.find(
+                      (e) =>
+                        e.channelHandle === (null == d ? void 0 : d.cms.section)
+                    )) || {},
             p =
               (null == m
                 ? void 0
                 : null === (l = m.parentEntry) || void 0 === l
-                ? void 0
-                : l[0]) || {},
+                  ? void 0
+                  : l[0]) || {},
             { ancestors: h, level: g } = {
               level: 3,
               ancestors: [
                 ...((null == p
                   ? void 0
                   : null === (i = p.ancestors) || void 0 === i
-                  ? void 0
-                  : i.map((e) => {
+                    ? void 0
+                    : i.map((e) => {
                       var n;
                       return {
                         uid: null == e ? void 0 : e.uid,
@@ -6494,10 +6494,10 @@
                               ? void 0
                               : e.url
                             : null == e
-                            ? void 0
-                            : null === (n = e.link) || void 0 === n
-                            ? void 0
-                            : n.url,
+                              ? void 0
+                              : null === (n = e.link) || void 0 === n
+                                ? void 0
+                                : n.url,
                       };
                     })) || []),
                 {
@@ -6509,26 +6509,26 @@
                         ? void 0
                         : p.url
                       : null == p
-                      ? void 0
-                      : null === (r = p.link) || void 0 === r
-                      ? void 0
-                      : r.url,
+                        ? void 0
+                        : null === (r = p.link) || void 0 === r
+                          ? void 0
+                          : r.url,
                 },
               ],
             };
           return 1 !== g && (null == h ? void 0 : h.length)
             ? (0, T.jsx)("div", {
+              className:
+                "breadcrumb pointer-events-auto text-xs text-grey r-mb-10 ".concat(
+                  a
+                ),
+              children: (0, T.jsxs)("div", {
                 className:
-                  "breadcrumb pointer-events-auto text-xs text-grey r-mb-10 ".concat(
-                    a
-                  ),
-                children: (0, T.jsxs)("div", {
-                  className:
-                    "inner pb-3 flex gap-1 border-b border-grey-border",
-                  children: [
-                  ],
-                }),
-              })
+                  "inner pb-3 flex gap-1 border-b border-grey-border",
+                children: [
+                ],
+              }),
+            })
             : null;
         },
         tq = (e) => {
@@ -6637,13 +6637,13 @@
             (null == a
               ? void 0
               : null === (n = a.knowledgeHubCategories) || void 0 === n
-              ? void 0
-              : n.length) > 0 &&
-              (d = [
-                ...(null === (t = a.knowledgeHubCategories[0]) || void 0 === t
-                  ? void 0
-                  : t.ancestors),
-              ]).push(a.knowledgeHubCategories[0]),
+                ? void 0
+                : n.length) > 0 &&
+            (d = [
+              ...(null === (t = a.knowledgeHubCategories[0]) || void 0 === t
+                ? void 0
+                : t.ancestors),
+            ]).push(a.knowledgeHubCategories[0]),
             (0, T.jsx)("div", {
               className:
                 "breadcrumb pointer-events-auto text-xs text-grey ".concat(i),
@@ -6659,13 +6659,13 @@
         return (tZ = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var tY = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -6681,28 +6681,28 @@
             e
           ),
           u ||
-            (u = B.createElement("path", {
-              d: "M.55 8.201a8 8 0 1 1 16 0 8 8 0 0 1-16 0Z",
-              fill: "#767572",
-            })),
+          (u = B.createElement("path", {
+            d: "M.55 8.201a8 8 0 1 1 16 0 8 8 0 0 1-16 0Z",
+            fill: "#767572",
+          })),
           m ||
-            (m = B.createElement("path", {
-              d: "M10.93 12.274V9.36c0-.732-.263-1.231-.92-1.231a.992.992 0 0 0-.93.662 1.236 1.236 0 0 0-.06.442v3.04H7.209s.024-4.935 0-5.446H9.02V7.6a1.8 1.8 0 0 1 1.634-.9c1.193 0 2.087.779 2.087 2.452v3.12H10.93Zm-6.54 0V6.827h1.814v5.447H4.39Zm.894-6.19A.944.944 0 1 1 5.31 4.2a.944.944 0 1 1-.012 1.883h-.014Z",
-              fill: "#FAFFFF",
-            }))
+          (m = B.createElement("path", {
+            d: "M10.93 12.274V9.36c0-.732-.263-1.231-.92-1.231a.992.992 0 0 0-.93.662 1.236 1.236 0 0 0-.06.442v3.04H7.209s.024-4.935 0-5.446H9.02V7.6a1.8 1.8 0 0 1 1.634-.9c1.193 0 2.087.779 2.087 2.452v3.12H10.93Zm-6.54 0V6.827h1.814v5.447H4.39Zm.894-6.19A.944.944 0 1 1 5.31 4.2a.944.944 0 1 1-.012 1.883h-.014Z",
+            fill: "#FAFFFF",
+          }))
         );
       });
       function tX() {
         return (tX = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var tW = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -6718,23 +6718,23 @@
             e
           ),
           p ||
-            (p = B.createElement("path", {
-              d: "M16.65 8.252a8.049 8.049 0 1 0-9.308 7.95V10.58H5.3V8.252h2.043V6.48a2.84 2.84 0 0 1 3.041-3.132c.604.009 1.206.061 1.802.157v1.981H11.17a1.163 1.163 0 0 0-1.311 1.258v1.51h2.233l-.357 2.327H9.857V16.2a8.05 8.05 0 0 0 6.792-7.949Z",
-              fill: "#767572",
-            }))
+          (p = B.createElement("path", {
+            d: "M16.65 8.252a8.049 8.049 0 1 0-9.308 7.95V10.58H5.3V8.252h2.043V6.48a2.84 2.84 0 0 1 3.041-3.132c.604.009 1.206.061 1.802.157v1.981H11.17a1.163 1.163 0 0 0-1.311 1.258v1.51h2.233l-.357 2.327H9.857V16.2a8.05 8.05 0 0 0 6.792-7.949Z",
+            fill: "#767572",
+          }))
         );
       });
       function tK() {
         return (tK = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var t0 = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -6750,17 +6750,17 @@
             e
           ),
           h ||
-            (h = B.createElement("circle", {
-              cx: 8.66,
-              cy: 8.201,
-              r: 8,
-              fill: "#767572",
-            })),
+          (h = B.createElement("circle", {
+            cx: 8.66,
+            cy: 8.201,
+            r: 8,
+            fill: "#767572",
+          })),
           g ||
-            (g = B.createElement("path", {
-              d: "m3.941 3.76 3.661 4.899-3.684 3.982h.83l3.225-3.487 2.606 3.488h2.822L9.534 7.467l3.429-3.707h-.83L9.164 6.97l-2.4-3.211H3.94Zm1.22.611h1.296l5.724 7.66h-1.296L5.16 4.37Z",
-              fill: "#FCFCFC",
-            }))
+          (g = B.createElement("path", {
+            d: "m3.941 3.76 3.661 4.899-3.684 3.982h.83l3.225-3.487 2.606 3.488h2.822L9.534 7.467l3.429-3.707h-.83L9.164 6.97l-2.4-3.211H3.94Zm1.22.611h1.296l5.724 7.66h-1.296L5.16 4.37Z",
+            fill: "#FCFCFC",
+          }))
         );
       });
       let t1 = (e) => {
@@ -6790,18 +6790,18 @@
                       null == e
                         ? void 0
                         : null === (t = e.entry) || void 0 === t
-                        ? void 0
-                        : t.id,
+                          ? void 0
+                          : t.id,
                     ],
                     $relatedTo:
                       null == e
                         ? void 0
                         : null === (i = e.entry) || void 0 === i
-                        ? void 0
-                        : null === (l = i.knowledgeHubCategories) ||
-                          void 0 === l
-                        ? void 0
-                        : l.map((e) => e.id),
+                          ? void 0
+                          : null === (l = i.knowledgeHubCategories) ||
+                            void 0 === l
+                            ? void 0
+                            : l.map((e) => e.id),
                   },
                 });
               }
@@ -6840,31 +6840,31 @@
                         ? void 0
                         : null === (n = u.knowledgeHubCategories) ||
                           void 0 === n
-                        ? void 0
-                        : n.length) > 0 &&
-                        (0, T.jsxs)("div", {
-                          className: "categories",
-                          children: [
-                            (0, T.jsxs)("h3", {
-                              className: "r-text-xs mb-1",
-                              children: [i("tags"), ":"],
-                            }),
-                            (0, T.jsx)("div", {
-                              className: "flex gap-2 flex-wrap",
-                              children: u.knowledgeHubCategories.map((e) =>
-                                (0, T.jsx)(
-                                  "span",
-                                  {
-                                    className:
-                                      "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
-                                    children: e.title,
-                                  },
-                                  e.uid
-                                )
-                              ),
-                            }),
-                          ],
-                        }),
+                          ? void 0
+                          : n.length) > 0 &&
+                      (0, T.jsxs)("div", {
+                        className: "categories",
+                        children: [
+                          (0, T.jsxs)("h3", {
+                            className: "r-text-xs mb-1",
+                            children: [i("tags"), ":"],
+                          }),
+                          (0, T.jsx)("div", {
+                            className: "flex gap-2 flex-wrap",
+                            children: u.knowledgeHubCategories.map((e) =>
+                              (0, T.jsx)(
+                                "span",
+                                {
+                                  className:
+                                    "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
+                                  children: e.title,
+                                },
+                                e.uid
+                              )
+                            ),
+                          }),
+                        ],
+                      }),
                       (0, T.jsxs)("div", {
                         className: "date",
                         children: [
@@ -6975,37 +6975,37 @@
                         null == r
                           ? void 0
                           : r.map((e) =>
-                              (0, T.jsxs)(
-                                e8.A,
-                                {
-                                  href: e.url,
-                                  className:
-                                    "r-gap-4 r-mb-6 r-pb-6 border-b border-grey-border block",
-                                  children: [
-                                    (0, T.jsx)("div", {
-                                      className: "flex gap-2 flex-wrap mb-3",
-                                      children: u.knowledgeHubCategories.map(
-                                        (e) =>
-                                          (0, T.jsx)(
-                                            "span",
-                                            {
-                                              className:
-                                                "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
-                                              children: e.title,
-                                            },
-                                            e.uid
-                                          )
-                                      ),
-                                    }),
-                                    (0, T.jsx)("h4", {
-                                      className: "r-text-base text-asphalt",
-                                      children: e.title,
-                                    }),
-                                  ],
-                                },
-                                e.uid
-                              )
-                            ),
+                            (0, T.jsxs)(
+                              e8.A,
+                              {
+                                href: e.url,
+                                className:
+                                  "r-gap-4 r-mb-6 r-pb-6 border-b border-grey-border block",
+                                children: [
+                                  (0, T.jsx)("div", {
+                                    className: "flex gap-2 flex-wrap mb-3",
+                                    children: u.knowledgeHubCategories.map(
+                                      (e) =>
+                                        (0, T.jsx)(
+                                          "span",
+                                          {
+                                            className:
+                                              "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
+                                            children: e.title,
+                                          },
+                                          e.uid
+                                        )
+                                    ),
+                                  }),
+                                  (0, T.jsx)("h4", {
+                                    className: "r-text-base text-asphalt",
+                                    children: e.title,
+                                  }),
+                                ],
+                              },
+                              e.uid
+                            )
+                          ),
                       ],
                     }),
                   }),
@@ -7088,13 +7088,13 @@
         return (t3 = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var t6 = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -7110,165 +7110,165 @@
             e
           ),
           x ||
-            (x = B.createElement("path", {
-              d: "m9.166 9.786-1.19 8.116H0l1.26-8.606C2.03 3.84 5.387.41 11.614.41l-.49 3.639c-3.358.21-4.968 1.749-5.458 5.247l-.07.49h3.569Zm12.174 0-1.189 8.116h-7.976l1.259-8.606C14.204 3.84 17.562.41 23.789.41L23.3 4.05c-3.358.21-4.967 1.749-5.457 5.247l-.07.49h3.569Z",
-              fill: "#222",
-            }))
+          (x = B.createElement("path", {
+            d: "m9.166 9.786-1.19 8.116H0l1.26-8.606C2.03 3.84 5.387.41 11.614.41l-.49 3.639c-3.358.21-4.968 1.749-5.458 5.247l-.07.49h3.569Zm12.174 0-1.189 8.116h-7.976l1.259-8.606C14.204 3.84 17.562.41 23.789.41L23.3 4.05c-3.358.21-4.967 1.749-5.457 5.247l-.07.49h3.569Z",
+            fill: "#222",
+          }))
         );
       });
       let t8 = {
-          text: (e) => {
-            let { block: n } = e,
-              { title: t, text: l } = n;
-            return (0, T.jsxs)("div", {
-              "data-anchor": n.anchor,
-              className:
-                "text-block mx-auto w-full r-max-w-[40] r-my-[3.25] first:mt-0 last:mb-0",
-              children: [
-                (0, T.jsx)("h2", {
-                  className: "h2-text-alt text-asphalt r-mb-5",
-                  children: t,
-                }),
-                (0, T.jsx)("div", {
-                  className: "wysiwyg body-text text-grey",
-                  children: (0, T.jsx)(eK.A, { content: l }),
-                }),
-              ],
-            });
-          },
-          quote: (e) => {
-            let { block: n } = e,
-              { text: t, author: l, image: i } = n || {},
-              r = (null == i ? void 0 : i.length) > 0;
-            return (0, T.jsxs)("div", {
-              "data-anchor": n.anchor,
-              className:
-                "quote-block mx-auto w-full r-max-w-[40] flex flex-col xs:flex-row items-start r-gap-6 r-my-[3.25] first:mt-0 last:mb-0",
-              children: [
-                (0, T.jsx)(nf.A, {
-                  asset: i,
-                  className: "w-full r-max-w-[12.5] object-cover aspect-1",
-                  width: 480,
-                  ratio: 1,
-                }),
-                (0, T.jsxs)("div", {
-                  className: "quote relative sm:r-pl-7",
-                  children: [
-                    (0, T.jsx)(t6, {
-                      className: "mb-2 sm:mb-0 sm:absolute top-0 left-0",
-                    }),
-                    (0, T.jsx)("div", {
-                      className: "wysiwyg text-asphalt ".concat(
-                        r ? "r-text-lg r-mb-10" : "r-text-2xl r-mb-6"
-                      ),
-                      children: (0, T.jsx)(eK.A, { content: t }),
-                    }),
-                    (0, T.jsxs)("div", {
-                      className:
-                        "r-text-sm text-grey flex flex-col xs:flex-row justify-between xs:items-center gap-2",
-                      children: [l, (0, T.jsx)(t4, { quote: t, author: l })],
-                    }),
-                  ],
-                }),
-              ],
-            });
-          },
-          media: (e) => {
-            let { block: n } = e,
-              { media: t, narrow: l } = n || {};
-            return (0, T.jsx)("div", {
-              className:
-                "media-block mx-auto w-full flex flex-col r-gap-6 ".concat(
-                  l ? " r-max-w-[40]" : " r-max-w-[53.75]",
-                  " r-my-[6.25] first:mt-0 last:mb-0"
-                ),
-              "data-anchor": n.anchor,
-              children: t.map((e) => {
-                let { mediaElement: n } = e || {};
-                return (0, T.jsx)(
-                  q.A,
-                  {
-                    media: null == n ? void 0 : n[0],
-                    className: "w-full h-auto",
-                    width: 1080,
-                    height: 1080,
-                    figureClasses: "w-full block",
-                    refresh: !0,
-                    credit: null == e ? void 0 : e.credit,
-                    description: null == e ? void 0 : e.description,
-                  },
-                  e.uid
-                );
+        text: (e) => {
+          let { block: n } = e,
+            { title: t, text: l } = n;
+          return (0, T.jsxs)("div", {
+            "data-anchor": n.anchor,
+            className:
+              "text-block mx-auto w-full r-max-w-[40] r-my-[3.25] first:mt-0 last:mb-0",
+            children: [
+              (0, T.jsx)("h2", {
+                className: "h2-text-alt text-asphalt r-mb-5",
+                children: t,
               }),
-            });
-          },
-          cta: (e) => {
-            let { block: n } = e,
-              {
-                title: t,
-                text: l,
-                mediaElement: i,
-                button: r,
-                secondaryButton: a,
-                color: s,
-              } = n || {};
-            return (0, T.jsxs)("div", {
-              "data-anchor": n.anchor,
-              className:
-                "cta-block mx-auto w-full r-max-w-[40] r-my-[6.25] first:mt-0 last:mb-0 ctaS-block",
-              children: [
-                (0, T.jsx)(q.A, {
-                  media: null == i ? void 0 : i[0],
-                  className: "w-full object-cover aspect-[40/21.25]",
-                  width: 640,
-                  ratio: 40 / 21.25,
-                  figureClasses: "w-full block",
-                }),
-                (0, T.jsxs)("div", {
-                  className: "theme-"
-                    .concat(s.class, " ")
-                    .concat("white" !== s.class ? "px-4 py-8 sm:r-p-14" : ""),
-                  children: [
-                    t &&
-                      (0, T.jsx)("h2", {
-                        className: "h2-text-alt r-mb-5",
-                        children: t,
-                      }),
-                    l &&
-                      (0, T.jsx)("div", {
-                        className: "wysiwyg body-text",
-                        children: (0, T.jsx)(eK.A, { content: l }),
-                      }),
-                    ((null == r ? void 0 : r.href) ||
-                      (null == a ? void 0 : a.href)) &&
-                      (0, T.jsxs)("div", {
-                        className:
-                          "buttons flex flex-wrap items-start xs:items-center gap-6 r-mt-10",
-                        children: [
-                          (null == r ? void 0 : r.href) &&
-                            (0, T.jsx)(e0.A, {
-                              linkProps: r,
-                              className:
-                                "black" === s.class || "green-dark" === s.class
-                                  ? "white"
-                                  : null,
-                            }),
-                          (null == a ? void 0 : a.href) &&
-                            (0, T.jsx)(z.A, {
-                              linkProps: a,
-                              className:
-                                "black" === s.class || "green-dark" === s.class
-                                  ? "full-white"
-                                  : null,
-                            }),
-                        ],
-                      }),
-                  ],
-                }),
-              ],
-            });
-          },
+              (0, T.jsx)("div", {
+                className: "wysiwyg body-text text-grey",
+                children: (0, T.jsx)(eK.A, { content: l }),
+              }),
+            ],
+          });
         },
+        quote: (e) => {
+          let { block: n } = e,
+            { text: t, author: l, image: i } = n || {},
+            r = (null == i ? void 0 : i.length) > 0;
+          return (0, T.jsxs)("div", {
+            "data-anchor": n.anchor,
+            className:
+              "quote-block mx-auto w-full r-max-w-[40] flex flex-col xs:flex-row items-start r-gap-6 r-my-[3.25] first:mt-0 last:mb-0",
+            children: [
+              (0, T.jsx)(nf.A, {
+                asset: i,
+                className: "w-full r-max-w-[12.5] object-cover aspect-1",
+                width: 480,
+                ratio: 1,
+              }),
+              (0, T.jsxs)("div", {
+                className: "quote relative sm:r-pl-7",
+                children: [
+                  (0, T.jsx)(t6, {
+                    className: "mb-2 sm:mb-0 sm:absolute top-0 left-0",
+                  }),
+                  (0, T.jsx)("div", {
+                    className: "wysiwyg text-asphalt ".concat(
+                      r ? "r-text-lg r-mb-10" : "r-text-2xl r-mb-6"
+                    ),
+                    children: (0, T.jsx)(eK.A, { content: t }),
+                  }),
+                  (0, T.jsxs)("div", {
+                    className:
+                      "r-text-sm text-grey flex flex-col xs:flex-row justify-between xs:items-center gap-2",
+                    children: [l, (0, T.jsx)(t4, { quote: t, author: l })],
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+        media: (e) => {
+          let { block: n } = e,
+            { media: t, narrow: l } = n || {};
+          return (0, T.jsx)("div", {
+            className:
+              "media-block mx-auto w-full flex flex-col r-gap-6 ".concat(
+                l ? " r-max-w-[40]" : " r-max-w-[53.75]",
+                " r-my-[6.25] first:mt-0 last:mb-0"
+              ),
+            "data-anchor": n.anchor,
+            children: t.map((e) => {
+              let { mediaElement: n } = e || {};
+              return (0, T.jsx)(
+                q.A,
+                {
+                  media: null == n ? void 0 : n[0],
+                  className: "w-full h-auto",
+                  width: 1080,
+                  height: 1080,
+                  figureClasses: "w-full block",
+                  refresh: !0,
+                  credit: null == e ? void 0 : e.credit,
+                  description: null == e ? void 0 : e.description,
+                },
+                e.uid
+              );
+            }),
+          });
+        },
+        cta: (e) => {
+          let { block: n } = e,
+            {
+              title: t,
+              text: l,
+              mediaElement: i,
+              button: r,
+              secondaryButton: a,
+              color: s,
+            } = n || {};
+          return (0, T.jsxs)("div", {
+            "data-anchor": n.anchor,
+            className:
+              "cta-block mx-auto w-full r-max-w-[40] r-my-[6.25] first:mt-0 last:mb-0 ctaS-block",
+            children: [
+              (0, T.jsx)(q.A, {
+                media: null == i ? void 0 : i[0],
+                className: "w-full object-cover aspect-[40/21.25]",
+                width: 640,
+                ratio: 40 / 21.25,
+                figureClasses: "w-full block",
+              }),
+              (0, T.jsxs)("div", {
+                className: "theme-"
+                  .concat(s.class, " ")
+                  .concat("white" !== s.class ? "px-4 py-8 sm:r-p-14" : ""),
+                children: [
+                  t &&
+                  (0, T.jsx)("h2", {
+                    className: "h2-text-alt r-mb-5",
+                    children: t,
+                  }),
+                  l &&
+                  (0, T.jsx)("div", {
+                    className: "wysiwyg body-text",
+                    children: (0, T.jsx)(eK.A, { content: l }),
+                  }),
+                  ((null == r ? void 0 : r.href) ||
+                    (null == a ? void 0 : a.href)) &&
+                  (0, T.jsxs)("div", {
+                    className:
+                      "buttons flex flex-wrap items-start xs:items-center gap-6 r-mt-10",
+                    children: [
+                      (null == r ? void 0 : r.href) &&
+                      (0, T.jsx)(e0.A, {
+                        linkProps: r,
+                        className:
+                          "black" === s.class || "green-dark" === s.class
+                            ? "white"
+                            : null,
+                      }),
+                      (null == a ? void 0 : a.href) &&
+                      (0, T.jsx)(z.A, {
+                        linkProps: a,
+                        className:
+                          "black" === s.class || "green-dark" === s.class
+                            ? "full-white"
+                            : null,
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+      },
         t7 = (0, Z.WQ)("ui")(
           (0, Z.PA)((e) => {
             var n;
@@ -7284,8 +7284,8 @@
                 (null == a
                   ? void 0
                   : null === (n = a.entry) || void 0 === n
-                  ? void 0
-                  : n.blogModules) || [];
+                    ? void 0
+                    : n.blogModules) || [];
             return (
               (0, B.useEffect)(() => {
                 let e = () => {
@@ -7317,11 +7317,11 @@
                           (t = document.querySelector(
                             '[data-anchor="'.concat(e, '"]')
                           )),
-                        t ||
+                          t ||
                           (t = document.querySelector(
                             '[data-anchor="'.concat(e.replace("#", ""), '"]')
                           )),
-                        t)
+                          t)
                       ) {
                         let i = 0;
                         if (t.dataset.offset)
@@ -7341,43 +7341,43 @@
                         }
                         l.smoother
                           ? P.Ay.to(l.smoother, {
-                              duration: 2,
-                              scrollTo: l.smoother.offset(
-                                t,
-                                "top ".concat(i, "px")
-                              ),
-                              ease: "power4.inOut",
-                              onComplete: () => {
-                                let t = document.querySelector(n);
+                            duration: 2,
+                            scrollTo: l.smoother.offset(
+                              t,
+                              "top ".concat(i, "px")
+                            ),
+                            ease: "power4.inOut",
+                            onComplete: () => {
+                              let t = document.querySelector(n);
+                              t ||
+                                (t = document.querySelector(
+                                  '[data-anchor="'.concat(e, '"]')
+                                )),
                                 t ||
-                                  (t = document.querySelector(
-                                    '[data-anchor="'.concat(e, '"]')
-                                  )),
-                                  t ||
-                                    (t = document.querySelector(
-                                      '[data-anchor="'.concat(
-                                        e.replace("#", ""),
-                                        '"]'
-                                      )
-                                    )),
-                                  l.smoother.scrollTop() <
-                                    l.smoother.offset(
-                                      t,
-                                      "top ".concat(i, "px")
-                                    ) &&
-                                    l.smoother.scrollTop(
-                                      l.smoother.offset(
-                                        t,
-                                        "top ".concat(i, "px")
-                                      )
-                                    );
-                              },
-                            })
+                                (t = document.querySelector(
+                                  '[data-anchor="'.concat(
+                                    e.replace("#", ""),
+                                    '"]'
+                                  )
+                                )),
+                                l.smoother.scrollTop() <
+                                l.smoother.offset(
+                                  t,
+                                  "top ".concat(i, "px")
+                                ) &&
+                                l.smoother.scrollTop(
+                                  l.smoother.offset(
+                                    t,
+                                    "top ".concat(i, "px")
+                                  )
+                                );
+                            },
+                          })
                           : P.Ay.to(window, {
-                              duration: 1,
-                              scrollTo: { y: t, offsetY: i },
-                              ease: "power4.inOut",
-                            });
+                            duration: 1,
+                            scrollTo: { y: t, offsetY: i },
+                            ease: "power4.inOut",
+                          });
                       }
                     }, 500);
                   }
@@ -7451,13 +7451,13 @@
             (null == a
               ? void 0
               : null === (n = a.knowledgeHubCategories) || void 0 === n
-              ? void 0
-              : n.length) > 0 &&
-              (d = [
-                ...(null === (t = a.knowledgeHubCategories[0]) || void 0 === t
-                  ? void 0
-                  : t.ancestors),
-              ]).push(a.knowledgeHubCategories[0]),
+                ? void 0
+                : n.length) > 0 &&
+            (d = [
+              ...(null === (t = a.knowledgeHubCategories[0]) || void 0 === t
+                ? void 0
+                : t.ancestors),
+            ]).push(a.knowledgeHubCategories[0]),
             (0, T.jsx)("div", {
               className:
                 "breadcrumb pointer-events-auto text-xs text-grey ".concat(i),
@@ -7496,18 +7496,18 @@
                         null == e
                           ? void 0
                           : null === (t = e.entry) || void 0 === t
-                          ? void 0
-                          : t.id,
+                            ? void 0
+                            : t.id,
                       ],
                       $relatedTo:
                         null == e
                           ? void 0
                           : null === (i = e.entry) || void 0 === i
-                          ? void 0
-                          : null === (l = i.knowledgeHubCategories) ||
-                            void 0 === l
-                          ? void 0
-                          : l.map((e) => e.id),
+                            ? void 0
+                            : null === (l = i.knowledgeHubCategories) ||
+                              void 0 === l
+                              ? void 0
+                              : l.map((e) => e.id),
                     },
                   });
                 }
@@ -7546,31 +7546,31 @@
                           ? void 0
                           : null === (n = c.knowledgeHubCategories) ||
                             void 0 === n
-                          ? void 0
-                          : n.length) > 0 &&
-                          (0, T.jsxs)("div", {
-                            className: "categories",
-                            children: [
-                              (0, T.jsxs)("h3", {
-                                className: "r-text-xs mb-1",
-                                children: [l("tags"), ":"],
-                              }),
-                              (0, T.jsx)("div", {
-                                className: "flex gap-2 flex-wrap",
-                                children: c.knowledgeHubCategories.map((e) =>
-                                  (0, T.jsx)(
-                                    "span",
-                                    {
-                                      className:
-                                        "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
-                                      children: e.title,
-                                    },
-                                    e.uid
-                                  )
-                                ),
-                              }),
-                            ],
-                          }),
+                            ? void 0
+                            : n.length) > 0 &&
+                        (0, T.jsxs)("div", {
+                          className: "categories",
+                          children: [
+                            (0, T.jsxs)("h3", {
+                              className: "r-text-xs mb-1",
+                              children: [l("tags"), ":"],
+                            }),
+                            (0, T.jsx)("div", {
+                              className: "flex gap-2 flex-wrap",
+                              children: c.knowledgeHubCategories.map((e) =>
+                                (0, T.jsx)(
+                                  "span",
+                                  {
+                                    className:
+                                      "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
+                                    children: e.title,
+                                  },
+                                  e.uid
+                                )
+                              ),
+                            }),
+                          ],
+                        }),
                         (0, T.jsxs)("div", {
                           className: "date",
                           children: [
@@ -7681,37 +7681,37 @@
                           null == i
                             ? void 0
                             : i.map((e) =>
-                                (0, T.jsxs)(
-                                  e8.A,
-                                  {
-                                    href: e.url,
-                                    className:
-                                      "r-gap-4 r-mb-6 r-pb-6 border-b border-grey-border block",
-                                    children: [
-                                      (0, T.jsx)("div", {
-                                        className: "flex gap-2 flex-wrap mb-3",
-                                        children: c.knowledgeHubCategories.map(
-                                          (e) =>
-                                            (0, T.jsx)(
-                                              "span",
-                                              {
-                                                className:
-                                                  "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
-                                                children: e.title,
-                                              },
-                                              e.uid
-                                            )
-                                        ),
-                                      }),
-                                      (0, T.jsx)("h4", {
-                                        className: "r-text-base text-asphalt",
-                                        children: e.title,
-                                      }),
-                                    ],
-                                  },
-                                  e.uid
-                                )
-                              ),
+                              (0, T.jsxs)(
+                                e8.A,
+                                {
+                                  href: e.url,
+                                  className:
+                                    "r-gap-4 r-mb-6 r-pb-6 border-b border-grey-border block",
+                                  children: [
+                                    (0, T.jsx)("div", {
+                                      className: "flex gap-2 flex-wrap mb-3",
+                                      children: c.knowledgeHubCategories.map(
+                                        (e) =>
+                                          (0, T.jsx)(
+                                            "span",
+                                            {
+                                              className:
+                                                "tag bg-grey-bgHover rounded-button px-[0.62rem] py-[0.56rem] text-xs text-grey block leading-none",
+                                              children: e.title,
+                                            },
+                                            e.uid
+                                          )
+                                      ),
+                                    }),
+                                    (0, T.jsx)("h4", {
+                                      className: "r-text-base text-asphalt",
+                                      children: e.title,
+                                    }),
+                                  ],
+                                },
+                                e.uid
+                              )
+                            ),
                         ],
                       }),
                     }),
@@ -7777,49 +7777,49 @@
         };
       var lv = t(77836);
       let lf = (e) => {
-          let { globals: n } = e,
-            { currentSite: t, routeProps: l } = n,
-            { data: i } = (0, M.I)(lg, {
-              variables: {
-                slugSEO: null == l ? void 0 : l.seoSlug,
-                siteIdSEO: null == t ? void 0 : t.siteId,
-                environment:
-                  "true" === lv.env.NEXT_PUBLIC_STAGING ? "staging" : "live",
-              },
-            }),
-            r = (0, B.useMemo)(() => {
-              var e, n;
-              let t = lp()(i);
-              if (
-                null == t
-                  ? void 0
-                  : null === (e = t.seomatic) || void 0 === e
+        let { globals: n } = e,
+          { currentSite: t, routeProps: l } = n,
+          { data: i } = (0, M.I)(lg, {
+            variables: {
+              slugSEO: null == l ? void 0 : l.seoSlug,
+              siteIdSEO: null == t ? void 0 : t.siteId,
+              environment:
+                "true" === lv.env.NEXT_PUBLIC_STAGING ? "staging" : "live",
+            },
+          }),
+          r = (0, B.useMemo)(() => {
+            var e, n;
+            let t = lp()(i);
+            if (
+              null == t
+                ? void 0
+                : null === (e = t.seomatic) || void 0 === e
                   ? void 0
                   : e.metaLinkContainer
-              ) {
-                let e =
-                  null == t
-                    ? void 0
-                    : null === (n = t.seomatic) || void 0 === n
+            ) {
+              let e =
+                null == t
+                  ? void 0
+                  : null === (n = t.seomatic) || void 0 === n
                     ? void 0
                     : n.metaLinkContainer.replace(/hreflang/g, "hrefLang");
-                Object.keys(lx).forEach((n) => {
-                  lx[n].forEach((t) => {
-                    e = e.replace(
-                      '"hrefLang":"'.concat(t, '"'),
-                      '"hrefLang":"'.concat(n, '"')
-                    );
-                  });
-                }),
-                  (t.seomatic.metaLinkContainer = e);
-              }
-              return t;
-            }, [i]);
-          return (0, T.jsx)(lu.Mn, {
-            Head: lc(),
-            ...(null == r ? void 0 : r.seomatic),
-          });
-        },
+              Object.keys(lx).forEach((n) => {
+                lx[n].forEach((t) => {
+                  e = e.replace(
+                    '"hrefLang":"'.concat(t, '"'),
+                    '"hrefLang":"'.concat(n, '"')
+                  );
+                });
+              }),
+                (t.seomatic.metaLinkContainer = e);
+            }
+            return t;
+          }, [i]);
+        return (0, T.jsx)(lu.Mn, {
+          Head: lc(),
+          ...(null == r ? void 0 : r.seomatic),
+        });
+      },
         lw = () =>
           (0, T.jsxs)(T.Fragment, {
             children: [
@@ -7920,31 +7920,31 @@
                   }),
                   lA.env.NEXT_PUBLIC_PREVIEW
                     ? (0, T.jsx)("meta", {
-                        name: "robots",
-                        content: "index, follow",
-                      })
+                      name: "robots",
+                      content: "index, follow",
+                    })
                     : (0, T.jsxs)(T.Fragment, {
-                        children: [
-                          (null == l
-                            ? void 0
-                            : null === (n = l.currentSite) || void 0 === n
+                      children: [
+                        (null == l
+                          ? void 0
+                          : null === (n = l.currentSite) || void 0 === n
                             ? void 0
                             : n.siteId) === 2 &&
-                            (0, T.jsx)("meta", {
-                              name: "msvalidate.01",
-                              content: "7537648C3D7114CCF3F8CFF6F536DEEA",
-                            }),
-                          (null == l
-                            ? void 0
-                            : null === (t = l.currentSite) || void 0 === t
+                        (0, T.jsx)("meta", {
+                          name: "msvalidate.01",
+                          content: "7537648C3D7114CCF3F8CFF6F536DEEA",
+                        }),
+                        (null == l
+                          ? void 0
+                          : null === (t = l.currentSite) || void 0 === t
                             ? void 0
                             : t.siteId) === 3 &&
-                            (0, T.jsx)("meta", {
-                              name: "msvalidate.01",
-                              content: "2D5D5E0D5154DB9DAE403E3CD6248FD6",
-                            }),
-                        ],
-                      }),
+                        (0, T.jsx)("meta", {
+                          name: "msvalidate.01",
+                          content: "2D5D5E0D5154DB9DAE403E3CD6248FD6",
+                        }),
+                      ],
+                    }),
                   (0, T.jsx)(lw, {}),
                 ],
               }),
@@ -7987,45 +7987,45 @@
                     null == n
                       ? void 0
                       : n.map((e) => {
-                          var n;
-                          let { navigationLink: i } = e || {},
-                            s =
-                              null == i
-                                ? void 0
-                                : null === (n = i.href) || void 0 === n
+                        var n;
+                        let { navigationLink: i } = e || {},
+                          s =
+                            null == i
+                              ? void 0
+                              : null === (n = i.href) || void 0 === n
                                 ? void 0
                                 : n.includes(a);
-                          return (0, T.jsx)(
-                            e8.A,
-                            {
-                              href: i.href,
-                              target: i.target,
-                              title: i.title,
-                              className: "r-text-sm custom-underline ".concat(
-                                s ? "active" : ""
-                              ),
-                              onMouseEnter: () => {
-                                l.timeout && clearTimeout(l.timeout),
-                                  t({ open: e.uid, timeout: null });
-                              },
-                              onMouseLeave: () => {
-                                let e = setTimeout(() => {
-                                  t({ open: !1, timeout: null });
-                                }, 500);
-                                t((n) => ({ ...n, timeout: e }));
-                              },
-                              onClick: () => {
-                                r({
-                                  event: "menu_clicked",
-                                  menu: e.title,
-                                  menulocation: "Top bar",
-                                });
-                              },
-                              children: e.title,
+                        return (0, T.jsx)(
+                          e8.A,
+                          {
+                            href: i.href,
+                            target: i.target,
+                            title: i.title,
+                            className: "r-text-sm custom-underline ".concat(
+                              s ? "active" : ""
+                            ),
+                            onMouseEnter: () => {
+                              l.timeout && clearTimeout(l.timeout),
+                                t({ open: e.uid, timeout: null });
                             },
-                            e.uid
-                          );
-                        }),
+                            onMouseLeave: () => {
+                              let e = setTimeout(() => {
+                                t({ open: !1, timeout: null });
+                              }, 500);
+                              t((n) => ({ ...n, timeout: e }));
+                            },
+                            onClick: () => {
+                              r({
+                                event: "menu_clicked",
+                                menu: e.title,
+                                menulocation: "Top bar",
+                              });
+                            },
+                            children: e.title,
+                          },
+                          e.uid
+                        );
+                      }),
                 }),
             });
           })
@@ -8046,10 +8046,10 @@
                 ? void 0
                 : null === (t = l.filter((e) => e.uid === i.open)) ||
                   void 0 === t
-                ? void 0
-                : null === (n = t[0]) || void 0 === n
-                ? void 0
-                : n.sub) || [],
+                  ? void 0
+                  : null === (n = t[0]) || void 0 === n
+                    ? void 0
+                    : n.sub) || [],
             d = (null == s ? void 0 : s.asPath) || "";
           return (0, T.jsx)(nh.N, {
             mode: "wait",
@@ -8129,11 +8129,11 @@
                                   );
                                 }),
                                 t &&
-                                  (0, T.jsx)("span", {
-                                    className:
-                                      "tag inline-block r-text-xs px-3 rounded-button mt-2 self-start r-mb-6",
-                                    children: t,
-                                  }),
+                                (0, T.jsx)("span", {
+                                  className:
+                                    "tag inline-block r-text-xs px-3 rounded-button mt-2 self-start r-mb-6",
+                                  children: t,
+                                }),
                                 (0, T.jsx)("span", {
                                   className:
                                     "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover/main:opacity-100 -translate-x-1/2 group-hover/main:translate-x-0",
@@ -8172,11 +8172,11 @@
                                 children: e.title,
                               }),
                               t &&
-                                (0, T.jsx)("span", {
-                                  className:
-                                    "tag inline-block r-text-xs px-3 rounded-button mt-2 r-mb-6",
-                                  children: t,
-                                }),
+                              (0, T.jsx)("span", {
+                                className:
+                                  "tag inline-block r-text-xs px-3 rounded-button mt-2 r-mb-6",
+                                children: t,
+                              }),
                               (0, T.jsx)("span", {
                                 className:
                                   "inline-flex items-center justify-center flex-shrink-0 rounded-full w-6 h-6 bg-asphalt absolute r-right-[1.5] r-bottom-[1.5] opacity-0 transition duration-300 group-hover:opacity-100 -translate-x-1/2 group-hover:translate-x-0",
@@ -8252,9 +8252,9 @@
             a(
               n.map((e) => {
                 let n =
-                    (null == t
-                      ? void 0
-                      : t.find((n) => n.siteId == e.siteId)) || {},
+                  (null == t
+                    ? void 0
+                    : t.find((n) => n.siteId == e.siteId)) || {},
                   l = (null == n ? void 0 : n.url) || e.fullUrl || e.url;
                 l = l.replace(/\/$/, "");
                 let i = (null == n ? void 0 : n.title) || e.title;
@@ -8262,63 +8262,63 @@
               })
             );
           }, [l, s]),
-          !r || r.length < 2)
+            !r || r.length < 2)
             ? null
             : (0, T.jsx)("div", {
-                className: "language-switcher ".concat(t),
-                children: r
-                  .filter((e) => l.siteId != e.siteId)
-                  .map((e) => {
-                    let n = e.locale.split("-");
-                    return (0, T.jsxs)(
-                      "a",
-                      {
-                        href: e.url,
-                        title: e.title,
-                        className:
-                          "lang-link r-text-sm flex items-center gap-[0.31rem] text-asphalt transition-colors duration-300",
-                        children: [
-                          (0, T.jsx)("span", {
-                            className:
-                              "text-grey lang-part-1 transition-colors duration-300 lowercase",
-                            children: ""
-                              .concat(n[0].charAt(0).toUpperCase())
-                              .concat(n[0].slice(1).toLowerCase()),
-                          }),
-                          n[1] &&
-                            (0, T.jsxs)(T.Fragment, {
-                              children: [
-                                (0, T.jsx)("span", {
-                                  className:
-                                    "block w-4 h-[1px] bg-current dash",
-                                }),
-                                (0, T.jsx)("span", {
-                                  className: "lang-part-2 uppercase",
-                                  children: ""
-                                    .concat(n[1].charAt(0).toUpperCase())
-                                    .concat(n[1].slice(1).toLowerCase()),
-                                }),
-                              ],
+              className: "language-switcher ".concat(t),
+              children: r
+                .filter((e) => l.siteId != e.siteId)
+                .map((e) => {
+                  let n = e.locale.split("-");
+                  return (0, T.jsxs)(
+                    "a",
+                    {
+                      href: e.url,
+                      title: e.title,
+                      className:
+                        "lang-link r-text-sm flex items-center gap-[0.31rem] text-asphalt transition-colors duration-300",
+                      children: [
+                        (0, T.jsx)("span", {
+                          className:
+                            "text-grey lang-part-1 transition-colors duration-300 lowercase",
+                          children: ""
+                            .concat(n[0].charAt(0).toUpperCase())
+                            .concat(n[0].slice(1).toLowerCase()),
+                        }),
+                        n[1] &&
+                        (0, T.jsxs)(T.Fragment, {
+                          children: [
+                            (0, T.jsx)("span", {
+                              className:
+                                "block w-4 h-[1px] bg-current dash",
                             }),
-                        ],
-                      },
-                      e.siteId
-                    );
-                  }),
-              });
+                            (0, T.jsx)("span", {
+                              className: "lang-part-2 uppercase",
+                              children: ""
+                                .concat(n[1].charAt(0).toUpperCase())
+                                .concat(n[1].slice(1).toLowerCase()),
+                            }),
+                          ],
+                        }),
+                      ],
+                    },
+                    e.siteId
+                  );
+                }),
+            });
         };
       var lC = t(61234),
         lD = t(86908),
         lB = t(93731);
       let lH = {
-          src: "assets/_next/static/media/da.7ec79eb7.png",
-          height: 55,
-          width: 72,
-          blurDataURL:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAARVBMVEXrcofZCCraBSnaBCjXABf0tsHaAyfaABXuhJbrdonbCCzoZXzoZXvYARfbBSrXAAPtfpHeAhfviZrteYX3wsvvgIvsgIrOjArqAAAADXRSTlP+3Mze3P3t7uXk2v39PaBlrwAAAAlwSFlzAAALEwAACxMBAJqcGAAAADZJREFUeJwFwQcCgCAQA7CKTKW3QP//VBIIzShSQV2/kg1he1tEB95SJjDguj51b7jy6Pm50wFDaQI5o2a7rgAAAABJRU5ErkJggg==",
-          blurWidth: 8,
-          blurHeight: 6,
-        },
+        src: "assets/_next/static/media/da.7ec79eb7.png",
+        height: 55,
+        width: 72,
+        blurDataURL:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAARVBMVEXrcofZCCraBSnaBCjXABf0tsHaAyfaABXuhJbrdonbCCzoZXzoZXvYARfbBSrXAAPtfpHeAhfviZrteYX3wsvvgIvsgIrOjArqAAAADXRSTlP+3Mze3P3t7uXk2v39PaBlrwAAAAlwSFlzAAALEwAACxMBAJqcGAAAADZJREFUeJwFwQcCgCAQA7CKTKW3QP//VBIIzShSQV2/kg1he1tEB95SJjDguj51b7jy6Pm50wFDaQI5o2a7rgAAAABJRU5ErkJggg==",
+        blurWidth: 8,
+        blurHeight: 6,
+      },
         lP = {
           src: "assets/_next/static/media/en.e0eb16f4.png",
           height: 12,
@@ -8531,8 +8531,8 @@
                     n[e].find((e) => e.siteId == r)
                       ? -1
                       : n[t].find((e) => e.siteId == r)
-                      ? 1
-                      : 0
+                        ? 1
+                        : 0
                   )
                   .reduce((e, t) => ((e[t] = n[t]), e), {});
               return Object.keys(t).map((e) => {
@@ -8623,8 +8623,8 @@
               d ||
               setTimeout(() => {
                 let e = window.eval(
-                    "\n        var result = 0;\n        for (var i = 0; i < 10; i++) {\n          result += i;\n        }\n        result;\n      "
-                  ),
+                  "\n        var result = 0;\n        for (var i = 0; i < 10; i++) {\n          result += i;\n        }\n        result;\n      "
+                ),
                   n = window.navigator.userAgent.toLowerCase();
                 lK.some((e) => n.includes(e)) ||
                   45 !== e ||
@@ -8654,8 +8654,8 @@
             (null === (t = lM.sites.find((e) => e.siteId == d)) || void 0 === t
               ? void 0
               : null === (n = t.name) || void 0 === n
-              ? void 0
-              : n.split("/")[0]) || "";
+                ? void 0
+                : n.split("/")[0]) || "";
           return (0, T.jsx)(nh.N, {
             children:
               s &&
@@ -8719,13 +8719,13 @@
         return (l1 = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var l2 = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -8879,38 +8879,38 @@
       }),
         l5 = t(19602);
       let l4 = (0, Z.WQ)("ui")(
-          (0, Z.PA)((e) => {
-            let { ui: n, searchData: t } = e,
-              l = (0, t$.y)(),
-              i = (0, H.useTranslations)(""),
-              r = (0, np.useRouter)(),
-              [a, s] = (0, B.useState)(""),
-              o = (0, B.useRef)(null),
-              d = (0, B.useRef)(null),
-              [c, u] = (0, B.useState)(!1),
-              m = (0, l5.U)("only screen and (max-width: 768px)");
-            return (
-              (0, B.useEffect)(() => {
-                let e = (e) => {
-                  d.current && !d.current.contains(e.target) && u(!1);
-                };
-                return (
-                  document.addEventListener("click", e),
-                  d.current &&
-                    (d.current.addEventListener("focusin", () => {
-                      u(!0);
-                    }),
-                    d.current.addEventListener("focusout", () => {
-                      u(!1);
-                    })),
-                  () => {
-                    document.removeEventListener("click", e);
-                  }
-                );
-              }, [])
-            );
-          })
-        ),
+        (0, Z.PA)((e) => {
+          let { ui: n, searchData: t } = e,
+            l = (0, t$.y)(),
+            i = (0, H.useTranslations)(""),
+            r = (0, np.useRouter)(),
+            [a, s] = (0, B.useState)(""),
+            o = (0, B.useRef)(null),
+            d = (0, B.useRef)(null),
+            [c, u] = (0, B.useState)(!1),
+            m = (0, l5.U)("only screen and (max-width: 768px)");
+          return (
+            (0, B.useEffect)(() => {
+              let e = (e) => {
+                d.current && !d.current.contains(e.target) && u(!1);
+              };
+              return (
+                document.addEventListener("click", e),
+                d.current &&
+                (d.current.addEventListener("focusin", () => {
+                  u(!0);
+                }),
+                  d.current.addEventListener("focusout", () => {
+                    u(!1);
+                  })),
+                () => {
+                  document.removeEventListener("click", e);
+                }
+              );
+            }, [])
+          );
+        })
+      ),
         l3 = (0, Z.WQ)("ui")(
           (0, Z.PA)((e) => {
             var n, t, l;
@@ -8969,8 +8969,8 @@
                                 ? null == d
                                   ? void 0
                                   : null === (n = d.locale) || void 0 === n
-                                  ? void 0
-                                  : n.toLowerCase()
+                                    ? void 0
+                                    : n.toLowerCase()
                                 : ""
                             ),
                             locale: null == d ? void 0 : d.locale,
@@ -8985,8 +8985,8 @@
                               null == u
                                 ? void 0
                                 : null === (t = u.menu) || void 0 === t
-                                ? void 0
-                                : t.filter(
+                                  ? void 0
+                                  : t.filter(
                                     (e) =>
                                       1 === e.level &&
                                       "default" === e.typeHandle
@@ -9009,8 +9009,8 @@
                               null == u
                                 ? void 0
                                 : null === (l = u.globalSet) || void 0 === l
-                                ? void 0
-                                : l.headerButton,
+                                  ? void 0
+                                  : l.headerButton,
                             className: "hidden md:inline-flex grey small",
                             Icon: (e) => {
                               let { className: n, ...t } = e;
@@ -9021,7 +9021,51 @@
                             },
                             onClick: () => r.setMenuState(!1),
                           }),
-                          (0, T.jsx)(l_, {}),
+                          // Second button replaced with plain div for testing
+                          (0, T.jsx)("a", {
+                            target: "_blank",
+                            href: "https://www.liturgia.com.au/app/Login?ReturnUrl=%2fApp",
+                            rel: "noreferrer",
+                            className:
+                              "custom-button button-big hidden md:inline-flex grey small group width-change-button",
+                            children: (0, T.jsxs)("span", {
+                              className: "target-area absolute top-0 left-0 w-full h-full min-h-[48px] width-full",
+                              children: [
+                                (0, T.jsxs)("span", {
+                                  className: "button-inner width-full",
+                                  children: [
+                                    (0, T.jsx)("span", {
+                                      className: "flex items-center flex-1 sm:whitespace-nowrap",
+                                      children: "Login",
+                                    }),
+                                    (0, T.jsxs)("span", {
+                                      className: "icon overflow-hidden",
+                                      children: [
+                                        "Login",
+                                        (0, T.jsx)("span", {
+                                          className: "inner-icon",
+                                          children: (0, T.jsx)("svg", {
+                                            viewBox: "0 0 16 16",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            className: "plus-icon undefined",
+                                            children: (0, T.jsx)("path", {
+                                              d: "M8 1v14M1 8h14",
+                                              stroke: "currentColor",
+                                              strokeWidth: "2",
+                                              strokeLinecap: "round",
+                                              strokeLinejoin: "round"
+                                            }),
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                  ],
+                                }),
+                              ],
+                            }),
+                          }),
+
                         ],
                       }),
                     ],
@@ -9052,16 +9096,16 @@
           let { title: n, button: t, dark: l } = e;
           return n
             ? (0, T.jsxs)("div", {
-                className:
-                  "footer-cta py-20 sm:r-py-10 text-center w-full flex items-center justify-center flex-col",
-                children: [
-                  (0, T.jsx)("p", { className: "h2-text footer-mobile-text-adjust", children: n }),
-                  (0, T.jsx)(e0.A, {
-                    linkProps: t,
-                    className: "r-mt-6".concat(l ? " " : " white-green"),
-                  }),
-                ],
-              })
+              className:
+                "footer-cta py-20 sm:r-py-10 text-center w-full flex items-center justify-center flex-col",
+              children: [
+                (0, T.jsx)("p", { className: "h2-text footer-mobile-text-adjust", children: n }),
+                (0, T.jsx)(e0.A, {
+                  linkProps: t,
+                  className: "r-mt-6".concat(l ? " " : " white-green"),
+                }),
+              ],
+            })
             : null;
         },
         l9 = (e) => {
@@ -9072,24 +9116,24 @@
               null == n
                 ? void 0
                 : n.map((e) =>
-                    (0, T.jsxs)(
-                      e8.A,
-                      {
-                        className:
-                          "text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative",
-                        href: e.navigationLink.href,
-                        target: e.navigationLink.target,
-                        children: [
-                          (0, T.jsx)(nS.A, {
-                            className:
-                              "r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300",
-                          }),
-                          e.title,
-                        ],
-                      },
-                      e.uid
-                    )
-                  ),
+                  (0, T.jsxs)(
+                    e8.A,
+                    {
+                      className:
+                        "text-base sm:text-xl sm:whitespace-nowrap overflow-hidden flex mb-3 hover:text-sand pl-0 r-pr-6 hover:pr-0 hover:r-pl-6 transition-all duration-300 group relative",
+                      href: e.navigationLink.href,
+                      target: e.navigationLink.target,
+                      children: [
+                        (0, T.jsx)(nS.A, {
+                          className:
+                            "r-w-4 h-auto stroke-current stroke-2 flex-shrink-0 absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 group-hover:translate-x-0 transition-transform duration-300",
+                        }),
+                        e.title,
+                      ],
+                    },
+                    e.uid
+                  )
+                ),
           });
         },
         ie = (e) => {
@@ -9104,21 +9148,21 @@
                   null == t
                     ? void 0
                     : t.map((e) =>
-                        (0, T.jsx)(
-                          e8.A,
-                          {
-                            href: e.itemLink.href,
-                            target: e.itemLink.target,
-                            className:
-                              "custom-underline block text-xl sm:r-text-2xl ".concat(
-                                l ? "hover:text-forest" : "hover:text-sand",
-                                " transition-all duration-300"
-                              ),
-                            children: e.itemLink.text,
-                          },
-                          e.uid
-                        )
-                      ),
+                      (0, T.jsx)(
+                        e8.A,
+                        {
+                          href: e.itemLink.href,
+                          target: e.itemLink.target,
+                          className:
+                            "custom-underline block text-xl sm:r-text-2xl ".concat(
+                              l ? "hover:text-forest" : "hover:text-sand",
+                              " transition-all duration-300"
+                            ),
+                          children: e.itemLink.text,
+                        },
+                        e.uid
+                      )
+                    ),
               }),
               (0, T.jsx)("div", {
                 className: "flex r-gap-16 lg:r-gap-5",
@@ -9126,24 +9170,24 @@
                   null == n
                     ? void 0
                     : n.map((e) =>
-                        (0, T.jsxs)(
-                          "div",
-                          {
-                            className: "flex flex-col gap-1 flex-1",
-                            children: [
-                              (0, T.jsx)("h5", {
-                                className: "r-text-sm",
-                                children: e.title,
-                              }),
-                              (0, T.jsx)("div", {
-                                className: "address wysiwyg r-text-xs",
-                                dangerouslySetInnerHTML: { __html: e.text },
-                              }),
-                            ],
-                          },
-                          e.id
-                        )
-                      ),
+                      (0, T.jsxs)(
+                        "div",
+                        {
+                          className: "flex flex-col gap-1 flex-1",
+                          children: [
+                            (0, T.jsx)("h5", {
+                              className: "r-text-sm",
+                              children: e.title,
+                            }),
+                            (0, T.jsx)("div", {
+                              className: "address wysiwyg r-text-xs",
+                              dangerouslySetInnerHTML: { __html: e.text },
+                            }),
+                          ],
+                        },
+                        e.id
+                      )
+                    ),
               }),
             ],
           });
@@ -9165,13 +9209,13 @@
         return (ir = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var n = 1; n < arguments.length; n++) {
-                var t = arguments[n];
-                for (var l in t)
-                  Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var n = 1; n < arguments.length; n++) {
+              var t = arguments[n];
+              for (var l in t)
+                Object.prototype.hasOwnProperty.call(t, l) && (e[l] = t[l]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var ia = (0, B.forwardRef)(function (e, n) {
         return B.createElement(
@@ -9187,25 +9231,25 @@
             e
           ),
           w ||
-            (w = B.createElement("path", {
-              d: "M5 8.94V1.384m0 0L1.223 5.162M5 1.385l3.777 3.777",
-            }))
+          (w = B.createElement("path", {
+            d: "M5 8.94V1.384m0 0L1.223 5.162M5 1.385l3.777 3.777",
+          }))
         );
       });
       let is = {
-          da: lH,
-          en: lP,
-          de: lL,
-          fr: lR,
-          "en-uk": lO,
-          "fr-be": lQ,
-          "nl-be": lU,
-          nl: lq,
-          sv: lz,
-          no: lF,
-          "de-ch": lG,
-          "fr-ch": lV,
-        },
+        da: lH,
+        en: lP,
+        de: lL,
+        fr: lR,
+        "en-uk": lO,
+        "fr-be": lQ,
+        "nl-be": lU,
+        nl: lq,
+        sv: lz,
+        no: lF,
+        "de-ch": lG,
+        "fr-ch": lV,
+      },
         io = (e) => {
           let { globals: n, className: t, dark: l = !1 } = e,
             i = (0, H.useTranslations)(""),
@@ -9222,9 +9266,9 @@
             d(
               lM.sites.map((n) => {
                 let t =
-                    (null == e
-                      ? void 0
-                      : e.find((e) => e.siteId == n.siteId)) || {},
+                  (null == e
+                    ? void 0
+                    : e.find((e) => e.siteId == n.siteId)) || {},
                   l = (null == t ? void 0 : t.url) || n.fullUrl || n.url;
                 l = l.replace(/\/$/, "");
                 let i = (null == t ? void 0 : t.title) || n.title;
@@ -9239,62 +9283,62 @@
               })
             );
           }, [h]),
-          (0, B.useEffect)(() => {
-            if (!r.current) return;
-            let e = (e) => {
-              r.current.contains(e.target) || u(!1);
-            };
-            return (
-              window.addEventListener("click", e),
-              () => {
-                window.removeEventListener("click", e);
-              }
-            );
-          }, [r.current]),
-          !o || o.length < 2)
+            (0, B.useEffect)(() => {
+              if (!r.current) return;
+              let e = (e) => {
+                r.current.contains(e.target) || u(!1);
+              };
+              return (
+                window.addEventListener("click", e),
+                () => {
+                  window.removeEventListener("click", e);
+                }
+              );
+            }, [r.current]),
+            !o || o.length < 2)
             ? null
             : (0, T.jsxs)("div", {
-                className: "".concat(t, " relative language-switcher"),
-                ref: r,
-                children: [
-                  (0, T.jsx)(eW.P.div, {
-                    className:
-                      "dropdown-options absolute bottom-full left-0 h-full bg-white border border-grey-border r-w-[16] r-mb-4 rounded-sm overflow-hidden",
-                    initial: "collapsed",
-                    style: { maxHeight: m },
-                    animate: c ? "open" : "collapsed",
-                    variants: {
-                      open: { height: "auto", opacity: 1 },
-                      collapsed: { height: 0, opacity: 0 },
-                    },
-                    transition: {
-                      duration: 0.5,
-                      ease: [0.04, 0.62, 0.23, 0.98],
-                    },
-                    onAnimationComplete: () => {
-                      c
-                        ? (r.current.querySelector(
-                            ".dropdown-options"
-                          ).style.overflow = "auto")
-                        : (r.current.querySelector(
-                            ".dropdown-options"
-                          ).style.overflow = "hidden");
-                    },
-                    children: (0, T.jsx)("div", {
-                      className: "inner r-p-6 flex flex-col",
-                    }),
+              className: "".concat(t, " relative language-switcher"),
+              ref: r,
+              children: [
+                (0, T.jsx)(eW.P.div, {
+                  className:
+                    "dropdown-options absolute bottom-full left-0 h-full bg-white border border-grey-border r-w-[16] r-mb-4 rounded-sm overflow-hidden",
+                  initial: "collapsed",
+                  style: { maxHeight: m },
+                  animate: c ? "open" : "collapsed",
+                  variants: {
+                    open: { height: "auto", opacity: 1 },
+                    collapsed: { height: 0, opacity: 0 },
+                  },
+                  transition: {
+                    duration: 0.5,
+                    ease: [0.04, 0.62, 0.23, 0.98],
+                  },
+                  onAnimationComplete: () => {
+                    c
+                      ? (r.current.querySelector(
+                        ".dropdown-options"
+                      ).style.overflow = "auto")
+                      : (r.current.querySelector(
+                        ".dropdown-options"
+                      ).style.overflow = "hidden");
+                  },
+                  children: (0, T.jsx)("div", {
+                    className: "inner r-p-6 flex flex-col",
                   }),
-                ],
-              });
+                }),
+              ],
+            });
         };
       P.os.registerPlugin(R());
       let id = () =>
-          (0, T.jsx)(ia, {
-            width: null,
-            height: null,
-            viewBox: "0 0 10 10",
-            className: "w-3 stroke-asphalt top-icon",
-          }),
+        (0, T.jsx)(ia, {
+          width: null,
+          height: null,
+          viewBox: "0 0 10 10",
+          className: "w-3 stroke-asphalt top-icon",
+        }),
         ic = (e) => {
           let { menu: n, globals: t, dark: l } = e,
             i = (0, H.useTranslations)("");
@@ -9302,7 +9346,7 @@
             className: "container full flex-shrink-0",
             children: (0, T.jsxs)("div", {
               className: "inner border-t ".concat(l ? "border-grey-border" : "border-white", " flex flex-col-reverse sm:flex-row items-start sm:items-center gap-6 r-pt-6 r-pb-8"),
-              children: [ (0, T.jsxs)("button", {
+              children: [(0, T.jsxs)("button", {
                 className: "flex items-center gap-4 gap-adjust ".concat(
                   l ? "text-asphalt" : "text-white"
                 ),
@@ -9312,53 +9356,53 @@
                   h(e - 100 - 20);
                 },
                 children: [
-                    (0, T.jsx)("span", {
-                      className: "quack-logo-text",
-                      children: i("Created and Powered by"),
-                    }),
-                    (0, T.jsx)("a", {
-                      href: "https://quackstudios.com.au",
-                      target: "_blank",
-                      className: "quack-logo-redirect",
-                      children: i("QuackStudios"),
-                    }),
-                  ],
+                  (0, T.jsx)("span", {
+                    className: "quack-logo-text",
+                    children: i("Created and Powered by"),
+                  }),
+                  (0, T.jsx)("a", {
+                    href: "https://quackstudios.com.au",
+                    target: "_blank",
+                    className: "quack-logo-redirect",
+                    children: i("QuackStudios"),
+                  }),
+                ],
               }),
               (0,
-              T.jsxs)("div", {
+                T.jsxs)("div", {
                   className: "sm:ml-auto w-full sm:w-auto flex items-center r-gap-20",
                   children: [(0,
-                  T.jsx)("div", {
+                    T.jsx)("div", {
                       className: "socials flex flex-wrap items-center w-full sm:w-auto justify-between sm:justify-end gap-2 sm:r-gap-8",
                       children: null == n ? void 0 : n.map(e => {
-                          var n, t, i;
-                          return (0,
+                        var n, t, i;
+                        return (0,
                           T.jsx)(e8.A, {
-                              href: null === (n = e.itemLink) || void 0 === n ? void 0 : n.href,
-                              target: null === (t = e.itemLink) || void 0 === t ? void 0 : t.target,
-                              className: "text-xs sm:r-text-xs ".concat(l ? "hover:text-grey" : "hover:text-sand", " transition-all duration-300"),
-                              children: null === (i = e.itemLink) || void 0 === i ? void 0 : i.text
+                            href: null === (n = e.itemLink) || void 0 === n ? void 0 : n.href,
+                            target: null === (t = e.itemLink) || void 0 === t ? void 0 : t.target,
+                            className: "text-xs sm:r-text-xs ".concat(l ? "hover:text-grey" : "hover:text-sand", " transition-all duration-300"),
+                            children: null === (i = e.itemLink) || void 0 === i ? void 0 : i.text
                           }, e.uid)
                       }
                       )
-                  }), (0,
-                  T.jsx)(z.A, {
-                      type: "button",
-                      className: "hidden lg:flex ".concat(l ? "" : "full-white"),
-                      onClick: () => {
+                    }), (0,
+                      T.jsx)(z.A, {
+                        type: "button",
+                        className: "hidden lg:flex ".concat(l ? "" : "full-white"),
+                        onClick: () => {
                           P.os.to(window, {
-                              duration: 1,
-                              scrollTo: {
-                                  y: 0
-                              }
+                            duration: 1,
+                            scrollTo: {
+                              y: 0
+                            }
                           })
-                      }
-                      ,
-                      Icon: id,
-                      children: i("Back to Top")
-                  })]
-              })]
-          }),
+                        }
+                        ,
+                        Icon: id,
+                        children: i("Back to Top")
+                      })]
+                })]
+            }),
           });
         },
         iu = function (e) {
@@ -9400,27 +9444,27 @@
             );
           }, [d]);
           let m =
-              (null == o ? void 0 : o.footerTitle) ||
-              (null == u
-                ? void 0
-                : null === (n = u.footerSettings) || void 0 === n
+            (null == o ? void 0 : o.footerTitle) ||
+            (null == u
+              ? void 0
+              : null === (n = u.footerSettings) || void 0 === n
                 ? void 0
                 : n.footerTitle),
             p = (
               null == o
                 ? void 0
                 : null === (t = o.footerButton) || void 0 === t
-                ? void 0
-                : t.href
+                  ? void 0
+                  : t.href
             )
               ? null == o
                 ? void 0
                 : o.footerButton
               : null == u
-              ? void 0
-              : null === (l = u.footerSettings) || void 0 === l
-              ? void 0
-              : l.footerButton;
+                ? void 0
+                : null === (l = u.footerSettings) || void 0 === l
+                  ? void 0
+                  : l.footerButton;
           return (0, T.jsx)("footer", {
             className: "overflow-hidden ".concat(
               (null == o ? void 0 : o.whiteFooter)
@@ -9449,14 +9493,14 @@
                         null == u
                           ? void 0
                           : null === (i = u.footerSettings) || void 0 === i
-                          ? void 0
-                          : i.addresses,
+                            ? void 0
+                            : i.addresses,
                       links:
                         null == u
                           ? void 0
                           : null === (r = u.footerSettings) || void 0 === r
-                          ? void 0
-                          : r.links,
+                            ? void 0
+                            : r.links,
                       dark: null == o ? void 0 : o.whiteFooter,
                     }),
                   ],
@@ -9466,8 +9510,8 @@
                     null == u
                       ? void 0
                       : null === (a = u.footerSettings) || void 0 === a
-                      ? void 0
-                      : a.socials,
+                        ? void 0
+                        : a.socials,
                   globals: s,
                   dark: null == o ? void 0 : o.whiteFooter,
                 }),
@@ -9512,8 +9556,8 @@
                           return null === (l = e.navigationLink) || void 0 === l
                             ? void 0
                             : null === (t = l.href) || void 0 === t
-                            ? void 0
-                            : t.includes(n);
+                              ? void 0
+                              : t.includes(n);
                         }) && ((l = [e.uid]), !0)
                     ) ||
                       p.mainMenu.some((e) => {
@@ -9528,16 +9572,16 @@
                             ? void 0
                             : r.length) > 0
                             ? e.sub.some((n) => {
-                                var i, r;
-                                return (
-                                  null !== (r = n.navigationLink) &&
-                                  void 0 !== r &&
-                                  null !== (i = r.href) &&
-                                  void 0 !== i &&
-                                  !!i.includes(t[1]) &&
-                                  ((l = [e.uid, n.uid]), !0)
-                                );
-                              })
+                              var i, r;
+                              return (
+                                null !== (r = n.navigationLink) &&
+                                void 0 !== r &&
+                                null !== (i = r.href) &&
+                                void 0 !== i &&
+                                !!i.includes(t[1]) &&
+                                ((l = [e.uid, n.uid]), !0)
+                              );
+                            })
                             : ((l = [e.uid]), !0))
                         );
                       }),
@@ -9630,8 +9674,8 @@
                             null == p
                               ? void 0
                               : null === (n = p.mainMenu) || void 0 === n
-                              ? void 0
-                              : n
+                                ? void 0
+                                : n
                                   .filter((e) => "default" === e.typeHandle)
                                   .map((e) => {
                                     var n, t;
@@ -9658,8 +9702,8 @@
                                                 ? void 0
                                                 : null === (t = e.sub) ||
                                                   void 0 === t
-                                                ? void 0
-                                                : t.length) > 0
+                                                  ? void 0
+                                                  : t.length) > 0
                                                 ? (n.preventDefault(),
                                                   u((n) =>
                                                     n.includes(e.uid)
@@ -9680,54 +9724,54 @@
                                             ? void 0
                                             : null === (n = e.sub) ||
                                               void 0 === n
-                                            ? void 0
-                                            : n.length) > 0
+                                              ? void 0
+                                              : n.length) > 0
                                             ? (0, T.jsxs)("button", {
-                                                className:
-                                                  "ml-3 r-w-4 r-h-4 relative mt-1 ".concat(
-                                                    c.includes(e.uid)
-                                                      ? "opacity-100"
-                                                      : "opacity-100 xl:opacity-0",
-                                                    " group-hover/item:opacity-100 transition-opacity"
-                                                  ),
-                                                onClick: () => {
-                                                  u((n) =>
-                                                    n.includes(e.uid)
-                                                      ? []
-                                                      : [e.uid]
-                                                  );
-                                                },
-                                                children: [
-                                                  (0, T.jsx)("span", {
-                                                    className:
-                                                      "block w-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ".concat(
-                                                        c.includes(e.uid)
-                                                          ? "h-0"
-                                                          : "r-h-4 xl:h-0 group-hover/item:r-h-4"
-                                                      ),
-                                                  }),
-                                                  (0, T.jsx)("span", {
-                                                    className: "block ".concat(
-                                                      c.includes(e.uid)
-                                                        ? "r-w-4"
-                                                        : "r-w-4 xl:w-0 group-hover/item:r-w-4",
-                                                      " h-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300"
-                                                    ),
-                                                  }),
-                                                ],
-                                              })
-                                            : (0, T.jsx)("span", {
-                                                className:
-                                                  "block overflow-hidden ml-3",
-                                                children: (0, T.jsx)(nS.A, {
+                                              className:
+                                                "ml-3 r-w-4 r-h-4 relative mt-1 ".concat(
+                                                  c.includes(e.uid)
+                                                    ? "opacity-100"
+                                                    : "opacity-100 xl:opacity-0",
+                                                  " group-hover/item:opacity-100 transition-opacity"
+                                                ),
+                                              onClick: () => {
+                                                u((n) =>
+                                                  n.includes(e.uid)
+                                                    ? []
+                                                    : [e.uid]
+                                                );
+                                              },
+                                              children: [
+                                                (0, T.jsx)("span", {
                                                   className:
-                                                    "r-w-4 stroke-asphalt stroke-2 xl:-translate-x-full group-hover/item:-translate-x-0 transition-transform duration-300 ".concat(
-                                                      "_blank" === l.target
-                                                        ? " -rotate-45"
-                                                        : ""
+                                                    "block w-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ".concat(
+                                                      c.includes(e.uid)
+                                                        ? "h-0"
+                                                        : "r-h-4 xl:h-0 group-hover/item:r-h-4"
                                                     ),
                                                 }),
+                                                (0, T.jsx)("span", {
+                                                  className: "block ".concat(
+                                                    c.includes(e.uid)
+                                                      ? "r-w-4"
+                                                      : "r-w-4 xl:w-0 group-hover/item:r-w-4",
+                                                    " h-[2px] bg-current group-hover/item:bg-asphalt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300"
+                                                  ),
+                                                }),
+                                              ],
+                                            })
+                                            : (0, T.jsx)("span", {
+                                              className:
+                                                "block overflow-hidden ml-3",
+                                              children: (0, T.jsx)(nS.A, {
+                                                className:
+                                                  "r-w-4 stroke-asphalt stroke-2 xl:-translate-x-full group-hover/item:-translate-x-0 transition-transform duration-300 ".concat(
+                                                    "_blank" === l.target
+                                                      ? " -rotate-45"
+                                                      : ""
+                                                  ),
                                               }),
+                                            }),
                                           (0, T.jsx)(eW.P.div, {
                                             className:
                                               "sub-menu overflow-hidden w-full lg:w-auto lg:absolute top-0 lg:left-full z-50 flex flex-col items-start ml-10 lg:r-ml-20 gap-2",
@@ -9756,8 +9800,8 @@
                                                 ? void 0
                                                 : null === (t = e.sub) ||
                                                   void 0 === t
-                                                ? void 0
-                                                : t.map((n) => {
+                                                  ? void 0
+                                                  : t.map((n) => {
                                                     let { navigationLink: t } =
                                                       n || {};
                                                     return (0, T.jsx)(
@@ -9833,8 +9877,8 @@
                             null == p
                               ? void 0
                               : null === (t = p.mainMenu) || void 0 === t
-                              ? void 0
-                              : t
+                                ? void 0
+                                : t
                                   .filter(
                                     (e) => "secondaryLink" === e.typeHandle
                                   )
@@ -9882,8 +9926,8 @@
                                 null == p
                                   ? void 0
                                   : null === (l = p.globalSet) || void 0 === l
-                                  ? void 0
-                                  : l.headerButton,
+                                    ? void 0
+                                    : l.headerButton,
                               className: "md:hidden grey small",
                               Icon: nq.A,
                             }),
@@ -9902,37 +9946,37 @@
                         null == p
                           ? void 0
                           : null === (r = p.blocks) || void 0 === r
-                          ? void 0
-                          : null === (i = r.menuBlocks) || void 0 === i
-                          ? void 0
-                          : i.map((e) => {
-                              let { title: n, button: t } = e || {};
-                              return (0, T.jsxs)(
-                                "div",
-                                {
-                                  className: "block",
-                                  children: [
-                                    (0, T.jsx)("p", {
-                                      className: "r-text-2xl r-mb-6",
-                                      children: n,
-                                    }),
-                                    (0, T.jsx)(z.A, {
-                                      linkProps: t,
-                                      className: "white",
-                                      onClick: () => {
-                                        s.setMenuState(!1),
-                                          o({
-                                            event: "menu_clicked",
-                                            menu: t.text,
-                                            menulocation: "Main menu sidebar",
-                                          });
-                                      },
-                                    }),
-                                  ],
-                                },
-                                e.uid
-                              );
-                            }),
+                            ? void 0
+                            : null === (i = r.menuBlocks) || void 0 === i
+                              ? void 0
+                              : i.map((e) => {
+                                let { title: n, button: t } = e || {};
+                                return (0, T.jsxs)(
+                                  "div",
+                                  {
+                                    className: "block",
+                                    children: [
+                                      (0, T.jsx)("p", {
+                                        className: "r-text-2xl r-mb-6",
+                                        children: n,
+                                      }),
+                                      (0, T.jsx)(z.A, {
+                                        linkProps: t,
+                                        className: "white",
+                                        onClick: () => {
+                                          s.setMenuState(!1),
+                                            o({
+                                              event: "menu_clicked",
+                                              menu: t.text,
+                                              menulocation: "Main menu sidebar",
+                                            });
+                                        },
+                                      }),
+                                    ],
+                                  },
+                                  e.uid
+                                );
+                              }),
                     }),
                   }),
                 ],
@@ -9985,39 +10029,39 @@
           let { children: n, globals: t, entry: l } = e;
           return (null == t ? void 0 : t.currentSite)
             ? (0, T.jsxs)(T.Fragment, {
-                children: [
-                  (0, T.jsx)(ih, { globals: t }),
-                  (0, T.jsxs)("div", {
-                    className:
-                      "flex flex-col text-body body-text max-w-[100vw]",
-                    children: [
-                      (0, T.jsx)(lj, { globals: t }),
-                      (0, T.jsx)(l3, { globals: t }),
-                      (0, T.jsx)("main", {
-                        id: "smooth-wrapper",
-                        children: (0, T.jsxs)("div", {
-                          id: "smooth-content",
-                          className: "min-h-screen",
-                          children: [
-                            (0, T.jsx)("div", {
-                              className: "min-h-screen support-height-adjust",
-                              children: n,
-                            }),
-                            (0, T.jsx)(iu, { globals: t, entry: l }),
-                          ],
-                        }),
+              children: [
+                (0, T.jsx)(ih, { globals: t }),
+                (0, T.jsxs)("div", {
+                  className:
+                    "flex flex-col text-body body-text max-w-[100vw]",
+                  children: [
+                    (0, T.jsx)(lj, { globals: t }),
+                    (0, T.jsx)(l3, { globals: t }),
+                    (0, T.jsx)("main", {
+                      id: "smooth-wrapper",
+                      children: (0, T.jsxs)("div", {
+                        id: "smooth-content",
+                        className: "min-h-screen",
+                        children: [
+                          (0, T.jsx)("div", {
+                            className: "min-h-screen support-height-adjust",
+                            children: n,
+                          }),
+                          (0, T.jsx)(iu, { globals: t, entry: l }),
+                        ],
                       }),
-                    ],
-                  }),
-                  (0, T.jsx)(ix, {}),
-                  (0, T.jsx)(iv, {}),
-                  (0, T.jsx)(ib, {}),
-                  (0, T.jsx)(iw, { globals: t }),
-                  (0, T.jsx)(iy, {}),
-                  (0, T.jsx)(ig, {}),
-                  (0, T.jsx)(iA, {}),
-                ],
-              })
+                    }),
+                  ],
+                }),
+                (0, T.jsx)(ix, {}),
+                (0, T.jsx)(iv, {}),
+                (0, T.jsx)(ib, {}),
+                (0, T.jsx)(iw, { globals: t }),
+                (0, T.jsx)(iy, {}),
+                (0, T.jsx)(ig, {}),
+                (0, T.jsx)(iA, {}),
+              ],
+            })
             : (0, T.jsx)("h1", { children: "Something went wrong" });
         },
         iI = (e) => {
@@ -10028,110 +10072,110 @@
             return ''; // Return a default value or handle the error
           }
         };
-        
-        let iN = (e) => {
-          var n;
-          let { data: t = {}, currentSite: l = null, currentRoute: i = null, routeProps: r = {} } = e || {},
-            a = (0, B.useRef)(!0),
-            s = (0, t$.y)(),
-            o = (0, np.useRouter)(),
-            [d, c] = (0, B.useState)(!1),
-            { entry: u = {} } = t || {}, // Ensure u is at least an empty object
-            { sectionHandle: p = '', typeHandle: h = '' } = u || {}; // Ensure p and h are strings
-        
-          if (!p || !h) {
-            console.error('Error: Missing sectionHandle or typeHandle', { p, h });
-            return (0, T.jsx)("div", {
-              className: "w-screen h-screen flex items-center justify-center",
-              children: "Error: Missing sectionHandle or typeHandle",
-            });
-          }
-        
-          (0, B.useEffect)(() => {
-            a.current && (s({ event: "page_view" }), (a.current = !1));
-            let e = () => {
-                c(!1);
-              },
-              n = (e, n) => {
-                let { shallow: t } = n;
-                t || c(!0), s({ event: "page_view" });
-              };
-            return (
-              o.events.on("routeChangeStart", n),
-              o.events.on("routeChangeComplete", e),
-              () => {
-                o.events.off("routeChangeStart", n),
-                  o.events.off("routeChangeComplete", e);
-              }
-            );
-          }, [o, s]);
-        
-          let m = { currentSite: l, currentRoute: i, routeProps: r },
-            g = null === (n = _[p]) || void 0 === n ? void 0 : n[h];
-        
-          return g
-            ? (0, T.jsxs)(T.Fragment, {
-                children: [
-                  (0, T.jsx)(ij, {
-                    globals: m,
-                    entry: {
-                      whiteFooter: null == u ? void 0 : u.whiteFooter,
-                      footerTitle: null == u ? void 0 : u.footerTitle,
-                      footerButton: null == u ? void 0 : u.footerButton,
-                    },
-                    children: (0, T.jsx)(nh.N, {
-                      mode: "wait",
-                      initial: !1,
-                      onExitComplete: () => {
-                        let e = lo().get();
-                        e && e.scrollTop(0),
-                          window.scrollTo(0, 0),
-                          document
-                            .querySelector(".top-bar")
-                            .classList.remove("-translate-y-full"),
-                          setTimeout(() => {
-                            Q().refresh();
-                          }, 1e3);
+
+      let iN = (e) => {
+        var n;
+        let { data: t = {}, currentSite: l = null, currentRoute: i = null, routeProps: r = {} } = e || {},
+          a = (0, B.useRef)(!0),
+          s = (0, t$.y)(),
+          o = (0, np.useRouter)(),
+          [d, c] = (0, B.useState)(!1),
+          { entry: u = {} } = t || {}, // Ensure u is at least an empty object
+          { sectionHandle: p = '', typeHandle: h = '' } = u || {}; // Ensure p and h are strings
+
+        if (!p || !h) {
+          console.error('Error: Missing sectionHandle or typeHandle', { p, h });
+          return (0, T.jsx)("div", {
+            className: "w-screen h-screen flex items-center justify-center",
+            children: "Error: Missing sectionHandle or typeHandle",
+          });
+        }
+
+        (0, B.useEffect)(() => {
+          a.current && (s({ event: "page_view" }), (a.current = !1));
+          let e = () => {
+            c(!1);
+          },
+            n = (e, n) => {
+              let { shallow: t } = n;
+              t || c(!0), s({ event: "page_view" });
+            };
+          return (
+            o.events.on("routeChangeStart", n),
+            o.events.on("routeChangeComplete", e),
+            () => {
+              o.events.off("routeChangeStart", n),
+                o.events.off("routeChangeComplete", e);
+            }
+          );
+        }, [o, s]);
+
+        let m = { currentSite: l, currentRoute: i, routeProps: r },
+          g = null === (n = _[p]) || void 0 === n ? void 0 : n[h];
+
+        return g
+          ? (0, T.jsxs)(T.Fragment, {
+            children: [
+              (0, T.jsx)(ij, {
+                globals: m,
+                entry: {
+                  whiteFooter: null == u ? void 0 : u.whiteFooter,
+                  footerTitle: null == u ? void 0 : u.footerTitle,
+                  footerButton: null == u ? void 0 : u.footerButton,
+                },
+                children: (0, T.jsx)(nh.N, {
+                  mode: "wait",
+                  initial: !1,
+                  onExitComplete: () => {
+                    let e = lo().get();
+                    e && e.scrollTop(0),
+                      window.scrollTo(0, 0),
+                      document
+                        .querySelector(".top-bar")
+                        .classList.remove("-translate-y-full"),
+                      setTimeout(() => {
+                        Q().refresh();
+                      }, 1e3);
+                  },
+                  children: (0, T.jsx)(
+                    eW.P.div,
+                    {
+                      initial: { opacity: 0 },
+                      animate: { opacity: 1 },
+                      exit: { opacity: 0 },
+                      transition: {
+                        duration: 0.6,
+                        ease: [0.43, 0.13, 0.23, 0.96],
                       },
-                      children: (0, T.jsx)(
-                        eW.P.div,
-                        {
-                          initial: { opacity: 0 },
-                          animate: { opacity: 1 },
-                          exit: { opacity: 0 },
-                          transition: {
-                            duration: 0.6,
-                            ease: [0.43, 0.13, 0.23, 0.96],
-                          },
-                          children: (0, T.jsxs)(nh.N, {
-                            children: [
-                              (0, T.jsx)(g, { data: { ...t }, globals: m }),
-                              ";",
-                            ],
-                          }),
-                        },
-                        null == u ? void 0 : u.uid
-                      ),
-                    }),
-                  }),
-                ],
-              })
-            : (0, T.jsx)("div", {
-                className: "w-screen h-screen flex items-center justify-center",
-                children: (0, T.jsxs)("div", {
-                  className: "container",
-                  children: [
-                    "you have to create a new Section/EntryType components in components/Sections/",
-                    iI(p),
-                    "/Types/",
-                    iI(h),
-                    ". Also you have to reference it in components/Sections/index.js , components/Sections/",
-                    iI(p),
-                    "/index.js",
-                  ],
+                      children: (0, T.jsxs)(nh.N, {
+                        children: [
+                          (0, T.jsx)(g, { data: { ...t }, globals: m }),
+                          ";",
+                        ],
+                      }),
+                    },
+                    null == u ? void 0 : u.uid
+                  ),
                 }),
-              });
-        };
+              }),
+            ],
+          })
+          : (0, T.jsx)("div", {
+            className: "w-screen h-screen flex items-center justify-center",
+            children: (0, T.jsxs)("div", {
+              className: "container",
+              children: [
+                "you have to create a new Section/EntryType components in components/Sections/",
+                iI(p),
+                "/Types/",
+                iI(h),
+                ". Also you have to reference it in components/Sections/index.js , components/Sections/",
+                iI(p),
+                "/index.js",
+              ],
+            }),
+          });
+      };
     },
     22360: (e, n, t) => {
       "use strict";
@@ -10145,14 +10189,14 @@
             null === (r = window) || void 0 === r
               ? void 0
               : null === (i = r.__NEXT_DATA__) || void 0 === i
-              ? void 0
-              : null === (l = i.props) || void 0 === l
-              ? void 0
-              : null === (t = l.pageProps) || void 0 === t
-              ? void 0
-              : null === (n = t.currentSite) || void 0 === n
-              ? void 0
-              : n.name;
+                ? void 0
+                : null === (l = i.props) || void 0 === l
+                  ? void 0
+                  : null === (t = l.pageProps) || void 0 === t
+                    ? void 0
+                    : null === (n = t.currentSite) || void 0 === n
+                      ? void 0
+                      : n.name;
           window.dataLayer.push({ country: a, ...e });
         }, []);
     },
@@ -10165,7 +10209,7 @@
 ]);
 
 
-  
+
 // Disable browser scroll restoration
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
@@ -10199,11 +10243,11 @@ function addMobileHamburgerMenu(target) {
             <path d="M4 12L20 12" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
             <path d="M4 6L20 6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
         </svg>`
-;
+        ;
 
 
       // Append the nested div to the outer div
-     hamburgerMenu.appendChild(nestedDiv);
+      hamburgerMenu.appendChild(nestedDiv);
 
       // Append the outer div to the target element
       target.appendChild(hamburgerMenu);
@@ -10246,7 +10290,7 @@ function addLiturgiaMenu() {
           <a href="/Support" class="item-6">Support</a>
 </div>
 </div>`
-;
+      ;
 
     // Append the menu to the body
     document.body.appendChild(liturgiaMenu);
@@ -10306,7 +10350,7 @@ document.addEventListener('click', (event) => {
             </g>
          </svg>`;
 
- // Add the fade-in effect to the close icon
+        // Add the fade-in effect to the close icon
         const closeIcon = hamburgerIconContainer.querySelector('.mobile-menu-close');
         if (closeIcon) {
           setTimeout(() => {
@@ -10324,7 +10368,7 @@ document.addEventListener('click', (event) => {
             <path d="M4 12L20 12" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
             <path d="M4 6L20 6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
           </svg>`;
- }
+      }
     }
 
     // Find the logo SVG inside the "top-bar full" parent
@@ -10343,13 +10387,13 @@ window.addEventListener('pageshow', (event) => {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-    document.body.addEventListener('click', function(e) {
-        let link = e.target.closest('a[target="_blank"]'); // Find closest <a> with target="_blank"
-        if (link) {
-            e.preventDefault(); // Prevent the default behavior
-            e.stopPropagation(); // Stop other event listeners
-            e.stopImmediatePropagation(); // Stop any conflicting JS
-            window.open(link.href, '_blank', 'noopener,noreferrer'); // Open in new tab
-        }
-    }, true); // Capturing phase to catch all clicks early
+  document.body.addEventListener('click', function (e) {
+    let link = e.target.closest('a[target="_blank"]'); // Find closest <a> with target="_blank"
+    if (link) {
+      e.preventDefault(); // Prevent the default behavior
+      e.stopPropagation(); // Stop other event listeners
+      e.stopImmediatePropagation(); // Stop any conflicting JS
+      window.open(link.href, '_blank', 'noopener,noreferrer'); // Open in new tab
+    }
+  }, true); // Capturing phase to catch all clicks early
 });
