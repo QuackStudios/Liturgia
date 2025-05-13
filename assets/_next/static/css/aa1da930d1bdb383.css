@@ -788,12 +788,7 @@ body {
   object-fit: cover;
 }*/
 
-.video-wrapper.opacity-0.h-full.max-w-full.w-full.h-full.object-cover > 
-.react-player.object-cover > 
-video {
-  object-fit: cover;
-  filter: brightness(0.5);
-}
+
 
 .video-wrapper.opacity-0.h-full.max-w-full.w-full.h-full.object-cover.aspect-1.object-fit-fix > 
 .react-player.object-cover > 

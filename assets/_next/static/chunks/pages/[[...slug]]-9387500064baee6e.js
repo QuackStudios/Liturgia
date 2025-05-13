@@ -2518,15 +2518,14 @@
               className:
                 "media-wrapper absolute top-0 left-0 -z-10 w-full h-full bg-asphalt",
               ref: r,
-              children: (0, T.jsx)(q.A, {
+              children: (0, T.jsx)("img", {
+                src: "assets/_next/image/Final-Compressed-Liturgia-Hero-Image.webp",
+                alt: "Hero Image",
                 className: "w-full h-full object-cover",
-                media: h,
-                showCaption: !1,
-                priority: !0,
-                preload: "none",
                 width: 1920,
                 height: 1080,
-                videoClassName: "object-cover",
+                loading: "eager",
+                style: { filter: "brightness(0.5)" }
               }),
             }),
             (0, T.jsx)("div", {
@@ -2536,24 +2535,20 @@
                   "title-wrapper flex flex-wrap r-gap-x-8 justify-between items-end",
                 ref: s,
                 children: [
-                  // First h1 element
                   (0, T.jsx)("h1", {
                     className:
                       "text-6xl sm:h1-text leading-none sm:leading-tight text-sand-light md:text-[clamp(102px,11vw,400px)] md:whitespace-nowrap full-width",
                     ref: a,
                     children: "Liturgy Preparation",
                   }),
-                  // Second h1 element
                   (0, T.jsx)("h1", {
                     className:
                       "text-4xl sm:h1-text leading-none sm:leading-tight text-sand-light md:text-[clamp(72px,8vw,300px)] md:whitespace-nowrap hero-text-adjust",
-                    children: "Made Simple", // Replace with the desired text
+                    children: "Made Simple",
                   }),
-                  // Button element
                   (0, T.jsx)(z.A, {
                     type: "button",
-                    className:
-                      " hidden ",
+                    className: "hidden",
                     Icon: () =>
                       (0, T.jsx)("span", {
                         className:
