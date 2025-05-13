@@ -54,6 +54,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
               <span>35%</span>
               <span class="promo-discount-text">DISCOUNT</span>
             </div>
+            <div class="promo-price-box">
               <span>Starting from</span>
               $230
               <span>+GST / Parish / Year</span>
