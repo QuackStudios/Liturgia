@@ -122,7 +122,7 @@
           tags: (e) => {
             let { block: t, index: i } = e;
             return (0, a.jsxs)(n.P.div, {
-              className: "tags-wrapper r-mt-8 r-mb-10 first:mt-0 last:mb-0",
+              className: "",
               variants: {
                 hidden: { opacity: 0, y: 45 },
                 visible: {

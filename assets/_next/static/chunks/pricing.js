@@ -26,7 +26,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         <div class="price-card">
           <div class="calculator-price-section" style="display: flex; align-items: center; gap: 0.5rem;">
             <div class="price" id="price">$355</div>
-            <div class="gst">+GST</div>
+            <div class="gst"></div>
             <div class="discount-note" id="discount-note" style="color: #4caf50; font-size: 0.85rem;"></div>
           </div>
           <div class="annual-text">
@@ -41,7 +41,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         <h3 class="diocesan-promo-heading">Diocesan License</h3>
         <div class="diocesan-promo-content">
           <div class="diocesan-promo-details">
-            <p>Liturgia offers a 35% discount when a diocesan office subscribes for each parish in the diocese, or when a Catholic Education Office subscribes for each school in the diocese. The diocesan package also includes a 2-hour online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.</p>
+            <p>Liturgia offers a 35% discount when a diocesan office subscribes for each parish in the diocese, or when a Catholic Education Office subscribes for each school in the diocese. The diocesan package also includes a two-hour online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.</p>
             <div class="diocesan-promo-contact">
               <a href="/support" class="promo-contact-button">
                 Contact Us <span class="arrow-symbol"> →</span>
@@ -55,9 +55,9 @@ const observer = new MutationObserver((mutationsList, observer) => {
               <span class="promo-discount-text">DISCOUNT</span>
             </div>
             <div class="promo-price-box">
-              <span>Starting from</span>
+              <span></span>
               $230
-              <span>+GST / Parish / Year</span>
+              <span>per Parish / School</span>
             </div>
           </div>
         </div>
@@ -209,7 +209,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         padding: 1.25rem 1.75rem;
         border-radius: 10px;
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         font-weight: 700;
         min-width: 220px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
