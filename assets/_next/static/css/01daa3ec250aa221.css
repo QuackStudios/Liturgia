@@ -7495,3 +7495,19 @@ body {
 .width-full {
   width: 100%;
 }
+
+.testimonial-carousel__flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.testimonial-carousel__controls--left,
+.testimonial-carousel__controls--right {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+

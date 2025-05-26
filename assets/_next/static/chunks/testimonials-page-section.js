@@ -62,30 +62,45 @@
         });
 
         carouselWrapper.appendChild(track);
-        const controls = document.createElement('div');
-        controls.className = 'testimonial-carousel__controls';
+
         const leftArrow = document.createElement('button');
         leftArrow.innerHTML = '&lt;';
         leftArrow.className = 'testimonial-carousel__button testimonial-carousel__button--prev';
+
         const rightArrow = document.createElement('button');
         rightArrow.innerHTML = '&gt;';
         rightArrow.className = 'testimonial-carousel__button testimonial-carousel__button--next';
 
+        // New: Create left/right control wrappers
+        const controlsLeft = document.createElement('div');
+        controlsLeft.className = 'testimonial-carousel__controls testimonial-carousel__controls--left';
+
+        const controlsRight = document.createElement('div');
+        controlsRight.className = 'testimonial-carousel__controls testimonial-carousel__controls--right';
+
+        // Only show arrows if there are enough items
         if (numOriginalItems > 1) {
-            controls.appendChild(leftArrow);
-            controls.appendChild(rightArrow);
+            controlsLeft.appendChild(leftArrow);
+            controlsRight.appendChild(rightArrow);
         }
+
+        // New: Flex wrapper that holds arrows + carousel
+        const carouselFlexWrapper = document.createElement('div');
+        carouselFlexWrapper.className = 'testimonial-carousel__flex-wrapper';
+
+        carouselFlexWrapper.appendChild(controlsLeft);
+        carouselFlexWrapper.appendChild(carouselWrapper);
+        carouselFlexWrapper.appendChild(controlsRight);
+
+        // Append the whole section
+        container.appendChild(carouselFlexWrapper);
 
         let actualCurrentIndex = numClonesEachSide + (numOriginalItems > 0 ? Math.floor(numOriginalItems / 2) : 0);
         let isTransitioning = false;
 
         const updateCarousel = (targetIndex, animate = true) => {
-            if (animate && isTransitioning) {
-                return;
-            }
-            if (animate) {
-                isTransitioning = true;
-            }
+            if (animate && isTransitioning) return;
+            if (animate) isTransitioning = true;
 
             const allCards = Array.from(track.children);
             if (!allCards.length || targetIndex < 0 || targetIndex >= allCards.length) {
@@ -106,7 +121,7 @@
                     else if (i === targetIndex - 1) card.classList.add('semi-active-left');
                     else if (i === targetIndex + 1) card.classList.add('semi-active-right');
                 });
-                let dummy = track.offsetHeight;
+                void track.offsetHeight;
                 requestAnimationFrame(() => {
                     track.style.transition = '';
                     allCards.forEach(card => card.style.transition = '');
@@ -170,10 +185,9 @@
             requestAnimationFrame(() => updateCarousel(actualCurrentIndex, false));
         });
 
-        container.appendChild(carouselWrapper);
-        container.appendChild(controls);
         return container;
     };
+
 
     const mainObserver = new MutationObserver(() => {
         // Header element for testimonial injection AND class modification
