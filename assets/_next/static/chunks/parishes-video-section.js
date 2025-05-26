@@ -6,8 +6,8 @@
         section.className = 'video-section';
         section.style.cssText = `
             width: 100%;
-            max-width: 90vw;
-            height: 80%;
+            max-width: 85vw;
+            height: 88%;
             background: black;
             border-radius: 24px;
             overflow: hidden;
