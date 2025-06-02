@@ -31,7 +31,7 @@
         `;
 
         const video = document.createElement('video');
-        video.src = 'assets/videos/Edited-Liturgia-Schools-Video(1).mp4';
+        video.src = 'assets/videos/Edited-Liturgia-School-Video(1).mp4';
         video.muted = true;
         video.autoplay = true;
         video.playsInline = true;
