@@ -40,7 +40,7 @@
         `;
 
         const video = document.createElement('video');
-        video.src = 'assets/videos/Liturgia-Promo-Video.mp4';
+        video.src = 'assets/videos/Edited-Liturgia-Promo-Video(1).mp4';
         video.muted = true;
         video.autoplay = true;
         video.playsInline = true;
