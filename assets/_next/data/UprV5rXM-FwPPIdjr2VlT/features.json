@@ -573,11 +573,11 @@
           "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"features\"})": {
             "__typename": "SeomaticType",
             "metaTitleContainer": "{\"title\":{\"title\":\"Features | Liturgia\"}}",
-            "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Discover the unique features of Liturgia's services and products, designed to support your religious needs efficiently and effectively.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Liturgia\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/features\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Features of Liturgia\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Discover the unique features of Liturgia's services and products, designed to support your religious needs efficiently and effectively.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/features.jpg\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":{\"content\":\"Explore Liturgia Features\",\"property\":\"og:image:alt\"},\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@Liturgia\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Features of Liturgia\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Discover the unique features of Liturgia's services and products, designed to support your religious needs efficiently and effectively.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/features.jpg\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":{\"content\":\"Explore Liturgia Features\",\"name\":\"twitter:image:alt\"},\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
-            "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/features\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/getliturgia.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/getliturgia.com.au\\/nl\\/features\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr\\/features\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/en-uk\\/features\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/de\\/features\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/da\\/features\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/sv\\/features\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/no\\/features\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/features\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr-ch\\/features\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/de-ch\\/features\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr-be\\/features\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/nl-be\\/features\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
+            "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"Discover the unique features of Liturgia's services and products, designed to support your religious needs efficiently and effectively.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Liturgia\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/aboutliturgia.com.au\\/features\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Features of Liturgia\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"Discover the unique features of Liturgia's services and products, designed to support your religious needs efficiently and effectively.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/features.jpg\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":{\"content\":\"Explore Liturgia Features\",\"property\":\"og:image:alt\"},\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@Liturgia\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Features of Liturgia\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"Discover the unique features of Liturgia's services and products, designed to support your religious needs efficiently and effectively.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/features.jpg\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":{\"content\":\"Explore Liturgia Features\",\"name\":\"twitter:image:alt\"},\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+            "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/features\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/aboutliturgia.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/nl\\/features\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/fr\\/features\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/en-uk\\/features\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/de\\/features\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/da\\/features\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/sv\\/features\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/no\\/features\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/features\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/fr-ch\\/features\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/de-ch\\/features\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/fr-be\\/features\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/nl-be\\/features\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
             "metaScriptContainer": "{}",
-            "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2023-11-20T15:53:49+01:00\",\"dateModified\":\"2025-01-16T13:21:56+01:00\",\"datePublished\":\"2023-11-20T16:06:00+01:00\",\"description\":\"Explore the key features of Liturgia's services and products, designed to enhance religious experiences with efficiency and reliability.\",\"headline\":\"Liturgia Features\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/features.jpg\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/getliturgia.com.au\\/features\",\"name\":\"Liturgia Features\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/getliturgia.com.au\\/features\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"description\":\"Liturgy Brisbane provides premium services for religious products and materials.\",\"email\":\"liturgy@liturgybrisbane.net.au\",\"name\":\"Liturgy Brisbane\",\"priceRange\":\"$\",\"telephone\":\"07 3324 3314\",\"url\":\"https:\\/\\/getliturgia.com.au\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\\/features\",\"name\":\"Liturgia Features\",\"position\":2}],\"name\":\"Breadcrumbs\"}}",
-            "metaSiteVarsContainer": "{\"siteName\":\"Liturgia\",\"siteAlternateName\":\"Liturgy Brisbane\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious products and materials.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/logo.jpg\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious products and materials.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/logo.jpg\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
+            "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#creator\"},\"dateCreated\":\"2023-11-20T15:53:49+01:00\",\"dateModified\":\"2025-01-16T13:21:56+01:00\",\"datePublished\":\"2023-11-20T16:06:00+01:00\",\"description\":\"Explore the key features of Liturgia's services and products, designed to enhance religious experiences with efficiency and reliability.\",\"headline\":\"Liturgia Features\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/features.jpg\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/aboutliturgia.com.au\\/features\",\"name\":\"Liturgia Features\",\"publisher\":{\"@id\":\"#creator\"},\"url\":\"https:\\/\\/aboutliturgia.com.au\\/features\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"description\":\"Liturgy Brisbane provides premium services for religious products and materials.\",\"email\":\"liturgy@liturgybrisbane.net.au\",\"name\":\"Liturgy Brisbane\",\"priceRange\":\"$\",\"telephone\":\"07 3324 3314\",\"url\":\"https:\\/\\/aboutliturgia.com.au\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/aboutliturgia.com.au\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/aboutliturgia.com.au\\/features\",\"name\":\"Liturgia Features\",\"position\":2}],\"name\":\"Breadcrumbs\"}}",
+            "metaSiteVarsContainer": "{\"siteName\":\"Liturgia\",\"siteAlternateName\":\"Liturgy Brisbane\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious products and materials.\",\"genericUrl\":\"https:\\/\\/aboutliturgia.com.au\",\"genericImage\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/logo.jpg\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious products and materials.\",\"genericUrl\":\"https:\\/\\/aboutliturgia.com.au\",\"genericImage\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/logo.jpg\",\"genericImageWidth\":\"\",\"genericImageHeight\":\"\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"twitter\",\"url\":\"\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"facebook\",\"url\":\"\"},\"wikipedia\":{\"siteName\":\"Wikipedia\",\"handle\":\"wikipedia\",\"url\":\"\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"linkedin\",\"url\":\"\"},\"googleplus\":{\"siteName\":\"Google+\",\"handle\":\"googleplus\",\"url\":\"\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"youtube\",\"url\":\"\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"instagram\",\"url\":\"\"},\"pinterest\":{\"siteName\":\"Pinterest\",\"handle\":\"pinterest\",\"url\":\"\"},\"github\":{\"siteName\":\"GitHub\",\"handle\":\"github\",\"url\":\"\"},\"vimeo\":{\"siteName\":\"Vimeo\",\"handle\":\"vimeo\",\"url\":\"\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
           },
           "entry({\"level\":1,\"listType\":\"accessories\",\"section\":\"pages\",\"siteId\":1,\"type\":\"list\"})": null,
           "entries({\"limit\":6,\"relatedTo\":[\"5442\"],\"section\":\"accessories\",\"siteId\":1})": [
@@ -666,7 +666,7 @@
             "target": "",
             "text": "Accessories",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/charging-solutions/accessories",
+            "url": "https://www.aboutliturgia.com.au/charging-solutions/accessories",
             "title": "Accessories"
           },
           "plainText": null,
@@ -685,7 +685,7 @@
             "target": "",
             "text": "Digital services",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/products/digital-services",
+            "url": "https://www.aboutliturgia.com.au/products/digital-services",
             "title": "Digital Services"
           },
           "plainText": null,
@@ -724,7 +724,7 @@
             "target": "",
             "text": "Features",
             "type": "entry",
-            "url": "https://getliturgia.com.au/features",
+            "url": "https://aboutliturgia.com.au/features",
             "title": null
           },
           "plainText": null,
@@ -743,7 +743,7 @@
             "target": "",
             "text": "Parishes",
             "type": "entry",
-            "url": "https://getliturgia.com.au/parishes",
+            "url": "https://aboutliturgia.com.au/parishes",
             "title": "Parishes"
           },
           "plainText": null,
@@ -762,7 +762,7 @@
             "target": "",
             "text": "Schools",
             "type": "url",
-            "url": "https://getliturgia.com.au/schools",
+            "url": "https://aboutliturgia.com.au/schools",
             "title": "Schools"
           },
           "plainText": null,
@@ -781,7 +781,7 @@
             "target": "",
             "text": "Features",
             "type": "entry",
-            "url": "https://getliturgia.com.au/features",
+            "url": "https://aboutliturgia.com.au/features",
             "title": "Features"
           },
           "plainText": null,
@@ -819,7 +819,7 @@
             "target": "",
             "text": "Pricing",
             "type": "url",
-            "url": "https://getliturgia.com.au/pricing",
+            "url": "https://aboutliturgia.com.au/pricing",
             "title": "Pricing"
           },
           "plainText": null,
@@ -838,7 +838,7 @@
             "target": "",
             "text": "Support",
             "type": "url",
-            "url": "https://getliturgia.com.au/support",
+            "url": "https://aboutliturgia.com.au/support",
             "title": "Support"
           },
           "plainText": null,
@@ -857,7 +857,7 @@
             "target": "",
             "text": "Pricing",
             "type": "url",
-            "url": "https://getliturgia.com.au/pricing",
+            "url": "https://aboutliturgia.com.au/pricing",
             "title": "Pricing"
           },
           "plainText": null,
@@ -1166,7 +1166,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//no/"
+            "url": "https://aboutliturgia.com.au//no/"
           }
         },
         "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
@@ -1208,7 +1208,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//sv/"
+            "url": "https://aboutliturgia.com.au//sv/"
           }
         },
         "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
@@ -1250,7 +1250,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//da/"
+            "url": "https://aboutliturgia.com.au//da/"
           }
         },
         "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
@@ -1292,7 +1292,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//de/"
+            "url": "https://aboutliturgia.com.au//de/"
           }
         },
         "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
@@ -1334,7 +1334,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//en-uk/"
+            "url": "https://aboutliturgia.com.au//en-uk/"
           }
         },
         "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
@@ -1376,7 +1376,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//fr/"
+            "url": "https://aboutliturgia.com.au//fr/"
           }
         },
         "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
@@ -1418,7 +1418,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//nl/"
+            "url": "https://aboutliturgia.com.au//nl/"
           }
         },
         "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
@@ -1460,7 +1460,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//nl-be/"
+            "url": "https://aboutliturgia.com.au//nl-be/"
           }
         },
         "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
@@ -1472,7 +1472,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//fr-be/"
+            "url": "https://aboutliturgia.com.au//fr-be/"
           }
         },
         "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
@@ -1517,7 +1517,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//fr-ch/"
+            "url": "https://aboutliturgia.com.au//fr-ch/"
           }
         },
         "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
@@ -1529,7 +1529,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//de-ch/"
+            "url": "https://aboutliturgia.com.au//de-ch/"
           }
         },
         "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
@@ -1782,7 +1782,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://getliturgia.com.au//nl-be/"
+            "url": "https://aboutliturgia.com.au//nl-be/"
           }
         },
         "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
@@ -2569,7 +2569,7 @@
             "target": "",
             "text": "Read about our safety approach",
             "type": "entry",
-            "url": "https://getliturgia.com.au/quality-and-safety",
+            "url": "https://aboutliturgia.com.au/quality-and-safety",
             "title": null
           },
           "button2": {

@@ -28,9 +28,9 @@
       "currentSite": {
         "siteId": 1,
         "locale": "en",
-        "domain": "www.getliturgia.com.au",
+        "domain": "www.aboutliturgia.com.au",
         "url": "/",
-        "fullUrl": "https://www.getliturgia.com.au/",
+        "fullUrl": "https://www.aboutliturgia.com.au/",
         "handle": "default",
         "name": "Global / English",
         "primary": true,
@@ -520,11 +520,11 @@
           "seomatic({\"asArray\":true,\"environment\":\"live\",\"siteId\":1,\"uri\":\"contact\"})": {
             "__typename": "SeomaticType",
             "metaTitleContainer": "{\"title\":{\"title\":\"Support | Liturgia\"}}",
-            "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Liturgia Support\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/support\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Liturgia Support\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":{\"content\":\"Liturgia Support\",\"property\":\"og:image:alt\"},\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@Liturgia\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Liturgia Support\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":{\"content\":\"Liturgia Support\",\"name\":\"twitter:image:alt\"},\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
-            "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/support\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/getliturgia.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/getliturgia.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/getliturgia.com.au\\/nl\\/support\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr\\/support\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/en-uk\\/support\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/de\\/support\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/da\\/support\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/sv\\/support\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/no\\/support\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/support\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr-ch\\/support\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/de-ch\\/support\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/fr-be\\/support\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/getliturgia.com.au\\/nl-be\\/support\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
+            "metaTagContainer": "{\"generator\":{\"content\":\"SEOmatic\",\"name\":\"generator\"},\"keywords\":[],\"description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"name\":\"description\"},\"referrer\":{\"content\":\"no-referrer-when-downgrade\",\"name\":\"referrer\"},\"robots\":{\"content\":\"all\",\"name\":\"robots\"},\"fb:profile_id\":[],\"fb:app_id\":[],\"og:locale\":{\"content\":\"en\",\"property\":\"og:locale\"},\"og:locale:alternate\":[{\"content\":\"nl\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr\",\"property\":\"og:locale:alternate\"},{\"content\":\"en_GB\",\"property\":\"og:locale:alternate\"},{\"content\":\"de\",\"property\":\"og:locale:alternate\"},{\"content\":\"da\",\"property\":\"og:locale:alternate\"},{\"content\":\"sv\",\"property\":\"og:locale:alternate\"},{\"content\":\"nb\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"de_CH\",\"property\":\"og:locale:alternate\"},{\"content\":\"fr_BE\",\"property\":\"og:locale:alternate\"},{\"content\":\"nl_BE\",\"property\":\"og:locale:alternate\"}],\"og:site_name\":{\"content\":\"Liturgia Support\",\"property\":\"og:site_name\"},\"og:type\":{\"content\":\"website\",\"property\":\"og:type\"},\"og:url\":{\"content\":\"https:\\/\\/aboutliturgia.com.au\\/support\",\"property\":\"og:url\"},\"og:title\":{\"content\":\"Liturgia Support\",\"property\":\"og:title\"},\"og:description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"property\":\"og:description\"},\"og:image\":{\"content\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"property\":\"og:image\"},\"og:image:width\":{\"content\":\"1200\",\"property\":\"og:image:width\"},\"og:image:height\":{\"content\":\"630\",\"property\":\"og:image:height\"},\"og:image:alt\":{\"content\":\"Liturgia Support\",\"property\":\"og:image:alt\"},\"og:see_also\":[],\"facebook-site-verification\":[],\"twitter:card\":{\"content\":\"summary_large_image\",\"name\":\"twitter:card\"},\"twitter:site\":[],\"twitter:creator\":{\"content\":\"@Liturgia\",\"name\":\"twitter:creator\"},\"twitter:title\":{\"content\":\"Liturgia Support\",\"name\":\"twitter:title\"},\"twitter:description\":{\"content\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"name\":\"twitter:description\"},\"twitter:image\":{\"content\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"name\":\"twitter:image\"},\"twitter:image:width\":{\"content\":\"1200\",\"name\":\"twitter:image:width\"},\"twitter:image:height\":{\"content\":\"630\",\"name\":\"twitter:image:height\"},\"twitter:image:alt\":{\"content\":\"Liturgia Support\",\"name\":\"twitter:image:alt\"},\"google-site-verification\":[],\"bing-site-verification\":[],\"pinterest-site-verification\":[]}",
+            "metaLinkContainer": "{\"canonical\":{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/support\",\"rel\":\"canonical\"},\"home\":{\"href\":\"https:\\/\\/aboutliturgia.com.au\",\"rel\":\"home\"},\"author\":{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/humans.txt\",\"rel\":\"author\",\"type\":\"text\\/plain\"},\"publisher\":[],\"alternate\":[{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/nl\\/support\",\"hreflang\":\"nl\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/fr\\/support\",\"hreflang\":\"fr\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/en-uk\\/support\",\"hreflang\":\"en-gb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/de\\/support\",\"hreflang\":\"de\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/da\\/support\",\"hreflang\":\"da\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/sv\\/support\",\"hreflang\":\"sv\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/no\\/support\",\"hreflang\":\"nb\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/support\",\"hreflang\":\"en\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/fr-ch\\/support\",\"hreflang\":\"fr-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/de-ch\\/support\",\"hreflang\":\"de-ch\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/fr-be\\/support\",\"hreflang\":\"fr-be\",\"rel\":\"alternate\"},{\"href\":\"https:\\/\\/aboutliturgia.com.au\\/nl-be\\/support\",\"hreflang\":\"nl-be\",\"rel\":\"alternate\"}]}",
             "metaScriptContainer": "{}",
-            "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#identity\"},\"dateCreated\":\"2024-01-12T14:39:29+01:00\",\"dateModified\":\"2024-12-11T15:59:04+01:00\",\"datePublished\":\"2023-11-25T12:43:00+01:00\",\"description\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"headline\":\"Liturgia Support\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/getliturgia.com.au\\/support\",\"name\":\"Liturgia Support\",\"publisher\":{\"@id\":\"#identity\"},\"url\":\"https:\\/\\/getliturgia.com.au\\/support\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"description\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"email\":\"liturgy@liturgybrisbane.net.au\",\"name\":\"Liturgy Brisbane\",\"priceRange\":\"$\",\"telephone\":\"07 3324 3314\",\"url\":\"https:\\/\\/getliturgia.com.au\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/getliturgia.com.au\\/support\",\"name\":\"Liturgia Support\",\"position\":2}],\"name\":\"Breadcrumbs\"}}",
-            "metaSiteVarsContainer": "{\"siteName\":\"Liturgia Support\",\"siteAlternateName\":\"Liturgy Brisbane\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"genericImageWidth\":\"1200\",\"genericImageHeight\":\"630\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"genericUrl\":\"https:\\/\\/getliturgia.com.au\",\"genericImage\":\"https:\\/\\/getliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"genericImageWidth\":\"1200\",\"genericImageHeight\":\"630\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"@Liturgia\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/twitter.com\\/Liturgia\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/facebook.com\\/Liturgia\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"liturgia\",\"url\":\"https:\\/\\/linkedin.com\\/company\\/liturgia\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/youtube.com\\/Liturgia\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/instagram.com\\/Liturgia\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
+            "metaJsonLdContainer": "{\"mainEntityOfPage\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"WebSite\",\"author\":{\"@id\":\"#identity\"},\"copyrightHolder\":{\"@id\":\"#identity\"},\"copyrightYear\":\"2023\",\"creator\":{\"@id\":\"#identity\"},\"dateCreated\":\"2024-01-12T14:39:29+01:00\",\"dateModified\":\"2024-12-11T15:59:04+01:00\",\"datePublished\":\"2023-11-25T12:43:00+01:00\",\"description\":\"For partner and customer support inquiries, reach out to Liturgy Brisbane using the contact forms below.\",\"headline\":\"Liturgia Support\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\"},\"inLanguage\":\"en\",\"mainEntityOfPage\":\"https:\\/\\/aboutliturgia.com.au\\/support\",\"name\":\"Liturgia Support\",\"publisher\":{\"@id\":\"#identity\"},\"url\":\"https:\\/\\/aboutliturgia.com.au\\/support\"},\"identity\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"priceRange\":\"$\"},\"creator\":{\"@context\":\"http:\\/\\/schema.org\",\"@id\":\"#identity\",\"@type\":\"LocalBusiness\",\"description\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"email\":\"liturgy@liturgybrisbane.net.au\",\"name\":\"Liturgy Brisbane\",\"priceRange\":\"$\",\"telephone\":\"07 3324 3314\",\"url\":\"https:\\/\\/aboutliturgia.com.au\"},\"breadcrumbList\":{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"description\":\"Breadcrumbs list\",\"itemListElement\":[{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/aboutliturgia.com.au\",\"name\":\"Home\",\"position\":1},{\"@type\":\"ListItem\",\"item\":\"https:\\/\\/aboutliturgia.com.au\\/support\",\"name\":\"Liturgia Support\",\"position\":2}],\"name\":\"Breadcrumbs\"}}",
+            "metaSiteVarsContainer": "{\"siteName\":\"Liturgia Support\",\"siteAlternateName\":\"Liturgy Brisbane\",\"identity\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"genericUrl\":\"https:\\/\\/aboutliturgia.com.au\",\"genericImage\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"genericImageWidth\":\"1200\",\"genericImageHeight\":\"630\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"creator\":{\"siteType\":\"Organization\",\"siteSubType\":\"LocalBusiness\",\"siteSpecificType\":\"none\",\"computedType\":\"LocalBusiness\",\"genericName\":\"Liturgia\",\"genericAlternateName\":\"Liturgy Brisbane\",\"genericDescription\":\"Liturgy Brisbane provides premium services for religious education, liturgical planning, and church management.\",\"genericUrl\":\"https:\\/\\/aboutliturgia.com.au\",\"genericImage\":\"https:\\/\\/aboutliturgia.com.au\\/assets\\/_next\\/image\\/support.jpg\",\"genericImageWidth\":\"1200\",\"genericImageHeight\":\"630\",\"genericImageIds\":\"\",\"genericTelephone\":\"07 3324 3314\",\"genericEmail\":\"liturgy@liturgybrisbane.net.au\",\"genericStreetAddress\":\"\",\"genericAddressLocality\":\"Brisbane\",\"genericAddressRegion\":\"Queensland\",\"genericPostalCode\":\"\",\"genericAddressCountry\":\"Australia\",\"genericGeoLatitude\":\"\",\"genericGeoLongitude\":\"\",\"personGender\":\"\",\"personBirthPlace\":\"\",\"organizationDuns\":\"\",\"organizationFounder\":\"\",\"organizationFoundingDate\":\"\",\"organizationFoundingLocation\":\"\",\"organizationContactPoints\":\"\",\"corporationTickerSymbol\":\"\",\"localBusinessPriceRange\":\"$\",\"localBusinessOpeningHours\":[{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null},{\"open\":null,\"close\":null}],\"restaurantServesCuisine\":\"\",\"restaurantMenuUrl\":\"\",\"restaurantReservationsUrl\":\"\"},\"twitterHandle\":\"@Liturgia\",\"facebookProfileId\":\"\",\"facebookAppId\":\"\",\"googleSiteVerification\":\"\",\"bingSiteVerification\":\"\",\"pinterestSiteVerification\":\"\",\"facebookSiteVerification\":\"\",\"sameAsLinks\":{\"twitter\":{\"siteName\":\"Twitter\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/twitter.com\\/Liturgia\"},\"facebook\":{\"siteName\":\"Facebook\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/facebook.com\\/Liturgia\"},\"linkedin\":{\"siteName\":\"LinkedIn\",\"handle\":\"liturgia\",\"url\":\"https:\\/\\/linkedin.com\\/company\\/liturgia\"},\"youtube\":{\"siteName\":\"YouTube\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/youtube.com\\/Liturgia\"},\"instagram\":{\"siteName\":\"Instagram\",\"handle\":\"Liturgia\",\"url\":\"https:\\/\\/instagram.com\\/Liturgia\"}},\"siteLinksSearchTarget\":\"\",\"siteLinksQueryInput\":\"\",\"referrer\":\"no-referrer-when-downgrade\",\"additionalSitemapUrls\":[],\"additionalSitemapUrlsDateUpdated\":null,\"additionalSitemaps\":[]}"
           }
         },
         "menuSettings_GlobalSet:{\"uid\":\"0c6df58d-5aee-44d6-b754-d104a8c9b64f\",\"siteId\":1,\"id\":\"20726\"}": {
@@ -561,7 +561,7 @@
             "text": "Accessories",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/charging-solutions/accessories"
+            "url": "https://www.aboutliturgia.com.au/charging-solutions/accessories"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"e8987905-968b-4a9b-8419-49ab71ac92ad\",\"siteId\":1,\"id\":\"1008623\"}": {
@@ -576,7 +576,7 @@
             "text": "Digital services",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/products/digital-services"
+            "url": "https://www.aboutliturgia.com.au/products/digital-services"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"bb909196-465a-4c54-87ef-ea080ed4c580\",\"siteId\":1,\"id\":\"20672\"}": {
@@ -692,7 +692,7 @@
             "text": "Learn More",
             "title": "Documents \u0026 manuals",
             "type": "url",
-            "url": "https://help.getliturgia.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
+            "url": "https://help.aboutliturgia.com.au/hc/en-001/categories/13983927892753-Documents-and-manuals"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"9b984fa8-552a-4bfa-b6a5-44cfd4d1ed72\",\"siteId\":1,\"id\":\"1008643\"}": {
@@ -707,7 +707,7 @@
             "text": "Learn More",
             "title": "Help centre",
             "type": "url",
-            "url": "https://help.getliturgia.com.au/hc/en-001"
+            "url": "https://help.aboutliturgia.com.au/hc/en-001"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"4da94d65-b2c0-4547-8b66-26933e2e8efe\",\"siteId\":1,\"id\":\"1008645\"}": {
@@ -722,7 +722,7 @@
             "text": "Contact us",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/support"
+            "url": "https://www.aboutliturgia.com.au/support"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"1b7a0d99-91a6-4880-93cb-ca6fc9aa43d9\",\"siteId\":1,\"id\":\"20711\"}": {
@@ -737,7 +737,7 @@
             "text": "About us",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/company/about-us"
+            "url": "https://www.aboutliturgia.com.au/company/about-us"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"80d752af-898e-4ff8-a263-f1882d98e639\",\"siteId\":1,\"id\":\"20709\"}": {
@@ -752,7 +752,7 @@
             "text": "Our journey",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/company/history"
+            "url": "https://www.aboutliturgia.com.au/company/history"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"3891052c-dc0c-4fd1-8937-871e8ed73b21\",\"siteId\":1,\"id\":\"20707\"}": {
@@ -767,7 +767,7 @@
             "text": "Quality and safety",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/company/quality-and-safety"
+            "url": "https://www.aboutliturgia.com.au/company/quality-and-safety"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"99e5c6a7-942b-40bc-8726-89eaeb1263d7\",\"siteId\":1,\"id\":\"856714\"}": {
@@ -782,7 +782,7 @@
             "text": "Sustainability commitments",
             "title": "Sustainability commitments",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/company/sustainability"
+            "url": "https://www.aboutliturgia.com.au/company/sustainability"
           }
         },
         "mainMenu_default_Entry:{\"uid\":\"accde77f-c24e-45a6-82d1-edbf3a9e2647\",\"siteId\":1,\"id\":\"941260\"}": {
@@ -797,7 +797,7 @@
             "text": "Investor Relations",
             "title": null,
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/company/investor-relations"
+            "url": "https://www.aboutliturgia.com.au/company/investor-relations"
           }
         },       
         "mainMenu_default_Entry:{\"uid\":\"e766bc5b-8be7-4966-a901-274b00b64304\",\"siteId\":1,\"id\":\"20676\"}": {
@@ -910,7 +910,7 @@
             "target": "",
             "text": "Accessories",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/charging-solutions/accessories",
+            "url": "https://www.aboutliturgia.com.au/charging-solutions/accessories",
             "title": "Accessories"
           },
           "plainText": null,
@@ -929,7 +929,7 @@
             "target": "",
             "text": "Digital services",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/products/digital-services",
+            "url": "https://www.aboutliturgia.com.au/products/digital-services",
             "title": "Digital Services"
           },
           "plainText": null,
@@ -968,7 +968,7 @@
             "target": "",
             "text": "Features",
             "type": "entry",
-            "url": "https://getliturgia.com.au/features",
+            "url": "https://aboutliturgia.com.au/features",
             "title": null
           },
           "plainText": null,
@@ -987,7 +987,7 @@
             "target": "",
             "text": "Parishes",
             "type": "entry",
-            "url": "https://getliturgia.com.au/parishes",
+            "url": "https://aboutliturgia.com.au/parishes",
             "title": "Parishes"
           },
           "plainText": null,
@@ -1006,7 +1006,7 @@
             "target": "",
             "text": "Schools",
             "type": "url",
-            "url": "https://getliturgia.com.au/schools",
+            "url": "https://aboutliturgia.com.au/schools",
             "title": "Schools"
           },
           "plainText": null,
@@ -1025,7 +1025,7 @@
             "target": "",
             "text": "Features",
             "type": "entry",
-            "url": "https://getliturgia.com.au/features",
+            "url": "https://aboutliturgia.com.au/features",
             "title": "Features"
           },
           "plainText": null,
@@ -1063,7 +1063,7 @@
             "target": "",
             "text": "Pricing",
             "type": "url",
-            "url": "https://getliturgia.com.au/pricing",
+            "url": "https://aboutliturgia.com.au/pricing",
             "title": "Pricing"
           },
           "plainText": null,
@@ -1082,7 +1082,7 @@
             "target": "",
             "text": "Support",
             "type": "url",
-            "url": "https://getliturgia.com.au/support",
+            "url": "https://aboutliturgia.com.au/support",
             "title": "Support"
           },
           "plainText": null,
@@ -1101,7 +1101,7 @@
             "target": "",
             "text": "Pricing",
             "type": "url",
-            "url": "https://getliturgia.com.au/pricing",
+            "url": "https://aboutliturgia.com.au/pricing",
             "title": "Pricing"
           },
           "plainText": null,
@@ -1352,7 +1352,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/no/"
+            "url": "https://www.aboutliturgia.com.au/no/"
           }
         },
         "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
@@ -1381,7 +1381,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/sv/"
+            "url": "https://www.aboutliturgia.com.au/sv/"
           }
         },
         "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
@@ -1410,7 +1410,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/da/"
+            "url": "https://www.aboutliturgia.com.au/da/"
           }
         },
         "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
@@ -1439,7 +1439,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/de/"
+            "url": "https://www.aboutliturgia.com.au/de/"
           }
         },
         "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
@@ -1468,7 +1468,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/en-uk/"
+            "url": "https://www.aboutliturgia.com.au/en-uk/"
           }
         },
         "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
@@ -1497,7 +1497,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/fr/"
+            "url": "https://www.aboutliturgia.com.au/fr/"
           }
         },
         "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
@@ -1526,7 +1526,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/nl/"
+            "url": "https://www.aboutliturgia.com.au/nl/"
           }
         },
         "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
@@ -1555,7 +1555,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/nl-be/"
+            "url": "https://www.aboutliturgia.com.au/nl-be/"
           }
         },
         "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
@@ -1567,7 +1567,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/fr-be/"
+            "url": "https://www.aboutliturgia.com.au/fr-be/"
           }
         },
         "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
@@ -1599,7 +1599,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/fr-ch/"
+            "url": "https://www.aboutliturgia.com.au/fr-ch/"
           }
         },
         "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
@@ -1611,7 +1611,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/de-ch/"
+            "url": "https://www.aboutliturgia.com.au/de-ch/"
           }
         },
         "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
@@ -1747,7 +1747,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "https://www.getliturgia.com.au/nl-be/"
+            "url": "https://www.aboutliturgia.com.au/nl-be/"
           }
         },
         "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
@@ -1975,7 +1975,7 @@
             "target": "",
             "text": "Find an installer",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/find-an-installer",
+            "url": "https://www.aboutliturgia.com.au/find-an-installer",
             "title": null
           },
           "image": []
@@ -2055,7 +2055,7 @@
             "target": "",
             "text": "Become a partner",
             "type": "entry",
-            "url": "https://www.getliturgia.com.au/partners/become-a-partner",
+            "url": "https://www.aboutliturgia.com.au/partners/become-a-partner",
             "title": null
           },
           "image": []

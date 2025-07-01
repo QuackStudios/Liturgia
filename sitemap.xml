@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://getliturgia.com.au/features.xml</loc>
+    <loc>https://aboutliturgia.com.au/features.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://getliturgia.com.au/pricing.xml</loc>
+    <loc>https://aboutliturgia.com.au/pricing.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://getliturgia.com.au/schools.xml</loc>
+    <loc>https://aboutliturgia.com.au/schools.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://getliturgia.com.au/support.xml</loc>
+    <loc>https://aboutliturgia.com.au/support.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://getliturgia.com.au/parishes.xml</loc>
+    <loc>https://aboutliturgia.com.au/parishes.xml</loc>
   </sitemap>
 </sitemapindex>
