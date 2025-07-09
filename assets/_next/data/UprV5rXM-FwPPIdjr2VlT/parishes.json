@@ -30,7 +30,7 @@
         "locale": "en",
         "domain": "aboutliturgia.com.au/",
         "url": "/",
-        "fullUrl": "/index",
+        "fullUrl": "/",
         "handle": "default",
         "name": "Global / English",
         "primary": true,

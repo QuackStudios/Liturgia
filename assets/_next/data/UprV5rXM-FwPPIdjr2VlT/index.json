@@ -30,7 +30,7 @@
         "locale": "en",
         "domain": "https://aboutliturgia.com.au/",
         "url": "/",
-        "fullUrl": "https://aboutliturgia.com.au/index",
+        "fullUrl": "https://aboutliturgia.com.au/",
         "handle": "default",
         "name": "Global / English",
         "primary": true,
@@ -703,7 +703,7 @@
             "text": "Home",
             "title": "Home",
             "type": "entry",
-            "url": "/index"
+            "url": "/"
           }
         },
         "footerMenu_default_Entry:{\"uid\":\"4e341b35-2575-49b3-8a9c-f0429dd06177\",\"siteId\":1,\"id\":\"20740\"}": {
