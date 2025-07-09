@@ -10,13 +10,13 @@
         return (s = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var t = 1; t < arguments.length; t++) {
-                var l = arguments[t];
-                for (var a in l)
-                  Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var t = 1; t < arguments.length; t++) {
+              var l = arguments[t];
+              for (var a in l)
+                Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       let r = (0, n.forwardRef)(function (e, t) {
         return n.createElement(
@@ -31,10 +31,10 @@
             e
           ),
           a ||
-            (a = n.createElement("path", {
-              d: "M.74 7h12m0 0-6-6m6 6-6 6",
-              vectorEffect: "non-scaling-stroke",
-            }))
+          (a = n.createElement("path", {
+            d: "M.74 7h12m0 0-6-6m6 6-6 6",
+            vectorEffect: "non-scaling-stroke",
+          }))
         );
       });
     },
@@ -47,13 +47,13 @@
         return (s = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var t = 1; t < arguments.length; t++) {
-                var l = arguments[t];
-                for (var a in l)
-                  Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var t = 1; t < arguments.length; t++) {
+              var l = arguments[t];
+              for (var a in l)
+                Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       let r = (0, n.forwardRef)(function (e, t) {
         return n.createElement(
@@ -72,9 +72,9 @@
             e
           ),
           a ||
-            (a = n.createElement("path", {
-              d: "m1.414 1.414 10 10m0-10-10 10",
-            }))
+          (a = n.createElement("path", {
+            d: "m1.414 1.414 10 10m0-10-10 10",
+          }))
         );
       });
     },
@@ -92,195 +92,195 @@
         return (d = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var t = 1; t < arguments.length; t++) {
-                var l = arguments[t];
-                for (var a in l)
-                  Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var t = 1; t < arguments.length; t++) {
+              var l = arguments[t];
+              for (var a in l)
+                Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var p = (0, c.forwardRef)(function (e, t) {
-          return c.createElement(
-            "svg",
-            d(
-              {
-                width: 44,
-                height: 44,
-                xmlns: "http://www.w3.org/2000/svg",
-                stroke: "#fff",
-                ref: t,
-              },
-              e
+        return c.createElement(
+          "svg",
+          d(
+            {
+              width: 44,
+              height: 44,
+              xmlns: "http://www.w3.org/2000/svg",
+              stroke: "#fff",
+              ref: t,
+            },
+            e
+          ),
+          a ||
+          (a = c.createElement(
+            "g",
+            { fill: "none", fillRule: "evenodd", strokeWidth: 2 },
+            c.createElement(
+              "circle",
+              { cx: 22, cy: 22, r: 1 },
+              c.createElement("animate", {
+                attributeName: "r",
+                begin: "0s",
+                dur: "1.8s",
+                values: "1; 20",
+                calcMode: "spline",
+                keyTimes: "0; 1",
+                keySplines: "0.165, 0.84, 0.44, 1",
+                repeatCount: "indefinite",
+              }),
+              c.createElement("animate", {
+                attributeName: "stroke-opacity",
+                begin: "0s",
+                dur: "1.8s",
+                values: "1; 0",
+                calcMode: "spline",
+                keyTimes: "0; 1",
+                keySplines: "0.3, 0.61, 0.355, 1",
+                repeatCount: "indefinite",
+              })
             ),
-            a ||
-              (a = c.createElement(
-                "g",
-                { fill: "none", fillRule: "evenodd", strokeWidth: 2 },
-                c.createElement(
-                  "circle",
-                  { cx: 22, cy: 22, r: 1 },
-                  c.createElement("animate", {
-                    attributeName: "r",
-                    begin: "0s",
-                    dur: "1.8s",
-                    values: "1; 20",
-                    calcMode: "spline",
-                    keyTimes: "0; 1",
-                    keySplines: "0.165, 0.84, 0.44, 1",
-                    repeatCount: "indefinite",
-                  }),
-                  c.createElement("animate", {
-                    attributeName: "stroke-opacity",
-                    begin: "0s",
-                    dur: "1.8s",
-                    values: "1; 0",
-                    calcMode: "spline",
-                    keyTimes: "0; 1",
-                    keySplines: "0.3, 0.61, 0.355, 1",
-                    repeatCount: "indefinite",
-                  })
-                ),
-                c.createElement(
-                  "circle",
-                  { cx: 22, cy: 22, r: 1 },
-                  c.createElement("animate", {
-                    attributeName: "r",
-                    begin: "-0.9s",
-                    dur: "1.8s",
-                    values: "1; 20",
-                    calcMode: "spline",
-                    keyTimes: "0; 1",
-                    keySplines: "0.165, 0.84, 0.44, 1",
-                    repeatCount: "indefinite",
-                  }),
-                  c.createElement("animate", {
-                    attributeName: "stroke-opacity",
-                    begin: "-0.9s",
-                    dur: "1.8s",
-                    values: "1; 0",
-                    calcMode: "spline",
-                    keyTimes: "0; 1",
-                    keySplines: "0.3, 0.61, 0.355, 1",
-                    repeatCount: "indefinite",
-                  })
-                )
-              ))
-          );
-        }),
+            c.createElement(
+              "circle",
+              { cx: 22, cy: 22, r: 1 },
+              c.createElement("animate", {
+                attributeName: "r",
+                begin: "-0.9s",
+                dur: "1.8s",
+                values: "1; 20",
+                calcMode: "spline",
+                keyTimes: "0; 1",
+                keySplines: "0.165, 0.84, 0.44, 1",
+                repeatCount: "indefinite",
+              }),
+              c.createElement("animate", {
+                attributeName: "stroke-opacity",
+                begin: "-0.9s",
+                dur: "1.8s",
+                values: "1; 0",
+                calcMode: "spline",
+                keyTimes: "0; 1",
+                keySplines: "0.3, 0.61, 0.355, 1",
+                repeatCount: "indefinite",
+              })
+            )
+          ))
+        );
+      }),
         u = l(73997);
       function m() {
         return (m = Object.assign
           ? Object.assign.bind()
           : function (e) {
-              for (var t = 1; t < arguments.length; t++) {
-                var l = arguments[t];
-                for (var a in l)
-                  Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
-              }
-              return e;
-            }).apply(this, arguments);
+            for (var t = 1; t < arguments.length; t++) {
+              var l = arguments[t];
+              for (var a in l)
+                Object.prototype.hasOwnProperty.call(l, a) && (e[a] = l[a]);
+            }
+            return e;
+          }).apply(this, arguments);
       }
       var h = (0, c.forwardRef)(function (e, t) {
-          return c.createElement(
-            "svg",
-            m(
-              {
-                xmlns: "http://www.w3.org/2000/svg",
-                viewBox: "0 0 12 12",
-                ref: t,
-              },
-              e
-            ),
-            n ||
-              (n = c.createElement("path", {
-                className: "expand_svg__bottom",
-                d: "M6.4 5.6 1 11m0 0h5m-5 0V6",
-                vectorEffect: "non-scaling-stroke",
-              })),
-            s ||
-              (s = c.createElement("path", {
-                className: "expand_svg__top",
-                d: "M11 1H6m5 0v5m0-5L6.4 5.6",
-                vectorEffect: "non-scaling-stroke",
-              }))
-          );
-        }),
+        return c.createElement(
+          "svg",
+          m(
+            {
+              xmlns: "http://www.w3.org/2000/svg",
+              viewBox: "0 0 12 12",
+              ref: t,
+            },
+            e
+          ),
+          n ||
+          (n = c.createElement("path", {
+            className: "expand_svg__bottom",
+            d: "M6.4 5.6 1 11m0 0h5m-5 0V6",
+            vectorEffect: "non-scaling-stroke",
+          })),
+          s ||
+          (s = c.createElement("path", {
+            className: "expand_svg__top",
+            d: "M11 1H6m5 0v5m0-5L6.4 5.6",
+            vectorEffect: "non-scaling-stroke",
+          }))
+        );
+      }),
         w = l(86715);
       let f = function (e) {
         var t, l;
         let {
-            ariaLabel: a,
-            title: n,
-            type: s = "link",
-            target: c,
-            href: d,
-            onClick: m,
-            children: f,
-            style: g = "big",
-            className: v = "",
-            disabled: y = !1,
-            Icon: b = o.A,
-            arrow: x = "front",
-            linkProps: k = {},
-            spanStyle: j = "flex items-center flex-1 sm:whitespace-nowrap",
-          } = e,
+          ariaLabel: a,
+          title: n,
+          type: s = "link",
+          target: c,
+          href: d,
+          onClick: m,
+          children: f,
+          style: g = "big",
+          className: v = "",
+          disabled: y = !1,
+          Icon: b = o.A,
+          arrow: x = "front",
+          linkProps: k = {},
+          spanStyle: j = "flex items-center flex-1 sm:whitespace-nowrap",
+        } = e,
           z = (0, w.useRouter)(),
           N =
             /\.(pdf|docx?|xlsx?|pptx?|zip|rar|7z|tar|gz|mp3|mp4|jpg|jpeg|png|gif|svg|webp|tiff|bmp|ico|flac|wav|aiff|wma|aac|ogg|mp3|mp4|mkv|avi|mov|wmv|flv|webm|pdf|docx?|xlsx?|pptx?|zip|rar|7z|tar|gz)$/i,
           I = !1;
         ((d && d.match(N)) || (k.href && k.href.match(N))) && (I = "download");
         let A = (0, r.jsxs)(r.Fragment, {
-            children: [
-              (0, r.jsx)("span", {
-                className:
-                  "target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2",
-              }),
-              (0, r.jsxs)("span", {
-                className: "button-inner",
-                children: [
-                  "close" === s &&
+          children: [
+            (0, r.jsx)("span", {
+              className:
+                "target-area absolute block left-0 w-full h-full min-h-[48px] top-1/2 -translate-y-1/2",
+            }),
+            (0, r.jsxs)("span", {
+              className: "button-inner",
+              children: [
+                "close" === s &&
+                (0, r.jsx)("span", {
+                  className: "icon close-icon pr-4",
+                  children: (0, r.jsx)(u.A, {
+                    className: "stroke-black closeIcon",
+                  }),
+                }),
+                "back" === x &&
+                (0, r.jsx)("span", {
+                  className: "icon back-icon pr-4",
+                  children: (0, r.jsx)(b, {
+                    className: "transform rotate-180 back-icon",
+                  }),
+                }),
+                (0, r.jsx)("span", { className: j, children: f || k.text }),
+                "front" === x &&
+                "close" !== s &&
+                b &&
+                (0, r.jsxs)("span", {
+                  className: "icon overflow-hidden",
+                  children: [
+                    f || k.text,
                     (0, r.jsx)("span", {
-                      className: "icon close-icon pr-4",
-                      children: (0, r.jsx)(u.A, {
-                        className: "stroke-black closeIcon",
-                      }),
+                      className: "inner-icon",
+                      children: y
+                        ? (0, r.jsx)(p, { className: "stroke-text" })
+                        : (null == k ? void 0 : k.type) === "freeform" ||
+                          (null == k ? void 0 : k.type) === "jumptech" ||
+                          (null == k
+                            ? void 0
+                            : null === (t = k.href) || void 0 === t
+                              ? void 0
+                              : t.includes("#form-"))
+                          ? (0, r.jsx)(h, { className: "expand-icon" })
+                          : (0, r.jsx)(b, {}),
                     }),
-                  "back" === x &&
-                    (0, r.jsx)("span", {
-                      className: "icon back-icon pr-4",
-                      children: (0, r.jsx)(b, {
-                        className: "transform rotate-180 back-icon",
-                      }),
-                    }),
-                  (0, r.jsx)("span", { className: j, children: f || k.text }),
-                  "front" === x &&
-                    "close" !== s &&
-                    b &&
-                    (0, r.jsxs)("span", {
-                      className: "icon overflow-hidden",
-                      children: [
-                        f || k.text,
-                        (0, r.jsx)("span", {
-                          className: "inner-icon",
-                          children: y
-                            ? (0, r.jsx)(p, { className: "stroke-text" })
-                            : (null == k ? void 0 : k.type) === "freeform" ||
-                              (null == k ? void 0 : k.type) === "jumptech" ||
-                              (null == k
-                                ? void 0
-                                : null === (t = k.href) || void 0 === t
-                                ? void 0
-                                : t.includes("#form-"))
-                            ? (0, r.jsx)(h, { className: "expand-icon" })
-                            : (0, r.jsx)(b, {}),
-                        }),
-                      ],
-                    }),
-                ],
-              }),
-            ],
-          }),
+                  ],
+                }),
+              ],
+            }),
+          ],
+        }),
           E = "custom-button button-"
             .concat(g, " ")
             .concat(v, " group")
@@ -333,11 +333,11 @@
         if (
           ((null == k ? void 0 : k.target) === "_blank" &&
             ((_.rel = "noreferrer"), (_.className += "")),
-          I &&
+            I &&
             ((_.download = I),
-            (_.className += " download"),
-            (_.target = "_blank")),
-          null === (l = _.href) || void 0 === l ? void 0 : l.startsWith("#"))
+              (_.className += " download"),
+              (_.target = "_blank")),
+            null === (l = _.href) || void 0 === l ? void 0 : l.startsWith("#"))
         ) {
           let [e] = z.asPath.split("?"),
             t = (e = e.replace(/#.*$/, "")).split("/");
@@ -360,24 +360,24 @@
         i = l(77836);
       let o = (0, n.forwardRef)((e, t) => {
         let {
-            href: l,
-            as: n = null,
-            target: s = null,
-            className: o,
-            children: c,
-            onMouseEnter: d = null,
-            onMouseLeave: p = null,
-            onClick: u = null,
-            label: m = null,
-            scroll: h = !1,
-            prefetch: w = !1,
-            locale: f = !1,
-            style: g = {},
-            shallow: v = !1,
-            ariaLabel: y = null,
-            utm: b,
-            ...x
-          } = e,
+          href: l,
+          as: n = null,
+          target: s = null,
+          className: o,
+          children: c,
+          onMouseEnter: d = null,
+          onMouseLeave: p = null,
+          onClick: u = null,
+          label: m = null,
+          scroll: h = !1,
+          prefetch: w = !1,
+          locale: f = !1,
+          style: g = {},
+          shallow: v = !1,
+          ariaLabel: y = null,
+          utm: b,
+          ...x
+        } = e,
           k = y || x["aria-label"];
         delete x["aria-label"];
         let j = l;
@@ -399,41 +399,41 @@
         let z = "string" == typeof j ? j.replace(/\/$/, "") : j;
         return (
           "true" === i.env.NEXT_PUBLIC_STAGING &&
-            z &&
-            ("string" == typeof z
-              ? z.startsWith("/") || "/" === z
-                ? (z = "https://staging.zaptec.com".concat(z))
-                : z.startsWith("https://www.zaptec.com") &&
-                  (z = z.replace(
-                    "https://www.zaptec.com",
-                    "https://staging.zaptec.com"
-                  ))
-              : "object" == typeof z &&
-                (z = {
-                  ...z,
-                  pathname: "https://staging.zaptec.com".concat(z.pathname),
-                })),
+          z &&
+          ("string" == typeof z
+            ? z.startsWith("/") || "/" === z
+              ? (z = "https://staging.zaptec.com".concat(z))
+              : z.startsWith("https://www.zaptec.com") &&
+              (z = z.replace(
+                "https://www.zaptec.com",
+                "https://staging.zaptec.com"
+              ))
+            : "object" == typeof z &&
+            (z = {
+              ...z,
+              pathname: "https://staging.zaptec.com".concat(z.pathname),
+            })),
           l
             ? (0, a.jsx)(r(), {
-                label: m,
-                scroll: h,
-                passHref: !0,
-                href: z,
-                as: n,
-                target: s,
-                prefetch: w,
-                ref: t,
-                className: o,
-                onMouseEnter: d,
-                onMouseLeave: p,
-                onClick: u,
-                locale: f,
-                style: g,
-                shallow: v,
-                "aria-label": k,
-                ...x,
-                children: c,
-              })
+              label: m,
+              scroll: h,
+              passHref: !0,
+              href: z,
+              as: n,
+              target: s,
+              prefetch: w,
+              ref: t,
+              className: o,
+              onMouseEnter: d,
+              onMouseLeave: p,
+              onClick: u,
+              locale: f,
+              style: g,
+              shallow: v,
+              "aria-label": k,
+              ...x,
+              children: c,
+            })
             : null
         );
       });
@@ -445,12 +445,12 @@
         n = l(14953),
         s = l.n(n);
       let r = s()(
-          () =>
-            Promise.all([l.e(3342), l.e(8051), l.e(8845)]).then(
-              l.bind(l, 38845)
-            ),
-          { loadableGenerated: { webpack: () => [38845] } }
-        ),
+        () =>
+          Promise.all([l.e(3342), l.e(8051), l.e(8845)]).then(
+            l.bind(l, 38845)
+          ),
+        { loadableGenerated: { webpack: () => [38845] } }
+      ),
         i = s()(() => l.e(331).then(l.bind(l, 20331)), {
           loadableGenerated: { webpack: () => [20331] },
         });
@@ -468,14 +468,14 @@
         r = l.n(s);
       let i = (e) => {
         let {
-            asset: t,
-            mode: l,
-            quality: a,
-            ratio: n,
-            width: s,
-            providedHeight: r,
-            providedWidth: i,
-          } = e,
+          asset: t,
+          mode: l,
+          quality: a,
+          ratio: n,
+          width: s,
+          providedHeight: r,
+          providedWidth: i,
+        } = e,
           o = ("crop" === l && ((s / i) * r || s * n)) || null;
         return (
           (o = o ? Math.round(o) : o),
@@ -494,23 +494,23 @@
       let p = "production",
         u = n.memo((e) => {
           let {
-              asset: t,
-              height: l,
-              width: s,
-              ratio: c,
-              mode: u,
-              fill: m = !1,
-              quality: h,
-              sizes: w = "100vw",
-              className: f = "w-full h-auto",
-              priority: g = !1,
-              style: v = {},
-              videoClassName: y = "",
-              figureClasses: b = "",
-              showCaption: x,
-              refresh: k,
-              ...j
-            } = e,
+            asset: t,
+            height: l,
+            width: s,
+            ratio: c,
+            mode: u,
+            fill: m = !1,
+            quality: h,
+            sizes: w = "100vw",
+            className: f = "w-full h-auto",
+            priority: g = !1,
+            style: v = {},
+            videoClassName: y = "",
+            figureClasses: b = "",
+            showCaption: x,
+            refresh: k,
+            ...j
+          } = e,
             z = (0, o.A)(640),
             N = (0, o.A)(1024),
             I = (0, n.useCallback)((e) => {
@@ -524,87 +524,87 @@
                 ? z
                   ? t[2]
                   : N
-                  ? t[1]
-                  : t[0]
+                    ? t[1]
+                    : t[0]
                 : 2 === t.length && z
-                ? t[1]
-                : t[0]);
+                  ? t[1]
+                  : t[0]);
           let A = m ? null : s || (null == t ? void 0 : t.width),
             E = m
               ? null
               : c
-              ? parseInt(c * s)
-              : l || (null == t ? void 0 : t.height);
+                ? parseInt(c * s)
+                : l || (null == t ? void 0 : t.height);
           return t && t.url
             ? m
               ? (0, a.jsx)(r(), {
-                  src: p
-                    ? null == t
-                      ? void 0
-                      : t.primaryUrl
-                    : null == t
+                src: p
+                  ? null == t
+                    ? void 0
+                    : t.primaryUrl
+                  : null == t
                     ? void 0
                     : t.url,
-                  alt:
-                    (null == t ? void 0 : t.altTranslation) ||
-                    (null == t ? void 0 : t.alt) ||
-                    (null == t ? void 0 : t.title) ||
-                    "",
-                  loader: p
-                    ? null
-                    : (e) =>
-                        i({
-                          asset: t,
-                          mode: u,
-                          quality: h,
-                          ratio: c,
-                          providedWidth: A,
-                          providedHeight: E,
-                          ...e,
-                        }),
-                  className: ""
-                    .concat(f, " image-preload ")
-                    .concat(g ? "" : " opacity-0"),
-                  ...j,
-                  sizes: w,
-                  fill: m,
-                  priority: g,
-                  onLoad: g ? null : I,
-                })
+                alt:
+                  (null == t ? void 0 : t.altTranslation) ||
+                  (null == t ? void 0 : t.alt) ||
+                  (null == t ? void 0 : t.title) ||
+                  "",
+                loader: p
+                  ? null
+                  : (e) =>
+                    i({
+                      asset: t,
+                      mode: u,
+                      quality: h,
+                      ratio: c,
+                      providedWidth: A,
+                      providedHeight: E,
+                      ...e,
+                    }),
+                className: ""
+                  .concat(f, " image-preload ")
+                  .concat(g ? "" : " opacity-0"),
+                ...j,
+                sizes: w,
+                fill: m,
+                priority: g,
+                onLoad: g ? null : I,
+              })
               : (0, a.jsx)(r(), {
-                  src: p
-                    ? null == t
-                      ? void 0
-                      : t.primaryUrl
-                    : null == t
+                src: p
+                  ? null == t
+                    ? void 0
+                    : t.primaryUrl
+                  : null == t
                     ? void 0
                     : t.url,
-                  alt:
-                    (null == t ? void 0 : t.altTranslation) ||
-                    (null == t ? void 0 : t.alt) ||
-                    (null == t ? void 0 : t.title) ||
-                    "",
-                  loader: p
-                    ? null
-                    : (e) =>
-                        i({
-                          asset: t,
-                          mode: u,
-                          quality: h,
-                          ratio: c,
-                          providedWidth: A,
-                          providedHeight: E,
-                          ...e,
-                        }),
-                  width: A,
-                  height: E,
-                  className: "".concat(f, " image-preload "),
-                  ...j,
-                  style: v,
-                  sizes: w,
-                  priority: g,
-                  onLoad: g ? null : I,
-                })
+                alt:
+                  (null == t ? void 0 : t.altTranslation) ||
+                  (null == t ? void 0 : t.alt) ||
+                  (null == t ? void 0 : t.title) ||
+                  "",
+                loader: p
+                  ? null
+                  : (e) =>
+                    i({
+                      asset: t,
+                      mode: u,
+                      quality: h,
+                      ratio: c,
+                      providedWidth: A,
+                      providedHeight: E,
+                      ...e,
+                    }),
+                width: A,
+                height: E,
+                className: "".concat(f, " image-preload "),
+                ...j,
+                style: v,
+                sizes: w,
+                priority: g,
+                onLoad: g ? null : I,
+              })
             : null;
         });
     },
@@ -624,16 +624,16 @@
       let m = (e) => {
         var t, l, n, i, d;
         let {
-            asset: m,
-            poster: h,
-            play: w = !1,
-            settings: f,
-            style: g = {},
-            preload: v = "auto",
-            onlyThumb: y = !1,
-            ratio: b,
-            ...x
-          } = e,
+          asset: m,
+          poster: h,
+          play: w = !1,
+          settings: f,
+          style: g = {},
+          preload: v = "auto",
+          onlyThumb: y = !1,
+          ratio: b,
+          ...x
+        } = e,
           { muted: k, controls: j, loop: z } = f,
           { autoplay: N } = f;
         N = !1 !== w ? w : N;
@@ -699,12 +699,12 @@
           (W.src = m.embeddedAsset.url),
             (W.provider = m.embeddedAsset.providerName.toLowerCase()),
             P ||
-              (P = m.embeddedAsset.image.replace("hqdefault", "maxresdefault")),
+            (P = m.embeddedAsset.image.replace("hqdefault", "maxresdefault")),
             L ||
-              (L =
-                (null == m
-                  ? void 0
-                  : null === (d = m.embeddedAsset) || void 0 === d
+            (L =
+              (null == m
+                ? void 0
+                : null === (d = m.embeddedAsset) || void 0 === d
                   ? void 0
                   : d.width) / m.embeddedAsset.height);
         else {
@@ -726,16 +726,16 @@
           (null === (t = x.className) || void 0 === t
             ? void 0
             : t.includes("aspect")) ||
-            !L ||
-            (null == x
-              ? void 0
-              : null === (l = x.videoClassName) || void 0 === l
+          !L ||
+          (null == x
+            ? void 0
+            : null === (l = x.videoClassName) || void 0 === l
               ? void 0
               : l.includes("aspect")) ||
-            (null === (n = Object.keys(g)) || void 0 === n
-              ? void 0
-              : n.includes("aspectRatio")) ||
-            (g.aspectRatio = L),
+          (null === (n = Object.keys(g)) || void 0 === n
+            ? void 0
+            : n.includes("aspectRatio")) ||
+          (g.aspectRatio = L),
           (0, a.jsx)("div", {
             className: "video-wrapper"
               .concat(N ? " opacity-0" : "", " h-full max-w-full ")
@@ -744,76 +744,76 @@
             style: g,
             children: y
               ? (0, a.jsx)(s(), {
-                  src: P,
-                  alt: m.title,
-                  layout: "fill",
-                  objectFit: "cover",
-                  className: "exception-video ".concat(x.videoClassName || ""),
-                })
+                src: P,
+                alt: m.title,
+                layout: "fill",
+                objectFit: "cover",
+                className: "exception-video ".concat(x.videoClassName || ""),
+              })
               : (0, a.jsx)(a.Fragment, {
-                  children: (
-                    null === (i = W.src) || void 0 === i
-                      ? void 0
-                      : i.includes("progressive_redirect")
-                  )
-                    ? (0, a.jsx)("div", {
-                        style: { width: "100%", height: "100%" },
-                        children: (0, a.jsx)("video", {
-                          className: "exception-video ".concat(
-                            x.videoClassName || ""
-                          ),
-                          width: "100%",
-                          height: "100%",
-                          controls: j,
-                          muted: k,
-                          autoPlay: N,
-                          loop: z,
-                          poster: P,
-                          playsInline: !0,
-                          preload: v,
-                          src: W.src,
-                          style: {
-                            width: "100%",
-                            height: "100%",
-                            objectFit: "cover",
-                          },
-                          onCanPlay: () => {
-                            c.os.to(S.current, {
-                              opacity: 1,
-                              duration: 0.5,
-                              ease: "power3.out",
-                            });
-                          },
-                        }),
-                      })
-                    : U
-                    ? (0, a.jsx)(o(), {
-                        className: "react-player ".concat(
-                          x.videoClassName || ""
-                        ),
-                        url: W.src,
+                children: (
+                  null === (i = W.src) || void 0 === i
+                    ? void 0
+                    : i.includes("progressive_redirect")
+                )
+                  ? (0, a.jsx)("div", {
+                    style: { width: "100%", height: "100%" },
+                    children: (0, a.jsx)("video", {
+                      className: "exception-video ".concat(
+                        x.videoClassName || ""
+                      ),
+                      width: "100%",
+                      height: "100%",
+                      controls: j,
+                      muted: k,
+                      autoPlay: N,
+                      loop: z,
+                      poster: P,
+                      playsInline: !0,
+                      preload: v,
+                      src: W.src,
+                      style: {
                         width: "100%",
                         height: "100%",
-                        opacity: 0.8,
-                        onReady: () => {
-                          c.os.to(S.current, {
-                            opacity: 1,
-                            duration: 0.5,
-                            ease: "power3.out",
-                          });
-                        },
-                        light: !A && !N && !_ && !!P && P,
-                        playing: A,
-                        controls: j,
-                        loop: z,
-                        muted: k,
-                        playsinline: !0,
-                        playIcon: R,
-                        onClickPreview: () => E(!0),
-                        config: { vimeo: { playerOptions: { dnt: !0 } } },
-                      })
+                        objectFit: "cover",
+                      },
+                      onCanPlay: () => {
+                        c.os.to(S.current, {
+                          opacity: 1,
+                          duration: 0.5,
+                          ease: "power3.out",
+                        });
+                      },
+                    }),
+                  })
+                  : U
+                    ? (0, a.jsx)(o(), {
+                      className: "react-player ".concat(
+                        x.videoClassName || ""
+                      ),
+                      url: W.src,
+                      width: "100%",
+                      height: "100%",
+                      opacity: 0.8,
+                      onReady: () => {
+                        c.os.to(S.current, {
+                          opacity: 1,
+                          duration: 0.5,
+                          ease: "power3.out",
+                        });
+                      },
+                      light: !A && !N && !_ && !!P && P,
+                      playing: A,
+                      controls: j,
+                      loop: z,
+                      muted: k,
+                      playsinline: !0,
+                      playIcon: R,
+                      onClickPreview: () => E(!0),
+                      config: { vimeo: { playerOptions: { dnt: !0 } } },
+                    })
                     : null,
-                }),
+              }),
           })
         );
       };
@@ -830,17 +830,17 @@
         c = l(32578);
       let d = (e) => {
         let {
-            media: t,
-            videoSettings: l = {},
-            showCaption: r = !0,
-            figureClasses: d = "",
-            play: p,
-            credit: u = null,
-            description: m = null,
-            captionStyle: h = "",
-            refresh: w = !1,
-            ...f
-          } = e,
+          media: t,
+          videoSettings: l = {},
+          showCaption: r = !0,
+          figureClasses: d = "",
+          play: p,
+          credit: u = null,
+          description: m = null,
+          captionStyle: h = "",
+          refresh: w = !1,
+          ...f
+        } = e,
           g = (0, c.useTranslations)("common"),
           v = (t && t.asset) || t;
         if (!v || (Array.isArray(v) && 0 === v.length)) return null;
@@ -861,40 +861,40 @@
             ? "image" === v[0].kind
               ? (y = (0, a.jsx)(n.A, { asset: v[0], refresh: w, ...f }))
               : ("video" === v[0].kind || "json" === v[0].kind) &&
-                (y = (0, a.jsx)(s.A, {
-                  asset: v[0],
-                  play: p,
-                  settings: { ...t.videoSettings[0], ...l },
-                  poster: t.posterImage,
-                  ...f,
-                }))
-            : Object.keys(t).includes("hdVideo") &&
               (y = (0, a.jsx)(s.A, {
-                asset: v,
+                asset: v[0],
                 play: p,
                 settings: { ...t.videoSettings[0], ...l },
                 poster: t.posterImage,
                 ...f,
-              })),
+              }))
+            : Object.keys(t).includes("hdVideo") &&
+            (y = (0, a.jsx)(s.A, {
+              asset: v,
+              play: p,
+              settings: { ...t.videoSettings[0], ...l },
+              poster: t.posterImage,
+              ...f,
+            })),
           r
             ? (0, a.jsxs)("figure", {
-                className: "media-element relative block".concat(
-                  d && " ".concat(d)
-                ),
-                children: [
-                  y,
-                  b &&
-                    (0, a.jsx)("figcaption", {
-                      className: "text-sm text-black mt-2 r-max-w-[41] ".concat(
-                        h
-                      ),
-                      children: (0, a.jsx)("div", {
-                        className: "wysiwyg",
-                        dangerouslySetInnerHTML: { __html: i()(b, o.OM) },
-                      }),
-                    }),
-                ],
-              })
+              className: "media-element relative block".concat(
+                d && " ".concat(d)
+              ),
+              children: [
+                y,
+                b &&
+                (0, a.jsx)("figcaption", {
+                  className: "text-sm text-black mt-2 r-max-w-[41] ".concat(
+                    h
+                  ),
+                  children: (0, a.jsx)("div", {
+                    className: "wysiwyg",
+                    dangerouslySetInnerHTML: { __html: i()(b, o.OM) },
+                  }),
+                }),
+              ],
+            })
             : y
         );
       };
@@ -903,16 +903,16 @@
       "use strict";
       l.d(t, { A: () => n, w: () => a });
       let a = (e) =>
-          "\n    "
-            .concat(e, " {\n      ... on ")
-            .concat(
-              e,
-              "_vimeo_BlockType {\n        id\n        uid\n        siteId\n        sdVideo\n        typeHandle\n        hdVideo\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n        }\n      }\n      ... on "
-            )
-            .concat(
-              e,
-              "_asset_BlockType {\n        id\n        uid\n        siteId\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n        }\n        asset {\n          embeddedAsset {\n            title\n            description\n            url\n            type\n            image\n            width\n            height\n            aspectRatio\n            providerName\n            href: url\n          }\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          url(width: 100)\n          primaryUrl: url\n          alt\n          ... on uploads_Asset {\n            text\n            plainText\n          }\n        }\n      }\n    }\n  "
-            ),
+        "\n    "
+          .concat(e, " {\n      ... on ")
+          .concat(
+            e,
+            "_vimeo_BlockType {\n        id\n        uid\n        siteId\n        sdVideo\n        typeHandle\n        hdVideo\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n        }\n      }\n      ... on "
+          )
+          .concat(
+            e,
+            "_asset_BlockType {\n        id\n        uid\n        siteId\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n        }\n        asset {\n          embeddedAsset {\n            title\n            description\n            url\n            type\n            image\n            width\n            height\n            aspectRatio\n            providerName\n            href: url\n          }\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          url(width: 100)\n          primaryUrl: url\n          alt\n          ... on uploads_Asset {\n            text\n            plainText\n          }\n        }\n      }\n    }\n  "
+          ),
         n =
           "\n    mediaElement {\n      ... on mediaElement_vimeo_BlockType {\n        id\n        uid\n        siteId\n        sdVideo\n        typeHandle\n        hdVideo\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n          ... on uploads_Asset {\n            altTranslation: plainText2\n          }\n        }\n      }\n      ... on mediaElement_asset_BlockType {\n        id\n        uid\n        siteId\n        videoSettings {\n          autoplay\n          controls\n          loop\n          muted\n        }\n        posterImage {\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          alt\n          url(width: 1920)\n          primaryUrl: url\n          ... on uploads_Asset {\n            altTranslation: plainText2\n          }\n        }\n        asset {\n          embeddedAsset {\n            title\n            description\n            url\n            type\n            image\n            width\n            height\n            aspectRatio\n            providerName\n            href: url\n          }\n          id\n          uid\n          siteId\n          kind\n          width\n          height\n          url(width: 100)\n          primaryUrl: url\n          alt\n          ... on uploads_Asset {\n            text\n            plainText\n            altTranslation: plainText2\n          }\n        }\n      }\n    }\n  ";
     },
@@ -920,33 +920,33 @@
       "use strict";
       l.d(t, { Ay: () => s, OM: () => a, w$: () => n });
       let a = {
-          allowedTags: [
-            "a",
-            "strong",
-            "em",
-            "br",
-            "b",
-            "i",
-            "u",
-            "span",
-            "p",
-            "h2",
-            "h3",
-            "h4",
-            "h5",
-            "h6",
-          ],
-          allowedAttributes: {
-            a: ["href", "target", "rel", "class", "title", "style"],
-            span: ["class", "style"],
-            p: ["class", "style"],
-            h2: ["class", "style"],
-            h3: ["class", "style"],
-            h4: ["class", "style"],
-            h5: ["class", "style"],
-            h6: ["class", "style"],
-          },
+        allowedTags: [
+          "a",
+          "strong",
+          "em",
+          "br",
+          "b",
+          "i",
+          "u",
+          "span",
+          "p",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+        ],
+        allowedAttributes: {
+          a: ["href", "target", "rel", "class", "title", "style"],
+          span: ["class", "style"],
+          p: ["class", "style"],
+          h2: ["class", "style"],
+          h3: ["class", "style"],
+          h4: ["class", "style"],
+          h5: ["class", "style"],
+          h6: ["class", "style"],
         },
+      },
         n = {
           allowedTags: ["a", "strong", "em", "br", "b", "i", "u", "span"],
           allowedAttributes: {
@@ -1088,8 +1088,8 @@
           transformTags: {
             img: (e, t) => (
               t.src &&
-                t.src.startsWith("/") &&
-                (t.src = "".concat("https://cms.zaptec.com").concat(t.src)),
+              t.src.startsWith("/") &&
+              (t.src = "".concat("https://cms.zaptec.com").concat(t.src)),
               (t.loading = "lazy"),
               (t.decoding = "async"),
               (t.class = "w-full h-auto"),
@@ -1133,8 +1133,8 @@
             };
             return (
               null === (t = window) ||
-                void 0 === t ||
-                t.addEventListener("resize", l),
+              void 0 === t ||
+              t.addEventListener("resize", l),
               () => {
                 var e;
                 return null === (e = window) || void 0 === e
@@ -1147,14 +1147,14 @@
         );
       };
     },
-    49746: () => {},
-    19977: () => {},
-    197: () => {},
-    21866: () => {},
+    49746: () => { },
+    19977: () => { },
+    197: () => { },
+    21866: () => { },
     32654: (e) => {
       "use strict";
       e.exports = JSON.parse(
-        '{"locales":["en","no","sv","da","de","en-uk","fr","nl","de-CH","fr-CH","nl-BE","fr-BE"],"domains":[{"domain":"www.zaptec.com","handle":"default","locales":[null,null,null,null,null,null,null,null]},{"domain":"www.zaptec.com","handle":"zaptecDeCh","locales":[null,null]},{"domain":"www.zaptec.com","handle":"zaptecNlBe","locales":[null,null]}],"sites":[{"siteId":1,"locale":"en","domain":"www.zaptec.com","url":"/","fullUrl":"https://www.zaptec.com/","handle":"default","name":"Global / English","primary":true,"groupId":1},{"siteId":12,"locale":"no","domain":"www.zaptec.com","url":"/no/","fullUrl":"https://www.zaptec.com/no/","handle":"zaptecNo","name":"Norway / Norsk","primary":false,"groupId":1},{"siteId":2,"locale":"sv","domain":"www.zaptec.com","url":"/sv/","fullUrl":"https://www.zaptec.com/sv/","handle":"zaptecSv","name":"Sweden / Svenska","primary":false,"groupId":1},{"siteId":3,"locale":"da","domain":"www.zaptec.com","url":"/da/","fullUrl":"https://www.zaptec.com/da/","handle":"zaptecDa","name":"Denmark / Dansk","primary":false,"groupId":1},{"siteId":4,"locale":"de","domain":"www.zaptec.com","url":"/de/","fullUrl":"https://www.zaptec.com/de/","handle":"zaptecDe","name":"Germany / Deutsch","primary":false,"groupId":1},{"siteId":5,"locale":"en-uk","domain":"www.zaptec.com","url":"/en-uk/","fullUrl":"https://www.zaptec.com/en-uk/","handle":"zaptecUk","name":"United Kingdom / English","primary":false,"groupId":1},{"siteId":6,"locale":"fr","domain":"www.zaptec.com","url":"/fr/","fullUrl":"https://www.zaptec.com/fr/","handle":"zaptecFr","name":"France / Fran\xe7ais","primary":false,"groupId":1},{"siteId":7,"locale":"nl","domain":"www.zaptec.com","url":"/nl/","fullUrl":"https://www.zaptec.com/nl/","handle":"zaptecNl","name":"Netherlands / Nederlands","primary":false,"groupId":1},{"siteId":11,"locale":"de-CH","domain":"www.zaptec.com","url":"/de-ch/","fullUrl":"https://www.zaptec.com/de-ch/","handle":"zaptecDeCh","name":"Switzerland / Deutsch","primary":false,"groupId":2},{"siteId":10,"locale":"fr-CH","domain":"www.zaptec.com","url":"/fr-ch/","fullUrl":"https://www.zaptec.com/fr-ch/","handle":"zaptecFrCh","name":"Switzerland / Fran\xe7ais","primary":false,"groupId":2},{"siteId":8,"locale":"nl-BE","domain":"www.zaptec.com","url":"/nl-be/","fullUrl":"https://www.zaptec.com/nl-be/","handle":"zaptecNlBe","name":"Belgium / Nederlands","primary":false,"groupId":3},{"siteId":9,"locale":"fr-BE","domain":"www.zaptec.com","url":"/fr-be/","fullUrl":"https://www.zaptec.com/fr-be/","handle":"zaptecFrBe","name":"Belgium / Fran\xe7ais","primary":false,"groupId":3}]}'
+        '{"locales":["en"],"domains":[{"domain":"aboutliturgia.com.au","handle":"default","locales":[null]}],"sites":[{"siteId":1,"locale":"en","domain":"aboutliturgia.com.au","url":"/","fullUrl":"https://aboutliturgia.com.au/","handle":"default","name":"Global / English","primary":true,"groupId":1}]}'
       );
     },
   },
