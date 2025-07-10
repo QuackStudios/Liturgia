@@ -1463,7 +1463,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/no/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"41685a9d-7783-4629-a603-84ee643085ad\",\"siteId\":1,\"id\":\"50093\"}": {
@@ -1505,7 +1505,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/sv/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"87fe789f-5da3-487d-a0d5-ba14a54cca77\",\"siteId\":1,\"id\":\"50095\"}": {
@@ -1547,7 +1547,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/da/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"f122cc35-2c55-4aab-9997-37f4bfb4ac79\",\"siteId\":1,\"id\":\"50098\"}": {
@@ -1673,7 +1673,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/fr/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"bc42c177-3a50-4281-be60-f5691fae19ab\",\"siteId\":1,\"id\":\"50107\"}": {
@@ -1715,7 +1715,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/nl/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"a9935799-8dd4-4f14-a138-a48cdbb9b78c\",\"siteId\":1,\"id\":\"50110\"}": {
@@ -1757,7 +1757,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/nl-be/"
+            "url": "/"
           }
         },
         "hasSites_selectSite_BlockType:{\"uid\":\"68f44895-695a-4004-8f54-61bf70cb9744\",\"siteId\":1,\"id\":\"50119\"}": {
@@ -1769,7 +1769,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/fr-be/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"c9f99245-9547-4a35-8400-6c5e8c9a04a2\",\"siteId\":1,\"id\":\"50113\"}": {
@@ -1814,7 +1814,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/fr-ch/"
+            "url": "/"
           }
         },
         "hasSites_selectSite_BlockType:{\"uid\":\"ab121d12-c1b0-442b-a135-d5bf179cd27d\",\"siteId\":1,\"id\":\"50126\"}": {
@@ -1826,7 +1826,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"cec14ce5-3b79-4479-95cd-de9872841acc\",\"siteId\":1,\"id\":\"50120\"}": {
@@ -2079,7 +2079,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "/index/nl-be/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"baf3e668-ea51-46e5-8b8e-3ffb81f8d5e0\",\"siteId\":1,\"id\":\"979539\"}": {
@@ -2670,7 +2670,7 @@
           "id": "8188",
           "uid": "d490595d-fe08-47de-bf13-e15438ceb9dd",
           "siteId": 1,
-          "url": "/index/charging-solutions/accessories/frontcover-schools-moss-green",
+          "url": "/",
           "title": "Front cover - Schools - Moss Green",
           "mediaItems": [
             {
@@ -2731,7 +2731,7 @@
           "id": "8497",
           "uid": "5191687f-0ea0-406f-a7c7-e18e584fafd4",
           "siteId": 1,
-          "url": "/index/charging-solutions/accessories/frontcover-schools-asphalt-black",
+          "url": "/",
           "title": "Front cover - Schools - Asphalt Black",
           "mediaItems": [
             {
@@ -2792,7 +2792,7 @@
           "id": "8325",
           "uid": "dea11c56-a92b-4368-92c4-aad10b31ffb8",
           "siteId": 1,
-          "url": "/index/charging-solutions/accessories/frontcover-schools-cloud-white",
+          "url": "/",
           "title": "Front cover - Schools - Cloud White",
           "mediaItems": [
             {
@@ -2853,7 +2853,7 @@
           "id": "8525",
           "uid": "5ead991e-33e6-499f-a1b6-a3bba886f157",
           "siteId": 1,
-          "url": "/index/charging-solutions/accessories/frontcover-schools-rock-grey",
+          "url": "/",
           "title": "Front cover - Schools - Rock Grey",
           "mediaItems": [
             {
@@ -2914,7 +2914,7 @@
           "id": "8311",
           "uid": "ed7e36ed-19a1-4d8f-9ca1-93d4340ac5c6",
           "siteId": 1,
-          "url": "/index/charging-solutions/accessories/frontcover-schools-midnight-blue",
+          "url": "/",
           "title": "Front cover - Schools - Midnight Blue",
           "mediaItems": [
             {
@@ -2975,7 +2975,7 @@
           "id": "8511",
           "uid": "afe3a072-767e-4145-a8a4-eaccb0d2ad7f",
           "siteId": 1,
-          "url": "/index/charging-solutions/accessories/frontcover-schools-wood-brown",
+          "url": "/",
           "title": "Front cover Schools Wood Brown",
           "mediaItems": [
             {
