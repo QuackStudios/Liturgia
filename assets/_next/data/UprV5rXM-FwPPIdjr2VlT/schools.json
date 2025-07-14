@@ -1589,7 +1589,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "index/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"24b29187-234a-4bfd-bef1-d5737cb0a0c2\",\"siteId\":1,\"id\":\"50101\"}": {
@@ -1631,7 +1631,7 @@
             "__typename": "linkField_Link",
             "target": "",
             "title": null,
-            "url": "index/en-uk/"
+            "url": "/"
           }
         },
         "regions_Category:{\"uid\":\"95285d63-e64b-4ab5-b983-05783fa96e0c\",\"siteId\":1,\"id\":\"50104\"}": {
