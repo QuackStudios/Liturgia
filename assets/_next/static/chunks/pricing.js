@@ -41,7 +41,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         <h3 class="diocesan-promo-heading">Diocesan License</h3>
         <div class="diocesan-promo-content">
           <div class="diocesan-promo-details">
-            <p>Liturgia offers a 35% discount when a diocesan office subscribes for each parish in the diocese, or when a Catholic Education Office subscribes for each school in the diocese. The diocesan package also includes a two-hour online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.</p>
+            <p>Liturgia offers a 23% discount when a diocesan office subscribes for each parish in the diocese, or when a Catholic Education Office subscribes for each school in the diocese. The diocesan package also includes a two-hour online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.</p>
             <div class="diocesan-promo-contact">
               <a href="/support" class="promo-contact-button">
                 Contact Us <span class="arrow-symbol"> →</span>
@@ -51,7 +51,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
           </div>
           <div class="diocesan-promo-visuals">
             <div class="promo-discount-graphic">
-              <span>20%</span>
+              <span>23%</span>
               <span class="promo-discount-text">DISCOUNT</span>
             </div>
             <div class="promo-price-box">
