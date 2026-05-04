@@ -1,28 +1,106 @@
+const pricingPlans = {
+  parishes: {
+    label: 'Parishes',
+    defaultUsers: 'up-to-5',
+    annualText: 'billed annually*',
+    buttonText: 'Get Started',
+    users: {
+      'up-to-5': {
+        label: 'Up to 5 Users',
+        price: 355,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'up-to-10': {
+        label: 'Up to 10 Users',
+        price: 435,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-10-users',
+      },
+      'up-to-20': {
+        label: 'Up to 20 Users',
+        price: 510,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users',
+      },
+      'up-to-30': {
+        label: 'Up to 30 Users',
+        price: 565,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users-1',
+      },
+      '30-plus': {
+        label: '30+ Users',
+        price: 695,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-30-users',
+      },
+    },
+  },
+  schools: {
+  label: 'Schools',
+  defaultUsers: '2-users',
+  annualText: 'billed annually*<br><span class="calc-sub-text"></span><br><span class="calc-sub-text">Extra users: $20 p.a. each</span>',
+  buttonText: 'Purchase a Licence',
+  users: {
+    '2-users': {
+      label: '2 Users Included',
+      price: 155,
+      note: 'Includes 2 Users',
+      url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+    },
+  },
+},
+};
+
+const promoPlans = {
+  diocesan: {
+    tabLabel: 'Diocesan Licence',
+    heading: 'Diocesan Licence',
+    body: 'Liturgia offers a 23% discount when a diocesan office subscribes for each parish in the diocese. The diocesan package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
+    price: '$275',
+    priceLabel: 'per Parish',
+  },
+  groupSchools: {
+    tabLabel: 'Group Schools Licence',
+    heading: 'Group Schools Licence',
+    body: 'Liturgia offers a 23% discount when a Catholic Education office subscribes for each school in the diocese. The group package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
+    price: '$120',
+    priceLabel: 'per School',
+  },
+};
+
 const observer = new MutationObserver((mutationsList, observer) => {
   let modulesSection = document.querySelector('.modules-pp');
   if (!modulesSection) {
-    // Create the "modules-pp" section
     modulesSection = document.createElement('section');
     modulesSection.className = 'modules-pp';
 
-    // Add the pricing calculator HTML
     modulesSection.innerHTML = `
     <div class="pricing-calculator-container">
     <div class="pricing-wrapper-div">
     <div class="calculator-container">
-        <div class="controls">
-          <label for="pricing-class">Select Pricing Class</label>
-          <div class="custom-dropdown">
-            <button class="dropdown-button">Up to 5 Users</button>
-            <ul class="dropdown-menu">
-              <li data-value="355">Up to 5 Users</li>
-              <li data-value="435">Up to 10 Users</li>
-              <li data-value="510">Up to 20 Users</li>
-              <li data-value="565">Up to 30 Users</li>
-              <li data-value="695">30+ Users</li>
-            </ul>
+        <div class="controls pricing-controls-grid">
+          <div class="pricing-control-group">
+            <label for="pricing-audience">Select Licence Type</label>
+            <div class="custom-dropdown pricing-type-dropdown" data-dropdown-type="pricing-type">
+              <button class="dropdown-button pricing-type-button" type="button" data-value="parishes">Parishes</button>
+              <ul class="dropdown-menu pricing-type-menu">
+                <li data-value="parishes">Parishes</li>
+                <li data-value="schools">Schools</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pricing-control-group">
+            <label for="pricing-class">Select Number of Users</label>
+            <div class="custom-dropdown pricing-users-dropdown" data-dropdown-type="pricing-users">
+              <button class="dropdown-button pricing-users-button" type="button">Up to 5 Users</button>
+              <ul class="dropdown-menu pricing-users-menu"></ul>
+            </div>
           </div>
         </div>
+
         <div class="price-card">
           <div class="calculator-price-section" style="display: flex; align-items: center; gap: 0.5rem;">
             <div class="price" id="price">$355</div>
@@ -30,25 +108,30 @@ const observer = new MutationObserver((mutationsList, observer) => {
             <div class="discount-note" id="discount-note" style="color: #4caf50; font-size: 0.85rem;"></div>
           </div>
           <div class="annual-text">
-            <div class="calc-text">billed annually*</div>
+            <div class="calc-text" id="calc-text">billed annually*</div>
           </div>
-          <button onclick="getStarted()">Get Started <span class="arrow-symbol"> →</span></button>
+          <button onclick="getStarted()" id="pricing-purchase-button">Get Started <span class="arrow-symbol"> →</span></button>
         </div>
       </div>
       
-      <!-- Updated RHS Bulk Licensing / Diocesan Promo Section -->
-      <div class="rhs-bulk-licensing-text diocesan-promo-section">
-        <h3 class="diocesan-promo-heading">Diocesan License</h3>
+      <div class="rhs-bulk-licensing-text diocesan-promo-section" data-active-promo="diocesan">
+        <div class="promo-switcher" aria-label="Bulk licence type selector">
+          <button class="promo-switch-button active" type="button" data-promo-type="diocesan">Diocesan Licence</button>
+          <button class="promo-switch-button" type="button" data-promo-type="groupSchools">Group Schools Licence</button>
+        </div>
+
+        <h3 class="diocesan-promo-heading">Diocesan Licence</h3>
+
         <div class="diocesan-promo-content">
           <div class="diocesan-promo-details">
-            <p>Liturgia offers a 23% discount when a diocesan office subscribes for each parish in the diocese, or when a Catholic Education Office subscribes for each school in the diocese. The diocesan package also includes a two-hour online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.</p>
+            <p>Liturgia offers a 23% discount when a diocesan office subscribes for each parish in the diocese. The diocesan package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.</p>
             <div class="diocesan-promo-contact">
               <a href="/support" class="promo-contact-button">
                 Contact Us <span class="arrow-symbol"> →</span>
               </a>
-              
             </div>
           </div>
+
           <div class="diocesan-promo-visuals">
             <div class="promo-discount-graphic">
               <span>23%</span>
@@ -56,13 +139,13 @@ const observer = new MutationObserver((mutationsList, observer) => {
             </div>
             <div class="promo-price-box">
               <span></span>
-              $275
-              <span>per Parish / School</span>
+              <strong class="promo-price-value">$275</strong>
+              <span class="promo-price-label">per Parish</span>
             </div>
           </div>
         </div>
-        
       </div>
+
       <div class="trusted-by-content">
         <div class="trusted-by-text">Trusted By</div>
         <div class="trusted-by-logos">
@@ -71,42 +154,144 @@ const observer = new MutationObserver((mutationsList, observer) => {
           <div class="tb-logo-3"><img class="tb-logo-img" src="assets/_next/image/logo_cs_inline_colour.png"></div>
           <div class="tb-logo-4"><img class="tb-logo-img" src="assets/_next/image/crest-csdp-horizontal-colour.svg"></div>
         </div>
-        </div>
       </div>
-      <!-- End of Updated Section -->
     </div>
-      
+    </div>
     `;
 
-    // Append the "modules-pp" section to the DOM
     document.querySelector('header').after(modulesSection);
 
-    // Add CSS for the new Diocesan Promo Section (Desktop and base styles)
     const desktopPromoStyle = document.createElement('style');
     desktopPromoStyle.textContent = `
       .pricing-calculator-container {
         display: flex;
         gap: 1rem; 
         padding: 1rem;
-        align-items: stretch; /* Make children stretch to the same height */
+        align-items: center;
       }
 
       .calculator-container {
-        flex-shrink: 0; /* Prevent calculator from shrinking */
-        /* Consider adding flex-basis or max-width if needed */
-        /* e.g., flex: 0 0 400px; or max-width: 450px; */
+        flex-shrink: 0;
+      }
+
+      .pricing-controls-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .pricing-control-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+      }
+
+      .custom-dropdown {
+        position: relative;
+      }
+
+      .dropdown-button {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        border: 1px solid rgba(26, 37, 51, 0.14);
+        border-radius: 8px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        color: #4a4a4a;
+        cursor: pointer;
+      }
+
+      .dropdown-button::after {
+        content: '▾';
+        font-size: 0.85rem;
+        color: #777;
+        margin-left: 0.75rem;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        right: 0;
+        z-index: 50;
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0.35rem;
+        background: #ffffff;
+        border: 1px solid rgba(26, 37, 51, 0.12);
+        border-radius: 10px;
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+      }
+
+      .custom-dropdown.active .dropdown-menu {
+        display: block;
+      }
+
+      .dropdown-menu li {
+        border-radius: 7px;
+        cursor: pointer;
+        transition: background-color 0.2s ease, color 0.2s ease;
+      }
+
+      .dropdown-menu li:hover {
+        background-color: #f0f2f5;
+      }
+
+      .calc-sub-text {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.25;
+        opacity: 0.85;
       }
 
       .rhs-bulk-licensing-text.diocesan-promo-section {
-        flex-grow: 1.5; /* Makes this section larger relative to calculator */
-        display: flex; /* Enable flex for internal layout */
+        flex-grow: 1.5;
+        display: flex;
         flex-direction: column;
         background-color: #f0f2f5;
         padding: 2rem;
         border-radius: 12px;
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
         color: #333;
-        margin-left: 1.5rem; /* Default spacing from calculator */
+        margin-left: 1.5rem;
+      }
+
+      .promo-switcher {
+        display: inline-grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.35rem;
+        width: 100%;
+        max-width: 520px;
+        background: rgba(255, 255, 255, 0.78);
+        border: 1px solid rgba(26, 37, 51, 0.1);
+        border-radius: 999px;
+        padding: 0.35rem;
+        margin-bottom: 1.4rem;
+      }
+
+      .promo-switch-button {
+        border: 0;
+        background: transparent;
+        color: #1a2533;
+        cursor: pointer;
+        border-radius: 999px;
+        font-weight: 700;
+        padding: 0.75rem 1rem;
+        transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+      }
+
+      .promo-switch-button.active {
+        background: #1a2533;
+        color: #ffffff;
+        box-shadow: 0 8px 20px rgba(26, 37, 51, 0.18);
+      }
+
+      .promo-switch-button:hover {
+        transform: translateY(-1px);
       }
 
       .diocesan-promo-heading {
@@ -119,15 +304,15 @@ const observer = new MutationObserver((mutationsList, observer) => {
 
       .diocesan-promo-content {
         display: flex;
-        flex-direction: column; /* Default stack for mobile-first approach */
+        flex-direction: column;
         gap: 2rem;
-        flex-grow: 1; /* Allows content to fill vertical space */
+        flex-grow: 1;
       }
 
       .diocesan-promo-details {
         display: flex;
         flex-direction: column;
-        flex-grow: 1; /* Allow details to take available space */
+        flex-grow: 1;
       }
 
       .diocesan-promo-details p {
@@ -135,16 +320,16 @@ const observer = new MutationObserver((mutationsList, observer) => {
         line-height: 1.7;
         color: #4a4a4a;
         margin-bottom: 1.5rem;
-        flex-grow: 1; /* Allow paragraph to take space before button */
+        flex-grow: 1;
       }
       
       .diocesan-promo-contact {
-         margin-top: auto; /* Pushes button to the bottom of .diocesan-promo-details */
+        margin-top: auto;
       }
 
       .promo-contact-button {
         display: inline-block;
-        background-color: #e6007e; /* Liturgia brand color (pink) */
+        background-color: #e6007e;
         color: white;
         padding: 0.85rem 1.8rem;
         text-decoration: none;
@@ -158,7 +343,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
       }
 
       .promo-contact-button:hover {
-        background-color: #c00069; /* Darker shade of pink */
+        background-color: #c00069;
         transform: translateY(-2px);
       }
 
@@ -166,6 +351,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         margin-left: 0.5em;
         transition: transform 0.3s ease;
       }
+
       .promo-contact-button:hover .arrow-symbol {
         transform: translateX(3px);
       }
@@ -175,7 +361,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
-        margin-top: 1rem; /* Spacing when stacked vertically */
+        margin-top: 1rem;
       }
 
       .promo-discount-graphic {
@@ -204,7 +390,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
       }
 
       .promo-price-box {
-        background-color: #1a2533; /* Dark blue-grey */
+        background-color: #1a2533;
         color: white;
         padding: 1.25rem 1.75rem;
         border-radius: 10px;
@@ -215,86 +401,96 @@ const observer = new MutationObserver((mutationsList, observer) => {
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
 
+      .promo-price-value {
+        display: block;
+        font-size: 2.5rem;
+        line-height: 1;
+      }
+
       .promo-price-box span {
         display: block;
         font-size: 0.85rem;
         font-weight: 400;
         color: #b0bec5;
       }
-       .promo-price-box span:first-child {
+
+      .promo-price-box span:first-child {
         margin-bottom: 0.3rem;
       }
+
       .promo-price-box span:last-child {
         margin-top: 0.3rem;
       }
 
-      /* Desktop layout adjustments (larger screens) */
       @media (min-width: 1024px) {
         .pricing-calculator-container {
-            gap: 2rem; /* Larger gap for desktop */
-            padding: 2rem;
+          gap: 2rem;
+          padding: 2rem;
         }
+
         .rhs-bulk-licensing-text.diocesan-promo-section {
-            margin-left: 2rem;
+          margin-left: 2rem;
         }
+
         .diocesan-promo-content {
-          flex-direction: row; /* Side-by-side layout */
+          flex-direction: row;
           align-items: flex-start; 
           gap: 2.5rem;
         }
+
         .diocesan-promo-details {
-          flex: 1.5; /* More space for text */
+          flex: 1.5;
           text-align: left;
         }
+
         .diocesan-promo-heading {
           text-align: left;
         }
+
         .diocesan-promo-visuals {
-          flex: 1; /* Space for visuals */
-          align-items: flex-end; /* Align visuals to the right of their container */
+          flex: 1;
+          align-items: flex-end;
           margin-top: 0;
         }
-        .promo-discount-graphic, .promo-price-box {
-            width: 100%; 
-            max-width: 250px; /* Cap width of visual elements */
+
+        .promo-discount-graphic,
+        .promo-price-box {
+          width: 100%; 
+          max-width: 250px;
         }
+
         .diocesan-promo-contact {
-           align-self: flex-start; /* Align button to the left in its container */
+          align-self: flex-start;
         }
       }
-    \`;
+    `;
     document.head.appendChild(desktopPromoStyle);
 
-    // Add mobile-specific CSS dynamically (appending to existing styles)
     const mobileStyle = document.createElement('style');
-    let existingMobileStyles = \`
+    mobileStyle.textContent = `
   @media (max-width: 768px) {
-    /* Modules section */
     .modules-pp {
-      min-height: 500px; /* Extend height for mobile */
+      min-height: 500px;
       padding: 1.5rem;
       box-sizing: border-box;
-      height: auto !important; /* Changed from 60vh to auto to accommodate content */
+      height: auto !important;
     }
 
-    /* Pricing container stacks vertically on mobile */
     .pricing-calculator-container {
-        flex-direction: column;
-        align-items: center; 
-        gap: 1.5rem; /* Space between calculator and promo section */
-        padding: 0.5rem; /* Reduced padding for mobile */
+      flex-direction: column;
+      align-items: center; 
+      gap: 1.5rem;
+      padding: 0.5rem;
     }
     
-    /* Calculator container */
     .calculator-container {
       padding: 1rem;
-      max-width: 100%; /* Full width on mobile */
+      max-width: 100%;
       flex-direction: column;
-      height: auto; /* Auto height */
-      width: 100%; /* Ensure it takes full width */
+      height: auto;
+      width: 100%;
     }
 
-    /* Dropdown controls */
     .controls label {
       font-size: 0.9rem;
     }
@@ -309,7 +505,6 @@ const observer = new MutationObserver((mutationsList, observer) => {
       font-size: 0.9rem;
     }
 
-    /* Pricing card */
     .price-card {
       padding: 1rem;
       font-size: 0.9rem;
@@ -332,57 +527,80 @@ const observer = new MutationObserver((mutationsList, observer) => {
       padding: 0.6rem 1rem;
     }
 
-    /* Bulk licensing text (now Diocesan Promo Section) for mobile */
+    .promo-switcher {
+      max-width: none;
+      border-radius: 16px;
+    }
+
+    .promo-switch-button {
+      border-radius: 12px;
+      padding: 0.65rem 0.55rem;
+      font-size: 0.8rem;
+    }
+
     .rhs-bulk-licensing-text.diocesan-promo-section {
-      width: 100%; /* Full width on mobile */
+      width: 100%;
       margin-left: 0;
-      margin-top: 0; /* Gap handled by parent .pricing-calculator-container */
+      margin-top: 0;
       padding: 1.5rem;
       box-sizing: border-box;
     }
+
     .diocesan-promo-heading {
       font-size: 1.5rem; 
     }
+
     .diocesan-promo-details p {
       font-size: 0.9rem;
     }
+
     .promo-contact-button {
       padding: 0.7rem 1.2rem;
       font-size: 0.9rem;
       width: 100%; 
       box-sizing: border-box;
     }
+
     .diocesan-promo-visuals {
       gap: 1rem;
-      width: 100%; /* Ensure visuals container takes full width */
+      width: 100%;
     }
-    .promo-discount-graphic, .promo-price-box {
-      width: auto; /* Adjust width based on content */
-      min-width: 0; /* Remove min-width for more flexibility */
-      max-width: 90%; /* Prevent from being too wide */
+
+    .promo-discount-graphic,
+    .promo-price-box {
+      width: auto;
+      min-width: 0;
+      max-width: 90%;
       margin-left: auto;
       margin-right: auto;
     }
+
     .promo-discount-graphic span:first-child {
       font-size: 2.5rem;
     }
+
     .promo-discount-graphic .promo-discount-text {
       font-size: 0.9rem;
     }
+
     .promo-price-box {
       font-size: 1.3rem;
     }
+
+    .promo-price-value {
+      font-size: 1.3rem;
+    }
+
     .promo-price-box span {
       font-size: 0.75rem;
     }
     
-    /* Trusted-by-content adjustments */
     .trusted-by-content {
       display: flex;
       flex-direction: column; 
       align-items: center; 
       gap: 0.5rem; 
-      margin-top: 1.5rem; /* Increased margin from content above */
+      margin-top: 1.5rem;
       padding: 0.5rem;
     }
 
@@ -398,7 +616,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
       display: flex;
       justify-content: center;
       flex-wrap: wrap; 
-      gap: 1.5rem; /* Adjusted gap */
+      gap: 1.5rem;
       width: 100%;
     }
 
@@ -411,72 +629,180 @@ const observer = new MutationObserver((mutationsList, observer) => {
       text-align: center;
     }
 
-    .flex.items-center.gap-3.r-mt-8 { /* More specific selector if needed */
+    .flex.items-center.gap-3.r-mt-8 {
       align-items: center;
-      justify-content: center; /* Ensure centering */
+      justify-content: center;
     }
 
     .testimonials {
-      height: auto; /* Adjust height for mobile */
-      min-height: 300px; /* Example min-height */
+      height: auto;
+      min-height: 300px;
     }
 
     .r-mt-8 {
       justify-content: center;
     }
   }
+    .disabled-dropdown {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.disabled-dropdown .dropdown-button {
+  cursor: not-allowed;
+}
 `;
-    // Note: The original mobileStyle.textContent is replaced here with a combined version.
-    // If you had other styles in the original mobileStyle.textContent not shown in the prompt,
-    // you'll need to merge them manually.
-    mobileStyle.textContent = existingMobileStyles;
     document.head.appendChild(mobileStyle);
+
+    initializeCustomDropdowns();
+    initializePromoSwitcher();
+    updateUserDropdown('parishes');
+    updatePrice();
   }
 });
 
-// Start observing the document body for changes
 observer.observe(document.body, { childList: true, subtree: true });
 
+function initializeCustomDropdowns() {
+  const dropdowns = document.querySelectorAll('.custom-dropdown');
 
-// Function to initialize the custom dropdown
-function initializeCustomDropdown() {
-  const dropdownButton = document.querySelector('.dropdown-button');
-  const dropdownMenu = document.querySelector('.dropdown-menu');
+  dropdowns.forEach((dropdown) => {
+    const dropdownButton = dropdown.querySelector('.dropdown-button');
+    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
 
-  if (dropdownButton && dropdownMenu && !dropdownButton.hasAttribute('data-initialized')) {
-    dropdownButton.setAttribute('data-initialized', 'true');
-    dropdownButton.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const dropdown = dropdownButton.closest('.custom-dropdown');
-      dropdown.classList.toggle('active');
-    });
-    dropdownMenu.addEventListener('click', (e) => {
-      if (e.target.tagName === 'LI') {
-        dropdownButton.textContent = e.target.textContent;
-        const selectedValue = e.target.getAttribute('data-value');
-        dropdownMenu.parentElement.classList.remove('active');
-        updatePrice(selectedValue);
-      }
-    });
+    if (dropdownButton && dropdownMenu && !dropdownButton.hasAttribute('data-initialized')) {
+      dropdownButton.setAttribute('data-initialized', 'true');
+
+      dropdownButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+
+        document.querySelectorAll('.custom-dropdown').forEach((otherDropdown) => {
+          if (otherDropdown !== dropdown) {
+            otherDropdown.classList.remove('active');
+          }
+        });
+
+        dropdown.classList.toggle('active');
+      });
+
+      dropdownMenu.addEventListener('click', (e) => {
+        if (e.target.tagName === 'LI') {
+          dropdownButton.textContent = e.target.textContent;
+          dropdownButton.setAttribute('data-value', e.target.getAttribute('data-value'));
+          dropdown.classList.remove('active');
+
+          if (dropdown.getAttribute('data-dropdown-type') === 'pricing-type') {
+            updateUserDropdown(e.target.getAttribute('data-value'));
+          }
+
+          updatePrice();
+        }
+      });
+    }
+  });
+}
+
+function updateUserDropdown(pricingType) {
+  const selectedType = pricingPlans[pricingType] ? pricingType : 'parishes';
+  const usersDropdown = document.querySelector('.pricing-users-dropdown');
+  const usersButton = document.querySelector('.pricing-users-button');
+  const usersMenu = document.querySelector('.pricing-users-menu');
+  const plan = pricingPlans[selectedType];
+
+  if (!usersDropdown || !usersButton || !usersMenu || !plan) {
+    return;
+  }
+
+  usersMenu.innerHTML = Object.keys(plan.users).map((userKey) => {
+    const userOption = plan.users[userKey];
+    return `<li data-value="${userKey}">${userOption.label}</li>`;
+  }).join('');
+
+  const defaultUserKey = plan.defaultUsers;
+
+  usersButton.textContent = plan.users[defaultUserKey].label;
+  usersButton.setAttribute('data-value', defaultUserKey);
+  usersDropdown.setAttribute('data-selected-pricing-type', selectedType);
+
+  if (selectedType === 'schools') {
+    usersDropdown.classList.add('disabled-dropdown');
+    usersButton.disabled = true;
+  } else {
+    usersDropdown.classList.remove('disabled-dropdown');
+    usersButton.disabled = false;
   }
 }
 
-function updatePrice(value) {
+function updatePrice() {
   const priceElement = document.getElementById('price');
   const discountNote = document.getElementById('discount-note');
-  const dropdownButton = document.querySelector('.dropdown-button');
-  const selectedText = dropdownButton.textContent.trim();
+  const typeButton = document.querySelector('.pricing-type-button');
+  const usersButton = document.querySelector('.pricing-users-button');
+  const calcText = document.getElementById('calc-text');
+  const purchaseButton = document.getElementById('pricing-purchase-button');
+
+  const selectedType = typeButton && typeButton.getAttribute('data-value') ? typeButton.getAttribute('data-value') : 'parishes';
+  const plan = pricingPlans[selectedType] || pricingPlans.parishes;
+  const selectedUserKey = usersButton && usersButton.getAttribute('data-value') ? usersButton.getAttribute('data-value') : plan.defaultUsers;
+  const selectedUserPlan = plan.users[selectedUserKey] || plan.users[plan.defaultUsers];
 
   if (priceElement) {
-    priceElement.textContent = `$${value} `;
-    if (selectedText.includes("Diocesan")) {
-      discountNote.textContent = "35% discount applied";
-    } else {
-      discountNote.textContent = "";
-    }
+    priceElement.textContent = `$${selectedUserPlan.price}`;
   } else {
     console.error('Price element not found in the DOM.');
   }
+
+  if (discountNote) {
+    discountNote.textContent = selectedUserPlan.note || '';
+  }
+
+  if (calcText) {
+    calcText.innerHTML = plan.annualText;
+  }
+
+  if (purchaseButton) {
+    purchaseButton.innerHTML = `${plan.buttonText} <span class="arrow-symbol"> →</span>`;
+  }
+}
+
+function initializePromoSwitcher() {
+  const promoSection = document.querySelector('.rhs-bulk-licensing-text.diocesan-promo-section');
+  const promoButtons = document.querySelectorAll('.promo-switch-button');
+
+  if (!promoSection || !promoButtons.length || promoSection.hasAttribute('data-promo-initialized')) {
+    return;
+  }
+
+  promoSection.setAttribute('data-promo-initialized', 'true');
+
+  promoButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const promoType = button.getAttribute('data-promo-type');
+      updatePromoSection(promoType);
+    });
+  });
+}
+
+function updatePromoSection(promoType) {
+  const promo = promoPlans[promoType] || promoPlans.diocesan;
+  const promoSection = document.querySelector('.rhs-bulk-licensing-text.diocesan-promo-section');
+  const heading = document.querySelector('.diocesan-promo-heading');
+  const body = document.querySelector('.diocesan-promo-details p');
+  const priceValue = document.querySelector('.promo-price-value');
+  const priceLabel = document.querySelector('.promo-price-label');
+
+  if (promoSection) {
+    promoSection.setAttribute('data-active-promo', promoType);
+  }
+
+  document.querySelectorAll('.promo-switch-button').forEach((button) => {
+    button.classList.toggle('active', button.getAttribute('data-promo-type') === promoType);
+  });
+
+  if (heading) heading.textContent = promo.heading;
+  if (body) body.textContent = promo.body;
+  if (priceValue) priceValue.textContent = promo.price;
+  if (priceLabel) priceLabel.textContent = promo.priceLabel;
 }
 
 const observer2 = new MutationObserver((mutationsList, observer) => {
@@ -484,8 +810,10 @@ const observer2 = new MutationObserver((mutationsList, observer) => {
     if (mutation.type === 'childList') {
       const dropdownButton = document.querySelector('.dropdown-button');
       const dropdownMenu = document.querySelector('.dropdown-menu');
+
       if (dropdownButton && dropdownMenu) {
-        initializeCustomDropdown();
+        initializeCustomDropdowns();
+        initializePromoSwitcher();
       }
     }
   }
@@ -505,41 +833,17 @@ document.addEventListener('click', (e) => {
 });
 
 function getStarted() {
-  const dropdownButton = document.querySelector('.dropdown-button');
-  if (!dropdownButton) {
-    console.error('Dropdown button not found.');
-    return;
-  }
-  const selectedText = dropdownButton.textContent.trim();
-  let redirectUrl = '';
+  const typeButton = document.querySelector('.pricing-type-button');
+  const usersButton = document.querySelector('.pricing-users-button');
 
-  switch (selectedText) {
-    case 'Up to 5 Users':
-      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia';
-      break;
-    case 'Up to 10 Users':
-      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-10-users';
-      break;
-    case 'Up to 20 Users':
-      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users';
-      break;
-    case 'Up to 30 Users':
-      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users-1';
-      break;
-    case '30+ Users':
-      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-30-users';
-      break;
-    default:
-      console.error('Unknown pricing class selected: ', selectedText);
-      redirectUrl = 'https://shop.liturgybrisbane.net.au/collections/liturgia';
-      break;
-  }
+  const selectedType = typeButton && typeButton.getAttribute('data-value') ? typeButton.getAttribute('data-value') : 'parishes';
+  const plan = pricingPlans[selectedType] || pricingPlans.parishes;
+  const selectedUserKey = usersButton && usersButton.getAttribute('data-value') ? usersButton.getAttribute('data-value') : plan.defaultUsers;
+  const selectedUserPlan = plan.users[selectedUserKey] || plan.users[plan.defaultUsers];
+
+  const redirectUrl = selectedUserPlan.url || 'https://shop.liturgybrisbane.net.au/collections/liturgia';
 
   if (redirectUrl) {
-    if (selectedText.includes('Diocesan')) {
-      window.location.href = redirectUrl;
-    } else {
-      window.open(redirectUrl, '_blank');
-    }
+    window.open(redirectUrl, '_blank');
   }
 }
