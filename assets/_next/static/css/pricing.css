@@ -65,7 +65,7 @@
 .trusted-by-logos {
     display: flex;
     flex-direction: row;
-    gap: 15%;
+    gap: 9%;
     width: 79%;
     height: 100%;
 }
