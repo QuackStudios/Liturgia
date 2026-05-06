@@ -2,8 +2,8 @@ const pricingPlans = {
   parishes: {
     label: 'Parishes',
     defaultUsers: 'up-to-5',
-    annualText: 'billed annually*',
-    buttonText: 'Get Started',
+    annualText: 'billed annually',
+    buttonText: 'Purchase a Licence',
     users: {
       'up-to-5': {
         label: 'Up to 5 Users',
@@ -38,25 +38,85 @@ const pricingPlans = {
     },
   },
   schools: {
-  label: 'Schools',
-  defaultUsers: '2-users',
-  annualText: 'billed annually*<br><span class="calc-sub-text"></span><br><span class="calc-sub-text">Extra users: $20 p.a. each</span>',
-  buttonText: 'Purchase a Licence',
-  users: {
-    '2-users': {
-      label: '2 Users Included',
-      price: 155,
-      note: 'Includes 2 Users',
-      url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+    label: 'Schools',
+    defaultUsers: '2-users',
+    annualText: 'billed annually<br><span class="calc-sub-text calc-sub-text-feature">Includes 2 Users <span class="calc-asterisk">*</span></span><span class="calc-sub-text calc-sub-text-feature"><span class="calc-asterisk">*</span> Extra users: $20 p.a. each</span>',
+    buttonText: 'Purchase a Licence',
+    users: {
+      '2-users': {
+        label: '2 Users Included',
+        price: 155,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-1-user': {
+        label: '+1 User',
+        price: 175,
+        note: '3 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-2-users': {
+        label: '+2 Users',
+        price: 195,
+        note: '4 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-3-users': {
+        label: '+3 Users',
+        price: 215,
+        note: '5 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-4-users': {
+        label: '+4 Users',
+        price: 235,
+        note: '6 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-5-users': {
+        label: '+5 Users',
+        price: 255,
+        note: '7 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-6-users': {
+        label: '+6 Users',
+        price: 275,
+        note: '8 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-7-users': {
+        label: '+7 Users',
+        price: 295,
+        note: '9 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-8-users': {
+        label: '+8 Users',
+        price: 315,
+        note: '10 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-9-users': {
+        label: '+9 Users',
+        price: 335,
+        note: '11 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
+      'plus-10-users': {
+        label: '+10 Users',
+        price: 355,
+        note: '12 users total',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      },
     },
   },
-},
 };
 
 const promoPlans = {
   diocesan: {
-    tabLabel: 'Diocesan Licence',
-    heading: 'Diocesan Licence',
+    tabLabel: 'Diocesan Parish Licence',
+    heading: 'Diocesan Parish Licence',
     body: 'Liturgia offers a 23% discount when a diocesan office subscribes for each parish in the diocese. The diocesan package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
     price: '$275',
     priceLabel: 'per Parish',
@@ -64,7 +124,7 @@ const promoPlans = {
   groupSchools: {
     tabLabel: 'Group Schools Licence',
     heading: 'Group Schools Licence',
-    body: 'Liturgia offers a 23% discount when a Catholic Education office subscribes for each school in the diocese. The group package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
+    body: 'Liturgia offers a 23% discount when a Catholic Education Office subscribes for each school in the diocese. The group package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
     price: '$120',
     priceLabel: 'per School',
   },
@@ -83,12 +143,9 @@ const observer = new MutationObserver((mutationsList, observer) => {
         <div class="controls pricing-controls-grid">
           <div class="pricing-control-group">
             <label for="pricing-audience">Select Licence Type</label>
-            <div class="custom-dropdown pricing-type-dropdown" data-dropdown-type="pricing-type">
-              <button class="dropdown-button pricing-type-button" type="button" data-value="parishes">Parishes</button>
-              <ul class="dropdown-menu pricing-type-menu">
-                <li data-value="parishes">Parishes</li>
-                <li data-value="schools">Schools</li>
-              </ul>
+            <div class="pricing-type-switcher" aria-label="Licence type selector">
+              <button class="pricing-type-switch-button pricing-type-button active" type="button" data-value="parishes">Parishes</button>
+              <button class="pricing-type-switch-button pricing-type-button" type="button" data-value="schools">Schools</button>
             </div>
           </div>
 
@@ -116,11 +173,11 @@ const observer = new MutationObserver((mutationsList, observer) => {
       
       <div class="rhs-bulk-licensing-text diocesan-promo-section" data-active-promo="diocesan">
         <div class="promo-switcher" aria-label="Bulk licence type selector">
-          <button class="promo-switch-button active" type="button" data-promo-type="diocesan">Diocesan Licence</button>
+          <button class="promo-switch-button active" type="button" data-promo-type="diocesan">Diocesan Parish Licence</button>
           <button class="promo-switch-button" type="button" data-promo-type="groupSchools">Group Schools Licence</button>
         </div>
 
-        <h3 class="diocesan-promo-heading">Diocesan Licence</h3>
+        <h3 class="diocesan-promo-heading">Diocesan Parish Licence</h3>
 
         <div class="diocesan-promo-content">
           <div class="diocesan-promo-details">
@@ -147,12 +204,13 @@ const observer = new MutationObserver((mutationsList, observer) => {
       </div>
 
       <div class="trusted-by-content">
-        <div class="trusted-by-text">Trusted By</div>
+        <div class="trusted-by-text">Trusted by</div>
         <div class="trusted-by-logos">
           <div class="tb-logo-1"><img class="tb-logo-img" src="assets/_next/image/BCE-logo.jpg"></div>
           <div class="tb-logo-2"><img class="tb-logo-img" src="assets/_next/image/logo_dbb.svg"></div>
           <div class="tb-logo-3"><img class="tb-logo-img" src="assets/_next/image/logo_cs_inline_colour.png"></div>
           <div class="tb-logo-4"><img class="tb-logo-img" src="assets/_next/image/crest-csdp-horizontal-colour.svg"></div>
+           <div class="tb-logo-4"><img class="tb-logo-img" src="rockhampton-logo.png"></div>
         </div>
       </div>
     </div>
@@ -248,6 +306,18 @@ const observer = new MutationObserver((mutationsList, observer) => {
         opacity: 0.85;
       }
 
+      .calc-sub-text-feature {
+        font-size: 0.9rem;
+        opacity: 0.95;
+      }
+
+      .calc-asterisk {
+        color: #e6007e;
+        font-size: 1.05rem;
+        font-weight: 800;
+        line-height: 1;
+      }
+
       .rhs-bulk-licensing-text.diocesan-promo-section {
         flex-grow: 1.5;
         display: flex;
@@ -260,6 +330,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         margin-left: 1.5rem;
       }
 
+      .pricing-type-switcher,
       .promo-switcher {
         display: inline-grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -273,6 +344,12 @@ const observer = new MutationObserver((mutationsList, observer) => {
         margin-bottom: 1.4rem;
       }
 
+      .pricing-type-switcher {
+        max-width: none;
+        margin-bottom: 0;
+      }
+
+      .pricing-type-switch-button,
       .promo-switch-button {
         border: 0;
         background: transparent;
@@ -281,15 +358,18 @@ const observer = new MutationObserver((mutationsList, observer) => {
         border-radius: 999px;
         font-weight: 700;
         padding: 0.75rem 1rem;
+        font-size: 90% !important;
         transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
       }
 
+      .pricing-type-switch-button.active,
       .promo-switch-button.active {
         background: #1a2533;
         color: #ffffff;
         box-shadow: 0 8px 20px rgba(26, 37, 51, 0.18);
       }
 
+      .pricing-type-switch-button:hover,
       .promo-switch-button:hover {
         transform: translateY(-1px);
       }
@@ -527,11 +607,13 @@ const observer = new MutationObserver((mutationsList, observer) => {
       padding: 0.6rem 1rem;
     }
 
+    .pricing-type-switcher,
     .promo-switcher {
       max-width: none;
       border-radius: 16px;
     }
 
+    .pricing-type-switch-button,
     .promo-switch-button {
       border-radius: 12px;
       padding: 0.65rem 0.55rem;
@@ -643,18 +725,11 @@ const observer = new MutationObserver((mutationsList, observer) => {
       justify-content: center;
     }
   }
-    .disabled-dropdown {
-  opacity: 0.65;
-  pointer-events: none;
-}
-
-.disabled-dropdown .dropdown-button {
-  cursor: not-allowed;
-}
 `;
     document.head.appendChild(mobileStyle);
 
     initializeCustomDropdowns();
+    initializePricingTypeSwitcher();
     initializePromoSwitcher();
     updateUserDropdown('parishes');
     updatePrice();
@@ -690,15 +765,37 @@ function initializeCustomDropdowns() {
           dropdownButton.textContent = e.target.textContent;
           dropdownButton.setAttribute('data-value', e.target.getAttribute('data-value'));
           dropdown.classList.remove('active');
-
-          if (dropdown.getAttribute('data-dropdown-type') === 'pricing-type') {
-            updateUserDropdown(e.target.getAttribute('data-value'));
-          }
-
           updatePrice();
         }
       });
     }
+  });
+}
+
+function initializePricingTypeSwitcher() {
+  const pricingTypeButtons = document.querySelectorAll('.pricing-type-switch-button');
+
+  if (!pricingTypeButtons.length) {
+    return;
+  }
+
+  pricingTypeButtons.forEach((button) => {
+    if (button.hasAttribute('data-initialized')) {
+      return;
+    }
+
+    button.setAttribute('data-initialized', 'true');
+
+    button.addEventListener('click', () => {
+      const selectedType = button.getAttribute('data-value') || 'parishes';
+
+      pricingTypeButtons.forEach((typeButton) => {
+        typeButton.classList.toggle('active', typeButton.getAttribute('data-value') === selectedType);
+      });
+
+      updateUserDropdown(selectedType);
+      updatePrice();
+    });
   });
 }
 
@@ -723,25 +820,18 @@ function updateUserDropdown(pricingType) {
   usersButton.textContent = plan.users[defaultUserKey].label;
   usersButton.setAttribute('data-value', defaultUserKey);
   usersDropdown.setAttribute('data-selected-pricing-type', selectedType);
-
-  if (selectedType === 'schools') {
-    usersDropdown.classList.add('disabled-dropdown');
-    usersButton.disabled = true;
-  } else {
-    usersDropdown.classList.remove('disabled-dropdown');
-    usersButton.disabled = false;
-  }
+  usersButton.disabled = false;
 }
 
 function updatePrice() {
   const priceElement = document.getElementById('price');
   const discountNote = document.getElementById('discount-note');
-  const typeButton = document.querySelector('.pricing-type-button');
+  const activeTypeButton = document.querySelector('.pricing-type-switch-button.active');
   const usersButton = document.querySelector('.pricing-users-button');
   const calcText = document.getElementById('calc-text');
   const purchaseButton = document.getElementById('pricing-purchase-button');
 
-  const selectedType = typeButton && typeButton.getAttribute('data-value') ? typeButton.getAttribute('data-value') : 'parishes';
+  const selectedType = activeTypeButton && activeTypeButton.getAttribute('data-value') ? activeTypeButton.getAttribute('data-value') : 'parishes';
   const plan = pricingPlans[selectedType] || pricingPlans.parishes;
   const selectedUserKey = usersButton && usersButton.getAttribute('data-value') ? usersButton.getAttribute('data-value') : plan.defaultUsers;
   const selectedUserPlan = plan.users[selectedUserKey] || plan.users[plan.defaultUsers];
@@ -813,6 +903,7 @@ const observer2 = new MutationObserver((mutationsList, observer) => {
 
       if (dropdownButton && dropdownMenu) {
         initializeCustomDropdowns();
+        initializePricingTypeSwitcher();
         initializePromoSwitcher();
       }
     }
@@ -833,10 +924,10 @@ document.addEventListener('click', (e) => {
 });
 
 function getStarted() {
-  const typeButton = document.querySelector('.pricing-type-button');
+  const activeTypeButton = document.querySelector('.pricing-type-switch-button.active');
   const usersButton = document.querySelector('.pricing-users-button');
 
-  const selectedType = typeButton && typeButton.getAttribute('data-value') ? typeButton.getAttribute('data-value') : 'parishes';
+  const selectedType = activeTypeButton && activeTypeButton.getAttribute('data-value') ? activeTypeButton.getAttribute('data-value') : 'parishes';
   const plan = pricingPlans[selectedType] || pricingPlans.parishes;
   const selectedUserKey = usersButton && usersButton.getAttribute('data-value') ? usersButton.getAttribute('data-value') : plan.defaultUsers;
   const selectedUserPlan = plan.users[selectedUserKey] || plan.users[plan.defaultUsers];
