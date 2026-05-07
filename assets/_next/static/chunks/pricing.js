@@ -39,75 +39,39 @@ const pricingPlans = {
   },
   schools: {
     label: 'Schools',
-    defaultUsers: '2-users',
-    annualText: 'billed annually<br><span class="calc-sub-text calc-sub-text-feature">Includes 2 Users <span class="calc-asterisk">*</span></span><span class="calc-sub-text calc-sub-text-feature"><span class="calc-asterisk">*</span> Extra users: $20 p.a. each</span>',
+    defaultUsers: 'up-to-5',
+    annualText: 'billed annually',
     buttonText: 'Purchase a Licence',
     users: {
-      '2-users': {
-        label: '2 Users Included',
-        price: 155,
+      'up-to-5': {
+        label: 'Up to 5 Users',
+        price: 355,
         note: '',
         url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
       },
-      'plus-1-user': {
-        label: '+1 User',
-        price: 175,
-        note: '3 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      'up-to-10': {
+        label: 'Up to 10 Users',
+        price: 435,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-10-users',
       },
-      'plus-2-users': {
-        label: '+2 Users',
-        price: 195,
-        note: '4 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      'up-to-20': {
+        label: 'Up to 20 Users',
+        price: 510,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users',
       },
-      'plus-3-users': {
-        label: '+3 Users',
-        price: 215,
-        note: '5 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      'up-to-30': {
+        label: 'Up to 30 Users',
+        price: 565,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-20-users-1',
       },
-      'plus-4-users': {
-        label: '+4 Users',
-        price: 235,
-        note: '6 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
-      },
-      'plus-5-users': {
-        label: '+5 Users',
-        price: 255,
-        note: '7 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
-      },
-      'plus-6-users': {
-        label: '+6 Users',
-        price: 275,
-        note: '8 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
-      },
-      'plus-7-users': {
-        label: '+7 Users',
-        price: 295,
-        note: '9 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
-      },
-      'plus-8-users': {
-        label: '+8 Users',
-        price: 315,
-        note: '10 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
-      },
-      'plus-9-users': {
-        label: '+9 Users',
-        price: 335,
-        note: '11 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
-      },
-      'plus-10-users': {
-        label: '+10 Users',
-        price: 355,
-        note: '12 users total',
-        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia',
+      '30-plus': {
+        label: '30+ Users',
+        price: 695,
+        note: '',
+        url: 'https://shop.liturgybrisbane.net.au/collections/liturgia/products/liturgia-30-users',
       },
     },
   },
@@ -118,14 +82,16 @@ const promoPlans = {
     tabLabel: 'Diocesan Parish Licence',
     heading: 'Diocesan Parish Licence',
     body: 'Liturgia offers a 23% discount when a diocesan office subscribes for each parish in the diocese. The diocesan package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
+    discount: '23%',
     price: '$275',
     priceLabel: 'per Parish',
   },
   groupSchools: {
     tabLabel: 'Group Schools Licence',
     heading: 'Group Schools Licence',
-    body: 'Liturgia offers a 23% discount when a Catholic Education Office subscribes for each school in the diocese. The group package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
-    price: '$120',
+    body: 'Liturgia offers a 60% discount when a Catholic Education Office subscribes for each school in the diocese. The group package also includes a 90-minute online training session. Contact Liturgy Brisbane for more information and we’ll be happy to assist.',
+    discount: '60%',
+    price: '$145',
     priceLabel: 'per School',
   },
 };
@@ -165,9 +131,9 @@ const observer = new MutationObserver((mutationsList, observer) => {
             <div class="discount-note" id="discount-note" style="color: #4caf50; font-size: 0.85rem;"></div>
           </div>
           <div class="annual-text">
-            <div class="calc-text" id="calc-text">billed annually*</div>
+            <div class="calc-text" id="calc-text">billed annually</div>
           </div>
-          <button onclick="getStarted()" id="pricing-purchase-button">Get Started <span class="arrow-symbol"> →</span></button>
+          <button onclick="getStarted()" id="pricing-purchase-button">Purchase a Licence <span class="arrow-symbol"> →</span></button>
         </div>
       </div>
       
@@ -191,7 +157,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
 
           <div class="diocesan-promo-visuals">
             <div class="promo-discount-graphic">
-              <span>23%</span>
+              <span class="promo-discount-value">23%</span>
               <span class="promo-discount-text">DISCOUNT</span>
             </div>
             <div class="promo-price-box">
@@ -878,6 +844,7 @@ function updatePromoSection(promoType) {
   const promoSection = document.querySelector('.rhs-bulk-licensing-text.diocesan-promo-section');
   const heading = document.querySelector('.diocesan-promo-heading');
   const body = document.querySelector('.diocesan-promo-details p');
+  const discountValue = document.querySelector('.promo-discount-value');
   const priceValue = document.querySelector('.promo-price-value');
   const priceLabel = document.querySelector('.promo-price-label');
 
@@ -891,6 +858,7 @@ function updatePromoSection(promoType) {
 
   if (heading) heading.textContent = promo.heading;
   if (body) body.textContent = promo.body;
+  if (discountValue) discountValue.textContent = promo.discount;
   if (priceValue) priceValue.textContent = promo.price;
   if (priceLabel) priceLabel.textContent = promo.priceLabel;
 }
